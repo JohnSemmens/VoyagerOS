@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_bluetooth_connection_8h" kind="file">
+    <compoundname>BluetoothConnection.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_bluetooth_connection_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp</includedby>
+    <includedby refid="_c_l_i_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_s_d_card_log_file_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</includedby>
+    <includedby refid="_wingsail_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</includedby>
+    <incdepgraph>
+      <node id="83">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h</label>
+        <link refid="BluetoothConnection.h"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="85">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h</label>
+        <link refid="BluetoothConnection.h"/>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="88">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="89">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</label>
+        <link refid="_s_d_card_log_file_8cpp"/>
+      </node>
+      <node id="90">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</label>
+        <link refid="_wingsail_8cpp"/>
+      </node>
+      <node id="86">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp</label>
+        <link refid="_bluetooth_connection_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13b" prot="public" static="no">
+        <name>BTStateType</name>
+        <enumvalue id="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad3fa9ae9431d6cb1772f9d9df48cab19" prot="public">
+          <name>Idle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba259117509c36ff97ca3cbf2b13d4906c" prot="public">
+          <name>Initialising</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba8e639ab20be7fbb91e11ee1b6f08dfde" prot="public">
+          <name>Initialised</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13babb59e43a7a40bb2887c523fbf8fefd9b" prot="public">
+          <name>Querying</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba6ea90df6fe966852496b4846da497fb0" prot="public">
+          <name>Connecting</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad253364cc2926eb617b0833335fe4467" prot="public">
+          <name>Connected</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_bluetooth_connection_8h_1a371a4c8f1d88f24b6deae310a365a6b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bluetooth_Init</definition>
+        <argsstring>(int BluetoothPort)</argsstring>
+        <name>Bluetooth_Init</name>
+        <param>
+          <type>int</type>
+          <declname>BluetoothPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h" line="14" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp" bodystart="15" bodyend="21"/>
+        <references refid="_bluetooth_connection_8cpp_1a94935136212ee28d47f85f54af7f9c00">BluetoothStatePin</references>
+        <references refid="structconfig_values_type_1a7523308a51da9a1de8e194446e3e68be" compoundref="config_values_8h" startline="100">configValuesType::BTPortBaudRate</references>
+        <references refid="_bluetooth_connection_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+      </memberdef>
+      <memberdef kind="function" id="_bluetooth_connection_8h_1aa1c1ce5f77319b2adbf7de0ed5505aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BluetoothInitialiseConnection</definition>
+        <argsstring>(int BluetoothPort)</argsstring>
+        <name>BluetoothInitialiseConnection</name>
+        <param>
+          <type>int</type>
+          <declname>BluetoothPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h" line="16" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp" bodystart="82" bodyend="115"/>
+        <references refid="_bluetooth_connection_8cpp_1a12f977b17bc11b1b5327695231ca20d5">BTState</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba8e639ab20be7fbb91e11ee1b6f08dfde" compoundref="_bluetooth_connection_8h" startline="12">Initialised</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba259117509c36ff97ca3cbf2b13d4906c" compoundref="_bluetooth_connection_8h" startline="12">Initialising</references>
+        <references refid="_bluetooth_connection_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <referencedby refid="_bluetooth_connection_8h_1a0ce359035c395619fb23e2e0f961c312" compoundref="_bluetooth_connection_8cpp" startline="23" endline="80">BluetoothManageConnection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_bluetooth_connection_8h_1a0ce359035c395619fb23e2e0f961c312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BluetoothManageConnection</definition>
+        <argsstring>(int BluetoothPort)</argsstring>
+        <name>BluetoothManageConnection</name>
+        <param>
+          <type>int</type>
+          <declname>BluetoothPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h" line="18" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp" bodystart="23" bodyend="80"/>
+        <references refid="_bluetooth_connection_8cpp_1aa1c1ce5f77319b2adbf7de0ed5505aa8" compoundref="_bluetooth_connection_8cpp" startline="82" endline="115">BluetoothInitialiseConnection</references>
+        <references refid="structconfig_values_type_1a59efead0f04f26233f9b1dfb3ec52945" compoundref="config_values_8h" startline="96">configValuesType::BluetoothPort</references>
+        <references refid="_bluetooth_connection_8cpp_1a94935136212ee28d47f85f54af7f9c00">BluetoothStatePin</references>
+        <references refid="_bluetooth_connection_8cpp_1a12f977b17bc11b1b5327695231ca20d5">BTState</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad253364cc2926eb617b0833335fe4467" compoundref="_bluetooth_connection_8h" startline="12">Connected</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba6ea90df6fe966852496b4846da497fb0" compoundref="_bluetooth_connection_8h" startline="12">Connecting</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad3fa9ae9431d6cb1772f9d9df48cab19" compoundref="_bluetooth_connection_8h" startline="12">Idle</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba8e639ab20be7fbb91e11ee1b6f08dfde" compoundref="_bluetooth_connection_8h" startline="12">Initialised</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba259117509c36ff97ca3cbf2b13d4906c" compoundref="_bluetooth_connection_8h" startline="12">Initialising</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13babb59e43a7a40bb2887c523fbf8fefd9b" compoundref="_bluetooth_connection_8h" startline="12">Querying</references>
+        <references refid="_bluetooth_connection_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+      </memberdef>
+      <memberdef kind="function" id="_bluetooth_connection_8h_1a728eb292f166bc32c6c8c0e7f612347a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* GetBTStatus</definition>
+        <argsstring>(BTStateType BTState)</argsstring>
+        <name>GetBTStatus</name>
+        <param>
+          <type><ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13b" kindref="member">BTStateType</ref></type>
+          <declname>BTState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h" line="20" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp" bodystart="117" bodyend="131"/>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad253364cc2926eb617b0833335fe4467" compoundref="_bluetooth_connection_8h" startline="12">Connected</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba6ea90df6fe966852496b4846da497fb0" compoundref="_bluetooth_connection_8h" startline="12">Connecting</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad3fa9ae9431d6cb1772f9d9df48cab19" compoundref="_bluetooth_connection_8h" startline="12">Idle</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba8e639ab20be7fbb91e11ee1b6f08dfde" compoundref="_bluetooth_connection_8h" startline="12">Initialised</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba259117509c36ff97ca3cbf2b13d4906c" compoundref="_bluetooth_connection_8h" startline="12">Initialising</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13babb59e43a7a40bb2887c523fbf8fefd9b" compoundref="_bluetooth_connection_8h" startline="12">Querying</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_bluetooth_connection_8h_1ae635bdb58f3b855ab5e0a4c2070c413a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BT_CLI_Process_Message</definition>
+        <argsstring>(int BluetoothPort)</argsstring>
+        <name>BT_CLI_Process_Message</name>
+        <param>
+          <type>int</type>
+          <declname>BluetoothPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h" line="22" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp" bodystart="142" bodyend="159"/>
+        <references refid="_bluetooth_connection_8cpp_1a12575800f22f507d0ca1345ff3458772" compoundref="_bluetooth_connection_8cpp" startline="137">BT_CLI_i</references>
+        <references refid="_bluetooth_connection_8cpp_1a30bbe1fe581fa4241e2edd580a0bdf1e" compoundref="_bluetooth_connection_8cpp" startline="136">BT_CLI_Msg</references>
+        <references refid="_bluetooth_connection_8cpp_1af72b31fe12ec8718a909e039a293e351" compoundref="_bluetooth_connection_8cpp" startline="168" endline="252">BT_CLI_Processor</references>
+        <references refid="_bluetooth_connection_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+      </memberdef>
+      <memberdef kind="function" id="_bluetooth_connection_8h_1af72b31fe12ec8718a909e039a293e351" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BT_CLI_Processor</definition>
+        <argsstring>(int BluetoothPort)</argsstring>
+        <name>BT_CLI_Processor</name>
+        <param>
+          <type>int</type>
+          <declname>BluetoothPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h" line="23" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp" bodystart="168" bodyend="252"/>
+        <references refid="_bluetooth_connection_8cpp_1a30bbe1fe581fa4241e2edd580a0bdf1e" compoundref="_bluetooth_connection_8cpp" startline="136">BT_CLI_Msg</references>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="_bluetooth_connection_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <referencedby refid="_bluetooth_connection_8h_1ae635bdb58f3b855ab5e0a4c2070c413a" compoundref="_bluetooth_connection_8cpp" startline="142" endline="159">BT_CLI_Process_Message</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>BluetoothConnection.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_BLUETOOTHCONNECTION_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_BLUETOOTHCONNECTION_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13babb59e43a7a40bb2887c523fbf8fefd9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13b" kindref="member">BTStateType</ref><sp/>{<sp/><ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad3fa9ae9431d6cb1772f9d9df48cab19" kindref="member">Idle</ref>,<sp/><ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba259117509c36ff97ca3cbf2b13d4906c" kindref="member">Initialising</ref>,<sp/><ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba8e639ab20be7fbb91e11ee1b6f08dfde" kindref="member">Initialised</ref>,<sp/><ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13babb59e43a7a40bb2887c523fbf8fefd9b" kindref="member">Querying</ref>,<sp/><ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13ba6ea90df6fe966852496b4846da497fb0" kindref="member">Connecting</ref>,<sp/><ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad253364cc2926eb617b0833335fe4467" kindref="member">Connected</ref><sp/>};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8h_1a371a4c8f1d88f24b6deae310a365a6b9" kindref="member">Bluetooth_Init</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BluetoothPort);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8h_1aa1c1ce5f77319b2adbf7de0ed5505aa8" kindref="member">BluetoothInitialiseConnection</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BluetoothPort);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8h_1a0ce359035c395619fb23e2e0f961c312" kindref="member">BluetoothManageConnection</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BluetoothPort);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="_bluetooth_connection_8h_1a728eb292f166bc32c6c8c0e7f612347a" kindref="member">GetBTStatus</ref>(<ref refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13b" kindref="member">BTStateType</ref><sp/><ref refid="_bluetooth_connection_8cpp_1a12f977b17bc11b1b5327695231ca20d5" kindref="member">BTState</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8h_1ae635bdb58f3b855ab5e0a4c2070c413a" kindref="member">BT_CLI_Process_Message</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BluetoothPort);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8h_1af72b31fe12ec8718a909e039a293e351" kindref="member">BT_CLI_Processor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BluetoothPort);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h"/>
+  </compounddef>
+</doxygen>

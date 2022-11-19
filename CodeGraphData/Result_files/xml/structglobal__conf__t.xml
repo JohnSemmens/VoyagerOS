@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structglobal__conf__t" kind="struct" prot="public">
+    <compoundname>global_conf_t</compoundname>
+    <includes refid="_e_m7180_8h" local="no">EM7180.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structglobal__conf__t_1a580c9b24f4d23e8e0dba66613c67ce98" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t global_conf_t::accZero_max[2][3]</definition>
+        <argsstring>[2][3]</argsstring>
+        <name>accZero_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="136" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="136" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a44761e770c42dbf0c74e27bd5ad5a537" compoundref="_e_m7180_8cpp" startline="427" endline="490">EM7180::ACC_Common</referencedby>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1a4193ed4054715b486c8fd9c48a75d19c" compoundref="_e_m7180_8cpp" startline="1025" endline="1036">EM7180::readAccelCal</referencedby>
+        <referencedby refid="class_e_m7180_1afc13d26aabb1ac8f4d760bbd4cef1612" compoundref="_e_m7180_8cpp" startline="1046" endline="1058">EM7180::writeAccCal</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structglobal__conf__t_1aa24452a5861d21caa9bfc78744e968be" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t global_conf_t::accZero_min[2][3]</definition>
+        <argsstring>[2][3]</argsstring>
+        <name>accZero_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="137" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="137" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a44761e770c42dbf0c74e27bd5ad5a537" compoundref="_e_m7180_8cpp" startline="427" endline="490">EM7180::ACC_Common</referencedby>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1a4193ed4054715b486c8fd9c48a75d19c" compoundref="_e_m7180_8cpp" startline="1025" endline="1036">EM7180::readAccelCal</referencedby>
+        <referencedby refid="class_e_m7180_1afc13d26aabb1ac8f4d760bbd4cef1612" compoundref="_e_m7180_8cpp" startline="1046" endline="1058">EM7180::writeAccCal</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="135" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="134" bodyend="138"/>
+    <listofallmembers>
+      <member refid="structglobal__conf__t_1a580c9b24f4d23e8e0dba66613c67ce98" prot="public" virt="non-virtual"><scope>global_conf_t</scope><name>accZero_max</name></member>
+      <member refid="structglobal__conf__t_1aa24452a5861d21caa9bfc78744e968be" prot="public" virt="non-virtual"><scope>global_conf_t</scope><name>accZero_min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_wear_tracking_8cpp" kind="file">
+    <compoundname>WearTracking.cpp</compoundname>
+    <includes refid="_wear_tracking_8h" local="yes">WearTracking.h</includes>
+    <includes refid="_filters_8h" local="yes">Filters.h</includes>
+    <includes refid="config_values_8h" local="yes">configValues.h</includes>
+    <incdepgraph>
+      <node id="1037">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="1033" relation="include">
+        </childnode>
+      </node>
+      <node id="1036">
+        <label>Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="1033" relation="include">
+        </childnode>
+        <childnode refid="1037" relation="include">
+        </childnode>
+      </node>
+      <node id="1032">
+        <label>WearTracking.h</label>
+        <link refid="_wear_tracking_8h"/>
+        <childnode refid="1033" relation="include">
+        </childnode>
+        <childnode refid="1034" relation="include">
+        </childnode>
+      </node>
+      <node id="1035">
+        <label>configValues.h</label>
+        <link refid="config_values_8h"/>
+        <childnode refid="1033" relation="include">
+        </childnode>
+        <childnode refid="1036" relation="include">
+        </childnode>
+        <childnode refid="1038" relation="include">
+        </childnode>
+      </node>
+      <node id="1031">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp</label>
+        <link refid="WearTracking.cpp"/>
+        <childnode refid="1032" relation="include">
+        </childnode>
+        <childnode refid="1034" relation="include">
+        </childnode>
+        <childnode refid="1035" relation="include">
+        </childnode>
+      </node>
+      <node id="1033">
+        <label>arduino.h</label>
+      </node>
+      <node id="1038">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="1033" relation="include">
+        </childnode>
+        <childnode refid="1037" relation="include">
+        </childnode>
+      </node>
+      <node id="1034">
+        <label>Filters.h</label>
+        <link refid="_filters_8h"/>
+        <childnode refid="1033" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_wear_tracking_8cpp_1aee2fea7714feec933ef43afa363a5ee4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wear_counter" kindref="compound">WearCounter</ref></type>
+        <definition>WearCounter PortRudderUsage</definition>
+        <argsstring></argsstring>
+        <name>PortRudderUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_wear_tracking_8cpp_1a4b616dd505c840bff663e6297ea6453c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wear_counter" kindref="compound">WearCounter</ref></type>
+        <definition>WearCounter StarboardRudderUsage</definition>
+        <argsstring></argsstring>
+        <name>StarboardRudderUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_wear_tracking_8cpp_1af6df8aacbd109200ab0a3e21dc4a16bc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wear_counter" kindref="compound">WearCounter</ref></type>
+        <definition>WearCounter TrimTabUsage</definition>
+        <argsstring></argsstring>
+        <name>TrimTabUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_wear_tracking_8cpp_1a55df2469571176804b2adcd40c552f56" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_vessel_usage_counters_struct" kindref="compound">VesselUsageCountersStruct</ref></type>
+        <definition>VesselUsageCountersStruct VesselUsageCounters</definition>
+        <argsstring></argsstring>
+        <name>VesselUsageCounters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_wear_tracking_8cpp_1a7f0312aac0a1af2e44e0a2fe6ba8c526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_wearTracking</definition>
+        <argsstring>(void)</argsstring>
+        <name>init_wearTracking</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" line="16" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" bodystart="16" bodyend="20"/>
+        <references refid="config_values_8cpp_1a1be8bcdb847127a7d56ec007360e22ee" compoundref="config_values_8cpp" startline="59" endline="83">Load_EEPROM_VesselUsage</references>
+      </memberdef>
+      <memberdef kind="function" id="_wear_tracking_8cpp_1a78b88f9c20b9cd331f0032e0c2285483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void updateUsageTrackingStats</definition>
+        <argsstring>(void)</argsstring>
+        <name>updateUsageTrackingStats</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" line="22" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" bodystart="22" bodyend="29"/>
+        <references refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" compoundref="_wear_tracking_8h" startline="47">WearCounter::Counter</references>
+        <references refid="struct_vessel_usage_counters_struct_1ae4fdf8859199b4dffefb20d43ed0ec66" compoundref="_wear_tracking_8h" startline="23">VesselUsageCountersStruct::PortRudderCounter</references>
+        <references refid="struct_vessel_usage_counters_struct_1a6675c700a38cf60b2a332a72da951ad0" compoundref="_wear_tracking_8h" startline="24">VesselUsageCountersStruct::StarboardRudderCounter</references>
+        <references refid="struct_vessel_usage_counters_struct_1a106b7cdd508568ab09ae7d07d6e777d7" compoundref="_wear_tracking_8h" startline="25">VesselUsageCountersStruct::TrimTabCounter</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_wear_tracking_8h" kindref="compound">WearTracking.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_filters_8h" kindref="compound">Filters.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="config_values_8h" kindref="compound">configValues.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter" kindref="compound">WearCounter</ref><sp/><ref refid="_wear_tracking_8cpp_1aee2fea7714feec933ef43afa363a5ee4" kindref="member">PortRudderUsage</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter" kindref="compound">WearCounter</ref><sp/><ref refid="_wear_tracking_8cpp_1a4b616dd505c840bff663e6297ea6453c" kindref="member">StarboardRudderUsage</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter" kindref="compound">WearCounter</ref><sp/><ref refid="_wear_tracking_8cpp_1af6df8aacbd109200ab0a3e21dc4a16bc" kindref="member">TrimTabUsage</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_vessel_usage_counters_struct" kindref="compound">VesselUsageCountersStruct</ref><sp/><ref refid="_wear_tracking_8cpp_1a55df2469571176804b2adcd40c552f56" kindref="member">VesselUsageCounters</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Note:<sp/>it<sp/>would<sp/>be<sp/>possible<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_wear_tracking_8h_1a7f0312aac0a1af2e44e0a2fe6ba8c526" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_wear_tracking_8cpp_1a7f0312aac0a1af2e44e0a2fe6ba8c526" kindref="member">init_wearTracking</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>init<sp/>the<sp/>counters<sp/>from<sp/>stored<sp/>values<sp/>in<sp/>the<sp/>EEPROM<sp/>to<sp/>keep<sp/>more<sp/>of<sp/>a<sp/>life<sp/>time<sp/>value<sp/>rather<sp/>mission<sp/>time.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="config_values_8cpp_1a1be8bcdb847127a7d56ec007360e22ee" kindref="member">Load_EEPROM_VesselUsage</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="_wear_tracking_8h_1a78b88f9c20b9cd331f0032e0c2285483" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_wear_tracking_8cpp_1a78b88f9c20b9cd331f0032e0c2285483" kindref="member">updateUsageTrackingStats</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>called<sp/>at<sp/>about<sp/>one<sp/>second<sp/>intervals<sp/>to<sp/>update<sp/>the<sp/>main<sp/>usage<sp/>tracking<sp/>object<sp/>with<sp/>the<sp/>individual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>usage<sp/>tracking<sp/>counters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1ae4fdf8859199b4dffefb20d43ed0ec66" kindref="member">PortRudderCounter</ref><sp/>=<sp/>PortRudderUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a6675c700a38cf60b2a332a72da951ad0" kindref="member">StarboardRudderCounter</ref><sp/>=<sp/>StarboardRudderUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a106b7cdd508568ab09ae7d07d6e777d7" kindref="member">TrimTabCounter</ref><sp/>=<sp/>TrimTabUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" kindref="member">WearCounter::TrackServoUsage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ServoPulse_us)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>pass<sp/>servo<sp/>pulse<sp/>width<sp/>through<sp/>a<sp/>low<sp/>pass<sp/>filter<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_wear_counter_1accb125b4d830ff1105ebd3c3bbede50b" kindref="member">AvgerageServo_us</ref><sp/>=<sp/>int(<ref refid="class_wear_counter_1ae3ed943fd0f466cff1218a14e26b6fa0" kindref="member">ServoFilter</ref>.<ref refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" kindref="member">Filter</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(ServoPulse_us)));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_wingsail_8cpp_1ac3dffda353afb2aeae4cd3ebb4e7bb48" kindref="member">Deadband</ref><sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ServoPulse_us<sp/>&gt;<sp/>(<ref refid="class_wear_counter_1accb125b4d830ff1105ebd3c3bbede50b" kindref="member">AvgerageServo_us</ref><sp/>+<sp/>Deadband))</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_wear_counter_1af3a00cec90c305cd88556fadcafeb102" kindref="member">Position</ref><sp/>=<sp/><ref refid="_wear_tracking_8h_1a5631ea695b18b2710296b59f9f40d456aba1c01967a9df1e61e063f61276ea0dc" kindref="member">ServoPositionType::Above</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ServoPulse_us<sp/>&lt;<sp/>(<ref refid="class_wear_counter_1accb125b4d830ff1105ebd3c3bbede50b" kindref="member">AvgerageServo_us</ref><sp/>-<sp/>Deadband))</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_wear_counter_1af3a00cec90c305cd88556fadcafeb102" kindref="member">Position</ref><sp/>=<sp/><ref refid="_wear_tracking_8h_1a5631ea695b18b2710296b59f9f40d456ae3d4723a74a904190a1b333803adcc7f" kindref="member">ServoPositionType::Below</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_wear_counter_1af97666c079ce88706cc74f1996b68f52" kindref="member">PreviousPosition</ref><sp/>!=<sp/><ref refid="class_wear_counter_1af3a00cec90c305cd88556fadcafeb102" kindref="member">Position</ref>)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref>++;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_wear_counter_1af97666c079ce88706cc74f1996b68f52" kindref="member">PreviousPosition</ref><sp/>=<sp/><ref refid="class_wear_counter_1af3a00cec90c305cd88556fadcafeb102" kindref="member">Position</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp"/>
+  </compounddef>
+</doxygen>

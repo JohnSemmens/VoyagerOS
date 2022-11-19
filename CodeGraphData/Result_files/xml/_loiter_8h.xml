@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_loiter_8h" kind="file">
+    <compoundname>Loiter.h</compoundname>
+    <includes local="yes">Arduino.h</includes>
+    <includes refid="_waypoints_8h" local="yes">Waypoints.h</includes>
+    <includedby refid="_command_state___processor_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</includedby>
+    <includedby refid="_loiter_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</includedby>
+    <includedby refid="_mission_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_sailing_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</includedby>
+    <includedby refid="_steering_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</includedby>
+    <includedby refid="_wingsail_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</includedby>
+    <incdepgraph>
+      <node id="446">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="447" relation="include">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h</label>
+        <link refid="Loiter.h"/>
+        <childnode refid="445" relation="include">
+        </childnode>
+        <childnode refid="446" relation="include">
+        </childnode>
+      </node>
+      <node id="445">
+        <label>Arduino.h</label>
+      </node>
+      <node id="447">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="450">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="451">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</label>
+        <link refid="_mission_8cpp"/>
+      </node>
+      <node id="449">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="452">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="455">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</label>
+        <link refid="_wingsail_8cpp"/>
+      </node>
+      <node id="448">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h</label>
+        <link refid="Loiter.h"/>
+        <childnode refid="449" relation="include">
+        </childnode>
+        <childnode refid="450" relation="include">
+        </childnode>
+        <childnode refid="451" relation="include">
+        </childnode>
+        <childnode refid="452" relation="include">
+        </childnode>
+        <childnode refid="453" relation="include">
+        </childnode>
+        <childnode refid="454" relation="include">
+        </childnode>
+        <childnode refid="455" relation="include">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="_steering_8cpp"/>
+      </node>
+      <node id="453">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</label>
+        <link refid="_sailing_navigation_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_loiter_struct" prot="public">LoiterStruct</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342" prot="public" static="no">
+        <name>LoiterStateType</name>
+        <enumvalue id="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a79380229b91a5962563cf2bd6b62f009" prot="public">
+          <name>lsNotLoitering</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a29a0504be4f2ef43ca564a001ca09472" prot="public">
+          <name>lsApproach</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342ae5310f50cd9fee4cedb79495508058e8" prot="public">
+          <name>lsPortSide</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a828ae9f56dfe1eeab98643dbe73b24bf" prot="public">
+          <name>lsStarboardSide</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="14" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LoiterCalcCTS</definition>
+        <argsstring>(void)</argsstring>
+        <name>LoiterCalcCTS</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="37" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp" bodystart="28" bodyend="97"/>
+        <references refid="struct_loiter_struct_1ae978e14205ab2857e5ecac5797989a21" compoundref="_loiter_8h" startline="32">LoiterStruct::BTW</references>
+        <references refid="_loiter_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="_loiter_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_loiter_8cpp_1a4e68978287be769969d1c58c14401c1a">DecisionEventReason</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" compoundref="_telemetry_logging_8h" startline="41">deTackToPort</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" compoundref="_telemetry_logging_8h" startline="42">deTackToStarboard</references>
+        <references refid="struct_loiter_struct_1ad6c580eaf8ecc5c574fe64822aef7612" compoundref="_loiter_8h" startline="31">LoiterStruct::DTW</references>
+        <references refid="location_8cpp_1ae53923f6092e5036fdbab56c2b1d025c" compoundref="location_8cpp" startline="72" endline="79">get_bearing</references>
+        <references refid="_a_p___math_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</references>
+        <references refid="_sailing_navigation_8cpp_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</references>
+        <references refid="_a_p___math_8h_1ab6cd880d070717b4c3cc7a7278768e72" compoundref="location_8cpp" startline="98" endline="130">location_passed_point</references>
+        <references refid="_a_p___math_8h_1ab0e06d28afb9d14043e1938af277396c" compoundref="location_8cpp" startline="151" endline="156">location_update</references>
+        <references refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" compoundref="_loiter_8h" startline="25">LoiterStruct::loiterCentreLocation</references>
+        <references refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" compoundref="_loiter_8h" startline="28">LoiterStruct::LoiterLocationNext</references>
+        <references refid="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" compoundref="_loiter_8h" startline="27">LoiterStruct::loiterLocationPrevious</references>
+        <references refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" compoundref="_loiter_8h" startline="34">LoiterStruct::LoiterRadius</references>
+        <references refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" compoundref="_loiter_8h" startline="24">LoiterStruct::LoiterState</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a29a0504be4f2ef43ca564a001ca09472" compoundref="_loiter_8h" startline="16">lsApproach</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a79380229b91a5962563cf2bd6b62f009" compoundref="_loiter_8h" startline="15">lsNotLoitering</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342ae5310f50cd9fee4cedb79495508058e8" compoundref="_loiter_8h" startline="19">lsPortSide</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a828ae9f56dfe1eeab98643dbe73b24bf" compoundref="_loiter_8h" startline="20">lsStarboardSide</references>
+        <references refid="struct_navigation_data_type_1a26784db798eae8b8ddf6826a7050bbc0" compoundref="_navigation_8h" startline="121">NavigationDataType::Manoeuvre</references>
+        <references refid="struct_navigation_data_type_1aef1f40dbe842913e3d57beb27f42e7cf" compoundref="_navigation_8h" startline="122">NavigationDataType::ManoeuvreState</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ab88b3abfd931022a589a104f72f21b45" compoundref="_navigation_8h" startline="55">mstCommence</references>
+        <references refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" compoundref="_navigation_8h" startline="50">mtGybe</references>
+        <references refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" compoundref="_navigation_8h" startline="64">NavigationDataType::next_WP</references>
+        <references refid="struct_loiter_struct_1a83fd742297f2048a629bb67d2e1f6d69" compoundref="_loiter_8h" startline="33">LoiterStruct::PastWP</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3acca47118064ef0b2f9e55f85fd54c7f7" compoundref="_telemetry_logging_8h" startline="57">rPastLoiterBoundary</references>
+        <references refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <references refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" compoundref="_navigation_8h" startline="101">NavigationDataType::TWD</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Loiter.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_LOITER_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_LOITER_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_waypoints_8h" kindref="compound">Waypoints.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342" kindref="member">LoiterStateType</ref><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a79380229b91a5962563cf2bd6b62f009" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a79380229b91a5962563cf2bd6b62f009" kindref="member">lsNotLoitering</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Not<sp/>Loitering</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a29a0504be4f2ef43ca564a001ca09472" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a29a0504be4f2ef43ca564a001ca09472" kindref="member">lsApproach</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Heading<sp/>to<sp/>Loiter<sp/>Waypoint<sp/>prior<sp/>to<sp/>commencing<sp/>loitering</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//lsOutbound,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Loitering<sp/>-<sp/>moving<sp/>away<sp/>from<sp/>loiter<sp/>point</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//lsInbound,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Loitering<sp/>-<sp/>moving<sp/>toward<sp/>loiter<sp/>point</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342ae5310f50cd9fee4cedb79495508058e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342ae5310f50cd9fee4cedb79495508058e8" kindref="member">lsPortSide</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loitering<sp/>-<sp/>reaching<sp/>toward<sp/>port<sp/>side</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a828ae9f56dfe1eeab98643dbe73b24bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a828ae9f56dfe1eeab98643dbe73b24bf" kindref="member">lsStarboardSide</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loitering<sp/>-<sp/>reaching<sp/>toward<sp/>starboard<sp/>side</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="struct_loiter_struct" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_loiter_struct" kindref="compound">LoiterStruct</ref><sp/>{</highlight></codeline>
+<codeline lineno="24" refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342" kindref="member">LoiterStateType</ref><sp/><ref refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" kindref="member">LoiterState</ref>;<sp/></highlight><highlight class="comment">//<sp/>This<sp/>describes<sp/>the<sp/>current<sp/>loiter<sp/>state,<sp/>approach,<sp/>outbound<sp/>inbound</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/><ref refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" kindref="member">loiterCentreLocation</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>Loiter<sp/>Location<sp/>when<sp/>the<sp/>Vessel<sp/>Command<sp/>&quot;loiter<sp/>Here&quot;<sp/>is<sp/>applied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Location<sp/>loiterOuterLocation;<sp/><sp/><sp/>//<sp/>the<sp/>outer<sp/>boundary<sp/>location<sp/>when<sp/>transitioning<sp/>from<sp/>outbound<sp/>to<sp/>inbound<sp/>while<sp/>loitering</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/><ref refid="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" kindref="member">loiterLocationPrevious</ref>;<sp/></highlight><highlight class="comment">//<sp/>Previous<sp/>Loiter<sp/>Location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/><ref refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" kindref="member">LoiterLocationNext</ref>;</highlight></codeline>
+<codeline lineno="29" refid="struct_loiter_struct_1ae262c27b0d24268f0afd87389d037bbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/><ref refid="struct_loiter_struct_1ae262c27b0d24268f0afd87389d037bbb" kindref="member">PortSideLocation</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Port-Side<sp/>loiter<sp/>Location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="struct_loiter_struct_1a020387aed6fd70b86b2c0c573fed7bab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/><ref refid="struct_loiter_struct_1a020387aed6fd70b86b2c0c573fed7bab" kindref="member">StarboardSideLocation</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Starboard-Side<sp/>loiter<sp/>Location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="struct_loiter_struct_1ad6c580eaf8ecc5c574fe64822aef7612" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="struct_loiter_struct_1ad6c580eaf8ecc5c574fe64822aef7612" kindref="member">DTW</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Distance<sp/>to<sp/>Loiter<sp/>Waypoint<sp/>-<sp/>metres</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="struct_loiter_struct_1ae978e14205ab2857e5ecac5797989a21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_loiter_struct_1ae978e14205ab2857e5ecac5797989a21" kindref="member">BTW</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Bearing<sp/>to<sp/>Loiter<sp/>Waypoint<sp/>-<sp/>Degrees<sp/>from<sp/>true<sp/>North</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="struct_loiter_struct_1a83fd742297f2048a629bb67d2e1f6d69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_loiter_struct_1a83fd742297f2048a629bb67d2e1f6d69" kindref="member">PastWP</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>past<sp/>the<sp/>Loiter<sp/>Waypoint<sp/>-<sp/><sp/>True/False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" kindref="member">LoiterRadius</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" kindref="member">LoiterCalcCTS</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h"/>
+  </compounddef>
+</doxygen>

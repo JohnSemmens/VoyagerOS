@@ -1,0 +1,1026 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="config_values_8cpp" kind="file">
+    <compoundname>configValues.cpp</compoundname>
+    <includes refid="config_values_8h" local="yes">configValues.h</includes>
+    <includes local="no">EEPROM.h</includes>
+    <includes refid="eeprom_anything_8h" local="yes">eepromAnything.h</includes>
+    <includes refid="_mission_8h" local="yes">Mission.h</includes>
+    <includes refid="_c_l_i_8h" local="yes">CLI.h</includes>
+    <includes refid="_command_state___processor_8h" local="yes">CommandState_Processor.h</includes>
+    <includes refid="_p_i_d__v1_8h" local="yes">PID_v1.h</includes>
+    <includes refid="_wear_tracking_8h" local="yes">WearTracking.h</includes>
+    <incdepgraph>
+      <node id="224">
+        <label>CLI.h</label>
+        <link refid="_c_l_i_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>vector2.h</label>
+        <link refid="vector2_8h"/>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>stdint.h</label>
+      </node>
+      <node id="221">
+        <label>eepromAnything.h</label>
+        <link refid="eeprom_anything_8h"/>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>WearTracking.h</label>
+        <link refid="_wear_tracking_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>Mission.h</label>
+        <link refid="_mission_8h"/>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>PID_v1.h</label>
+        <link refid="_p_i_d__v1_8h"/>
+      </node>
+      <node id="215">
+        <label>configValues.h</label>
+        <link refid="config_values_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp</label>
+        <link refid="configValues.cpp"/>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="227">
+        <label>math.h</label>
+      </node>
+      <node id="225">
+        <label>AP_Math.h</label>
+        <link refid="_a_p___math_8h"/>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+      </node>
+      <node id="222">
+        <label>Arduino.h</label>
+      </node>
+      <node id="216">
+        <label>arduino.h</label>
+      </node>
+      <node id="226">
+        <label>Misc.h</label>
+        <link refid="_misc_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>EEPROM.h</label>
+      </node>
+      <node id="219">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>Filters.h</label>
+        <link refid="_filters_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="config_values_8cpp_1a1106f1eecd15a9233233ae672d651265" prot="public" static="no" mutable="no">
+        <type><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref></type>
+        <definition>configValuesType Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a0b36e770e4169014b3f9f359c8d38e6f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_mission_command" kindref="compound">MissionCommand</ref></type>
+        <definition>MissionCommand MissionList[MaxMissionCommands]</definition>
+        <argsstring>[MaxMissionCommands]</argsstring>
+        <name>MissionList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1ae7b7edb4669ddd6e193860f2b64c35cd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_mission_values_struct" kindref="compound">MissionValuesStruct</ref></type>
+        <definition>MissionValuesStruct MissionValues</definition>
+        <argsstring></argsstring>
+        <name>MissionValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a84903d3dde78582cbc92053c3c18d444" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_state_values_struct" kindref="compound">StateValuesStruct</ref></type>
+        <definition>StateValuesStruct StateValues</definition>
+        <argsstring></argsstring>
+        <name>StateValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" prot="public" static="no" mutable="no">
+        <type>HardwareSerial *</type>
+        <definition>HardwareSerial* Serials[]</definition>
+        <argsstring>[]</argsstring>
+        <name>Serials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="26" column="1"/>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1aee2fea7714feec933ef43afa363a5ee4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wear_counter" kindref="compound">WearCounter</ref></type>
+        <definition>WearCounter PortRudderUsage</definition>
+        <argsstring></argsstring>
+        <name>PortRudderUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a4b616dd505c840bff663e6297ea6453c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wear_counter" kindref="compound">WearCounter</ref></type>
+        <definition>WearCounter StarboardRudderUsage</definition>
+        <argsstring></argsstring>
+        <name>StarboardRudderUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1af6df8aacbd109200ab0a3e21dc4a16bc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wear_counter" kindref="compound">WearCounter</ref></type>
+        <definition>WearCounter TrimTabUsage</definition>
+        <argsstring></argsstring>
+        <name>TrimTabUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a55df2469571176804b2adcd40c552f56" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_vessel_usage_counters_struct" kindref="compound">VesselUsageCountersStruct</ref></type>
+        <definition>VesselUsageCountersStruct VesselUsageCounters</definition>
+        <argsstring></argsstring>
+        <name>VesselUsageCounters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a953331626964977ab10e0a55788bb628" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int VesselUsageCountersAddress</definition>
+        <argsstring></argsstring>
+        <name>VesselUsageCountersAddress</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="35" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="35" bodyend="-1"/>
+        <referencedby refid="config_values_8h_1a1be8bcdb847127a7d56ec007360e22ee" compoundref="config_values_8cpp" startline="59" endline="83">Load_EEPROM_VesselUsage</referencedby>
+        <referencedby refid="config_values_8h_1ae76efee702e935376a3bc8357b0a2336" compoundref="config_values_8cpp" startline="50" endline="57">Save_EEPROM_VesselUsage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a133477c2460fc29a706fc5e852926a3d" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int sizeof_VesselUsageCounters</definition>
+        <argsstring></argsstring>
+        <name>sizeof_VesselUsageCounters</name>
+        <initializer>= sizeof(<ref refid="_wear_tracking_8cpp_1a55df2469571176804b2adcd40c552f56" kindref="member">VesselUsageCounters</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="36" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int ConfigurationAddress</definition>
+        <argsstring></argsstring>
+        <name>ConfigurationAddress</name>
+        <initializer>= <ref refid="config_values_8cpp_1a133477c2460fc29a706fc5e852926a3d" kindref="member">sizeof_VesselUsageCounters</ref> + <ref refid="config_values_8cpp_1a953331626964977ab10e0a55788bb628" kindref="member">VesselUsageCountersAddress</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="38" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="38" bodyend="-1"/>
+        <referencedby refid="config_values_8h_1ab49ea931f56ddaccd91f622727485e78" compoundref="config_values_8cpp" startline="93" endline="97">Load_EEPROM_ConfigValues</referencedby>
+        <referencedby refid="config_values_8h_1ad9e291951fd743c34d1f6d86387d0fab" compoundref="config_values_8cpp" startline="85" endline="91">Save_EEPROM_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a06dc3927025b13f041d2d81b94a8947e" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int sizeof_Configuration</definition>
+        <argsstring></argsstring>
+        <name>sizeof_Configuration</name>
+        <initializer>= sizeof(<ref refid="_wingsail_8cpp_1a1106f1eecd15a9233233ae672d651265" kindref="member">Configuration</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="39" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MissionValuesAddress</definition>
+        <argsstring></argsstring>
+        <name>MissionValuesAddress</name>
+        <initializer>= <ref refid="config_values_8cpp_1a06dc3927025b13f041d2d81b94a8947e" kindref="member">sizeof_Configuration</ref> + <ref refid="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" kindref="member">ConfigurationAddress</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="41" bodyend="-1"/>
+        <referencedby refid="config_values_8h_1a2bdd7ab0d4d833ce30748e5ac7e25cb3" compoundref="config_values_8cpp" startline="99" endline="111">load_EEPROM_Mission</referencedby>
+        <referencedby refid="config_values_8h_1a521c18f0b9b271f82f78468a81e10a6f" compoundref="config_values_8cpp" startline="113" endline="116">Save_EEPROM_Mission</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1aef9a4fa444559719782d2cb12b66a335" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int sizeof_MissionValues</definition>
+        <argsstring></argsstring>
+        <name>sizeof_MissionValues</name>
+        <initializer>= sizeof(<ref refid="_wingsail_8cpp_1ae7b7edb4669ddd6e193860f2b64c35cd" kindref="member">MissionValues</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="42" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a8a337b2a563a49037e183b031062c181" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int StateValuesAddress</definition>
+        <argsstring></argsstring>
+        <name>StateValuesAddress</name>
+        <initializer>= <ref refid="config_values_8cpp_1aef9a4fa444559719782d2cb12b66a335" kindref="member">sizeof_MissionValues</ref> + <ref refid="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" kindref="member">MissionValuesAddress</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="44" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="44" bodyend="-1"/>
+        <referencedby refid="config_values_8h_1a1470bc0369470aa6445ea1692ae70e9b" compoundref="config_values_8cpp" startline="118" endline="130">Load_EEPROM_StateValues</referencedby>
+        <referencedby refid="config_values_8h_1a4420d75b54a462de8f443e1832b8812f" compoundref="config_values_8cpp" startline="132" endline="135">Save_EEPROM_StateValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a77adadf3126511197f6aa63da89c77de" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int sizeof_StateValues</definition>
+        <argsstring></argsstring>
+        <name>sizeof_StateValues</name>
+        <initializer>= sizeof(<ref refid="_wingsail_8cpp_1a84903d3dde78582cbc92053c3c18d444" kindref="member">StateValues</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="45" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_values_8cpp_1a32ff644035d4a6c5f7d5e37fd7ac3f4f" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TotalEEPROMStorage</definition>
+        <argsstring></argsstring>
+        <name>TotalEEPROMStorage</name>
+        <initializer>= <ref refid="config_values_8cpp_1a06dc3927025b13f041d2d81b94a8947e" kindref="member">sizeof_Configuration</ref> + <ref refid="config_values_8cpp_1aef9a4fa444559719782d2cb12b66a335" kindref="member">sizeof_MissionValues</ref> + <ref refid="config_values_8cpp_1a77adadf3126511197f6aa63da89c77de" kindref="member">sizeof_StateValues</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="47" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="config_values_8cpp_1ae76efee702e935376a3bc8357b0a2336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Save_EEPROM_VesselUsage</definition>
+        <argsstring>(void)</argsstring>
+        <name>Save_EEPROM_VesselUsage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="50" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="50" bodyend="57"/>
+        <references refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" compoundref="_wear_tracking_8h" startline="47">WearCounter::Counter</references>
+        <references refid="eeprom_anything_8h_1ad2cf9df40d6280f2126ed51cc971b8d3" compoundref="eeprom_anything_8h" startline="4" endline="11">EEPROM_write</references>
+        <references refid="struct_vessel_usage_counters_struct_1ae4fdf8859199b4dffefb20d43ed0ec66" compoundref="_wear_tracking_8h" startline="23">VesselUsageCountersStruct::PortRudderCounter</references>
+        <references refid="struct_vessel_usage_counters_struct_1a6675c700a38cf60b2a332a72da951ad0" compoundref="_wear_tracking_8h" startline="24">VesselUsageCountersStruct::StarboardRudderCounter</references>
+        <references refid="struct_vessel_usage_counters_struct_1a106b7cdd508568ab09ae7d07d6e777d7" compoundref="_wear_tracking_8h" startline="25">VesselUsageCountersStruct::TrimTabCounter</references>
+        <references refid="config_values_8cpp_1a953331626964977ab10e0a55788bb628" compoundref="config_values_8cpp" startline="35">VesselUsageCountersAddress</references>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1a1be8bcdb847127a7d56ec007360e22ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Load_EEPROM_VesselUsage</definition>
+        <argsstring>(void)</argsstring>
+        <name>Load_EEPROM_VesselUsage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="59" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="59" bodyend="83"/>
+        <references refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" compoundref="_wear_tracking_8h" startline="47">WearCounter::Counter</references>
+        <references refid="eeprom_anything_8h_1a132fd7a569d1f19d25ecc6e62c2f175c" compoundref="eeprom_anything_8h" startline="13" endline="20">EEPROM_read</references>
+        <references refid="struct_vessel_usage_counters_struct_1a4b5a1884c77b02f5af94ab831e4b0451" compoundref="_wear_tracking_8h" startline="21">VesselUsageCountersStruct::init_flag</references>
+        <references refid="struct_vessel_usage_counters_struct_1acf9217437202c331a72e219355cadd40" compoundref="_wear_tracking_8h" startline="22">VesselUsageCountersStruct::intervalCounter</references>
+        <references refid="struct_vessel_usage_counters_struct_1ae4fdf8859199b4dffefb20d43ed0ec66" compoundref="_wear_tracking_8h" startline="23">VesselUsageCountersStruct::PortRudderCounter</references>
+        <references refid="struct_vessel_usage_counters_struct_1a7e65361b26ab806d53c2fd0d23f8418f" compoundref="_wear_tracking_8h" startline="26">VesselUsageCountersStruct::SpareCounter1</references>
+        <references refid="struct_vessel_usage_counters_struct_1acd7d5c521fc3837da684e9cddacb8a52" compoundref="_wear_tracking_8h" startline="27">VesselUsageCountersStruct::SpareCounter2</references>
+        <references refid="struct_vessel_usage_counters_struct_1aa12b7dfbb74758151a0a538853b7848e" compoundref="_wear_tracking_8h" startline="28">VesselUsageCountersStruct::SpareCounter3</references>
+        <references refid="struct_vessel_usage_counters_struct_1a6675c700a38cf60b2a332a72da951ad0" compoundref="_wear_tracking_8h" startline="24">VesselUsageCountersStruct::StarboardRudderCounter</references>
+        <references refid="struct_vessel_usage_counters_struct_1a106b7cdd508568ab09ae7d07d6e777d7" compoundref="_wear_tracking_8h" startline="25">VesselUsageCountersStruct::TrimTabCounter</references>
+        <references refid="config_values_8cpp_1a953331626964977ab10e0a55788bb628" compoundref="config_values_8cpp" startline="35">VesselUsageCountersAddress</references>
+        <referencedby refid="_wear_tracking_8h_1a7f0312aac0a1af2e44e0a2fe6ba8c526" compoundref="_wear_tracking_8cpp" startline="16" endline="20">init_wearTracking</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1ad9e291951fd743c34d1f6d86387d0fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Save_EEPROM_ConfigValues</definition>
+        <argsstring>(void)</argsstring>
+        <name>Save_EEPROM_ConfigValues</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="85" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="85" bodyend="91"/>
+        <references refid="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" compoundref="config_values_8cpp" startline="38">ConfigurationAddress</references>
+        <references refid="structconfig_values_type_1a58b57f58bc0dbd9e2537e3333221eda3" compoundref="config_values_8h" startline="18">configValuesType::EEPROM_Storage_Version</references>
+        <references refid="config_values_8h_1a7e00f3ca3fbac02f9896006e5cc74330" compoundref="config_values_8h" startline="15">EEPROM_Storage_Version_Const</references>
+        <references refid="eeprom_anything_8h_1ad2cf9df40d6280f2126ed51cc971b8d3" compoundref="eeprom_anything_8h" startline="4" endline="11">EEPROM_write</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1ab49ea931f56ddaccd91f622727485e78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Load_EEPROM_ConfigValues</definition>
+        <argsstring>(void)</argsstring>
+        <name>Load_EEPROM_ConfigValues</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="93" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="93" bodyend="97"/>
+        <references refid="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" compoundref="config_values_8cpp" startline="38">ConfigurationAddress</references>
+        <references refid="eeprom_anything_8h_1a132fd7a569d1f19d25ecc6e62c2f175c" compoundref="eeprom_anything_8h" startline="13" endline="20">EEPROM_read</references>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1a2bdd7ab0d4d833ce30748e5ac7e25cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void load_EEPROM_Mission</definition>
+        <argsstring>(void)</argsstring>
+        <name>load_EEPROM_Mission</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="99" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="99" bodyend="111"/>
+        <references refid="eeprom_anything_8h_1a132fd7a569d1f19d25ecc6e62c2f175c" compoundref="eeprom_anything_8h" startline="13" endline="20">EEPROM_read</references>
+        <references refid="_mission_8h_1ab7f468936a60d3e4372f5de17ceb9c9f" compoundref="_mission_8h" startline="36">MaxMissionCommands</references>
+        <references refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" compoundref="_mission_8h" startline="40">MissionValuesStruct::mission_size</references>
+        <references refid="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" compoundref="config_values_8cpp" startline="41">MissionValuesAddress</references>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1a521c18f0b9b271f82f78468a81e10a6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Save_EEPROM_Mission</definition>
+        <argsstring>(void)</argsstring>
+        <name>Save_EEPROM_Mission</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="113" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="113" bodyend="116"/>
+        <references refid="eeprom_anything_8h_1ad2cf9df40d6280f2126ed51cc971b8d3" compoundref="eeprom_anything_8h" startline="4" endline="11">EEPROM_write</references>
+        <references refid="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" compoundref="config_values_8cpp" startline="41">MissionValuesAddress</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1a1470bc0369470aa6445ea1692ae70e9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Load_EEPROM_StateValues</definition>
+        <argsstring>(void)</argsstring>
+        <name>Load_EEPROM_StateValues</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="118" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="118" bodyend="130"/>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="eeprom_anything_8h_1a132fd7a569d1f19d25ecc6e62c2f175c" compoundref="eeprom_anything_8h" startline="13" endline="20">EEPROM_read</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" compoundref="_mission_8h" startline="40">MissionValuesStruct::mission_size</references>
+        <references refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" compoundref="_command_state___processor_8h" startline="35">StateValuesStruct::StartingMission</references>
+        <references refid="config_values_8cpp_1a8a337b2a563a49037e183b031062c181" compoundref="config_values_8cpp" startline="44">StateValuesAddress</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1a4420d75b54a462de8f443e1832b8812f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Save_EEPROM_StateValues</definition>
+        <argsstring>(void)</argsstring>
+        <name>Save_EEPROM_StateValues</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="132" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="132" bodyend="135"/>
+        <references refid="eeprom_anything_8h_1ad2cf9df40d6280f2126ed51cc971b8d3" compoundref="eeprom_anything_8h" startline="4" endline="11">EEPROM_write</references>
+        <references refid="config_values_8cpp_1a8a337b2a563a49037e183b031062c181" compoundref="config_values_8cpp" startline="44">StateValuesAddress</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1aeed2fa4d773a9e06ce652dadbcc9a5c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EEPROM_Storage_Version_Valid</definition>
+        <argsstring>(void)</argsstring>
+        <name>EEPROM_Storage_Version_Valid</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="137" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="137" bodyend="142"/>
+        <references refid="structconfig_values_type_1a58b57f58bc0dbd9e2537e3333221eda3" compoundref="config_values_8h" startline="18">configValuesType::EEPROM_Storage_Version</references>
+        <references refid="config_values_8h_1a7e00f3ca3fbac02f9896006e5cc74330" compoundref="config_values_8h" startline="15">EEPROM_Storage_Version_Const</references>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1a2698bbc75dc083e68bac543e95ae2c8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Load_Config_default_values</definition>
+        <argsstring>(void)</argsstring>
+        <name>Load_Config_default_values</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="144" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="144" bodyend="246"/>
+        <references refid="structconfig_values_type_1a59efead0f04f26233f9b1dfb3ec52945" compoundref="config_values_8h" startline="96">configValuesType::BluetoothPort</references>
+        <references refid="structconfig_values_type_1a7523308a51da9a1de8e194446e3e68be" compoundref="config_values_8h" startline="100">configValuesType::BTPortBaudRate</references>
+        <references refid="structconfig_values_type_1a61d8859b3447d6566d13492f81a7f7a6" compoundref="config_values_8h" startline="95">configValuesType::CommandPort</references>
+        <references refid="structconfig_values_type_1a66b02dad9a0c8a9abdb413fd7b02a685" compoundref="config_values_8h" startline="99">configValuesType::CommandPortBaudRate</references>
+        <references refid="structconfig_values_type_1a0d81540f66f65f79aaef899207f903b5" compoundref="config_values_8h" startline="49">configValuesType::CompassOffsetAngle</references>
+        <references refid="structconfig_values_type_1a2c7a86bc55744528eb5ed1f8c6c84384" compoundref="config_values_8h" startline="130">configValuesType::CTE_CorrectionGain</references>
+        <references refid="structconfig_values_type_1a39745cbb9ba7b52a76eccb955af9b526" compoundref="config_values_8h" startline="20">configValuesType::DisplayScreenView</references>
+        <references refid="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" compoundref="config_values_8h" startline="92">configValuesType::DualRudder</references>
+        <references refid="structconfig_values_type_1a3606fd3b8680031f302f53bbef238b35" compoundref="config_values_8h" startline="90">configValuesType::FailsafeCommandState</references>
+        <references refid="structconfig_values_type_1a1176e7ee5accf3fd2610f2bdd2296f9c" compoundref="config_values_8h" startline="109">configValuesType::LoiterRadius</references>
+        <references refid="structconfig_values_type_1aa520d523476f17a3d4ee9db5e92f899a" compoundref="config_values_8h" startline="51">configValuesType::MagnetVariation</references>
+        <references refid="structconfig_values_type_1a754b585ab8ab6b729faa0c4ca85aff36" compoundref="config_values_8h" startline="53">configValuesType::MaxFileSize</references>
+        <references refid="structconfig_values_type_1a03b05b4da3e4f48e56ceb07e88edf55e" compoundref="config_values_8h" startline="35">configValuesType::MaximumTimePastFavouredTack</references>
+        <references refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" compoundref="config_values_8h" startline="33">configValuesType::MinimumAngleDownWind</references>
+        <references refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" compoundref="config_values_8h" startline="32">configValuesType::MinimumAngleUpWind</references>
+        <references refid="structconfig_values_type_1a38d036588253f42774ae514f55e731b8" compoundref="config_values_8h" startline="37">configValuesType::MinimumWindChangeTime</references>
+        <references refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" compoundref="_navigation_8h" startline="50">mtGybe</references>
+        <references refid="structconfig_values_type_1a5c9f8e7fac316e921c900b245d3ab8e5" compoundref="config_values_8h" startline="124">configValuesType::mx_max</references>
+        <references refid="structconfig_values_type_1a0876ce5174fefcd0b39cccee44eca68a" compoundref="config_values_8h" startline="123">configValuesType::mx_min</references>
+        <references refid="structconfig_values_type_1aac3f9de446641e39b318ba8f23ca12ce" compoundref="config_values_8h" startline="126">configValuesType::my_max</references>
+        <references refid="structconfig_values_type_1ab7c1874d390dec419ff4d54ce11b6ebd" compoundref="config_values_8h" startline="125">configValuesType::my_min</references>
+        <references refid="structconfig_values_type_1a6758579cc2d41935882eab00baf129f5" compoundref="config_values_8h" startline="128">configValuesType::mz_max</references>
+        <references refid="structconfig_values_type_1a1be1ac022e4efe86be6f72be280c2dac" compoundref="config_values_8h" startline="127">configValuesType::mz_min</references>
+        <references refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" compoundref="config_values_8h" startline="107">configValuesType::pidCentre</references>
+        <references refid="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" compoundref="config_values_8h" startline="106">configValuesType::pidDirection</references>
+        <references refid="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" compoundref="config_values_8h" startline="104">configValuesType::pidKd</references>
+        <references refid="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" compoundref="config_values_8h" startline="104">configValuesType::pidKi</references>
+        <references refid="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" compoundref="config_values_8h" startline="104">configValuesType::pidKp</references>
+        <references refid="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmax</references>
+        <references refid="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmin</references>
+        <references refid="structconfig_values_type_1a6e87d7c2d3bbe04a269b9ea1df95d08e" compoundref="config_values_8h" startline="57">configValuesType::RC_FailSafe_Ch0</references>
+        <references refid="structconfig_values_type_1a3e03ea3e68c69e70790b89bb35c48891" compoundref="config_values_8h" startline="58">configValuesType::RC_FailSafe_Ch1</references>
+        <references refid="structconfig_values_type_1ab67f55a038996a2bc882f35ecf25df78" compoundref="config_values_8h" startline="59">configValuesType::RC_FailSafe_Ch2</references>
+        <references refid="structconfig_values_type_1ac521c18e56efe3dabafaeb2a9b1a2983" compoundref="config_values_8h" startline="60">configValuesType::RC_FailSafe_Ch3</references>
+        <references refid="structconfig_values_type_1afc29b93865777b36fc05b69ee765d883" compoundref="config_values_8h" startline="62">configValuesType::RC_FailSafe_Time</references>
+        <references refid="structconfig_values_type_1a5e0bc8124a329de5516eb134942a58a5" compoundref="config_values_8h" startline="64">configValuesType::RC_IN_Channel_Command</references>
+        <references refid="structconfig_values_type_1aad74f16ddcc19bbba139a21fa0946749" compoundref="config_values_8h" startline="67">configValuesType::RC_IN_Channel_Motor</references>
+        <references refid="structconfig_values_type_1a5e92833efd357eaf9312f7e4e0e059a4" compoundref="config_values_8h" startline="66">configValuesType::RC_IN_Channel_Sail</references>
+        <references refid="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" compoundref="config_values_8h" startline="65">configValuesType::RC_IN_Channel_Steering</references>
+        <references refid="structconfig_values_type_1ab0928a129fd553bac7719230eb271d48" compoundref="config_values_8h" startline="74">configValuesType::RC_IN_Command_Threhold0</references>
+        <references refid="structconfig_values_type_1aa8605757da28b6c5b150ac3d3daad181" compoundref="config_values_8h" startline="75">configValuesType::RC_IN_Command_Threhold1</references>
+        <references refid="structconfig_values_type_1acb5f8a2de4f96f4cf1661e9834a553a2" compoundref="config_values_8h" startline="76">configValuesType::RC_IN_Command_Threhold2</references>
+        <references refid="structconfig_values_type_1a451ddce737e6b1b1bb977b36723a4441" compoundref="config_values_8h" startline="77">configValuesType::RC_IN_Command_Threhold3</references>
+        <references refid="structconfig_values_type_1ae7387ba3ace4c1aaca2dbc5fe0249631" compoundref="config_values_8h" startline="78">configValuesType::RC_IN_Command_Threhold4</references>
+        <references refid="structconfig_values_type_1a409e8bbf3a308652af99ac03d65aa27f" compoundref="config_values_8h" startline="79">configValuesType::RC_IN_Command_Threhold9</references>
+        <references refid="_p_i_d__v1_8h_1a00548cec6d104932bf79a65bac1c47e8" compoundref="_p_i_d__v1_8h" startline="15">REVERSE</references>
+        <references refid="structconfig_values_type_1a711dbb3e2dee764a9764411c80d24e48" compoundref="config_values_8h" startline="43">configValuesType::SailableAngleMargin</references>
+        <references refid="structconfig_values_type_1ac88971303bbfeaefab6ff8a9910ebead" compoundref="config_values_8h" startline="97">configValuesType::SatCommsPort</references>
+        <references refid="structconfig_values_type_1a919cf7eb37862a7de7fde4cb52ff06bb" compoundref="config_values_8h" startline="101">configValuesType::SatCommsPortBaudRate</references>
+        <references refid="structconfig_values_type_1a4fb27e7a2ba2adeebb68714c767d4c5f" compoundref="config_values_8h" startline="26">configValuesType::SaveStateValues</references>
+        <references refid="structconfig_values_type_1af730e3fa0e2cea723fc44c27048354ca" compoundref="config_values_8h" startline="24">configValuesType::SDCardLogDelimiter</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="structconfig_values_type_1a0491cf60a1fc8db74596859134302b13" compoundref="config_values_8h" startline="72">configValuesType::Servo_Channel_Motor</references>
+        <references refid="structconfig_values_type_1aba71822830cd657b53d27582ed06e465" compoundref="config_values_8h" startline="71">configValuesType::Servo_Channel_Sail</references>
+        <references refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" compoundref="config_values_8h" startline="69">configValuesType::Servo_Channel_Steering</references>
+        <references refid="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" compoundref="config_values_8h" startline="70">configValuesType::Servo_Channel_Steering_Stbd</references>
+        <references refid="structconfig_values_type_1ab8e0fd66b86e53779bd9810853beb175" compoundref="config_values_8h" startline="31">configValuesType::TackingMethod</references>
+        <references refid="structconfig_values_type_1ac1943add4d21dc30723e9d90784b5ae6" compoundref="config_values_8h" startline="41">configValuesType::TargetHeadingFilterConstant</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <references refid="structconfig_values_type_1aeb3e43a3cab71ad7573c59c78f3cb0c0" compoundref="config_values_8h" startline="28">configValuesType::timezone_offset</references>
+        <references refid="structconfig_values_type_1a5de1574374a7457242a06a189aec690f" compoundref="config_values_8h" startline="121">configValuesType::TrimTabDefaultAngle</references>
+        <references refid="structconfig_values_type_1aa57d2d289c80384c0c56c5b95b731807" compoundref="config_values_8h" startline="119">configValuesType::TrimTabOffset</references>
+        <references refid="structconfig_values_type_1ad0e88567b91c76388a29d2568d6d0e5e" compoundref="config_values_8h" startline="118">configValuesType::TrimTabScale</references>
+        <references refid="structconfig_values_type_1a6502125ce871378cea999e4f23ce562d" compoundref="config_values_8h" startline="39">configValuesType::TWD_Offset</references>
+        <references refid="structconfig_values_type_1a6d546066fa1eb099f8fff364b11c82ea" compoundref="config_values_8h" startline="93">configValuesType::UseMotor</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="structconfig_values_type_1a9483574d7305906b58eecb6c263480ab" compoundref="config_values_8h" startline="46">configValuesType::WindAngleCalibrationOffset</references>
+        <references refid="structconfig_values_type_1af1f613cbf51575ce5c01d197665778c9" compoundref="config_values_8h" startline="34">configValuesType::WPCourseHoldRadius</references>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="config_values_8cpp_1aaf59ec5cc4107886faafaf655fb473a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Load_ConfigValues</definition>
+        <argsstring>(int CommandPort, bool SerialLog)</argsstring>
+        <name>Load_ConfigValues</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>SerialLog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" line="248" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp" bodystart="248" bodyend="297"/>
+        <references refid="_c_l_i_8cpp_1a2ec7404b9b0963a466f08b46849f4094" compoundref="_c_l_i_8cpp" startline="90" endline="95">CLI_Processor</references>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="structconfig_values_type_1a61d8859b3447d6566d13492f81a7f7a6" compoundref="config_values_8h" startline="95">configValuesType::CommandPort</references>
+        <references refid="structconfig_values_type_1a58b57f58bc0dbd9e2537e3333221eda3" compoundref="config_values_8h" startline="18">configValuesType::EEPROM_Storage_Version</references>
+        <references refid="config_values_8h_1a7e00f3ca3fbac02f9896006e5cc74330" compoundref="config_values_8h" startline="15">EEPROM_Storage_Version_Const</references>
+        <references refid="config_values_8cpp_1aeed2fa4d773a9e06ce652dadbcc9a5c8" compoundref="config_values_8cpp" startline="137" endline="142">EEPROM_Storage_Version_Valid</references>
+        <references refid="config_values_8cpp_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</references>
+        <references refid="config_values_8cpp_1ab49ea931f56ddaccd91f622727485e78" compoundref="config_values_8cpp" startline="93" endline="97">Load_EEPROM_ConfigValues</references>
+        <references refid="config_values_8cpp_1a2bdd7ab0d4d833ce30748e5ac7e25cb3" compoundref="config_values_8cpp" startline="99" endline="111">load_EEPROM_Mission</references>
+        <references refid="config_values_8cpp_1a1470bc0369470aa6445ea1692ae70e9b" compoundref="config_values_8cpp" startline="118" endline="130">Load_EEPROM_StateValues</references>
+        <references refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" compoundref="_mission_8h" startline="40">MissionValuesStruct::mission_size</references>
+        <references refid="structconfig_values_type_1a4fb27e7a2ba2adeebb68714c767d4c5f" compoundref="config_values_8h" startline="26">configValuesType::SaveStateValues</references>
+        <references refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Manage<sp/>Configuration<sp/>values<sp/>stored<sp/>in<sp/>the<sp/>EEPROM.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>covers<sp/>the<sp/>storage<sp/>structures,<sp/>and<sp/>also<sp/>checks<sp/>the<sp/>validity<sp/>of<sp/>the<sp/>stored<sp/>sturcture<sp/>versus<sp/>the<sp/>expect<sp/>structure.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.1<sp/>11/10/2016<sp/>added<sp/>MaxFileSize.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.2<sp/>31/10/2016<sp/>added<sp/>MagnetVariation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.3<sp/>13/11/2016<sp/>added<sp/>Steering<sp/>PID<sp/>values<sp/>to<sp/>Config</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.4<sp/>6/12/2017<sp/>added<sp/>Motor<sp/>control<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.5<sp/>17/1/2018<sp/>added<sp/>default<sp/>compass<sp/>calibration<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.6<sp/>2/4/2018<sp/>added<sp/>Voltage<sp/>Measurement<sp/>parameters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.7<sp/>31/10/2018<sp/>added<sp/>TrimTabScale<sp/>Scale<sp/>and<sp/>Offset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="config_values_8h" kindref="compound">configValues.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;EEPROM.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="eeprom_anything_8h" kindref="compound">eepromAnything.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_mission_8h" kindref="compound">Mission.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_c_l_i_8h" kindref="compound">CLI.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_command_state___processor_8h" kindref="compound">CommandState_Processor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_p_i_d__v1_8h" kindref="compound">PID_v1.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_wear_tracking_8h" kindref="compound">WearTracking.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref><sp/><ref refid="config_values_8cpp_1a1106f1eecd15a9233233ae672d651265" kindref="member">Configuration</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_mission_command" kindref="compound">MissionCommand</ref><sp/><ref refid="config_values_8cpp_1a0b36e770e4169014b3f9f359c8d38e6f" kindref="member">MissionList</ref>[<ref refid="_mission_8h_1ab7f468936a60d3e4372f5de17ceb9c9f" kindref="member">MaxMissionCommands</ref>];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_mission_values_struct" kindref="compound">MissionValuesStruct</ref><sp/><ref refid="config_values_8cpp_1ae7b7edb4669ddd6e193860f2b64c35cd" kindref="member">MissionValues</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_state_values_struct" kindref="compound">StateValuesStruct</ref><sp/><ref refid="config_values_8cpp_1a84903d3dde78582cbc92053c3c18d444" kindref="member">StateValues</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>HardwareSerial<sp/>*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter" kindref="compound">WearCounter</ref><sp/><ref refid="config_values_8cpp_1aee2fea7714feec933ef43afa363a5ee4" kindref="member">PortRudderUsage</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter" kindref="compound">WearCounter</ref><sp/><ref refid="config_values_8cpp_1a4b616dd505c840bff663e6297ea6453c" kindref="member">StarboardRudderUsage</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter" kindref="compound">WearCounter</ref><sp/><ref refid="config_values_8cpp_1af6df8aacbd109200ab0a3e21dc4a16bc" kindref="member">TrimTabUsage</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_vessel_usage_counters_struct" kindref="compound">VesselUsageCountersStruct</ref><sp/><ref refid="config_values_8cpp_1a55df2469571176804b2adcd40c552f56" kindref="member">VesselUsageCounters</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Calculate<sp/>the<sp/>base<sp/>address<sp/>of<sp/>each<sp/>structure<sp/>in<sp/>the<sp/>EEPROM.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>done<sp/>by<sp/>getting<sp/>the<sp/>size<sp/>of<sp/>the<sp/>previous<sp/>object<sp/>and<sp/>adding<sp/>it<sp/>to<sp/>the<sp/>address<sp/>of<sp/>the<sp/>previous<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="config_values_8cpp_1a953331626964977ab10e0a55788bb628" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a953331626964977ab10e0a55788bb628" kindref="member">VesselUsageCountersAddress</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36" refid="config_values_8cpp_1a133477c2460fc29a706fc5e852926a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a133477c2460fc29a706fc5e852926a3d" kindref="member">sizeof_VesselUsageCounters</ref><sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="config_values_8cpp_1a55df2469571176804b2adcd40c552f56" kindref="member">VesselUsageCounters</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" kindref="member">ConfigurationAddress</ref><sp/>=<sp/><ref refid="config_values_8cpp_1a133477c2460fc29a706fc5e852926a3d" kindref="member">sizeof_VesselUsageCounters</ref><sp/>+<sp/><ref refid="config_values_8cpp_1a953331626964977ab10e0a55788bb628" kindref="member">VesselUsageCountersAddress</ref>;</highlight></codeline>
+<codeline lineno="39" refid="config_values_8cpp_1a06dc3927025b13f041d2d81b94a8947e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a06dc3927025b13f041d2d81b94a8947e" kindref="member">sizeof_Configuration</ref><sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="config_values_8cpp_1a1106f1eecd15a9233233ae672d651265" kindref="member">Configuration</ref>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" kindref="member">MissionValuesAddress</ref><sp/>=<sp/><ref refid="config_values_8cpp_1a06dc3927025b13f041d2d81b94a8947e" kindref="member">sizeof_Configuration</ref><sp/>+<sp/><ref refid="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" kindref="member">ConfigurationAddress</ref>;</highlight></codeline>
+<codeline lineno="42" refid="config_values_8cpp_1aef9a4fa444559719782d2cb12b66a335" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1aef9a4fa444559719782d2cb12b66a335" kindref="member">sizeof_MissionValues</ref><sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="config_values_8cpp_1ae7b7edb4669ddd6e193860f2b64c35cd" kindref="member">MissionValues</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="config_values_8cpp_1a8a337b2a563a49037e183b031062c181" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a8a337b2a563a49037e183b031062c181" kindref="member">StateValuesAddress</ref><sp/>=<sp/><ref refid="config_values_8cpp_1aef9a4fa444559719782d2cb12b66a335" kindref="member">sizeof_MissionValues</ref><sp/>+<sp/><ref refid="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" kindref="member">MissionValuesAddress</ref>;</highlight></codeline>
+<codeline lineno="45" refid="config_values_8cpp_1a77adadf3126511197f6aa63da89c77de" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a77adadf3126511197f6aa63da89c77de" kindref="member">sizeof_StateValues</ref><sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="config_values_8cpp_1a84903d3dde78582cbc92053c3c18d444" kindref="member">StateValues</ref>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="config_values_8cpp_1a32ff644035d4a6c5f7d5e37fd7ac3f4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a32ff644035d4a6c5f7d5e37fd7ac3f4f" kindref="member">TotalEEPROMStorage</ref><sp/>=<sp/><ref refid="config_values_8cpp_1a06dc3927025b13f041d2d81b94a8947e" kindref="member">sizeof_Configuration</ref><sp/>+<sp/><ref refid="config_values_8cpp_1aef9a4fa444559719782d2cb12b66a335" kindref="member">sizeof_MissionValues</ref><sp/>+<sp/><ref refid="config_values_8cpp_1a77adadf3126511197f6aa63da89c77de" kindref="member">sizeof_StateValues</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="config_values_8h_1ae76efee702e935376a3bc8357b0a2336" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1ae76efee702e935376a3bc8357b0a2336" kindref="member">Save_EEPROM_VesselUsage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1ae4fdf8859199b4dffefb20d43ed0ec66" kindref="member">PortRudderCounter</ref><sp/>=<sp/>PortRudderUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref><sp/>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a6675c700a38cf60b2a332a72da951ad0" kindref="member">StarboardRudderCounter</ref><sp/>=<sp/>StarboardRudderUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a106b7cdd508568ab09ae7d07d6e777d7" kindref="member">TrimTabCounter</ref><sp/>=<sp/>TrimTabUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="eeprom_anything_8h_1ad2cf9df40d6280f2126ed51cc971b8d3" kindref="member">EEPROM_write</ref>(<ref refid="config_values_8cpp_1a953331626964977ab10e0a55788bb628" kindref="member">VesselUsageCountersAddress</ref>,<sp/>VesselUsageCounters);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="config_values_8h_1a1be8bcdb847127a7d56ec007360e22ee" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a1be8bcdb847127a7d56ec007360e22ee" kindref="member">Load_EEPROM_VesselUsage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="eeprom_anything_8h_1a132fd7a569d1f19d25ecc6e62c2f175c" kindref="member">EEPROM_read</ref>(<ref refid="config_values_8cpp_1a953331626964977ab10e0a55788bb628" kindref="member">VesselUsageCountersAddress</ref>,<sp/>VesselUsageCounters);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(30);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>the<sp/>init<sp/>byte<sp/>has<sp/>been<sp/>initialised<sp/>previously.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>done<sp/>by<sp/>using<sp/>an<sp/>abitrary<sp/>value<sp/>that<sp/>would<sp/>not<sp/>occur<sp/>randomly<sp/>e.g.<sp/>15.<sp/>more<sp/>likely<sp/>uninitialised<sp/>values<sp/>would<sp/>be<sp/>either<sp/>00,FF,55,AA.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>I<sp/>have<sp/>not<sp/>verified<sp/>this<sp/>on<sp/>this<sp/>processor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>not<sp/>then<sp/>it<sp/>implies<sp/>that<sp/>it<sp/>has<sp/>never<sp/>been<sp/>saved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a4b5a1884c77b02f5af94ab831e4b0451" kindref="member">init_flag</ref><sp/>!=<sp/>15)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a4b5a1884c77b02f5af94ab831e4b0451" kindref="member">init_flag</ref><sp/>=<sp/>15;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1acf9217437202c331a72e219355cadd40" kindref="member">intervalCounter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1ae4fdf8859199b4dffefb20d43ed0ec66" kindref="member">PortRudderCounter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a6675c700a38cf60b2a332a72da951ad0" kindref="member">StarboardRudderCounter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a106b7cdd508568ab09ae7d07d6e777d7" kindref="member">TrimTabCounter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a7e65361b26ab806d53c2fd0d23f8418f" kindref="member">SpareCounter1</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1acd7d5c521fc3837da684e9cddacb8a52" kindref="member">SpareCounter2</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1aa12b7dfbb74758151a0a538853b7848e" kindref="member">SpareCounter3</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>PortRudderUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref><sp/>=<sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1ae4fdf8859199b4dffefb20d43ed0ec66" kindref="member">PortRudderCounter</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>StarboardRudderUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref><sp/>=<sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a6675c700a38cf60b2a332a72da951ad0" kindref="member">StarboardRudderCounter</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>TrimTabUsage.<ref refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" kindref="member">Counter</ref><sp/>=<sp/>VesselUsageCounters.<ref refid="struct_vessel_usage_counters_struct_1a106b7cdd508568ab09ae7d07d6e777d7" kindref="member">TrimTabCounter</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="config_values_8h_1ad9e291951fd743c34d1f6d86387d0fab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1ad9e291951fd743c34d1f6d86387d0fab" kindref="member">Save_EEPROM_ConfigValues</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>EEEPROM<sp/>structure<sp/>storage<sp/>version<sp/>number<sp/>before<sp/>saving.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a58b57f58bc0dbd9e2537e3333221eda3" kindref="member">EEPROM_Storage_Version</ref><sp/>=<sp/><ref refid="config_values_8h_1a7e00f3ca3fbac02f9896006e5cc74330" kindref="member">EEPROM_Storage_Version_Const</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="eeprom_anything_8h_1ad2cf9df40d6280f2126ed51cc971b8d3" kindref="member">EEPROM_write</ref>(<ref refid="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" kindref="member">ConfigurationAddress</ref>,<sp/>Configuration);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="config_values_8h_1ab49ea931f56ddaccd91f622727485e78" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1ab49ea931f56ddaccd91f622727485e78" kindref="member">Load_EEPROM_ConfigValues</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="eeprom_anything_8h_1a132fd7a569d1f19d25ecc6e62c2f175c" kindref="member">EEPROM_read</ref>(<ref refid="config_values_8cpp_1afadabc209595bab1f9c578798a594bec" kindref="member">ConfigurationAddress</ref>,<sp/>Configuration);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(30);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="config_values_8h_1a2bdd7ab0d4d833ce30748e5ac7e25cb3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a2bdd7ab0d4d833ce30748e5ac7e25cb3" kindref="member">load_EEPROM_Mission</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>the<sp/>mission<sp/>structure<sp/>from<sp/>the<sp/>EEPROM.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>perform<sp/>a<sp/>simple<sp/>validation<sp/>check<sp/>to<sp/>ensure<sp/>that<sp/>the<sp/>number<sp/>of<sp/>mission<sp/>steps<sp/>is<sp/>within<sp/>the<sp/>maximum<sp/>allowed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>8/10/2016<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="eeprom_anything_8h_1a132fd7a569d1f19d25ecc6e62c2f175c" kindref="member">EEPROM_read</ref>(<ref refid="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" kindref="member">MissionValuesAddress</ref>,<sp/>MissionValues);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(30);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>number<sp/>of<sp/>mission<sp/>steps<sp/>looks<sp/>valid;<sp/>otherwise<sp/>zero<sp/>it<sp/>out.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(MissionValues.<ref refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" kindref="member">mission_size</ref><sp/>&gt;<sp/><ref refid="_mission_8h_1ab7f468936a60d3e4372f5de17ceb9c9f" kindref="member">MaxMissionCommands</ref>)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MissionValues.<ref refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" kindref="member">mission_size</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="config_values_8h_1a521c18f0b9b271f82f78468a81e10a6f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a521c18f0b9b271f82f78468a81e10a6f" kindref="member">Save_EEPROM_Mission</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="eeprom_anything_8h_1ad2cf9df40d6280f2126ed51cc971b8d3" kindref="member">EEPROM_write</ref>(<ref refid="config_values_8cpp_1a6c19ea3a5dc4a96acc85f2d95f83769b" kindref="member">MissionValuesAddress</ref>,<sp/>MissionValues);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="config_values_8h_1a1470bc0369470aa6445ea1692ae70e9b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a1470bc0369470aa6445ea1692ae70e9b" kindref="member">Load_EEPROM_StateValues</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>the<sp/>vessel<sp/>state<sp/>values.<sp/>Perform<sp/>a<sp/>simple<sp/>validity<sp/>check<sp/>by<sp/>only<sp/>setting<sp/>current<sp/>mission<sp/>values<sp/>if<sp/>there<sp/>is<sp/>a<sp/>mission.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="eeprom_anything_8h_1a132fd7a569d1f19d25ecc6e62c2f175c" kindref="member">EEPROM_read</ref>(<ref refid="config_values_8cpp_1a8a337b2a563a49037e183b031062c181" kindref="member">StateValuesAddress</ref>,<sp/>StateValues);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(30);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(MissionValues.<ref refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" kindref="member">mission_size</ref><sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" kindref="member">StartingMission</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref><sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" kindref="member">VesselCommandStateType::vcsFullManual</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="config_values_8h_1a4420d75b54a462de8f443e1832b8812f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a4420d75b54a462de8f443e1832b8812f" kindref="member">Save_EEPROM_StateValues</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="eeprom_anything_8h_1ad2cf9df40d6280f2126ed51cc971b8d3" kindref="member">EEPROM_write</ref>(<ref refid="config_values_8cpp_1a8a337b2a563a49037e183b031062c181" kindref="member">StateValuesAddress</ref>,<sp/>StateValues);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="config_values_8h_1aeed2fa4d773a9e06ce652dadbcc9a5c8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1aeed2fa4d773a9e06ce652dadbcc9a5c8" kindref="member">EEPROM_Storage_Version_Valid</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>true<sp/>or<sp/>false<sp/>to<sp/>indicate<sp/>if<sp/>the<sp/>cureent<sp/>stored<sp/>data<sp/>structures<sp/>have<sp/>a<sp/>version<sp/>consistent<sp/>with<sp/>the<sp/>current<sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>28/8/2016<sp/>John<sp/>Semmens.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="config_values_8h_1a7e00f3ca3fbac02f9896006e5cc74330" kindref="member">EEPROM_Storage_Version_Const</ref><sp/>==<sp/>Configuration.<ref refid="structconfig_values_type_1a58b57f58bc0dbd9e2537e3333221eda3" kindref="member">EEPROM_Storage_Version</ref>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1a2698bbc75dc083e68bac543e95ae2c8e" kindref="member">Load_Config_default_values</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>default<sp/>Config<sp/>values<sp/>when<sp/>the<sp/>dtored<sp/>values<sp/>are<sp/>invalid.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>28/9/2016<sp/>John<sp/>Semmens.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>11/10/2016<sp/>added<sp/>MaxFileSize.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.2<sp/>29/10/2017<sp/>remove<sp/>items<sp/>related<sp/>to<sp/>MPU-2950</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.3<sp/>30/10/2017<sp/>added<sp/>compass<sp/>offset<sp/>angle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.4<sp/>6/12/2017<sp/>added<sp/>Motor<sp/>speed<sp/>mapping<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.5<sp/>17/1/2018<sp/>added<sp/>compass<sp/>calibration<sp/>defaults</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.6<sp/>18/2/2017<sp/>updated<sp/>default<sp/>values<sp/>for<sp/>motor<sp/>speed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.7<sp/>27/4/2018<sp/>updated<sp/>TargetHeadingFilterConstant<sp/>following<sp/>on-water<sp/>trials.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.8<sp/>28/10/2018<sp/>added<sp/>timezone_offset.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.9<sp/>21/2/2019<sp/>added<sp/>TackingMethod</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" kindref="member">SDCardLoggingMask</ref><sp/>=<sp/>49135;<sp/></highlight><highlight class="comment">//<sp/>enable<sp/>all<sp/>SD<sp/>Card<sp/>logging</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" kindref="member">TelemetryLoggingMask</ref><sp/>=<sp/>3215;<sp/></highlight><highlight class="comment">//<sp/>Enable<sp/>enough<sp/>for<sp/>the<sp/>Dashboard</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ab8e0fd66b86e53779bd9810853beb175" kindref="member">TackingMethod</ref><sp/>=<sp/><ref refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" kindref="member">ManoeuvreType::mtGybe</ref>;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" kindref="member">MinimumAngleDownWind</ref><sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>degrees<sp/>off<sp/>dead<sp/>downwind</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" kindref="member">MinimumAngleUpWind</ref><sp/>=<sp/>45;<sp/></highlight><highlight class="comment">//<sp/>degrees<sp/>off<sp/>head<sp/>to<sp/>wind.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1af1f613cbf51575ce5c01d197665778c9" kindref="member">WPCourseHoldRadius</ref><sp/>=<sp/>10;<sp/></highlight><highlight class="comment">//<sp/>metres<sp/>radius<sp/>from<sp/>WP<sp/>-<sp/>hold<sp/>course</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a38d036588253f42774ae514f55e731b8" kindref="member">MinimumWindChangeTime</ref><sp/>=<sp/>60;</highlight><highlight class="comment">//<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a03b05b4da3e4f48e56ceb07e88edf55e" kindref="member">MaximumTimePastFavouredTack</ref><sp/>=<sp/>300;<sp/></highlight><highlight class="comment">//<sp/>seconds<sp/><sp/>-<sp/>5<sp/>min</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a4fb27e7a2ba2adeebb68714c767d4c5f" kindref="member">SaveStateValues</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a0d81540f66f65f79aaef899207f903b5" kindref="member">CompassOffsetAngle</ref><sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a9483574d7305906b58eecb6c263480ab" kindref="member">WindAngleCalibrationOffset</ref><sp/>=<sp/>-90;<sp/></highlight><highlight class="comment">//<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a39745cbb9ba7b52a76eccb955af9b526" kindref="member">DisplayScreenView</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;m&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>mission<sp/>overview/<sp/>checklist</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1af730e3fa0e2cea723fc44c27048354ca" kindref="member">SDCardLogDelimiter</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;\t&apos;</highlight><highlight class="normal">;<sp/><sp/></highlight><highlight class="comment">//tab<sp/>--<sp/><sp/>perhaps<sp/><sp/>&apos;,&apos;<sp/>or<sp/>&apos;\t&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ac1943add4d21dc30723e9d90784b5ae6" kindref="member">TargetHeadingFilterConstant</ref><sp/>=<sp/>0.02;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a711dbb3e2dee764a9764411c80d24e48" kindref="member">SailableAngleMargin</ref><sp/>=<sp/>35;<sp/></highlight><highlight class="comment">//<sp/>was<sp/>45°,<sp/>changed<sp/>to<sp/>35° 15/4/2020</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1aeb3e43a3cab71ad7573c59c78f3cb0c0" kindref="member">timezone_offset</ref><sp/>=<sp/>11;<sp/></highlight><highlight class="comment">//<sp/>offset<sp/>to<sp/>our<sp/>timezone<sp/>from<sp/>UTC/GPS<sp/>time<sp/>+10<sp/>hours<sp/>for<sp/>EST,<sp/>and<sp/>+11<sp/>for<sp/>EDT<sp/>(summer<sp/>time).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1aa520d523476f17a3d4ee9db5e92f899a" kindref="member">MagnetVariation</ref><sp/>=<sp/>12;<sp/></highlight><highlight class="comment">//<sp/>about<sp/>12<sp/>degrees<sp/>East<sp/>for<sp/>Port<sp/>Philip</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a754b585ab8ab6b729faa0c4ca85aff36" kindref="member">MaxFileSize</ref><sp/>=<sp/>2048;<sp/></highlight><highlight class="comment">//<sp/><sp/>was<sp/>1024<sp/>kb<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a6e87d7c2d3bbe04a269b9ea1df95d08e" kindref="member">RC_FailSafe_Ch0</ref><sp/>=<sp/>1600;<sp/></highlight><highlight class="comment">//<sp/><sp/>micro<sp/>seconds<sp/>--<sp/>rudder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a3e03ea3e68c69e70790b89bb35c48891" kindref="member">RC_FailSafe_Ch1</ref><sp/>=<sp/>1500;<sp/></highlight><highlight class="comment">//<sp/><sp/>micro<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ab67f55a038996a2bc882f35ecf25df78" kindref="member">RC_FailSafe_Ch2</ref><sp/>=<sp/>1500;<sp/></highlight><highlight class="comment">//<sp/><sp/>micro<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ac521c18e56efe3dabafaeb2a9b1a2983" kindref="member">RC_FailSafe_Ch3</ref><sp/>=<sp/>1450;<sp/></highlight><highlight class="comment">//<sp/><sp/>micro<sp/>seconds<sp/>-<sp/>drive<sp/>motor<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1afc29b93865777b36fc05b69ee765d883" kindref="member">RC_FailSafe_Time</ref><sp/>=<sp/>10;<sp/></highlight><highlight class="comment">//<sp/><sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a5e0bc8124a329de5516eb134942a58a5" kindref="member">RC_IN_Channel_Command</ref><sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>channel<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" kindref="member">RC_IN_Channel_Steering</ref><sp/>=<sp/>1;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>channel<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a5e92833efd357eaf9312f7e4e0e059a4" kindref="member">RC_IN_Channel_Sail</ref><sp/>=<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>channel<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1aad74f16ddcc19bbba139a21fa0946749" kindref="member">RC_IN_Channel_Motor</ref><sp/>=<sp/>3;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>channel<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" kindref="member">Servo_Channel_Steering</ref><sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>channel<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" kindref="member">Servo_Channel_Steering_Stbd</ref><sp/>=<sp/>1;<sp/><sp/></highlight><highlight class="comment">//<sp/>channel<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1aba71822830cd657b53d27582ed06e465" kindref="member">Servo_Channel_Sail</ref><sp/>=<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>channel<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a0491cf60a1fc8db74596859134302b13" kindref="member">Servo_Channel_Motor</ref><sp/>=<sp/>3;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>channel<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ab0928a129fd553bac7719230eb271d48" kindref="member">RC_IN_Command_Threhold0</ref><sp/>=<sp/>900;<sp/><sp/></highlight><highlight class="comment">//<sp/>microseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1aa8605757da28b6c5b150ac3d3daad181" kindref="member">RC_IN_Command_Threhold1</ref><sp/>=<sp/>1100;<sp/></highlight><highlight class="comment">//<sp/>microseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1acb5f8a2de4f96f4cf1661e9834a553a2" kindref="member">RC_IN_Command_Threhold2</ref><sp/>=<sp/>1300;<sp/></highlight><highlight class="comment">//<sp/>microseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a451ddce737e6b1b1bb977b36723a4441" kindref="member">RC_IN_Command_Threhold3</ref><sp/>=<sp/>1700;<sp/></highlight><highlight class="comment">//<sp/>microseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ae7387ba3ace4c1aaca2dbc5fe0249631" kindref="member">RC_IN_Command_Threhold4</ref><sp/>=<sp/>1950;<sp/></highlight><highlight class="comment">//<sp/>microseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a409e8bbf3a308652af99ac03d65aa27f" kindref="member">RC_IN_Command_Threhold9</ref><sp/>=<sp/>2100;<sp/></highlight><highlight class="comment">//<sp/>microseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" kindref="member">DualRudder</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Single<sp/>Rudder<sp/>only</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a61d8859b3447d6566d13492f81a7f7a6" kindref="member">CommandPort</ref><sp/>=<sp/>0;<sp/><sp/></highlight><highlight class="comment">//<sp/>serial<sp/>port<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a59efead0f04f26233f9b1dfb3ec52945" kindref="member">BluetoothPort</ref><sp/>=<sp/>2;<sp/></highlight><highlight class="comment">//<sp/>Serial<sp/>Port2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ac88971303bbfeaefab6ff8a9910ebead" kindref="member">SatCommsPort</ref><sp/>=<sp/>3;<sp/></highlight><highlight class="comment">//<sp/>serial<sp/>port<sp/>3<sp/>//<sp/>radio<sp/>telemetry<sp/>port</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a66b02dad9a0c8a9abdb413fd7b02a685" kindref="member">CommandPortBaudRate</ref><sp/>=<sp/>9600;<sp/></highlight><highlight class="comment">//<sp/>Baud<sp/>Rate<sp/>.e.g.<sp/><sp/>57600<sp/>Baud,<sp/>9600<sp/>Baud</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a7523308a51da9a1de8e194446e3e68be" kindref="member">BTPortBaudRate</ref><sp/>=<sp/>9600;<sp/></highlight><highlight class="comment">//<sp/>Baud<sp/>Rate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a919cf7eb37862a7de7fde4cb52ff06bb" kindref="member">SatCommsPortBaudRate</ref><sp/>=<sp/>9600;<sp/></highlight><highlight class="comment">//<sp/>changed<sp/>from<sp/>57600Bd<sp/>for<sp/>the<sp/>std<sp/>433MHz<sp/>telemetry<sp/>radios<sp/>to<sp/>9600Bd<sp/>for<sp/>LoRa;<sp/><sp/>//<sp/>Baud<sp/>Rate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Steering<sp/>PID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//adjust<sp/>PID<sp/>25/4/2018<sp/>8,0,0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" kindref="member">pidKp</ref><sp/>=<sp/>8;<sp/></highlight><highlight class="comment">//<sp/>Proportional<sp/>//adjust<sp/>PID<sp/>25/4/2018</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" kindref="member">pidKi</ref><sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>Integral</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" kindref="member">pidKd</ref><sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>Differential</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" kindref="member">pidOutputmin</ref><sp/>=<sp/>-400;<sp/><sp/></highlight><highlight class="comment">//<sp/>steering<sp/>PID<sp/>output<sp/>limits<sp/>-<sp/>microseconds<sp/>-<sp/>min<sp/>was<sp/>1100us</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" kindref="member">pidOutputmax</ref><sp/>=<sp/>+400;<sp/><sp/></highlight><highlight class="comment">//<sp/>steering<sp/>PID<sp/>output<sp/>limits<sp/>-<sp/>microseconds<sp/>-<sp/>max<sp/>was<sp/>1900us</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" kindref="member">pidDirection</ref><sp/>=<sp/><ref refid="_p_i_d__v1_8h_1a00548cec6d104932bf79a65bac1c47e8" kindref="member">REVERSE</ref>;<sp/></highlight><highlight class="comment">//<sp/>Direction:<sp/>DIRECT<sp/>0<sp/>or<sp/>REVERSE<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" kindref="member">pidCentre</ref><sp/>=<sp/>1500;<sp/></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a3606fd3b8680031f302f53bbef238b35" kindref="member">FailsafeCommandState</ref><sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" kindref="member">VesselCommandStateType::vcsFollowMission</ref>;<sp/></highlight><highlight class="comment">//<sp/>mission<sp/>state<sp/>on<sp/>RC<sp/>Failure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a6d546066fa1eb099f8fff364b11c82ea" kindref="member">UseMotor</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>set<sp/>default<sp/>to<sp/>true<sp/>during<sp/>early<sp/>trials</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>some<sp/>reasonable<sp/>calibration<sp/>values<sp/>for<sp/>the<sp/>compass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a0876ce5174fefcd0b39cccee44eca68a" kindref="member">mx_min</ref><sp/>=<sp/>-6400;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a5c9f8e7fac316e921c900b245d3ab8e5" kindref="member">mx_max</ref><sp/>=<sp/>6400;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ab7c1874d390dec419ff4d54ce11b6ebd" kindref="member">my_min</ref><sp/>=<sp/>-10000;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1aac3f9de446641e39b318ba8f23ca12ce" kindref="member">my_max</ref><sp/>=<sp/>10000;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a1be1ac022e4efe86be6f72be280c2dac" kindref="member">mz_min</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a6758579cc2d41935882eab00baf129f5" kindref="member">mz_max</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a1176e7ee5accf3fd2610f2bdd2296f9c" kindref="member">LoiterRadius</ref><sp/>=<sp/>6;<sp/></highlight><highlight class="comment">//<sp/>metres</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a6502125ce871378cea999e4f23ce562d" kindref="member">TWD_Offset</ref><sp/>=<sp/>30;<sp/></highlight><highlight class="comment">//<sp/>degrees.<sp/>about<sp/>30<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Scale<sp/>and<sp/>Offset<sp/>for<sp/>mapping<sp/>trim<sp/>tab<sp/>angle<sp/>to<sp/>the<sp/>Servo<sp/>input<sp/>signal<sp/>in<sp/>microseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1ad0e88567b91c76388a29d2568d6d0e5e" kindref="member">TrimTabScale</ref><sp/>=<sp/>20;<sp/></highlight><highlight class="comment">//<sp/>us/degree.<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1aa57d2d289c80384c0c56c5b95b731807" kindref="member">TrimTabOffset</ref><sp/>=<sp/>1450;<sp/></highlight><highlight class="comment">//<sp/>us</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a5de1574374a7457242a06a189aec690f" kindref="member">TrimTabDefaultAngle</ref><sp/>=<sp/>15;<sp/></highlight><highlight class="comment">//<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>Configuration.<ref refid="structconfig_values_type_1a2c7a86bc55744528eb5ed1f8c6c84384" kindref="member">CTE_CorrectionGain</ref><sp/>=<sp/>20;<sp/></highlight><highlight class="comment">//<sp/>° <sp/>degrees.<sp/>apply<sp/>20° correction<sp/>to<sp/>the<sp/>CTS<sp/>when<sp/>CTE/CTEmax<sp/>=<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="config_values_8cpp_1aaf59ec5cc4107886faafaf655fb473a0" kindref="member">Load_ConfigValues</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SerialLog)</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Load<sp/>the<sp/>Config<sp/>values<sp/>from<sp/>EEPROM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>perform<sp/>a<sp/>simple<sp/>check<sp/>on<sp/>the<sp/>validity<sp/>of<sp/>the<sp/>stored<sp/>data<sp/>by<sp/>using<sp/>a<sp/>stored<sp/>structure<sp/>version<sp/>number.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>8/10/2016<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>23/10/2016<sp/>Updated<sp/>to<sp/>provide<sp/>option<sp/>to<sp/>display<sp/>messages.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="config_values_8cpp_1ab49ea931f56ddaccd91f622727485e78" kindref="member">Load_EEPROM_ConfigValues</ref>();</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(SerialLog)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).print(F(</highlight><highlight class="stringliteral">&quot;MSG,Current<sp/>EEPROM<sp/>Structure<sp/>Version:<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).print(Configuration.<ref refid="structconfig_values_type_1a58b57f58bc0dbd9e2537e3333221eda3" kindref="member">EEPROM_Storage_Version</ref>);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).print(F(</highlight><highlight class="stringliteral">&quot;.<sp/>Expected:<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).print(<ref refid="config_values_8h_1a7e00f3ca3fbac02f9896006e5cc74330" kindref="member">EEPROM_Storage_Version_Const</ref>);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).print(F(</highlight><highlight class="stringliteral">&quot;.<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).println((<ref refid="config_values_8cpp_1aeed2fa4d773a9e06ce652dadbcc9a5c8" kindref="member">EEPROM_Storage_Version_Valid</ref>()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;OK.&quot;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;Loading<sp/>Default<sp/>Values.&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>other<sp/>structures<sp/>from<sp/>the<sp/>EEPROM<sp/>provided<sp/>the<sp/>structure<sp/>storage<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="config_values_8cpp_1aeed2fa4d773a9e06ce652dadbcc9a5c8" kindref="member">EEPROM_Storage_Version_Valid</ref>())</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(SerialLog)</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).print(F(</highlight><highlight class="stringliteral">&quot;MSG,Loading<sp/>Mission..&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="config_values_8cpp_1a2bdd7ab0d4d833ce30748e5ac7e25cb3" kindref="member">load_EEPROM_Mission</ref>();</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(SerialLog)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).print(MissionValues.<ref refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" kindref="member">mission_size</ref>);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).println(F(</highlight><highlight class="stringliteral">&quot;<sp/>steps.&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>send<sp/>the<sp/>mission<sp/>command<sp/>list<sp/>to<sp/>the<sp/>serials<sp/>device.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_l_i_8cpp_1a2ec7404b9b0963a466f08b46849f4094" kindref="member">CLI_Processor</ref>(Configuration.<ref refid="structconfig_values_type_1a61d8859b3447d6566d13492f81a7f7a6" kindref="member">CommandPort</ref>,</highlight><highlight class="stringliteral">&quot;mcl,&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Configuration.<ref refid="structconfig_values_type_1a4fb27e7a2ba2adeebb68714c767d4c5f" kindref="member">SaveStateValues</ref>)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(SerialLog)</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="config_values_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).println(F(</highlight><highlight class="stringliteral">&quot;MSG,Loading<sp/>State<sp/>Values.&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="config_values_8cpp_1a1470bc0369470aa6445ea1692ae70e9b" kindref="member">Load_EEPROM_StateValues</ref>();</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>stored<sp/>configuration<sp/>is<sp/>invalid,<sp/>so<sp/>load<sp/>some<sp/>reasonable<sp/>default<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="config_values_8cpp_1a2698bbc75dc083e68bac543e95ae2c8e" kindref="member">Load_Config_default_values</ref>();</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp"/>
+  </compounddef>
+</doxygen>

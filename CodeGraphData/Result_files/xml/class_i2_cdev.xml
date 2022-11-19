@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_i2_cdev" kind="class" prot="public">
+    <compoundname>I2Cdev</compoundname>
+    <includes refid="_i2_cdev_8h" local="no">I2Cdev.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" prot="public" static="no" mutable="no">
+        <type>TwoWire *</type>
+        <definition>TwoWire* I2Cdev::I2C_Bus</definition>
+        <argsstring></argsstring>
+        <name>I2C_Bus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="48" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_i2_cdev_1a9109a1b3147393321f3ae7f14f1ddc1a" compoundref="_i2_cdev_8cpp" startline="32" endline="35">I2Cdev</referencedby>
+        <referencedby refid="class_i2_cdev_1a497282001e59a76e264615a60ea8cd0f" compoundref="_i2_cdev_8cpp" startline="208" endline="244">I2Cscan</referencedby>
+        <referencedby refid="class_i2_cdev_1a2465c54c60cc0efef964e33e6f2f9bbd" compoundref="_i2_cdev_8cpp" startline="66" endline="78">M24512DFMreadByte</referencedby>
+        <referencedby refid="class_i2_cdev_1a87889818f56775324ff7bef04a8d188a" compoundref="_i2_cdev_8cpp" startline="111" endline="123">M24512DFMreadBytes</referencedby>
+        <referencedby refid="class_i2_cdev_1a96f74d3b124d646892b6151727e2dff1" compoundref="_i2_cdev_8cpp" startline="147" endline="155">M24512DFMwriteByte</referencedby>
+        <referencedby refid="class_i2_cdev_1aa7cc90559a2251713a30789d753a7671" compoundref="_i2_cdev_8cpp" startline="188" endline="199">M24512DFMwriteBytes</referencedby>
+        <referencedby refid="class_i2_cdev_1af062f54dcc4168cd6bbc09694efc91bd" compoundref="_i2_cdev_8cpp" startline="46" endline="56">readByte</referencedby>
+        <referencedby refid="class_i2_cdev_1ab46c2b68fc55c4267c84a168b52908ec" compoundref="_i2_cdev_8cpp" startline="88" endline="100">readBytes</referencedby>
+        <referencedby refid="class_i2_cdev_1adbbddbf36a465e7bc8e7c6ad554f5224" compoundref="_i2_cdev_8cpp" startline="166" endline="177">writeBytes</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i2_cdev_1a9109a1b3147393321f3ae7f14f1ddc1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>I2Cdev::I2Cdev</definition>
+        <argsstring>(TwoWire *)</argsstring>
+        <name>I2Cdev</name>
+        <param>
+          <type>TwoWire *</type>
+          <defname>i2c_bus</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="37" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="32" bodyend="35"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1af062f54dcc4168cd6bbc09694efc91bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t I2Cdev::readByte</definition>
+        <argsstring>(uint8_t address, uint8_t subAddress)</argsstring>
+        <name>readByte</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>subAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="38" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="46" bodyend="56"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+        <referencedby refid="_u_s_f_s___i_m_u_8cpp_1a03509f18ae8b224d02f95cacf098c151" compoundref="_u_s_f_s___i_m_u_8cpp" startline="98" endline="107">FetchEventStatus</referencedby>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1afff906136f41f83a409e15c6ca4eb027" compoundref="_e_m7180_8cpp" startline="883" endline="901">EM7180::WS_PassThroughMode</referencedby>
+        <referencedby refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" compoundref="_e_m7180_8cpp" startline="911" endline="937">EM7180::WS_Resume</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1a2465c54c60cc0efef964e33e6f2f9bbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t I2Cdev::M24512DFMreadByte</definition>
+        <argsstring>(uint8_t device_address, uint8_t data_address1, uint8_t data_address2)</argsstring>
+        <name>M24512DFMreadByte</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>device_address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data_address1</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data_address2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="39" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="66" bodyend="78"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1ab46c2b68fc55c4267c84a168b52908ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2Cdev::readBytes</definition>
+        <argsstring>(uint8_t address, uint8_t subAddress, uint8_t count, uint8_t *dest)</argsstring>
+        <name>readBytes</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>subAddress</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="40" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="88" bodyend="100"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+        <referencedby refid="class_e_m7180_1ac062a10fd1d6403fdcc4c2fa0773a33f" compoundref="_e_m7180_8cpp" startline="336" endline="342">EM7180::Baro_getPress</referencedby>
+        <referencedby refid="class_e_m7180_1af727b80b14013f17d644654fdea8358d" compoundref="_e_m7180_8cpp" startline="352" endline="358">EM7180::Baro_getTemp</referencedby>
+        <referencedby refid="class_e_m7180_1ac0af50da5c9b7e8c9805d7f4a95039b9" compoundref="_e_m7180_8cpp" startline="316" endline="326">EM7180::getQUAT</referencedby>
+        <referencedby refid="class_e_m7180_1a0a6ac5bc8a4ac42a886e8298b71a83db" compoundref="_e_m7180_8cpp" startline="251" endline="254">EM7180::i2c_getSixRawADC</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1a87889818f56775324ff7bef04a8d188a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2Cdev::M24512DFMreadBytes</definition>
+        <argsstring>(uint8_t device_address, uint8_t data_address1, uint8_t data_address2, uint8_t count, uint8_t *dest)</argsstring>
+        <name>M24512DFMreadBytes</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>device_address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data_address1</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data_address2</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="111" bodyend="123"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+        <referencedby refid="class_e_m7180_1a4193ed4054715b486c8fd9c48a75d19c" compoundref="_e_m7180_8cpp" startline="1025" endline="1036">EM7180::readAccelCal</referencedby>
+        <referencedby refid="class_e_m7180_1a4d612cbec5feba4d33bca19d94ef1ad1" compoundref="_e_m7180_8cpp" startline="947" endline="978">EM7180::readSenParams</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1a8953ec03b26bc003268a893c760b3e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2Cdev::writeByte</definition>
+        <argsstring>(uint8_t devAddr, uint8_t regAddr, uint8_t data)</argsstring>
+        <name>writeByte</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>devAddr</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>regAddr</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="43" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="133" bodyend="136"/>
+        <references refid="class_i2_cdev_1adbbddbf36a465e7bc8e7c6ad554f5224" compoundref="_i2_cdev_8cpp" startline="166" endline="177">writeBytes</references>
+        <referencedby refid="class_e_m7180_1a44761e770c42dbf0c74e27bd5ad5a537" compoundref="_e_m7180_8cpp" startline="427" endline="490">EM7180::ACC_Common</referencedby>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1afff906136f41f83a409e15c6ca4eb027" compoundref="_e_m7180_8cpp" startline="883" endline="901">EM7180::WS_PassThroughMode</referencedby>
+        <referencedby refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" compoundref="_e_m7180_8cpp" startline="911" endline="937">EM7180::WS_Resume</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1a96f74d3b124d646892b6151727e2dff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2Cdev::M24512DFMwriteByte</definition>
+        <argsstring>(uint8_t device_address, uint8_t data_address1, uint8_t data_address2, uint8_t data)</argsstring>
+        <name>M24512DFMwriteByte</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>device_address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data_address1</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data_address2</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="44" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="147" bodyend="155"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1adbbddbf36a465e7bc8e7c6ad554f5224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2Cdev::writeBytes</definition>
+        <argsstring>(uint8_t devAddr, uint8_t regAddr, uint8_t length, uint8_t *data)</argsstring>
+        <name>writeBytes</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>devAddr</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>regAddr</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="45" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="166" bodyend="177"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+        <referencedby refid="class_i2_cdev_1a8953ec03b26bc003268a893c760b3e6c" compoundref="_i2_cdev_8cpp" startline="133" endline="136">writeByte</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1aa7cc90559a2251713a30789d753a7671" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2Cdev::M24512DFMwriteBytes</definition>
+        <argsstring>(uint8_t device_address, uint8_t data_address1, uint8_t data_address2, uint8_t count, uint8_t *dest)</argsstring>
+        <name>M24512DFMwriteBytes</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>device_address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data_address1</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>data_address2</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="46" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="188" bodyend="199"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+        <referencedby refid="class_e_m7180_1afc13d26aabb1ac8f4d760bbd4cef1612" compoundref="_e_m7180_8cpp" startline="1046" endline="1058">EM7180::writeAccCal</referencedby>
+        <referencedby refid="class_e_m7180_1a043f4665f54cf6e36a8584b2f51642a8" compoundref="_e_m7180_8cpp" startline="988" endline="1015">EM7180::writeSenParams</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_cdev_1a497282001e59a76e264615a60ea8cd0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2Cdev::I2Cscan</definition>
+        <argsstring>()</argsstring>
+        <name>I2Cscan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="47" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.cpp" bodystart="208" bodyend="244"/>
+        <references refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" compoundref="_i2_cdev_8h" startline="48">I2C_Bus</references>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" line="35" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/I2Cdev.h" bodystart="35" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_i2_cdev_1ac9e8868e7a8fdd0779ef7841768b0cad" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>I2C_Bus</name></member>
+      <member refid="class_i2_cdev_1a9109a1b3147393321f3ae7f14f1ddc1a" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>I2Cdev</name></member>
+      <member refid="class_i2_cdev_1a497282001e59a76e264615a60ea8cd0f" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>I2Cscan</name></member>
+      <member refid="class_i2_cdev_1a2465c54c60cc0efef964e33e6f2f9bbd" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>M24512DFMreadByte</name></member>
+      <member refid="class_i2_cdev_1a87889818f56775324ff7bef04a8d188a" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>M24512DFMreadBytes</name></member>
+      <member refid="class_i2_cdev_1a96f74d3b124d646892b6151727e2dff1" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>M24512DFMwriteByte</name></member>
+      <member refid="class_i2_cdev_1aa7cc90559a2251713a30789d753a7671" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>M24512DFMwriteBytes</name></member>
+      <member refid="class_i2_cdev_1af062f54dcc4168cd6bbc09694efc91bd" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>readByte</name></member>
+      <member refid="class_i2_cdev_1ab46c2b68fc55c4267c84a168b52908ec" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>readBytes</name></member>
+      <member refid="class_i2_cdev_1a8953ec03b26bc003268a893c760b3e6c" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>writeByte</name></member>
+      <member refid="class_i2_cdev_1adbbddbf36a465e7bc8e7c6ad554f5224" prot="public" virt="non-virtual"><scope>I2Cdev</scope><name>writeBytes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

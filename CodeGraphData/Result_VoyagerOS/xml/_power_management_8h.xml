@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_power_management_8h" kind="file">
+    <compoundname>PowerManagement.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_c_l_i_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</includedby>
+    <includedby refid="_mission_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</includedby>
+    <includedby refid="_power_management_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.cpp</includedby>
+    <incdepgraph>
+      <node id="669">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h</label>
+        <link refid="PowerManagement.h"/>
+        <childnode refid="670" relation="include">
+        </childnode>
+      </node>
+      <node id="670">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="673">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</label>
+        <link refid="_mission_8cpp"/>
+      </node>
+      <node id="672">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="671">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h</label>
+        <link refid="PowerManagement.h"/>
+        <childnode refid="672" relation="include">
+        </childnode>
+        <childnode refid="673" relation="include">
+        </childnode>
+        <childnode refid="674" relation="include">
+        </childnode>
+      </node>
+      <node id="674">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.cpp</label>
+        <link refid="_power_management_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_power_management_8h_1ae6dc0c07bd43a3da0e706966d0420018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitPowerManagement</definition>
+        <argsstring>(void)</argsstring>
+        <name>InitPowerManagement</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.cpp" bodystart="14" bodyend="31"/>
+        <references refid="_power_management_8cpp_1ad618f52be03d19688ad8feb751237673">GPS_PowerPin</references>
+        <references refid="_power_management_8cpp_1a5bde948b075a63f6656b08e5977d59ef">OLED_PowerPin</references>
+        <references refid="_power_management_8cpp_1ac37e3b48e90053aaf454bc7cf542bb6e">RC_PowerPin</references>
+        <references refid="_power_management_8cpp_1a7958b6ee75faf28a6b0190df20688f52" compoundref="_power_management_8cpp" startline="39" endline="42">RCPowerOn</references>
+        <references refid="_power_management_8cpp_1a97ab92018d2e8b4524fa5dd42bda67fe">Telemetry_PowerPin</references>
+        <references refid="_power_management_8cpp_1a280d380741e516360969fe36cca84f6b" compoundref="_power_management_8cpp" startline="34" endline="37">TelemetryPowerOn</references>
+      </memberdef>
+      <memberdef kind="function" id="_power_management_8h_1a280d380741e516360969fe36cca84f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TelemetryPowerOn</definition>
+        <argsstring>(boolean PowerOn)</argsstring>
+        <name>TelemetryPowerOn</name>
+        <param>
+          <type>boolean</type>
+          <declname>PowerOn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h" line="14" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.cpp" bodystart="34" bodyend="37"/>
+        <references refid="_power_management_8cpp_1a97ab92018d2e8b4524fa5dd42bda67fe">Telemetry_PowerPin</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_power_management_8h_1ae6dc0c07bd43a3da0e706966d0420018" compoundref="_power_management_8cpp" startline="14" endline="31">InitPowerManagement</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_power_management_8h_1aea1bad4cf49afc1d1c2fb2251439f54d" compoundref="_power_management_8cpp" startline="44" endline="53">PowerControl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_power_management_8h_1a7958b6ee75faf28a6b0190df20688f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RCPowerOn</definition>
+        <argsstring>(boolean PowerOn)</argsstring>
+        <name>RCPowerOn</name>
+        <param>
+          <type>boolean</type>
+          <declname>PowerOn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h" line="16" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.cpp" bodystart="39" bodyend="42"/>
+        <references refid="_power_management_8cpp_1ac37e3b48e90053aaf454bc7cf542bb6e">RC_PowerPin</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_power_management_8h_1ae6dc0c07bd43a3da0e706966d0420018" compoundref="_power_management_8cpp" startline="14" endline="31">InitPowerManagement</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_power_management_8h_1aea1bad4cf49afc1d1c2fb2251439f54d" compoundref="_power_management_8cpp" startline="44" endline="53">PowerControl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_power_management_8h_1aea1bad4cf49afc1d1c2fb2251439f54d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PowerControl</definition>
+        <argsstring>(int controlMask)</argsstring>
+        <name>PowerControl</name>
+        <param>
+          <type>int</type>
+          <declname>controlMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h" line="18" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.cpp" bodystart="44" bodyend="53"/>
+        <references refid="_power_management_8cpp_1a7958b6ee75faf28a6b0190df20688f52" compoundref="_power_management_8cpp" startline="39" endline="42">RCPowerOn</references>
+        <references refid="_power_management_8cpp_1a280d380741e516360969fe36cca84f6b" compoundref="_power_management_8cpp" startline="34" endline="37">TelemetryPowerOn</references>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>PowerManagement.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_POWERMANAGEMENT_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_POWERMANAGEMENT_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_power_management_8h_1ae6dc0c07bd43a3da0e706966d0420018" kindref="member">InitPowerManagement</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_power_management_8h_1a280d380741e516360969fe36cca84f6b" kindref="member">TelemetryPowerOn</ref>(</highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>PowerOn);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_power_management_8h_1a7958b6ee75faf28a6b0190df20688f52" kindref="member">RCPowerOn</ref>(</highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>PowerOn);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_power_management_8h_1aea1bad4cf49afc1d1c2fb2251439f54d" kindref="member">PowerControl</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>controlMask);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h"/>
+  </compounddef>
+</doxygen>

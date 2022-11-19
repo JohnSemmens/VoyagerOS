@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="gfxfont_8h" kind="file">
+    <compoundname>gfxfont.h</compoundname>
+    <includedby refid="_adafruit___g_f_x_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h</includedby>
+    <invincdepgraph>
+      <node id="350">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h</label>
+        <link refid="_adafruit___g_f_x_8h"/>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp</label>
+        <link refid="_adafruit___s_s_d1306_8cpp"/>
+      </node>
+      <node id="354">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="353">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h</label>
+        <link refid="_adafruit___s_s_d1306_8h"/>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp</label>
+        <link refid="_adafruit___g_f_x_8cpp"/>
+      </node>
+      <node id="349">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h</label>
+        <link refid="gfxfont.h"/>
+        <childnode refid="350" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_g_f_xglyph" prot="public">GFXglyph</innerclass>
+    <innerclass refid="struct_g_f_xfont" prot="public">GFXfont</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Font<sp/>structures<sp/>for<sp/>newer<sp/>Adafruit_GFX<sp/>(1.1<sp/>and<sp/>later).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example<sp/>fonts<sp/>are<sp/>included<sp/>in<sp/>&apos;Fonts&apos;<sp/>directory.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>use<sp/>a<sp/>font<sp/>in<sp/>your<sp/>Arduino<sp/>sketch,<sp/>#include<sp/>the<sp/>corresponding<sp/>.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>file<sp/>and<sp/>pass<sp/>address<sp/>of<sp/>GFXfont<sp/>struct<sp/>to<sp/>setFont().<sp/><sp/>Pass<sp/>NULL<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>revert<sp/>to<sp/>&apos;classic&apos;<sp/>fixed-space<sp/>bitmap<sp/>font.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_GFXFONT_H_</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_GFXFONT_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="struct_g_f_xglyph" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="comment">//<sp/>Data<sp/>stored<sp/>PER<sp/>GLYPH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="struct_g_f_xglyph_1a24d52036821c10af52a742a1d7fbd9b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_g_f_xglyph_1a24d52036821c10af52a742a1d7fbd9b8" kindref="member">bitmapOffset</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>into<sp/>GFXfont-&gt;bitmap</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_g_f_xglyph_1a02bd34fd474af250b230f52cee75a6c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="struct_g_f_xglyph_1a02bd34fd474af250b230f52cee75a6c1" kindref="member">width</ref>,<sp/>height;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Bitmap<sp/>dimensions<sp/>in<sp/>pixels</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="struct_g_f_xglyph_1a9b191040252aa9b5362087d65366bbf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="struct_g_f_xglyph_1a9b191040252aa9b5362087d65366bbf2" kindref="member">xAdvance</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Distance<sp/>to<sp/>advance<sp/>cursor<sp/>(x<sp/>axis)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="struct_g_f_xglyph_1a96b2c0dbe314bf053cdc0d5c622e76a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int8_t<sp/><sp/><sp/>xOffset,<sp/><ref refid="struct_g_f_xglyph_1a96b2c0dbe314bf053cdc0d5c622e76a7" kindref="member">yOffset</ref>;<sp/></highlight><highlight class="comment">//<sp/>Dist<sp/>from<sp/>cursor<sp/>pos<sp/>to<sp/>UL<sp/>corner</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}<sp/><ref refid="struct_g_f_xglyph" kindref="compound">GFXglyph</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="struct_g_f_xfont" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="comment">//<sp/>Data<sp/>stored<sp/>for<sp/>FONT<sp/>AS<sp/>A<sp/>WHOLE:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="struct_g_f_xfont_1a867b14d604450addbeaf62ae1e4799a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/>*<ref refid="struct_g_f_xfont_1a867b14d604450addbeaf62ae1e4799a7" kindref="member">bitmap</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Glyph<sp/>bitmaps,<sp/>concatenated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="struct_g_f_xfont_1af63d88fa053c9a634e86eab7c96db290" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_g_f_xglyph" kindref="compound">GFXglyph</ref><sp/>*<ref refid="struct_g_f_xfont_1af63d88fa053c9a634e86eab7c96db290" kindref="member">glyph</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Glyph<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="struct_g_f_xfont_1a2d2ef5e8e2984dc65a7820e2906855b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/>first,<sp/><ref refid="struct_g_f_xfont_1a2d2ef5e8e2984dc65a7820e2906855b2" kindref="member">last</ref>;<sp/></highlight><highlight class="comment">//<sp/>ASCII<sp/>extents</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="struct_g_f_xfont_1ac2c2f0184b810a562be808fbb98822fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><ref refid="struct_g_f_xfont_1ac2c2f0184b810a562be808fbb98822fa" kindref="member">yAdvance</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Newline<sp/>distance<sp/>(y<sp/>axis)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}<sp/><ref refid="struct_g_f_xfont" kindref="compound">GFXfont</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_GFXFONT_H_</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h"/>
+  </compounddef>
+</doxygen>

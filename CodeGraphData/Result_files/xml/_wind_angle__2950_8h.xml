@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_wind_angle__2950_8h" kind="file">
+    <compoundname>WindAngle_2950.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_c_l_i_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</includedby>
+    <includedby refid="_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_telemetry_messages_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</includedby>
+    <includedby refid="_wind_angle__2950_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp</includedby>
+    <includedby refid="_wingsail_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</includedby>
+    <incdepgraph>
+      <node id="1019">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h</label>
+        <link refid="WindAngle_2950.h"/>
+        <childnode refid="1020" relation="include">
+        </childnode>
+      </node>
+      <node id="1020">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1022">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="1025">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="1024">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="1027">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</label>
+        <link refid="_wingsail_8cpp"/>
+      </node>
+      <node id="1023">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="1021">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h</label>
+        <link refid="WindAngle_2950.h"/>
+        <childnode refid="1022" relation="include">
+        </childnode>
+        <childnode refid="1023" relation="include">
+        </childnode>
+        <childnode refid="1024" relation="include">
+        </childnode>
+        <childnode refid="1025" relation="include">
+        </childnode>
+        <childnode refid="1026" relation="include">
+        </childnode>
+        <childnode refid="1027" relation="include">
+        </childnode>
+      </node>
+      <node id="1026">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp</label>
+        <link refid="_wind_angle__2950_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_wind_angle__2950_8h_1ad3f11cfd1c41ffd8a46e65faecf862cd" prot="public" static="no">
+        <name>_IMU_h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h" line="4" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WingSailAngleSensor_Init</definition>
+        <argsstring>(int CommandPort)</argsstring>
+        <name>WingSailAngleSensor_Init</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp" bodystart="49" bodyend="147"/>
+        <references refid="class_m_p_u9250_1a7b0e6389baccd5592c95cae9d24d1317" compoundref="_m_p_u9250_8h" startline="231">MPU9250::accelBias</references>
+        <references refid="class_m_p_u9250_1aeac1ae4402a4eb9a74bea5ad8af929c1" compoundref="_m_p_u9250_8cpp" startline="211" endline="356">MPU9250::calibrateMPU9250</references>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="class_m_p_u9250_1a4fc2232b3fdbd61bc1024c86842ddf9a" compoundref="_m_p_u9250_8h" startline="231">MPU9250::gyroBias</references>
+        <references refid="class_m_p_u9250_1aab7b6d912fdc88c4fedfad90abe2aeab" compoundref="_m_p_u9250_8cpp" startline="128" endline="147">MPU9250::initAK8963</references>
+        <references refid="class_m_p_u9250_1a71de2142b4440cd5a0e99066f9890e27" compoundref="_m_p_u9250_8h" startline="269">MPU9250::Initialsed</references>
+        <references refid="class_m_p_u9250_1a03803202142ac461867daa9dd06fdd80" compoundref="_m_p_u9250_8cpp" startline="149" endline="205">MPU9250::initMPU9250</references>
+        <references refid="_wind_angle__2950_8cpp_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</references>
+        <references refid="class_m_p_u9250_1a1076b6b2c90d58ab4a0c2f6cc7110b18" compoundref="_m_p_u9250_8h" startline="229">MPU9250::magCalibration</references>
+        <references refid="class_m_p_u9250_1a8f60e4e9a6511c9a5bc6a437484dab0f" compoundref="_m_p_u9250_8h" startline="250">MPU9250::MagneticAngleCalibrationMode</references>
+        <references refid="_m_p_u9250_8h_1af4d54e584a662662888836b3a9b9eb08" compoundref="_m_p_u9250_8h" startline="176">MPU9250_ADDRESS</references>
+        <references refid="_wind_angle__2950_8cpp_1a3b5084021087677ea8d31dbee2d98f70" compoundref="_wind_angle__2950_8cpp" startline="39">MPU9250_ID</references>
+        <references refid="class_m_p_u9250_1ad3bbdef687191a70354ee2f900352993" compoundref="_m_p_u9250_8cpp" startline="360" endline="442">MPU9250::MPU9250SelfTest</references>
+        <references refid="_wind_angle__2950_8cpp_1a15ba24e40e95c7684d214548cce20fb3" compoundref="_wind_angle__2950_8cpp" startline="40">MPU9255_ID</references>
+        <references refid="class_m_p_u9250_1a846032e6a6d737f4ff62065ca0e1568f" compoundref="_m_p_u9250_8cpp" startline="454" endline="463">MPU9250::readByte</references>
+        <references refid="class_m_p_u9250_1ae9bbaec48bb667684b5d383c8a3c7504" compoundref="_m_p_u9250_8h" startline="232">MPU9250::SelfTest</references>
+        <references refid="_wind_angle__2950_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <references refid="_m_p_u9250_8h_1a1f3713ef719334aabf2d198255a14b90" compoundref="_m_p_u9250_8h" startline="162">WHO_AM_I_MPU9250</references>
+      </memberdef>
+      <memberdef kind="function" id="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WingSailAngleSensor_Read</definition>
+        <argsstring>(void)</argsstring>
+        <name>WingSailAngleSensor_Read</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h" line="13" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp" bodystart="194" bodyend="263"/>
+        <references refid="class_m_p_u9250_1adb56df6ceaf1dc204f97270540ac8b14" compoundref="_m_p_u9250_8h" startline="234">MPU9250::accelCount</references>
+        <references refid="class_m_p_u9250_1afa89af2772cead0f76a4ddd92ec5f6a8" compoundref="_m_p_u9250_8h" startline="225">MPU9250::aRes</references>
+        <references refid="class_m_p_u9250_1aea8a7622821bf8aca55fcef71d91e29f" compoundref="_m_p_u9250_8h" startline="227">MPU9250::ax</references>
+        <references refid="class_m_p_u9250_1a5129e95dbe12544fa34cc53b5644ff71" compoundref="_m_p_u9250_8h" startline="227">MPU9250::ay</references>
+        <references refid="class_m_p_u9250_1a8ab7a335476e40a26aba80f867ac7da9" compoundref="_m_p_u9250_8h" startline="227">MPU9250::az</references>
+        <references refid="class_m_p_u9250_1a9d231520d019ba7879c60ef7b72707a5" compoundref="_m_p_u9250_8h" startline="217">MPU9250::count</references>
+        <references refid="class_m_p_u9250_1a4d6b6338685120de2e21aa30d9d89389" compoundref="_m_p_u9250_8h" startline="215">MPU9250::delt_t</references>
+        <references refid="class_m_p_u9250_1a1c7dba3645913bf97f8b47d2bd4af2b0" compoundref="_m_p_u9250_8cpp" startline="44" endline="63">MPU9250::getAres</references>
+        <references refid="class_m_p_u9250_1afd804ec9bd68961fc0084af461104304" compoundref="_m_p_u9250_8cpp" startline="23" endline="42">MPU9250::getGres</references>
+        <references refid="class_m_p_u9250_1ab6b113da9b2fb006eb44dc8078e699c5" compoundref="_m_p_u9250_8cpp" startline="9" endline="21">MPU9250::getMres</references>
+        <references refid="class_m_p_u9250_1a2c137b20138d3c80c4828691d5656d92" compoundref="_m_p_u9250_8h" startline="225">MPU9250::gRes</references>
+        <references refid="class_m_p_u9250_1a59b6d7bd37738bac258da24ad330feef" compoundref="_m_p_u9250_8h" startline="227">MPU9250::gx</references>
+        <references refid="class_m_p_u9250_1a126311c382d2667b7bc7cbe1f9b38b51" compoundref="_m_p_u9250_8h" startline="227">MPU9250::gy</references>
+        <references refid="class_m_p_u9250_1a14ab2e2ab741ca245007cb9a134e07f3" compoundref="_m_p_u9250_8h" startline="222">MPU9250::gyroCount</references>
+        <references refid="class_m_p_u9250_1a756658ca06a3807ef426ab87022a15c9" compoundref="_m_p_u9250_8h" startline="227">MPU9250::gz</references>
+        <references refid="_wind_angle__2950_8cpp_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</references>
+        <references refid="_m_p_u9250_8h_1a62cba161837810295654c3cc2de959a6" compoundref="_m_p_u9250_8h" startline="104">INT_STATUS</references>
+        <references refid="class_m_p_u9250_1a0e05494e9b3bec043cd890f0bc8917c9" compoundref="_m_p_u9250_8h" startline="229">MPU9250::magbias</references>
+        <references refid="class_m_p_u9250_1a1076b6b2c90d58ab4a0c2f6cc7110b18" compoundref="_m_p_u9250_8h" startline="229">MPU9250::magCalibration</references>
+        <references refid="class_m_p_u9250_1aff92db5334c43a72f5c2f1fc8ee6f596" compoundref="_m_p_u9250_8h" startline="223">MPU9250::magCount</references>
+        <references refid="class_m_p_u9250_1add8846692e3550adc9a6a95517aec4d5" compoundref="_m_p_u9250_8h" startline="243">MPU9250::MagneticAngle</references>
+        <references refid="class_m_p_u9250_1a8f60e4e9a6511c9a5bc6a437484dab0f" compoundref="_m_p_u9250_8h" startline="250">MPU9250::MagneticAngleCalibrationMode</references>
+        <references refid="_m_p_u9250_8h_1af4d54e584a662662888836b3a9b9eb08" compoundref="_m_p_u9250_8h" startline="176">MPU9250_ADDRESS</references>
+        <references refid="class_m_p_u9250_1a173e0594b9d3ecb6ece2b71f9f59fc50" compoundref="_m_p_u9250_8h" startline="225">MPU9250::mRes</references>
+        <references refid="class_m_p_u9250_1aa4cc8b2c9417304d1106bdbd988ac607" compoundref="_m_p_u9250_8h" startline="227">MPU9250::mx</references>
+        <references refid="class_m_p_u9250_1aa3cb5dd3e1f8bf678a2734885d33e56c" compoundref="_m_p_u9250_8h" startline="237">MPU9250::mx_max</references>
+        <references refid="class_m_p_u9250_1a1c31945120ad411a226400690b3182cb" compoundref="_m_p_u9250_8h" startline="236">MPU9250::mx_min</references>
+        <references refid="class_m_p_u9250_1ad7cf9fe3134d24f46705881b2e002f31" compoundref="_m_p_u9250_8h" startline="227">MPU9250::my</references>
+        <references refid="class_m_p_u9250_1a02007a0db5b9f53aefe1d37139bcc23d" compoundref="_m_p_u9250_8h" startline="239">MPU9250::my_max</references>
+        <references refid="class_m_p_u9250_1a5025a77f0594dc6ffd6dfac9bbdbb459" compoundref="_m_p_u9250_8h" startline="238">MPU9250::my_min</references>
+        <references refid="class_m_p_u9250_1af11072922aa71ffb125fe3786f848653" compoundref="_m_p_u9250_8h" startline="227">MPU9250::mz</references>
+        <references refid="class_m_p_u9250_1a0c33dd99aa2772cc50aa67bbd3e65137" compoundref="_m_p_u9250_8h" startline="241">MPU9250::mz_max</references>
+        <references refid="class_m_p_u9250_1aac36dca80b508e7516160df705b28a33" compoundref="_m_p_u9250_8h" startline="240">MPU9250::mz_min</references>
+        <references refid="class_m_p_u9250_1ab3d0117a094b81ac2e07f5c2d68aa5f4" compoundref="_m_p_u9250_8h" startline="212">MPU9250::pitch</references>
+        <references refid="class_m_p_u9250_1a9ad1847d56ff8d3660a9eb6fee3a9d9b" compoundref="_m_p_u9250_8cpp" startline="66" endline="73">MPU9250::readAccelData</references>
+        <references refid="class_m_p_u9250_1a846032e6a6d737f4ff62065ca0e1568f" compoundref="_m_p_u9250_8cpp" startline="454" endline="463">MPU9250::readByte</references>
+        <references refid="class_m_p_u9250_1a7f0f6be23ed65146391cf91e4739ccc0" compoundref="_m_p_u9250_8cpp" startline="76" endline="83">MPU9250::readGyroData</references>
+        <references refid="class_m_p_u9250_1a5d3589bd83a003da56546474dd9ca519" compoundref="_m_p_u9250_8cpp" startline="85" endline="106">MPU9250::readMagData</references>
+        <references refid="class_m_p_u9250_1a3ab318a519e0f85a38d0e40d4bedc89f" compoundref="_m_p_u9250_8cpp" startline="108" endline="113">MPU9250::readTempData</references>
+        <references refid="class_m_p_u9250_1ad394d6659aa446adff547feaa4985f94" compoundref="_m_p_u9250_8h" startline="212">MPU9250::roll</references>
+        <references refid="class_m_p_u9250_1ac40db4e2fb94e9b33ec0b821c0b6ed2d" compoundref="_m_p_u9250_8h" startline="218">MPU9250::sum</references>
+        <references refid="class_m_p_u9250_1a604d036ab632885152ab770b3c64676a" compoundref="_m_p_u9250_8h" startline="217">MPU9250::sumCount</references>
+        <references refid="class_m_p_u9250_1a8fa1b4fa4bc8db4bd162bc4f8ee8f0ea" compoundref="_m_p_u9250_8h" startline="214">MPU9250::tempCount</references>
+        <references refid="class_m_p_u9250_1a2190394242c2b74ff53c20f8180af287" compoundref="_m_p_u9250_8h" startline="213">MPU9250::temperature</references>
+        <references refid="class_m_p_u9250_1a39e17cffe3de219d3f991b6476833e40" compoundref="_m_p_u9250_8cpp" startline="116" endline="126">MPU9250::updateTime</references>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU_Mag_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>IMU_Mag_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h" line="15" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp" bodystart="149" bodyend="163"/>
+        <references refid="class_m_p_u9250_1aa4cc8b2c9417304d1106bdbd988ac607" compoundref="_m_p_u9250_8h" startline="227">MPU9250::mx</references>
+        <references refid="class_m_p_u9250_1aa3cb5dd3e1f8bf678a2734885d33e56c" compoundref="_m_p_u9250_8h" startline="237">MPU9250::mx_max</references>
+        <references refid="class_m_p_u9250_1a1c31945120ad411a226400690b3182cb" compoundref="_m_p_u9250_8h" startline="236">MPU9250::mx_min</references>
+        <references refid="class_m_p_u9250_1ad7cf9fe3134d24f46705881b2e002f31" compoundref="_m_p_u9250_8h" startline="227">MPU9250::my</references>
+        <references refid="class_m_p_u9250_1a02007a0db5b9f53aefe1d37139bcc23d" compoundref="_m_p_u9250_8h" startline="239">MPU9250::my_max</references>
+        <references refid="class_m_p_u9250_1a5025a77f0594dc6ffd6dfac9bbdbb459" compoundref="_m_p_u9250_8h" startline="238">MPU9250::my_min</references>
+        <references refid="class_m_p_u9250_1af11072922aa71ffb125fe3786f848653" compoundref="_m_p_u9250_8h" startline="227">MPU9250::mz</references>
+        <references refid="class_m_p_u9250_1a0c33dd99aa2772cc50aa67bbd3e65137" compoundref="_m_p_u9250_8h" startline="241">MPU9250::mz_max</references>
+        <references refid="class_m_p_u9250_1aac36dca80b508e7516160df705b28a33" compoundref="_m_p_u9250_8h" startline="240">MPU9250::mz_min</references>
+        <references refid="_wind_angle__2950_8cpp_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU_Mag_Calibrate</definition>
+        <argsstring>(void)</argsstring>
+        <name>IMU_Mag_Calibrate</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h" line="16" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp" bodystart="165" bodyend="192"/>
+        <references refid="class_m_p_u9250_1aa4cc8b2c9417304d1106bdbd988ac607" compoundref="_m_p_u9250_8h" startline="227">MPU9250::mx</references>
+        <references refid="structconfig_values_type_1a5c9f8e7fac316e921c900b245d3ab8e5" compoundref="config_values_8h" startline="124">configValuesType::mx_max</references>
+        <references refid="class_m_p_u9250_1aa3cb5dd3e1f8bf678a2734885d33e56c" compoundref="_m_p_u9250_8h" startline="237">MPU9250::mx_max</references>
+        <references refid="structconfig_values_type_1a0876ce5174fefcd0b39cccee44eca68a" compoundref="config_values_8h" startline="123">configValuesType::mx_min</references>
+        <references refid="class_m_p_u9250_1a1c31945120ad411a226400690b3182cb" compoundref="_m_p_u9250_8h" startline="236">MPU9250::mx_min</references>
+        <references refid="class_m_p_u9250_1ad7cf9fe3134d24f46705881b2e002f31" compoundref="_m_p_u9250_8h" startline="227">MPU9250::my</references>
+        <references refid="structconfig_values_type_1aac3f9de446641e39b318ba8f23ca12ce" compoundref="config_values_8h" startline="126">configValuesType::my_max</references>
+        <references refid="class_m_p_u9250_1a02007a0db5b9f53aefe1d37139bcc23d" compoundref="_m_p_u9250_8h" startline="239">MPU9250::my_max</references>
+        <references refid="structconfig_values_type_1ab7c1874d390dec419ff4d54ce11b6ebd" compoundref="config_values_8h" startline="125">configValuesType::my_min</references>
+        <references refid="class_m_p_u9250_1a5025a77f0594dc6ffd6dfac9bbdbb459" compoundref="_m_p_u9250_8h" startline="238">MPU9250::my_min</references>
+        <references refid="class_m_p_u9250_1af11072922aa71ffb125fe3786f848653" compoundref="_m_p_u9250_8h" startline="227">MPU9250::mz</references>
+        <references refid="structconfig_values_type_1a6758579cc2d41935882eab00baf129f5" compoundref="config_values_8h" startline="128">configValuesType::mz_max</references>
+        <references refid="class_m_p_u9250_1a0c33dd99aa2772cc50aa67bbd3e65137" compoundref="_m_p_u9250_8h" startline="241">MPU9250::mz_max</references>
+        <references refid="structconfig_values_type_1a1be1ac022e4efe86be6f72be280c2dac" compoundref="config_values_8h" startline="127">configValuesType::mz_min</references>
+        <references refid="class_m_p_u9250_1aac36dca80b508e7516160df705b28a33" compoundref="_m_p_u9250_8h" startline="240">MPU9250::mz_min</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Load_IMU_Calibation_Values</definition>
+        <argsstring>(void)</argsstring>
+        <name>Load_IMU_Calibation_Values</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h" line="19" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp" bodystart="267" bodyend="278"/>
+        <references refid="structconfig_values_type_1a5c9f8e7fac316e921c900b245d3ab8e5" compoundref="config_values_8h" startline="124">configValuesType::mx_max</references>
+        <references refid="class_m_p_u9250_1aa3cb5dd3e1f8bf678a2734885d33e56c" compoundref="_m_p_u9250_8h" startline="237">MPU9250::mx_max</references>
+        <references refid="structconfig_values_type_1a0876ce5174fefcd0b39cccee44eca68a" compoundref="config_values_8h" startline="123">configValuesType::mx_min</references>
+        <references refid="class_m_p_u9250_1a1c31945120ad411a226400690b3182cb" compoundref="_m_p_u9250_8h" startline="236">MPU9250::mx_min</references>
+        <references refid="structconfig_values_type_1aac3f9de446641e39b318ba8f23ca12ce" compoundref="config_values_8h" startline="126">configValuesType::my_max</references>
+        <references refid="class_m_p_u9250_1a02007a0db5b9f53aefe1d37139bcc23d" compoundref="_m_p_u9250_8h" startline="239">MPU9250::my_max</references>
+        <references refid="structconfig_values_type_1ab7c1874d390dec419ff4d54ce11b6ebd" compoundref="config_values_8h" startline="125">configValuesType::my_min</references>
+        <references refid="class_m_p_u9250_1a5025a77f0594dc6ffd6dfac9bbdbb459" compoundref="_m_p_u9250_8h" startline="238">MPU9250::my_min</references>
+        <references refid="structconfig_values_type_1a6758579cc2d41935882eab00baf129f5" compoundref="config_values_8h" startline="128">configValuesType::mz_max</references>
+        <references refid="class_m_p_u9250_1a0c33dd99aa2772cc50aa67bbd3e65137" compoundref="_m_p_u9250_8h" startline="241">MPU9250::mz_max</references>
+        <references refid="structconfig_values_type_1a1be1ac022e4efe86be6f72be280c2dac" compoundref="config_values_8h" startline="127">configValuesType::mz_min</references>
+        <references refid="class_m_p_u9250_1aac36dca80b508e7516160df705b28a33" compoundref="_m_p_u9250_8h" startline="240">MPU9250::mz_min</references>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>WindAngle_2950.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_WindAngle_2950_h</highlight></codeline>
+<codeline lineno="4" refid="_wind_angle__2950_8h_1ad3f11cfd1c41ffd8a46e65faecf862cd" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_IMU_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" kindref="member">WingSailAngleSensor_Init</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" kindref="member">WingSailAngleSensor_Read</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" kindref="member">IMU_Mag_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" kindref="member">IMU_Mag_Calibrate</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>load<sp/>the<sp/>config<sp/>values<sp/>relating<sp/>to<sp/>the<sp/>IMU,<sp/>into<sp/>the<sp/>IMU.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" kindref="member">Load_IMU_Calibation_Values</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h"/>
+  </compounddef>
+</doxygen>

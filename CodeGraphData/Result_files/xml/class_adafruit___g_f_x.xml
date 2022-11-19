@@ -1,0 +1,2269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_adafruit___g_f_x" kind="class" prot="public" abstract="yes">
+    <compoundname>Adafruit_GFX</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Print</basecompoundref>
+    <derivedcompoundref refid="class_adafruit___s_s_d1306" prot="public" virt="non-virtual">Adafruit_SSD1306</derivedcompoundref>
+    <derivedcompoundref refid="class_g_f_xcanvas1" prot="public" virt="non-virtual">GFXcanvas1</derivedcompoundref>
+    <derivedcompoundref refid="class_g_f_xcanvas16" prot="public" virt="non-virtual">GFXcanvas16</derivedcompoundref>
+    <derivedcompoundref refid="class_g_f_xcanvas8" prot="public" virt="non-virtual">GFXcanvas8</derivedcompoundref>
+    <includes refid="_adafruit___g_f_x_8h" local="no">Adafruit_GFX.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" prot="protected" static="no" mutable="no">
+        <type>const int16_t</type>
+        <definition>const int16_t Adafruit_GFX::WIDTH</definition>
+        <argsstring></argsstring>
+        <name>WIDTH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="129" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="129" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a8165eca9ccfee431af10b6f5fa06a406" compoundref="_adafruit___s_s_d1306_8cpp" startline="514" endline="546">Adafruit_SSD1306::drawFastHLine</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1ad65a261088588b5e28287f5d08c3f72e" compoundref="_adafruit___s_s_d1306_8cpp" startline="548" endline="581">Adafruit_SSD1306::drawFastHLineInternal</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a2058c782206fd0c7a74a1d6d19a383b6" compoundref="_adafruit___s_s_d1306_8cpp" startline="583" endline="614">Adafruit_SSD1306::drawFastVLine</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a48ba69c68a1410043717bd1d705c330c" compoundref="_adafruit___s_s_d1306_8cpp" startline="617" endline="729">Adafruit_SSD1306::drawFastVLineInternal</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1ae2851d927a047a770c569c7c9fde4807" compoundref="_adafruit___s_s_d1306_8cpp" startline="114" endline="142">Adafruit_SSD1306::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas1_1a0859d124c8dcaa147ef22a54d6e843a8" compoundref="_adafruit___g_f_x_8cpp" startline="1167" endline="1205">GFXcanvas1::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a596553ea995b2d7830cc3eef0c4085fc" compoundref="_adafruit___g_f_x_8cpp" startline="1229" endline="1253">GFXcanvas8::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" compoundref="_adafruit___g_f_x_8cpp" startline="1311" endline="1335">GFXcanvas16::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas1_1aa282792bbb854a4a045be5ba1c8a7afc" compoundref="_adafruit___g_f_x_8cpp" startline="1207" endline="1212">GFXcanvas1::fillScreen</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a9362b64e0e24b34172226cab358f5a45" compoundref="_adafruit___g_f_x_8cpp" startline="1255" endline="1259">GFXcanvas8::fillScreen</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1ae46db6d49d2943e7cb227fd0bb50b1f8" compoundref="_adafruit___g_f_x_8cpp" startline="1337" endline="1347">GFXcanvas16::fillScreen</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" compoundref="_adafruit___g_f_x_8cpp" startline="896" endline="910">setRotation</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a5eadf69798e020345107af6cdb86f222" compoundref="_adafruit___g_f_x_8cpp" startline="1261" endline="1294">GFXcanvas8::writeFastHLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" prot="protected" static="no" mutable="no">
+        <type>const int16_t</type>
+        <definition>const int16_t Adafruit_GFX::HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>HEIGHT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="129" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="129" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a8165eca9ccfee431af10b6f5fa06a406" compoundref="_adafruit___s_s_d1306_8cpp" startline="514" endline="546">Adafruit_SSD1306::drawFastHLine</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1ad65a261088588b5e28287f5d08c3f72e" compoundref="_adafruit___s_s_d1306_8cpp" startline="548" endline="581">Adafruit_SSD1306::drawFastHLineInternal</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a2058c782206fd0c7a74a1d6d19a383b6" compoundref="_adafruit___s_s_d1306_8cpp" startline="583" endline="614">Adafruit_SSD1306::drawFastVLine</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a48ba69c68a1410043717bd1d705c330c" compoundref="_adafruit___s_s_d1306_8cpp" startline="617" endline="729">Adafruit_SSD1306::drawFastVLineInternal</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1ae2851d927a047a770c569c7c9fde4807" compoundref="_adafruit___s_s_d1306_8cpp" startline="114" endline="142">Adafruit_SSD1306::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas1_1a0859d124c8dcaa147ef22a54d6e843a8" compoundref="_adafruit___g_f_x_8cpp" startline="1167" endline="1205">GFXcanvas1::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a596553ea995b2d7830cc3eef0c4085fc" compoundref="_adafruit___g_f_x_8cpp" startline="1229" endline="1253">GFXcanvas8::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" compoundref="_adafruit___g_f_x_8cpp" startline="1311" endline="1335">GFXcanvas16::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas1_1aa282792bbb854a4a045be5ba1c8a7afc" compoundref="_adafruit___g_f_x_8cpp" startline="1207" endline="1212">GFXcanvas1::fillScreen</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a9362b64e0e24b34172226cab358f5a45" compoundref="_adafruit___g_f_x_8cpp" startline="1255" endline="1259">GFXcanvas8::fillScreen</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1ae46db6d49d2943e7cb227fd0bb50b1f8" compoundref="_adafruit___g_f_x_8cpp" startline="1337" endline="1347">GFXcanvas16::fillScreen</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" compoundref="_adafruit___g_f_x_8cpp" startline="896" endline="910">setRotation</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a5eadf69798e020345107af6cdb86f222" compoundref="_adafruit___g_f_x_8cpp" startline="1261" endline="1294">GFXcanvas8::writeFastHLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t Adafruit_GFX::_width</definition>
+        <argsstring></argsstring>
+        <name>_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="131" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+        <referencedby refid="class_g_f_xcanvas1_1a0859d124c8dcaa147ef22a54d6e843a8" compoundref="_adafruit___g_f_x_8cpp" startline="1167" endline="1205">GFXcanvas1::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a596553ea995b2d7830cc3eef0c4085fc" compoundref="_adafruit___g_f_x_8cpp" startline="1229" endline="1253">GFXcanvas8::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" compoundref="_adafruit___g_f_x_8cpp" startline="1311" endline="1335">GFXcanvas16::drawPixel</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a2b2730aaf2208990928f9c0f85558527" compoundref="_adafruit___g_f_x_8cpp" startline="197" endline="200">fillScreen</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" compoundref="_adafruit___g_f_x_8cpp" startline="999" endline="1020">getTextBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" compoundref="_adafruit___g_f_x_8cpp" startline="896" endline="910">setRotation</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a32dadc6651cedc5e6426322c8a922cd6" compoundref="_adafruit___g_f_x_8cpp" startline="1047" endline="1049">width</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a5eadf69798e020345107af6cdb86f222" compoundref="_adafruit___g_f_x_8cpp" startline="1261" endline="1294">GFXcanvas8::writeFastHLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t Adafruit_GFX::_height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="131" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+        <referencedby refid="class_g_f_xcanvas1_1a0859d124c8dcaa147ef22a54d6e843a8" compoundref="_adafruit___g_f_x_8cpp" startline="1167" endline="1205">GFXcanvas1::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a596553ea995b2d7830cc3eef0c4085fc" compoundref="_adafruit___g_f_x_8cpp" startline="1229" endline="1253">GFXcanvas8::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" compoundref="_adafruit___g_f_x_8cpp" startline="1311" endline="1335">GFXcanvas16::drawPixel</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a2b2730aaf2208990928f9c0f85558527" compoundref="_adafruit___g_f_x_8cpp" startline="197" endline="200">fillScreen</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" compoundref="_adafruit___g_f_x_8cpp" startline="999" endline="1020">getTextBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ac3dea6208d543a50f89b8e81bcaf9f09" compoundref="_adafruit___g_f_x_8cpp" startline="1051" endline="1053">height</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" compoundref="_adafruit___g_f_x_8cpp" startline="896" endline="910">setRotation</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a5eadf69798e020345107af6cdb86f222" compoundref="_adafruit___g_f_x_8cpp" startline="1261" endline="1294">GFXcanvas8::writeFastHLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t Adafruit_GFX::cursor_x</definition>
+        <argsstring></argsstring>
+        <name>cursor_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="132" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a0423f175d3ac47e28beae1dc593bc24f" compoundref="_adafruit___g_f_x_8cpp" startline="865" endline="867">getCursorX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aaf96a40cad0f34dd8ec73494b3866c33" compoundref="_adafruit___g_f_x_8cpp" startline="860" endline="863">setCursor</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t Adafruit_GFX::cursor_y</definition>
+        <argsstring></argsstring>
+        <name>cursor_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="132" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a34a63c8c32a8c57f77c9efb50db1c20b" compoundref="_adafruit___g_f_x_8cpp" startline="869" endline="871">getCursorY</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aaf96a40cad0f34dd8ec73494b3866c33" compoundref="_adafruit___g_f_x_8cpp" startline="860" endline="863">setCursor</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab0479a2bb4e09e7c39c35e35c55d6ed1" compoundref="_adafruit___g_f_x_8cpp" startline="923" endline="936">setFont</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" prot="protected" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t Adafruit_GFX::textcolor</definition>
+        <argsstring></argsstring>
+        <name>textcolor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="134" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x___button_1a471d43fc4fb575b2868190d1ec832af7" compoundref="_adafruit___g_f_x_8cpp" startline="1078" endline="1093">Adafruit_GFX_Button::initButtonUL</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" compoundref="_adafruit___g_f_x_8cpp" startline="877" endline="881">setTextColor</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" prot="protected" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t Adafruit_GFX::textbgcolor</definition>
+        <argsstring></argsstring>
+        <name>textbgcolor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="134" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" compoundref="_adafruit___g_f_x_8cpp" startline="877" endline="881">setTextColor</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Adafruit_GFX::textsize</definition>
+        <argsstring></argsstring>
+        <name>textsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="136" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="136" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x___button_1a471d43fc4fb575b2868190d1ec832af7" compoundref="_adafruit___g_f_x_8cpp" startline="1078" endline="1093">Adafruit_GFX_Button::initButtonUL</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a39eb4a8a2c9fa4ab7d58ceffd19535d5" compoundref="_adafruit___g_f_x_8cpp" startline="873" endline="875">setTextSize</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Adafruit_GFX::rotation</definition>
+        <argsstring></argsstring>
+        <name>rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="137" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="136" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a8165eca9ccfee431af10b6f5fa06a406" compoundref="_adafruit___s_s_d1306_8cpp" startline="514" endline="546">Adafruit_SSD1306::drawFastHLine</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a2058c782206fd0c7a74a1d6d19a383b6" compoundref="_adafruit___s_s_d1306_8cpp" startline="583" endline="614">Adafruit_SSD1306::drawFastVLine</referencedby>
+        <referencedby refid="class_g_f_xcanvas1_1a0859d124c8dcaa147ef22a54d6e843a8" compoundref="_adafruit___g_f_x_8cpp" startline="1167" endline="1205">GFXcanvas1::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a596553ea995b2d7830cc3eef0c4085fc" compoundref="_adafruit___g_f_x_8cpp" startline="1229" endline="1253">GFXcanvas8::drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" compoundref="_adafruit___g_f_x_8cpp" startline="1311" endline="1335">GFXcanvas16::drawPixel</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a1956ad03632c73f25b4d8d240a40d7c9" compoundref="_adafruit___g_f_x_8cpp" startline="892" endline="894">getRotation</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" compoundref="_adafruit___g_f_x_8cpp" startline="896" endline="910">setRotation</referencedby>
+        <referencedby refid="class_g_f_xcanvas8_1a5eadf69798e020345107af6cdb86f222" compoundref="_adafruit___g_f_x_8cpp" startline="1261" endline="1294">GFXcanvas8::writeFastHLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean Adafruit_GFX::wrap</definition>
+        <argsstring></argsstring>
+        <name>wrap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="139" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="139" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aeeacd62bf26f3e7abbdc4b5b50faa6fa" compoundref="_adafruit___g_f_x_8cpp" startline="888" endline="890">setTextWrap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1aaef3d4d239641084cd3825a8b1042e01" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean Adafruit_GFX::_cp437</definition>
+        <argsstring></argsstring>
+        <name>_cp437</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="140" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="139" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a6d447fe274e3f0ff12f12afa538d0afe" compoundref="_adafruit___g_f_x_8cpp" startline="919" endline="921">cp437</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" prot="protected" static="no" mutable="no">
+        <type><ref refid="struct_g_f_xfont" kindref="compound">GFXfont</ref> *</type>
+        <definition>GFXfont* Adafruit_GFX::gfxFont</definition>
+        <argsstring></argsstring>
+        <name>gfxFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="142" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="142" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" compoundref="_adafruit___g_f_x_8cpp" startline="73" endline="85">Adafruit_GFX</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab0479a2bb4e09e7c39c35e35c55d6ed1" compoundref="_adafruit___g_f_x_8cpp" startline="923" endline="936">setFont</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Adafruit_GFX::Adafruit_GFX</definition>
+        <argsstring>(int16_t w, int16_t h)</argsstring>
+        <name>Adafruit_GFX</name>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="16" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="73" bodyend="85"/>
+        <references refid="class_adafruit___g_f_x_1aaef3d4d239641084cd3825a8b1042e01" compoundref="_adafruit___g_f_x_8h" startline="139">_cp437</references>
+        <references refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" compoundref="_adafruit___g_f_x_8h" startline="131">_height</references>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <references refid="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_x</references>
+        <references refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_y</references>
+        <references refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" compoundref="_adafruit___g_f_x_8h" startline="142">gfxFont</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">HEIGHT</references>
+        <references refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" compoundref="_adafruit___g_f_x_8h" startline="136">rotation</references>
+        <references refid="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" compoundref="_adafruit___g_f_x_8h" startline="134">textbgcolor</references>
+        <references refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" compoundref="_adafruit___g_f_x_8h" startline="134">textcolor</references>
+        <references refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" compoundref="_adafruit___g_f_x_8h" startline="136">textsize</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">WIDTH</references>
+        <references refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" compoundref="_adafruit___g_f_x_8h" startline="139">wrap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ab7fbf72885c873266f9c7eb53b5c8896" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Adafruit_GFX::drawPixel</definition>
+        <argsstring>(int16_t x, int16_t y, uint16_t color)=0</argsstring>
+        <name>drawPixel</name>
+        <reimplementedby refid="class_adafruit___s_s_d1306_1ae2851d927a047a770c569c7c9fde4807">drawPixel</reimplementedby>
+        <reimplementedby refid="class_g_f_xcanvas1_1a0859d124c8dcaa147ef22a54d6e843a8">drawPixel</reimplementedby>
+        <reimplementedby refid="class_g_f_xcanvas8_1a596553ea995b2d7830cc3eef0c4085fc">drawPixel</reimplementedby>
+        <reimplementedby refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8">drawPixel</reimplementedby>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="19" column="1"/>
+        <referencedby refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::startWrite</definition>
+        <argsstring>(void)</argsstring>
+        <name>startWrite</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="128" bodyend="130"/>
+        <referencedby refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" compoundref="_adafruit___g_f_x_8cpp" startline="464" endline="479">drawBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a648d2d6765e488b4556e802167d885fb" compoundref="_adafruit___g_f_x_8cpp" startline="219" endline="253">drawCircle</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" compoundref="_adafruit___g_f_x_8cpp" startline="179" endline="185">drawFastHLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" compoundref="_adafruit___g_f_x_8cpp" startline="169" endline="175">drawFastVLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" compoundref="_adafruit___g_f_x_8cpp" startline="568" endline="577">drawGrayscaleBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" compoundref="_adafruit___g_f_x_8cpp" startline="202" endline="216">drawLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" compoundref="_adafruit___g_f_x_8cpp" startline="331" endline="339">drawRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" compoundref="_adafruit___g_f_x_8cpp" startline="640" endline="649">drawRGBBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" compoundref="_adafruit___g_f_x_8cpp" startline="342" endline="356">drawRoundRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa7797117fef7d18592d352c14fa7d820" compoundref="_adafruit___g_f_x_8cpp" startline="546" endline="563">drawXBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" compoundref="_adafruit___g_f_x_8cpp" startline="291" endline="297">fillCircle</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" compoundref="_adafruit___g_f_x_8cpp" startline="187" endline="195">fillRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" compoundref="_adafruit___g_f_x_8cpp" startline="359" endline="369">fillRoundRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a4cd646a3d9c9d5b3ee50010d0aa387cd" compoundref="_adafruit___g_f_x_8cpp" startline="380" endline="458">fillTriangle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::writePixel</definition>
+        <argsstring>(int16_t x, int16_t y, uint16_t color)</argsstring>
+        <name>writePixel</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="25" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="132" bodyend="135"/>
+        <references refid="class_adafruit___g_f_x_1ab7fbf72885c873266f9c7eb53b5c8896">drawPixel</references>
+        <referencedby refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" compoundref="_adafruit___g_f_x_8cpp" startline="464" endline="479">drawBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a648d2d6765e488b4556e802167d885fb" compoundref="_adafruit___g_f_x_8cpp" startline="219" endline="253">drawCircle</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a3f2dd7b698e7b95ebf9fecf992ff802e" compoundref="_adafruit___g_f_x_8cpp" startline="255" endline="289">drawCircleHelper</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" compoundref="_adafruit___g_f_x_8cpp" startline="568" endline="577">drawGrayscaleBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" compoundref="_adafruit___g_f_x_8cpp" startline="640" endline="649">drawRGBBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa7797117fef7d18592d352c14fa7d820" compoundref="_adafruit___g_f_x_8cpp" startline="546" endline="563">drawXBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" compoundref="_adafruit___g_f_x_8cpp" startline="88" endline="126">writeLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a60133faeabc10f9d909674bc4c5aabc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::writeFillRect</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)</argsstring>
+        <name>writeFillRect</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="26" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="157" bodyend="161"/>
+        <references refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" compoundref="_adafruit___g_f_x_8cpp" startline="187" endline="195">fillRect</references>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" compoundref="_adafruit___g_f_x_8cpp" startline="359" endline="369">fillRoundRect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::writeFastVLine</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t h, uint16_t color)</argsstring>
+        <name>writeFastVLine</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="27" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="139" bodyend="145"/>
+        <references refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" compoundref="_adafruit___g_f_x_8cpp" startline="169" endline="175">drawFastVLine</references>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" compoundref="_adafruit___g_f_x_8cpp" startline="331" endline="339">drawRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" compoundref="_adafruit___g_f_x_8cpp" startline="342" endline="356">drawRoundRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" compoundref="_adafruit___g_f_x_8cpp" startline="291" endline="297">fillCircle</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a2242d3560b08c6480084152b6660052a" compoundref="_adafruit___g_f_x_8cpp" startline="300" endline="328">fillCircleHelper</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" compoundref="_adafruit___g_f_x_8cpp" startline="187" endline="195">fillRect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::writeFastHLine</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t w, uint16_t color)</argsstring>
+        <name>writeFastHLine</name>
+        <reimplementedby refid="class_g_f_xcanvas8_1a5eadf69798e020345107af6cdb86f222">writeFastHLine</reimplementedby>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="28" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="149" bodyend="155"/>
+        <references refid="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" compoundref="_adafruit___g_f_x_8cpp" startline="179" endline="185">drawFastHLine</references>
+        <referencedby refid="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" compoundref="_adafruit___g_f_x_8cpp" startline="331" endline="339">drawRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" compoundref="_adafruit___g_f_x_8cpp" startline="342" endline="356">drawRoundRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a4cd646a3d9c9d5b3ee50010d0aa387cd" compoundref="_adafruit___g_f_x_8cpp" startline="380" endline="458">fillTriangle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::writeLine</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color)</argsstring>
+        <name>writeLine</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="29" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="88" bodyend="126"/>
+        <references refid="_adafruit___g_f_x_8cpp_1a4e000513b9464b4b8a13b6ac95f87f80" compoundref="_adafruit___g_f_x_8cpp" startline="70">_swap_int16_t</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+        <referencedby refid="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" compoundref="_adafruit___g_f_x_8cpp" startline="179" endline="185">drawFastHLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" compoundref="_adafruit___g_f_x_8cpp" startline="169" endline="175">drawFastVLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" compoundref="_adafruit___g_f_x_8cpp" startline="202" endline="216">drawLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::endWrite</definition>
+        <argsstring>(void)</argsstring>
+        <name>endWrite</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="30" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="163" bodyend="165"/>
+        <referencedby refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" compoundref="_adafruit___g_f_x_8cpp" startline="464" endline="479">drawBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a648d2d6765e488b4556e802167d885fb" compoundref="_adafruit___g_f_x_8cpp" startline="219" endline="253">drawCircle</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" compoundref="_adafruit___g_f_x_8cpp" startline="179" endline="185">drawFastHLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" compoundref="_adafruit___g_f_x_8cpp" startline="169" endline="175">drawFastVLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" compoundref="_adafruit___g_f_x_8cpp" startline="568" endline="577">drawGrayscaleBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" compoundref="_adafruit___g_f_x_8cpp" startline="202" endline="216">drawLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" compoundref="_adafruit___g_f_x_8cpp" startline="331" endline="339">drawRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" compoundref="_adafruit___g_f_x_8cpp" startline="640" endline="649">drawRGBBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" compoundref="_adafruit___g_f_x_8cpp" startline="342" endline="356">drawRoundRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa7797117fef7d18592d352c14fa7d820" compoundref="_adafruit___g_f_x_8cpp" startline="546" endline="563">drawXBitmap</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" compoundref="_adafruit___g_f_x_8cpp" startline="291" endline="297">fillCircle</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" compoundref="_adafruit___g_f_x_8cpp" startline="187" endline="195">fillRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" compoundref="_adafruit___g_f_x_8cpp" startline="359" endline="369">fillRoundRect</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a4cd646a3d9c9d5b3ee50010d0aa387cd" compoundref="_adafruit___g_f_x_8cpp" startline="380" endline="458">fillTriangle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::setRotation</definition>
+        <argsstring>(uint8_t r)</argsstring>
+        <name>setRotation</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="35" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="896" bodyend="910"/>
+        <references refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" compoundref="_adafruit___g_f_x_8h" startline="131">_height</references>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">HEIGHT</references>
+        <references refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" compoundref="_adafruit___g_f_x_8h" startline="136">rotation</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">WIDTH</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a2fa315803f39a5e73b1841874daf0483" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::invertDisplay</definition>
+        <argsstring>(boolean i)</argsstring>
+        <name>invertDisplay</name>
+        <param>
+          <type>boolean</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="36" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1055" bodyend="1057"/>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawFastVLine</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t h, uint16_t color)</argsstring>
+        <name>drawFastVLine</name>
+        <reimplementedby refid="class_adafruit___s_s_d1306_1a2058c782206fd0c7a74a1d6d19a383b6">drawFastVLine</reimplementedby>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="43" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="169" bodyend="175"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" compoundref="_adafruit___g_f_x_8cpp" startline="88" endline="126">writeLine</references>
+        <referencedby refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" compoundref="_adafruit___g_f_x_8cpp" startline="202" endline="216">drawLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" compoundref="_adafruit___g_f_x_8cpp" startline="139" endline="145">writeFastVLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawFastHLine</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t w, uint16_t color)</argsstring>
+        <name>drawFastHLine</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="44" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="179" bodyend="185"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" compoundref="_adafruit___g_f_x_8cpp" startline="88" endline="126">writeLine</references>
+        <referencedby refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" compoundref="_adafruit___g_f_x_8cpp" startline="202" endline="216">drawLine</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" compoundref="_adafruit___g_f_x_8cpp" startline="149" endline="155">writeFastHLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::fillRect</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)</argsstring>
+        <name>fillRect</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="45" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="187" bodyend="195"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" compoundref="_adafruit___g_f_x_8cpp" startline="139" endline="145">writeFastVLine</references>
+        <referencedby refid="class_adafruit___g_f_x_1a2b2730aaf2208990928f9c0f85558527" compoundref="_adafruit___g_f_x_8cpp" startline="197" endline="200">fillScreen</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a60133faeabc10f9d909674bc4c5aabc6" compoundref="_adafruit___g_f_x_8cpp" startline="157" endline="161">writeFillRect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a2b2730aaf2208990928f9c0f85558527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::fillScreen</definition>
+        <argsstring>(uint16_t color)</argsstring>
+        <name>fillScreen</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="46" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="197" bodyend="200"/>
+        <references refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" compoundref="_adafruit___g_f_x_8h" startline="131">_height</references>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <references refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" compoundref="_adafruit___g_f_x_8cpp" startline="187" endline="195">fillRect</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawLine</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color)</argsstring>
+        <name>drawLine</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="48" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="202" bodyend="216"/>
+        <references refid="_adafruit___g_f_x_8cpp_1a4e000513b9464b4b8a13b6ac95f87f80" compoundref="_adafruit___g_f_x_8cpp" startline="70">_swap_int16_t</references>
+        <references refid="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" compoundref="_adafruit___g_f_x_8cpp" startline="179" endline="185">drawFastHLine</references>
+        <references refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" compoundref="_adafruit___g_f_x_8cpp" startline="169" endline="175">drawFastVLine</references>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" compoundref="_adafruit___g_f_x_8cpp" startline="88" endline="126">writeLine</references>
+        <referencedby refid="class_adafruit___g_f_x_1a49284b9cea16ecf8c15dfd0b51a841e6" compoundref="_adafruit___g_f_x_8cpp" startline="372" endline="377">drawTriangle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawRect</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)</argsstring>
+        <name>drawRect</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="49" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="331" bodyend="339"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" compoundref="_adafruit___g_f_x_8cpp" startline="149" endline="155">writeFastHLine</references>
+        <references refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" compoundref="_adafruit___g_f_x_8cpp" startline="139" endline="145">writeFastVLine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a648d2d6765e488b4556e802167d885fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawCircle</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t r, uint16_t color)</argsstring>
+        <name>drawCircle</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="53" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="219" bodyend="253"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a3f2dd7b698e7b95ebf9fecf992ff802e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawCircleHelper</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, uint16_t color)</argsstring>
+        <name>drawCircleHelper</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>cornername</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="54" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="255" bodyend="289"/>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+        <referencedby refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" compoundref="_adafruit___g_f_x_8cpp" startline="342" endline="356">drawRoundRect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::fillCircle</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t r, uint16_t color)</argsstring>
+        <name>fillCircle</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="56" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="291" bodyend="297"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1a2242d3560b08c6480084152b6660052a" compoundref="_adafruit___g_f_x_8cpp" startline="300" endline="328">fillCircleHelper</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" compoundref="_adafruit___g_f_x_8cpp" startline="139" endline="145">writeFastVLine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a2242d3560b08c6480084152b6660052a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::fillCircleHelper</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, int16_t delta, uint16_t color)</argsstring>
+        <name>fillCircleHelper</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>cornername</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>delta</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="57" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="300" bodyend="328"/>
+        <references refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" compoundref="_adafruit___g_f_x_8cpp" startline="139" endline="145">writeFastVLine</references>
+        <referencedby refid="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" compoundref="_adafruit___g_f_x_8cpp" startline="291" endline="297">fillCircle</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" compoundref="_adafruit___g_f_x_8cpp" startline="359" endline="369">fillRoundRect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a49284b9cea16ecf8c15dfd0b51a841e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawTriangle</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color)</argsstring>
+        <name>drawTriangle</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="59" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="372" bodyend="377"/>
+        <references refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" compoundref="_adafruit___g_f_x_8cpp" startline="202" endline="216">drawLine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a4cd646a3d9c9d5b3ee50010d0aa387cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::fillTriangle</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color)</argsstring>
+        <name>fillTriangle</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="61" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="380" bodyend="458"/>
+        <references refid="_adafruit___g_f_x_8cpp_1a4e000513b9464b4b8a13b6ac95f87f80" compoundref="_adafruit___g_f_x_8cpp" startline="70">_swap_int16_t</references>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" compoundref="_adafruit___g_f_x_8cpp" startline="149" endline="155">writeFastHLine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawRoundRect</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color)</argsstring>
+        <name>drawRoundRect</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="63" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="342" bodyend="356"/>
+        <references refid="class_adafruit___g_f_x_1a3f2dd7b698e7b95ebf9fecf992ff802e" compoundref="_adafruit___g_f_x_8cpp" startline="255" endline="289">drawCircleHelper</references>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" compoundref="_adafruit___g_f_x_8cpp" startline="149" endline="155">writeFastHLine</references>
+        <references refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" compoundref="_adafruit___g_f_x_8cpp" startline="139" endline="145">writeFastVLine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::fillRoundRect</definition>
+        <argsstring>(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color)</argsstring>
+        <name>fillRoundRect</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="65" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="359" bodyend="369"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1a2242d3560b08c6480084152b6660052a" compoundref="_adafruit___g_f_x_8cpp" startline="300" endline="328">fillCircleHelper</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1a60133faeabc10f9d909674bc4c5aabc6" compoundref="_adafruit___g_f_x_8cpp" startline="157" endline="161">writeFillRect</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w, int16_t h, uint16_t color)</argsstring>
+        <name>drawBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const uint8_t</type>
+          <declname>bitmap</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="67" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="464" bodyend="479"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a0def482cb5ab6010cac6936de8e07188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w, int16_t h, uint16_t color, uint16_t bg)</argsstring>
+        <name>drawBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const uint8_t</type>
+          <declname>bitmap</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>bg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="69" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="484" bodyend="500"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a957c2d2fc53e3121c5914a8bd9e5c3da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, uint8_t *bitmap, int16_t w, int16_t h, uint16_t color)</argsstring>
+        <name>drawBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="71" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="504" bodyend="519"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a25dfb7db5b7446406b9204c738f0885e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, uint8_t *bitmap, int16_t w, int16_t h, uint16_t color, uint16_t bg)</argsstring>
+        <name>drawBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>bg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="73" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="524" bodyend="539"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1aa7797117fef7d18592d352c14fa7d820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawXBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w, int16_t h, uint16_t color)</argsstring>
+        <name>drawXBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const uint8_t</type>
+          <declname>bitmap</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="75" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="546" bodyend="563"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawGrayscaleBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w, int16_t h)</argsstring>
+        <name>drawGrayscaleBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const uint8_t</type>
+          <declname>bitmap</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="77" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="568" bodyend="577"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a00b26b1e2ac05476fdbd44214001954d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawGrayscaleBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, uint8_t *bitmap, int16_t w, int16_t h)</argsstring>
+        <name>drawGrayscaleBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="79" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="582" bodyend="591"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a880b422ce35d0e3956dcd00638a421e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawGrayscaleBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, const uint8_t bitmap[], const uint8_t mask[], int16_t w, int16_t h)</argsstring>
+        <name>drawGrayscaleBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const uint8_t</type>
+          <declname>bitmap</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const uint8_t</type>
+          <declname>mask</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="81" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="598" bodyend="614"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a7543eee2c983daea5eb46a0c2db92692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawGrayscaleBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, uint8_t *bitmap, uint8_t *mask, int16_t w, int16_t h)</argsstring>
+        <name>drawGrayscaleBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="84" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="621" bodyend="636"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawRGBBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, const uint16_t bitmap[], int16_t w, int16_t h)</argsstring>
+        <name>drawRGBBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const uint16_t</type>
+          <declname>bitmap</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="86" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="640" bodyend="649"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a70768127ee8548d2a3690440c1694169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawRGBBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, uint16_t *bitmap, int16_t w, int16_t h)</argsstring>
+        <name>drawRGBBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="88" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="653" bodyend="662"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ad1d249d742f83ddc4c4f3867643d6eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawRGBBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, const uint16_t bitmap[], const uint8_t mask[], int16_t w, int16_t h)</argsstring>
+        <name>drawRGBBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const uint16_t</type>
+          <declname>bitmap</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const uint8_t</type>
+          <declname>mask</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="90" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="668" bodyend="684"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1aac6f64d394f8d3557aa6f613b4219866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawRGBBitmap</definition>
+        <argsstring>(int16_t x, int16_t y, uint16_t *bitmap, uint8_t *mask, int16_t w, int16_t h)</argsstring>
+        <name>drawRGBBitmap</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="93" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="690" bodyend="705"/>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::drawChar</definition>
+        <argsstring>(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size)</argsstring>
+        <name>drawChar</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>bg</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="95" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="710" bodyend="807"/>
+        <references refid="class_adafruit___g_f_x_1aaef3d4d239641084cd3825a8b1042e01" compoundref="_adafruit___g_f_x_8h" startline="139">_cp437</references>
+        <references refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" compoundref="_adafruit___g_f_x_8h" startline="131">_height</references>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <references refid="struct_g_f_xfont_1a867b14d604450addbeaf62ae1e4799a7" compoundref="gfxfont_8h" startline="18">GFXfont::bitmap</references>
+        <references refid="struct_g_f_xglyph_1a24d52036821c10af52a742a1d7fbd9b8" compoundref="gfxfont_8h" startline="11">GFXglyph::bitmapOffset</references>
+        <references refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" compoundref="_adafruit___g_f_x_8cpp" startline="163" endline="165">endWrite</references>
+        <references refid="struct_g_f_xfont_1a8f7483c87a9208a6251d9ac354a33dbb" compoundref="gfxfont_8h" startline="20">GFXfont::first</references>
+        <references refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" compoundref="_adafruit___g_f_x_8h" startline="142">gfxFont</references>
+        <references refid="struct_g_f_xfont_1af63d88fa053c9a634e86eab7c96db290" compoundref="gfxfont_8h" startline="19">GFXfont::glyph</references>
+        <references refid="struct_g_f_xglyph_1a24cff650b78fc295dc46e1bfa9127bb7" compoundref="gfxfont_8h" startline="12">GFXglyph::height</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="_adafruit___g_f_x_8cpp_1a0d5d72a58654d35bb9c564263d1ede9a" compoundref="_adafruit___g_f_x_8cpp" startline="60">pgm_read_pointer</references>
+        <references refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" compoundref="_adafruit___g_f_x_8cpp" startline="128" endline="130">startWrite</references>
+        <references refid="struct_g_f_xglyph_1a02bd34fd474af250b230f52cee75a6c1" compoundref="gfxfont_8h" startline="12">GFXglyph::width</references>
+        <references refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" compoundref="_adafruit___g_f_x_8cpp" startline="139" endline="145">writeFastVLine</references>
+        <references refid="class_adafruit___g_f_x_1a60133faeabc10f9d909674bc4c5aabc6" compoundref="_adafruit___g_f_x_8cpp" startline="157" endline="161">writeFillRect</references>
+        <references refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" compoundref="_adafruit___g_f_x_8cpp" startline="132" endline="135">writePixel</references>
+        <references refid="struct_g_f_xglyph_1ab030bd9aeb37509ccc94ae3dcec4de98" compoundref="gfxfont_8h" startline="14">GFXglyph::xOffset</references>
+        <references refid="struct_g_f_xglyph_1a96b2c0dbe314bf053cdc0d5c622e76a7" compoundref="gfxfont_8h" startline="14">GFXglyph::yOffset</references>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1aaf96a40cad0f34dd8ec73494b3866c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::setCursor</definition>
+        <argsstring>(int16_t x, int16_t y)</argsstring>
+        <name>setCursor</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="97" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="860" bodyend="863"/>
+        <references refid="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_x</references>
+        <references refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_y</references>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::setTextColor</definition>
+        <argsstring>(uint16_t c)</argsstring>
+        <name>setTextColor</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="98" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="877" bodyend="881"/>
+        <references refid="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" compoundref="_adafruit___g_f_x_8h" startline="134">textbgcolor</references>
+        <references refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" compoundref="_adafruit___g_f_x_8h" startline="134">textcolor</references>
+        <referencedby refid="_o_l_e_d___logging_8h_1ac92a9b501d1d8c407912a607ba84d93a" compoundref="_o_l_e_d___logging_8cpp" startline="97" endline="132">OLED_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ab6e88c585d3ab6b4f95199361f224fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::setTextColor</definition>
+        <argsstring>(uint16_t c, uint16_t bg)</argsstring>
+        <name>setTextColor</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>bg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="99" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="883" bodyend="886"/>
+        <references refid="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" compoundref="_adafruit___g_f_x_8h" startline="134">textbgcolor</references>
+        <references refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" compoundref="_adafruit___g_f_x_8h" startline="134">textcolor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a39eb4a8a2c9fa4ab7d58ceffd19535d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::setTextSize</definition>
+        <argsstring>(uint8_t s)</argsstring>
+        <name>setTextSize</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="100" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="873" bodyend="875"/>
+        <references refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" compoundref="_adafruit___g_f_x_8h" startline="136">textsize</references>
+        <referencedby refid="_o_l_e_d___logging_8h_1ac92a9b501d1d8c407912a607ba84d93a" compoundref="_o_l_e_d___logging_8cpp" startline="97" endline="132">OLED_Init</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1aeeacd62bf26f3e7abbdc4b5b50faa6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::setTextWrap</definition>
+        <argsstring>(boolean w)</argsstring>
+        <name>setTextWrap</name>
+        <param>
+          <type>boolean</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="101" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="888" bodyend="890"/>
+        <references refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" compoundref="_adafruit___g_f_x_8h" startline="139">wrap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a6d447fe274e3f0ff12f12afa538d0afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::cp437</definition>
+        <argsstring>(boolean x=true)</argsstring>
+        <name>cp437</name>
+        <param>
+          <type>boolean</type>
+          <declname>x</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="102" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="919" bodyend="921"/>
+        <references refid="class_adafruit___g_f_x_1aaef3d4d239641084cd3825a8b1042e01" compoundref="_adafruit___g_f_x_8h" startline="139">_cp437</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ab0479a2bb4e09e7c39c35e35c55d6ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::setFont</definition>
+        <argsstring>(const GFXfont *f=NULL)</argsstring>
+        <name>setFont</name>
+        <param>
+          <type>const <ref refid="struct_g_f_xfont" kindref="compound">GFXfont</ref> *</type>
+          <declname>f</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="103" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="923" bodyend="936"/>
+        <references refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_y</references>
+        <references refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" compoundref="_adafruit___g_f_x_8h" startline="142">gfxFont</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::getTextBounds</definition>
+        <argsstring>(char *string, int16_t x, int16_t y, int16_t *x1, int16_t *y1, uint16_t *w, uint16_t *h)</argsstring>
+        <name>getTextBounds</name>
+        <param>
+          <type>char *</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="104" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="999" bodyend="1020"/>
+        <references refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" compoundref="_adafruit___g_f_x_8h" startline="131">_height</references>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <references refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">charBounds</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a97525abb71dbe38c6551e4d0da4052b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::getTextBounds</definition>
+        <argsstring>(const __FlashStringHelper *s, int16_t x, int16_t y, int16_t *x1, int16_t *y1, uint16_t *w, uint16_t *h)</argsstring>
+        <name>getTextBounds</name>
+        <param>
+          <type>const __FlashStringHelper *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="106" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1023" bodyend="1044"/>
+        <references refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" compoundref="_adafruit___g_f_x_8h" startline="131">_height</references>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <references refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">charBounds</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t Adafruit_GFX::write</definition>
+        <argsstring>(uint8_t)</argsstring>
+        <name>write</name>
+        <param>
+          <type>uint8_t</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="110" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="810" bodyend="858"/>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <references refid="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_x</references>
+        <references refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_y</references>
+        <references refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">drawChar</references>
+        <references refid="struct_g_f_xfont_1a8f7483c87a9208a6251d9ac354a33dbb" compoundref="gfxfont_8h" startline="20">GFXfont::first</references>
+        <references refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" compoundref="_adafruit___g_f_x_8h" startline="142">gfxFont</references>
+        <references refid="struct_g_f_xfont_1af63d88fa053c9a634e86eab7c96db290" compoundref="gfxfont_8h" startline="19">GFXfont::glyph</references>
+        <references refid="struct_g_f_xglyph_1a24cff650b78fc295dc46e1bfa9127bb7" compoundref="gfxfont_8h" startline="12">GFXglyph::height</references>
+        <references refid="struct_g_f_xfont_1a2d2ef5e8e2984dc65a7820e2906855b2" compoundref="gfxfont_8h" startline="20">GFXfont::last</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="_adafruit___g_f_x_8cpp_1a0d5d72a58654d35bb9c564263d1ede9a" compoundref="_adafruit___g_f_x_8cpp" startline="60">pgm_read_pointer</references>
+        <references refid="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" compoundref="_adafruit___g_f_x_8h" startline="134">textbgcolor</references>
+        <references refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" compoundref="_adafruit___g_f_x_8h" startline="134">textcolor</references>
+        <references refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" compoundref="_adafruit___g_f_x_8h" startline="136">textsize</references>
+        <references refid="struct_g_f_xglyph_1a02bd34fd474af250b230f52cee75a6c1" compoundref="gfxfont_8h" startline="12">GFXglyph::width</references>
+        <references refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" compoundref="_adafruit___g_f_x_8h" startline="139">wrap</references>
+        <references refid="struct_g_f_xglyph_1a9b191040252aa9b5362087d65366bbf2" compoundref="gfxfont_8h" startline="13">GFXglyph::xAdvance</references>
+        <references refid="struct_g_f_xglyph_1ab030bd9aeb37509ccc94ae3dcec4de98" compoundref="gfxfont_8h" startline="14">GFXglyph::xOffset</references>
+        <references refid="struct_g_f_xfont_1ac2c2f0184b810a562be808fbb98822fa" compoundref="gfxfont_8h" startline="21">GFXfont::yAdvance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1ac3dea6208d543a50f89b8e81bcaf9f09" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int16_t</type>
+        <definition>int16_t Adafruit_GFX::height</definition>
+        <argsstring>(void) const </argsstring>
+        <name>height</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="115" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1051" bodyend="1053"/>
+        <references refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" compoundref="_adafruit___g_f_x_8h" startline="131">_height</references>
+        <referencedby refid="class_adafruit___s_s_d1306_1ae2851d927a047a770c569c7c9fde4807" compoundref="_adafruit___s_s_d1306_8cpp" startline="114" endline="142">Adafruit_SSD1306::drawPixel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a32dadc6651cedc5e6426322c8a922cd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int16_t</type>
+        <definition>int16_t Adafruit_GFX::width</definition>
+        <argsstring>(void) const </argsstring>
+        <name>width</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="116" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1047" bodyend="1049"/>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <referencedby refid="class_adafruit___s_s_d1306_1ae2851d927a047a770c569c7c9fde4807" compoundref="_adafruit___s_s_d1306_8cpp" startline="114" endline="142">Adafruit_SSD1306::drawPixel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a1956ad03632c73f25b4d8d240a40d7c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t Adafruit_GFX::getRotation</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getRotation</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="118" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="892" bodyend="894"/>
+        <references refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" compoundref="_adafruit___g_f_x_8h" startline="136">rotation</references>
+        <referencedby refid="class_adafruit___s_s_d1306_1ae2851d927a047a770c569c7c9fde4807" compoundref="_adafruit___s_s_d1306_8cpp" startline="114" endline="142">Adafruit_SSD1306::drawPixel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a0423f175d3ac47e28beae1dc593bc24f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int16_t</type>
+        <definition>int16_t Adafruit_GFX::getCursorX</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getCursorX</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="121" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="865" bodyend="867"/>
+        <references refid="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_x</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a34a63c8c32a8c57f77c9efb50db1c20b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int16_t</type>
+        <definition>int16_t Adafruit_GFX::getCursorY</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getCursorY</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="122" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="869" bodyend="871"/>
+        <references refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" compoundref="_adafruit___g_f_x_8h" startline="131">cursor_y</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_GFX::charBounds</definition>
+        <argsstring>(char c, int16_t *x, int16_t *y, int16_t *minx, int16_t *miny, int16_t *maxx, int16_t *maxy)</argsstring>
+        <name>charBounds</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>minx</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>miny</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>maxx</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>maxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="126" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="940" bodyend="996"/>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">_width</references>
+        <references refid="struct_g_f_xfont_1a8f7483c87a9208a6251d9ac354a33dbb" compoundref="gfxfont_8h" startline="20">GFXfont::first</references>
+        <references refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" compoundref="_adafruit___g_f_x_8h" startline="142">gfxFont</references>
+        <references refid="struct_g_f_xfont_1af63d88fa053c9a634e86eab7c96db290" compoundref="gfxfont_8h" startline="19">GFXfont::glyph</references>
+        <references refid="struct_g_f_xglyph_1a24cff650b78fc295dc46e1bfa9127bb7" compoundref="gfxfont_8h" startline="12">GFXglyph::height</references>
+        <references refid="struct_g_f_xfont_1a2d2ef5e8e2984dc65a7820e2906855b2" compoundref="gfxfont_8h" startline="20">GFXfont::last</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1a48c60b057902adf805797f183286728d" compoundref="_adafruit___s_s_d1306_8cpp" startline="24">pgm_read_byte</references>
+        <references refid="_adafruit___g_f_x_8cpp_1a0d5d72a58654d35bb9c564263d1ede9a" compoundref="_adafruit___g_f_x_8cpp" startline="60">pgm_read_pointer</references>
+        <references refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" compoundref="_adafruit___g_f_x_8h" startline="136">textsize</references>
+        <references refid="struct_g_f_xglyph_1a02bd34fd474af250b230f52cee75a6c1" compoundref="gfxfont_8h" startline="12">GFXglyph::width</references>
+        <references refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" compoundref="_adafruit___g_f_x_8h" startline="139">wrap</references>
+        <references refid="struct_g_f_xglyph_1a9b191040252aa9b5362087d65366bbf2" compoundref="gfxfont_8h" startline="13">GFXglyph::xAdvance</references>
+        <references refid="struct_g_f_xglyph_1ab030bd9aeb37509ccc94ae3dcec4de98" compoundref="gfxfont_8h" startline="14">GFXglyph::xOffset</references>
+        <references refid="struct_g_f_xfont_1ac2c2f0184b810a562be808fbb98822fa" compoundref="gfxfont_8h" startline="21">GFXfont::yAdvance</references>
+        <references refid="struct_g_f_xglyph_1a96b2c0dbe314bf053cdc0d5c622e76a7" compoundref="gfxfont_8h" startline="14">GFXglyph::yOffset</references>
+        <referencedby refid="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" compoundref="_adafruit___g_f_x_8cpp" startline="999" endline="1020">getTextBounds</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Adafruit_SSD1306</label>
+        <link refid="class_adafruit___s_s_d1306"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>Adafruit_GFX</label>
+        <link refid="class_adafruit___g_f_x"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GFXcanvas1</label>
+        <link refid="class_g_f_xcanvas1"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GFXcanvas8</label>
+        <link refid="class_g_f_xcanvas8"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Print</label>
+      </node>
+      <node id="4">
+        <label>GFXcanvas16</label>
+        <link refid="class_g_f_xcanvas16"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>Adafruit_GFX</label>
+        <link refid="class_adafruit___g_f_x"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>gfxFont</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GFXglyph</label>
+        <link refid="struct_g_f_xglyph"/>
+      </node>
+      <node id="8">
+        <label>GFXfont</label>
+        <link refid="struct_g_f_xfont"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>glyph</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Print</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="12" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_adafruit___g_f_x_1aaef3d4d239641084cd3825a8b1042e01" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>_cp437</name></member>
+      <member refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>_height</name></member>
+      <member refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>_width</name></member>
+      <member refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>Adafruit_GFX</name></member>
+      <member refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>charBounds</name></member>
+      <member refid="class_adafruit___g_f_x_1a6d447fe274e3f0ff12f12afa538d0afe" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>cp437</name></member>
+      <member refid="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>cursor_x</name></member>
+      <member refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>cursor_y</name></member>
+      <member refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a0def482cb5ab6010cac6936de8e07188" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a957c2d2fc53e3121c5914a8bd9e5c3da" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a25dfb7db5b7446406b9204c738f0885e" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawChar</name></member>
+      <member refid="class_adafruit___g_f_x_1a648d2d6765e488b4556e802167d885fb" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawCircle</name></member>
+      <member refid="class_adafruit___g_f_x_1a3f2dd7b698e7b95ebf9fecf992ff802e" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawCircleHelper</name></member>
+      <member refid="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawFastHLine</name></member>
+      <member refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>drawFastVLine</name></member>
+      <member refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a00b26b1e2ac05476fdbd44214001954d" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a880b422ce35d0e3956dcd00638a421e4" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a7543eee2c983daea5eb46a0c2db92692" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawLine</name></member>
+      <member refid="class_adafruit___g_f_x_1ab7fbf72885c873266f9c7eb53b5c8896" prot="public" virt="pure-virtual"><scope>Adafruit_GFX</scope><name>drawPixel</name></member>
+      <member refid="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawRect</name></member>
+      <member refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a70768127ee8548d2a3690440c1694169" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ad1d249d742f83ddc4c4f3867643d6eb0" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1aac6f64d394f8d3557aa6f613b4219866" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawRoundRect</name></member>
+      <member refid="class_adafruit___g_f_x_1a49284b9cea16ecf8c15dfd0b51a841e6" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawTriangle</name></member>
+      <member refid="class_adafruit___g_f_x_1aa7797117fef7d18592d352c14fa7d820" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>drawXBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>endWrite</name></member>
+      <member refid="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>fillCircle</name></member>
+      <member refid="class_adafruit___g_f_x_1a2242d3560b08c6480084152b6660052a" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>fillCircleHelper</name></member>
+      <member refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>fillRect</name></member>
+      <member refid="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>fillRoundRect</name></member>
+      <member refid="class_adafruit___g_f_x_1a2b2730aaf2208990928f9c0f85558527" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>fillScreen</name></member>
+      <member refid="class_adafruit___g_f_x_1a4cd646a3d9c9d5b3ee50010d0aa387cd" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>fillTriangle</name></member>
+      <member refid="class_adafruit___g_f_x_1a0423f175d3ac47e28beae1dc593bc24f" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>getCursorX</name></member>
+      <member refid="class_adafruit___g_f_x_1a34a63c8c32a8c57f77c9efb50db1c20b" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>getCursorY</name></member>
+      <member refid="class_adafruit___g_f_x_1a1956ad03632c73f25b4d8d240a40d7c9" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>getRotation</name></member>
+      <member refid="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>getTextBounds</name></member>
+      <member refid="class_adafruit___g_f_x_1a97525abb71dbe38c6551e4d0da4052b8" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>getTextBounds</name></member>
+      <member refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>gfxFont</name></member>
+      <member refid="class_adafruit___g_f_x_1ac3dea6208d543a50f89b8e81bcaf9f09" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>height</name></member>
+      <member refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>HEIGHT</name></member>
+      <member refid="class_adafruit___g_f_x_1a2fa315803f39a5e73b1841874daf0483" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>invertDisplay</name></member>
+      <member refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>rotation</name></member>
+      <member refid="class_adafruit___g_f_x_1aaf96a40cad0f34dd8ec73494b3866c33" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>setCursor</name></member>
+      <member refid="class_adafruit___g_f_x_1ab0479a2bb4e09e7c39c35e35c55d6ed1" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>setFont</name></member>
+      <member refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>setRotation</name></member>
+      <member refid="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>setTextColor</name></member>
+      <member refid="class_adafruit___g_f_x_1ab6e88c585d3ab6b4f95199361f224fc6" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>setTextColor</name></member>
+      <member refid="class_adafruit___g_f_x_1a39eb4a8a2c9fa4ab7d58ceffd19535d5" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>setTextSize</name></member>
+      <member refid="class_adafruit___g_f_x_1aeeacd62bf26f3e7abbdc4b5b50faa6fa" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>setTextWrap</name></member>
+      <member refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>startWrite</name></member>
+      <member refid="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>textbgcolor</name></member>
+      <member refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>textcolor</name></member>
+      <member refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>textsize</name></member>
+      <member refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>WIDTH</name></member>
+      <member refid="class_adafruit___g_f_x_1a32dadc6651cedc5e6426322c8a922cd6" prot="public" virt="non-virtual"><scope>Adafruit_GFX</scope><name>width</name></member>
+      <member refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" prot="protected" virt="non-virtual"><scope>Adafruit_GFX</scope><name>wrap</name></member>
+      <member refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>write</name></member>
+      <member refid="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>writeFastHLine</name></member>
+      <member refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>writeFastVLine</name></member>
+      <member refid="class_adafruit___g_f_x_1a60133faeabc10f9d909674bc4c5aabc6" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>writeFillRect</name></member>
+      <member refid="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>writeLine</name></member>
+      <member refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" prot="public" virt="virtual"><scope>Adafruit_GFX</scope><name>writePixel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

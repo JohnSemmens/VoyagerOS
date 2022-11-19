@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_adafruit___g_f_x_8h" kind="file">
+    <compoundname>Adafruit_GFX.h</compoundname>
+    <includes local="yes">Arduino.h</includes>
+    <includes local="yes">Print.h</includes>
+    <includes refid="gfxfont_8h" local="yes">gfxfont.h</includes>
+    <includedby refid="_adafruit___g_f_x_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp</includedby>
+    <includedby refid="_adafruit___s_s_d1306_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp</includedby>
+    <includedby refid="_adafruit___s_s_d1306_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <incdepgraph>
+      <node id="54">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h</label>
+        <link refid="Adafruit_GFX.h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>Print.h</label>
+      </node>
+      <node id="55">
+        <label>Arduino.h</label>
+      </node>
+      <node id="57">
+        <label>gfxfont.h</label>
+        <link refid="gfxfont_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="58">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h</label>
+        <link refid="Adafruit_GFX.h"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp</label>
+        <link refid="_adafruit___s_s_d1306_8cpp"/>
+      </node>
+      <node id="62">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="61">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h</label>
+        <link refid="_adafruit___s_s_d1306_8h"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp</label>
+        <link refid="_adafruit___g_f_x_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_adafruit___g_f_x" prot="public">Adafruit_GFX</innerclass>
+    <innerclass refid="class_adafruit___g_f_x___button" prot="public">Adafruit_GFX_Button</innerclass>
+    <innerclass refid="class_g_f_xcanvas1" prot="public">GFXcanvas1</innerclass>
+    <innerclass refid="class_g_f_xcanvas8" prot="public">GFXcanvas8</innerclass>
+    <innerclass refid="class_g_f_xcanvas16" prot="public">GFXcanvas16</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_ADAFRUIT_GFX_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_ADAFRUIT_GFX_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/>#include<sp/>&quot;Print.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gfxfont_8h" kindref="compound">gfxfont.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_adafruit___g_f_x" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_adafruit___g_f_x" kindref="compound">Adafruit_GFX</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Print<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" kindref="member">Adafruit_GFX</ref>(int16_t<sp/>w,<sp/>int16_t<sp/>h);<sp/></highlight><highlight class="comment">//<sp/>Constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>MUST<sp/>be<sp/>defined<sp/>by<sp/>the<sp/>subclass:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1ab7fbf72885c873266f9c7eb53b5c8896" kindref="member">drawPixel</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint16_t<sp/>color)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>TRANSACTION<sp/>API<sp/>/<sp/>CORE<sp/>DRAW<sp/>API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>MAY<sp/>be<sp/>overridden<sp/>by<sp/>the<sp/>subclass<sp/>to<sp/>provide<sp/>device-specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>optimized<sp/>code.<sp/><sp/>Otherwise<sp/>&apos;generic&apos;<sp/>versions<sp/>are<sp/>used.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" kindref="member">startWrite</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" kindref="member">writePixel</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1a60133faeabc10f9d909674bc4c5aabc6" kindref="member">writeFillRect</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" kindref="member">writeFastVLine</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" kindref="member">writeFastHLine</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>int16_t<sp/>w,<sp/>uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" kindref="member">writeLine</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>x1,<sp/>int16_t<sp/>y1,<sp/>uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" kindref="member">endWrite</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>CONTROL<sp/>API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>MAY<sp/>be<sp/>overridden<sp/>by<sp/>the<sp/>subclass<sp/>to<sp/>provide<sp/>device-specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>optimized<sp/>code.<sp/><sp/>Otherwise<sp/>&apos;generic&apos;<sp/>versions<sp/>are<sp/>used.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" kindref="member">setRotation</ref>(uint8_t<sp/>r);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1a2fa315803f39a5e73b1841874daf0483" kindref="member">invertDisplay</ref>(</highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>BASIC<sp/>DRAW<sp/>API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>MAY<sp/>be<sp/>overridden<sp/>by<sp/>the<sp/>subclass<sp/>to<sp/>provide<sp/>device-specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>optimized<sp/>code.<sp/><sp/>Otherwise<sp/>&apos;generic&apos;<sp/>versions<sp/>are<sp/>used.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>It&apos;s<sp/>good<sp/>to<sp/>implement<sp/>those,<sp/>even<sp/>if<sp/>using<sp/>transaction<sp/>API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" kindref="member">drawFastVLine</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" kindref="member">drawFastHLine</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>int16_t<sp/>w,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" kindref="member">fillRect</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a2b2730aaf2208990928f9c0f85558527" kindref="member">fillScreen</ref>(uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Optional<sp/>and<sp/>probably<sp/>not<sp/>necessary<sp/>to<sp/>change</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" kindref="member">drawLine</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>x1,<sp/>int16_t<sp/>y1,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" kindref="member">drawRect</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>exist<sp/>only<sp/>with<sp/>Adafruit_GFX<sp/>(no<sp/>subclass<sp/>overrides)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a648d2d6765e488b4556e802167d885fb" kindref="member">drawCircle</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>r,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a3f2dd7b698e7b95ebf9fecf992ff802e" kindref="member">drawCircleHelper</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>r,<sp/>uint8_t<sp/>cornername,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" kindref="member">fillCircle</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>r,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a2242d3560b08c6480084152b6660052a" kindref="member">fillCircleHelper</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>r,<sp/>uint8_t<sp/>cornername,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>delta,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a49284b9cea16ecf8c15dfd0b51a841e6" kindref="member">drawTriangle</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>x1,<sp/>int16_t<sp/>y1,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>x2,<sp/>int16_t<sp/>y2,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a4cd646a3d9c9d5b3ee50010d0aa387cd" kindref="member">fillTriangle</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>x1,<sp/>int16_t<sp/>y1,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>x2,<sp/>int16_t<sp/>y2,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" kindref="member">drawRoundRect</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>radius,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" kindref="member">fillRoundRect</ref>(int16_t<sp/>x0,<sp/>int16_t<sp/>y0,<sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>radius,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" kindref="member">drawBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>bitmap[],</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" kindref="member">drawBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>bitmap[],</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color,<sp/>uint16_t<sp/>bg),</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" kindref="member">drawBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint8_t<sp/>*bitmap,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" kindref="member">drawBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint8_t<sp/>*bitmap,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color,<sp/>uint16_t<sp/>bg),</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1aa7797117fef7d18592d352c14fa7d820" kindref="member">drawXBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>bitmap[],</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" kindref="member">drawGrayscaleBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>bitmap[],</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h),</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" kindref="member">drawGrayscaleBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint8_t<sp/>*bitmap,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h),</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" kindref="member">drawGrayscaleBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>bitmap[],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>mask[],</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h),</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" kindref="member">drawGrayscaleBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*bitmap,<sp/>uint8_t<sp/>*mask,<sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h),</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" kindref="member">drawRGBBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>bitmap[],</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h),</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" kindref="member">drawRGBBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint16_t<sp/>*bitmap,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h),</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" kindref="member">drawRGBBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>bitmap[],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>mask[],</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h),</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" kindref="member">drawRGBBitmap</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>*bitmap,<sp/>uint8_t<sp/>*mask,<sp/>int16_t<sp/>w,<sp/>int16_t<sp/>h),</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" kindref="member">drawChar</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c,<sp/>uint16_t<sp/>color,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>bg,<sp/>uint8_t<sp/>size),</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1aaf96a40cad0f34dd8ec73494b3866c33" kindref="member">setCursor</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y),</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" kindref="member">setTextColor</ref>(uint16_t<sp/>c),</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" kindref="member">setTextColor</ref>(uint16_t<sp/>c,<sp/>uint16_t<sp/>bg),</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a39eb4a8a2c9fa4ab7d58ceffd19535d5" kindref="member">setTextSize</ref>(uint8_t<sp/>s),</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1aeeacd62bf26f3e7abbdc4b5b50faa6fa" kindref="member">setTextWrap</ref>(</highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>w),</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a6d447fe274e3f0ff12f12afa538d0afe" kindref="member">cp437</ref>(</highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>x=</highlight><highlight class="keyword">true</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ab0479a2bb4e09e7c39c35e35c55d6ed1" kindref="member">setFont</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_g_f_xfont" kindref="compound">GFXfont</ref><sp/>*f<sp/>=<sp/>NULL),</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" kindref="member">getTextBounds</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>int16_t<sp/>x,<sp/>int16_t<sp/>y,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>*x1,<sp/>int16_t<sp/>*y1,<sp/>uint16_t<sp/>*w,<sp/>uint16_t<sp/>*h),</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" kindref="member">getTextBounds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>__FlashStringHelper<sp/>*s,<sp/>int16_t<sp/>x,<sp/>int16_t<sp/>y,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>*x1,<sp/>int16_t<sp/>*y1,<sp/>uint16_t<sp/>*w,<sp/>uint16_t<sp/>*h);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="110"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" kindref="member">write</ref>(uint8_t);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="112"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" kindref="member">write</ref>(uint8_t);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="114"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>int16_t<sp/><ref refid="class_adafruit___g_f_x_1ac3dea6208d543a50f89b8e81bcaf9f09" kindref="member">height</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>int16_t<sp/><ref refid="class_adafruit___g_f_x_1a32dadc6651cedc5e6426322c8a922cd6" kindref="member">width</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="class_adafruit___g_f_x_1a1956ad03632c73f25b4d8d240a40d7c9" kindref="member">getRotation</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>current<sp/>cursor<sp/>position<sp/>(get<sp/>rotation<sp/>safe<sp/>maximum<sp/>values,<sp/>using:<sp/>width()<sp/>for<sp/>x,<sp/>height()<sp/>for<sp/>y)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>int16_t<sp/><ref refid="class_adafruit___g_f_x_1a0423f175d3ac47e28beae1dc593bc24f" kindref="member">getCursorX</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>int16_t<sp/><ref refid="class_adafruit___g_f_x_1a34a63c8c32a8c57f77c9efb50db1c20b" kindref="member">getCursorY</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" kindref="member">charBounds</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>*minx,<sp/>int16_t<sp/>*miny,<sp/>int16_t<sp/>*maxx,<sp/>int16_t<sp/>*maxy);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int16_t</highlight></codeline>
+<codeline lineno="129" refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" kindref="member">WIDTH</ref>,<sp/><ref refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" kindref="member">HEIGHT</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>the<sp/>&apos;raw&apos;<sp/>display<sp/>w/h<sp/>-<sp/>never<sp/>changes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>int16_t</highlight></codeline>
+<codeline lineno="131" refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" kindref="member">_width</ref>,<sp/><ref refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" kindref="member">_height</ref>,<sp/></highlight><highlight class="comment">//<sp/>Display<sp/>w/h<sp/>as<sp/>modified<sp/>by<sp/>current<sp/>rotation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" kindref="member">cursor_x</ref>,<sp/><ref refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" kindref="member">cursor_y</ref>;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>uint16_t</highlight></codeline>
+<codeline lineno="134" refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" kindref="member">textcolor</ref>,<sp/><ref refid="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" kindref="member">textbgcolor</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>uint8_t</highlight></codeline>
+<codeline lineno="136" refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" kindref="member">textsize</ref>,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" kindref="member">rotation</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" kindref="member">wrap</ref>,<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>set,<sp/>&apos;wrap&apos;<sp/>text<sp/>at<sp/>right<sp/>edge<sp/>of<sp/>display</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x_1aaef3d4d239641084cd3825a8b1042e01" kindref="member">_cp437</ref>;<sp/></highlight><highlight class="comment">//<sp/>If<sp/>set,<sp/>use<sp/>correct<sp/>CP437<sp/>charset<sp/>(default<sp/>is<sp/>off)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><ref refid="struct_g_f_xfont" kindref="compound">GFXfont</ref></highlight></codeline>
+<codeline lineno="142" refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>*<ref refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" kindref="member">gfxFont</ref>;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="class_adafruit___g_f_x___button" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_adafruit___g_f_x___button" kindref="compound">Adafruit_GFX_Button</ref><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><ref refid="class_adafruit___g_f_x___button_1a2232fef797e2d21f931eeda59d790d09" kindref="member">Adafruit_GFX_Button</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>&quot;Classic&quot;<sp/>initButton()<sp/>uses<sp/>center<sp/>&amp;<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1a0cb6999a324b9999a1f4b610e36b16b6" kindref="member">initButton</ref>(<ref refid="class_adafruit___g_f_x" kindref="compound">Adafruit_GFX</ref><sp/>*gfx,<sp/>int16_t<sp/>x,<sp/>int16_t<sp/>y,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/>uint16_t<sp/>w,<sp/>uint16_t<sp/>h,<sp/>uint16_t<sp/>outline,<sp/>uint16_t<sp/>fill,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/>uint16_t<sp/>textcolor,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*label,<sp/>uint8_t<sp/>textsize);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>New/alt<sp/>initButton()<sp/>uses<sp/>upper-left<sp/>corner<sp/>&amp;<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1a471d43fc4fb575b2868190d1ec832af7" kindref="member">initButtonUL</ref>(<ref refid="class_adafruit___g_f_x" kindref="compound">Adafruit_GFX</ref><sp/>*gfx,<sp/>int16_t<sp/>x1,<sp/>int16_t<sp/>y1,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/>uint16_t<sp/>w,<sp/>uint16_t<sp/>h,<sp/>uint16_t<sp/>outline,<sp/>uint16_t<sp/>fill,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/>uint16_t<sp/>textcolor,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*label,<sp/>uint8_t<sp/>textsize);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1a1d9329970f085c5111e239be90005371" kindref="member">drawButton</ref>(</highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>inverted<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1aa5fb594cf6f9cd4c1815a7c1011b5830" kindref="member">contains</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1a221d9753f7d8e8f7f9c1ebbee69d02bd" kindref="member">press</ref>(</highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>p);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1a1faefaf249e868786a416bc097e2cf07" kindref="member">isPressed</ref>();</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1a41bcfc81edaf30a11d171a69e7e7c679" kindref="member">justPressed</ref>();</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1a8a139332b95997168ba0da37973d2887" kindref="member">justReleased</ref>();</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="166" refid="class_adafruit___g_f_x___button_1a3075cb1279f96084669cec0fb55f02bd" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_adafruit___g_f_x" kindref="compound">Adafruit_GFX</ref><sp/>*<ref refid="class_adafruit___g_f_x___button_1a3075cb1279f96084669cec0fb55f02bd" kindref="member">_gfx</ref>;</highlight></codeline>
+<codeline lineno="167" refid="class_adafruit___g_f_x___button_1a6021b667390347e7c40670bb8a6f9a55" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x___button_1a7c144008f66ba107db80ed8f00e0541a" kindref="member">_x1</ref>,<sp/><ref refid="class_adafruit___g_f_x___button_1a6021b667390347e7c40670bb8a6f9a55" kindref="member">_y1</ref>;<sp/></highlight><highlight class="comment">//<sp/>Coordinates<sp/>of<sp/>top-left<sp/>corner</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="class_adafruit___g_f_x___button_1a9468c2bb2e7afbf29576da18e9dd805a" refkind="member"><highlight class="normal"><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x___button_1a9468c2bb2e7afbf29576da18e9dd805a" kindref="member">_w</ref>,<sp/><ref refid="class_adafruit___g_f_x___button_1aac2f3ce15d894a032a1b338c46a9ef92" kindref="member">_h</ref>;</highlight></codeline>
+<codeline lineno="169" refid="class_adafruit___g_f_x___button_1ae509668716dfb91b4c7eac7629d22110" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x___button_1ae509668716dfb91b4c7eac7629d22110" kindref="member">_textsize</ref>;</highlight></codeline>
+<codeline lineno="170" refid="class_adafruit___g_f_x___button_1a44fc9b9149e42d05add335bdf67eedb5" refkind="member"><highlight class="normal"><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x___button_1a71fbecd3d113a80e233c3f8b434afe73" kindref="member">_outlinecolor</ref>,<sp/><ref refid="class_adafruit___g_f_x___button_1abc4e3379b7ee52bb9395b317d89105b4" kindref="member">_fillcolor</ref>,<sp/><ref refid="class_adafruit___g_f_x___button_1a44fc9b9149e42d05add335bdf67eedb5" kindref="member">_textcolor</ref>;</highlight></codeline>
+<codeline lineno="171" refid="class_adafruit___g_f_x___button_1a44e4390d666a26337c1d9c5e931f2886" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_adafruit___g_f_x___button_1a44e4390d666a26337c1d9c5e931f2886" kindref="member">_label</ref>[10];</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="class_adafruit___g_f_x___button_1a7500e2c016b434a6ba648f4bd89928aa" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x___button_1ae3299339a6e2ed946ea325c22d523b19" kindref="member">currstate</ref>,<sp/><ref refid="class_adafruit___g_f_x___button_1a7500e2c016b434a6ba648f4bd89928aa" kindref="member">laststate</ref>;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="class_g_f_xcanvas1" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_f_xcanvas1" kindref="compound">GFXcanvas1</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x" kindref="compound">Adafruit_GFX</ref><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><ref refid="class_g_f_xcanvas1_1a3d8047501178f976fb6af095572eb5d0" kindref="member">GFXcanvas1</ref>(uint16_t<sp/>w,<sp/>uint16_t<sp/>h);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><ref refid="class_g_f_xcanvas1_1a5c6dad65db4c9a99544f3b5bad4c86e8" kindref="member">~GFXcanvas1</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_f_xcanvas1_1a0859d124c8dcaa147ef22a54d6e843a8" kindref="member">drawPixel</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_f_xcanvas1_1aa282792bbb854a4a045be5ba1c8a7afc" kindref="member">fillScreen</ref>(uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>uint8_t<sp/>*<ref refid="class_g_f_xcanvas1_1a008d7c6d8db9f641cef9d345959f732b" kindref="member">getBuffer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="184" refid="class_g_f_xcanvas1_1aec1b5879f2dd91b7a13da12fe48ae5e7" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/>*<ref refid="class_g_f_xcanvas1_1aec1b5879f2dd91b7a13da12fe48ae5e7" kindref="member">buffer</ref>;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="class_g_f_xcanvas8" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_f_xcanvas8" kindref="compound">GFXcanvas8</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x" kindref="compound">Adafruit_GFX</ref><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="class_g_f_xcanvas8_1a57dcdb940a56a37cdfbb3a596f9e0ecd" kindref="member">GFXcanvas8</ref>(uint16_t<sp/>w,<sp/>uint16_t<sp/>h);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><ref refid="class_g_f_xcanvas8_1a340fa7ddf55936e16748bd37255d2f19" kindref="member">~GFXcanvas8</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_f_xcanvas8_1a596553ea995b2d7830cc3eef0c4085fc" kindref="member">drawPixel</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_f_xcanvas8_1a9362b64e0e24b34172226cab358f5a45" kindref="member">fillScreen</ref>(uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_f_xcanvas8_1a5eadf69798e020345107af6cdb86f222" kindref="member">writeFastHLine</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>int16_t<sp/>w,<sp/>uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>uint8_t<sp/>*<ref refid="class_g_f_xcanvas8_1af22f9745b773ca0ccdebe37f0839b705" kindref="member">getBuffer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="197" refid="class_g_f_xcanvas8_1a9798c30f72aacd8a1488368375b0352f" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/>*<ref refid="class_g_f_xcanvas8_1a9798c30f72aacd8a1488368375b0352f" kindref="member">buffer</ref>;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="class_g_f_xcanvas16" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_f_xcanvas16" kindref="compound">GFXcanvas16</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___g_f_x" kindref="compound">Adafruit_GFX</ref><sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><ref refid="class_g_f_xcanvas16_1a1087f17778b9c60db81162e66220b600" kindref="member">GFXcanvas16</ref>(uint16_t<sp/>w,<sp/>uint16_t<sp/>h);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><ref refid="class_g_f_xcanvas16_1a15a79ebb2f3d86cb6a6bdc4ab1f3e9b7" kindref="member">~GFXcanvas16</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" kindref="member">drawPixel</ref>(int16_t<sp/>x,<sp/>int16_t<sp/>y,<sp/>uint16_t<sp/>color),</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_f_xcanvas16_1ae46db6d49d2943e7cb227fd0bb50b1f8" kindref="member">fillScreen</ref>(uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>uint16_t<sp/>*<ref refid="class_g_f_xcanvas16_1adff0802df78d18dcc6834d6ad68c7619" kindref="member">getBuffer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="208" refid="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" refkind="member"><highlight class="normal"><sp/><sp/>uint16_t<sp/>*<ref refid="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" kindref="member">buffer</ref>;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_ADAFRUIT_GFX_H</highlight></codeline>
+<codeline lineno="212"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,675 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_mission_8cpp" kind="file">
+    <compoundname>Mission.cpp</compoundname>
+    <includes refid="_mission_8h" local="yes">Mission.h</includes>
+    <includes refid="config_values_8h" local="yes">configValues.h</includes>
+    <includes refid="_navigation_8h" local="yes">Navigation.h</includes>
+    <includes refid="_command_state___processor_8h" local="yes">CommandState_Processor.h</includes>
+    <includes refid="_telemetry_logging_8h" local="yes">TelemetryLogging.h</includes>
+    <includes refid="_s_d_card_log_file_8h" local="yes">SDCardLogFile.h</includes>
+    <includes refid="_g_p_s_8h" local="yes">GPS.h</includes>
+    <includes refid="_loiter_8h" local="yes">Loiter.h</includes>
+    <includes refid="_power_management_8h" local="yes">PowerManagement.h</includes>
+    <incdepgraph>
+      <node id="478">
+        <label>SDCardLogFile.h</label>
+        <link refid="_s_d_card_log_file_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+      </node>
+      <node id="470">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</label>
+        <link refid="Mission.cpp"/>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+        <childnode refid="482" relation="include">
+        </childnode>
+        <childnode refid="484" relation="include">
+        </childnode>
+      </node>
+      <node id="479">
+        <label>SPI.h</label>
+      </node>
+      <node id="472">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>PowerManagement.h</label>
+        <link refid="_power_management_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+      </node>
+      <node id="471">
+        <label>Mission.h</label>
+        <link refid="_mission_8h"/>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="473" relation="include">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>GPS.h</label>
+        <link refid="_g_p_s_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+      </node>
+      <node id="482">
+        <label>Loiter.h</label>
+        <link refid="_loiter_8h"/>
+        <childnode refid="483" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+      </node>
+      <node id="474">
+        <label>configValues.h</label>
+        <link refid="config_values_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+      </node>
+      <node id="480">
+        <label>SdFat.h</label>
+      </node>
+      <node id="483">
+        <label>Arduino.h</label>
+      </node>
+      <node id="473">
+        <label>arduino.h</label>
+      </node>
+      <node id="476">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+      </node>
+      <node id="477">
+        <label>TelemetryLogging.h</label>
+        <link refid="_telemetry_logging_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_mission_8cpp_1aaba928d8db82c396578c10f915447c21" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_loiter_struct" kindref="compound">LoiterStruct</ref></type>
+        <definition>LoiterStruct LoiterData</definition>
+        <argsstring></argsstring>
+        <name>LoiterData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_mission_8cpp_1a6e6c124a8544f54a81bb39badabb0342" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref></type>
+        <definition>NavigationDataType NavData</definition>
+        <argsstring></argsstring>
+        <name>NavData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_mission_8cpp_1aadcc1cb4a3163b28898cf7865b944006" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CommandPort</definition>
+        <argsstring></argsstring>
+        <name>CommandPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="22" column="1"/>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_mission_8cpp_1a84903d3dde78582cbc92053c3c18d444" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_state_values_struct" kindref="compound">StateValuesStruct</ref></type>
+        <definition>StateValuesStruct StateValues</definition>
+        <argsstring></argsstring>
+        <name>StateValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_mission_8cpp_1ae7b7edb4669ddd6e193860f2b64c35cd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_mission_values_struct" kindref="compound">MissionValuesStruct</ref></type>
+        <definition>MissionValuesStruct MissionValues</definition>
+        <argsstring></argsstring>
+        <name>MissionValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_mission_8cpp_1a723236e33d541fe926aafbf860757e71" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_time" kindref="compound">Time</ref></type>
+        <definition>Time CurrentLocalTime</definition>
+        <argsstring></argsstring>
+        <name>CurrentLocalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_mission_8cpp_1a1106f1eecd15a9233233ae672d651265" prot="public" static="no" mutable="no">
+        <type><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref></type>
+        <definition>configValuesType Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_mission_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" prot="public" static="no" mutable="no">
+        <type><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" kindref="member">DecisionEventType</ref></type>
+        <definition>DecisionEventType DecisionEvent</definition>
+        <argsstring></argsstring>
+        <name>DecisionEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="29" column="1"/>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_mission_8cpp_1a4e68978287be769969d1c58c14401c1a" prot="public" static="no" mutable="no">
+        <type><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref></type>
+        <definition>DecisionEventReasonType DecisionEventReason</definition>
+        <argsstring></argsstring>
+        <name>DecisionEventReason</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="30" column="1"/>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_mission_8cpp_1a40190fbe8db0259df7eb5e20c112e0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MissionUpdate</definition>
+        <argsstring>(void)</argsstring>
+        <name>MissionUpdate</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="32" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" bodystart="32" bodyend="81"/>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="struct_mission_command_1a055a0fda744513046135edf636de7281" compoundref="_mission_8h" startline="28">MissionCommand::controlMask</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</references>
+        <references refid="_mission_8cpp_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" compoundref="_mission_8h" startline="40">MissionValuesStruct::mission_size</references>
+        <references refid="struct_mission_values_struct_1a0b6991219567898d0f4c105e1c593a8e" compoundref="_mission_8h" startline="41">MissionValuesStruct::MissionCommandStartTime</references>
+        <references refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" compoundref="_mission_8h" startline="39">MissionValuesStruct::MissionList</references>
+        <references refid="_power_management_8cpp_1aea1bad4cf49afc1d1c2fb2251439f54d" compoundref="_power_management_8cpp" startline="44" endline="53">PowerControl</references>
+        <references refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" compoundref="_navigation_8h" startline="63">NavigationDataType::prev_WP</references>
+        <references refid="config_values_8cpp_1a4420d75b54a462de8f443e1832b8812f" compoundref="config_values_8cpp" startline="132" endline="135">Save_EEPROM_StateValues</references>
+        <references refid="_s_d_card_log_file_8cpp_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</references>
+        <references refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" compoundref="_command_state___processor_8h" startline="35">StateValuesStruct::StartingMission</references>
+        <references refid="_mission_8cpp_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+      </memberdef>
+      <memberdef kind="function" id="_mission_8cpp_1a25f17f52c627403a54f0a1df3900a35a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsMissionStepComplete</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsMissionStepComplete</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="83" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" bodystart="83" bodyend="180"/>
+        <references refid="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" compoundref="_mission_8h" startline="25">MissionCommand::cmd</references>
+        <references refid="_mission_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aa3a1517e29a678a16482db0903167641" compoundref="_mission_8h" startline="16">ctGotoWaypoint</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aba9c02415f591113e88eaec2c48d8eef" compoundref="_mission_8h" startline="17">ctLoiter</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a856603ea56061daf237a4ed1775c7be8" compoundref="_mission_8h" startline="18">ctLoiterUntil</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a7541643753c0b3cf9debe5d6589c3a47" compoundref="_mission_8h" startline="19">ctReturnToHome</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398ab5d9734d8cb7ee4687e055eb495b1adc" compoundref="_mission_8h" startline="20">ctSteerWindCourse</references>
+        <references refid="_mission_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_mission_8cpp_1a4e68978287be769969d1c58c14401c1a">DecisionEventReason</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a3e12eb7b83cb01a4c2aa7335430d5b72" compoundref="_telemetry_logging_8h" startline="40">deEndOfMission</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a55b5c98c6360f06476f8b5ca84a088c0" compoundref="_telemetry_logging_8h" startline="38">deIncrementMissionIndex</references>
+        <references refid="struct_mission_command_1a1616af2b51234c7ee3f5e55a877d689d" compoundref="_mission_8h" startline="29">MissionCommand::duration</references>
+        <references refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" compoundref="_command_state___processor_8h" startline="39">StateValuesStruct::home_is_set</references>
+        <references refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" compoundref="_g_p_s_8h" startline="21">Time::hour</references>
+        <references refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" compoundref="_g_p_s_8h" startline="20">Time::minute</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" compoundref="_mission_8h" startline="40">MissionValuesStruct::mission_size</references>
+        <references refid="struct_mission_values_struct_1a0b6991219567898d0f4c105e1c593a8e" compoundref="_mission_8h" startline="41">MissionValuesStruct::MissionCommandStartTime</references>
+        <references refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" compoundref="_mission_8h" startline="39">MissionValuesStruct::MissionList</references>
+        <references refid="struct_navigation_data_type_1ad484ff4b4c6262ce2ef5e6af8750f8ba" compoundref="_navigation_8h" startline="69">NavigationDataType::PastWP</references>
+        <references refid="_power_management_8cpp_1a7958b6ee75faf28a6b0190df20688f52" compoundref="_power_management_8cpp" startline="39" endline="42">RCPowerOn</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3ae9c6da8085dc71d047d32dab6f632b4d" compoundref="_telemetry_logging_8h" startline="52">rPastDuration</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a831d0afe5af1e2e365081caf05aeff4a" compoundref="_telemetry_logging_8h" startline="51">rPastTime</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a788353dd89cacf994ab952e7ce3a3294" compoundref="_telemetry_logging_8h" startline="50">rPastWaypoint</references>
+        <references refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <references refid="_power_management_8cpp_1a280d380741e516360969fe36cca84f6b" compoundref="_power_management_8cpp" startline="34" endline="37">TelemetryPowerOn</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" compoundref="_command_state___processor_8h" startline="25">vcsLoiter</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_mission_8cpp_1a7576bfb08a92c9599c566fd234fba5d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdatePrevNextWP</definition>
+        <argsstring>(void)</argsstring>
+        <name>UpdatePrevNextWP</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="182" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" bodystart="182" bodyend="243"/>
+        <references refid="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" compoundref="_mission_8h" startline="27">MissionCommand::boundary</references>
+        <references refid="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" compoundref="_mission_8h" startline="25">MissionCommand::cmd</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aa3a1517e29a678a16482db0903167641" compoundref="_mission_8h" startline="16">ctGotoWaypoint</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aba9c02415f591113e88eaec2c48d8eef" compoundref="_mission_8h" startline="17">ctLoiter</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a856603ea56061daf237a4ed1775c7be8" compoundref="_mission_8h" startline="18">ctLoiterUntil</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a7541643753c0b3cf9debe5d6589c3a47" compoundref="_mission_8h" startline="19">ctReturnToHome</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398ab5d9734d8cb7ee4687e055eb495b1adc" compoundref="_mission_8h" startline="20">ctSteerWindCourse</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" compoundref="_command_state___processor_8h" startline="38">StateValuesStruct::home</references>
+        <references refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" compoundref="_loiter_8h" startline="25">LoiterStruct::loiterCentreLocation</references>
+        <references refid="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" compoundref="_loiter_8h" startline="27">LoiterStruct::loiterLocationPrevious</references>
+        <references refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" compoundref="_loiter_8h" startline="34">LoiterStruct::LoiterRadius</references>
+        <references refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" compoundref="_loiter_8h" startline="24">LoiterStruct::LoiterState</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a29a0504be4f2ef43ca564a001ca09472" compoundref="_loiter_8h" startline="16">lsApproach</references>
+        <references refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" compoundref="_navigation_8h" startline="65">NavigationDataType::MaxCTE</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" compoundref="_mission_8h" startline="39">MissionValuesStruct::MissionList</references>
+        <references refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" compoundref="_navigation_8h" startline="64">NavigationDataType::next_WP</references>
+        <references refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" compoundref="_navigation_8h" startline="76">NavigationDataType::next_WP_valid</references>
+        <references refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" compoundref="_navigation_8h" startline="63">NavigationDataType::prev_WP</references>
+        <references refid="struct_mission_command_1a0e191ee386b81492da3ba46977efeedf" compoundref="_mission_8h" startline="30">MissionCommand::SteerAWA</references>
+        <references refid="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" compoundref="_command_state___processor_8h" startline="40">StateValuesStruct::SteerWindAngle</references>
+        <references refid="struct_mission_command_1ac293e5ddea78b48d1d26c97a4530e73f" compoundref="_mission_8h" startline="26">MissionCommand::waypoint</references>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_mission_8cpp_1aea390b1f12c362475f2981f4f387c926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_next_WP_for_display</definition>
+        <argsstring>()</argsstring>
+        <name>set_next_WP_for_display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" line="245" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp" bodystart="245" bodyend="265"/>
+        <references refid="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" compoundref="_mission_8h" startline="27">MissionCommand::boundary</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" compoundref="_navigation_8h" startline="65">NavigationDataType::MaxCTE</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" compoundref="_mission_8h" startline="40">MissionValuesStruct::mission_size</references>
+        <references refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" compoundref="_mission_8h" startline="39">MissionValuesStruct::MissionList</references>
+        <references refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" compoundref="_navigation_8h" startline="64">NavigationDataType::next_WP</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="struct_mission_command_1ac293e5ddea78b48d1d26c97a4530e73f" compoundref="_mission_8h" startline="26">MissionCommand::waypoint</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Mission</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>provides<sp/>the<sp/>structures<sp/>and<sp/>function<sp/>to<sp/>process<sp/>a<sp/>mission</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>including<sp/>advancing<sp/>the<sp/>mission<sp/>index<sp/>when<sp/>each<sp/>step<sp/>of<sp/>the<sp/>mission<sp/>is<sp/>completed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.1<sp/>30/8/2016<sp/>updated<sp/>for<sp/>reorganisation<sp/>of<sp/>navigation<sp/>global<sp/>variables<sp/>into<sp/>a<sp/>structure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.2<sp/>28/4/2018<sp/>updated<sp/>to<sp/>reorganise<sp/>design<sp/>and<sp/>improve<sp/>quality.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.3<sp/>16/7/2019<sp/>adding<sp/>the<sp/>new<sp/>Mission<sp/>command<sp/>for<sp/>Steering<sp/>a<sp/>Wind<sp/>Angle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_mission_8h" kindref="compound">Mission.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="config_values_8h" kindref="compound">configValues.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_navigation_8h" kindref="compound">Navigation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_command_state___processor_8h" kindref="compound">CommandState_Processor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_telemetry_logging_8h" kindref="compound">TelemetryLogging.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_s_d_card_log_file_8h" kindref="compound">SDCardLogFile.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_g_p_s_8h" kindref="compound">GPS.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_loiter_8h" kindref="compound">Loiter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_power_management_8h" kindref="compound">PowerManagement.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_loiter_struct" kindref="compound">LoiterStruct</ref><sp/><ref refid="_mission_8cpp_1aaba928d8db82c396578c10f915447c21" kindref="member">LoiterData</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref><sp/><ref refid="_mission_8cpp_1a6e6c124a8544f54a81bb39badabb0342" kindref="member">NavData</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_mission_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_state_values_struct" kindref="compound">StateValuesStruct</ref><sp/><ref refid="_mission_8cpp_1a84903d3dde78582cbc92053c3c18d444" kindref="member">StateValues</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_mission_values_struct" kindref="compound">MissionValuesStruct</ref><sp/><ref refid="_mission_8cpp_1ae7b7edb4669ddd6e193860f2b64c35cd" kindref="member">MissionValues</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_time" kindref="compound">Time</ref><sp/><ref refid="_mission_8cpp_1a723236e33d541fe926aafbf860757e71" kindref="member">CurrentLocalTime</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref><sp/><ref refid="_mission_8cpp_1a1106f1eecd15a9233233ae672d651265" kindref="member">Configuration</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" kindref="member">DecisionEventType</ref><sp/><ref refid="_mission_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" kindref="member">DecisionEvent</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>used<sp/>in<sp/>event<sp/>based<sp/>logging<sp/>and<sp/>diagnosis</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref><sp/><ref refid="_mission_8cpp_1a4e68978287be769969d1c58c14401c1a" kindref="member">DecisionEventReason</ref>;<sp/></highlight><highlight class="comment">//<sp/>used<sp/>in<sp/>event<sp/>based<sp/>logging<sp/>and<sp/>diagnosis</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_mission_8cpp_1a40190fbe8db0259df7eb5e20c112e0f3" kindref="member">MissionUpdate</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>called<sp/>from<sp/>the<sp/>slow<sp/>loop.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Review<sp/>if<sp/>position<sp/>in<sp/>mission<sp/>list<sp/>needs<sp/>to<sp/>be<sp/>changed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>7/8/2016<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>10/11/2016<sp/>updated<sp/>to<sp/>provide<sp/>a<sp/>way<sp/>to<sp/>reset<sp/>the<sp/>mission<sp/>back<sp/>to<sp/>zero.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>we&apos;re<sp/>following<sp/>a<sp/>mission<sp/>and<sp/>the<sp/>mission<sp/>has<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>verify<sp/>that<sp/>the<sp/>location<sp/>is<sp/>valid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>(StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref><sp/>==<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" kindref="member">VesselCommandStateType::vcsFollowMission</ref>)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>(MissionValues.<ref refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" kindref="member">mission_size</ref><sp/>&gt;<sp/>0)<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/><ref refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" kindref="member">GPS_LocationIs_Valid</ref>(NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>)<sp/>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>we<sp/>are<sp/>just<sp/>starting<sp/>and<sp/>intialise<sp/>the<sp/>first<sp/>mission<sp/>step<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(StateValues.<ref refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" kindref="member">StartingMission</ref><sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" kindref="member">StartingMission</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>start<sp/>command<sp/>timer.<sp/>Record<sp/>the<sp/>start<sp/>time<sp/>of<sp/>each<sp/>new<sp/>command<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MissionValues.<ref refid="struct_mission_values_struct_1a0b6991219567898d0f4c105e1c593a8e" kindref="member">MissionCommandStartTime</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//set<sp/>up<sp/>the<sp/>next<sp/>waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1a7576bfb08a92c9599c566fd234fba5d4" kindref="member">UpdatePrevNextWP</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//initialise<sp/>prev_wp<sp/>with<sp/>current<sp/>loc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" kindref="member">prev_WP</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Log<sp/>Mission<sp/>Step<sp/>Details</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_s_d_card_log_file_8cpp_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" kindref="member">SD_Logging_Event_MissionStep</ref>(StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>increment<sp/>Mission<sp/>index<sp/>if<sp/>step<sp/>complete</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_mission_8cpp_1a25f17f52c627403a54f0a1df3900a35a" kindref="member">IsMissionStepComplete</ref>())</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>++;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>save<sp/>the<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="config_values_8cpp_1a4420d75b54a462de8f443e1832b8812f" kindref="member">Save_EEPROM_StateValues</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>Power<sp/>Control</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_power_management_8cpp_1aea1bad4cf49afc1d1c2fb2251439f54d" kindref="member">PowerControl</ref>(MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a055a0fda744513046135edf636de7281" kindref="member">controlMask</ref>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>start<sp/>command<sp/>timer.<sp/>Record<sp/>the<sp/>start<sp/>time<sp/>of<sp/>each<sp/>new<sp/>command<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MissionValues.<ref refid="struct_mission_values_struct_1a0b6991219567898d0f4c105e1c593a8e" kindref="member">MissionCommandStartTime</ref><sp/>=<sp/>millis();<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Log<sp/>Mission<sp/>Step<sp/>Details</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_s_d_card_log_file_8cpp_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" kindref="member">SD_Logging_Event_MissionStep</ref>(StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//set<sp/>up<sp/>the<sp/>next<sp/>waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1a7576bfb08a92c9599c566fd234fba5d4" kindref="member">UpdatePrevNextWP</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_mission_8cpp_1a25f17f52c627403a54f0a1df3900a35a" kindref="member">IsMissionStepComplete</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>the<sp/>current<sp/>mission<sp/>step<sp/>is<sp/>complete<sp/>and<sp/>increment<sp/>Mission<sp/>index<sp/>if<sp/>required</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>true,<sp/>if<sp/>the<sp/>current<sp/>step<sp/>is<sp/>complete,<sp/>false<sp/>otherwise.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>7/8/2016<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>13/1/2017<sp/>Updated<sp/>to<sp/>improve<sp/>protection<sp/>of<sp/>the<sp/>mission<sp/>index<sp/>and<sp/>prevent<sp/>out<sp/>of<sp/>bounds<sp/>access.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.2<sp/>28/4/2018<sp/>refactored<sp/>and<sp/>simplified<sp/>design.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.3<sp/>1/8/2019<sp/>ensure<sp/>RC<sp/>Rx<sp/>and<sp/>Telemetry<sp/>are<sp/>powered<sp/>up<sp/>at<sp/>end<sp/>of<sp/>mission.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MinutesPastMidnight;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>StepComplete<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>we<sp/>are<sp/>not<sp/>yet<sp/>on<sp/>the<sp/>last<sp/>step<sp/>of<sp/>the<sp/>mission,<sp/>then<sp/>proceed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref><sp/>&lt;<sp/>MissionValues.<ref refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" kindref="member">mission_size</ref>)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>the<sp/>command<sp/>from<sp/>the<sp/>list<sp/>and<sp/>decide<sp/>what<sp/>to<sp/>do.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398" kindref="member">MissionCommandType</ref><sp/>mc<sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" kindref="member">cmd</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(mc)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aa3a1517e29a678a16482db0903167641" kindref="member">ctGotoWaypoint</ref>:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a7541643753c0b3cf9debe5d6589c3a47" kindref="member">ctReturnToHome</ref>:</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>past<sp/>current<sp/>waypoint<sp/>and<sp/>if<sp/>so,<sp/>advance<sp/>mission<sp/>index.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NavData.<ref refid="struct_navigation_data_type_1ad484ff4b4c6262ce2ef5e6af8750f8ba" kindref="member">PastWP</ref>)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StepComplete<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>log<sp/>the<sp/>event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" kindref="member">DecisionEvent</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a55b5c98c6360f06476f8b5ca84a088c0" kindref="member">DecisionEventType::deIncrementMissionIndex</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1a4e68978287be769969d1c58c14401c1a" kindref="member">DecisionEventReason</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a788353dd89cacf994ab952e7ce3a3294" kindref="member">DecisionEventReasonType::rPastWaypoint</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" kindref="member">TelemetryLogging_Event_Decisions</ref>(<ref refid="_mission_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/>Configuration.<ref refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" kindref="member">TelemetryLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" kindref="member">SD_Logging_Event_Decisions</ref>(Configuration.<ref refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" kindref="member">SDCardLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aba9c02415f591113e88eaec2c48d8eef" kindref="member">ctLoiter</ref>:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398ab5d9734d8cb7ee4687e055eb495b1adc" kindref="member">ctSteerWindCourse</ref>:</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>past<sp/>duration<sp/>and<sp/>if<sp/>so,<sp/>advance<sp/>mission<sp/>index.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>mission<sp/>command<sp/>duration<sp/>is<sp/>expressed<sp/>in<sp/>minutes.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>perform<sp/>the<sp/>test<sp/>using<sp/>seconds.<sp/>There<sp/>was<sp/>an<sp/>overflow<sp/>occuring<sp/>when<sp/>milliseconds<sp/>was<sp/>used</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((millis()<sp/>-<sp/>MissionValues.<ref refid="struct_mission_values_struct_1a0b6991219567898d0f4c105e1c593a8e" kindref="member">MissionCommandStartTime</ref>)/1000)<sp/>&gt;=<sp/>(MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a1616af2b51234c7ee3f5e55a877d689d" kindref="member">duration</ref><sp/>*<sp/>60))</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StepComplete<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>log<sp/>the<sp/>event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" kindref="member">DecisionEvent</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a55b5c98c6360f06476f8b5ca84a088c0" kindref="member">DecisionEventType::deIncrementMissionIndex</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1a4e68978287be769969d1c58c14401c1a" kindref="member">DecisionEventReason</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3ae9c6da8085dc71d047d32dab6f632b4d" kindref="member">DecisionEventReasonType::rPastDuration</ref>;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" kindref="member">TelemetryLogging_Event_Decisions</ref>(<ref refid="_mission_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/>Configuration.<ref refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" kindref="member">TelemetryLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" kindref="member">SD_Logging_Event_Decisions</ref>(Configuration.<ref refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" kindref="member">SDCardLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a856603ea56061daf237a4ed1775c7be8" kindref="member">ctLoiterUntil</ref>:</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>past<sp/>Time<sp/>Of<sp/>Day<sp/>and<sp/>if<sp/>so,<sp/>advance<sp/>mission<sp/>index.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Time<sp/>Of<sp/>Day<sp/>is<sp/>expressed<sp/>in<sp/>minutes<sp/>past<sp/>midnight.<sp/>e.g.<sp/>6am<sp/>=<sp/>360<sp/>minutes<sp/>past<sp/>midnight</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>perform<sp/>the<sp/>test<sp/>using<sp/>minutes.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MinutesPastMidnight<sp/>=<sp/>CurrentLocalTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>*<sp/>60<sp/>+<sp/>CurrentLocalTime.<ref refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" kindref="member">minute</ref>;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(MinutesPastMidnight<sp/>&gt;=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a1616af2b51234c7ee3f5e55a877d689d" kindref="member">duration</ref>)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StepComplete<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>log<sp/>the<sp/>event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" kindref="member">DecisionEvent</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a55b5c98c6360f06476f8b5ca84a088c0" kindref="member">DecisionEventType::deIncrementMissionIndex</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1a4e68978287be769969d1c58c14401c1a" kindref="member">DecisionEventReason</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a831d0afe5af1e2e365081caf05aeff4a" kindref="member">DecisionEventReasonType::rPastTime</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" kindref="member">TelemetryLogging_Event_Decisions</ref>(<ref refid="_mission_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/>Configuration.<ref refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" kindref="member">TelemetryLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" kindref="member">SD_Logging_Event_Decisions</ref>(Configuration.<ref refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" kindref="member">SDCardLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>we&apos;re<sp/>at<sp/>end<sp/>of<sp/>mission</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(StateValues.<ref refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" kindref="member">home_is_set</ref>)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>home<sp/>is<sp/>set<sp/>then<sp/>go<sp/>home.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref><sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" kindref="member">VesselCommandStateType::vcsReturnToHome</ref>;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>home<sp/>is<sp/>not<sp/>set<sp/>then<sp/>loiter<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref><sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" kindref="member">VesselCommandStateType::vcsLoiter</ref>;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>make<sp/>sure<sp/>power<sp/>is<sp/>on<sp/>for<sp/>the<sp/>radios<sp/>at<sp/>end<sp/>of<sp/>mission</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_power_management_8cpp_1a7958b6ee75faf28a6b0190df20688f52" kindref="member">RCPowerOn</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_power_management_8cpp_1a280d380741e516360969fe36cca84f6b" kindref="member">TelemetryPowerOn</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>log<sp/>the<sp/>event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_mission_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" kindref="member">DecisionEvent</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a3e12eb7b83cb01a4c2aa7335430d5b72" kindref="member">DecisionEventType::deEndOfMission</ref>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" kindref="member">TelemetryLogging_Event_Decisions</ref>(<ref refid="_mission_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/>Configuration.<ref refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" kindref="member">TelemetryLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" kindref="member">SD_Logging_Event_Decisions</ref>(Configuration.<ref refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" kindref="member">SDCardLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>StepComplete;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_mission_8cpp_1a7576bfb08a92c9599c566fd234fba5d4" kindref="member">UpdatePrevNextWP</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We&apos;ve<sp/>moved<sp/>to<sp/>the<sp/>next<sp/>mission<sp/>step,<sp/>so<sp/>update<sp/>the<sp/>next<sp/>and<sp/>previous<sp/>waypoints<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>4/8/2016<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>25/1/2017<sp/>added<sp/>Loitering<sp/>within<sp/>the<sp/>Mission<sp/>Commands</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.2<sp/>28/4/2018<sp/>refactored<sp/>and<sp/>simplified<sp/>design.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>previous<sp/>waypoint<sp/>to<sp/>be<sp/>next<sp/>waypoint,<sp/>or,<sp/>if<sp/>not<sp/>valid,<sp/>then<sp/>use<sp/>current<sp/>loc<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NavData.<ref refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" kindref="member">next_WP_valid</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" kindref="member">prev_WP</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref>;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" kindref="member">prev_WP</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>the<sp/>command<sp/>from<sp/>the<sp/>list<sp/>and<sp/>decide<sp/>what<sp/>to<sp/>do.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398" kindref="member">MissionCommandType</ref><sp/>mc<sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" kindref="member">cmd</ref>;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(mc)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aba9c02415f591113e88eaec2c48d8eef" kindref="member">ctLoiter</ref>:</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a856603ea56061daf237a4ed1775c7be8" kindref="member">ctLoiterUntil</ref>:</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>next<sp/>waypoint<sp/>to<sp/>location<sp/>specified<sp/>in<sp/>the<sp/>current<sp/>list<sp/>command<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref><sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1ac293e5ddea78b48d1d26c97a4530e73f" kindref="member">waypoint</ref>;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" kindref="member">MaxCTE</ref><sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" kindref="member">boundary</ref>;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" kindref="member">next_WP_valid</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>up<sp/>the<sp/>loiter<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>loiterOuterLocation<sp/>to<sp/>be<sp/>previous<sp/>waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" kindref="member">loiterLocationPrevious</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" kindref="member">prev_WP</ref>;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>loiter<sp/>point<sp/>to<sp/>be<sp/>next<sp/>waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" kindref="member">loiterCentreLocation</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref>;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>Loiter<sp/>radius</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" kindref="member">LoiterRadius</ref><sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" kindref="member">boundary</ref>;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>loiter<sp/>state<sp/>to<sp/>approach</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" kindref="member">LoiterState</ref><sp/>=<sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a29a0504be4f2ef43ca564a001ca09472" kindref="member">lsApproach</ref>;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aa3a1517e29a678a16482db0903167641" kindref="member">ctGotoWaypoint</ref>:</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>next<sp/>waypoint<sp/>to<sp/>location<sp/>specified<sp/>in<sp/>the<sp/>current<sp/>list<sp/>command<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref><sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1ac293e5ddea78b48d1d26c97a4530e73f" kindref="member">waypoint</ref>;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" kindref="member">MaxCTE</ref><sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" kindref="member">boundary</ref>;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" kindref="member">next_WP_valid</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a7541643753c0b3cf9debe5d6589c3a47" kindref="member">ctReturnToHome</ref>:</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>next<sp/>Waypoint<sp/>to<sp/>be<sp/>home<sp/>location.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref><sp/>=<sp/>StateValues.<ref refid="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" kindref="member">home</ref>;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NavData.MaxCTE<sp/>=<sp/>??<sp/>//<sp/>perhaps<sp/>leave<sp/>unchanged<sp/>from<sp/>previous<sp/>setting</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" kindref="member">next_WP_valid</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398ab5d9734d8cb7ee4687e055eb495b1adc" kindref="member">ctSteerWindCourse</ref>:</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>steer<sp/>a<sp/>wind<sp/>course<sp/>for<sp/>a<sp/>duration.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" kindref="member">next_WP_valid</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>do<sp/>we<sp/>need<sp/>this<sp/>??<sp/>YES<sp/>otherwise<sp/>other<sp/>parts<sp/>of<sp/>follow<sp/>mssion<sp/>don&apos;t<sp/>work.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" kindref="member">SteerWindAngle</ref><sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a0e191ee386b81492da3ba46977efeedf" kindref="member">SteerAWA</ref>;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="_mission_8h_1ab22b8b14464b9f954092f326c4a1af95" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_mission_8cpp_1aea390b1f12c362475f2981f4f387c926" kindref="member">set_next_WP_for_display</ref>()</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>update<sp/>the<sp/>next<sp/>Waypoint<sp/>outside<sp/>of<sp/>the<sp/>normal<sp/>Following<sp/>mission</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>is<sp/>helpful<sp/>for<sp/>display<sp/>on<sp/>the<sp/>Voyager<sp/>Base<sp/>Station.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>we<sp/>are<sp/>not<sp/>following<sp/>a<sp/>mission,<sp/>and<sp/>the<sp/>mission<sp/>has<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>the<sp/>mission<sp/>index<sp/>is<sp/>within<sp/><sp/>the<sp/>mission<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref><sp/>!=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" kindref="member">VesselCommandStateType::vcsFollowMission</ref>)</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>(MissionValues.<ref refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" kindref="member">mission_size</ref><sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>(StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref><sp/>&lt;=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" kindref="member">mission_size</ref>)</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>make<sp/>sure<sp/>the<sp/>next<sp/>waypoint<sp/>is<sp/>set,<sp/>even<sp/>though<sp/>we&apos;re<sp/>currently<sp/>set<sp/>to<sp/>follow<sp/>mission.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>is<sp/>helpful<sp/>for<sp/>display<sp/>on<sp/>the<sp/>Voyager<sp/>Base<sp/>Station.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>next<sp/>waypoint<sp/>to<sp/>location<sp/>specified<sp/>in<sp/>the<sp/>current<sp/>list<sp/>command<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref><sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1ac293e5ddea78b48d1d26c97a4530e73f" kindref="member">waypoint</ref>;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" kindref="member">MaxCTE</ref><sp/>=<sp/>MissionValues.<ref refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" kindref="member">MissionList</ref>[StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref>].<ref refid="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" kindref="member">boundary</ref>;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>NavData.next_WP_valid<sp/>=<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp"/>
+  </compounddef>
+</doxygen>

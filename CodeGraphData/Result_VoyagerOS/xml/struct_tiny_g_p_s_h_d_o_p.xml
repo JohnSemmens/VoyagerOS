@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_tiny_g_p_s_h_d_o_p" kind="struct" prot="public">
+    <compoundname>TinyGPSHDOP</compoundname>
+    <basecompoundref refid="struct_tiny_g_p_s_decimal" prot="public" virt="non-virtual">TinyGPSDecimal</basecompoundref>
+    <includes refid="_tiny_g_p_s_09_09_8h" local="no">TinyGPS++.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_tiny_g_p_s_h_d_o_p_1a27cd35588c96eefb690bba46497d20d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double TinyGPSHDOP::hdop</definition>
+        <argsstring>()</argsstring>
+        <name>hdop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="189" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="189" bodyend="189"/>
+        <references refid="struct_tiny_g_p_s_decimal_1ac3ce80976e5d8456e9f211b910a6cb19" compoundref="_tiny_g_p_s_09_09_8h" startline="133" endline="133">TinyGPSDecimal::value</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>TinyGPSHDOP</label>
+        <link refid="struct_tiny_g_p_s_h_d_o_p"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>TinyGPSDecimal</label>
+        <link refid="struct_tiny_g_p_s_decimal"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="128">
+        <label>TinyGPSHDOP</label>
+        <link refid="struct_tiny_g_p_s_h_d_o_p"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>TinyGPSDecimal</label>
+        <link refid="struct_tiny_g_p_s_decimal"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="188" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="187" bodyend="190"/>
+    <listofallmembers>
+      <member refid="struct_tiny_g_p_s_decimal_1ab80191a3e02c92ad3f674b5df2ab752f" prot="public" virt="non-virtual"><scope>TinyGPSHDOP</scope><name>age</name></member>
+      <member refid="struct_tiny_g_p_s_h_d_o_p_1a27cd35588c96eefb690bba46497d20d7" prot="public" virt="non-virtual"><scope>TinyGPSHDOP</scope><name>hdop</name></member>
+      <member refid="struct_tiny_g_p_s_decimal_1ae8b7f9f7719c2974ebd3b34759493d15" prot="public" virt="non-virtual"><scope>TinyGPSHDOP</scope><name>isUpdated</name></member>
+      <member refid="struct_tiny_g_p_s_decimal_1a2a1d868525e903eb193b7a36cdd76984" prot="public" virt="non-virtual"><scope>TinyGPSHDOP</scope><name>isValid</name></member>
+      <member refid="struct_tiny_g_p_s_decimal_1ae09cbb1856cd57c7dcee52fb5fb1ba16" prot="public" virt="non-virtual"><scope>TinyGPSHDOP</scope><name>TinyGPSDecimal</name></member>
+      <member refid="struct_tiny_g_p_s_decimal_1ac3ce80976e5d8456e9f211b910a6cb19" prot="public" virt="non-virtual"><scope>TinyGPSHDOP</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

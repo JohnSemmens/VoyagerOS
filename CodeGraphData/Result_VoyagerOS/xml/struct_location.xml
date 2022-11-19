@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_location" kind="struct" prot="public">
+    <compoundname>Location</compoundname>
+    <includes refid="_waypoints_8h" local="no">Waypoints.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_location_1ae51548c2cf32311043ca19b94b9a9223" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Location::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h" line="22" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="location_8h_1ae53923f6092e5036fdbab56c2b1d025c" compoundref="location_8cpp" startline="72" endline="79">get_bearing</referencedby>
+        <referencedby refid="location_8h_1a1bb34ec50f166eed9096f7cc8c76c444" compoundref="location_8cpp" startline="82" endline="89">get_bearingf</referencedby>
+        <referencedby refid="location_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</referencedby>
+        <referencedby refid="_g_p_s_8h_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</referencedby>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s___temp_8h_1a3d00a4427432dca90b7c8bc78e4859e7" compoundref="_g_p_s___temp_8cpp" startline="21" endline="79">GPS_Temp_Read</referencedby>
+        <referencedby refid="location_8cpp_1a717b438a67f0b41665feec9009ba1bd4" compoundref="location_8cpp" startline="162" endline="170">location_offset</referencedby>
+        <referencedby refid="location_8h_1ab6cd880d070717b4c3cc7a7278768e72" compoundref="location_8cpp" startline="98" endline="130">location_passed_point</referencedby>
+        <referencedby refid="location_8cpp_1ad2368c582f3e0c135e2a74772f4db61a" compoundref="location_8cpp" startline="38" endline="52">longitude_scale</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Location::lng</definition>
+        <argsstring></argsstring>
+        <name>lng</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h" line="23" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="location_8h_1ae53923f6092e5036fdbab56c2b1d025c" compoundref="location_8cpp" startline="72" endline="79">get_bearing</referencedby>
+        <referencedby refid="location_8h_1a1bb34ec50f166eed9096f7cc8c76c444" compoundref="location_8cpp" startline="82" endline="89">get_bearingf</referencedby>
+        <referencedby refid="location_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</referencedby>
+        <referencedby refid="_g_p_s_8h_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</referencedby>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s___temp_8h_1a3d00a4427432dca90b7c8bc78e4859e7" compoundref="_g_p_s___temp_8cpp" startline="21" endline="79">GPS_Temp_Read</referencedby>
+        <referencedby refid="location_8cpp_1a717b438a67f0b41665feec9009ba1bd4" compoundref="location_8cpp" startline="162" endline="170">location_offset</referencedby>
+        <referencedby refid="location_8h_1ab6cd880d070717b4c3cc7a7278768e72" compoundref="location_8cpp" startline="98" endline="130">location_passed_point</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h" line="21" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h" bodystart="21" bodyend="24"/>
+    <listofallmembers>
+      <member refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" prot="public" virt="non-virtual"><scope>Location</scope><name>lat</name></member>
+      <member refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" prot="public" virt="non-virtual"><scope>Location</scope><name>lng</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

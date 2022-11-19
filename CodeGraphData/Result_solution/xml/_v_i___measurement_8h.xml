@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_v_i___measurement_8h" kind="file">
+    <compoundname>VI_Measurement.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_v_i___measurement_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp</includedby>
+    <incdepgraph>
+      <node id="987">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.h</label>
+        <link refid="VI_Measurement.h"/>
+        <childnode refid="988" relation="include">
+        </childnode>
+      </node>
+      <node id="988">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="990">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp</label>
+        <link refid="_v_i___measurement_8cpp"/>
+      </node>
+      <node id="989">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.h</label>
+        <link refid="VI_Measurement.h"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_v_i___measurement_8h_1a7e5fe72f5223460c4e1a0e73bcc0b3e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_VI_Measurement</definition>
+        <argsstring>(void)</argsstring>
+        <name>init_VI_Measurement</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" bodystart="11" bodyend="15"/>
+        <references refid="class_adafruit___i_n_a219_1ac46f358c0af6682ac7ec79593a66b57e" compoundref="_adafruit___i_n_a219_8cpp" startline="388" endline="391">Adafruit_INA219::begin</references>
+        <references refid="class_adafruit___i_n_a219_1acd5cd9cfadae71308c0d0238d3dfce82" compoundref="_adafruit___i_n_a219_8cpp" startline="276" endline="358">Adafruit_INA219::setCalibration_16V_400mA</references>
+      </memberdef>
+      <memberdef kind="function" id="_v_i___measurement_8h_1a7953aab014cccadd3e8edfdc68689393" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void read_VI_Measurement</definition>
+        <argsstring>(void)</argsstring>
+        <name>read_VI_Measurement</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.h" line="13" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" bodystart="17" bodyend="22"/>
+        <references refid="class_adafruit___i_n_a219_1a22b4b21b104d6a939b6deb153bfbb8ae" compoundref="_adafruit___i_n_a219_8cpp" startline="490" endline="493">Adafruit_INA219::getBusVoltage_V</references>
+        <references refid="class_adafruit___i_n_a219_1af28fcc20fb5387ed034e28670d95755c" compoundref="_adafruit___i_n_a219_8cpp" startline="502" endline="506">Adafruit_INA219::getCurrent_mA</references>
+        <references refid="_v_i___measurement_8cpp_1aea95619001504f641ab5c0b2f1f885dc">PowerSensorI</references>
+        <references refid="_v_i___measurement_8cpp_1adfad02f502f8da0da9ddc814a3cfd259">PowerSensorV</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>VI_Measurement.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_VI_MEASUREMENT_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_VI_MEASUREMENT_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_v_i___measurement_8h_1a7e5fe72f5223460c4e1a0e73bcc0b3e0" kindref="member">init_VI_Measurement</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_v_i___measurement_8h_1a7953aab014cccadd3e8edfdc68689393" kindref="member">read_VI_Measurement</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.h"/>
+  </compounddef>
+</doxygen>

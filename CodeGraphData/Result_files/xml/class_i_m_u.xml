@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_i_m_u" kind="class" prot="public">
+    <compoundname>IMU</compoundname>
+    <includes refid="_u_s_f_s___i_m_u_8h" local="no">USFS_IMU.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_i_m_u_1ab21865d0799320482bcd2bcc27f498f8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_e_m7180" kindref="compound">EM7180</ref> *</type>
+        <definition>EM7180* IMU::Sentral</definition>
+        <argsstring></argsstring>
+        <name>Sentral</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="65" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_i_m_u_1a5cc4111c6d4240e65f958892ab337ac8" compoundref="_u_s_f_s___i_m_u_8cpp" startline="171" endline="205">computeIMU</referencedby>
+        <referencedby refid="class_i_m_u_1a24a5864459c95d41a46d7941471ab7a8" compoundref="_u_s_f_s___i_m_u_8cpp" startline="157" endline="161">IMU</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1a41886fa1e1e1446100790886eae835d6" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t IMU::SensorNum</definition>
+        <argsstring></argsstring>
+        <name>SensorNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="66" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_i_m_u_1a5cc4111c6d4240e65f958892ab337ac8" compoundref="_u_s_f_s___i_m_u_8cpp" startline="171" endline="205">computeIMU</referencedby>
+        <referencedby refid="class_i_m_u_1a24a5864459c95d41a46d7941471ab7a8" compoundref="_u_s_f_s___i_m_u_8cpp" startline="157" endline="161">IMU</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_m_u_1a24a5864459c95d41a46d7941471ab7a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IMU::IMU</definition>
+        <argsstring>(EM7180 *, uint8_t)</argsstring>
+        <name>IMU</name>
+        <param>
+          <type><ref refid="class_e_m7180" kindref="compound">EM7180</ref> *</type>
+          <defname>sentral</defname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <defname>sensornum</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="63" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp" bodystart="157" bodyend="161"/>
+        <references refid="class_i_m_u_1a41886fa1e1e1446100790886eae835d6" compoundref="_u_s_f_s___i_m_u_8h" startline="66">SensorNum</references>
+        <references refid="class_i_m_u_1ab21865d0799320482bcd2bcc27f498f8" compoundref="_u_s_f_s___i_m_u_8h" startline="65">Sentral</references>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a5cc4111c6d4240e65f958892ab337ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::computeIMU</definition>
+        <argsstring>()</argsstring>
+        <name>computeIMU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="64" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp" bodystart="171" bodyend="205"/>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1a7aea33d88b286b72b9d284e5ed93fd70" compoundref="_u_s_f_s___i_m_u_8cpp" startline="38">accADC</references>
+        <references refid="_e_m7180_8cpp_1aaeb0871607748dea5dac8f9869089e2f" compoundref="_e_m7180_8cpp" startline="44">accSmooth</references>
+        <references refid="_e_m7180_8cpp_1a7a2b0122117e255793df9392899c1a95" compoundref="_e_m7180_8cpp" startline="49">angle</references>
+        <references refid="class_e_m7180_1ac0af50da5c9b7e8c9805d7f4a95039b9" compoundref="_e_m7180_8cpp" startline="316" endline="326">EM7180::getQUAT</references>
+        <references refid="_e_m7180_8cpp_1ac487024f15da0992b299f718cd196eef" compoundref="_e_m7180_8cpp" startline="50">heading</references>
+        <references refid="_u_s_f_s__config_8h_1afb8058e971f893662932f44ab98f0535" compoundref="_u_s_f_s__config_8h" startline="154">MAG_DECLINIATION</references>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1a56c4748c3648c67c3a620c9b010a576c" compoundref="_e_m7180_8cpp" startline="47">qt</references>
+        <references refid="class_i_m_u_1a41886fa1e1e1446100790886eae835d6" compoundref="_u_s_f_s___i_m_u_8h" startline="66">SensorNum</references>
+        <references refid="class_i_m_u_1ab21865d0799320482bcd2bcc27f498f8" compoundref="_u_s_f_s___i_m_u_8h" startline="65">Sentral</references>
+        <referencedby refid="_u_s_f_s___i_m_u_8cpp_1a7470f18d90fee02c823fdae8b125670f" compoundref="_u_s_f_s___i_m_u_8cpp" startline="109" endline="153">FetchSentralData</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="70">
+        <label>EM7180</label>
+        <link refid="class_e_m7180"/>
+        <childnode refid="71" relation="usage">
+          <edgelabel>I2C</edgelabel>
+        </childnode>
+      </node>
+      <node id="69">
+        <label>IMU</label>
+        <link refid="class_i_m_u"/>
+        <childnode refid="70" relation="usage">
+          <edgelabel>Sentral</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>I2Cdev</label>
+        <link refid="class_i2_cdev"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="61" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" bodystart="60" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_i_m_u_1a5cc4111c6d4240e65f958892ab337ac8" prot="public" virt="non-virtual"><scope>IMU</scope><name>computeIMU</name></member>
+      <member refid="class_i_m_u_1a24a5864459c95d41a46d7941471ab7a8" prot="public" virt="non-virtual"><scope>IMU</scope><name>IMU</name></member>
+      <member refid="class_i_m_u_1a41886fa1e1e1446100790886eae835d6" prot="public" virt="non-virtual"><scope>IMU</scope><name>SensorNum</name></member>
+      <member refid="class_i_m_u_1ab21865d0799320482bcd2bcc27f498f8" prot="public" virt="non-virtual"><scope>IMU</scope><name>Sentral</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_waypoints_8cpp" kind="file">
+    <compoundname>Waypoints.cpp</compoundname>
+    <includes refid="_waypoints_8h" local="yes">Waypoints.h</includes>
+    <incdepgraph>
+      <node id="992">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="993" relation="include">
+        </childnode>
+      </node>
+      <node id="991">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.cpp</label>
+        <link refid="Waypoints.cpp"/>
+        <childnode refid="992" relation="include">
+        </childnode>
+      </node>
+      <node id="993">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_waypoints_8h" kindref="compound">Waypoints.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_filters_8cpp" kind="file">
+    <compoundname>Filters.cpp</compoundname>
+    <includes refid="_filters_8h" local="yes">Filters.h</includes>
+    <incdepgraph>
+      <node id="332">
+        <label>arduino.h</label>
+      </node>
+      <node id="330">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.cpp</label>
+        <link refid="Filters.cpp"/>
+        <childnode refid="331" relation="include">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>Filters.h</label>
+        <link refid="_filters_8h"/>
+        <childnode refid="332" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_filters_8h" kindref="compound">Filters.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" kindref="member">LowPassFilter::Filter</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Input)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>filtered_value;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>filtered_value<sp/>=<sp/><ref refid="class_low_pass_filter_1a6f196ab481a93f43228084f380161764" kindref="member">LowPassFilter::last_filtered_value</ref><sp/>+<sp/><ref refid="class_low_pass_filter_1a2f52522dcdd77c4dd4bfbda24bd6dc46" kindref="member">LowPassFilter::FilterConstant</ref><sp/>*<sp/>(Input<sp/>-<sp/><ref refid="class_low_pass_filter_1a6f196ab481a93f43228084f380161764" kindref="member">LowPassFilter::last_filtered_value</ref>);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_low_pass_filter_1a6f196ab481a93f43228084f380161764" kindref="member">LowPassFilter::last_filtered_value</ref><sp/>=<sp/>filtered_value;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>filtered_value;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_high_pass_filter_1a3ddda46a920cd9fbed8cb5ed1a148a55" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_high_pass_filter_1a3ddda46a920cd9fbed8cb5ed1a148a55" kindref="member">HighPassFilter::Filter</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Input)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>filtered_value;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>filtered_value<sp/>=<sp/><ref refid="class_high_pass_filter_1a5c5e6695f72a6549043fc839d03b28cb" kindref="member">HighPassFilter::FilterConstant</ref><sp/>*<sp/>(Input<sp/>+<sp/><ref refid="class_high_pass_filter_1a2ea367792e17ec4764d4fce511f534cc" kindref="member">HighPassFilter::last_filtered_value</ref><sp/>-<sp/><ref refid="class_high_pass_filter_1ad0959518d4c46eb8067eb0742d500c17" kindref="member">HighPassFilter::last_input</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_high_pass_filter_1ad0959518d4c46eb8067eb0742d500c17" kindref="member">HighPassFilter::last_input</ref><sp/>=<sp/>Input;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_high_pass_filter_1a2ea367792e17ec4764d4fce511f534cc" kindref="member">HighPassFilter::last_filtered_value</ref><sp/>=<sp/>filtered_value;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>filtered_value;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_high_pass_filter_1abeecb85a0a9f57b3eb76031ecc8ac967" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><ref refid="class_high_pass_filter_1abeecb85a0a9f57b3eb76031ecc8ac967" kindref="member">HighPassFilter::Init</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InitValue)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_high_pass_filter_1ad0959518d4c46eb8067eb0742d500c17" kindref="member">last_input</ref><sp/>=<sp/>InitValue;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_high_pass_filter_1a2ea367792e17ec4764d4fce511f534cc" kindref="member">last_filtered_value</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" kindref="member">LowPassAngleFilter::Filter</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InputAngle)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>filtered_value_X;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>filtered_value_Y;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ensure<sp/>angle<sp/>is<sp/>confined<sp/>to<sp/>0<sp/>to<sp/><sp/>&lt;360</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(InputAngle<sp/>&gt;=<sp/>360)<sp/>{<sp/>InputAngle<sp/>-=<sp/>360;<sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(InputAngle<sp/>&lt;<sp/>0)<sp/>{<sp/>InputAngle<sp/>+=<sp/>360;<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>convert<sp/>angle<sp/>to<sp/>cartesian<sp/>coordinates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Input_X<sp/>=<sp/>sin(<ref refid="_misc_8h_1a7571dba2995b9cb57259345fe49d2f97" kindref="member">radians</ref>(InputAngle));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Input_Y<sp/>=<sp/>cos(<ref refid="_misc_8h_1a7571dba2995b9cb57259345fe49d2f97" kindref="member">radians</ref>(InputAngle));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>apply<sp/>low<sp/>pass<sp/>filter<sp/>to<sp/>X</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>filtered_value_X<sp/>=<sp/><ref refid="class_low_pass_angle_filter_1ad8d358deabe7b0d149b618ec626fc2c7" kindref="member">LowPassAngleFilter::last_filtered_value_X</ref><sp/>+<sp/><ref refid="class_low_pass_angle_filter_1a6215328ead84e074e5cac3e298656e79" kindref="member">LowPassAngleFilter::FilterConstant</ref><sp/>*<sp/>(Input_X<sp/>-<sp/><ref refid="class_low_pass_angle_filter_1ad8d358deabe7b0d149b618ec626fc2c7" kindref="member">LowPassAngleFilter::last_filtered_value_X</ref>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_low_pass_angle_filter_1ad8d358deabe7b0d149b618ec626fc2c7" kindref="member">LowPassAngleFilter::last_filtered_value_X</ref><sp/>=<sp/>filtered_value_X;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>apply<sp/>low<sp/>pass<sp/>filter<sp/>to<sp/>Y</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>filtered_value_Y<sp/>=<sp/><ref refid="class_low_pass_angle_filter_1ae017f99d6e08db4ebdd98183b2134056" kindref="member">LowPassAngleFilter::last_filtered_value_Y</ref><sp/>+<sp/><ref refid="class_low_pass_angle_filter_1a6215328ead84e074e5cac3e298656e79" kindref="member">LowPassAngleFilter::FilterConstant</ref><sp/>*<sp/>(Input_Y<sp/>-<sp/><ref refid="class_low_pass_angle_filter_1ae017f99d6e08db4ebdd98183b2134056" kindref="member">LowPassAngleFilter::last_filtered_value_Y</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_low_pass_angle_filter_1ae017f99d6e08db4ebdd98183b2134056" kindref="member">LowPassAngleFilter::last_filtered_value_Y</ref><sp/>=<sp/>filtered_value_Y;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>convert<sp/>filtered<sp/>angle<sp/>components<sp/>back<sp/>to<sp/>an<sp/>angle<sp/>between<sp/>0<sp/>and<sp/>&lt;360<sp/>degrees.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>filtered_angle_value<sp/>=<sp/><ref refid="_misc_8h_1afe93c2c14da376a1621194c15c1de496" kindref="member">degrees</ref>(atan2(filtered_value_X,<sp/>filtered_value_Y));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(filtered_angle_value<sp/>&lt;<sp/>0)<sp/>{<sp/>filtered_angle_value<sp/>+=<sp/>360;<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>filtered_angle_value;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//float<sp/>HighPassAngleFilter::Filter(float<sp/>InputAngle)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>float<sp/>filtered_value_X;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>float<sp/>filtered_value_Y;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>//<sp/>ensure<sp/>angle<sp/>is<sp/>confined<sp/>to<sp/>0<sp/>to<sp/><sp/>&lt;360</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(InputAngle<sp/>&gt;=<sp/>360)<sp/>{<sp/>InputAngle<sp/>-=<sp/>360;<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(InputAngle<sp/>&lt;<sp/>0)<sp/>{<sp/>InputAngle<sp/>+=<sp/>360;<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>//<sp/>convert<sp/>angle<sp/>to<sp/>cartesian<sp/>coordinates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>float<sp/>Input_X<sp/>=<sp/>sin(radians(InputAngle));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>float<sp/>Input_Y<sp/>=<sp/>cos(radians(InputAngle));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>filtered_value_X<sp/>=<sp/>HighPassAngleFilter::FilterConstant<sp/>*<sp/>(Input_X<sp/>+<sp/>HighPassAngleFilter::last_filtered_value_X<sp/>-<sp/>HighPassAngleFilter::last_input_X);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>HighPassAngleFilter::last_input_X<sp/>=<sp/>Input_X;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>HighPassAngleFilter::last_filtered_value_X<sp/>=<sp/>filtered_value_X;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>filtered_value_Y<sp/>=<sp/>HighPassAngleFilter::FilterConstant<sp/>*<sp/>(Input_Y<sp/>+<sp/>HighPassAngleFilter::last_filtered_value_Y<sp/>-<sp/>HighPassAngleFilter::last_input_Y)<sp/>+1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>HighPassAngleFilter::last_input_Y<sp/>=<sp/>Input_Y;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>HighPassAngleFilter::last_filtered_value_Y<sp/>=<sp/>filtered_value_Y;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>//<sp/>convert<sp/>filtered<sp/>angle<sp/>components<sp/>back<sp/>to<sp/>an<sp/>angle<sp/>between<sp/>0<sp/>and<sp/>&lt;360<sp/>degrees.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>float<sp/>filtered_angle_value<sp/>=<sp/>degrees(atan2(filtered_value_X,<sp/>filtered_value_Y));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(filtered_angle_value<sp/>&lt;<sp/>0)<sp/>{<sp/>filtered_angle_value<sp/>+=<sp/>360;<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>filtered_angle_value;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//};</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,885 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_adafruit___s_s_d1306" kind="class" prot="public">
+    <compoundname>Adafruit_SSD1306</compoundname>
+    <basecompoundref refid="class_adafruit___g_f_x" prot="public" virt="non-virtual">Adafruit_GFX</basecompoundref>
+    <includes refid="_adafruit___s_s_d1306_8h" local="no">Adafruit_SSD1306.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_adafruit___s_s_d1306_1a968236016261a3132f0e77cabe2ba6b1" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Adafruit_SSD1306::_i2caddr</definition>
+        <argsstring></argsstring>
+        <name>_i2caddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="172" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" compoundref="_adafruit___s_s_d1306_8cpp" startline="419" endline="485">display</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___s_s_d1306_1a95f34a614e5079a6d9c2836335f2bf15" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Adafruit_SSD1306::_vccstate</definition>
+        <argsstring></argsstring>
+        <name>_vccstate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="172" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1ae918422325b9fabc7396207263269d3a" compoundref="_adafruit___s_s_d1306_8cpp" startline="401" endline="417">dim</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___s_s_d1306_1a2cfd90241a4170c14f4d8d9c58195057" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Adafruit_SSD1306::sid</definition>
+        <argsstring></argsstring>
+        <name>sid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="172" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="class_adafruit___s_s_d1306_1afa528a297f64684f6b81d2918fee76ea" compoundref="_adafruit___s_s_d1306_8cpp" startline="144" endline="151">Adafruit_SSD1306</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" compoundref="_adafruit___s_s_d1306_8cpp" startline="419" endline="485">display</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aa98826f813a2de6c0dc39f8757628ea7" compoundref="_adafruit___s_s_d1306_8cpp" startline="493" endline="512">fastSPIwrite</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___s_s_d1306_1a6ab63bca2c286c43b8974af98998e171" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Adafruit_SSD1306::sclk</definition>
+        <argsstring></argsstring>
+        <name>sclk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="172" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="class_adafruit___s_s_d1306_1afa528a297f64684f6b81d2918fee76ea" compoundref="_adafruit___s_s_d1306_8cpp" startline="144" endline="151">Adafruit_SSD1306</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aa98826f813a2de6c0dc39f8757628ea7" compoundref="_adafruit___s_s_d1306_8cpp" startline="493" endline="512">fastSPIwrite</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___s_s_d1306_1a64ea051c026c9290f6689829b8288413" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Adafruit_SSD1306::dc</definition>
+        <argsstring></argsstring>
+        <name>dc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="172" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="class_adafruit___s_s_d1306_1afa528a297f64684f6b81d2918fee76ea" compoundref="_adafruit___s_s_d1306_8cpp" startline="144" endline="151">Adafruit_SSD1306</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" compoundref="_adafruit___s_s_d1306_8cpp" startline="419" endline="485">display</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___s_s_d1306_1a6ea8154021e92771410719475f6fff6e" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Adafruit_SSD1306::rst</definition>
+        <argsstring></argsstring>
+        <name>rst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="172" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="class_adafruit___s_s_d1306_1afa528a297f64684f6b81d2918fee76ea" compoundref="_adafruit___s_s_d1306_8cpp" startline="144" endline="151">Adafruit_SSD1306</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___s_s_d1306_1af98ea9cdc6a692705f3a88e645c09620" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Adafruit_SSD1306::cs</definition>
+        <argsstring></argsstring>
+        <name>cs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="172" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="class_adafruit___s_s_d1306_1afa528a297f64684f6b81d2918fee76ea" compoundref="_adafruit___s_s_d1306_8cpp" startline="144" endline="151">Adafruit_SSD1306</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" compoundref="_adafruit___s_s_d1306_8cpp" startline="419" endline="485">display</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_adafruit___s_s_d1306_1a1f47d4b8db5279528d29dc16f1ff989e" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean Adafruit_SSD1306::hwSPI</definition>
+        <argsstring></argsstring>
+        <name>hwSPI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="175" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="175" bodyend="-1"/>
+        <referencedby refid="class_adafruit___s_s_d1306_1afa528a297f64684f6b81d2918fee76ea" compoundref="_adafruit___s_s_d1306_8cpp" startline="144" endline="151">Adafruit_SSD1306</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aa98826f813a2de6c0dc39f8757628ea7" compoundref="_adafruit___s_s_d1306_8cpp" startline="493" endline="512">fastSPIwrite</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1afa528a297f64684f6b81d2918fee76ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Adafruit_SSD1306::Adafruit_SSD1306</definition>
+        <argsstring>(int8_t SID, int8_t SCLK, int8_t DC, int8_t RST, int8_t CS)</argsstring>
+        <name>Adafruit_SSD1306</name>
+        <param>
+          <type>int8_t</type>
+          <declname>SID</declname>
+        </param>
+        <param>
+          <type>int8_t</type>
+          <declname>SCLK</declname>
+        </param>
+        <param>
+          <type>int8_t</type>
+          <declname>DC</declname>
+        </param>
+        <param>
+          <type>int8_t</type>
+          <declname>RST</declname>
+        </param>
+        <param>
+          <type>int8_t</type>
+          <declname>CS</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="146" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="144" bodyend="151"/>
+        <references refid="class_adafruit___s_s_d1306_1af98ea9cdc6a692705f3a88e645c09620" compoundref="_adafruit___s_s_d1306_8h" startline="172">cs</references>
+        <references refid="class_adafruit___s_s_d1306_1a64ea051c026c9290f6689829b8288413" compoundref="_adafruit___s_s_d1306_8h" startline="172">dc</references>
+        <references refid="class_adafruit___s_s_d1306_1a1f47d4b8db5279528d29dc16f1ff989e" compoundref="_adafruit___s_s_d1306_8h" startline="175">hwSPI</references>
+        <references refid="class_adafruit___s_s_d1306_1a6ea8154021e92771410719475f6fff6e" compoundref="_adafruit___s_s_d1306_8h" startline="172">rst</references>
+        <references refid="class_adafruit___s_s_d1306_1a6ab63bca2c286c43b8974af98998e171" compoundref="_adafruit___s_s_d1306_8h" startline="172">sclk</references>
+        <references refid="class_adafruit___s_s_d1306_1a2cfd90241a4170c14f4d8d9c58195057" compoundref="_adafruit___s_s_d1306_8h" startline="172">sid</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1aa7fcad43307cfed089bf7f4a7ce5ffbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Adafruit_SSD1306::Adafruit_SSD1306</definition>
+        <argsstring>(int8_t DC, int8_t RST, int8_t CS)</argsstring>
+        <name>Adafruit_SSD1306</name>
+        <param>
+          <type>int8_t</type>
+          <declname>DC</declname>
+        </param>
+        <param>
+          <type>int8_t</type>
+          <declname>RST</declname>
+        </param>
+        <param>
+          <type>int8_t</type>
+          <declname>CS</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="147" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="154" bodyend="159"/>
+        <references refid="class_adafruit___s_s_d1306_1af98ea9cdc6a692705f3a88e645c09620" compoundref="_adafruit___s_s_d1306_8h" startline="172">cs</references>
+        <references refid="class_adafruit___s_s_d1306_1a64ea051c026c9290f6689829b8288413" compoundref="_adafruit___s_s_d1306_8h" startline="172">dc</references>
+        <references refid="class_adafruit___s_s_d1306_1a1f47d4b8db5279528d29dc16f1ff989e" compoundref="_adafruit___s_s_d1306_8h" startline="175">hwSPI</references>
+        <references refid="class_adafruit___s_s_d1306_1a6ea8154021e92771410719475f6fff6e" compoundref="_adafruit___s_s_d1306_8h" startline="172">rst</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a00831d839632d4db47ba268fc4101791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Adafruit_SSD1306::Adafruit_SSD1306</definition>
+        <argsstring>(int8_t RST=-1)</argsstring>
+        <name>Adafruit_SSD1306</name>
+        <param>
+          <type>int8_t</type>
+          <declname>RST</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="148" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="162" bodyend="166"/>
+        <references refid="class_adafruit___s_s_d1306_1af98ea9cdc6a692705f3a88e645c09620" compoundref="_adafruit___s_s_d1306_8h" startline="172">cs</references>
+        <references refid="class_adafruit___s_s_d1306_1a64ea051c026c9290f6689829b8288413" compoundref="_adafruit___s_s_d1306_8h" startline="172">dc</references>
+        <references refid="class_adafruit___s_s_d1306_1a6ea8154021e92771410719475f6fff6e" compoundref="_adafruit___s_s_d1306_8h" startline="172">rst</references>
+        <references refid="class_adafruit___s_s_d1306_1a6ab63bca2c286c43b8974af98998e171" compoundref="_adafruit___s_s_d1306_8h" startline="172">sclk</references>
+        <references refid="class_adafruit___s_s_d1306_1a2cfd90241a4170c14f4d8d9c58195057" compoundref="_adafruit___s_s_d1306_8h" startline="172">sid</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::begin</definition>
+        <argsstring>(uint8_t switchvcc=SSD1306_SWITCHCAPVCC, uint8_t i2caddr=SSD1306_I2C_ADDRESS, bool reset=true)</argsstring>
+        <name>begin</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>switchvcc</declname>
+          <defval><ref refid="_adafruit___s_s_d1306_8h_1ad9d18b92ad68b542033c7e5ccbdcced0" kindref="member">SSD1306_SWITCHCAPVCC</ref></defval>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>i2caddr</declname>
+          <defval><ref refid="_adafruit___s_s_d1306_8h_1a9d56e6a29f4466486e8cb7d975a19bf0" kindref="member">SSD1306_I2C_ADDRESS</ref></defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reset</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="150" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="169" bodyend="288"/>
+        <references refid="class_adafruit___s_s_d1306_1a968236016261a3132f0e77cabe2ba6b1" compoundref="_adafruit___s_s_d1306_8h" startline="172">_i2caddr</references>
+        <references refid="class_adafruit___s_s_d1306_1a95f34a614e5079a6d9c2836335f2bf15" compoundref="_adafruit___s_s_d1306_8h" startline="172">_vccstate</references>
+        <references refid="class_adafruit___s_s_d1306_1af98ea9cdc6a692705f3a88e645c09620" compoundref="_adafruit___s_s_d1306_8h" startline="172">cs</references>
+        <references refid="class_adafruit___s_s_d1306_1a64ea051c026c9290f6689829b8288413" compoundref="_adafruit___s_s_d1306_8h" startline="172">dc</references>
+        <references refid="class_adafruit___s_s_d1306_1a1f47d4b8db5279528d29dc16f1ff989e" compoundref="_adafruit___s_s_d1306_8h" startline="175">hwSPI</references>
+        <references refid="class_adafruit___s_s_d1306_1a6ea8154021e92771410719475f6fff6e" compoundref="_adafruit___s_s_d1306_8h" startline="172">rst</references>
+        <references refid="class_adafruit___s_s_d1306_1a6ab63bca2c286c43b8974af98998e171" compoundref="_adafruit___s_s_d1306_8h" startline="172">sclk</references>
+        <references refid="class_adafruit___s_s_d1306_1a2cfd90241a4170c14f4d8d9c58195057" compoundref="_adafruit___s_s_d1306_8h" startline="172">sid</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ad5f3bf0b48ad6edc82ab0f3d5f1f38f7" compoundref="_adafruit___s_s_d1306_8h" startline="130">SSD1306_CHARGEPUMP</references>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1adc99324d6d22a2997b77a63ea6bf2bfb" compoundref="_adafruit___s_s_d1306_8h" startline="126">SSD1306_COMSCANDEC</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a227f3a6e509369f291fae65eb8c97bf6" compoundref="_adafruit___s_s_d1306_8h" startline="137">SSD1306_DEACTIVATE_SCROLL</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a19ba0228ffbe726628ce81819bc85821" compoundref="_adafruit___s_s_d1306_8h" startline="99">SSD1306_DISPLAYALLON_RESUME</references>
+        <references refid="_adafruit___s_s_d1306_8h_1afc679e79b4ab084fac5e1789e0fe7d84" compoundref="_adafruit___s_s_d1306_8h" startline="103">SSD1306_DISPLAYOFF</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a9222e241542c96063618792a8e2dee19" compoundref="_adafruit___s_s_d1306_8h" startline="104">SSD1306_DISPLAYON</references>
+        <references refid="_adafruit___s_s_d1306_8h_1acaee84439cd8e333833f5955f0c3839e" compoundref="_adafruit___s_s_d1306_8h" startline="132">SSD1306_EXTERNALVCC</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ac356d299865f6b296066a90f7b877913" compoundref="_adafruit___s_s_d1306_8h" startline="91">SSD1306_LCDHEIGHT</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a1713056208cbb0c414fc8abeb944b00e" compoundref="_adafruit___s_s_d1306_8h" startline="121">SSD1306_MEMORYMODE</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ae7307026b4917a896d71853d59a5edb0" compoundref="_adafruit___s_s_d1306_8h" startline="101">SSD1306_NORMALDISPLAY</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a5e76edda0d4f9167ca212483e936f961" compoundref="_adafruit___s_s_d1306_8h" startline="128">SSD1306_SEGREMAP</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a8bdc6b082d008e8499489a693f2c6b0d" compoundref="_adafruit___s_s_d1306_8h" startline="107">SSD1306_SETCOMPINS</references>
+        <references refid="_adafruit___s_s_d1306_8h_1abe457a5fa79469c69e09444f9faa239a" compoundref="_adafruit___s_s_d1306_8h" startline="98">SSD1306_SETCONTRAST</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a070e748bd638a07123916428b2790e97" compoundref="_adafruit___s_s_d1306_8h" startline="111">SSD1306_SETDISPLAYCLOCKDIV</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a4af482a7cbc00c50ad6e43a9c1e97ff8" compoundref="_adafruit___s_s_d1306_8h" startline="106">SSD1306_SETDISPLAYOFFSET</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ae1150e8229efb2f2b287697b372a8123" compoundref="_adafruit___s_s_d1306_8h" startline="114">SSD1306_SETMULTIPLEX</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a72782bf815e85585b6e8f147567107ac" compoundref="_adafruit___s_s_d1306_8h" startline="112">SSD1306_SETPRECHARGE</references>
+        <references refid="_adafruit___s_s_d1306_8h_1abd029a2f0e626f2c7cbb401af7625b3a" compoundref="_adafruit___s_s_d1306_8h" startline="119">SSD1306_SETSTARTLINE</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a0701d3111d446fbb44650b5c8ee97989" compoundref="_adafruit___s_s_d1306_8h" startline="109">SSD1306_SETVCOMDETECT</references>
+        <referencedby refid="_o_l_e_d___logging_8h_1ac92a9b501d1d8c407912a607ba84d93a" compoundref="_o_l_e_d___logging_8cpp" startline="97" endline="132">OLED_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::ssd1306_command</definition>
+        <argsstring>(uint8_t c)</argsstring>
+        <name>ssd1306_command</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="151" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="299" bodyend="328"/>
+        <references refid="class_adafruit___s_s_d1306_1a968236016261a3132f0e77cabe2ba6b1" compoundref="_adafruit___s_s_d1306_8h" startline="172">_i2caddr</references>
+        <references refid="class_adafruit___s_s_d1306_1af98ea9cdc6a692705f3a88e645c09620" compoundref="_adafruit___s_s_d1306_8h" startline="172">cs</references>
+        <references refid="class_adafruit___s_s_d1306_1a64ea051c026c9290f6689829b8288413" compoundref="_adafruit___s_s_d1306_8h" startline="172">dc</references>
+        <references refid="class_adafruit___s_s_d1306_1aa98826f813a2de6c0dc39f8757628ea7" compoundref="_adafruit___s_s_d1306_8cpp" startline="493" endline="512">fastSPIwrite</references>
+        <references refid="class_adafruit___s_s_d1306_1a2cfd90241a4170c14f4d8d9c58195057" compoundref="_adafruit___s_s_d1306_8h" startline="172">sid</references>
+        <referencedby refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">begin</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1ae918422325b9fabc7396207263269d3a" compoundref="_adafruit___s_s_d1306_8cpp" startline="401" endline="417">dim</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" compoundref="_adafruit___s_s_d1306_8cpp" startline="419" endline="485">display</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1aff04df12e2ec8b6a57a9b9856b507cf4" compoundref="_adafruit___s_s_d1306_8cpp" startline="291" endline="297">invertDisplay</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a8d5b19419f508e5133053fa39da10f98" compoundref="_adafruit___s_s_d1306_8cpp" startline="381" endline="392">startscrolldiagleft</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1adbc9f95bb91eb0e76c4465d3c4d941e1" compoundref="_adafruit___s_s_d1306_8cpp" startline="364" endline="375">startscrolldiagright</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a4c58c2a4ac905e199d6ced49a0098296" compoundref="_adafruit___s_s_d1306_8cpp" startline="349" endline="358">startscrollleft</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a6a9f18f43c19296dc54dfb657eab4d66" compoundref="_adafruit___s_s_d1306_8cpp" startline="334" endline="343">startscrollright</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1ab4559d6aae71a4de8969f9160a6eda40" compoundref="_adafruit___s_s_d1306_8cpp" startline="394" endline="396">stopscroll</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1afe1e0f5efabd931aab7998275356744d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::clearDisplay</definition>
+        <argsstring>(void)</argsstring>
+        <name>clearDisplay</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="153" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="488" bodyend="490"/>
+        <references refid="_adafruit___s_s_d1306_8cpp_1ad559220eaf15cb5f82c903fd2440e6f8" compoundref="_adafruit___s_s_d1306_8cpp" startline="40">buffer</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ac356d299865f6b296066a90f7b877913" compoundref="_adafruit___s_s_d1306_8h" startline="91">SSD1306_LCDHEIGHT</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ae255377286d848ca99b59bb457c8c77e" compoundref="_adafruit___s_s_d1306_8h" startline="90">SSD1306_LCDWIDTH</references>
+        <referencedby refid="_o_l_e_d___logging_8h_1ac92a9b501d1d8c407912a607ba84d93a" compoundref="_o_l_e_d___logging_8cpp" startline="97" endline="132">OLED_Init</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1aff04df12e2ec8b6a57a9b9856b507cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::invertDisplay</definition>
+        <argsstring>(uint8_t i)</argsstring>
+        <name>invertDisplay</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="154" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="291" bodyend="297"/>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a38c7bb576204300a0898af715533b84a" compoundref="_adafruit___s_s_d1306_8h" startline="102">SSD1306_INVERTDISPLAY</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ae7307026b4917a896d71853d59a5edb0" compoundref="_adafruit___s_s_d1306_8h" startline="101">SSD1306_NORMALDISPLAY</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::display</definition>
+        <argsstring>()</argsstring>
+        <name>display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="155" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="419" bodyend="485"/>
+        <references refid="class_adafruit___s_s_d1306_1a968236016261a3132f0e77cabe2ba6b1" compoundref="_adafruit___s_s_d1306_8h" startline="172">_i2caddr</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1ad559220eaf15cb5f82c903fd2440e6f8" compoundref="_adafruit___s_s_d1306_8cpp" startline="40">buffer</references>
+        <references refid="class_adafruit___s_s_d1306_1af98ea9cdc6a692705f3a88e645c09620" compoundref="_adafruit___s_s_d1306_8h" startline="172">cs</references>
+        <references refid="class_adafruit___s_s_d1306_1a64ea051c026c9290f6689829b8288413" compoundref="_adafruit___s_s_d1306_8h" startline="172">dc</references>
+        <references refid="class_adafruit___s_s_d1306_1aa98826f813a2de6c0dc39f8757628ea7" compoundref="_adafruit___s_s_d1306_8cpp" startline="493" endline="512">fastSPIwrite</references>
+        <references refid="class_adafruit___s_s_d1306_1a2cfd90241a4170c14f4d8d9c58195057" compoundref="_adafruit___s_s_d1306_8h" startline="172">sid</references>
+        <references refid="_adafruit___s_s_d1306_8h_1afd716ee5fcbff49c51b4878c3d193dc1" compoundref="_adafruit___s_s_d1306_8h" startline="122">SSD1306_COLUMNADDR</references>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ac356d299865f6b296066a90f7b877913" compoundref="_adafruit___s_s_d1306_8h" startline="91">SSD1306_LCDHEIGHT</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ae255377286d848ca99b59bb457c8c77e" compoundref="_adafruit___s_s_d1306_8h" startline="90">SSD1306_LCDWIDTH</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a71f30ebeedfa1daa6591af3596361bcd" compoundref="_adafruit___s_s_d1306_8h" startline="123">SSD1306_PAGEADDR</references>
+        <references refid="_adafruit___s_s_d1306_8h_1aa651e488d89d384a0c41ca3ff06e44f0" compoundref="_adafruit___s_s_d1306_8h" startline="23">WIRE_WRITE</references>
+        <referencedby refid="_o_l_e_d___logging_8h_1ac92a9b501d1d8c407912a607ba84d93a" compoundref="_o_l_e_d___logging_8cpp" startline="97" endline="132">OLED_Init</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a6a9f18f43c19296dc54dfb657eab4d66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::startscrollright</definition>
+        <argsstring>(uint8_t start, uint8_t stop)</argsstring>
+        <name>startscrollright</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>stop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="157" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="334" bodyend="343"/>
+        <references refid="_adafruit___s_s_d1306_8h_1a68ef82f75395902f0bf7050d2695dfe6" compoundref="_adafruit___s_s_d1306_8h" startline="136">SSD1306_ACTIVATE_SCROLL</references>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a50443d2bd447f0fb0d6679615c1b266f" compoundref="_adafruit___s_s_d1306_8h" startline="139">SSD1306_RIGHT_HORIZONTAL_SCROLL</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a4c58c2a4ac905e199d6ced49a0098296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::startscrollleft</definition>
+        <argsstring>(uint8_t start, uint8_t stop)</argsstring>
+        <name>startscrollleft</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>stop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="158" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="349" bodyend="358"/>
+        <references refid="_adafruit___s_s_d1306_8h_1a68ef82f75395902f0bf7050d2695dfe6" compoundref="_adafruit___s_s_d1306_8h" startline="136">SSD1306_ACTIVATE_SCROLL</references>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a2addbca0876e3203b6b7aeb3fd33d356" compoundref="_adafruit___s_s_d1306_8h" startline="140">SSD1306_LEFT_HORIZONTAL_SCROLL</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1adbc9f95bb91eb0e76c4465d3c4d941e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::startscrolldiagright</definition>
+        <argsstring>(uint8_t start, uint8_t stop)</argsstring>
+        <name>startscrolldiagright</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>stop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="160" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="364" bodyend="375"/>
+        <references refid="_adafruit___s_s_d1306_8h_1a68ef82f75395902f0bf7050d2695dfe6" compoundref="_adafruit___s_s_d1306_8h" startline="136">SSD1306_ACTIVATE_SCROLL</references>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ac356d299865f6b296066a90f7b877913" compoundref="_adafruit___s_s_d1306_8h" startline="91">SSD1306_LCDHEIGHT</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a2a98851854770476f4b9758c4c484a11" compoundref="_adafruit___s_s_d1306_8h" startline="138">SSD1306_SET_VERTICAL_SCROLL_AREA</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a469e5cd03047fa065fd3f1f2603a7778" compoundref="_adafruit___s_s_d1306_8h" startline="141">SSD1306_VERTICAL_AND_RIGHT_HORIZONTAL_SCROLL</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a8d5b19419f508e5133053fa39da10f98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::startscrolldiagleft</definition>
+        <argsstring>(uint8_t start, uint8_t stop)</argsstring>
+        <name>startscrolldiagleft</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>stop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="161" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="381" bodyend="392"/>
+        <references refid="_adafruit___s_s_d1306_8h_1a68ef82f75395902f0bf7050d2695dfe6" compoundref="_adafruit___s_s_d1306_8h" startline="136">SSD1306_ACTIVATE_SCROLL</references>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ac356d299865f6b296066a90f7b877913" compoundref="_adafruit___s_s_d1306_8h" startline="91">SSD1306_LCDHEIGHT</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a2a98851854770476f4b9758c4c484a11" compoundref="_adafruit___s_s_d1306_8h" startline="138">SSD1306_SET_VERTICAL_SCROLL_AREA</references>
+        <references refid="_adafruit___s_s_d1306_8h_1adb15eba18d086c75d206aecb314a9df9" compoundref="_adafruit___s_s_d1306_8h" startline="142">SSD1306_VERTICAL_AND_LEFT_HORIZONTAL_SCROLL</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1ab4559d6aae71a4de8969f9160a6eda40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::stopscroll</definition>
+        <argsstring>(void)</argsstring>
+        <name>stopscroll</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="162" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="394" bodyend="396"/>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a227f3a6e509369f291fae65eb8c97bf6" compoundref="_adafruit___s_s_d1306_8h" startline="137">SSD1306_DEACTIVATE_SCROLL</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1ae918422325b9fabc7396207263269d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::dim</definition>
+        <argsstring>(boolean dim)</argsstring>
+        <name>dim</name>
+        <param>
+          <type>boolean</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="164" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="401" bodyend="417"/>
+        <references refid="class_adafruit___s_s_d1306_1a95f34a614e5079a6d9c2836335f2bf15" compoundref="_adafruit___s_s_d1306_8h" startline="172">_vccstate</references>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1acaee84439cd8e333833f5955f0c3839e" compoundref="_adafruit___s_s_d1306_8h" startline="132">SSD1306_EXTERNALVCC</references>
+        <references refid="_adafruit___s_s_d1306_8h_1abe457a5fa79469c69e09444f9faa239a" compoundref="_adafruit___s_s_d1306_8h" startline="98">SSD1306_SETCONTRAST</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1ae2851d927a047a770c569c7c9fde4807" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::drawPixel</definition>
+        <argsstring>(int16_t x, int16_t y, uint16_t color)</argsstring>
+        <name>drawPixel</name>
+        <reimplements refid="class_adafruit___g_f_x_1ab7fbf72885c873266f9c7eb53b5c8896">drawPixel</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="166" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="114" bodyend="142"/>
+        <references refid="_adafruit___s_s_d1306_8h_1a7b3b25cba33b07c303f3060fe41887f6" compoundref="_adafruit___s_s_d1306_8h" startline="51">BLACK</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1ad559220eaf15cb5f82c903fd2440e6f8" compoundref="_adafruit___s_s_d1306_8cpp" startline="40">buffer</references>
+        <references refid="class_adafruit___g_f_x_1a1956ad03632c73f25b4d8d240a40d7c9" compoundref="_adafruit___g_f_x_8cpp" startline="892" endline="894">Adafruit_GFX::getRotation</references>
+        <references refid="class_adafruit___g_f_x_1ac3dea6208d543a50f89b8e81bcaf9f09" compoundref="_adafruit___g_f_x_8cpp" startline="1051" endline="1053">Adafruit_GFX::height</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::HEIGHT</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ade269cc47cfaba70068f2586e898051d" compoundref="_adafruit___s_s_d1306_8h" startline="53">INVERSE</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ae255377286d848ca99b59bb457c8c77e" compoundref="_adafruit___s_s_d1306_8h" startline="90">SSD1306_LCDWIDTH</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1ac2e03903f388a1df1d36283b9e78c55f" compoundref="_adafruit___s_s_d1306_8cpp" startline="111">ssd1306_swap</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a87b537f5fa5c109d3c05c13d6b18f382" compoundref="_adafruit___s_s_d1306_8h" startline="52">WHITE</references>
+        <references refid="class_adafruit___g_f_x_1a32dadc6651cedc5e6426322c8a922cd6" compoundref="_adafruit___g_f_x_8cpp" startline="1047" endline="1049">Adafruit_GFX::width</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::WIDTH</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a2058c782206fd0c7a74a1d6d19a383b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::drawFastVLine</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t h, uint16_t color)</argsstring>
+        <name>drawFastVLine</name>
+        <reimplements refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837">drawFastVLine</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="168" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="583" bodyend="614"/>
+        <references refid="class_adafruit___s_s_d1306_1ad65a261088588b5e28287f5d08c3f72e" compoundref="_adafruit___s_s_d1306_8cpp" startline="548" endline="581">drawFastHLineInternal</references>
+        <references refid="class_adafruit___s_s_d1306_1a48ba69c68a1410043717bd1d705c330c" compoundref="_adafruit___s_s_d1306_8cpp" startline="617" endline="729">drawFastVLineInternal</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::HEIGHT</references>
+        <references refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" compoundref="_adafruit___g_f_x_8h" startline="136">Adafruit_GFX::rotation</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1ac2e03903f388a1df1d36283b9e78c55f" compoundref="_adafruit___s_s_d1306_8cpp" startline="111">ssd1306_swap</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::WIDTH</references>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a8165eca9ccfee431af10b6f5fa06a406" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::drawFastHLine</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t w, uint16_t color)</argsstring>
+        <name>drawFastHLine</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="169" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="514" bodyend="546"/>
+        <references refid="class_adafruit___s_s_d1306_1ad65a261088588b5e28287f5d08c3f72e" compoundref="_adafruit___s_s_d1306_8cpp" startline="548" endline="581">drawFastHLineInternal</references>
+        <references refid="class_adafruit___s_s_d1306_1a48ba69c68a1410043717bd1d705c330c" compoundref="_adafruit___s_s_d1306_8cpp" startline="617" endline="729">drawFastVLineInternal</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::HEIGHT</references>
+        <references refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" compoundref="_adafruit___g_f_x_8h" startline="136">Adafruit_GFX::rotation</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1ac2e03903f388a1df1d36283b9e78c55f" compoundref="_adafruit___s_s_d1306_8cpp" startline="111">ssd1306_swap</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::WIDTH</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1aa98826f813a2de6c0dc39f8757628ea7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::fastSPIwrite</definition>
+        <argsstring>(uint8_t c)</argsstring>
+        <name>fastSPIwrite</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="173" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="493" bodyend="512"/>
+        <references refid="class_adafruit___s_s_d1306_1a1f47d4b8db5279528d29dc16f1ff989e" compoundref="_adafruit___s_s_d1306_8h" startline="175">hwSPI</references>
+        <references refid="class_adafruit___s_s_d1306_1a6ab63bca2c286c43b8974af98998e171" compoundref="_adafruit___s_s_d1306_8h" startline="172">sclk</references>
+        <references refid="class_adafruit___s_s_d1306_1a2cfd90241a4170c14f4d8d9c58195057" compoundref="_adafruit___s_s_d1306_8h" startline="172">sid</references>
+        <referencedby refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" compoundref="_adafruit___s_s_d1306_8cpp" startline="419" endline="485">display</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">ssd1306_command</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1a48ba69c68a1410043717bd1d705c330c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::drawFastVLineInternal</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t h, uint16_t color) __attribute__((always_inline))</argsstring>
+        <name>drawFastVLineInternal</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="181" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="617" bodyend="729"/>
+        <references refid="_adafruit___s_s_d1306_8h_1a7b3b25cba33b07c303f3060fe41887f6" compoundref="_adafruit___s_s_d1306_8h" startline="51">BLACK</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1ad559220eaf15cb5f82c903fd2440e6f8" compoundref="_adafruit___s_s_d1306_8cpp" startline="40">buffer</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::HEIGHT</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ade269cc47cfaba70068f2586e898051d" compoundref="_adafruit___s_s_d1306_8h" startline="53">INVERSE</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ae255377286d848ca99b59bb457c8c77e" compoundref="_adafruit___s_s_d1306_8h" startline="90">SSD1306_LCDWIDTH</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a87b537f5fa5c109d3c05c13d6b18f382" compoundref="_adafruit___s_s_d1306_8h" startline="52">WHITE</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::WIDTH</references>
+        <referencedby refid="class_adafruit___s_s_d1306_1a8165eca9ccfee431af10b6f5fa06a406" compoundref="_adafruit___s_s_d1306_8cpp" startline="514" endline="546">drawFastHLine</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a2058c782206fd0c7a74a1d6d19a383b6" compoundref="_adafruit___s_s_d1306_8cpp" startline="583" endline="614">drawFastVLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_adafruit___s_s_d1306_1ad65a261088588b5e28287f5d08c3f72e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Adafruit_SSD1306::drawFastHLineInternal</definition>
+        <argsstring>(int16_t x, int16_t y, int16_t w, uint16_t color) __attribute__((always_inline))</argsstring>
+        <name>drawFastHLineInternal</name>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="182" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.cpp" bodystart="548" bodyend="581"/>
+        <references refid="_adafruit___s_s_d1306_8h_1a7b3b25cba33b07c303f3060fe41887f6" compoundref="_adafruit___s_s_d1306_8h" startline="51">BLACK</references>
+        <references refid="_adafruit___s_s_d1306_8cpp_1ad559220eaf15cb5f82c903fd2440e6f8" compoundref="_adafruit___s_s_d1306_8cpp" startline="40">buffer</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::HEIGHT</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ade269cc47cfaba70068f2586e898051d" compoundref="_adafruit___s_s_d1306_8h" startline="53">INVERSE</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ae255377286d848ca99b59bb457c8c77e" compoundref="_adafruit___s_s_d1306_8h" startline="90">SSD1306_LCDWIDTH</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a87b537f5fa5c109d3c05c13d6b18f382" compoundref="_adafruit___s_s_d1306_8h" startline="52">WHITE</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::WIDTH</references>
+        <referencedby refid="class_adafruit___s_s_d1306_1a8165eca9ccfee431af10b6f5fa06a406" compoundref="_adafruit___s_s_d1306_8cpp" startline="514" endline="546">drawFastHLine</referencedby>
+        <referencedby refid="class_adafruit___s_s_d1306_1a2058c782206fd0c7a74a1d6d19a383b6" compoundref="_adafruit___s_s_d1306_8cpp" startline="583" endline="614">drawFastVLine</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>Adafruit_SSD1306</label>
+        <link refid="class_adafruit___s_s_d1306"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Adafruit_GFX</label>
+        <link refid="class_adafruit___g_f_x"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Print</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>Adafruit_SSD1306</label>
+        <link refid="class_adafruit___s_s_d1306"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>Adafruit_GFX</label>
+        <link refid="class_adafruit___g_f_x"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>gfxFont</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>GFXglyph</label>
+        <link refid="struct_g_f_xglyph"/>
+      </node>
+      <node id="24">
+        <label>GFXfont</label>
+        <link refid="struct_g_f_xfont"/>
+        <childnode refid="25" relation="usage">
+          <edgelabel>glyph</edgelabel>
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Print</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" line="144" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h" bodystart="144" bodyend="184"/>
+    <listofallmembers>
+      <member refid="class_adafruit___g_f_x_1aaef3d4d239641084cd3825a8b1042e01" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>_cp437</name></member>
+      <member refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>_height</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a968236016261a3132f0e77cabe2ba6b1" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>_i2caddr</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a95f34a614e5079a6d9c2836335f2bf15" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>_vccstate</name></member>
+      <member refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>_width</name></member>
+      <member refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>Adafruit_GFX</name></member>
+      <member refid="class_adafruit___s_s_d1306_1afa528a297f64684f6b81d2918fee76ea" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>Adafruit_SSD1306</name></member>
+      <member refid="class_adafruit___s_s_d1306_1aa7fcad43307cfed089bf7f4a7ce5ffbc" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>Adafruit_SSD1306</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a00831d839632d4db47ba268fc4101791" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>Adafruit_SSD1306</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>begin</name></member>
+      <member refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>charBounds</name></member>
+      <member refid="class_adafruit___s_s_d1306_1afe1e0f5efabd931aab7998275356744d" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>clearDisplay</name></member>
+      <member refid="class_adafruit___g_f_x_1a6d447fe274e3f0ff12f12afa538d0afe" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>cp437</name></member>
+      <member refid="class_adafruit___s_s_d1306_1af98ea9cdc6a692705f3a88e645c09620" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>cs</name></member>
+      <member refid="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>cursor_x</name></member>
+      <member refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>cursor_y</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a64ea051c026c9290f6689829b8288413" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>dc</name></member>
+      <member refid="class_adafruit___s_s_d1306_1ae918422325b9fabc7396207263269d3a" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>dim</name></member>
+      <member refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>display</name></member>
+      <member refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a0def482cb5ab6010cac6936de8e07188" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a957c2d2fc53e3121c5914a8bd9e5c3da" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a25dfb7db5b7446406b9204c738f0885e" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawChar</name></member>
+      <member refid="class_adafruit___g_f_x_1a648d2d6765e488b4556e802167d885fb" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawCircle</name></member>
+      <member refid="class_adafruit___g_f_x_1a3f2dd7b698e7b95ebf9fecf992ff802e" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawCircleHelper</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a8165eca9ccfee431af10b6f5fa06a406" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>drawFastHLine</name></member>
+      <member refid="class_adafruit___s_s_d1306_1ad65a261088588b5e28287f5d08c3f72e" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawFastHLineInternal</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a2058c782206fd0c7a74a1d6d19a383b6" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>drawFastVLine</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a48ba69c68a1410043717bd1d705c330c" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawFastVLineInternal</name></member>
+      <member refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a00b26b1e2ac05476fdbd44214001954d" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a880b422ce35d0e3956dcd00638a421e4" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a7543eee2c983daea5eb46a0c2db92692" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawLine</name></member>
+      <member refid="class_adafruit___s_s_d1306_1ae2851d927a047a770c569c7c9fde4807" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>drawPixel</name></member>
+      <member refid="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawRect</name></member>
+      <member refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a70768127ee8548d2a3690440c1694169" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ad1d249d742f83ddc4c4f3867643d6eb0" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1aac6f64d394f8d3557aa6f613b4219866" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawRoundRect</name></member>
+      <member refid="class_adafruit___g_f_x_1a49284b9cea16ecf8c15dfd0b51a841e6" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawTriangle</name></member>
+      <member refid="class_adafruit___g_f_x_1aa7797117fef7d18592d352c14fa7d820" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>drawXBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>endWrite</name></member>
+      <member refid="class_adafruit___s_s_d1306_1aa98826f813a2de6c0dc39f8757628ea7" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>fastSPIwrite</name></member>
+      <member refid="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>fillCircle</name></member>
+      <member refid="class_adafruit___g_f_x_1a2242d3560b08c6480084152b6660052a" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>fillCircleHelper</name></member>
+      <member refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>fillRect</name></member>
+      <member refid="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>fillRoundRect</name></member>
+      <member refid="class_adafruit___g_f_x_1a2b2730aaf2208990928f9c0f85558527" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>fillScreen</name></member>
+      <member refid="class_adafruit___g_f_x_1a4cd646a3d9c9d5b3ee50010d0aa387cd" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>fillTriangle</name></member>
+      <member refid="class_adafruit___g_f_x_1a0423f175d3ac47e28beae1dc593bc24f" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>getCursorX</name></member>
+      <member refid="class_adafruit___g_f_x_1a34a63c8c32a8c57f77c9efb50db1c20b" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>getCursorY</name></member>
+      <member refid="class_adafruit___g_f_x_1a1956ad03632c73f25b4d8d240a40d7c9" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>getRotation</name></member>
+      <member refid="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>getTextBounds</name></member>
+      <member refid="class_adafruit___g_f_x_1a97525abb71dbe38c6551e4d0da4052b8" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>getTextBounds</name></member>
+      <member refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>gfxFont</name></member>
+      <member refid="class_adafruit___g_f_x_1ac3dea6208d543a50f89b8e81bcaf9f09" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>height</name></member>
+      <member refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>HEIGHT</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a1f47d4b8db5279528d29dc16f1ff989e" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>hwSPI</name></member>
+      <member refid="class_adafruit___s_s_d1306_1aff04df12e2ec8b6a57a9b9856b507cf4" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>invertDisplay</name></member>
+      <member refid="class_adafruit___g_f_x_1a2fa315803f39a5e73b1841874daf0483" prot="public" virt="virtual" ambiguityscope="Adafruit_GFX::"><scope>Adafruit_SSD1306</scope><name>invertDisplay</name></member>
+      <member refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>rotation</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a6ea8154021e92771410719475f6fff6e" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>rst</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a6ab63bca2c286c43b8974af98998e171" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>sclk</name></member>
+      <member refid="class_adafruit___g_f_x_1aaf96a40cad0f34dd8ec73494b3866c33" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>setCursor</name></member>
+      <member refid="class_adafruit___g_f_x_1ab0479a2bb4e09e7c39c35e35c55d6ed1" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>setFont</name></member>
+      <member refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>setRotation</name></member>
+      <member refid="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>setTextColor</name></member>
+      <member refid="class_adafruit___g_f_x_1ab6e88c585d3ab6b4f95199361f224fc6" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>setTextColor</name></member>
+      <member refid="class_adafruit___g_f_x_1a39eb4a8a2c9fa4ab7d58ceffd19535d5" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>setTextSize</name></member>
+      <member refid="class_adafruit___g_f_x_1aeeacd62bf26f3e7abbdc4b5b50faa6fa" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>setTextWrap</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a2cfd90241a4170c14f4d8d9c58195057" prot="private" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>sid</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>ssd1306_command</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a8d5b19419f508e5133053fa39da10f98" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>startscrolldiagleft</name></member>
+      <member refid="class_adafruit___s_s_d1306_1adbc9f95bb91eb0e76c4465d3c4d941e1" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>startscrolldiagright</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a4c58c2a4ac905e199d6ced49a0098296" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>startscrollleft</name></member>
+      <member refid="class_adafruit___s_s_d1306_1a6a9f18f43c19296dc54dfb657eab4d66" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>startscrollright</name></member>
+      <member refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>startWrite</name></member>
+      <member refid="class_adafruit___s_s_d1306_1ab4559d6aae71a4de8969f9160a6eda40" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>stopscroll</name></member>
+      <member refid="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>textbgcolor</name></member>
+      <member refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>textcolor</name></member>
+      <member refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>textsize</name></member>
+      <member refid="class_adafruit___g_f_x_1a32dadc6651cedc5e6426322c8a922cd6" prot="public" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>width</name></member>
+      <member refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>WIDTH</name></member>
+      <member refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" prot="protected" virt="non-virtual"><scope>Adafruit_SSD1306</scope><name>wrap</name></member>
+      <member refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>write</name></member>
+      <member refid="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>writeFastHLine</name></member>
+      <member refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>writeFastVLine</name></member>
+      <member refid="class_adafruit___g_f_x_1a60133faeabc10f9d909674bc4c5aabc6" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>writeFillRect</name></member>
+      <member refid="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>writeLine</name></member>
+      <member refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" prot="public" virt="virtual"><scope>Adafruit_SSD1306</scope><name>writePixel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

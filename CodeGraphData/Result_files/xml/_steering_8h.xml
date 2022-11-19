@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_steering_8h" kind="file">
+    <compoundname>Steering.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_c_l_i_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</includedby>
+    <includedby refid="_steering_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</includedby>
+    <incdepgraph>
+      <node id="756">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.h</label>
+        <link refid="Steering.h"/>
+        <childnode refid="757" relation="include">
+        </childnode>
+      </node>
+      <node id="757">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="759">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="758">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.h</label>
+        <link refid="Steering.h"/>
+        <childnode refid="759" relation="include">
+        </childnode>
+        <childnode refid="760" relation="include">
+        </childnode>
+      </node>
+      <node id="760">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="_steering_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SteeringFastUpdate</definition>
+        <argsstring>(void)</argsstring>
+        <name>SteeringFastUpdate</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.h" line="13" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" bodystart="36" bodyend="128"/>
+        <references refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" compoundref="_radio_control_8h" startline="13">RC_IN_Type::Channel</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" compoundref="config_values_8h" startline="92">configValuesType::DualRudder</references>
+        <references refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</references>
+        <references refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" compoundref="_navigation_8h" startline="82">NavigationDataType::HDG</references>
+        <references refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" compoundref="_command_state___processor_8h" startline="39">StateValuesStruct::home_is_set</references>
+        <references refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" compoundref="_loiter_8h" startline="24">LoiterStruct::LoiterState</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a79380229b91a5962563cf2bd6b62f009" compoundref="_loiter_8h" startline="15">lsNotLoitering</references>
+        <references refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" compoundref="_navigation_8h" startline="76">NavigationDataType::next_WP_valid</references>
+        <references refid="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" compoundref="_steering_8cpp" startline="33">pidActualHdgError</references>
+        <references refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" compoundref="config_values_8h" startline="107">configValuesType::pidCentre</references>
+        <references refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" compoundref="_steering_8cpp" startline="33">pidServoOutput</references>
+        <references refid="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" compoundref="config_values_8h" startline="65">configValuesType::RC_IN_Channel_Steering</references>
+        <references refid="struct_navigation_data_type_1ab5ef6e2650460b4f478630d9df336e33" compoundref="_navigation_8h" startline="127">NavigationDataType::ROLL_Avg</references>
+        <references refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" compoundref="config_values_8h" startline="69">configValuesType::Servo_Channel_Steering</references>
+        <references refid="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" compoundref="config_values_8h" startline="70">configValuesType::Servo_Channel_Steering_Stbd</references>
+        <references refid="_radio_control_8cpp_1a1047ffeb8a3f8bc5e2df086830a814a8" compoundref="_radio_control_8cpp" startline="229" endline="238">Servo_Out</references>
+        <references refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7">SteeringServoOutput</references>
+        <references refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" compoundref="_navigation_8h" startline="89">NavigationDataType::TargetHDG</references>
+        <references refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" compoundref="_wear_tracking_8cpp" startline="32" endline="55">WearCounter::TrackServoUsage</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" compoundref="_command_state___processor_8h" startline="25">vcsLoiter</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" compoundref="_command_state___processor_8h" startline="18">vcsPartialManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" compoundref="_command_state___processor_8h" startline="24">vcsResetMissionIndex</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" compoundref="_command_state___processor_8h" startline="23">vcsSetHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" compoundref="_command_state___processor_8h" startline="20">vcsSteerMagneticCourse</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" compoundref="_command_state___processor_8h" startline="21">vcsSteerWindCourse</references>
+        <references refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</references>
+      </memberdef>
+      <memberdef kind="function" id="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SteeringPID_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>SteeringPID_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.h" line="14" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" bodystart="130" bodyend="140"/>
+        <references refid="_p_i_d__v1_8h_1a3851a1a8ddec9eacd2e30a8a19bb8cc8" compoundref="_p_i_d__v1_8h" startline="12">AUTOMATIC</references>
+        <references refid="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" compoundref="config_values_8h" startline="106">configValuesType::pidDirection</references>
+        <references refid="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" compoundref="config_values_8h" startline="104">configValuesType::pidKd</references>
+        <references refid="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" compoundref="config_values_8h" startline="104">configValuesType::pidKi</references>
+        <references refid="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" compoundref="config_values_8h" startline="104">configValuesType::pidKp</references>
+        <references refid="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmax</references>
+        <references refid="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmin</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Steering.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_STEERING_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_STEERING_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" kindref="member">SteeringFastUpdate</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" kindref="member">SteeringPID_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.h"/>
+  </compounddef>
+</doxygen>

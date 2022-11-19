@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_tiny_g_p_s_custom" kind="class" prot="public">
+    <compoundname>TinyGPSCustom</compoundname>
+    <includes refid="_tiny_g_p_s_09_09_8h" local="no">TinyGPS++.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tiny_g_p_s_custom_1a750eb149054cc4dfdcb75967ed0e9c32" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char TinyGPSCustom::stagingBuffer[_GPS_MAX_FIELD_SIZE+1]</definition>
+        <argsstring>[_GPS_MAX_FIELD_SIZE+1]</argsstring>
+        <name>stagingBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="209" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="209" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" compoundref="_tiny_g_p_s_09_09_8cpp" startline="465" endline="476">begin</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3eea950a5ef62d6a226613fe72055dc4" compoundref="_tiny_g_p_s_09_09_8cpp" startline="478" endline="483">commit</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a7fab13d1b33b96c112d896322ad9ec29" compoundref="_tiny_g_p_s_09_09_8cpp" startline="485" endline="488">set</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_g_p_s_custom_1afcfd3fec763e381e0ea41bf59085fa93" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char TinyGPSCustom::buffer[_GPS_MAX_FIELD_SIZE+1]</definition>
+        <argsstring>[_GPS_MAX_FIELD_SIZE+1]</argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="210" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="210" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" compoundref="_tiny_g_p_s_09_09_8cpp" startline="465" endline="476">begin</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3eea950a5ef62d6a226613fe72055dc4" compoundref="_tiny_g_p_s_09_09_8cpp" startline="478" endline="483">commit</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1ac5ad40a3d9b6fe386b2309f972566674" compoundref="_tiny_g_p_s_09_09_8h" startline="203" endline="203">value</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_g_p_s_custom_1acd99fe5bbe5f274de1c172079e80110b" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long TinyGPSCustom::lastCommitTime</definition>
+        <argsstring></argsstring>
+        <name>lastCommitTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="211" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="211" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_custom_1a9bacaf774b1dba9ad942435d3ed1c2cc" compoundref="_tiny_g_p_s_09_09_8h" startline="202" endline="202">age</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" compoundref="_tiny_g_p_s_09_09_8cpp" startline="465" endline="476">begin</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3eea950a5ef62d6a226613fe72055dc4" compoundref="_tiny_g_p_s_09_09_8cpp" startline="478" endline="483">commit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_g_p_s_custom_1a579ba14a727c8fa4b65a756ddec209c8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TinyGPSCustom::valid</definition>
+        <argsstring></argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="212" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="212" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_custom_1a9bacaf774b1dba9ad942435d3ed1c2cc" compoundref="_tiny_g_p_s_09_09_8h" startline="202" endline="202">age</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" compoundref="_tiny_g_p_s_09_09_8cpp" startline="465" endline="476">begin</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3eea950a5ef62d6a226613fe72055dc4" compoundref="_tiny_g_p_s_09_09_8cpp" startline="478" endline="483">commit</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a06fad8448c014424bf96ed379b55da21" compoundref="_tiny_g_p_s_09_09_8h" startline="201" endline="201">isValid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_g_p_s_custom_1a9cb408f7deeff94aeec23b49a3036f97" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TinyGPSCustom::updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="212" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="212" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" compoundref="_tiny_g_p_s_09_09_8cpp" startline="465" endline="476">begin</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3eea950a5ef62d6a226613fe72055dc4" compoundref="_tiny_g_p_s_09_09_8cpp" startline="478" endline="483">commit</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3905509b3f88d67e248855c135744b14" compoundref="_tiny_g_p_s_09_09_8h" startline="200" endline="200">isUpdated</referencedby>
+        <referencedby refid="class_tiny_g_p_s_custom_1ac5ad40a3d9b6fe386b2309f972566674" compoundref="_tiny_g_p_s_09_09_8h" startline="203" endline="203">value</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_g_p_s_custom_1ab3c8cb4f12d289cbf20abe6eccb3aa14" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* TinyGPSCustom::sentenceName</definition>
+        <argsstring></argsstring>
+        <name>sentenceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="213" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="213" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" compoundref="_tiny_g_p_s_09_09_8cpp" startline="465" endline="476">begin</referencedby>
+        <referencedby refid="class_tiny_g_p_s_plus_1ad03e05d24ecc96c27814eb17adfb38db" compoundref="_tiny_g_p_s_09_09_8cpp" startline="159" endline="282">TinyGPSPlus::endOfTermHandler</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_g_p_s_custom_1ae7302f115f94eab88739fa67bf6cbba1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TinyGPSCustom::termNumber</definition>
+        <argsstring></argsstring>
+        <name>termNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="214" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="214" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" compoundref="_tiny_g_p_s_09_09_8cpp" startline="465" endline="476">begin</referencedby>
+        <referencedby refid="class_tiny_g_p_s_plus_1ad03e05d24ecc96c27814eb17adfb38db" compoundref="_tiny_g_p_s_09_09_8cpp" startline="159" endline="282">TinyGPSPlus::endOfTermHandler</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_g_p_s_custom_1a994b5ad843074007b061252293347270" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tiny_g_p_s_custom" kindref="compound">TinyGPSCustom</ref> *</type>
+        <definition>TinyGPSCustom* TinyGPSCustom::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="216" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="216" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_plus_1ad03e05d24ecc96c27814eb17adfb38db" compoundref="_tiny_g_p_s_09_09_8cpp" startline="159" endline="282">TinyGPSPlus::endOfTermHandler</referencedby>
+        <referencedby refid="class_tiny_g_p_s_plus_1af9ab42b8af4a6ab0db9794b980987430" compoundref="_tiny_g_p_s_09_09_8cpp" startline="490" endline="503">TinyGPSPlus::insertCustom</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_tiny_g_p_s_custom_1a6501fd5ef19ae166d43e0e5781609ee2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class TinyGPSPlus</definition>
+        <argsstring></argsstring>
+        <name>TinyGPSPlus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="215" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1ac82fa99f3bcd9811377dd5fa3e9e98c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TinyGPSCustom::TinyGPSCustom</definition>
+        <argsstring>()</argsstring>
+        <name>TinyGPSCustom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="196" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1a29b2a658bf95d8e6265e983b1c0251b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TinyGPSCustom::TinyGPSCustom</definition>
+        <argsstring>(TinyGPSPlus &amp;gps, const char *sentenceName, int termNumber)</argsstring>
+        <name>TinyGPSCustom</name>
+        <param>
+          <type><ref refid="class_tiny_g_p_s_plus" kindref="compound">TinyGPSPlus</ref> &amp;</type>
+          <declname>gps</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sentenceName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>termNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="197" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.cpp" bodystart="460" bodyend="463"/>
+        <references refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" compoundref="_tiny_g_p_s_09_09_8cpp" startline="465" endline="476">begin</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TinyGPSCustom::begin</definition>
+        <argsstring>(TinyGPSPlus &amp;gps, const char *_sentenceName, int _termNumber)</argsstring>
+        <name>begin</name>
+        <param>
+          <type><ref refid="class_tiny_g_p_s_plus" kindref="compound">TinyGPSPlus</ref> &amp;</type>
+          <declname>gps</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>_sentenceName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_termNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="198" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.cpp" bodystart="465" bodyend="476"/>
+        <references refid="class_tiny_g_p_s_custom_1afcfd3fec763e381e0ea41bf59085fa93" compoundref="_tiny_g_p_s_09_09_8h" startline="210">buffer</references>
+        <references refid="class_tiny_g_p_s_plus_1af9ab42b8af4a6ab0db9794b980987430" compoundref="_tiny_g_p_s_09_09_8cpp" startline="490" endline="503">TinyGPSPlus::insertCustom</references>
+        <references refid="class_tiny_g_p_s_custom_1acd99fe5bbe5f274de1c172079e80110b" compoundref="_tiny_g_p_s_09_09_8h" startline="211">lastCommitTime</references>
+        <references refid="class_tiny_g_p_s_custom_1ab3c8cb4f12d289cbf20abe6eccb3aa14" compoundref="_tiny_g_p_s_09_09_8h" startline="213">sentenceName</references>
+        <references refid="class_tiny_g_p_s_custom_1a750eb149054cc4dfdcb75967ed0e9c32" compoundref="_tiny_g_p_s_09_09_8h" startline="209">stagingBuffer</references>
+        <references refid="class_tiny_g_p_s_custom_1ae7302f115f94eab88739fa67bf6cbba1" compoundref="_tiny_g_p_s_09_09_8h" startline="214">termNumber</references>
+        <references refid="class_tiny_g_p_s_custom_1a9cb408f7deeff94aeec23b49a3036f97" compoundref="_tiny_g_p_s_09_09_8h" startline="212">updated</references>
+        <references refid="class_tiny_g_p_s_custom_1a579ba14a727c8fa4b65a756ddec209c8" compoundref="_tiny_g_p_s_09_09_8h" startline="212">valid</references>
+        <referencedby refid="class_tiny_g_p_s_custom_1a29b2a658bf95d8e6265e983b1c0251b5" compoundref="_tiny_g_p_s_09_09_8cpp" startline="460" endline="463">TinyGPSCustom</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1a3905509b3f88d67e248855c135744b14" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TinyGPSCustom::isUpdated</definition>
+        <argsstring>() const </argsstring>
+        <name>isUpdated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="200" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="200" bodyend="200"/>
+        <references refid="class_tiny_g_p_s_custom_1a9cb408f7deeff94aeec23b49a3036f97" compoundref="_tiny_g_p_s_09_09_8h" startline="212">updated</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1a06fad8448c014424bf96ed379b55da21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TinyGPSCustom::isValid</definition>
+        <argsstring>() const </argsstring>
+        <name>isValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="201" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="201" bodyend="201"/>
+        <references refid="class_tiny_g_p_s_custom_1a579ba14a727c8fa4b65a756ddec209c8" compoundref="_tiny_g_p_s_09_09_8h" startline="212">valid</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1a9bacaf774b1dba9ad942435d3ed1c2cc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t TinyGPSCustom::age</definition>
+        <argsstring>() const </argsstring>
+        <name>age</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="202" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="202" bodyend="202"/>
+        <references refid="class_tiny_g_p_s_custom_1acd99fe5bbe5f274de1c172079e80110b" compoundref="_tiny_g_p_s_09_09_8h" startline="211">lastCommitTime</references>
+        <references refid="class_tiny_g_p_s_custom_1a579ba14a727c8fa4b65a756ddec209c8" compoundref="_tiny_g_p_s_09_09_8h" startline="212">valid</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1ac5ad40a3d9b6fe386b2309f972566674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* TinyGPSCustom::value</definition>
+        <argsstring>()</argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="203" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="203" bodyend="203"/>
+        <references refid="class_tiny_g_p_s_custom_1afcfd3fec763e381e0ea41bf59085fa93" compoundref="_tiny_g_p_s_09_09_8h" startline="210">buffer</references>
+        <references refid="class_tiny_g_p_s_custom_1a9cb408f7deeff94aeec23b49a3036f97" compoundref="_tiny_g_p_s_09_09_8h" startline="212">updated</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1a3eea950a5ef62d6a226613fe72055dc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TinyGPSCustom::commit</definition>
+        <argsstring>()</argsstring>
+        <name>commit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="206" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.cpp" bodystart="478" bodyend="483"/>
+        <references refid="class_tiny_g_p_s_custom_1afcfd3fec763e381e0ea41bf59085fa93" compoundref="_tiny_g_p_s_09_09_8h" startline="210">buffer</references>
+        <references refid="class_tiny_g_p_s_custom_1acd99fe5bbe5f274de1c172079e80110b" compoundref="_tiny_g_p_s_09_09_8h" startline="211">lastCommitTime</references>
+        <references refid="class_tiny_g_p_s_custom_1a750eb149054cc4dfdcb75967ed0e9c32" compoundref="_tiny_g_p_s_09_09_8h" startline="209">stagingBuffer</references>
+        <references refid="class_tiny_g_p_s_custom_1a9cb408f7deeff94aeec23b49a3036f97" compoundref="_tiny_g_p_s_09_09_8h" startline="212">updated</references>
+        <references refid="class_tiny_g_p_s_custom_1a579ba14a727c8fa4b65a756ddec209c8" compoundref="_tiny_g_p_s_09_09_8h" startline="212">valid</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_g_p_s_custom_1a7fab13d1b33b96c112d896322ad9ec29" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TinyGPSCustom::set</definition>
+        <argsstring>(const char *term)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const char *</type>
+          <declname>term</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="207" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.cpp" bodystart="485" bodyend="488"/>
+        <references refid="class_tiny_g_p_s_custom_1a750eb149054cc4dfdcb75967ed0e9c32" compoundref="_tiny_g_p_s_09_09_8h" startline="209">stagingBuffer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="117">
+        <label>TinyGPSCustom</label>
+        <link refid="class_tiny_g_p_s_custom"/>
+        <childnode refid="117" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" line="194" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h" bodystart="193" bodyend="217"/>
+    <listofallmembers>
+      <member refid="class_tiny_g_p_s_custom_1a9bacaf774b1dba9ad942435d3ed1c2cc" prot="public" virt="non-virtual"><scope>TinyGPSCustom</scope><name>age</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a3bf972f7e2e7e3f483071630e5ca8355" prot="public" virt="non-virtual"><scope>TinyGPSCustom</scope><name>begin</name></member>
+      <member refid="class_tiny_g_p_s_custom_1afcfd3fec763e381e0ea41bf59085fa93" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>buffer</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a3eea950a5ef62d6a226613fe72055dc4" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>commit</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a3905509b3f88d67e248855c135744b14" prot="public" virt="non-virtual"><scope>TinyGPSCustom</scope><name>isUpdated</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a06fad8448c014424bf96ed379b55da21" prot="public" virt="non-virtual"><scope>TinyGPSCustom</scope><name>isValid</name></member>
+      <member refid="class_tiny_g_p_s_custom_1acd99fe5bbe5f274de1c172079e80110b" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>lastCommitTime</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a994b5ad843074007b061252293347270" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>next</name></member>
+      <member refid="class_tiny_g_p_s_custom_1ab3c8cb4f12d289cbf20abe6eccb3aa14" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>sentenceName</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a7fab13d1b33b96c112d896322ad9ec29" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>set</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a750eb149054cc4dfdcb75967ed0e9c32" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>stagingBuffer</name></member>
+      <member refid="class_tiny_g_p_s_custom_1ae7302f115f94eab88739fa67bf6cbba1" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>termNumber</name></member>
+      <member refid="class_tiny_g_p_s_custom_1ac82fa99f3bcd9811377dd5fa3e9e98c7" prot="public" virt="non-virtual"><scope>TinyGPSCustom</scope><name>TinyGPSCustom</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a29b2a658bf95d8e6265e983b1c0251b5" prot="public" virt="non-virtual"><scope>TinyGPSCustom</scope><name>TinyGPSCustom</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a6501fd5ef19ae166d43e0e5781609ee2" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>TinyGPSPlus</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a9cb408f7deeff94aeec23b49a3036f97" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>updated</name></member>
+      <member refid="class_tiny_g_p_s_custom_1a579ba14a727c8fa4b65a756ddec209c8" prot="private" virt="non-virtual"><scope>TinyGPSCustom</scope><name>valid</name></member>
+      <member refid="class_tiny_g_p_s_custom_1ac5ad40a3d9b6fe386b2309f972566674" prot="public" virt="non-virtual"><scope>TinyGPSCustom</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

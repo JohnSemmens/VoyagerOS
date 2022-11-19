@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_g_f_xcanvas16" kind="class" prot="public">
+    <compoundname>GFXcanvas16</compoundname>
+    <basecompoundref refid="class_adafruit___g_f_x" prot="public" virt="non-virtual">Adafruit_GFX</basecompoundref>
+    <includes refid="_adafruit___g_f_x_8h" local="no">Adafruit_GFX.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" prot="private" static="no" mutable="no">
+        <type>uint16_t *</type>
+        <definition>uint16_t* GFXcanvas16::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="208" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="208" bodyend="-1"/>
+        <referencedby refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" compoundref="_adafruit___g_f_x_8cpp" startline="1311" endline="1335">drawPixel</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1ae46db6d49d2943e7cb227fd0bb50b1f8" compoundref="_adafruit___g_f_x_8cpp" startline="1337" endline="1347">fillScreen</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1adff0802df78d18dcc6834d6ad68c7619" compoundref="_adafruit___g_f_x_8cpp" startline="1307" endline="1309">getBuffer</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1a1087f17778b9c60db81162e66220b600" compoundref="_adafruit___g_f_x_8cpp" startline="1296" endline="1301">GFXcanvas16</referencedby>
+        <referencedby refid="class_g_f_xcanvas16_1a15a79ebb2f3d86cb6a6bdc4ab1f3e9b7" compoundref="_adafruit___g_f_x_8cpp" startline="1303" endline="1305">~GFXcanvas16</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_f_xcanvas16_1a1087f17778b9c60db81162e66220b600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GFXcanvas16::GFXcanvas16</definition>
+        <argsstring>(uint16_t w, uint16_t h)</argsstring>
+        <name>GFXcanvas16</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="202" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1296" bodyend="1301"/>
+        <references refid="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" compoundref="_adafruit___g_f_x_8h" startline="208">buffer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_f_xcanvas16_1a15a79ebb2f3d86cb6a6bdc4ab1f3e9b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GFXcanvas16::~GFXcanvas16</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GFXcanvas16</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="203" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1303" bodyend="1305"/>
+        <references refid="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" compoundref="_adafruit___g_f_x_8h" startline="208">buffer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void GFXcanvas16::drawPixel</definition>
+        <argsstring>(int16_t x, int16_t y, uint16_t color)</argsstring>
+        <name>drawPixel</name>
+        <reimplements refid="class_adafruit___g_f_x_1ab7fbf72885c873266f9c7eb53b5c8896">drawPixel</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="204" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1311" bodyend="1335"/>
+        <references refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" compoundref="_adafruit___g_f_x_8h" startline="131">Adafruit_GFX::_height</references>
+        <references refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" compoundref="_adafruit___g_f_x_8h" startline="131">Adafruit_GFX::_width</references>
+        <references refid="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" compoundref="_adafruit___g_f_x_8h" startline="208">buffer</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::HEIGHT</references>
+        <references refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" compoundref="_adafruit___g_f_x_8h" startline="136">Adafruit_GFX::rotation</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::WIDTH</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_f_xcanvas16_1ae46db6d49d2943e7cb227fd0bb50b1f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GFXcanvas16::fillScreen</definition>
+        <argsstring>(uint16_t color)</argsstring>
+        <name>fillScreen</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="205" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1337" bodyend="1347"/>
+        <references refid="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" compoundref="_adafruit___g_f_x_8h" startline="208">buffer</references>
+        <references refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::HEIGHT</references>
+        <references refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" compoundref="_adafruit___g_f_x_8h" startline="129">Adafruit_GFX::WIDTH</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_f_xcanvas16_1adff0802df78d18dcc6834d6ad68c7619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t *</type>
+        <definition>uint16_t * GFXcanvas16::getBuffer</definition>
+        <argsstring>(void)</argsstring>
+        <name>getBuffer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="206" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.cpp" bodystart="1307" bodyend="1309"/>
+        <references refid="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" compoundref="_adafruit___g_f_x_8h" startline="208">buffer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>Adafruit_GFX</label>
+        <link refid="class_adafruit___g_f_x"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>Print</label>
+      </node>
+      <node id="39">
+        <label>GFXcanvas16</label>
+        <link refid="class_g_f_xcanvas16"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="43">
+        <label>Adafruit_GFX</label>
+        <link refid="class_adafruit___g_f_x"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>gfxFont</edgelabel>
+        </childnode>
+      </node>
+      <node id="46">
+        <label>GFXglyph</label>
+        <link refid="struct_g_f_xglyph"/>
+      </node>
+      <node id="45">
+        <label>GFXfont</label>
+        <link refid="struct_g_f_xfont"/>
+        <childnode refid="46" relation="usage">
+          <edgelabel>glyph</edgelabel>
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Print</label>
+      </node>
+      <node id="42">
+        <label>GFXcanvas16</label>
+        <link refid="class_g_f_xcanvas16"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" line="200" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h" bodystart="200" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class_adafruit___g_f_x_1aaef3d4d239641084cd3825a8b1042e01" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>_cp437</name></member>
+      <member refid="class_adafruit___g_f_x_1ab9bb0cbc2455f64dce2a5ec36307aa94" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>_height</name></member>
+      <member refid="class_adafruit___g_f_x_1ab237f850a033492f5e745d79405a097a" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>_width</name></member>
+      <member refid="class_adafruit___g_f_x_1a6f6f1abccf677eac244fa17d105133ea" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>Adafruit_GFX</name></member>
+      <member refid="class_g_f_xcanvas16_1a13e81bad95bdb3a36d24d2778deb075e" prot="private" virt="non-virtual"><scope>GFXcanvas16</scope><name>buffer</name></member>
+      <member refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>charBounds</name></member>
+      <member refid="class_adafruit___g_f_x_1a6d447fe274e3f0ff12f12afa538d0afe" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>cp437</name></member>
+      <member refid="class_adafruit___g_f_x_1a8f8983cea8d81a7c8e9d05eef36318e2" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>cursor_x</name></member>
+      <member refid="class_adafruit___g_f_x_1aebe0a38f6e6fd59cb81620c4696286c9" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>cursor_y</name></member>
+      <member refid="class_adafruit___g_f_x_1a805a15f1b3ea9eff5d1666b8e6db1c56" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a0def482cb5ab6010cac6936de8e07188" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a957c2d2fc53e3121c5914a8bd9e5c3da" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a25dfb7db5b7446406b9204c738f0885e" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawChar</name></member>
+      <member refid="class_adafruit___g_f_x_1a648d2d6765e488b4556e802167d885fb" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawCircle</name></member>
+      <member refid="class_adafruit___g_f_x_1a3f2dd7b698e7b95ebf9fecf992ff802e" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawCircleHelper</name></member>
+      <member refid="class_adafruit___g_f_x_1a4d42e7cc577c1eb5b06fe656786c9c79" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawFastHLine</name></member>
+      <member refid="class_adafruit___g_f_x_1a1cffbb1d69c5faf49cd0cff27686a837" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>drawFastVLine</name></member>
+      <member refid="class_adafruit___g_f_x_1af7f146631268e8940d9c44c64c69ab80" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a00b26b1e2ac05476fdbd44214001954d" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a880b422ce35d0e3956dcd00638a421e4" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a7543eee2c983daea5eb46a0c2db92692" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawGrayscaleBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1aa0ff662c2b2b48c3bac51f98c777776d" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawLine</name></member>
+      <member refid="class_g_f_xcanvas16_1ade30ed51e7dd07be0436b4f9407b6fd8" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>drawPixel</name></member>
+      <member refid="class_adafruit___g_f_x_1a9ec2c2ab426503e4f7deddb93bb916f6" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawRect</name></member>
+      <member refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1a70768127ee8548d2a3690440c1694169" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ad1d249d742f83ddc4c4f3867643d6eb0" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1aac6f64d394f8d3557aa6f613b4219866" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawRGBBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab496b247abec724ef80e17a30257972b" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawRoundRect</name></member>
+      <member refid="class_adafruit___g_f_x_1a49284b9cea16ecf8c15dfd0b51a841e6" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawTriangle</name></member>
+      <member refid="class_adafruit___g_f_x_1aa7797117fef7d18592d352c14fa7d820" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>drawXBitmap</name></member>
+      <member refid="class_adafruit___g_f_x_1ab9be8787f3683151e86c1f3b5c8685d6" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>endWrite</name></member>
+      <member refid="class_adafruit___g_f_x_1a623e031e58492fb41e9fde6a05d97c12" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>fillCircle</name></member>
+      <member refid="class_adafruit___g_f_x_1a2242d3560b08c6480084152b6660052a" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>fillCircleHelper</name></member>
+      <member refid="class_adafruit___g_f_x_1aa43cf1dfe6c17d040a0f1fd5ffbe9d69" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>fillRect</name></member>
+      <member refid="class_adafruit___g_f_x_1a78dc59f6a508bcd3d5ac7af957b8b1ac" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>fillRoundRect</name></member>
+      <member refid="class_g_f_xcanvas16_1ae46db6d49d2943e7cb227fd0bb50b1f8" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>fillScreen</name></member>
+      <member refid="class_adafruit___g_f_x_1a4cd646a3d9c9d5b3ee50010d0aa387cd" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>fillTriangle</name></member>
+      <member refid="class_g_f_xcanvas16_1adff0802df78d18dcc6834d6ad68c7619" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>getBuffer</name></member>
+      <member refid="class_adafruit___g_f_x_1a0423f175d3ac47e28beae1dc593bc24f" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>getCursorX</name></member>
+      <member refid="class_adafruit___g_f_x_1a34a63c8c32a8c57f77c9efb50db1c20b" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>getCursorY</name></member>
+      <member refid="class_adafruit___g_f_x_1a1956ad03632c73f25b4d8d240a40d7c9" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>getRotation</name></member>
+      <member refid="class_adafruit___g_f_x_1ae423f4ae1a64f33c006df18502b3f606" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>getTextBounds</name></member>
+      <member refid="class_adafruit___g_f_x_1a97525abb71dbe38c6551e4d0da4052b8" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>getTextBounds</name></member>
+      <member refid="class_g_f_xcanvas16_1a1087f17778b9c60db81162e66220b600" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>GFXcanvas16</name></member>
+      <member refid="class_adafruit___g_f_x_1afeb94c3253f43dada05e1270e322fa06" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>gfxFont</name></member>
+      <member refid="class_adafruit___g_f_x_1a6b3665babcb73df381563016e9f71bdb" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>HEIGHT</name></member>
+      <member refid="class_adafruit___g_f_x_1ac3dea6208d543a50f89b8e81bcaf9f09" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>height</name></member>
+      <member refid="class_adafruit___g_f_x_1a2fa315803f39a5e73b1841874daf0483" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>invertDisplay</name></member>
+      <member refid="class_adafruit___g_f_x_1a37a479d28fb11906ce516e983b1af926" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>rotation</name></member>
+      <member refid="class_adafruit___g_f_x_1aaf96a40cad0f34dd8ec73494b3866c33" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>setCursor</name></member>
+      <member refid="class_adafruit___g_f_x_1ab0479a2bb4e09e7c39c35e35c55d6ed1" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>setFont</name></member>
+      <member refid="class_adafruit___g_f_x_1a6ac337c49876cee23ed062a928724675" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>setRotation</name></member>
+      <member refid="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>setTextColor</name></member>
+      <member refid="class_adafruit___g_f_x_1ab6e88c585d3ab6b4f95199361f224fc6" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>setTextColor</name></member>
+      <member refid="class_adafruit___g_f_x_1a39eb4a8a2c9fa4ab7d58ceffd19535d5" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>setTextSize</name></member>
+      <member refid="class_adafruit___g_f_x_1aeeacd62bf26f3e7abbdc4b5b50faa6fa" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>setTextWrap</name></member>
+      <member refid="class_adafruit___g_f_x_1aa991435d3d38f6818fc93f9370c0b3e5" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>startWrite</name></member>
+      <member refid="class_adafruit___g_f_x_1a23e7a4efcab0b1588dc0cafa14b1fac1" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>textbgcolor</name></member>
+      <member refid="class_adafruit___g_f_x_1a8c6d23a386651136fd9530a5b7046591" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>textcolor</name></member>
+      <member refid="class_adafruit___g_f_x_1ac293848b8fe8c46107d1a491f6a5168d" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>textsize</name></member>
+      <member refid="class_adafruit___g_f_x_1ab693a8ac5d94c50c2558b5a3795ddde4" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>WIDTH</name></member>
+      <member refid="class_adafruit___g_f_x_1a32dadc6651cedc5e6426322c8a922cd6" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>width</name></member>
+      <member refid="class_adafruit___g_f_x_1ad6bd603e01861212829d536312a7190b" prot="protected" virt="non-virtual"><scope>GFXcanvas16</scope><name>wrap</name></member>
+      <member refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>write</name></member>
+      <member refid="class_adafruit___g_f_x_1ad85469e8be73f90932058fba1d4e5cbd" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>writeFastHLine</name></member>
+      <member refid="class_adafruit___g_f_x_1ae12d09670433af17e666a203b51715f7" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>writeFastVLine</name></member>
+      <member refid="class_adafruit___g_f_x_1a60133faeabc10f9d909674bc4c5aabc6" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>writeFillRect</name></member>
+      <member refid="class_adafruit___g_f_x_1ae1e5204b9251a04a57c821f69a8e638b" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>writeLine</name></member>
+      <member refid="class_adafruit___g_f_x_1ab66a1577ec595a254e4492d641b36fd8" prot="public" virt="virtual"><scope>GFXcanvas16</scope><name>writePixel</name></member>
+      <member refid="class_g_f_xcanvas16_1a15a79ebb2f3d86cb6a6bdc4ab1f3e9b7" prot="public" virt="non-virtual"><scope>GFXcanvas16</scope><name>~GFXcanvas16</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,675 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_g_p_s_8cpp" kind="file">
+    <compoundname>GPS.cpp</compoundname>
+    <includes refid="_g_p_s_8h" local="yes">GPS.h</includes>
+    <includes refid="_navigation_8h" local="yes">Navigation.h</includes>
+    <includes refid="location_8h" local="yes">location.h</includes>
+    <includes refid="config_values_8h" local="yes">configValues.h</includes>
+    <includes refid="_spark_fun___i2_c___g_p_s___arduino___library_8h" local="yes">SparkFun_I2C_GPS_Arduino_Library.h</includes>
+    <includes refid="_tiny_g_p_s_09_09_8h" local="yes">TinyGPS++.h</includes>
+    <incdepgraph>
+      <node id="322">
+        <label>SparkFun_I2C_GPS_Arduino_Library.h</label>
+        <link refid="_spark_fun___i2_c___g_p_s___arduino___library_8h"/>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="318">
+        <label>Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>limits.h</label>
+      </node>
+      <node id="315">
+        <label>GPS.h</label>
+        <link refid="_g_p_s_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>configValues.h</label>
+        <link refid="config_values_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>Wire.h</label>
+      </node>
+      <node id="314">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp</label>
+        <link refid="GPS.cpp"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>Arduino.h</label>
+      </node>
+      <node id="316">
+        <label>arduino.h</label>
+      </node>
+      <node id="325">
+        <label>TinyGPS++.h</label>
+        <link refid="_tiny_g_p_s_09_09_8h"/>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>location.h</label>
+        <link refid="location_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_g_p_s_8cpp_1a169c53997a7da1d0fb99aec1b4675ce8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_tiny_g_p_s_plus" kindref="compound">TinyGPSPlus</ref></type>
+        <definition>TinyGPSPlus gps</definition>
+        <argsstring></argsstring>
+        <name>gps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1a6e6c124a8544f54a81bb39badabb0342" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref></type>
+        <definition>NavigationDataType NavData</definition>
+        <argsstring></argsstring>
+        <name>NavData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1aae3eed66759a369bc96c71a1c39733af" prot="public" static="no" mutable="no">
+        <type>HardwareSerial *</type>
+        <definition>HardwareSerial* Serials[]</definition>
+        <argsstring>[]</argsstring>
+        <name>Serials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="18" column="1"/>
+        <referencedby refid="_g_p_s_8h_1ad6580a786394442f4184026341deee5d" compoundref="_g_p_s_8cpp" startline="29" endline="52">GPS_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1a1106f1eecd15a9233233ae672d651265" prot="public" static="no" mutable="no">
+        <type><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref></type>
+        <definition>configValuesType Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1a81a93fd2330e0b7d45d4a417a38c5b0d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_i2_c_g_p_s" kindref="compound">I2CGPS</ref></type>
+        <definition>I2CGPS myI2CGPS</definition>
+        <argsstring></argsstring>
+        <name>myI2CGPS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1abfd08ed7f06fc22e2d32bd2a1e94fa3a" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long GPS_Last_Loc</definition>
+        <argsstring></argsstring>
+        <name>GPS_Last_Loc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="22" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_g_p_s_8h_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</referencedby>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s___temp_8h_1a3d00a4427432dca90b7c8bc78e4859e7" compoundref="_g_p_s___temp_8cpp" startline="21" endline="79">GPS_Temp_Read</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1a1063514a8da815eb7c6ce64b11f55500" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long GPS_Last_Message</definition>
+        <argsstring></argsstring>
+        <name>GPS_Last_Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="23" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="23" bodyend="-1"/>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s___temp_8h_1a3d00a4427432dca90b7c8bc78e4859e7" compoundref="_g_p_s___temp_8cpp" startline="21" endline="79">GPS_Temp_Read</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1a546169abc0a62fd2c162220444214ace" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UseSimulatedGPS</definition>
+        <argsstring></argsstring>
+        <name>UseSimulatedGPS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="25" column="1"/>
+        <referencedby refid="_g_p_s_8h_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1a8b36f45290b7359d6d02f3a73d0fd663" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_time" kindref="compound">Time</ref></type>
+        <definition>Time CurrentUTCTime</definition>
+        <argsstring></argsstring>
+        <name>CurrentUTCTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_g_p_s_8cpp_1a723236e33d541fe926aafbf860757e71" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_time" kindref="compound">Time</ref></type>
+        <definition>Time CurrentLocalTime</definition>
+        <argsstring></argsstring>
+        <name>CurrentLocalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_g_p_s_8cpp_1ad6580a786394442f4184026341deee5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GPS_Init</definition>
+        <argsstring>(int CommandPort)</argsstring>
+        <name>GPS_Init</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="29" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="29" bodyend="52"/>
+        <references refid="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="32" endline="52">I2CGPS::begin</references>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="_g_p_s_8cpp_1a4c38c19dcfdf66ed9fdcc916c95f240e" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</references>
+        <references refid="_g_p_s_8cpp_1a23680ce248a48df8c3408854080f61a9" compoundref="_g_p_s_8cpp" startline="101" endline="128">GPS_Read_Time</references>
+        <references refid="_g_p_s_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <references refid="structconfig_values_type_1aeb3e43a3cab71ad7573c59c78f3cb0c0" compoundref="config_values_8h" startline="28">configValuesType::timezone_offset</references>
+        <references refid="_g_p_s_8cpp_1a1a559fa7004223b2ed0acbaaf7b9c0ff" compoundref="_g_p_s_8cpp" startline="130" endline="172">UpdateLocalTimeFromGPSTime</references>
+      </memberdef>
+      <memberdef kind="function" id="_g_p_s_8cpp_1a4c38c19dcfdf66ed9fdcc916c95f240e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GPS_Read</definition>
+        <argsstring>()</argsstring>
+        <name>GPS_Read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="54" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="54" bodyend="98"/>
+        <references refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="110" endline="123">I2CGPS::available</references>
+        <references refid="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" compoundref="_navigation_8h" startline="80">NavigationDataType::COG</references>
+        <references refid="class_tiny_g_p_s_plus_1ad7800d3decbe58e355f5229bba231868" compoundref="_tiny_g_p_s_09_09_8h" startline="230">TinyGPSPlus::course</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="struct_navigation_data_type_1a339cc22d0383f165361b391b6beded17" compoundref="_navigation_8h" startline="62">NavigationDataType::CurrentLocTimeStamp</references>
+        <references refid="class_tiny_g_p_s_plus_1a83a70812b432d7f51c7c735bfe7be0f0" compoundref="_tiny_g_p_s_09_09_8h" startline="227">TinyGPSPlus::date</references>
+        <references refid="struct_tiny_g_p_s_date_1ae8cc5f80c49e328f792d168a44062000" compoundref="_tiny_g_p_s_09_09_8cpp" startline="406" endline="410">TinyGPSDate::day</references>
+        <references refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" compoundref="_g_p_s_8h" startline="23">Time::dayOfMonth</references>
+        <references refid="struct_tiny_g_p_s_course_1a76dc8ae6c2fe5ead9b44c8d53a3272ca" compoundref="_tiny_g_p_s_09_09_8h" startline="176" endline="176">TinyGPSCourse::deg</references>
+        <references refid="class_tiny_g_p_s_plus_1ad7b78320b7e4967df17c6a27008a5154" compoundref="_tiny_g_p_s_09_09_8cpp" startline="56" endline="98">TinyGPSPlus::encode</references>
+        <references refid="_g_p_s_8cpp_1abfd08ed7f06fc22e2d32bd2a1e94fa3a" compoundref="_g_p_s_8cpp" startline="22">GPS_Last_Loc</references>
+        <references refid="_g_p_s_8cpp_1a1063514a8da815eb7c6ce64b11f55500" compoundref="_g_p_s_8cpp" startline="23">GPS_Last_Message</references>
+        <references refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" compoundref="_g_p_s_8h" startline="21">Time::hour</references>
+        <references refid="struct_tiny_g_p_s_time_1a37fdb629b6ed0e31134214c7d07df2b1" compoundref="_tiny_g_p_s_09_09_8cpp" startline="412" endline="416">TinyGPSTime::hour</references>
+        <references refid="struct_tiny_g_p_s_speed_1aa3a38ce4ece3d8062c794b73f260395e" compoundref="_tiny_g_p_s_09_09_8h" startline="168" endline="168">TinyGPSSpeed::knots</references>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="struct_tiny_g_p_s_location_1a86c3acea4f317b427eebb667e4d05a49" compoundref="_tiny_g_p_s_09_09_8cpp" startline="355" endline="360">TinyGPSLocation::lat</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <references refid="struct_tiny_g_p_s_location_1a544e9009a5580b2fd5466821a5e5b782" compoundref="_tiny_g_p_s_09_09_8cpp" startline="362" endline="367">TinyGPSLocation::lng</references>
+        <references refid="class_tiny_g_p_s_plus_1a886255f412f8e01f84e5104d36315fb3" compoundref="_tiny_g_p_s_09_09_8h" startline="226">TinyGPSPlus::location</references>
+        <references refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" compoundref="_g_p_s_8h" startline="20">Time::minute</references>
+        <references refid="struct_tiny_g_p_s_time_1aef83c20c14d404219299da2d7e35cdce" compoundref="_tiny_g_p_s_09_09_8cpp" startline="418" endline="422">TinyGPSTime::minute</references>
+        <references refid="struct_time_1a279cf834011dd08136310594ec5e45f4" compoundref="_g_p_s_8h" startline="24">Time::month</references>
+        <references refid="struct_tiny_g_p_s_date_1a6f3c5b4e72ef28b010f94ac9016315f3" compoundref="_tiny_g_p_s_09_09_8cpp" startline="400" endline="404">TinyGPSDate::month</references>
+        <references refid="struct_tiny_g_p_s_speed_1aacee536241e810cdf4ba7846d6c202cb" compoundref="_tiny_g_p_s_09_09_8h" startline="170" endline="170">TinyGPSSpeed::mps</references>
+        <references refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="127" endline="137">I2CGPS::read</references>
+        <references refid="struct_time_1a843c6d240942c2c884220156b135fcfc" compoundref="_g_p_s_8h" startline="19">Time::second</references>
+        <references refid="struct_tiny_g_p_s_time_1a729cab36ced07eb5607503663fbe33e8" compoundref="_tiny_g_p_s_09_09_8cpp" startline="424" endline="428">TinyGPSTime::second</references>
+        <references refid="struct_navigation_data_type_1ae7cf4fb255b05065fe9c5b5a4c78fd4a" compoundref="_navigation_8h" startline="79">NavigationDataType::SOG_knt</references>
+        <references refid="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" compoundref="_navigation_8h" startline="78">NavigationDataType::SOG_mps</references>
+        <references refid="class_tiny_g_p_s_plus_1aa085c3e72a399a829dd92af52b373404" compoundref="_tiny_g_p_s_09_09_8h" startline="229">TinyGPSPlus::speed</references>
+        <references refid="class_tiny_g_p_s_plus_1a377c975527fa24b45fb86356505eb134" compoundref="_tiny_g_p_s_09_09_8h" startline="228">TinyGPSPlus::time</references>
+        <references refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" compoundref="_g_p_s_8h" startline="25">Time::year</references>
+        <references refid="struct_tiny_g_p_s_date_1ae2cc914fec377b429d99f01204f50d60" compoundref="_tiny_g_p_s_09_09_8cpp" startline="393" endline="398">TinyGPSDate::year</references>
+        <referencedby refid="_g_p_s_8h_1ad6580a786394442f4184026341deee5d" compoundref="_g_p_s_8cpp" startline="29" endline="52">GPS_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_g_p_s_8cpp_1a23680ce248a48df8c3408854080f61a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GPS_Read_Time</definition>
+        <argsstring>()</argsstring>
+        <name>GPS_Read_Time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="101" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="101" bodyend="128"/>
+        <references refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="110" endline="123">I2CGPS::available</references>
+        <references refid="class_tiny_g_p_s_plus_1a83a70812b432d7f51c7c735bfe7be0f0" compoundref="_tiny_g_p_s_09_09_8h" startline="227">TinyGPSPlus::date</references>
+        <references refid="struct_tiny_g_p_s_date_1ae8cc5f80c49e328f792d168a44062000" compoundref="_tiny_g_p_s_09_09_8cpp" startline="406" endline="410">TinyGPSDate::day</references>
+        <references refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" compoundref="_g_p_s_8h" startline="23">Time::dayOfMonth</references>
+        <references refid="class_tiny_g_p_s_plus_1ad7b78320b7e4967df17c6a27008a5154" compoundref="_tiny_g_p_s_09_09_8cpp" startline="56" endline="98">TinyGPSPlus::encode</references>
+        <references refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" compoundref="_g_p_s_8h" startline="21">Time::hour</references>
+        <references refid="struct_tiny_g_p_s_time_1a37fdb629b6ed0e31134214c7d07df2b1" compoundref="_tiny_g_p_s_09_09_8cpp" startline="412" endline="416">TinyGPSTime::hour</references>
+        <references refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" compoundref="_g_p_s_8h" startline="20">Time::minute</references>
+        <references refid="struct_tiny_g_p_s_time_1aef83c20c14d404219299da2d7e35cdce" compoundref="_tiny_g_p_s_09_09_8cpp" startline="418" endline="422">TinyGPSTime::minute</references>
+        <references refid="struct_time_1a279cf834011dd08136310594ec5e45f4" compoundref="_g_p_s_8h" startline="24">Time::month</references>
+        <references refid="struct_tiny_g_p_s_date_1a6f3c5b4e72ef28b010f94ac9016315f3" compoundref="_tiny_g_p_s_09_09_8cpp" startline="400" endline="404">TinyGPSDate::month</references>
+        <references refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="127" endline="137">I2CGPS::read</references>
+        <references refid="struct_time_1a843c6d240942c2c884220156b135fcfc" compoundref="_g_p_s_8h" startline="19">Time::second</references>
+        <references refid="struct_tiny_g_p_s_time_1a729cab36ced07eb5607503663fbe33e8" compoundref="_tiny_g_p_s_09_09_8cpp" startline="424" endline="428">TinyGPSTime::second</references>
+        <references refid="class_tiny_g_p_s_plus_1a377c975527fa24b45fb86356505eb134" compoundref="_tiny_g_p_s_09_09_8h" startline="228">TinyGPSPlus::time</references>
+        <references refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" compoundref="_g_p_s_8h" startline="25">Time::year</references>
+        <references refid="struct_tiny_g_p_s_date_1ae2cc914fec377b429d99f01204f50d60" compoundref="_tiny_g_p_s_09_09_8cpp" startline="393" endline="398">TinyGPSDate::year</references>
+        <referencedby refid="_g_p_s_8h_1ad6580a786394442f4184026341deee5d" compoundref="_g_p_s_8cpp" startline="29" endline="52">GPS_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_g_p_s_8cpp_1a1a559fa7004223b2ed0acbaaf7b9c0ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateLocalTimeFromGPSTime</definition>
+        <argsstring>(byte timezone_offset)</argsstring>
+        <name>UpdateLocalTimeFromGPSTime</name>
+        <param>
+          <type>byte</type>
+          <declname>timezone_offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="130" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="130" bodyend="172"/>
+        <references refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" compoundref="_g_p_s_8h" startline="23">Time::dayOfMonth</references>
+        <references refid="_g_p_s_8cpp_1a90b6a1459b8be028d3609ce579060223" compoundref="_g_p_s_8cpp" startline="175" endline="202">DaysInMonth</references>
+        <references refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" compoundref="_g_p_s_8h" startline="21">Time::hour</references>
+        <references refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" compoundref="_g_p_s_8h" startline="20">Time::minute</references>
+        <references refid="struct_time_1a279cf834011dd08136310594ec5e45f4" compoundref="_g_p_s_8h" startline="24">Time::month</references>
+        <references refid="struct_time_1a843c6d240942c2c884220156b135fcfc" compoundref="_g_p_s_8h" startline="19">Time::second</references>
+        <references refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" compoundref="_g_p_s_8h" startline="25">Time::year</references>
+        <referencedby refid="_g_p_s_8h_1ad6580a786394442f4184026341deee5d" compoundref="_g_p_s_8cpp" startline="29" endline="52">GPS_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_g_p_s_8cpp_1a90b6a1459b8be028d3609ce579060223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>byte</type>
+        <definition>byte DaysInMonth</definition>
+        <argsstring>(byte month, byte year)</argsstring>
+        <name>DaysInMonth</name>
+        <param>
+          <type>byte</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="175" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="175" bodyend="202"/>
+        <referencedby refid="_g_p_s_8h_1a1a559fa7004223b2ed0acbaaf7b9c0ff" compoundref="_g_p_s_8cpp" startline="130" endline="172">UpdateLocalTimeFromGPSTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GPS_LocationIs_Valid</definition>
+        <argsstring>(Location TestLoc)</argsstring>
+        <name>GPS_LocationIs_Valid</name>
+        <param>
+          <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+          <declname>TestLoc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="204" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="204" bodyend="222"/>
+        <references refid="_g_p_s_8cpp_1abfd08ed7f06fc22e2d32bd2a1e94fa3a" compoundref="_g_p_s_8cpp" startline="22">GPS_Last_Loc</references>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <references refid="_g_p_s_8cpp_1a546169abc0a62fd2c162220444214ace">UseSimulatedGPS</references>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_g_p_s_8cpp_1a385f2fc75c9aa4e8c5331919821b7f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GPS_TimeIs_Valid</definition>
+        <argsstring>()</argsstring>
+        <name>GPS_TimeIs_Valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" line="224" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp" bodystart="224" bodyend="229"/>
+        <references refid="struct_time_1a279cf834011dd08136310594ec5e45f4" compoundref="_g_p_s_8h" startline="24">Time::month</references>
+        <referencedby refid="_s_d_card_log_file_8h_1a0fb170bbd3b5f9fcbe51bf4745c665fc" compoundref="_s_d_card_log_file_8cpp" startline="775" endline="791">Check_GPS_TimeStatus</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Wrapper<sp/>for<sp/>the<sp/>TinyGPS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>provides<sp/>a<sp/>minimalist<sp/>implementation<sp/>of<sp/>a<sp/>GPS.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>It<sp/>uses<sp/>the<sp/>I2C<sp/>bus<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.0<sp/>19/7/2016<sp/>Created</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.1<sp/>22/10/2016<sp/>updated<sp/>to<sp/>support<sp/>parameterised<sp/>serial<sp/>port</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.2<sp/>updated<sp/>21/10/2018<sp/>changed<sp/>from<sp/>Serial<sp/>to<sp/>I2C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.3<sp/>28/10/2018<sp/>added<sp/>support<sp/>for<sp/>converting<sp/>from<sp/>CurrentUTCTime<sp/>provided<sp/>by<sp/>the<sp/>GPS<sp/>to<sp/>CurrentLocalTime</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_g_p_s_8h" kindref="compound">GPS.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_navigation_8h" kindref="compound">Navigation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="location_8h" kindref="compound">location.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="config_values_8h" kindref="compound">configValues.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_spark_fun___i2_c___g_p_s___arduino___library_8h" kindref="compound">SparkFun_I2C_GPS_Arduino_Library.h</ref>&quot;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_tiny_g_p_s_09_09_8h" kindref="compound">TinyGPS++.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_tiny_g_p_s_plus" kindref="compound">TinyGPSPlus</ref><sp/><ref refid="_g_p_s_8cpp_1a169c53997a7da1d0fb99aec1b4675ce8" kindref="member">gps</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref><sp/><ref refid="_g_p_s_8cpp_1a6e6c124a8544f54a81bb39badabb0342" kindref="member">NavData</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>HardwareSerial<sp/>*<ref refid="_g_p_s_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref><sp/><ref refid="_g_p_s_8cpp_1a1106f1eecd15a9233233ae672d651265" kindref="member">Configuration</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_i2_c_g_p_s" kindref="compound">I2CGPS</ref><sp/><ref refid="_g_p_s_8cpp_1a81a93fd2330e0b7d45d4a417a38c5b0d" kindref="member">myI2CGPS</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="_telemetry_logging_8cpp_1abfd08ed7f06fc22e2d32bd2a1e94fa3a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1abfd08ed7f06fc22e2d32bd2a1e94fa3a" kindref="member">GPS_Last_Loc</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>milliseconds<sp/>since<sp/>last<sp/>GPS<sp/>valid<sp/>location<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="_telemetry_logging_8cpp_1a1063514a8da815eb7c6ce64b11f55500" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1a1063514a8da815eb7c6ce64b11f55500" kindref="member">GPS_Last_Message</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>milliseconds<sp/>since<sp/>last<sp/>GPS<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1a546169abc0a62fd2c162220444214ace" kindref="member">UseSimulatedGPS</ref><sp/>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>flag<sp/>to<sp/>disable<sp/>the<sp/>GPS<sp/>and<sp/>indicate<sp/>that<sp/>the<sp/>current<sp/>location<sp/>is<sp/>simulated<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_time" kindref="compound">Time</ref><sp/><ref refid="_g_p_s_8cpp_1a8b36f45290b7359d6d02f3a73d0fd663" kindref="member">CurrentUTCTime</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_time" kindref="compound">Time</ref><sp/><ref refid="_g_p_s_8cpp_1a723236e33d541fe926aafbf860757e71" kindref="member">CurrentLocalTime</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="_g_p_s_8h_1ad6580a786394442f4184026341deee5d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1ad6580a786394442f4184026341deee5d" kindref="member">GPS_Init</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialise<sp/>the<sp/>GPS<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>22/10/2016<sp/>updated<sp/>to<sp/>support<sp/>parameterised<sp/>serial<sp/>port</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.2<sp/>21/10/2018<sp/>updated<sp/>for<sp/>change<sp/>from<sp/>serial<sp/>to<sp/>I2C<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.3<sp/>6/4/2019<sp/>added<sp/>delay<sp/>at<sp/>the<sp/>end,<sp/>because<sp/>it<sp/>seems<sp/>solve<sp/>a<sp/>lock<sp/>up<sp/>problem.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>(*<ref refid="_g_p_s_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).println(F(</highlight><highlight class="stringliteral">&quot;MSG,Checking<sp/>for<sp/>GPS<sp/>at<sp/>0x10<sp/>...&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(myI2CGPS.<ref refid="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" kindref="member">begin</ref>()<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="_g_p_s_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).println(F(</highlight><highlight class="stringliteral">&quot;MSG,No<sp/>GPS<sp/>detected<sp/>at<sp/>0x10.&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*<ref refid="_g_p_s_8cpp_1aae3eed66759a369bc96c71a1c39733af" kindref="member">Serials</ref>[<ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>]).println(F(</highlight><highlight class="stringliteral">&quot;MSG,GPS<sp/>detected<sp/>at<sp/>0x10.&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_g_p_s_8cpp_1a23680ce248a48df8c3408854080f61a9" kindref="member">GPS_Read_Time</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_g_p_s_8cpp_1a1a559fa7004223b2ed0acbaaf7b9c0ff" kindref="member">UpdateLocalTimeFromGPSTime</ref>(Configuration.<ref refid="structconfig_values_type_1aeb3e43a3cab71ad7573c59c78f3cb0c0" kindref="member">timezone_offset</ref>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_g_p_s_8cpp_1a4c38c19dcfdf66ed9fdcc916c95f240e" kindref="member">GPS_Read</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(300);<sp/></highlight><highlight class="comment">//<sp/>it<sp/>seems<sp/>to<sp/>be<sp/>necessary<sp/>to<sp/>delay<sp/>a<sp/>bit<sp/>before<sp/>doing<sp/>anything<sp/>else<sp/>or<sp/>a<sp/>lock<sp/>up<sp/>occurs.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>not<sp/>sure<sp/>what&apos;s<sp/>happening,<sp/>but<sp/>this<sp/>seems<sp/>to<sp/>fix<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>was<sp/>100ms.<sp/>changed<sp/>to<sp/>300ms<sp/>because<sp/>of<sp/>some<sp/>occasional<sp/>start<sp/>up<sp/>lockups<sp/>to<sp/>see<sp/>if<sp/>it<sp/>helps.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1a4c38c19dcfdf66ed9fdcc916c95f240e" kindref="member">GPS_Read</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>22/10/2016<sp/>updated<sp/>to<sp/>support<sp/>parameterised<sp/>serial<sp/>port</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.2<sp/>14/4/2018<sp/>added<sp/>GPS<sp/>directly<sp/>provided<sp/>course<sp/>and<sp/>speed<sp/>to<sp/>Navdata<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.3<sp/>21/10/2018<sp/>updated<sp/>for<sp/>change<sp/>from<sp/>serial<sp/>to<sp/>I2C<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>prev_GPS_Last_Message;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>prev_GPS_Last_Loc;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>the<sp/>GPS<sp/>and<sp/>place<sp/>the<sp/>result<sp/>into<sp/>the<sp/>Global<sp/>variable:<sp/>Currentloc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(myI2CGPS.<ref refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" kindref="member">available</ref>())<sp/></highlight><highlight class="comment">//available()<sp/>returns<sp/>the<sp/>number<sp/>of<sp/>new<sp/>bytes<sp/>available<sp/>from<sp/>the<sp/>GPS<sp/>module</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gps.<ref refid="class_tiny_g_p_s_plus_1ad7b78320b7e4967df17c6a27008a5154" kindref="member">encode</ref>(myI2CGPS.<ref refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" kindref="member">read</ref>());<sp/></highlight><highlight class="comment">//Feed<sp/>the<sp/>GPS<sp/>parser</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>.<ref refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" kindref="member">lat</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a886255f412f8e01f84e5104d36315fb3" kindref="member">location</ref>.<ref refid="struct_tiny_g_p_s_location_1a86c3acea4f317b427eebb667e4d05a49" kindref="member">lat</ref>()<sp/>*<sp/>10000000UL;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>.<ref refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" kindref="member">lng</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a886255f412f8e01f84e5104d36315fb3" kindref="member">location</ref>.<ref refid="struct_tiny_g_p_s_location_1a544e9009a5580b2fd5466821a5e5b782" kindref="member">lng</ref>()<sp/>*<sp/>10000000UL;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a339cc22d0383f165361b391b6beded17" kindref="member">CurrentLocTimeStamp</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>course<sp/>and<sp/>speed<sp/>directly<sp/>from<sp/>GPS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" kindref="member">COG</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1ad7800d3decbe58e355f5229bba231868" kindref="member">course</ref>.<ref refid="struct_tiny_g_p_s_course_1a76dc8ae6c2fe5ead9b44c8d53a3272ca" kindref="member">deg</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1ae7cf4fb255b05065fe9c5b5a4c78fd4a" kindref="member">SOG_knt</ref><sp/>=<sp/>(float)gps.<ref refid="class_tiny_g_p_s_plus_1aa085c3e72a399a829dd92af52b373404" kindref="member">speed</ref>.<ref refid="struct_tiny_g_p_s_speed_1aa3a38ce4ece3d8062c794b73f260395e" kindref="member">knots</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" kindref="member">SOG_mps</ref><sp/>=<sp/>(float)gps.<ref refid="class_tiny_g_p_s_plus_1aa085c3e72a399a829dd92af52b373404" kindref="member">speed</ref>.<ref refid="struct_tiny_g_p_s_speed_1aacee536241e810cdf4ba7846d6c202cb" kindref="member">mps</ref>();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>the<sp/>date<sp/>and<sp/>time<sp/>from<sp/>GP<sp/>into<sp/>CurrentTime<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a83a70812b432d7f51c7c735bfe7be0f0" kindref="member">date</ref>.<ref refid="struct_tiny_g_p_s_date_1ae2cc914fec377b429d99f01204f50d60" kindref="member">year</ref>()-2000;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a83a70812b432d7f51c7c735bfe7be0f0" kindref="member">date</ref>.<ref refid="struct_tiny_g_p_s_date_1a6f3c5b4e72ef28b010f94ac9016315f3" kindref="member">month</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a83a70812b432d7f51c7c735bfe7be0f0" kindref="member">date</ref>.<ref refid="struct_tiny_g_p_s_date_1ae8cc5f80c49e328f792d168a44062000" kindref="member">day</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a377c975527fa24b45fb86356505eb134" kindref="member">time</ref>.<ref refid="struct_tiny_g_p_s_time_1a37fdb629b6ed0e31134214c7d07df2b1" kindref="member">hour</ref>();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" kindref="member">minute</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a377c975527fa24b45fb86356505eb134" kindref="member">time</ref>.<ref refid="struct_tiny_g_p_s_time_1aef83c20c14d404219299da2d7e35cdce" kindref="member">minute</ref>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a843c6d240942c2c884220156b135fcfc" kindref="member">second</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a377c975527fa24b45fb86356505eb134" kindref="member">time</ref>.<ref refid="struct_tiny_g_p_s_time_1a729cab36ced07eb5607503663fbe33e8" kindref="member">second</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>update<sp/>gps<sp/>message<sp/>timing<sp/>statistics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_g_p_s_8cpp_1a1063514a8da815eb7c6ce64b11f55500" kindref="member">GPS_Last_Message</ref><sp/>=<sp/>millis()<sp/>-<sp/>prev_GPS_Last_Message;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>prev_GPS_Last_Message<sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>update<sp/>gps<sp/>valid<sp/>location<sp/>timing<sp/>statistics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>.<ref refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" kindref="member">lat</ref><sp/>!=<sp/>0<sp/>&amp;&amp;<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>.<ref refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" kindref="member">lng</ref><sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_g_p_s_8cpp_1abfd08ed7f06fc22e2d32bd2a1e94fa3a" kindref="member">GPS_Last_Loc</ref><sp/>=<sp/>millis()<sp/>-<sp/>prev_GPS_Last_Loc;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prev_GPS_Last_Loc<sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="_g_p_s_8h_1a6f1c1f33ac426ab87670e254f0f4597e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1a23680ce248a48df8c3408854080f61a9" kindref="member">GPS_Read_Time</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>21/10/2018<sp/>Read<sp/>the<sp/>Date<sp/>and<sp/>Time<sp/>from<sp/>the<sp/>GPS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>30/3/2019<sp/>updated<sp/>to<sp/>return<sp/>a<sp/>reasonably<sp/>formatted<sp/>date,<sp/>even<sp/>if<sp/>the<sp/>GPS<sp/>Time<sp/>is<sp/>not<sp/>available.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>is<sp/>to<sp/>make<sp/>the<sp/>system<sp/>more<sp/>resilient.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(myI2CGPS.<ref refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" kindref="member">available</ref>())<sp/></highlight><highlight class="comment">//available()<sp/>returns<sp/>the<sp/>number<sp/>of<sp/>new<sp/>bytes<sp/>available<sp/>from<sp/>the<sp/>GPS<sp/>module</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gps.<ref refid="class_tiny_g_p_s_plus_1ad7b78320b7e4967df17c6a27008a5154" kindref="member">encode</ref>(myI2CGPS.<ref refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" kindref="member">read</ref>());<sp/></highlight><highlight class="comment">//Feed<sp/>the<sp/>GPS<sp/>parser</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>the<sp/>date<sp/>and<sp/>time<sp/>from<sp/>GP<sp/>into<sp/>CurrentTime<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a83a70812b432d7f51c7c735bfe7be0f0" kindref="member">date</ref>.<ref refid="struct_tiny_g_p_s_date_1ae2cc914fec377b429d99f01204f50d60" kindref="member">year</ref>()<sp/>-<sp/>2000;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a83a70812b432d7f51c7c735bfe7be0f0" kindref="member">date</ref>.<ref refid="struct_tiny_g_p_s_date_1a6f3c5b4e72ef28b010f94ac9016315f3" kindref="member">month</ref>();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a83a70812b432d7f51c7c735bfe7be0f0" kindref="member">date</ref>.<ref refid="struct_tiny_g_p_s_date_1ae8cc5f80c49e328f792d168a44062000" kindref="member">day</ref>();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a377c975527fa24b45fb86356505eb134" kindref="member">time</ref>.<ref refid="struct_tiny_g_p_s_time_1a37fdb629b6ed0e31134214c7d07df2b1" kindref="member">hour</ref>();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" kindref="member">minute</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a377c975527fa24b45fb86356505eb134" kindref="member">time</ref>.<ref refid="struct_tiny_g_p_s_time_1aef83c20c14d404219299da2d7e35cdce" kindref="member">minute</ref>();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a843c6d240942c2c884220156b135fcfc" kindref="member">second</ref><sp/>=<sp/>gps.<ref refid="class_tiny_g_p_s_plus_1a377c975527fa24b45fb86356505eb134" kindref="member">time</ref>.<ref refid="struct_tiny_g_p_s_time_1a729cab36ced07eb5607503663fbe33e8" kindref="member">second</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CurrentUTCTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref><sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref><sp/>=<sp/>99;<sp/></highlight><highlight class="comment">//<sp/>the<sp/>year</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>=<sp/>9;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref><sp/>=<sp/>9;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>=<sp/>99;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentUTCTime.<ref refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" kindref="member">minute</ref><sp/>=<sp/>99;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="_g_p_s_8h_1a1a559fa7004223b2ed0acbaaf7b9c0ff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1a1a559fa7004223b2ed0acbaaf7b9c0ff" kindref="member">UpdateLocalTimeFromGPSTime</ref>(byte<sp/>timezone_offset)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>update<sp/>the<sp/>CurrentLocalTime<sp/>from<sp/>the<sp/>CurrentUTCTime<sp/>provided<sp/>from<sp/>the<sp/>GPS<sp/>sentences.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>use<sp/>the<sp/>offset<sp/>passed<sp/>in<sp/>as<sp/>a<sp/>parameter.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a843c6d240942c2c884220156b135fcfc" kindref="member">second</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1a843c6d240942c2c884220156b135fcfc" kindref="member">second</ref>;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" kindref="member">minute</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" kindref="member">minute</ref>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>+<sp/>timezone_offset;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>we&apos;ve<sp/>moved<sp/>into<sp/>next<sp/>day,<sp/>then<sp/>increment<sp/>day,<sp/>and<sp/>deduct<sp/>24<sp/>hours<sp/>from<sp/>hour.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CurrentLocalTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>&gt;=<sp/>24)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref><sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>=<sp/>CurrentLocalTime.<ref refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" kindref="member">hour</ref><sp/>-<sp/>24;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref>;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>we&apos;ve<sp/>rolled<sp/>past<sp/>end<sp/>of<sp/>month,<sp/>then<sp/>increment<sp/>month<sp/>and<sp/>reset<sp/>day<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CurrentLocalTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref><sp/>&gt;<sp/><ref refid="_g_p_s_8cpp_1a90b6a1459b8be028d3609ce579060223" kindref="member">DaysInMonth</ref>(CurrentLocalTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref>,<sp/>CurrentLocalTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref>))</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" kindref="member">dayOfMonth</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref>;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>we&apos;ve<sp/>rolled<sp/>into<sp/>month<sp/>13<sp/>then<sp/>increment<sp/>year<sp/>and<sp/>reset<sp/>month.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CurrentLocalTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>&gt;=<sp/>13)</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref><sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentLocalTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref><sp/>=<sp/>CurrentUTCTime.<ref refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" kindref="member">year</ref>;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="_g_p_s_8h_1a90b6a1459b8be028d3609ce579060223" refkind="member"><highlight class="normal">byte<sp/><ref refid="_g_p_s_8cpp_1a90b6a1459b8be028d3609ce579060223" kindref="member">DaysInMonth</ref>(byte<sp/>month,<sp/>byte<sp/>year)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>the<sp/>number<sp/>of<sp/>days<sp/>on<sp/>a<sp/>given<sp/>month.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>is<sp/>used<sp/>in<sp/>converting<sp/>from<sp/>between<sp/>time<sp/>zones.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>test<sp/>for<sp/>leap<sp/>years<sp/>has<sp/>bee<sp/>simplified,<sp/>because<sp/>the<sp/>next<sp/>issue<sp/>other<sp/>than<sp/>usual<sp/>4<sp/>year<sp/>test,<sp/>is<sp/>in<sp/>the<sp/>year<sp/>2100.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>https://www.daniweb.com/programming/software-development/threads/265791/calculating-days-in-a-month</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Days;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(month<sp/>==<sp/>4<sp/>||<sp/>month<sp/>==<sp/>6<sp/>||<sp/>month<sp/>==<sp/>9<sp/>||<sp/>month<sp/>==<sp/>11)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Days<sp/>=<sp/>30;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(month<sp/>==<sp/>02)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//bool<sp/>isLeapYear<sp/>=<sp/>(year<sp/>%<sp/>4<sp/>==<sp/>0<sp/>&amp;&amp;<sp/>year<sp/>%<sp/>100<sp/>!=<sp/>0)<sp/>||<sp/>(year<sp/>%<sp/>400<sp/>==<sp/>0);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>use<sp/>a<sp/>simpler/faster<sp/>leap<sp/>year<sp/>check.<sp/>It<sp/>will<sp/>be<sp/>80<sp/>years<sp/>before<sp/>it<sp/>matters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isLeapYear<sp/>=<sp/>(year<sp/>%<sp/>4<sp/>==<sp/>0);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isLeapYear<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Days<sp/>=<sp/>29;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Days<sp/>=<sp/>28;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Days<sp/>=<sp/>31;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Days;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="_g_p_s_8h_1aad9fb3151b07a5325e45216fdc81d8f8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" kindref="member">GPS_LocationIs_Valid</ref>(<ref refid="struct_location" kindref="compound">Location</ref><sp/>TestLoc)<sp/>{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>the<sp/>GPS<sp/>location<sp/>is<sp/>valid<sp/>(or<sp/>if<sp/>the<sp/>simulated<sp/>location<sp/>is<sp/>valid)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>21/10/2018<sp/>Updated<sp/>to<sp/>allow<sp/>GPS_Last_Loc<sp/>time<sp/>in<sp/>ms<sp/>of<sp/>zero<sp/>to<sp/>considered<sp/>ok<sp/>(i.e<sp/>&quot;&gt;=&quot;<sp/>vs<sp/>&quot;&gt;&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>valid<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_g_p_s_8cpp_1a546169abc0a62fd2c162220444214ace" kindref="member">UseSimulatedGPS</ref>)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>simulated,<sp/>just<sp/>check<sp/>for<sp/>non-zero<sp/>lat/lon<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>valid<sp/>=<sp/>(TestLoc.<ref refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" kindref="member">lat</ref><sp/>!=<sp/>0<sp/>&amp;&amp;<sp/>TestLoc.<ref refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" kindref="member">lng</ref><sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>real<sp/>GPS,<sp/>check<sp/>for<sp/>non=zero<sp/>lat/lon<sp/>and<sp/>valid<sp/>location<sp/>provided<sp/>in<sp/>last<sp/>10<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>valid<sp/>=<sp/>(TestLoc.<ref refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" kindref="member">lat</ref><sp/>!=<sp/>0<sp/>&amp;&amp;<sp/>TestLoc.<ref refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" kindref="member">lng</ref><sp/>!=<sp/>0<sp/>&amp;&amp;<sp/><ref refid="_g_p_s_8cpp_1abfd08ed7f06fc22e2d32bd2a1e94fa3a" kindref="member">GPS_Last_Loc</ref><sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/><ref refid="_g_p_s_8cpp_1abfd08ed7f06fc22e2d32bd2a1e94fa3a" kindref="member">GPS_Last_Loc</ref><sp/>&lt;<sp/>10000);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valid;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="_g_p_s_8h_1a385f2fc75c9aa4e8c5331919821b7f74" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_g_p_s_8cpp_1a385f2fc75c9aa4e8c5331919821b7f74" kindref="member">GPS_TimeIs_Valid</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>the<sp/>GPS<sp/>time<sp/>is<sp/>valid<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>19/05/2020<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(CurrentUTCTime.<ref refid="struct_time_1a279cf834011dd08136310594ec5e45f4" kindref="member">month</ref><sp/>&gt;<sp/>0);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp"/>
+  </compounddef>
+</doxygen>

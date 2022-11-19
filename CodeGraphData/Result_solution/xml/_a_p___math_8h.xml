@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_a_p___math_8h" kind="file">
+    <compoundname>AP_Math.h</compoundname>
+    <includes refid="_misc_8h" local="yes">Misc.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes refid="vector2_8h" local="yes">vector2.h</includes>
+    <includedby refid="_a_p___math_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp</includedby>
+    <includedby refid="_c_l_i_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</includedby>
+    <includedby refid="_command_state___processor_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</includedby>
+    <includedby refid="location_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp</includedby>
+    <includedby refid="_loiter_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</includedby>
+    <includedby refid="_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</includedby>
+    <includedby refid="vector2_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp</includedby>
+    <incdepgraph>
+      <node id="107">
+        <label>vector2.h</label>
+        <link refid="vector2_8h"/>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>stdint.h</label>
+      </node>
+      <node id="105">
+        <label>math.h</label>
+      </node>
+      <node id="102">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h</label>
+        <link refid="AP_Math.h"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>arduino.h</label>
+      </node>
+      <node id="103">
+        <label>Misc.h</label>
+        <link refid="_misc_8h"/>
+        <childnode refid="104" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="116">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="110">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</label>
+        <link refid="_c_l_i_8h"/>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp</label>
+        <link refid="vector2_8cpp"/>
+      </node>
+      <node id="111">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="109">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp</label>
+        <link refid="_a_p___math_8cpp"/>
+      </node>
+      <node id="113">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="114">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="115">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp</label>
+        <link refid="location_8cpp"/>
+      </node>
+      <node id="117">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="112">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp</label>
+        <link refid="config_values_8cpp"/>
+      </node>
+      <node id="108">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h</label>
+        <link refid="AP_Math.h"/>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_a_p___math_8h_1ab9c3c609e1d02430671de0a109410ac8" prot="public" static="no">
+        <name>M_PI_F</name>
+        <initializer>3.141592653589793f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="27" column="10" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a958e4508ed28ee5cc04249144312c15f" prot="public" static="no">
+        <name>M_PI_2</name>
+        <initializer>1.570796326794897f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="33" column="11" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1aedc610bed67cf3729d02821f98029dd7" prot="public" static="no">
+        <name>DEG_TO_RAD_DOUBLE</name>
+        <initializer>0.0174532925199432954743716805978692718781530857086181640625</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="43" column="10" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a4a87e54f415885048def0984b3fea654" prot="public" static="no">
+        <name>RAD_TO_DEG_DOUBLE</name>
+        <initializer>57.29577951308232286464772187173366546630859375</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="44" column="10" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a96799f9de58a211f6b3bdc96c6e10669" prot="public" static="no">
+        <name>RadiansToCentiDegrees</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) * 5729.5779513082320876798154814105f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="47" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1aea8758bf61b23b46507902b46060ebfd" prot="public" static="no">
+        <name>GRAVITY_MSS</name>
+        <initializer>9.80665f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="50" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a527a1e3c352381ec3fcf00cfb8bfd5ed" prot="public" static="no">
+        <name>RADIUS_OF_EARTH</name>
+        <initializer>6378100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="53" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a973dbf48dd33fd7c3915f6dbe566b127" prot="public" static="no">
+        <name>ROTATION_COMBINATION_SUPPORT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="55" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1aadb80cc308fb40a8c3a32ff4a8c266a1" prot="public" static="no">
+        <name>LATLON_TO_M</name>
+        <initializer>0.01113195f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="59" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a79a555bc87a6cd1c134a7829b59e4e57" prot="public" static="no">
+        <name>LATLON_TO_CM</name>
+        <initializer>1.113195f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="60" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1aa09b7cbfbfc67364d373c1a238784a8f" prot="public" static="no">
+        <name>WGS84_A</name>
+        <initializer>6378137.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="63" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a22ad2c1bff8607c75d94474684b641f9" prot="public" static="no">
+        <name>WGS84_IF</name>
+        <initializer>298.257223563</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="65" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1ae90bd6b6a77238cf3358909bedb5ea9b" prot="public" static="no">
+        <name>WGS84_F</name>
+        <initializer>(1/<ref refid="_a_p___math_8h_1a22ad2c1bff8607c75d94474684b641f9" kindref="member">WGS84_IF</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="67" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a91f1c3dfc4df09a0dc868e61da32d5e5" prot="public" static="no">
+        <name>WGS84_B</name>
+        <initializer>(<ref refid="_a_p___math_8h_1aa09b7cbfbfc67364d373c1a238784a8f" kindref="member">WGS84_A</ref>*(1-<ref refid="_a_p___math_8h_1ae90bd6b6a77238cf3358909bedb5ea9b" kindref="member">WGS84_F</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="69" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1a7f23e711b700027b3c3c4b5dff6585b0" prot="public" static="no">
+        <name>WGS84_E</name>
+        <initializer>(sqrt(2*<ref refid="_a_p___math_8h_1ae90bd6b6a77238cf3358909bedb5ea9b" kindref="member">WGS84_F</ref> - <ref refid="_a_p___math_8h_1ae90bd6b6a77238cf3358909bedb5ea9b" kindref="member">WGS84_F</ref>*<ref refid="_a_p___math_8h_1ae90bd6b6a77238cf3358909bedb5ea9b" kindref="member">WGS84_F</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="71" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1affe776513b24d84b39af8ab0930fef7f" prot="public" static="no">
+        <name>max</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>((a)&gt;(b)?(a):(b))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="186" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p___math_8h_1ac6afabdc09a49a433ee19d8a9486056d" prot="public" static="no">
+        <name>min</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>((a)&lt;(b)?(a):(b))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="187" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" bodystart="187" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x___button_1a1d9329970f085c5111e239be90005371" compoundref="_adafruit___g_f_x_8cpp" startline="1095" endline="1117">Adafruit_GFX_Button::drawButton</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_a_p___math_8h_1a2706fd969ad73bc8ef977d964c04f4a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float safe_asin</definition>
+        <argsstring>(float v)</argsstring>
+        <name>safe_asin</name>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="78" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="7" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1a7b812b7e8008b90ab24bcd9c3b0e8e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float safe_sqrt</definition>
+        <argsstring>(float v)</argsstring>
+        <name>safe_sqrt</name>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="81" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="26" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1a66461170bc9fb53e349cd07fd360e1d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float fast_atan</definition>
+        <argsstring>(float v)</argsstring>
+        <name>fast_atan</name>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="84" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1a4517daadce591a032e98185a7d751b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float fast_atan2</definition>
+        <argsstring>(float y, float x)</argsstring>
+        <name>fast_atan2</name>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="90" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="47" bodyend="75"/>
+        <references refid="_a_p___math_8cpp_1a9d66db22c2b1ed72b8f9579ff7418bed" compoundref="_a_p___math_8cpp" startline="42">FAST_ATAN2_PIBY2_FLOAT</references>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1ad2368c582f3e0c135e2a74772f4db61a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float longitude_scale</definition>
+        <argsstring>(const struct Location &amp;loc)</argsstring>
+        <name>longitude_scale</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="101" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="38" bodyend="52"/>
+        <references refid="_a_p___math_8cpp_1a08eedb329d8162ddbd344d4f6c8cde20" compoundref="_a_p___math_8cpp" startline="80" endline="90">constrain_float</references>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <referencedby refid="location_8h_1ae53923f6092e5036fdbab56c2b1d025c" compoundref="location_8cpp" startline="72" endline="79">get_bearing</referencedby>
+        <referencedby refid="location_8h_1a1bb34ec50f166eed9096f7cc8c76c444" compoundref="location_8cpp" startline="82" endline="89">get_bearingf</referencedby>
+        <referencedby refid="location_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</referencedby>
+        <referencedby refid="location_8cpp_1a717b438a67f0b41665feec9009ba1bd4" compoundref="location_8cpp" startline="162" endline="170">location_offset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float get_distance</definition>
+        <argsstring>(const struct Location &amp;loc1, const struct Location &amp;loc2)</argsstring>
+        <name>get_distance</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="104" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="57" bodyend="62"/>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1a224e7b94333df3a15a18499026474ac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t get_bearing_cd</definition>
+        <argsstring>(const struct Location &amp;loc1, const struct Location &amp;loc2)</argsstring>
+        <name>get_bearing_cd</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1ab6cd880d070717b4c3cc7a7278768e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool location_passed_point</definition>
+        <argsstring>(const struct Location &amp;location, const struct Location &amp;point1, const struct Location &amp;point2)</argsstring>
+        <name>location_passed_point</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>point1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>point2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="117" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="98" bodyend="130"/>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1ab0e06d28afb9d14043e1938af277396c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void location_update</definition>
+        <argsstring>(struct Location &amp;loc, float bearing, float distance)</argsstring>
+        <name>location_update</name>
+        <param>
+          <type>struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bearing</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="122" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="151" bodyend="156"/>
+        <references refid="location_8cpp_1a717b438a67f0b41665feec9009ba1bd4" compoundref="location_8cpp" startline="162" endline="170">location_offset</references>
+        <references refid="_misc_8h_1a7571dba2995b9cb57259345fe49d2f97" compoundref="_misc_8h" startline="17">radians</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1a717b438a67f0b41665feec9009ba1bd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void location_offset</definition>
+        <argsstring>(struct Location &amp;loc, float ofs_north, float ofs_east)</argsstring>
+        <name>location_offset</name>
+        <param>
+          <type>struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ofs_north</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ofs_east</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="125" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="162" bodyend="170"/>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <references refid="location_8cpp_1af999f2dacc87337bff29f7291784a4ae" compoundref="location_8cpp" startline="36">LOCATION_SCALING_FACTOR_INV</references>
+        <references refid="location_8cpp_1ad2368c582f3e0c135e2a74772f4db61a" compoundref="location_8cpp" startline="38" endline="52">longitude_scale</references>
+        <referencedby refid="location_8cpp_1ab0e06d28afb9d14043e1938af277396c" compoundref="location_8cpp" startline="151" endline="156">location_update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1aec935e3ce7fb13099565b27693547d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t wrap_360_cd</definition>
+        <argsstring>(int32_t error)</argsstring>
+        <name>wrap_360_cd</name>
+        <param>
+          <type>int32_t</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1a35821002985a8e3e526c8ccad9bb9934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t wrap_180_cd</definition>
+        <argsstring>(int32_t error)</argsstring>
+        <name>wrap_180_cd</name>
+        <param>
+          <type>int32_t</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="137" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1a08eedb329d8162ddbd344d4f6c8cde20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float constrain_float</definition>
+        <argsstring>(float amt, float low, float high)</argsstring>
+        <name>constrain_float</name>
+        <param>
+          <type>float</type>
+          <declname>amt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="164" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="80" bodyend="90"/>
+        <referencedby refid="location_8cpp_1ad2368c582f3e0c135e2a74772f4db61a" compoundref="location_8cpp" startline="38" endline="52">longitude_scale</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1ac5d9502aca91c97f523fd9b35590215f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int16_t</type>
+        <definition>int16_t constrain_int16</definition>
+        <argsstring>(int16_t amt, int16_t low, int16_t high)</argsstring>
+        <name>constrain_int16</name>
+        <param>
+          <type>int16_t</type>
+          <declname>amt</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="165" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1af85c1f082ddabb5487c6f524d8b538ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t constrain_int32</definition>
+        <argsstring>(int32_t amt, int32_t low, int32_t high)</argsstring>
+        <name>constrain_int32</name>
+        <param>
+          <type>int32_t</type>
+          <declname>amt</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="166" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1afd3767d48a7b20f6d5220a4f8007af00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float pythagorous2</definition>
+        <argsstring>(float a, float b)</argsstring>
+        <name>pythagorous2</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="178" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="118" bodyend="120"/>
+        <references refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" compoundref="_misc_8h" startline="19">sq</references>
+        <referencedby refid="location_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</referencedby>
+        <referencedby refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" compoundref="vector2_8cpp" startline="24" endline="27">Vector2&lt; T &gt;::length</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8h_1ac09c78b18c2ad21b9a04081f119f11c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float pythagorous3</definition>
+        <argsstring>(float a, float b, float c)</argsstring>
+        <name>pythagorous3</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h" line="179" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="123" bodyend="125"/>
+        <references refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" compoundref="_misc_8h" startline="19">sq</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>-*-<sp/>tab-width:<sp/>4;<sp/>Mode:<sp/>C++;<sp/>c-basic-offset:<sp/>4;<sp/>indent-tabs-mode:<sp/>nil<sp/>-*-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AP_MATH_H</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>AP_MATH_H</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Assorted<sp/>useful<sp/>math<sp/>operations<sp/>for<sp/>ArduPilot(Mega)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_misc_8h" kindref="compound">Misc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;arduino.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;AP_Common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;AP_Param.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//#ifdef<sp/>__AVR__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>include<sp/>&lt;AP_Math_AVR_Compat.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;rotations.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector2_8h" kindref="compound">vector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;vector3.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;matrix3.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;quaternion.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;polygon.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;edc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PI_F</highlight></codeline>
+<codeline lineno="27" refid="_a_p___math_8h_1ab9c3c609e1d02430671de0a109410ac8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/>#define<sp/>M_PI_F<sp/>3.141592653589793f</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#ifndef<sp/>PI</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/>#<sp/>define<sp/>PI<sp/>M_PI_F</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PI_2</highlight></codeline>
+<codeline lineno="33" refid="_a_p___math_8h_1a958e4508ed28ee5cc04249144312c15f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/>#<sp/>define<sp/>M_PI_2<sp/>1.570796326794897f</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="comment">//Single<sp/>precision<sp/>conversions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>DEG_TO_RAD<sp/>0.017453292519943295769236907684886f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>RAD_TO_DEG<sp/>57.295779513082320876798154814105f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//GPS<sp/>Specific<sp/>double<sp/>precision<sp/>conversions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//The<sp/>precision<sp/>here<sp/>does<sp/>matter<sp/>when<sp/>using<sp/>the<sp/>wsg*<sp/>functions<sp/>for<sp/>converting</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//between<sp/>LLH<sp/>and<sp/>ECEF<sp/>coordinates.<sp/>Test<sp/>code<sp/>in<sp/>examlpes/location/location.pde</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>HAL_CPU_CLASS<sp/>&gt;=<sp/>HAL_CPU_CLASS_75</highlight></codeline>
+<codeline lineno="43" refid="_a_p___math_8h_1aedc610bed67cf3729d02821f98029dd7" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEG_TO_RAD_DOUBLE<sp/>0.0174532925199432954743716805978692718781530857086181640625<sp/><sp/>//<sp/>equals<sp/>to<sp/>(M_PI<sp/>/<sp/>180.0)</highlight></codeline>
+<codeline lineno="44" refid="_a_p___math_8h_1a4a87e54f415885048def0984b3fea654" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>RAD_TO_DEG_DOUBLE<sp/>57.29577951308232286464772187173366546630859375<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>equals<sp/>to<sp/>(180.0<sp/>/<sp/>M_PI)</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="46"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="_a_p___math_8h_1a96799f9de58a211f6b3bdc96c6e10669" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RadiansToCentiDegrees(x)<sp/>((x)<sp/>*<sp/>5729.5779513082320876798154814105f)</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//<sp/>acceleration<sp/>due<sp/>to<sp/>gravity<sp/>in<sp/>m/s/s</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_a_p___math_8h_1aea8758bf61b23b46507902b46060ebfd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GRAVITY_MSS<sp/>9.80665f</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>radius<sp/>of<sp/>earth<sp/>in<sp/>meters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="_a_p___math_8h_1a527a1e3c352381ec3fcf00cfb8bfd5ed" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RADIUS_OF_EARTH<sp/>6378100</highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="_a_p___math_8h_1a973dbf48dd33fd7c3915f6dbe566b127" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ROTATION_COMBINATION_SUPPORT<sp/>0</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>convert<sp/>a<sp/>longitude<sp/>or<sp/>latitude<sp/>point<sp/>to<sp/>meters<sp/>or<sp/>centimeteres.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Note:<sp/>this<sp/>does<sp/>not<sp/>include<sp/>the<sp/>longitude<sp/>scaling<sp/>which<sp/>is<sp/>dependent<sp/>upon<sp/>location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_a_p___math_8h_1aadb80cc308fb40a8c3a32ff4a8c266a1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LATLON_TO_M<sp/><sp/>0.01113195f</highlight></codeline>
+<codeline lineno="60" refid="_a_p___math_8h_1a79a555bc87a6cd1c134a7829b59e4e57" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>LATLON_TO_CM<sp/>1.113195f</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Semi-major<sp/>axis<sp/>of<sp/>the<sp/>Earth,<sp/>in<sp/>meters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="_a_p___math_8h_1aa09b7cbfbfc67364d373c1a238784a8f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WGS84_A<sp/>6378137.0</highlight></codeline>
+<codeline lineno="64"><highlight class="preprocessor"></highlight><highlight class="comment">//Inverse<sp/>flattening<sp/>of<sp/>the<sp/>Earth</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="_a_p___math_8h_1a22ad2c1bff8607c75d94474684b641f9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WGS84_IF<sp/>298.257223563</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"></highlight><highlight class="comment">//<sp/>The<sp/>flattening<sp/>of<sp/>the<sp/>Earth</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="_a_p___math_8h_1ae90bd6b6a77238cf3358909bedb5ea9b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WGS84_F<sp/>(1/WGS84_IF)</highlight></codeline>
+<codeline lineno="68"><highlight class="preprocessor"></highlight><highlight class="comment">//<sp/>Semi-minor<sp/>axis<sp/>of<sp/>the<sp/>Earth<sp/>in<sp/>meters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="_a_p___math_8h_1a91f1c3dfc4df09a0dc868e61da32d5e5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WGS84_B<sp/>(WGS84_A*(1-WGS84_F))</highlight></codeline>
+<codeline lineno="70"><highlight class="preprocessor"></highlight><highlight class="comment">//<sp/>Eccentricity<sp/>of<sp/>the<sp/>Earth</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="_a_p___math_8h_1a7f23e711b700027b3c3c4b5dff6585b0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WGS84_E<sp/>(sqrt(2*WGS84_F<sp/>-<sp/>WGS84_F*WGS84_F))</highlight></codeline>
+<codeline lineno="72"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="74"><highlight class="comment">//AP_PARAMDEFV(Matrix3f,<sp/>Matrix3f,<sp/>AP_PARAM_MATRIX3F);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//AP_PARAMDEFV(Vector3f,<sp/>Vector3f,<sp/>AP_PARAM_VECTOR3F);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>varient<sp/>of<sp/>asin()<sp/>that<sp/>always<sp/>gives<sp/>a<sp/>valid<sp/>answer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1a2706fd969ad73bc8ef977d964c04f4a3" kindref="member">safe_asin</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>varient<sp/>of<sp/>sqrt()<sp/>that<sp/>always<sp/>gives<sp/>a<sp/>valid<sp/>answer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1a7b812b7e8008b90ab24bcd9c3b0e8e3b" kindref="member">safe_sqrt</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>faster<sp/>varient<sp/>of<sp/>atan.<sp/><sp/>accurate<sp/>to<sp/>6<sp/>decimal<sp/>places<sp/>for<sp/>values<sp/>between<sp/>-1<sp/>~<sp/>1<sp/>but<sp/>then<sp/>diverges<sp/>quickly</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1a66461170bc9fb53e349cd07fd360e1d9" kindref="member">fast_atan</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>fast_atan2<sp/>-<sp/>faster<sp/>version<sp/>of<sp/>atan2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>126<sp/>us<sp/>on<sp/>AVR<sp/>cpu<sp/>vs<sp/>199<sp/>for<sp/>regular<sp/>atan2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>absolute<sp/>error<sp/>is<sp/>&lt;<sp/>0.005<sp/>radians<sp/>or<sp/>0.28<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>origin<sp/>source:<sp/>https://gist.github.com/volkansalma/2972237/raw/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1a4517daadce591a032e98185a7d751b21" kindref="member">fast_atan2</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//#if<sp/>ROTATION_COMBINATION_SUPPORT</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"></highlight><highlight class="comment">//enum<sp/>Rotation<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rotation_combination(enum<sp/>Rotation<sp/>r1,<sp/>enum<sp/>Rotation<sp/>r2,<sp/>bool<sp/>*found<sp/>=<sp/>NULL);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//<sp/>longitude_scale<sp/>-<sp/>returns<sp/>the<sp/>scaler<sp/>to<sp/>compensate<sp/>for<sp/>shrinking<sp/>longitude<sp/>as<sp/>you<sp/>move<sp/>north<sp/>or<sp/>south<sp/>from<sp/>the<sp/>equator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Note:<sp/>this<sp/>does<sp/>not<sp/>include<sp/>the<sp/>scaling<sp/>to<sp/>convert<sp/>longitude/latitude<sp/>points<sp/>to<sp/>meters<sp/>or<sp/>centimeters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1ad2368c582f3e0c135e2a74772f4db61a" kindref="member">longitude_scale</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" kindref="member">get_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc2);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"></highlight><highlight class="comment">//uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>get_distance_cm(const<sp/>struct<sp/>Location<sp/>&amp;loc1,<sp/>const<sp/>struct<sp/>Location<sp/>&amp;loc2);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"></highlight><highlight class="normal">int32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1a224e7b94333df3a15a18499026474ac9" kindref="member">get_bearing_cd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc2);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//<sp/>see<sp/>if<sp/>location<sp/>is<sp/>past<sp/>a<sp/>line<sp/>perpendicular<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>line<sp/>between<sp/>point1<sp/>and<sp/>point2.<sp/>If<sp/>point1<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>our<sp/>previous<sp/>waypoint<sp/>and<sp/>point2<sp/>is<sp/>our<sp/>target<sp/>waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//<sp/>then<sp/>this<sp/>function<sp/>returns<sp/>true<sp/>if<sp/>we<sp/>have<sp/>flown<sp/>past</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>target<sp/>waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1ab6cd880d070717b4c3cc7a7278768e72" kindref="member">location_passed_point</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;<sp/>location,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;<sp/>point1,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;<sp/>point2);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>extrapolate<sp/>latitude/longitude<sp/>given<sp/>bearing<sp/>and<sp/>distance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1ab0e06d28afb9d14043e1938af277396c" kindref="member">location_update</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bearing,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>extrapolate<sp/>latitude/longitude<sp/>given<sp/>distances<sp/>north<sp/>and<sp/>east</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1a717b438a67f0b41665feec9009ba1bd4" kindref="member">location_offset</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ofs_north,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ofs_east);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/>return<sp/>the<sp/>distance<sp/>in<sp/>meters<sp/>in<sp/>North/East<sp/>plane<sp/>as<sp/>a<sp/>N/E<sp/>vector</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/>from<sp/>loc1<sp/>to<sp/>loc2</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//Vector2f<sp/>location_diff(const<sp/>struct<sp/>Location<sp/>&amp;loc1,<sp/>const<sp/>struct<sp/>Location<sp/>&amp;loc2);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/>wrap<sp/>an<sp/>angle<sp/>in<sp/>centi-degrees</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">int32_t<sp/><ref refid="_a_p___math_8h_1aec935e3ce7fb13099565b27693547d09" kindref="member">wrap_360_cd</ref>(int32_t<sp/>error);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">int32_t<sp/><ref refid="_a_p___math_8h_1a35821002985a8e3e526c8ccad9bb9934" kindref="member">wrap_180_cd</ref>(int32_t<sp/>error);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">//float<sp/>wrap_360_cd_float(float<sp/>angle);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//float<sp/>wrap_180_cd_float(float<sp/>angle);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/>wrap<sp/>an<sp/>angle<sp/>defined<sp/>in<sp/>radians<sp/>to<sp/>-PI<sp/>~<sp/>PI<sp/>(equivalent<sp/>to<sp/>+-<sp/>180<sp/>degrees)</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">//float<sp/>wrap_PI(float<sp/>angle_in_radians);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="comment">//<sp/><sp/>print<sp/>a<sp/>int32_t<sp/>lat/long<sp/>in<sp/>decimal<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>print_latlon(AP_HAL::BetterStream<sp/>*s,<sp/>int32_t<sp/>lat_or_lon);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//#if<sp/>HAL_CPU_CLASS<sp/>&gt;=<sp/>HAL_CPU_CLASS_75</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"></highlight><highlight class="comment">//void<sp/>wgsllh2ecef(const<sp/>Vector3d<sp/>&amp;llh,<sp/>Vector3d<sp/>&amp;ecef);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"></highlight><highlight class="comment">//void<sp/>wgsecef2llh(const<sp/>Vector3d<sp/>&amp;ecef,<sp/>Vector3d<sp/>&amp;llh);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">//#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="comment">//<sp/>constrain<sp/>a<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="_a_p___math_8h_1a08eedb329d8162ddbd344d4f6c8cde20" kindref="member">constrain_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>amt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>low,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>high);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">int16_t<sp/><ref refid="_a_p___math_8h_1ac5d9502aca91c97f523fd9b35590215f" kindref="member">constrain_int16</ref>(int16_t<sp/>amt,<sp/>int16_t<sp/>low,<sp/>int16_t<sp/>high);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">int32_t<sp/><ref refid="_a_p___math_8h_1af85c1f082ddabb5487c6f524d8b538ce" kindref="member">constrain_int32</ref>(int32_t<sp/>amt,<sp/>int32_t<sp/>low,<sp/>int32_t<sp/>high);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="comment">//float<sp/>radians(float<sp/>deg);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="comment">//float<sp/>degrees(float<sp/>rad);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"></highlight><highlight class="comment">//float<sp/>sq(float<sp/>v);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sqrt<sp/>of<sp/>sum<sp/>of<sp/>squares</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8h_1afd3767d48a7b20f6d5220a4f8007af00" kindref="member">pythagorous2</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8h_1ac09c78b18c2ad21b9a04081f119f11c0" kindref="member">pythagorous3</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="comment">//#ifdef<sp/>radians</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//#error<sp/>&quot;Build<sp/>is<sp/>including<sp/>Arduino<sp/>base<sp/>headers&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>following<sp/>three<sp/>functions<sp/>used<sp/>to<sp/>be<sp/>arduino<sp/>core<sp/>macros<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="_a_p___math_8h_1affe776513b24d84b39af8ab0930fef7f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>max(a,b)<sp/>((a)&gt;(b)?(a):(b))</highlight></codeline>
+<codeline lineno="187" refid="_a_p___math_8h_1ac6afabdc09a49a433ee19d8a9486056d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>min(a,b)<sp/>((a)&lt;(b)?(a):(b))</highlight></codeline>
+<codeline lineno="188"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>AP_MATH_H</highlight></codeline>
+<codeline lineno="191"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h"/>
+  </compounddef>
+</doxygen>

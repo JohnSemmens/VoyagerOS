@@ -1,0 +1,1459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_e_m7180_8h" kind="file">
+    <compoundname>EM7180.h</compoundname>
+    <includes refid="_i2_cdev_8h" local="yes">I2Cdev.h</includes>
+    <includes refid="_u_s_f_s__def_8h" local="yes">USFS_def.h</includes>
+    <includedby refid="_u_s_f_s___i_m_u_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h</includedby>
+    <includedby refid="_e_m7180_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.cpp</includedby>
+    <incdepgraph>
+      <node id="270">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h</label>
+        <link refid="EM7180.h"/>
+        <childnode refid="271" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+      </node>
+      <node id="274">
+        <label>Wire.h</label>
+      </node>
+      <node id="273">
+        <label>USFS_config.h</label>
+        <link refid="_u_s_f_s__config_8h"/>
+      </node>
+      <node id="271">
+        <label>I2Cdev.h</label>
+        <link refid="_i2_cdev_8h"/>
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+      <node id="272">
+        <label>USFS_def.h</label>
+        <link refid="_u_s_f_s__def_8h"/>
+        <childnode refid="273" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="277">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="283">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="279">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="276">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h</label>
+        <link refid="_u_s_f_s___i_m_u_8h"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</label>
+        <link refid="_s_d_card_log_file_8cpp"/>
+      </node>
+      <node id="275">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h</label>
+        <link refid="EM7180.h"/>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="281">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="_steering_8cpp"/>
+      </node>
+      <node id="282">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</label>
+        <link refid="_telemetry_logging_8cpp"/>
+      </node>
+      <node id="284">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp</label>
+        <link refid="_u_s_f_s___i_m_u_8cpp"/>
+      </node>
+      <node id="285">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.cpp</label>
+        <link refid="_e_m7180_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structglobal__conf__t" prot="public">global_conf_t</innerclass>
+    <innerclass refid="struct_sentral___w_s__params" prot="public">Sentral_WS_params</innerclass>
+    <innerclass refid="class_e_m7180" prot="public">EM7180</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_e_m7180_8h_1a6acf4b0606f4d98642928dadfe065bdc" prot="public" static="no">
+        <name>EM7180_ADDRESS</name>
+        <initializer>0x28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="36" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a44761e770c42dbf0c74e27bd5ad5a537" compoundref="_e_m7180_8cpp" startline="427" endline="490">EM7180::ACC_Common</referencedby>
+        <referencedby refid="class_e_m7180_1a0e6b9d6d7d1ba47735c2270f699db10f" compoundref="_e_m7180_8cpp" startline="384" endline="401">EM7180::ACC_getADC</referencedby>
+        <referencedby refid="class_e_m7180_1ac062a10fd1d6403fdcc4c2fa0773a33f" compoundref="_e_m7180_8cpp" startline="336" endline="342">EM7180::Baro_getPress</referencedby>
+        <referencedby refid="class_e_m7180_1af727b80b14013f17d644654fdea8358d" compoundref="_e_m7180_8cpp" startline="352" endline="358">EM7180::Baro_getTemp</referencedby>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+        <referencedby refid="_u_s_f_s___i_m_u_8cpp_1a03509f18ae8b224d02f95cacf098c151" compoundref="_u_s_f_s___i_m_u_8cpp" startline="98" endline="107">FetchEventStatus</referencedby>
+        <referencedby refid="class_e_m7180_1ac0af50da5c9b7e8c9805d7f4a95039b9" compoundref="_e_m7180_8cpp" startline="316" endline="326">EM7180::getQUAT</referencedby>
+        <referencedby refid="class_e_m7180_1a4cecd8f839ac9f5d345999498a99d3c7" compoundref="_e_m7180_8cpp" startline="368" endline="374">EM7180::Gyro_getADC</referencedby>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1a9874b0d1f7bb6615f17fea7e74caf8bd" compoundref="_e_m7180_8cpp" startline="411" endline="417">EM7180::LIN_ACC_getADC</referencedby>
+        <referencedby refid="class_e_m7180_1a7d22484ebb5a56c6fb1f9d4000e5e616" compoundref="_e_m7180_8cpp" startline="596" endline="602">EM7180::Mag_getADC</referencedby>
+        <referencedby refid="class_e_m7180_1afff906136f41f83a409e15c6ca4eb027" compoundref="_e_m7180_8cpp" startline="883" endline="901">EM7180::WS_PassThroughMode</referencedby>
+        <referencedby refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" compoundref="_e_m7180_8cpp" startline="911" endline="937">EM7180::WS_Resume</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aedd20d036d0b4e0bfe6246c4d63092cd" prot="public" static="no">
+        <name>EM7180_QX</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="37" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ac0af50da5c9b7e8c9805d7f4a95039b9" compoundref="_e_m7180_8cpp" startline="316" endline="326">EM7180::getQUAT</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a185dbbfca0211af1f301106cef5479b0" prot="public" static="no">
+        <name>EM7180_QY</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="38" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a6f9fb634da07a4c5953a751727f6d9e6" prot="public" static="no">
+        <name>EM7180_QZ</name>
+        <initializer>0x08</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="39" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a0c7fca5d489d2ada8ff6925cce884ec8" prot="public" static="no">
+        <name>EM7180_QW</name>
+        <initializer>0x0C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="40" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1adecef8bc206b2a5061b851485ce8679a" prot="public" static="no">
+        <name>EM7180_QTIME</name>
+        <initializer>0x10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="41" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a6c062eb65f55d8674aac99ba23c299b4" prot="public" static="no">
+        <name>EM7180_MX</name>
+        <initializer>0x12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="42" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a7d22484ebb5a56c6fb1f9d4000e5e616" compoundref="_e_m7180_8cpp" startline="596" endline="602">EM7180::Mag_getADC</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ade7ac75b329e497c2b1d5213bca6169f" prot="public" static="no">
+        <name>EM7180_MY</name>
+        <initializer>0x14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="43" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a2ca41218169b1b9706936e8f8852abde" prot="public" static="no">
+        <name>EM7180_MZ</name>
+        <initializer>0x16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="44" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a4b2f80db1c9e87a1ec2024ae437da05f" prot="public" static="no">
+        <name>EM7180_MTIME</name>
+        <initializer>0x18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="45" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ad11d830c295e70cb48a36bbf6ab907db" prot="public" static="no">
+        <name>EM7180_AX</name>
+        <initializer>0x1A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="46" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a0e6b9d6d7d1ba47735c2270f699db10f" compoundref="_e_m7180_8cpp" startline="384" endline="401">EM7180::ACC_getADC</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aabc1c5d3ca42b84152989072d0ee0979" prot="public" static="no">
+        <name>EM7180_AY</name>
+        <initializer>0x1C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="47" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a5d068ffd938d39cc3608a8824240a343" prot="public" static="no">
+        <name>EM7180_AZ</name>
+        <initializer>0x1E</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="48" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aaefca164c8d8e8c29b3226b28ab51db7" prot="public" static="no">
+        <name>EM7180_ATIME</name>
+        <initializer>0x20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="49" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a5456087452dbf9febe0fc765195c9566" prot="public" static="no">
+        <name>EM7180_GX</name>
+        <initializer>0x22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="50" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a4cecd8f839ac9f5d345999498a99d3c7" compoundref="_e_m7180_8cpp" startline="368" endline="374">EM7180::Gyro_getADC</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1af37fd0d8a74895bdc5cf5f6d1649ed07" prot="public" static="no">
+        <name>EM7180_GY</name>
+        <initializer>0x24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="51" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a4660d8f0df95e95e3bfedaf7b39a5069" prot="public" static="no">
+        <name>EM7180_GZ</name>
+        <initializer>0x26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="52" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1acdd675d1ccbb9876366f68f357c46143" prot="public" static="no">
+        <name>EM7180_GTIME</name>
+        <initializer>0x28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="53" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aad9a487d28e1a5df4bf2cb7655939820" prot="public" static="no">
+        <name>EM7180_Baro</name>
+        <initializer>0x2A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="54" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ac062a10fd1d6403fdcc4c2fa0773a33f" compoundref="_e_m7180_8cpp" startline="336" endline="342">EM7180::Baro_getPress</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a4af7d7cbfd0ba6f07ab6c52f11c76a59" prot="public" static="no">
+        <name>EM7180_BaroTIME</name>
+        <initializer>0x2C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="55" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a6f49b6f96c375018464a5fdc67e30a23" prot="public" static="no">
+        <name>EM7180_Temp</name>
+        <initializer>0x2E</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="56" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1af727b80b14013f17d644654fdea8358d" compoundref="_e_m7180_8cpp" startline="352" endline="358">EM7180::Baro_getTemp</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ab7c83c45d0825d42f0bd3c170d8fe00f" prot="public" static="no">
+        <name>EM7180_TempTIME</name>
+        <initializer>0x30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="57" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a42220312220c363fee0f5f190aac7323" prot="public" static="no">
+        <name>EM7180_QRateDivisor</name>
+        <initializer>0x32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="58" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ae61b632a840ce5e1b3b9262c9ccc9711" prot="public" static="no">
+        <name>EM7180_EnableEvents</name>
+        <initializer>0x33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="59" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a3987beff5b56fd1daf6af2210afd32b3" prot="public" static="no">
+        <name>EM7180_HostControl</name>
+        <initializer>0x34</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="60" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a72c1fe33ee032ea270839b8ee2b6b285" prot="public" static="no">
+        <name>EM7180_EventStatus</name>
+        <initializer>0x35</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="61" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="61" bodyend="-1"/>
+        <referencedby refid="_u_s_f_s___i_m_u_8cpp_1a03509f18ae8b224d02f95cacf098c151" compoundref="_u_s_f_s___i_m_u_8cpp" startline="98" endline="107">FetchEventStatus</referencedby>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" compoundref="_e_m7180_8cpp" startline="911" endline="937">EM7180::WS_Resume</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a72516771cc372fea2c29b13de7629b03" prot="public" static="no">
+        <name>EM7180_SensorStatus</name>
+        <initializer>0x36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="62" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a9f24b45f46882710fb04b8ae643d6589" prot="public" static="no">
+        <name>EM7180_SentralStatus</name>
+        <initializer>0x37</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="63" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aa753f77cc448e6048ca4d1a87f314739" prot="public" static="no">
+        <name>EM7180_AlgorithmStatus</name>
+        <initializer>0x38</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="64" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="64" bodyend="-1"/>
+        <referencedby refid="_u_s_f_s___i_m_u_8cpp_1a03509f18ae8b224d02f95cacf098c151" compoundref="_u_s_f_s___i_m_u_8cpp" startline="98" endline="107">FetchEventStatus</referencedby>
+        <referencedby refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" compoundref="_e_m7180_8cpp" startline="911" endline="937">EM7180::WS_Resume</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a15ea3ebe4fd2dfc05029c2ba34befc1d" prot="public" static="no">
+        <name>EM7180_FeatureFlags</name>
+        <initializer>0x39</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="65" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a88ec8953bec96b99fda4bebd4a841f63" prot="public" static="no">
+        <name>EM7180_ParamAcknowledge</name>
+        <initializer>0x3A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="66" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a8c73d6cc4cd586c97de054604931f8a2" prot="public" static="no">
+        <name>EM7180_SavedParamByte0</name>
+        <initializer>0x3B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="67" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1adc7d0cf3f86a5608e50e0bf1929ef423" prot="public" static="no">
+        <name>EM7180_SavedParamByte1</name>
+        <initializer>0x3C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="68" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a5a142cf795af577233be9f6f52c1131c" prot="public" static="no">
+        <name>EM7180_SavedParamByte2</name>
+        <initializer>0x3D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="69" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a843537469772a63a70273c7d03ac771f" prot="public" static="no">
+        <name>EM7180_SavedParamByte3</name>
+        <initializer>0x3E</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="70" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a80cf70e352f8eebfe8d85e3a65bea170" prot="public" static="no">
+        <name>EM7180_ActualMagRate</name>
+        <initializer>0x45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="71" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aa23902d7a66c878262f858754eb26b7d" prot="public" static="no">
+        <name>EM7180_ActualAccelRate</name>
+        <initializer>0x46</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="72" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ada75ad329013723be75d4bb5116436ac" prot="public" static="no">
+        <name>EM7180_ActualGyroRate</name>
+        <initializer>0x47</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="73" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a56522e25455b8d38186d90840c8ca5a0" prot="public" static="no">
+        <name>EM7180_ErrorRegister</name>
+        <initializer>0x50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="74" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ae8269e85314cd5bcf475d28a16317622" prot="public" static="no">
+        <name>EM7180_AlgorithmControl</name>
+        <initializer>0x54</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="75" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a44761e770c42dbf0c74e27bd5ad5a537" compoundref="_e_m7180_8cpp" startline="427" endline="490">EM7180::ACC_Common</referencedby>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1afff906136f41f83a409e15c6ca4eb027" compoundref="_e_m7180_8cpp" startline="883" endline="901">EM7180::WS_PassThroughMode</referencedby>
+        <referencedby refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" compoundref="_e_m7180_8cpp" startline="911" endline="937">EM7180::WS_Resume</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aa236cb89f38f40b4075186c1c74799ce" prot="public" static="no">
+        <name>EM7180_MagRate</name>
+        <initializer>0x55</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="76" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a9a87b74ebca305c030c95c133bac8652" prot="public" static="no">
+        <name>EM7180_AccelRate</name>
+        <initializer>0x56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="77" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a754874eb7bc9a5a04ba29c629413777b" prot="public" static="no">
+        <name>EM7180_GyroRate</name>
+        <initializer>0x57</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="78" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aa6d3b5c0bc9473de890385d613b08e7f" prot="public" static="no">
+        <name>EM7180_BaroRate</name>
+        <initializer>0x58</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="79" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a51f9be71117863f4fe3e7623f42cbf85" prot="public" static="no">
+        <name>EM7180_TempRate</name>
+        <initializer>0x59</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="80" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a07107a68d6f98e5f844d7a668144e60d" prot="public" static="no">
+        <name>EM7180_LoadParamByte0</name>
+        <initializer>0x60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="81" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a5887bb5d50f5896224f2585045aa0386" prot="public" static="no">
+        <name>EM7180_LoadParamByte1</name>
+        <initializer>0x61</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="82" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ab0387129670f8713f47b01e8eba7e917" prot="public" static="no">
+        <name>EM7180_LoadParamByte2</name>
+        <initializer>0x62</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="83" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a7dfe026a38b267381c5a235d44f901e0" prot="public" static="no">
+        <name>EM7180_LoadParamByte3</name>
+        <initializer>0x63</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="84" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aa964d702d1986278f4e685e5f297d0fa" prot="public" static="no">
+        <name>EM7180_ParamRequest</name>
+        <initializer>0x64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="85" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="85" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" compoundref="_e_m7180_8cpp" startline="733" endline="761">EM7180::EM7180_set_float_param</referencedby>
+        <referencedby refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" compoundref="_e_m7180_8cpp" startline="612" endline="642">EM7180::EM7180_set_gyro_FS</referencedby>
+        <referencedby refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" compoundref="_e_m7180_8cpp" startline="692" endline="723">EM7180::EM7180_set_integer_param</referencedby>
+        <referencedby refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" compoundref="_e_m7180_8cpp" startline="652" endline="682">EM7180::EM7180_set_mag_acc_FS</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a10e4bee5172fb99e7e92fab5c3cb06df" prot="public" static="no">
+        <name>EM7180_ROMVersion1</name>
+        <initializer>0x70</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="86" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a4ed72a646eae43e42ede1a5d106a3e6c" prot="public" static="no">
+        <name>EM7180_ROMVersion2</name>
+        <initializer>0x71</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="87" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ab28f87a472f9523cfd313b3fc2093d25" prot="public" static="no">
+        <name>EM7180_RAMVersion1</name>
+        <initializer>0x72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="88" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a85379643ff44a2326840ae86f9ffe52b" prot="public" static="no">
+        <name>EM7180_RAMVersion2</name>
+        <initializer>0x73</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="89" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ad3a97f559bd74caf0f42cfebf6b776c2" prot="public" static="no">
+        <name>EM7180_ProductID</name>
+        <initializer>0x90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="90" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aebc8a66a212aed99a17b7e28e1901cd8" prot="public" static="no">
+        <name>EM7180_RevisionID</name>
+        <initializer>0x91</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="91" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a8e77e19b32815128d715e59317996070" prot="public" static="no">
+        <name>EM7180_RunStatus</name>
+        <initializer>0x92</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="92" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ad59344eeb0f82d8d4252d52a1c749b8d" prot="public" static="no">
+        <name>EM7180_UploadAddress</name>
+        <initializer>0x94</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="93" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a778802d4f76256604ebc0a5dac256e07" prot="public" static="no">
+        <name>EM7180_UploadData</name>
+        <initializer>0x96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="94" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a57c3940af383ba010297057406226237" prot="public" static="no">
+        <name>EM7180_CRCHost</name>
+        <initializer>0x97</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="95" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a3d5673df98184fd859cd05d3393e6a83" prot="public" static="no">
+        <name>EM7180_ResetRequest</name>
+        <initializer>0x9B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="96" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="96" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a0b1bb4e10b0aeacbad657bb836912d79" prot="public" static="no">
+        <name>EM7180_PassThruStatus</name>
+        <initializer>0x9E</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="97" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="97" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1afff906136f41f83a409e15c6ca4eb027" compoundref="_e_m7180_8cpp" startline="883" endline="901">EM7180::WS_PassThroughMode</referencedby>
+        <referencedby refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" compoundref="_e_m7180_8cpp" startline="911" endline="937">EM7180::WS_Resume</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1af38094d9f5d4571f604c30daec509c20" prot="public" static="no">
+        <name>EM7180_PassThruControl</name>
+        <initializer>0xA0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="98" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="98" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+        <referencedby refid="class_e_m7180_1afff906136f41f83a409e15c6ca4eb027" compoundref="_e_m7180_8cpp" startline="883" endline="901">EM7180::WS_PassThroughMode</referencedby>
+        <referencedby refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" compoundref="_e_m7180_8cpp" startline="911" endline="937">EM7180::WS_Resume</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ab22c1f579175da2df8d10ea90225a3c3" prot="public" static="no">
+        <name>EM7180_ACC_LPF_BW</name>
+        <initializer>0x5B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="99" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="99" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a786594a28890d331e59acace0971fae5" prot="public" static="no">
+        <name>EM7180_GYRO_LPF_BW</name>
+        <initializer>0x5C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="100" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="100" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a556762917540c745f5e1e78d78904cdb" prot="public" static="no">
+        <name>EM7180_MAG_LPF_BW</name>
+        <initializer>0x5D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="101" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="101" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a99d3f53b227c394db2628a94dafaa5c5" prot="public" static="no">
+        <name>EM7180_BARO_LPF_BW</name>
+        <initializer>0x5E</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="102" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="102" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a87ae1c14b435458bcd19b237cddb829c" prot="public" static="no">
+        <name>EM7180_GP8</name>
+        <initializer>0x3F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="103" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="103" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a9874b0d1f7bb6615f17fea7e74caf8bd" compoundref="_e_m7180_8cpp" startline="411" endline="417">EM7180::LIN_ACC_getADC</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aa855375ccce356f2a562faae9824e391" prot="public" static="no">
+        <name>EM7180_GP9</name>
+        <initializer>0x40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="104" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a04e66f0a1347a561b951d8c8e23fe4b9" prot="public" static="no">
+        <name>EM7180_GP10</name>
+        <initializer>0x41</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="105" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aa947732ffbb17551734c3d096eb400e7" prot="public" static="no">
+        <name>EM7180_GP11</name>
+        <initializer>0x42</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="106" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1aed7651e5e5dc37b4affb09a334bcecdb" prot="public" static="no">
+        <name>EM7180_GP12</name>
+        <initializer>0x43</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="107" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a51ab0b66929568070e7f20d4b15f88fc" prot="public" static="no">
+        <name>EM7180_GP13</name>
+        <initializer>0x44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="108" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1afe867fb45a2b63e963de91d672da18a6" prot="public" static="no">
+        <name>EM7180_GP20</name>
+        <initializer>0x4B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="109" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ac0b4615d61527ddddf2583b1d97297c6" prot="public" static="no">
+        <name>EM7180_GP21</name>
+        <initializer>0x4C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="110" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a8821fd30d9f7d5ed402bf1aec84420cf" prot="public" static="no">
+        <name>EM7180_GP22</name>
+        <initializer>0x4D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="111" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a3d6f1afad956547fbeb19beaabb75f90" prot="public" static="no">
+        <name>EM7180_GP23</name>
+        <initializer>0x4E</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="112" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a5dadd7a61b9531fd1d460adfbf63ad1a" prot="public" static="no">
+        <name>EM7180_GP24</name>
+        <initializer>0x4F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="113" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a6a6de4729cb62098d7c2e820628e6fe5" prot="public" static="no">
+        <name>EM7180_GP36</name>
+        <initializer>0x5B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="114" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a8fc23cf06816177714a8203160b7f26c" prot="public" static="no">
+        <name>EM7180_GP37</name>
+        <initializer>0x5C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="115" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ac443a2659370f0aa80cf8d0488f851b7" prot="public" static="no">
+        <name>EM7180_GP38</name>
+        <initializer>0x5D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="116" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="116" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a528b0092b7650c3d59a73ea21778ac2a" prot="public" static="no">
+        <name>EM7180_GP39</name>
+        <initializer>0x5E</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="117" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="117" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a6ed8c5a63af6d6b8bda0f0eed0241616" prot="public" static="no">
+        <name>EM7180_GP40</name>
+        <initializer>0x5F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="118" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ad78e626fcf6c12e3dcbdb729cd401447" prot="public" static="no">
+        <name>EM7180_GP50</name>
+        <initializer>0x69</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="119" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ac599e3d982914e75781ce1213b3c1b35" prot="public" static="no">
+        <name>EM7180_GP51</name>
+        <initializer>0x6A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="120" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="120" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a9179b752a4a6fcb2995fb129855b3d51" prot="public" static="no">
+        <name>EM7180_GP52</name>
+        <initializer>0x6B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="121" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ad811d76cfec448f0878f4b5fa32635fa" prot="public" static="no">
+        <name>EM7180_GP53</name>
+        <initializer>0x6C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="122" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="122" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1a5512b1bbfe162411a1e3a86be8a44acf" prot="public" static="no">
+        <name>EM7180_GP54</name>
+        <initializer>0x6D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="123" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="123" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1ab9ef4ce68fbe21b8861a8b06f499b6ed" prot="public" static="no">
+        <name>EM7180_GP55</name>
+        <initializer>0x6E</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="124" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="124" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_e_m7180_8h_1abd326b7d3c59387757abf1f560a38e56" prot="public" static="no">
+        <name>EM7180_GP56</name>
+        <initializer>0x6F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="125" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="125" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" compoundref="_e_m7180_8cpp" startline="500" endline="586">EM7180::EM7180_acc_cal_upload</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8" prot="public" static="no">
+        <name>axes</name>
+        <enumvalue id="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8ad0611de6f28d4a9c9eac959f5344698e" prot="public">
+          <name>NORTH</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8ab5b3793b961949c817c7c0d99c05dad7" prot="public">
+          <name>EAST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8a9b0b4a95b99523966e0e34ffdadac9da" prot="public">
+          <name>DOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="128" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="127" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2019<sp/>Gregory<sp/>Tomasch.<sp/><sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>deal<sp/>with<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>rights<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>sell<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright<sp/>notice,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimers.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimers<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the<sp/>distribution.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/>3.<sp/>The<sp/>names<sp/>of<sp/>Gregory<sp/>Tomasch<sp/>and<sp/>his<sp/>successors</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>may<sp/>not<sp/>be<sp/>used<sp/>to<sp/>endorse<sp/>or<sp/>promote<sp/>products<sp/>derived<sp/>from<sp/>this<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>without<sp/>specific<sp/>prior<sp/>written<sp/>permission.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>CONTRIBUTORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>WITH<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>EM7180_h</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_h</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_i2_cdev_8h" kindref="compound">I2Cdev.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_u_s_f_s__def_8h" kindref="compound">USFS_def.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>EM7180<sp/>Register<sp/>definitions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_e_m7180_8h_1a6acf4b0606f4d98642928dadfe065bdc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ADDRESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x28</highlight></codeline>
+<codeline lineno="37" refid="_e_m7180_8h_1aedd20d036d0b4e0bfe6246c4d63092cd" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_QX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight></codeline>
+<codeline lineno="38" refid="_e_m7180_8h_1a185dbbfca0211af1f301106cef5479b0" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_QY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04</highlight></codeline>
+<codeline lineno="39" refid="_e_m7180_8h_1a6f9fb634da07a4c5953a751727f6d9e6" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_QZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x08</highlight></codeline>
+<codeline lineno="40" refid="_e_m7180_8h_1a0c7fca5d489d2ada8ff6925cce884ec8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_QW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0C</highlight></codeline>
+<codeline lineno="41" refid="_e_m7180_8h_1adecef8bc206b2a5061b851485ce8679a" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_QTIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x10</highlight></codeline>
+<codeline lineno="42" refid="_e_m7180_8h_1a6c062eb65f55d8674aac99ba23c299b4" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_MX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x12</highlight></codeline>
+<codeline lineno="43" refid="_e_m7180_8h_1ade7ac75b329e497c2b1d5213bca6169f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_MY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x14</highlight></codeline>
+<codeline lineno="44" refid="_e_m7180_8h_1a2ca41218169b1b9706936e8f8852abde" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_MZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x16</highlight></codeline>
+<codeline lineno="45" refid="_e_m7180_8h_1a4b2f80db1c9e87a1ec2024ae437da05f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_MTIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x18</highlight></codeline>
+<codeline lineno="46" refid="_e_m7180_8h_1ad11d830c295e70cb48a36bbf6ab907db" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_AX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1A</highlight></codeline>
+<codeline lineno="47" refid="_e_m7180_8h_1aabc1c5d3ca42b84152989072d0ee0979" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_AY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1C</highlight></codeline>
+<codeline lineno="48" refid="_e_m7180_8h_1a5d068ffd938d39cc3608a8824240a343" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_AZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1E</highlight></codeline>
+<codeline lineno="49" refid="_e_m7180_8h_1aaefca164c8d8e8c29b3226b28ab51db7" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ATIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x20</highlight></codeline>
+<codeline lineno="50" refid="_e_m7180_8h_1a5456087452dbf9febe0fc765195c9566" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x22</highlight></codeline>
+<codeline lineno="51" refid="_e_m7180_8h_1af37fd0d8a74895bdc5cf5f6d1649ed07" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x24</highlight></codeline>
+<codeline lineno="52" refid="_e_m7180_8h_1a4660d8f0df95e95e3bfedaf7b39a5069" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x26</highlight></codeline>
+<codeline lineno="53" refid="_e_m7180_8h_1acdd675d1ccbb9876366f68f357c46143" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GTIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x28</highlight></codeline>
+<codeline lineno="54" refid="_e_m7180_8h_1aad9a487d28e1a5df4bf2cb7655939820" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_Baro<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2A</highlight></codeline>
+<codeline lineno="55" refid="_e_m7180_8h_1a4af7d7cbfd0ba6f07ab6c52f11c76a59" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_BaroTIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2C</highlight></codeline>
+<codeline lineno="56" refid="_e_m7180_8h_1a6f49b6f96c375018464a5fdc67e30a23" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_Temp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2E</highlight></codeline>
+<codeline lineno="57" refid="_e_m7180_8h_1ab7c83c45d0825d42f0bd3c170d8fe00f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_TempTIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x30</highlight></codeline>
+<codeline lineno="58" refid="_e_m7180_8h_1a42220312220c363fee0f5f190aac7323" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_QRateDivisor<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x32</highlight></codeline>
+<codeline lineno="59" refid="_e_m7180_8h_1ae61b632a840ce5e1b3b9262c9ccc9711" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_EnableEvents<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x33</highlight></codeline>
+<codeline lineno="60" refid="_e_m7180_8h_1a3987beff5b56fd1daf6af2210afd32b3" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_HostControl<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x34</highlight></codeline>
+<codeline lineno="61" refid="_e_m7180_8h_1a72c1fe33ee032ea270839b8ee2b6b285" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_EventStatus<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x35</highlight></codeline>
+<codeline lineno="62" refid="_e_m7180_8h_1a72516771cc372fea2c29b13de7629b03" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_SensorStatus<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x36</highlight></codeline>
+<codeline lineno="63" refid="_e_m7180_8h_1a9f24b45f46882710fb04b8ae643d6589" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_SentralStatus<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x37</highlight></codeline>
+<codeline lineno="64" refid="_e_m7180_8h_1aa753f77cc448e6048ca4d1a87f314739" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_AlgorithmStatus<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x38</highlight></codeline>
+<codeline lineno="65" refid="_e_m7180_8h_1a15ea3ebe4fd2dfc05029c2ba34befc1d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_FeatureFlags<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x39</highlight></codeline>
+<codeline lineno="66" refid="_e_m7180_8h_1a88ec8953bec96b99fda4bebd4a841f63" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ParamAcknowledge<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x3A</highlight></codeline>
+<codeline lineno="67" refid="_e_m7180_8h_1a8c73d6cc4cd586c97de054604931f8a2" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_SavedParamByte0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x3B</highlight></codeline>
+<codeline lineno="68" refid="_e_m7180_8h_1adc7d0cf3f86a5608e50e0bf1929ef423" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_SavedParamByte1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x3C</highlight></codeline>
+<codeline lineno="69" refid="_e_m7180_8h_1a5a142cf795af577233be9f6f52c1131c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_SavedParamByte2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x3D</highlight></codeline>
+<codeline lineno="70" refid="_e_m7180_8h_1a843537469772a63a70273c7d03ac771f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_SavedParamByte3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x3E</highlight></codeline>
+<codeline lineno="71" refid="_e_m7180_8h_1a80cf70e352f8eebfe8d85e3a65bea170" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ActualMagRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x45</highlight></codeline>
+<codeline lineno="72" refid="_e_m7180_8h_1aa23902d7a66c878262f858754eb26b7d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ActualAccelRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x46</highlight></codeline>
+<codeline lineno="73" refid="_e_m7180_8h_1ada75ad329013723be75d4bb5116436ac" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ActualGyroRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x47</highlight></codeline>
+<codeline lineno="74" refid="_e_m7180_8h_1a56522e25455b8d38186d90840c8ca5a0" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ErrorRegister<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x50</highlight></codeline>
+<codeline lineno="75" refid="_e_m7180_8h_1ae8269e85314cd5bcf475d28a16317622" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_AlgorithmControl<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x54</highlight></codeline>
+<codeline lineno="76" refid="_e_m7180_8h_1aa236cb89f38f40b4075186c1c74799ce" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_MagRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x55</highlight></codeline>
+<codeline lineno="77" refid="_e_m7180_8h_1a9a87b74ebca305c030c95c133bac8652" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_AccelRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x56</highlight></codeline>
+<codeline lineno="78" refid="_e_m7180_8h_1a754874eb7bc9a5a04ba29c629413777b" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GyroRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x57</highlight></codeline>
+<codeline lineno="79" refid="_e_m7180_8h_1aa6d3b5c0bc9473de890385d613b08e7f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_BaroRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x58</highlight></codeline>
+<codeline lineno="80" refid="_e_m7180_8h_1a51f9be71117863f4fe3e7623f42cbf85" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_TempRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x59</highlight></codeline>
+<codeline lineno="81" refid="_e_m7180_8h_1a07107a68d6f98e5f844d7a668144e60d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_LoadParamByte0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x60</highlight></codeline>
+<codeline lineno="82" refid="_e_m7180_8h_1a5887bb5d50f5896224f2585045aa0386" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_LoadParamByte1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x61</highlight></codeline>
+<codeline lineno="83" refid="_e_m7180_8h_1ab0387129670f8713f47b01e8eba7e917" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_LoadParamByte2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x62</highlight></codeline>
+<codeline lineno="84" refid="_e_m7180_8h_1a7dfe026a38b267381c5a235d44f901e0" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_LoadParamByte3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x63</highlight></codeline>
+<codeline lineno="85" refid="_e_m7180_8h_1aa964d702d1986278f4e685e5f297d0fa" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ParamRequest<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x64</highlight></codeline>
+<codeline lineno="86" refid="_e_m7180_8h_1a10e4bee5172fb99e7e92fab5c3cb06df" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ROMVersion1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x70</highlight></codeline>
+<codeline lineno="87" refid="_e_m7180_8h_1a4ed72a646eae43e42ede1a5d106a3e6c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ROMVersion2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x71</highlight></codeline>
+<codeline lineno="88" refid="_e_m7180_8h_1ab28f87a472f9523cfd313b3fc2093d25" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_RAMVersion1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x72</highlight></codeline>
+<codeline lineno="89" refid="_e_m7180_8h_1a85379643ff44a2326840ae86f9ffe52b" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_RAMVersion2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x73</highlight></codeline>
+<codeline lineno="90" refid="_e_m7180_8h_1ad3a97f559bd74caf0f42cfebf6b776c2" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ProductID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x90</highlight></codeline>
+<codeline lineno="91" refid="_e_m7180_8h_1aebc8a66a212aed99a17b7e28e1901cd8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_RevisionID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x91</highlight></codeline>
+<codeline lineno="92" refid="_e_m7180_8h_1a8e77e19b32815128d715e59317996070" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_RunStatus<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x92</highlight></codeline>
+<codeline lineno="93" refid="_e_m7180_8h_1ad59344eeb0f82d8d4252d52a1c749b8d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_UploadAddress<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x94</highlight></codeline>
+<codeline lineno="94" refid="_e_m7180_8h_1a778802d4f76256604ebc0a5dac256e07" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_UploadData<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x96<sp/><sp/></highlight></codeline>
+<codeline lineno="95" refid="_e_m7180_8h_1a57c3940af383ba010297057406226237" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_CRCHost<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x97</highlight></codeline>
+<codeline lineno="96" refid="_e_m7180_8h_1a3d5673df98184fd859cd05d3393e6a83" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ResetRequest<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x9B<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97" refid="_e_m7180_8h_1a0b1bb4e10b0aeacbad657bb836912d79" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_PassThruStatus<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x9E<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98" refid="_e_m7180_8h_1af38094d9f5d4571f604c30daec509c20" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_PassThruControl<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xA0</highlight></codeline>
+<codeline lineno="99" refid="_e_m7180_8h_1ab22c1f579175da2df8d10ea90225a3c3" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_ACC_LPF_BW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5B<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//Register<sp/>GP36</highlight></codeline>
+<codeline lineno="100" refid="_e_m7180_8h_1a786594a28890d331e59acace0971fae5" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GYRO_LPF_BW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5C<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//Register<sp/>GP37</highlight></codeline>
+<codeline lineno="101" refid="_e_m7180_8h_1a556762917540c745f5e1e78d78904cdb" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_MAG_LPF_BW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5D<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//Register<sp/>GP38</highlight></codeline>
+<codeline lineno="102" refid="_e_m7180_8h_1a99d3f53b227c394db2628a94dafaa5c5" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_BARO_LPF_BW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5E<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//Register<sp/>GP39</highlight></codeline>
+<codeline lineno="103" refid="_e_m7180_8h_1a87ae1c14b435458bcd19b237cddb829c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP8<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x3F</highlight></codeline>
+<codeline lineno="104" refid="_e_m7180_8h_1aa855375ccce356f2a562faae9824e391" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP9<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x40</highlight></codeline>
+<codeline lineno="105" refid="_e_m7180_8h_1a04e66f0a1347a561b951d8c8e23fe4b9" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP10<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x41</highlight></codeline>
+<codeline lineno="106" refid="_e_m7180_8h_1aa947732ffbb17551734c3d096eb400e7" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP11<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x42</highlight></codeline>
+<codeline lineno="107" refid="_e_m7180_8h_1aed7651e5e5dc37b4affb09a334bcecdb" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP12<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x43</highlight></codeline>
+<codeline lineno="108" refid="_e_m7180_8h_1a51ab0b66929568070e7f20d4b15f88fc" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP13<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x44</highlight></codeline>
+<codeline lineno="109" refid="_e_m7180_8h_1afe867fb45a2b63e963de91d672da18a6" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP20<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4B</highlight></codeline>
+<codeline lineno="110" refid="_e_m7180_8h_1ac0b4615d61527ddddf2583b1d97297c6" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP21<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4C</highlight></codeline>
+<codeline lineno="111" refid="_e_m7180_8h_1a8821fd30d9f7d5ed402bf1aec84420cf" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP22<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4D</highlight></codeline>
+<codeline lineno="112" refid="_e_m7180_8h_1a3d6f1afad956547fbeb19beaabb75f90" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP23<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4E</highlight></codeline>
+<codeline lineno="113" refid="_e_m7180_8h_1a5dadd7a61b9531fd1d460adfbf63ad1a" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP24<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4F</highlight></codeline>
+<codeline lineno="114" refid="_e_m7180_8h_1a6a6de4729cb62098d7c2e820628e6fe5" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP36<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5B</highlight></codeline>
+<codeline lineno="115" refid="_e_m7180_8h_1a8fc23cf06816177714a8203160b7f26c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP37<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5C</highlight></codeline>
+<codeline lineno="116" refid="_e_m7180_8h_1ac443a2659370f0aa80cf8d0488f851b7" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP38<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5D</highlight></codeline>
+<codeline lineno="117" refid="_e_m7180_8h_1a528b0092b7650c3d59a73ea21778ac2a" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP39<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5E</highlight></codeline>
+<codeline lineno="118" refid="_e_m7180_8h_1a6ed8c5a63af6d6b8bda0f0eed0241616" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP40<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5F</highlight></codeline>
+<codeline lineno="119" refid="_e_m7180_8h_1ad78e626fcf6c12e3dcbdb729cd401447" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP50<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x69</highlight></codeline>
+<codeline lineno="120" refid="_e_m7180_8h_1ac599e3d982914e75781ce1213b3c1b35" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP51<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x6A</highlight></codeline>
+<codeline lineno="121" refid="_e_m7180_8h_1a9179b752a4a6fcb2995fb129855b3d51" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP52<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x6B</highlight></codeline>
+<codeline lineno="122" refid="_e_m7180_8h_1ad811d76cfec448f0878f4b5fa32635fa" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP53<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x6C</highlight></codeline>
+<codeline lineno="123" refid="_e_m7180_8h_1a5512b1bbfe162411a1e3a86be8a44acf" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP54<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x6D</highlight></codeline>
+<codeline lineno="124" refid="_e_m7180_8h_1ab9ef4ce68fbe21b8861a8b06f499b6ed" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP55<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x6E</highlight></codeline>
+<codeline lineno="125" refid="_e_m7180_8h_1abd326b7d3c59387757abf1f560a38e56" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EM7180_GP56<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x6F</highlight></codeline>
+<codeline lineno="126"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8" kindref="member">axes</ref></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="129" refid="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8ad0611de6f28d4a9c9eac959f5344698e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8ad0611de6f28d4a9c9eac959f5344698e" kindref="member">NORTH</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="130" refid="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8ab5b3793b961949c817c7c0d99c05dad7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8ab5b3793b961949c817c7c0d99c05dad7" kindref="member">EAST</ref>,</highlight></codeline>
+<codeline lineno="131" refid="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8a9b0b4a95b99523966e0e34ffdadac9da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_m7180_8h_1addecde06ced656af71c7c68c4e780fe8a9b0b4a95b99523966e0e34ffdadac9da" kindref="member">DOWN</ref></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="structglobal__conf__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structglobal__conf__t" kindref="compound">global_conf_t</ref></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136" refid="structglobal__conf__t_1a580c9b24f4d23e8e0dba66613c67ce98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="structglobal__conf__t_1a580c9b24f4d23e8e0dba66613c67ce98" kindref="member">accZero_max</ref>[2][3];</highlight></codeline>
+<codeline lineno="137" refid="structglobal__conf__t_1aa24452a5861d21caa9bfc78744e968be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="structglobal__conf__t_1aa24452a5861d21caa9bfc78744e968be" kindref="member">accZero_min</ref>[2][3];</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="struct_sentral___w_s__params" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_sentral___w_s__params" kindref="compound">Sentral_WS_params</ref></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="142" refid="struct_sentral___w_s__params_1a84e7ee45347fb8420f1b74deb5dbb1f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="struct_sentral___w_s__params_1a84e7ee45347fb8420f1b74deb5dbb1f8" kindref="member">Sen_param</ref>[2][35][4];</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>float<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qt[2][4];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QT_Timestamp[2];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gyroADC[2][3],<sp/>acc[2][3],<sp/>accADC[2][3],<sp/>acc_calADC[2][3];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>magADC[2][3];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>accLIN[2][3];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>calibratingA[2];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Accel_Cal_valid[2];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sentral_WS_valid[2];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentTime;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>struct<sp/>Sentral_WS_params<sp/><sp/><sp/><sp/><sp/><sp/><sp/>WS_params;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>global_conf_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>global_conf;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>int64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a_acc[2][3];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>int64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b_acc[2][3];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>float<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gaps;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>float<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mag_var;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>float<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wobble;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>float<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fiterror;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eventStatus[2];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="class_e_m7180" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_e_m7180" kindref="compound">EM7180</ref></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1af583fee47de0b8afd505c94f103f1e63" kindref="member">EM7180</ref>(<ref refid="class_i2_cdev" kindref="compound">I2Cdev</ref>*,<sp/>uint8_t);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a0e6b9d6d7d1ba47735c2270f699db10f" kindref="member">ACC_getADC</ref>();</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a9874b0d1f7bb6615f17fea7e74caf8bd" kindref="member">LIN_ACC_getADC</ref>();</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a44761e770c42dbf0c74e27bd5ad5a537" kindref="member">ACC_Common</ref>();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a7d22484ebb5a56c6fb1f9d4000e5e616" kindref="member">Mag_getADC</ref>();</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a0ff4071aeffd5d74363a7d290b133c55" kindref="member">Save_Sentral_WS_params</ref>();</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a4cecd8f839ac9f5d345999498a99d3c7" kindref="member">Gyro_getADC</ref>();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1ac0af50da5c9b7e8c9805d7f4a95039b9" kindref="member">getQUAT</ref>();</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1ac062a10fd1d6403fdcc4c2fa0773a33f" kindref="member">Baro_getPress</ref>();</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1af727b80b14013f17d644654fdea8358d" kindref="member">Baro_getTemp</ref>();</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" kindref="member">initSensors</ref>();</highlight></codeline>
+<codeline lineno="180" refid="class_e_m7180_1a129349557b6febe9400115765d8b3afa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_i2_cdev" kindref="compound">I2Cdev</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a129349557b6febe9400115765d8b3afa" kindref="member">I2C</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Class<sp/>constructor<sp/>variable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="class_e_m7180_1a84619dde95809e90982eced4e5b532f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a84619dde95809e90982eced4e5b532f2" kindref="member">SensorNum</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Class<sp/>constructor<sp/>variable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a0a6ac5bc8a4ac42a886e8298b71a83db" kindref="member">i2c_getSixRawADC</ref>(uint8_t<sp/>add,<sp/>uint8_t<sp/>reg);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a60b22a681d5069906ac105a456d8cfc3" kindref="member">uint32_reg_to_float</ref><sp/>(uint8_t<sp/>*buf);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a14edb351e986ccb8c663a46c373b186b" kindref="member">float_to_bytes</ref><sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>param_val,<sp/>uint8_t<sp/>*buf);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1acb819353d780ddbeb7f7f482ede0d943" kindref="member">EM7180_set_gyro_FS</ref><sp/>(uint16_t<sp/>gyro_fs);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1ab51a65ee0d0d5565ba7b4f61752a9bdd" kindref="member">EM7180_set_mag_acc_FS</ref><sp/>(uint16_t<sp/>mag_fs,<sp/>uint16_t<sp/>acc_fs);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1aabdbcf48609bfe2e0d1f99c83b8012b2" kindref="member">EM7180_set_integer_param</ref><sp/>(uint8_t<sp/>param,<sp/>uint32_t<sp/>param_val);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1add3860588dfa8bbb9ed1d9c01497b845" kindref="member">EM7180_set_float_param</ref><sp/>(uint8_t<sp/>param,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>param_val);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a16adf668355e0396d0f1e212bca31dbe" kindref="member">EM7180_acc_cal_upload</ref>();</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" kindref="member">EM7180_set_WS_params</ref>();</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" kindref="member">EM7180_get_WS_params</ref>();</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1afff906136f41f83a409e15c6ca4eb027" kindref="member">WS_PassThroughMode</ref>();</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a1142712128e6c3735313b778b0d24db8" kindref="member">WS_Resume</ref>();</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a4d612cbec5feba4d33bca19d94ef1ad1" kindref="member">readSenParams</ref>();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a043f4665f54cf6e36a8584b2f51642a8" kindref="member">writeSenParams</ref>();</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1a4193ed4054715b486c8fd9c48a75d19c" kindref="member">readAccelCal</ref>();</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_e_m7180_1afc13d26aabb1ac8f4d760bbd4cef1612" kindref="member">writeAccCal</ref>();</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>EM7180_h</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h"/>
+  </compounddef>
+</doxygen>

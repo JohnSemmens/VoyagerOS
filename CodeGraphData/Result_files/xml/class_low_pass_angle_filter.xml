@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_low_pass_angle_filter" kind="class" prot="public">
+    <compoundname>LowPassAngleFilter</compoundname>
+    <includes refid="_filters_8h" local="no">Filters.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_low_pass_angle_filter_1ad8d358deabe7b0d149b618ec626fc2c7" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LowPassAngleFilter::last_filtered_value_X</definition>
+        <argsstring></argsstring>
+        <name>last_filtered_value_X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="40" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" compoundref="_filters_8cpp" startline="33" endline="59">Filter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_low_pass_angle_filter_1ae017f99d6e08db4ebdd98183b2134056" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LowPassAngleFilter::last_filtered_value_Y</definition>
+        <argsstring></argsstring>
+        <name>last_filtered_value_Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" compoundref="_filters_8cpp" startline="33" endline="59">Filter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_low_pass_angle_filter_1a6215328ead84e074e5cac3e298656e79" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LowPassAngleFilter::FilterConstant</definition>
+        <argsstring></argsstring>
+        <name>FilterConstant</name>
+        <initializer>= 0.05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="43" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" compoundref="_filters_8cpp" startline="33" endline="59">Filter</referencedby>
+        <referencedby refid="_navigation_8h_1ac461d01ae63da9dcde71b1143e2c2e59" compoundref="_navigation_8cpp" startline="140" endline="149">Navigation_Init</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a48666069fd98cfe87fa2a7d69e2ce413" compoundref="_sailing_navigation_8cpp" startline="32" endline="37">SailingNavigation_Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float LowPassAngleFilter::Filter</definition>
+        <argsstring>(float Input)</argsstring>
+        <name>Filter</name>
+        <param>
+          <type>float</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="44" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.cpp" bodystart="33" bodyend="59"/>
+        <references refid="_misc_8h_1afe93c2c14da376a1621194c15c1de496" compoundref="_misc_8h" startline="18">degrees</references>
+        <references refid="class_low_pass_angle_filter_1a6215328ead84e074e5cac3e298656e79" compoundref="_filters_8h" startline="43">FilterConstant</references>
+        <references refid="class_low_pass_angle_filter_1ad8d358deabe7b0d149b618ec626fc2c7" compoundref="_filters_8h" startline="40">last_filtered_value_X</references>
+        <references refid="class_low_pass_angle_filter_1ae017f99d6e08db4ebdd98183b2134056" compoundref="_filters_8h" startline="41">last_filtered_value_Y</references>
+        <references refid="_misc_8h_1a7571dba2995b9cb57259345fe49d2f97" compoundref="_misc_8h" startline="17">radians</references>
+        <referencedby refid="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" compoundref="_navigation_8cpp" startline="151" endline="171">GetTrueWind</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad68b8bb62dadab1d9014dec7176e9f23" compoundref="_sailing_navigation_8cpp" startline="259" endline="267">UpdateTargetHeading</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="38" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="37" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" prot="public" virt="non-virtual"><scope>LowPassAngleFilter</scope><name>Filter</name></member>
+      <member refid="class_low_pass_angle_filter_1a6215328ead84e074e5cac3e298656e79" prot="public" virt="non-virtual"><scope>LowPassAngleFilter</scope><name>FilterConstant</name></member>
+      <member refid="class_low_pass_angle_filter_1ad8d358deabe7b0d149b618ec626fc2c7" prot="protected" virt="non-virtual"><scope>LowPassAngleFilter</scope><name>last_filtered_value_X</name></member>
+      <member refid="class_low_pass_angle_filter_1ae017f99d6e08db4ebdd98183b2134056" prot="protected" virt="non-virtual"><scope>LowPassAngleFilter</scope><name>last_filtered_value_Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

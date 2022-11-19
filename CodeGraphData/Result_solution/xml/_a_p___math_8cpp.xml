@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_a_p___math_8cpp" kind="file">
+    <compoundname>AP_Math.cpp</compoundname>
+    <includes refid="_a_p___math_8h" local="yes">AP_Math.h</includes>
+    <includes refid="_misc_8h" local="yes">Misc.h</includes>
+    <incdepgraph>
+      <node id="94">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp</label>
+        <link refid="AP_Math.cpp"/>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>vector2.h</label>
+        <link refid="vector2_8h"/>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>stdint.h</label>
+      </node>
+      <node id="98">
+        <label>math.h</label>
+      </node>
+      <node id="95">
+        <label>AP_Math.h</label>
+        <link refid="_a_p___math_8h"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>arduino.h</label>
+      </node>
+      <node id="96">
+        <label>Misc.h</label>
+        <link refid="_misc_8h"/>
+        <childnode refid="97" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_a_p___math_8cpp_1a9d66db22c2b1ed72b8f9579ff7418bed" prot="public" static="no">
+        <name>FAST_ATAN2_PIBY2_FLOAT</name>
+        <initializer>1.5707963f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="42" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="42" bodyend="-1"/>
+        <referencedby refid="_a_p___math_8h_1a4517daadce591a032e98185a7d751b21" compoundref="_a_p___math_8cpp" startline="47" endline="75">fast_atan2</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_a_p___math_8cpp_1a2706fd969ad73bc8ef977d964c04f4a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float safe_asin</definition>
+        <argsstring>(float v)</argsstring>
+        <name>safe_asin</name>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="7" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="7" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8cpp_1a7b812b7e8008b90ab24bcd9c3b0e8e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float safe_sqrt</definition>
+        <argsstring>(float v)</argsstring>
+        <name>safe_sqrt</name>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="26" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="26" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8cpp_1a66461170bc9fb53e349cd07fd360e1d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float fast_atan</definition>
+        <argsstring>(float v)</argsstring>
+        <name>fast_atan</name>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="36" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8cpp_1a4517daadce591a032e98185a7d751b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float fast_atan2</definition>
+        <argsstring>(float y, float x)</argsstring>
+        <name>fast_atan2</name>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="47" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="47" bodyend="75"/>
+        <references refid="_a_p___math_8cpp_1a9d66db22c2b1ed72b8f9579ff7418bed" compoundref="_a_p___math_8cpp" startline="42">FAST_ATAN2_PIBY2_FLOAT</references>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8cpp_1a08eedb329d8162ddbd344d4f6c8cde20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float constrain_float</definition>
+        <argsstring>(float amt, float low, float high)</argsstring>
+        <name>constrain_float</name>
+        <param>
+          <type>float</type>
+          <declname>amt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="80" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="80" bodyend="90"/>
+        <referencedby refid="location_8cpp_1ad2368c582f3e0c135e2a74772f4db61a" compoundref="location_8cpp" startline="38" endline="52">longitude_scale</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8cpp_1ac5d9502aca91c97f523fd9b35590215f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int16_t</type>
+        <definition>int16_t constrain_int16</definition>
+        <argsstring>(int16_t amt, int16_t low, int16_t high)</argsstring>
+        <name>constrain_int16</name>
+        <param>
+          <type>int16_t</type>
+          <declname>amt</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="93" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8cpp_1af85c1f082ddabb5487c6f524d8b538ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t constrain_int32</definition>
+        <argsstring>(int32_t amt, int32_t low, int32_t high)</argsstring>
+        <name>constrain_int32</name>
+        <param>
+          <type>int32_t</type>
+          <declname>amt</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="98" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8cpp_1afd3767d48a7b20f6d5220a4f8007af00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float pythagorous2</definition>
+        <argsstring>(float a, float b)</argsstring>
+        <name>pythagorous2</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="118" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="118" bodyend="120"/>
+        <references refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" compoundref="_misc_8h" startline="19">sq</references>
+        <referencedby refid="location_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</referencedby>
+        <referencedby refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" compoundref="vector2_8cpp" startline="24" endline="27">Vector2&lt; T &gt;::length</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_a_p___math_8cpp_1ac09c78b18c2ad21b9a04081f119f11c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float pythagorous3</definition>
+        <argsstring>(float a, float b, float c)</argsstring>
+        <name>pythagorous3</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" line="123" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp" bodystart="123" bodyend="125"/>
+        <references refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" compoundref="_misc_8h" startline="19">sq</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_a_p___math_8h" kindref="compound">AP_Math.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_misc_8h" kindref="compound">Misc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>varient<sp/>of<sp/>asin()<sp/>that<sp/>checks<sp/>the<sp/>input<sp/>ranges<sp/>and<sp/>ensures<sp/>a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>valid<sp/>angle<sp/>as<sp/>output.<sp/>If<sp/>nan<sp/>is<sp/>given<sp/>as<sp/>input<sp/>then<sp/>zero<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returned.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="_a_p___math_8h_1a2706fd969ad73bc8ef977d964c04f4a3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8cpp_1a2706fd969ad73bc8ef977d964c04f4a3" kindref="member">safe_asin</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isnan(v))<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v<sp/>&gt;=<sp/>1.0f)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PI/2;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v<sp/>&lt;=<sp/>-1.0f)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-PI/2;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>asinf(v);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>varient<sp/>of<sp/>sqrt()<sp/>that<sp/>checks<sp/>the<sp/>input<sp/>ranges<sp/>and<sp/>ensures<sp/>a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>valid<sp/>value<sp/>as<sp/>output.<sp/>If<sp/>a<sp/>negative<sp/>number<sp/>is<sp/>given<sp/>then<sp/>0<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returned.<sp/>The<sp/>reasoning<sp/>is<sp/>that<sp/>a<sp/>negative<sp/>number<sp/>for<sp/>sqrt()<sp/>in<sp/>our</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>code<sp/>is<sp/>usually<sp/>caused<sp/>by<sp/>small<sp/>numerical<sp/>rounding<sp/>errors,<sp/>so<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>real<sp/>input<sp/>should<sp/>have<sp/>been<sp/>zero</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_a_p___math_8h_1a7b812b7e8008b90ab24bcd9c3b0e8e3b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8cpp_1a7b812b7e8008b90ab24bcd9c3b0e8e3b" kindref="member">safe_sqrt</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/>sqrtf(v);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isnan(ret))<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>faster<sp/>varient<sp/>of<sp/>atan.<sp/><sp/>accurate<sp/>to<sp/>6<sp/>decimal<sp/>places<sp/>for<sp/>values<sp/>between<sp/>-1<sp/>~<sp/>1<sp/>but<sp/>then<sp/>diverges<sp/>quickly</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_a_p___math_8h_1a66461170bc9fb53e349cd07fd360e1d9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8cpp_1a66461170bc9fb53e349cd07fd360e1d9" kindref="member">fast_atan</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v2<sp/>=<sp/>v*v;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(v*(1.6867629106f<sp/>+<sp/>v2*0.4378497304f)/(1.6867633134f<sp/>+<sp/>v2));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="_a_p___math_8cpp_1a9d66db22c2b1ed72b8f9579ff7418bed" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FAST_ATAN2_PIBY2_FLOAT<sp/><sp/>1.5707963f</highlight></codeline>
+<codeline lineno="43"><highlight class="preprocessor"></highlight><highlight class="comment">//<sp/>fast_atan2<sp/>-<sp/>faster<sp/>version<sp/>of<sp/>atan2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>126<sp/>us<sp/>on<sp/>AVR<sp/>cpu<sp/>vs<sp/>199<sp/>for<sp/>regular<sp/>atan2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>absolute<sp/>error<sp/>is<sp/>&lt;<sp/>0.005<sp/>radians<sp/>or<sp/>0.28<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>origin<sp/>source:<sp/>https://gist.github.com/volkansalma/2972237/raw/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="_a_p___math_8h_1a4517daadce591a032e98185a7d751b21" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8cpp_1a4517daadce591a032e98185a7d751b21" kindref="member">fast_atan2</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>==<sp/>0.0f)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>&gt;<sp/>0.0f)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8cpp_1a9d66db22c2b1ed72b8f9579ff7418bed" kindref="member">FAST_ATAN2_PIBY2_FLOAT</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>==<sp/>0.0f)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0f;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-<ref refid="_a_p___math_8cpp_1a9d66db22c2b1ed72b8f9579ff7418bed" kindref="member">FAST_ATAN2_PIBY2_FLOAT</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>atan;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z<sp/>=<sp/>y/x;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fabs(<sp/>z<sp/>)<sp/>&lt;<sp/>1.0f)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>atan<sp/>=<sp/>z<sp/>/<sp/>(1.0f<sp/>+<sp/>0.28f<sp/>*<sp/>z<sp/>*<sp/>z);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>&lt;<sp/>0.0f)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>&lt;<sp/>0.0f)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atan<sp/>-<sp/>PI;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atan<sp/>+<sp/>PI;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>atan<sp/>=<sp/><ref refid="_a_p___math_8cpp_1a9d66db22c2b1ed72b8f9579ff7418bed" kindref="member">FAST_ATAN2_PIBY2_FLOAT</ref><sp/>-<sp/>(z<sp/>/<sp/>(z<sp/>*<sp/>z<sp/>+<sp/>0.28f));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>&lt;<sp/>0.0f)<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atan<sp/>-<sp/>PI;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atan;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>constrain<sp/>a<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="_a_p___math_8h_1a08eedb329d8162ddbd344d4f6c8cde20" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8cpp_1a08eedb329d8162ddbd344d4f6c8cde20" kindref="member">constrain_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>amt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>low,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>high)<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>check<sp/>for<sp/>NaN<sp/>as<sp/>a<sp/>float<sp/>prevents<sp/>propogation<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>floating<sp/>point<sp/>errors<sp/>through<sp/>any<sp/>function<sp/>that<sp/>uses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>constrain_float().<sp/>The<sp/>normal<sp/>float<sp/>semantics<sp/>already<sp/>handle<sp/>-Inf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>+Inf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isnan(amt))<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(low+high)*0.5f;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((amt)&lt;(low)?(low):((amt)&gt;(high)?(high):(amt)));</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>constrain<sp/>a<sp/>int16_t<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="_a_p___math_8h_1ac5d9502aca91c97f523fd9b35590215f" refkind="member"><highlight class="normal">int16_t<sp/><ref refid="_a_p___math_8cpp_1ac5d9502aca91c97f523fd9b35590215f" kindref="member">constrain_int16</ref>(int16_t<sp/>amt,<sp/>int16_t<sp/>low,<sp/>int16_t<sp/>high)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((amt)&lt;(low)?(low):((amt)&gt;(high)?(high):(amt)));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>constrain<sp/>a<sp/>int32_t<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="_a_p___math_8h_1af85c1f082ddabb5487c6f524d8b538ce" refkind="member"><highlight class="normal">int32_t<sp/><ref refid="_a_p___math_8cpp_1af85c1f082ddabb5487c6f524d8b538ce" kindref="member">constrain_int32</ref>(int32_t<sp/>amt,<sp/>int32_t<sp/>low,<sp/>int32_t<sp/>high)<sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((amt)&lt;(low)?(low):((amt)&gt;(high)?(high):(amt)));</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="comment">//float<sp/>radians(float<sp/>deg)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>deg<sp/>*<sp/>DEG_TO_RAD;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="comment">//float<sp/>degrees(float<sp/>rad)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>rad<sp/>*<sp/>RAD_TO_DEG;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"></highlight><highlight class="comment">//float<sp/>sq(float<sp/>v)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>v*v;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2D<sp/>vector<sp/>length</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="_a_p___math_8h_1afd3767d48a7b20f6d5220a4f8007af00" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8cpp_1afd3767d48a7b20f6d5220a4f8007af00" kindref="member">pythagorous2</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrtf(<ref refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" kindref="member">sq</ref>(a)+<ref refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" kindref="member">sq</ref>(b));</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="comment">//<sp/>3D<sp/>vector<sp/>length</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="_a_p___math_8h_1ac09c78b18c2ad21b9a04081f119f11c0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_a_p___math_8cpp_1ac09c78b18c2ad21b9a04081f119f11c0" kindref="member">pythagorous3</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>c)<sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrtf(<ref refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" kindref="member">sq</ref>(a)+<ref refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" kindref="member">sq</ref>(b)+<ref refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" kindref="member">sq</ref>(c));</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp"/>
+  </compounddef>
+</doxygen>

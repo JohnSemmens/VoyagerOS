@@ -1,0 +1,672 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_adafruit___i_n_a219_8h" kind="file">
+    <compoundname>Adafruit_INA219.h</compoundname>
+    <includes local="yes">Arduino.h</includes>
+    <includes local="no">Wire.h</includes>
+    <includedby refid="_adafruit___i_n_a219_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.cpp</includedby>
+    <includedby refid="_v_i___measurement_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp</includedby>
+    <incdepgraph>
+      <node id="24">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h</label>
+        <link refid="Adafruit_INA219.h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Wire.h</label>
+      </node>
+      <node id="25">
+        <label>Arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="27">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h</label>
+        <link refid="Adafruit_INA219.h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.cpp</label>
+        <link refid="_adafruit___i_n_a219_8cpp"/>
+      </node>
+      <node id="29">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp</label>
+        <link refid="_v_i___measurement_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_adafruit___i_n_a219" prot="public">Adafruit_INA219</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1a01099281ea98bb6c1aab825f05d9818c" prot="public" static="no">
+        <name>INA219_ADDRESS</name>
+        <initializer>(0x40)</initializer>
+        <briefdescription>
+<para>default I2C address </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="33" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1acf1557fd16ff50351f795b87a9d4cddf" prot="public" static="no">
+        <name>INA219_READ</name>
+        <initializer>(0x01)</initializer>
+        <briefdescription>
+<para>read </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="40" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1aab641248471a0f356b9ff6329bcd8084" prot="public" static="no">
+        <name>INA219_REG_CONFIG</name>
+        <initializer>(0x00)</initializer>
+        <briefdescription>
+<para>config register address </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="51" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_adafruit___i_n_a219_1acd5cd9cfadae71308c0d0238d3dfce82" compoundref="_adafruit___i_n_a219_8cpp" startline="276" endline="358">Adafruit_INA219::setCalibration_16V_400mA</referencedby>
+        <referencedby refid="class_adafruit___i_n_a219_1a79542a9167af094f9af7218f063e6297" compoundref="_adafruit___i_n_a219_8cpp" startline="186" endline="267">Adafruit_INA219::setCalibration_32V_1A</referencedby>
+        <referencedby refid="class_adafruit___i_n_a219_1ac4cebcfad06a740904c894c964335de3" compoundref="_adafruit___i_n_a219_8cpp" startline="95" endline="174">Adafruit_INA219::setCalibration_32V_2A</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1a2f369100185ff9e3855dcab0eee318ad" prot="public" static="no">
+        <name>INA219_CONFIG_RESET</name>
+        <initializer>(0x8000)</initializer>
+        <briefdescription>
+<para>reset bit </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="59" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1a9cee115fade153b8c7ffd6e26c18ecd7" prot="public" static="no">
+        <name>INA219_CONFIG_BVOLTAGERANGE_MASK</name>
+        <initializer>(0x2000)</initializer>
+        <briefdescription>
+<para>mask for bus voltage range </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="66" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1a5bf05963e83908f3345438959694a0ba" prot="public" static="no">
+        <name>INA219_CONFIG_GAIN_MASK</name>
+        <initializer>(0x1800)</initializer>
+        <briefdescription>
+<para>mask for gain bits </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="83" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1ad4b5799502981d36922ce087aa5b96c9" prot="public" static="no">
+        <name>INA219_CONFIG_BADCRES_MASK</name>
+        <initializer>(0x0780)</initializer>
+        <briefdescription>
+<para>mask for bus ADC resolution bits </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="102" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1ad66384c679c835a2ab915fc50db2ed78" prot="public" static="no">
+        <name>INA219_CONFIG_SADCRES_MASK</name>
+        <initializer>(0x0078)</initializer>
+        <briefdescription>
+<para>mask for shunt ADC resolution bits </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="121" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1aa4a8474dd10779fd9915d2eaa7df77e8" prot="public" static="no">
+        <name>INA219_CONFIG_MODE_MASK</name>
+        <initializer>(0x0007)</initializer>
+        <briefdescription>
+<para>mask for operating mode bits </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="147" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1a99de9caaed1cbc48b2ecfe4b6c5ef59d" prot="public" static="no">
+        <name>INA219_REG_SHUNTVOLTAGE</name>
+        <initializer>(0x01)</initializer>
+        <briefdescription>
+<para>shunt voltage register </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="171" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="171" bodyend="-1"/>
+        <referencedby refid="class_adafruit___i_n_a219_1a310cd1c6c9dfb1779f7666fd3be40995" compoundref="_adafruit___i_n_a219_8cpp" startline="424" endline="428">Adafruit_INA219::getShuntVoltage_raw</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1a06987d28f8a8885f7d1f6a10d0ec6b3b" prot="public" static="no">
+        <name>INA219_REG_BUSVOLTAGE</name>
+        <initializer>(0x02)</initializer>
+        <briefdescription>
+<para>bus voltage register </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="179" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="179" bodyend="-1"/>
+        <referencedby refid="class_adafruit___i_n_a219_1ae87fad622892108323de740bf9871345" compoundref="_adafruit___i_n_a219_8cpp" startline="410" endline="416">Adafruit_INA219::getBusVoltage_raw</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1add277c6e0a9783de517e8a2ee2cdad86" prot="public" static="no">
+        <name>INA219_REG_POWER</name>
+        <initializer>(0x03)</initializer>
+        <briefdescription>
+<para>power register </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="187" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="187" bodyend="-1"/>
+        <referencedby refid="class_adafruit___i_n_a219_1a2d6ac8868128b3675e82511cf6e68ddb" compoundref="_adafruit___i_n_a219_8cpp" startline="457" endline="470">Adafruit_INA219::getPower_raw</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1aee975d7ad192f4eadf01b6d96c1a7c50" prot="public" static="no">
+        <name>INA219_REG_CURRENT</name>
+        <initializer>(0x04)</initializer>
+        <briefdescription>
+<para>current register </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="195" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="195" bodyend="-1"/>
+        <referencedby refid="class_adafruit___i_n_a219_1ad82ea6b55e59ba5c77d68ed2d334c8cd" compoundref="_adafruit___i_n_a219_8cpp" startline="436" endline="449">Adafruit_INA219::getCurrent_raw</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_adafruit___i_n_a219_8h_1a7ec015caf45bb013e8858a6e53e47e3c" prot="public" static="no">
+        <name>INA219_REG_CALIBRATION</name>
+        <initializer>(0x05)</initializer>
+        <briefdescription>
+<para>calibration register </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="203" column="13" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="203" bodyend="-1"/>
+        <referencedby refid="class_adafruit___i_n_a219_1ad82ea6b55e59ba5c77d68ed2d334c8cd" compoundref="_adafruit___i_n_a219_8cpp" startline="436" endline="449">Adafruit_INA219::getCurrent_raw</referencedby>
+        <referencedby refid="class_adafruit___i_n_a219_1a2d6ac8868128b3675e82511cf6e68ddb" compoundref="_adafruit___i_n_a219_8cpp" startline="457" endline="470">Adafruit_INA219::getPower_raw</referencedby>
+        <referencedby refid="class_adafruit___i_n_a219_1acd5cd9cfadae71308c0d0238d3dfce82" compoundref="_adafruit___i_n_a219_8cpp" startline="276" endline="358">Adafruit_INA219::setCalibration_16V_400mA</referencedby>
+        <referencedby refid="class_adafruit___i_n_a219_1a79542a9167af094f9af7218f063e6297" compoundref="_adafruit___i_n_a219_8cpp" startline="186" endline="267">Adafruit_INA219::setCalibration_32V_1A</referencedby>
+        <referencedby refid="class_adafruit___i_n_a219_1ac4cebcfad06a740904c894c964335de3" compoundref="_adafruit___i_n_a219_8cpp" startline="95" endline="174">Adafruit_INA219::setCalibration_32V_2A</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_adafruit___i_n_a219_8h_1a06fc87d81c62e9abb8790b6e5713c55b" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="_adafruit___i_n_a219_8h_1a06fc87d81c62e9abb8790b6e5713c55ba47bec1b1d8dfac9f085ad216d69ee543" prot="public">
+          <name>INA219_CONFIG_BVOLTAGERANGE_16V</name>
+          <initializer>=        (0x0000)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1a06fc87d81c62e9abb8790b6e5713c55bab20c7ae47f3ede16f6128f286e2d8086" prot="public">
+          <name>INA219_CONFIG_BVOLTAGERANGE_32V</name>
+          <initializer>=        (0x2000)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>bus voltage range values </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="73" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="enum" id="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7" prot="public" static="no">
+        <name>@1</name>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a622ed0d4ded4ab5df0e8af886c59c887" prot="public">
+          <name>INA219_CONFIG_GAIN_1_40MV</name>
+          <initializer>=       (0x0000)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a910f7911fa271f9a1bb6f53dd69ff365" prot="public">
+          <name>INA219_CONFIG_GAIN_2_80MV</name>
+          <initializer>=       (0x0800)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a9c6ec49a84975fcc68682ba00e979cf7" prot="public">
+          <name>INA219_CONFIG_GAIN_4_160MV</name>
+          <initializer>=       (0x1000)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a645e60f95ce68465239204782238255b" prot="public">
+          <name>INA219_CONFIG_GAIN_8_320MV</name>
+          <initializer>=       (0x1800)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>values for gain bits </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="90" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="90" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="enum" id="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5" prot="public" static="no">
+        <name>@2</name>
+        <enumvalue id="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a60295e231689fb2a30e1338f46387297" prot="public">
+          <name>INA219_CONFIG_BADCRES_9BIT</name>
+          <initializer>=       (0x0000)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5aa7c356742a240f5f2cf0ff8473696543" prot="public">
+          <name>INA219_CONFIG_BADCRES_10BIT</name>
+          <initializer>=       (0x0080)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a848597d2cd270f351674a2c7c8c37d88" prot="public">
+          <name>INA219_CONFIG_BADCRES_11BIT</name>
+          <initializer>=       (0x0100)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a71661dee7559a49fd1e8d040f9f37f37" prot="public">
+          <name>INA219_CONFIG_BADCRES_12BIT</name>
+          <initializer>=      (0x0180)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>values for bus ADC resolution </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="109" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="109" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="enum" id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04" prot="public" static="no">
+        <name>@3</name>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04addc0717802747ff5a1ff418fb8bfcad5" prot="public">
+          <name>INA219_CONFIG_SADCRES_9BIT_1S_84US</name>
+          <initializer>= (0x0000)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a8df345cf5d82ce7b3d96fabf3dee61a0" prot="public">
+          <name>INA219_CONFIG_SADCRES_10BIT_1S_148US</name>
+          <initializer>= (0x0008)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a9d8c8a1cf04492d4034bc86c281b7e62" prot="public">
+          <name>INA219_CONFIG_SADCRES_11BIT_1S_276US</name>
+          <initializer>= (0x0010)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04affd7f9d20593ebce3ae501ba8bfbad16" prot="public">
+          <name>INA219_CONFIG_SADCRES_12BIT_1S_532US</name>
+          <initializer>= (0x0018)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04affeca6f425df6c2a51e4de191e2e8795" prot="public">
+          <name>INA219_CONFIG_SADCRES_12BIT_2S_1060US</name>
+          <initializer>= (0x0048)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a17d41a7b39eb5969b38808f2527abba6" prot="public">
+          <name>INA219_CONFIG_SADCRES_12BIT_4S_2130US</name>
+          <initializer>= (0x0050)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04acbf87c0a00a39d443bdbd85fc926c702" prot="public">
+          <name>INA219_CONFIG_SADCRES_12BIT_8S_4260US</name>
+          <initializer>= (0x0058)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a183b187f1979ec1ccc1772f28c90f88f" prot="public">
+          <name>INA219_CONFIG_SADCRES_12BIT_16S_8510US</name>
+          <initializer>= (0x0060)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04aaf816d1cd13cc08b15a064893aa62086" prot="public">
+          <name>INA219_CONFIG_SADCRES_12BIT_32S_17MS</name>
+          <initializer>= (0x0068)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a1b2e043d00cfcbe977013dfbb1f8dfe0" prot="public">
+          <name>INA219_CONFIG_SADCRES_12BIT_64S_34MS</name>
+          <initializer>= (0x0070)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a2e2c270a6ef3adb1526dff7e174c7cac" prot="public">
+          <name>INA219_CONFIG_SADCRES_12BIT_128S_69MS</name>
+          <initializer>=  (0x0078)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>values for shunt ADC resolution </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="128" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="128" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="enum" id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06c" prot="public" static="no">
+        <name>@4</name>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca1f5f29068fe2a2980d0a4cfc8a614c97" prot="public">
+          <name>INA219_CONFIG_MODE_POWERDOWN</name>
+          <initializer>=  (0x0000)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06cabe0270ac8939b8775a1c00e2f50884b9" prot="public">
+          <name>INA219_CONFIG_MODE_SVOLT_TRIGGERED</name>
+          <initializer>=  (0x0001)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca2c8f73200a3c96539a2b479dde4f3fad" prot="public">
+          <name>INA219_CONFIG_MODE_BVOLT_TRIGGERED</name>
+          <initializer>=  (0x0002)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca0b62928f9890e1432083ef8691a99c2f" prot="public">
+          <name>INA219_CONFIG_MODE_SANDBVOLT_TRIGGERED</name>
+          <initializer>= (0x0003)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06caa3c51bd7eef043176d518333e74d6320" prot="public">
+          <name>INA219_CONFIG_MODE_ADCOFF</name>
+          <initializer>=  (0x0004)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06caa6d08de01dce593c5763840628cdd13a" prot="public">
+          <name>INA219_CONFIG_MODE_SVOLT_CONTINUOUS</name>
+          <initializer>=  (0x0005)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca91f91cad564c431b19a1049fa90e03ce" prot="public">
+          <name>INA219_CONFIG_MODE_BVOLT_CONTINUOUS</name>
+          <initializer>=  (0x0006)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca0f7eed7cbc299025ea62ddb8fb1abac4" prot="public">
+          <name>INA219_CONFIG_MODE_SANDBVOLT_CONTINUOUS</name>
+          <initializer>= (0x0007)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>values for operating mode </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" line="154" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h" bodystart="154" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a library for the Adafruit INA219 breakout board -<mdash/>&gt; <ulink url="https://www.adafruit.com/products/904">https://www.adafruit.com/products/904</ulink></para><para>Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!</para><para>Written by Kevin &quot;KTOWN&quot; Townsend for Adafruit Industries.</para><para>BSD license, all text here must be included in any redistribution. </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="17"><highlight class="preprocessor">#ifndef<sp/>_LIB_ADAFRUIT_INA219_</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_LIB_ADAFRUIT_INA219_</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Wire.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="_adafruit___i_n_a219_8h_1a01099281ea98bb6c1aab825f05d9818c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_ADDRESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x40)<sp/><sp/><sp/><sp/>//<sp/>1000000<sp/>(A0+A1=GND)</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_adafruit___i_n_a219_8h_1acf1557fd16ff50351f795b87a9d4cddf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_READ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x01)</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*=========================================================================</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/>CONFIG<sp/>REGISTER<sp/>(R/W)</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/>-----------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="_adafruit___i_n_a219_8h_1aab641248471a0f356b9ff6329bcd8084" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_REG_CONFIG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x00)</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*---------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="58"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_adafruit___i_n_a219_8h_1a2f369100185ff9e3855dcab0eee318ad" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_CONFIG_RESET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x8000)<sp/><sp/>//<sp/>Reset<sp/>Bit</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="65"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="_adafruit___i_n_a219_8h_1a9cee115fade153b8c7ffd6e26c18ecd7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_CONFIG_BVOLTAGERANGE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x2000)<sp/><sp/>//<sp/>Bus<sp/>Voltage<sp/>Range<sp/>Mask</highlight></codeline>
+<codeline lineno="67"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74" refid="_adafruit___i_n_a219_8h_1a06fc87d81c62e9abb8790b6e5713c55ba47bec1b1d8dfac9f085ad216d69ee543" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1a06fc87d81c62e9abb8790b6e5713c55ba47bec1b1d8dfac9f085ad216d69ee543" kindref="member">INA219_CONFIG_BVOLTAGERANGE_16V</ref><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0000),<sp/><sp/></highlight><highlight class="comment">//<sp/>0-16V<sp/>Range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="_adafruit___i_n_a219_8h_1a06fc87d81c62e9abb8790b6e5713c55bab20c7ae47f3ede16f6128f286e2d8086" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1a06fc87d81c62e9abb8790b6e5713c55bab20c7ae47f3ede16f6128f286e2d8086" kindref="member">INA219_CONFIG_BVOLTAGERANGE_32V</ref><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x2000),<sp/><sp/></highlight><highlight class="comment">//<sp/>0-32V<sp/>Range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="82"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="_adafruit___i_n_a219_8h_1a5bf05963e83908f3345438959694a0ba" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_CONFIG_GAIN_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x1800)<sp/><sp/>//<sp/>Gain<sp/>Mask</highlight></codeline>
+<codeline lineno="84"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="89"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91" refid="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a622ed0d4ded4ab5df0e8af886c59c887" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a622ed0d4ded4ab5df0e8af886c59c887" kindref="member">INA219_CONFIG_GAIN_1_40MV</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0000),<sp/><sp/></highlight><highlight class="comment">//<sp/>Gain<sp/>1,<sp/>40mV<sp/>Range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a910f7911fa271f9a1bb6f53dd69ff365" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a910f7911fa271f9a1bb6f53dd69ff365" kindref="member">INA219_CONFIG_GAIN_2_80MV</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0800),<sp/><sp/></highlight><highlight class="comment">//<sp/>Gain<sp/>2,<sp/>80mV<sp/>Range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a9c6ec49a84975fcc68682ba00e979cf7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a9c6ec49a84975fcc68682ba00e979cf7" kindref="member">INA219_CONFIG_GAIN_4_160MV</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x1000),<sp/><sp/></highlight><highlight class="comment">//<sp/>Gain<sp/>4,<sp/>160mV<sp/>Range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a645e60f95ce68465239204782238255b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adf764cbdea00d65edcd07bb9953ad2b7a645e60f95ce68465239204782238255b" kindref="member">INA219_CONFIG_GAIN_8_320MV</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x1800),<sp/><sp/></highlight><highlight class="comment">//<sp/>Gain<sp/>8,<sp/>320mV<sp/>Range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="101"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="_adafruit___i_n_a219_8h_1ad4b5799502981d36922ce087aa5b96c9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_CONFIG_BADCRES_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0780)<sp/><sp/>//<sp/>Bus<sp/>ADC<sp/>Resolution<sp/>Mask</highlight></codeline>
+<codeline lineno="103"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="108"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="110" refid="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a60295e231689fb2a30e1338f46387297" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a60295e231689fb2a30e1338f46387297" kindref="member">INA219_CONFIG_BADCRES_9BIT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0000),<sp/><sp/></highlight><highlight class="comment">//<sp/>9-bit<sp/>bus<sp/>res<sp/>=<sp/>0..511</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5aa7c356742a240f5f2cf0ff8473696543" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5aa7c356742a240f5f2cf0ff8473696543" kindref="member">INA219_CONFIG_BADCRES_10BIT</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0080),<sp/><sp/></highlight><highlight class="comment">//<sp/>10-bit<sp/>bus<sp/>res<sp/>=<sp/>0..1023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a848597d2cd270f351674a2c7c8c37d88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a848597d2cd270f351674a2c7c8c37d88" kindref="member">INA219_CONFIG_BADCRES_11BIT</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0100),<sp/><sp/></highlight><highlight class="comment">//<sp/>11-bit<sp/>bus<sp/>res<sp/>=<sp/>0..2047</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a71661dee7559a49fd1e8d040f9f37f37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1a99fb83031ce9923c84392b4e92f956b5a71661dee7559a49fd1e8d040f9f37f37" kindref="member">INA219_CONFIG_BADCRES_12BIT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/>(0x0180),<sp/><sp/></highlight><highlight class="comment">//<sp/>12-bit<sp/>bus<sp/>res<sp/>=<sp/>0..4097</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="120"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="_adafruit___i_n_a219_8h_1ad66384c679c835a2ab915fc50db2ed78" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_CONFIG_SADCRES_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0078)<sp/><sp/>//<sp/>Shunt<sp/>ADC<sp/>Resolution<sp/>and<sp/>Averaging<sp/>Mask</highlight></codeline>
+<codeline lineno="122"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="127"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="129" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04addc0717802747ff5a1ff418fb8bfcad5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04addc0717802747ff5a1ff418fb8bfcad5" kindref="member">INA219_CONFIG_SADCRES_9BIT_1S_84US</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>(0x0000),<sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>x<sp/>9-bit<sp/>shunt<sp/>sample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a8df345cf5d82ce7b3d96fabf3dee61a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a8df345cf5d82ce7b3d96fabf3dee61a0" kindref="member">INA219_CONFIG_SADCRES_10BIT_1S_148US</ref><sp/><sp/><sp/>=<sp/>(0x0008),<sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>x<sp/>10-bit<sp/>shunt<sp/>sample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a9d8c8a1cf04492d4034bc86c281b7e62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a9d8c8a1cf04492d4034bc86c281b7e62" kindref="member">INA219_CONFIG_SADCRES_11BIT_1S_276US</ref><sp/><sp/><sp/>=<sp/>(0x0010),<sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>x<sp/>11-bit<sp/>shunt<sp/>sample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04affd7f9d20593ebce3ae501ba8bfbad16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04affd7f9d20593ebce3ae501ba8bfbad16" kindref="member">INA219_CONFIG_SADCRES_12BIT_1S_532US</ref><sp/><sp/><sp/>=<sp/>(0x0018),<sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>x<sp/>12-bit<sp/>shunt<sp/>sample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04affeca6f425df6c2a51e4de191e2e8795" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04affeca6f425df6c2a51e4de191e2e8795" kindref="member">INA219_CONFIG_SADCRES_12BIT_2S_1060US</ref><sp/><sp/>=<sp/>(0x0048),<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>2<sp/>x<sp/>12-bit<sp/>shunt<sp/>samples<sp/>averaged<sp/>together</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a17d41a7b39eb5969b38808f2527abba6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a17d41a7b39eb5969b38808f2527abba6" kindref="member">INA219_CONFIG_SADCRES_12BIT_4S_2130US</ref><sp/><sp/>=<sp/>(0x0050),<sp/><sp/></highlight><highlight class="comment">//<sp/>4<sp/>x<sp/>12-bit<sp/>shunt<sp/>samples<sp/>averaged<sp/>together</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04acbf87c0a00a39d443bdbd85fc926c702" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04acbf87c0a00a39d443bdbd85fc926c702" kindref="member">INA219_CONFIG_SADCRES_12BIT_8S_4260US</ref><sp/><sp/>=<sp/>(0x0058),<sp/><sp/></highlight><highlight class="comment">//<sp/>8<sp/>x<sp/>12-bit<sp/>shunt<sp/>samples<sp/>averaged<sp/>together</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a183b187f1979ec1ccc1772f28c90f88f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a183b187f1979ec1ccc1772f28c90f88f" kindref="member">INA219_CONFIG_SADCRES_12BIT_16S_8510US</ref><sp/>=<sp/>(0x0060),<sp/><sp/></highlight><highlight class="comment">//<sp/>16<sp/>x<sp/>12-bit<sp/>shunt<sp/>samples<sp/>averaged<sp/>together</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04aaf816d1cd13cc08b15a064893aa62086" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04aaf816d1cd13cc08b15a064893aa62086" kindref="member">INA219_CONFIG_SADCRES_12BIT_32S_17MS</ref><sp/><sp/><sp/>=<sp/>(0x0068),<sp/><sp/></highlight><highlight class="comment">//<sp/>32<sp/>x<sp/>12-bit<sp/>shunt<sp/>samples<sp/>averaged<sp/>together</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a1b2e043d00cfcbe977013dfbb1f8dfe0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a1b2e043d00cfcbe977013dfbb1f8dfe0" kindref="member">INA219_CONFIG_SADCRES_12BIT_64S_34MS</ref><sp/><sp/><sp/>=<sp/>(0x0070),<sp/><sp/></highlight><highlight class="comment">//<sp/>64<sp/>x<sp/>12-bit<sp/>shunt<sp/>samples<sp/>averaged<sp/>together</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a2e2c270a6ef3adb1526dff7e174c7cac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1abc6126af1d45847bc59afa0aa3216b04a2e2c270a6ef3adb1526dff7e174c7cac" kindref="member">INA219_CONFIG_SADCRES_12BIT_128S_69MS</ref><sp/>=<sp/><sp/>(0x0078),<sp/><sp/></highlight><highlight class="comment">//<sp/>128<sp/>x<sp/>12-bit<sp/>shunt<sp/>samples<sp/>averaged<sp/>together</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="146"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="_adafruit___i_n_a219_8h_1aa4a8474dd10779fd9915d2eaa7df77e8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_CONFIG_MODE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0007)<sp/><sp/>//<sp/>Operating<sp/>Mode<sp/>Mask</highlight></codeline>
+<codeline lineno="148"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="153"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="155" refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca1f5f29068fe2a2980d0a4cfc8a614c97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca1f5f29068fe2a2980d0a4cfc8a614c97" kindref="member">INA219_CONFIG_MODE_POWERDOWN</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/>(0x0000),</highlight></codeline>
+<codeline lineno="156" refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06cabe0270ac8939b8775a1c00e2f50884b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06cabe0270ac8939b8775a1c00e2f50884b9" kindref="member">INA219_CONFIG_MODE_SVOLT_TRIGGERED</ref><sp/><sp/><sp/><sp/>=<sp/><sp/>(0x0001),</highlight></codeline>
+<codeline lineno="157" refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca2c8f73200a3c96539a2b479dde4f3fad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca2c8f73200a3c96539a2b479dde4f3fad" kindref="member">INA219_CONFIG_MODE_BVOLT_TRIGGERED</ref><sp/><sp/><sp/><sp/>=<sp/><sp/>(0x0002),</highlight></codeline>
+<codeline lineno="158" refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca0b62928f9890e1432083ef8691a99c2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca0b62928f9890e1432083ef8691a99c2f" kindref="member">INA219_CONFIG_MODE_SANDBVOLT_TRIGGERED</ref><sp/>=<sp/>(0x0003),</highlight></codeline>
+<codeline lineno="159" refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06caa3c51bd7eef043176d518333e74d6320" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06caa3c51bd7eef043176d518333e74d6320" kindref="member">INA219_CONFIG_MODE_ADCOFF</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/>(0x0004),</highlight></codeline>
+<codeline lineno="160" refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06caa6d08de01dce593c5763840628cdd13a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06caa6d08de01dce593c5763840628cdd13a" kindref="member">INA219_CONFIG_MODE_SVOLT_CONTINUOUS</ref><sp/><sp/>=<sp/><sp/>(0x0005),</highlight></codeline>
+<codeline lineno="161" refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca91f91cad564c431b19a1049fa90e03ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca91f91cad564c431b19a1049fa90e03ce" kindref="member">INA219_CONFIG_MODE_BVOLT_CONTINUOUS</ref><sp/><sp/><sp/>=<sp/><sp/>(0x0006),</highlight></codeline>
+<codeline lineno="162" refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca0f7eed7cbc299025ea62ddb8fb1abac4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_adafruit___i_n_a219_8h_1adc29c2ff13d900c2f185ee95427fb06ca0f7eed7cbc299025ea62ddb8fb1abac4" kindref="member">INA219_CONFIG_MODE_SANDBVOLT_CONTINUOUS</ref><sp/>=<sp/>(0x0007),</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment">/*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="170"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="_adafruit___i_n_a219_8h_1a99de9caaed1cbc48b2ecfe4b6c5ef59d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_REG_SHUNTVOLTAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x01)</highlight></codeline>
+<codeline lineno="172"><highlight class="preprocessor"></highlight><highlight class="comment">/*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="178"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="_adafruit___i_n_a219_8h_1a06987d28f8a8885f7d1f6a10d0ec6b3b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_REG_BUSVOLTAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x02)</highlight></codeline>
+<codeline lineno="180"><highlight class="preprocessor"></highlight><highlight class="comment">/*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="186"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="_adafruit___i_n_a219_8h_1add277c6e0a9783de517e8a2ee2cdad86" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_REG_POWER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x03)</highlight></codeline>
+<codeline lineno="188"><highlight class="preprocessor"></highlight><highlight class="comment">/*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="194"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="_adafruit___i_n_a219_8h_1aee975d7ad192f4eadf01b6d96c1a7c50" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_REG_CURRENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x04)</highlight></codeline>
+<codeline lineno="196"><highlight class="preprocessor"></highlight><highlight class="comment">/*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="202"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="_adafruit___i_n_a219_8h_1a7ec015caf45bb013e8858a6e53e47e3c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>INA219_REG_CALIBRATION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x05)</highlight></codeline>
+<codeline lineno="204"><highlight class="preprocessor"></highlight><highlight class="comment">/*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************/</highlight></codeline>
+<codeline lineno="210"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="class_adafruit___i_n_a219" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_adafruit___i_n_a219" kindref="compound">Adafruit_INA219</ref>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><ref refid="class_adafruit___i_n_a219_1a407a9ddf5fec541865d1f91a7e6479d0" kindref="member">Adafruit_INA219</ref>(uint8_t<sp/>addr<sp/>=<sp/><ref refid="_adafruit___i_n_a219_8h_1a01099281ea98bb6c1aab825f05d9818c" kindref="member">INA219_ADDRESS</ref>);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1ac46f358c0af6682ac7ec79593a66b57e" kindref="member">begin</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1ac46f358c0af6682ac7ec79593a66b57e" kindref="member">begin</ref>(TwoWire<sp/>*theWire);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1ac4cebcfad06a740904c894c964335de3" kindref="member">setCalibration_32V_2A</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1a79542a9167af094f9af7218f063e6297" kindref="member">setCalibration_32V_1A</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1acd5cd9cfadae71308c0d0238d3dfce82" kindref="member">setCalibration_16V_400mA</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1a22b4b21b104d6a939b6deb153bfbb8ae" kindref="member">getBusVoltage_V</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1ae4dcd156e9b64583e6fe0d4f48544e87" kindref="member">getShuntVoltage_mV</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1af28fcc20fb5387ed034e28670d95755c" kindref="member">getCurrent_mA</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1a467eb1f41a30b73ceff7145a90102f8b" kindref="member">getPower_mW</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="225" refid="class_adafruit___i_n_a219_1a4a71c3726cc0e6b64512a4aa123e2031" refkind="member"><highlight class="normal"><sp/><sp/>TwoWire<sp/>*<ref refid="class_adafruit___i_n_a219_1a4a71c3726cc0e6b64512a4aa123e2031" kindref="member">_i2c</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="class_adafruit___i_n_a219_1a651266fa67c5f1d1f152669eefb916fd" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="class_adafruit___i_n_a219_1a651266fa67c5f1d1f152669eefb916fd" kindref="member">ina219_i2caddr</ref>;</highlight></codeline>
+<codeline lineno="228" refid="class_adafruit___i_n_a219_1a77c548325463c5f864851e1d6bc91ca1" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="class_adafruit___i_n_a219_1a77c548325463c5f864851e1d6bc91ca1" kindref="member">ina219_calValue</ref>;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>multipliers<sp/>are<sp/>used<sp/>to<sp/>convert<sp/>raw<sp/>current<sp/>and<sp/>power</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>values<sp/>to<sp/>mA<sp/>and<sp/>mW,<sp/>taking<sp/>into<sp/>account<sp/>the<sp/>current<sp/>config<sp/>settings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="class_adafruit___i_n_a219_1a60c4daa30026182b4b8d648fb47cbaea" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="class_adafruit___i_n_a219_1a60c4daa30026182b4b8d648fb47cbaea" kindref="member">ina219_currentDivider_mA</ref>;</highlight></codeline>
+<codeline lineno="232" refid="class_adafruit___i_n_a219_1a4f2e07a92391a7f8f64a28e4c5ec8d12" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_adafruit___i_n_a219_1a4f2e07a92391a7f8f64a28e4c5ec8d12" kindref="member">ina219_powerMultiplier_mW</ref>;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1a9e183c2f52456bb98cc5152e4f2e9eb4" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1aff7f7e88cffd27d7b4bd80a40a0c566f" kindref="member">wireWriteRegister</ref>(uint8_t<sp/>reg,<sp/>uint16_t<sp/>value);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219_1ad5ce96f550b8e2fb3538fa04c1f5e88c" kindref="member">wireReadRegister</ref>(uint8_t<sp/>reg,<sp/>uint16_t<sp/>*value);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/>int16_t<sp/><ref refid="class_adafruit___i_n_a219_1ae87fad622892108323de740bf9871345" kindref="member">getBusVoltage_raw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/>int16_t<sp/><ref refid="class_adafruit___i_n_a219_1a310cd1c6c9dfb1779f7666fd3be40995" kindref="member">getShuntVoltage_raw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/>int16_t<sp/><ref refid="class_adafruit___i_n_a219_1ad82ea6b55e59ba5c77d68ed2d334c8cd" kindref="member">getCurrent_raw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/>int16_t<sp/><ref refid="class_adafruit___i_n_a219_1a2d6ac8868128b3675e82511cf6e68ddb" kindref="member">getPower_raw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h"/>
+  </compounddef>
+</doxygen>

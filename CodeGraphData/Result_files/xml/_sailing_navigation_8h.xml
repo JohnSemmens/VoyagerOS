@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_sailing_navigation_8h" kind="file">
+    <compoundname>SailingNavigation.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includes refid="_navigation_8h" local="yes">Navigation.h</includes>
+    <includes refid="_telemetry_logging_8h" local="yes">TelemetryLogging.h</includes>
+    <includedby refid="_loiter_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</includedby>
+    <includedby refid="_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</includedby>
+    <includedby refid="_sailing_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</includedby>
+    <incdepgraph>
+      <node id="668">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="666" relation="include">
+        </childnode>
+      </node>
+      <node id="667">
+        <label>Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="668" relation="include">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</label>
+        <link refid="SailingNavigation.h"/>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="667" relation="include">
+        </childnode>
+        <childnode refid="669" relation="include">
+        </childnode>
+      </node>
+      <node id="666">
+        <label>arduino.h</label>
+      </node>
+      <node id="670">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="668" relation="include">
+        </childnode>
+      </node>
+      <node id="669">
+        <label>TelemetryLogging.h</label>
+        <link refid="_telemetry_logging_8h"/>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="670" relation="include">
+        </childnode>
+        <childnode refid="667" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="672">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="671">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</label>
+        <link refid="SailingNavigation.h"/>
+        <childnode refid="672" relation="include">
+        </childnode>
+        <childnode refid="673" relation="include">
+        </childnode>
+        <childnode refid="674" relation="include">
+        </childnode>
+      </node>
+      <node id="673">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="674">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</label>
+        <link refid="_sailing_navigation_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_sailing_navigation_8h_1a48666069fd98cfe87fa2a7d69e2ce413" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SailingNavigation_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>SailingNavigation_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="18" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="32" bodyend="37"/>
+        <references refid="class_low_pass_angle_filter_1a6215328ead84e074e5cac3e298656e79" compoundref="_filters_8h" startline="43">LowPassAngleFilter::FilterConstant</references>
+        <references refid="structconfig_values_type_1ac1943add4d21dc30723e9d90784b5ae6" compoundref="config_values_8h" startline="41">configValuesType::TargetHeadingFilterConstant</references>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateCourseToSteer</definition>
+        <argsstring>(void)</argsstring>
+        <name>UpdateCourseToSteer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="19" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="39" bodyend="125"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="_sailing_navigation_8cpp_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</references>
+        <references refid="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" compoundref="_mission_8h" startline="25">MissionCommand::cmd</references>
+        <references refid="_sailing_navigation_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aa3a1517e29a678a16482db0903167641" compoundref="_mission_8h" startline="16">ctGotoWaypoint</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aba9c02415f591113e88eaec2c48d8eef" compoundref="_mission_8h" startline="17">ctLoiter</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a856603ea56061daf237a4ed1775c7be8" compoundref="_mission_8h" startline="18">ctLoiterUntil</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a7541643753c0b3cf9debe5d6589c3a47" compoundref="_mission_8h" startline="19">ctReturnToHome</references>
+        <references refid="struct_navigation_data_type_1aee29812f10b4c37724fa37dbf94839ec" compoundref="_navigation_8h" startline="85">NavigationDataType::CTS</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398ab5d9734d8cb7ee4687e055eb495b1adc" compoundref="_mission_8h" startline="20">ctSteerWindCourse</references>
+        <references refid="_sailing_navigation_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_sailing_navigation_8cpp_1a4e68978287be769969d1c58c14401c1a">DecisionEventReason</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a300124410707e5ccdc7b370c9ca1e15e" compoundref="_telemetry_logging_8h" startline="46">deHoldCourse</references>
+        <references refid="struct_navigation_data_type_1a2f9b0306d48f2d8ec67e4c00cfeae7bb" compoundref="_navigation_8h" startline="67">NavigationDataType::DTW</references>
+        <references refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" compoundref="_navigation_8h" startline="82">NavigationDataType::HDG</references>
+        <references refid="_sailing_navigation_8cpp_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</references>
+        <references refid="_loiter_8cpp_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" compoundref="_mission_8h" startline="39">MissionValuesStruct::MissionList</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a28b8ec55c3f68261296a317b2572d8c7" compoundref="_telemetry_logging_8h" startline="61">rApproachingWP</references>
+        <references refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="struct_state_values_struct_1a4100b0f396b9eecc008b3502739b0294" compoundref="_command_state___processor_8h" startline="41">StateValuesStruct::SteerCompassBearing</references>
+        <references refid="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" compoundref="_command_state___processor_8h" startline="40">StateValuesStruct::SteerWindAngle</references>
+        <references refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" compoundref="_command_state___processor_8h" startline="25">vcsLoiter</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" compoundref="_command_state___processor_8h" startline="18">vcsPartialManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" compoundref="_command_state___processor_8h" startline="24">vcsResetMissionIndex</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" compoundref="_command_state___processor_8h" startline="23">vcsSetHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" compoundref="_command_state___processor_8h" startline="20">vcsSteerMagneticCourse</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" compoundref="_command_state___processor_8h" startline="21">vcsSteerWindCourse</references>
+        <references refid="structconfig_values_type_1af1f613cbf51575ce5c01d197665778c9" compoundref="config_values_8h" startline="34">configValuesType::WPCourseHoldRadius</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1ad68b8bb62dadab1d9014dec7176e9f23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateTargetHeading</definition>
+        <argsstring>(void)</argsstring>
+        <name>UpdateTargetHeading</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="21" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="259" bodyend="267"/>
+        <references refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" compoundref="_filters_8cpp" startline="33" endline="59">LowPassAngleFilter::Filter</references>
+        <references refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" compoundref="_navigation_8h" startline="89">NavigationDataType::TargetHDG</references>
+        <references refid="struct_navigation_data_type_1ac115a6382767a05b1c6d83d2a4432b5e" compoundref="_navigation_8h" startline="87">NavigationDataType::TurnHDG</references>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CalculateSailingCTS</definition>
+        <argsstring>(void)</argsstring>
+        <name>CalculateSailingCTS</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="23" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="127" bodyend="209"/>
+        <references refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" compoundref="_navigation_8h" startline="68">NavigationDataType::BTW</references>
+        <references refid="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" compoundref="_navigation_8h" startline="108">NavigationDataType::CourseType</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" compoundref="_navigation_8h" startline="40">ctDirectToWayPoint</references>
+        <references refid="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" compoundref="_navigation_8h" startline="73">NavigationDataType::CTE</references>
+        <references refid="struct_navigation_data_type_1a275fa2206f1bd99dc50a884a6365c1b3" compoundref="_navigation_8h" startline="74">NavigationDataType::CTE_Correction</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <references refid="struct_navigation_data_type_1aae9ffa69dc246905e400bbaa0d78b111" compoundref="_navigation_8h" startline="120">NavigationDataType::FavouredTack</references>
+        <references refid="struct_navigation_data_type_1a3d29cedc948ea7b6dc05756597611dca" compoundref="_navigation_8h" startline="113">NavigationDataType::IsBTWSailable</references>
+        <references refid="struct_navigation_data_type_1a26784db798eae8b8ddf6826a7050bbc0" compoundref="_navigation_8h" startline="121">NavigationDataType::Manoeuvre</references>
+        <references refid="struct_navigation_data_type_1aef1f40dbe842913e3d57beb27f42e7cf" compoundref="_navigation_8h" startline="122">NavigationDataType::ManoeuvreState</references>
+        <references refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" compoundref="_navigation_8h" startline="65">NavigationDataType::MaxCTE</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ab88b3abfd931022a589a104f72f21b45" compoundref="_navigation_8h" startline="55">mstCommence</references>
+        <references refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" compoundref="_navigation_8h" startline="50">mtGybe</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abc936ead52144e938653544d209f9e00" compoundref="_telemetry_logging_8h" startline="54">rFavouredTack</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a5c816ade1654cd331855e741b8bdcaa4" compoundref="_telemetry_logging_8h" startline="55">rNoChange</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a208275f6c83e1e0a9b1335fe9bcceadf" compoundref="_telemetry_logging_8h" startline="53">rPastBoundary</references>
+        <references refid="_sailing_navigation_8cpp_1adeaaa4e3ef0f85f11afc6fea531e4e83" compoundref="_sailing_navigation_8cpp" startline="211" endline="257">SetTack</references>
+        <references refid="struct_navigation_data_type_1a31e3448e213613e7f4de468a11fd0076" compoundref="_navigation_8h" startline="104">NavigationDataType::TackDuration</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1a7a991c4cfaffbb86082ffc13b2963bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref></type>
+        <definition>SteeringCourseType GetFavouredTack</definition>
+        <argsstring>(NavigationDataType NavData)</argsstring>
+        <name>GetFavouredTack</name>
+        <param>
+          <type><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref></type>
+          <declname>NavData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="25" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="269" bodyend="286"/>
+        <references refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" compoundref="_navigation_8h" startline="68">NavigationDataType::BTW</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <references refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" compoundref="_navigation_8h" startline="101">NavigationDataType::TWD</references>
+        <references refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</references>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SetTack</definition>
+        <argsstring>(SteeringCourseType Tack, DecisionEventReasonType Reason)</argsstring>
+        <name>SetTack</name>
+        <param>
+          <type><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref></type>
+          <declname>Tack</declname>
+        </param>
+        <param>
+          <type><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref></type>
+          <declname>Reason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="27" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="211" bodyend="257"/>
+        <references refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" compoundref="_navigation_8h" startline="68">NavigationDataType::BTW</references>
+        <references refid="_sailing_navigation_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" compoundref="_navigation_8h" startline="108">NavigationDataType::CourseType</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" compoundref="_navigation_8h" startline="40">ctDirectToWayPoint</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408abf1c76fdda282f2d11b4d60fa6a96f50" compoundref="_navigation_8h" startline="43">ctPortTackRunning</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aae9d981a5beec8c2af9c6f49e1ca7e7e" compoundref="_navigation_8h" startline="44">ctStarboardTackRunning</references>
+        <references refid="_sailing_navigation_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_sailing_navigation_8cpp_1a4e68978287be769969d1c58c14401c1a">DecisionEventReason</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" compoundref="_telemetry_logging_8h" startline="41">deTackToPort</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aac84f9ba2711b341c8f07b554ebccf29" compoundref="_telemetry_logging_8h" startline="43">deTackToPortRunning</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" compoundref="_telemetry_logging_8h" startline="42">deTackToStarboard</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a1c9adda82ff0b8c11b7ae8d0feada0f8" compoundref="_telemetry_logging_8h" startline="44">deTackToStarboardRunning</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a5c816ade1654cd331855e741b8bdcaa4" compoundref="_telemetry_logging_8h" startline="55">rNoChange</references>
+        <references refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="_sailing_navigation_8cpp_1a1862447ac94938f73ad64807764ee54d" compoundref="_sailing_navigation_8cpp" startline="370" endline="398">SteerCloseHauled</references>
+        <references refid="_sailing_navigation_8cpp_1afee54cc124611159e5251a01afd52016" compoundref="_sailing_navigation_8cpp" startline="400" endline="427">SteerDeepRunning</references>
+        <references refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LimitToSailingCourse</definition>
+        <argsstring>(int Course)</argsstring>
+        <name>LimitToSailingCourse</name>
+        <param>
+          <type>int</type>
+          <declname>Course</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="28" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="288" bodyend="368"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="_navigation_8cpp_1ac06345987922e576eee8a227c838c28d" compoundref="_navigation_8cpp" startline="263" endline="271">AWA_Calculated</references>
+        <references refid="_sailing_navigation_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" compoundref="_navigation_8h" startline="108">NavigationDataType::CourseType</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408abf1c76fdda282f2d11b4d60fa6a96f50" compoundref="_navigation_8h" startline="43">ctPortTackRunning</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aae9d981a5beec8c2af9c6f49e1ca7e7e" compoundref="_navigation_8h" startline="44">ctStarboardTackRunning</references>
+        <references refid="_sailing_navigation_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_sailing_navigation_8cpp_1a4e68978287be769969d1c58c14401c1a">DecisionEventReason</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" compoundref="_telemetry_logging_8h" startline="41">deTackToPort</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aac84f9ba2711b341c8f07b554ebccf29" compoundref="_telemetry_logging_8h" startline="43">deTackToPortRunning</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" compoundref="_telemetry_logging_8h" startline="42">deTackToStarboard</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a1c9adda82ff0b8c11b7ae8d0feada0f8" compoundref="_telemetry_logging_8h" startline="44">deTackToStarboardRunning</references>
+        <references refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" compoundref="config_values_8h" startline="33">configValuesType::MinimumAngleDownWind</references>
+        <references refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" compoundref="config_values_8h" startline="32">configValuesType::MinimumAngleUpWind</references>
+        <references refid="struct_navigation_data_type_1a79e14aa598b4c30c8e06ac889796db03" compoundref="_navigation_8h" startline="116">NavigationDataType::PortLayline</references>
+        <references refid="struct_navigation_data_type_1ab5e9b350aa96d740eb6ebe37f216b518" compoundref="_navigation_8h" startline="118">NavigationDataType::PortLaylineRunning</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a7975ea76c366c6657e2b357a675ab9d9" compoundref="_telemetry_logging_8h" startline="56">rLimitToSailingCourse</references>
+        <references refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="struct_navigation_data_type_1a3e76f8cd259e63249264bed843e5e80e" compoundref="_navigation_8h" startline="117">NavigationDataType::StarboardLayline</references>
+        <references refid="struct_navigation_data_type_1a0ce2cc341a1eb869119a86f35c20ed93" compoundref="_navigation_8h" startline="119">NavigationDataType::StarboardLaylineRunning</references>
+        <references refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <references refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" compoundref="_navigation_8h" startline="101">NavigationDataType::TWD</references>
+        <references refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</references>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1a1862447ac94938f73ad64807764ee54d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SteerCloseHauled</definition>
+        <argsstring>(SteeringCourseType Tack)</argsstring>
+        <name>SteerCloseHauled</name>
+        <param>
+          <type><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref></type>
+          <declname>Tack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="29" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="370" bodyend="398"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" compoundref="_navigation_8h" startline="68">NavigationDataType::BTW</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" compoundref="_navigation_8h" startline="40">ctDirectToWayPoint</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <references refid="_sailing_navigation_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" compoundref="_telemetry_logging_8h" startline="41">deTackToPort</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" compoundref="_telemetry_logging_8h" startline="42">deTackToStarboard</references>
+        <references refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" compoundref="_navigation_8h" startline="82">NavigationDataType::HDG</references>
+        <references refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" compoundref="config_values_8h" startline="32">configValuesType::MinimumAngleUpWind</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+        <referencedby refid="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" compoundref="_sailing_navigation_8cpp" startline="211" endline="257">SetTack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1afee54cc124611159e5251a01afd52016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SteerDeepRunning</definition>
+        <argsstring>(SteeringCourseType Tack)</argsstring>
+        <name>SteerDeepRunning</name>
+        <param>
+          <type><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref></type>
+          <declname>Tack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="30" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="400" bodyend="427"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" compoundref="_navigation_8h" startline="68">NavigationDataType::BTW</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" compoundref="_navigation_8h" startline="40">ctDirectToWayPoint</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <references refid="_sailing_navigation_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" compoundref="_telemetry_logging_8h" startline="41">deTackToPort</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" compoundref="_telemetry_logging_8h" startline="42">deTackToStarboard</references>
+        <references refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" compoundref="_navigation_8h" startline="82">NavigationDataType::HDG</references>
+        <references refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" compoundref="config_values_8h" startline="33">configValuesType::MinimumAngleDownWind</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+        <referencedby refid="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" compoundref="_sailing_navigation_8cpp" startline="211" endline="257">SetTack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1ad1a3e49f1ecde702c34840fad96dc852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsBTWSailable</definition>
+        <argsstring>(NavigationDataType NavData)</argsstring>
+        <name>IsBTWSailable</name>
+        <param>
+          <type><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref></type>
+          <declname>NavData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="32" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="470" bodyend="504"/>
+        <references refid="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" compoundref="_navigation_8h" startline="73">NavigationDataType::CTE</references>
+        <references refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" compoundref="_navigation_8h" startline="65">NavigationDataType::MaxCTE</references>
+        <references refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" compoundref="config_values_8h" startline="33">configValuesType::MinimumAngleDownWind</references>
+        <references refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" compoundref="config_values_8h" startline="32">configValuesType::MinimumAngleUpWind</references>
+        <references refid="structconfig_values_type_1a711dbb3e2dee764a9764411c80d24e48" compoundref="config_values_8h" startline="43">configValuesType::SailableAngleMargin</references>
+        <references refid="struct_navigation_data_type_1afb1aa29b12f4897de80677a479a0ba2a" compoundref="_navigation_8h" startline="110">NavigationDataType::WindAngleToWaypoint</references>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_sailing_navigation_8h_1a3c59f7119a4b9d03c153ce45f4c21c5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref></type>
+        <definition>SteeringCourseType GetPointOfSail</definition>
+        <argsstring>(int WindAngle)</argsstring>
+        <name>GetPointOfSail</name>
+        <param>
+          <type>int</type>
+          <declname>WindAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h" line="34" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp" bodystart="432" bodyend="468"/>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a3174ab8e0f496c9340a2b28061c347d8" compoundref="_navigation_8h" startline="39">ctNotEstablished</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408abf1c76fdda282f2d11b4d60fa6a96f50" compoundref="_navigation_8h" startline="43">ctPortTackRunning</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aae9d981a5beec8c2af9c6f49e1ca7e7e" compoundref="_navigation_8h" startline="44">ctStarboardTackRunning</references>
+        <references refid="_telemetry_logging_8cpp_1a858cd37c629a1ac4c26bc60bac50bc8f">WindAngle</references>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>SailingNavigation.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>where<sp/>the<sp/>sailing<sp/>course<sp/>is<sp/>decided.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>course<sp/>to<sp/>be<sp/>steered<sp/>is<sp/>established<sp/>here,<sp/>including<sp/>the<sp/>decsions<sp/>to<sp/>tack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>actual<sp/>course<sp/>to<sp/>be<sp/>steered<sp/>is<sp/>maintained<sp/>in<sp/>the<sp/>Course<sp/>To<sp/>Steer<sp/>(CTS).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SAILINGNAVIGATION_h</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_SAILINGNAVIGATION_h</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_navigation_8h" kindref="compound">Navigation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_telemetry_logging_8h" kindref="compound">TelemetryLogging.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1a48666069fd98cfe87fa2a7d69e2ce413" kindref="member">SailingNavigation_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" kindref="member">UpdateCourseToSteer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1ad68b8bb62dadab1d9014dec7176e9f23" kindref="member">UpdateTargetHeading</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" kindref="member">CalculateSailingCTS</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/><ref refid="_sailing_navigation_8h_1a7a991c4cfaffbb86082ffc13b2963bff" kindref="member">GetFavouredTack</ref>(<ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref><sp/><ref refid="_c_l_i_8cpp_1a6e6c124a8544f54a81bb39badabb0342" kindref="member">NavData</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" kindref="member">SetTack</ref>(<ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/>Tack,<sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref><sp/>Reason);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" kindref="member">LimitToSailingCourse</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Course);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1a1862447ac94938f73ad64807764ee54d" kindref="member">SteerCloseHauled</ref>(<ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/>Tack);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1afee54cc124611159e5251a01afd52016" kindref="member">SteerDeepRunning</ref>(<ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/>Tack);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_sailing_navigation_8h_1ad1a3e49f1ecde702c34840fad96dc852" kindref="member">IsBTWSailable</ref>(<ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref><sp/><ref refid="_c_l_i_8cpp_1a6e6c124a8544f54a81bb39badabb0342" kindref="member">NavData</ref>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/><ref refid="_sailing_navigation_8h_1a3c59f7119a4b9d03c153ce45f4c21c5d" kindref="member">GetPointOfSail</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8cpp_1a858cd37c629a1ac4c26bc60bac50bc8f" kindref="member">WindAngle</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h"/>
+  </compounddef>
+</doxygen>

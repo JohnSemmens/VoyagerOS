@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_eb7eda765842748bb07ea4c4a8d24d37" kind="dir">
+    <compoundname>D:/Cloud/OneDrive/Voyager/VoyagerOS</compoundname>
+    <innerfile refid="_adafruit___g_f_x_8cpp">Adafruit_GFX.cpp</innerfile>
+    <innerfile refid="_adafruit___g_f_x_8h">Adafruit_GFX.h</innerfile>
+    <innerfile refid="_adafruit___i_n_a219_8cpp">Adafruit_INA219.cpp</innerfile>
+    <innerfile refid="_adafruit___i_n_a219_8h">Adafruit_INA219.h</innerfile>
+    <innerfile refid="_adafruit___s_s_d1306_8cpp">Adafruit_SSD1306.cpp</innerfile>
+    <innerfile refid="_adafruit___s_s_d1306_8h">Adafruit_SSD1306.h</innerfile>
+    <innerfile refid="_a_p___math_8cpp">AP_Math.cpp</innerfile>
+    <innerfile refid="_a_p___math_8h">AP_Math.h</innerfile>
+    <innerfile refid="_bluetooth_connection_8cpp">BluetoothConnection.cpp</innerfile>
+    <innerfile refid="_bluetooth_connection_8h">BluetoothConnection.h</innerfile>
+    <innerfile refid="_c_l_i_8cpp">CLI.cpp</innerfile>
+    <innerfile refid="_c_l_i_8h">CLI.h</innerfile>
+    <innerfile refid="_command_state___processor_8cpp">CommandState_Processor.cpp</innerfile>
+    <innerfile refid="_command_state___processor_8h">CommandState_Processor.h</innerfile>
+    <innerfile refid="config_values_8cpp">configValues.cpp</innerfile>
+    <innerfile refid="config_values_8h">configValues.h</innerfile>
+    <innerfile refid="eeprom_anything_8h">eepromAnything.h</innerfile>
+    <innerfile refid="_e_m7180_8cpp">EM7180.cpp</innerfile>
+    <innerfile refid="_e_m7180_8h">EM7180.h</innerfile>
+    <innerfile refid="_filters_8cpp">Filters.cpp</innerfile>
+    <innerfile refid="_filters_8h">Filters.h</innerfile>
+    <innerfile refid="gfxfont_8h">gfxfont.h</innerfile>
+    <innerfile refid="glcdfont_8c">glcdfont.c</innerfile>
+    <innerfile refid="_g_p_s_8cpp">GPS.cpp</innerfile>
+    <innerfile refid="_g_p_s_8h">GPS.h</innerfile>
+    <innerfile refid="_g_p_s___temp_8cpp">GPS_Temp.cpp</innerfile>
+    <innerfile refid="_g_p_s___temp_8h">GPS_Temp.h</innerfile>
+    <innerfile refid="_i2_cdev_8cpp">I2Cdev.cpp</innerfile>
+    <innerfile refid="_i2_cdev_8h">I2Cdev.h</innerfile>
+    <innerfile refid="_l_e_d_heart_beat_8cpp">LEDHeartBeat.cpp</innerfile>
+    <innerfile refid="_l_e_d_heart_beat_8h">LEDHeartBeat.h</innerfile>
+    <innerfile refid="_local___display_8cpp">Local_Display.cpp</innerfile>
+    <innerfile refid="_local___display_8h">Local_Display.h</innerfile>
+    <innerfile refid="location_8cpp">location.cpp</innerfile>
+    <innerfile refid="location_8h">location.h</innerfile>
+    <innerfile refid="_loiter_8cpp">Loiter.cpp</innerfile>
+    <innerfile refid="_loiter_8h">Loiter.h</innerfile>
+    <innerfile refid="_misc_8h">Misc.h</innerfile>
+    <innerfile refid="_mission_8cpp">Mission.cpp</innerfile>
+    <innerfile refid="_mission_8h">Mission.h</innerfile>
+    <innerfile refid="_m_p_u9250_8cpp">MPU9250.cpp</innerfile>
+    <innerfile refid="_m_p_u9250_8h">MPU9250.h</innerfile>
+    <innerfile refid="_navigation_8cpp">Navigation.cpp</innerfile>
+    <innerfile refid="_navigation_8h">Navigation.h</innerfile>
+    <innerfile refid="_o_l_e_d___logging_8cpp">OLED_Logging.cpp</innerfile>
+    <innerfile refid="_o_l_e_d___logging_8h">OLED_Logging.h</innerfile>
+    <innerfile refid="_p_i_d__v1_8cpp">PID_v1.cpp</innerfile>
+    <innerfile refid="_p_i_d__v1_8h">PID_v1.h</innerfile>
+    <innerfile refid="_power_management_8cpp">PowerManagement.cpp</innerfile>
+    <innerfile refid="_power_management_8h">PowerManagement.h</innerfile>
+    <innerfile refid="_radio_control_8cpp">RadioControl.cpp</innerfile>
+    <innerfile refid="_radio_control_8h">RadioControl.h</innerfile>
+    <innerfile refid="_sailing_navigation_8cpp">SailingNavigation.cpp</innerfile>
+    <innerfile refid="_sailing_navigation_8h">SailingNavigation.h</innerfile>
+    <innerfile refid="_scheduler_cooperative_8cpp">SchedulerCooperative.cpp</innerfile>
+    <innerfile refid="_scheduler_cooperative_8h">SchedulerCooperative.h</innerfile>
+    <innerfile refid="_s_d_card_log_file_8cpp">SDCardLogFile.cpp</innerfile>
+    <innerfile refid="_s_d_card_log_file_8h">SDCardLogFile.h</innerfile>
+    <innerfile refid="_spark_fun___i2_c___g_p_s___arduino___library_8cpp">SparkFun_I2C_GPS_Arduino_Library.cpp</innerfile>
+    <innerfile refid="_spark_fun___i2_c___g_p_s___arduino___library_8h">SparkFun_I2C_GPS_Arduino_Library.h</innerfile>
+    <innerfile refid="_steering_8cpp">Steering.cpp</innerfile>
+    <innerfile refid="_steering_8h">Steering.h</innerfile>
+    <innerfile refid="_telemetry_logging_8cpp">TelemetryLogging.cpp</innerfile>
+    <innerfile refid="_telemetry_logging_8h">TelemetryLogging.h</innerfile>
+    <innerfile refid="_telemetry_messages_8cpp">TelemetryMessages.cpp</innerfile>
+    <innerfile refid="_telemetry_messages_8h">TelemetryMessages.h</innerfile>
+    <innerfile refid="_tiny_g_p_s_09_09_8cpp">TinyGPS++.cpp</innerfile>
+    <innerfile refid="_tiny_g_p_s_09_09_8h">TinyGPS++.h</innerfile>
+    <innerfile refid="_u_s_f_s__config_8h">USFS_config.h</innerfile>
+    <innerfile refid="_u_s_f_s__def_8h">USFS_def.h</innerfile>
+    <innerfile refid="_u_s_f_s___i_m_u_8cpp">USFS_IMU.cpp</innerfile>
+    <innerfile refid="_u_s_f_s___i_m_u_8h">USFS_IMU.h</innerfile>
+    <innerfile refid="vector_8h">vector.h</innerfile>
+    <innerfile refid="vector2_8cpp">vector2.cpp</innerfile>
+    <innerfile refid="vector2_8h">vector2.h</innerfile>
+    <innerfile refid="_vector2a_8h">Vector2a.h</innerfile>
+    <innerfile refid="_v_i___measurement_8cpp">VI_Measurement.cpp</innerfile>
+    <innerfile refid="_v_i___measurement_8h">VI_Measurement.h</innerfile>
+    <innerfile refid="_waypoints_8cpp">Waypoints.cpp</innerfile>
+    <innerfile refid="_waypoints_8h">Waypoints.h</innerfile>
+    <innerfile refid="_wear_tracking_8cpp">WearTracking.cpp</innerfile>
+    <innerfile refid="_wear_tracking_8h">WearTracking.h</innerfile>
+    <innerfile refid="_wind_angle__2950_8cpp">WindAngle_2950.cpp</innerfile>
+    <innerfile refid="_wind_angle__2950_8h">WindAngle_2950.h</innerfile>
+    <innerfile refid="_wingsail_8cpp">Wingsail.cpp</innerfile>
+    <innerfile refid="_wingsail_8h">Wingsail.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/"/>
+  </compounddef>
+</doxygen>

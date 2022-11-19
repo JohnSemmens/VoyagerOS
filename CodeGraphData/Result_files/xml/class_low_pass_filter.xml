@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_low_pass_filter" kind="class" prot="public">
+    <compoundname>LowPassFilter</compoundname>
+    <includes refid="_filters_8h" local="no">Filters.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_low_pass_filter_1a6f196ab481a93f43228084f380161764" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LowPassFilter::last_filtered_value</definition>
+        <argsstring></argsstring>
+        <name>last_filtered_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="15" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" compoundref="_filters_8cpp" startline="7" endline="14">Filter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_low_pass_filter_1a2f52522dcdd77c4dd4bfbda24bd6dc46" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LowPassFilter::FilterConstant</definition>
+        <argsstring></argsstring>
+        <name>FilterConstant</name>
+        <initializer>= 0.05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="18" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" compoundref="_filters_8cpp" startline="7" endline="14">Filter</referencedby>
+        <referencedby refid="_navigation_8h_1ac461d01ae63da9dcde71b1143e2c2e59" compoundref="_navigation_8cpp" startline="140" endline="149">Navigation_Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float LowPassFilter::Filter</definition>
+        <argsstring>(float Input)</argsstring>
+        <name>Filter</name>
+        <param>
+          <type>float</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="19" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.cpp" bodystart="7" bodyend="14"/>
+        <references refid="class_low_pass_filter_1a2f52522dcdd77c4dd4bfbda24bd6dc46" compoundref="_filters_8h" startline="18">FilterConstant</references>
+        <references refid="class_low_pass_filter_1a6f196ab481a93f43228084f380161764" compoundref="_filters_8h" startline="15">last_filtered_value</references>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_navigation_8h_1a236cd5e0ce9fbe80a8a0a4b7c7427acc" compoundref="_navigation_8cpp" startline="91" endline="99">NavigationUpdate_MediumData</referencedby>
+        <referencedby refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" compoundref="_wear_tracking_8cpp" startline="32" endline="55">WearCounter::TrackServoUsage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="13" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="12" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" prot="public" virt="non-virtual"><scope>LowPassFilter</scope><name>Filter</name></member>
+      <member refid="class_low_pass_filter_1a2f52522dcdd77c4dd4bfbda24bd6dc46" prot="public" virt="non-virtual"><scope>LowPassFilter</scope><name>FilterConstant</name></member>
+      <member refid="class_low_pass_filter_1a6f196ab481a93f43228084f380161764" prot="protected" virt="non-virtual"><scope>LowPassFilter</scope><name>last_filtered_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

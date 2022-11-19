@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Adafruit INA219 current/power monitor IC</title>
+    <detaileddescription>
+<sect1 id="index_1intro_sec">
+<title>Introduction</title>
+<para>Driver for the INA219 current sensor</para><para>This is a library for the Adafruit INA219 breakout -<mdash/>&gt; <ulink url="https://www.adafruit.com/products/904">https://www.adafruit.com/products/904</ulink></para><para>Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!</para></sect1>
+<sect1 id="index_1author">
+<title>Author</title>
+<para>Written by Kevin &quot;KTOWN&quot; Townsend for Adafruit Industries.</para></sect1>
+<sect1 id="index_1license">
+<title>License</title>
+<para>BSD license, all text here must be included in any redistribution. </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

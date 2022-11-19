@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_wing_sail_type" kind="struct" prot="public">
+    <compoundname>WingSailType</compoundname>
+    <includes refid="_wingsail_8h" local="no">Wingsail.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_wing_sail_type_1a3ce4045cf7e44d3778244bb2433703d7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WingSailType::Angle</definition>
+        <argsstring></argsstring>
+        <name>Angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" line="25" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_wingsail_8h_1a20ba7e5f970a210221a675db25c6f7c4" compoundref="_wingsail_8cpp" startline="132" endline="140">AutoSetWingSail</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_wingsail_8h_1ae05017f13ac421391cf717b6c696786e" compoundref="_wingsail_8cpp" startline="257" endline="271">Wingsail_TrackTackChange</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_wing_sail_type_1a4fbdd3e6a40eb76f05030e4b31f476fe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WingSailType::TrimTabAngle</definition>
+        <argsstring></argsstring>
+        <name>TrimTabAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" line="26" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="_wingsail_8h_1a20ba7e5f970a210221a675db25c6f7c4" compoundref="_wingsail_8cpp" startline="132" endline="140">AutoSetWingSail</referencedby>
+        <referencedby refid="_navigation_8h_1a661b6bdd6007302ab66d7e3d92709bf9" compoundref="_navigation_8cpp" startline="130" endline="138">GetApparentWind</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_wing_sail_type_1ac06c0bf011f21961f298a94ff0b9163a" prot="public" static="no" mutable="no">
+        <type><ref refid="_wingsail_8h_1ae4a51ad4476d76756e3e48ba6ca7fc7a" kindref="member">WingSailStateType</ref></type>
+        <definition>WingSailStateType WingSailType::State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" line="27" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wingsail_8h_1a980e54911d45d0d7649bd4d438b39e7f" compoundref="_wingsail_8cpp" startline="33" endline="38">wingsail_init</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_wing_sail_type_1a2f492aeb2e6eae96f33ace184673cad5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WingSailType::Servo_microseconds</definition>
+        <argsstring></argsstring>
+        <name>Servo_microseconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" line="28" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_wingsail_8h_1afda16181b0eed12d7dd9b7b7218d996f" compoundref="_wingsail_8cpp" startline="142" endline="147">SetTrimTabAngle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_wing_sail_type_1a675de4c9d822a31a4da1fb3e779856b5" prot="public" static="no" mutable="no">
+        <type><ref refid="_wingsail_8h_1ad989b71e930a6d1a60b91decc2554ef5" kindref="member">WingSailTackType</ref></type>
+        <definition>WingSailTackType WingSailType::Tack</definition>
+        <argsstring></argsstring>
+        <name>Tack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" line="29" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="_wingsail_8h_1ac15c04fc20ba8254376a6fbd3c871c61" compoundref="_wingsail_8cpp" startline="151" endline="198">CalcTrimTabAngle</referencedby>
+        <referencedby refid="_wingsail_8h_1a43c6b7ccb81d4aa6185463972e436255" compoundref="_wingsail_8cpp" startline="228" endline="255">IdentifyCurrentTack</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wingsail_8h_1ae05017f13ac421391cf717b6c696786e" compoundref="_wingsail_8cpp" startline="257" endline="271">Wingsail_TrackTackChange</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h" bodystart="24" bodyend="30"/>
+    <listofallmembers>
+      <member refid="struct_wing_sail_type_1a3ce4045cf7e44d3778244bb2433703d7" prot="public" virt="non-virtual"><scope>WingSailType</scope><name>Angle</name></member>
+      <member refid="struct_wing_sail_type_1a2f492aeb2e6eae96f33ace184673cad5" prot="public" virt="non-virtual"><scope>WingSailType</scope><name>Servo_microseconds</name></member>
+      <member refid="struct_wing_sail_type_1ac06c0bf011f21961f298a94ff0b9163a" prot="public" virt="non-virtual"><scope>WingSailType</scope><name>State</name></member>
+      <member refid="struct_wing_sail_type_1a675de4c9d822a31a4da1fb3e779856b5" prot="public" virt="non-virtual"><scope>WingSailType</scope><name>Tack</name></member>
+      <member refid="struct_wing_sail_type_1a4fbdd3e6a40eb76f05030e4b31f476fe" prot="public" virt="non-virtual"><scope>WingSailType</scope><name>TrimTabAngle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_wear_counter" kind="class" prot="public">
+    <compoundname>WearCounter</compoundname>
+    <includes refid="_wear_tracking_8h" local="no">WearTracking.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_wear_counter_1accb125b4d830ff1105ebd3c3bbede50b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WearCounter::AvgerageServo_us</definition>
+        <argsstring></argsstring>
+        <name>AvgerageServo_us</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="35" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" compoundref="_wear_tracking_8cpp" startline="32" endline="55">TrackServoUsage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wear_counter_1a726747c6b45be0b0b174ae5ece0c4abd" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WearCounter::PreviousServo_us</definition>
+        <argsstring></argsstring>
+        <name>PreviousServo_us</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="36" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wear_counter_1ae3ed943fd0f466cff1218a14e26b6fa0" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_low_pass_filter" kindref="compound">LowPassFilter</ref></type>
+        <definition>LowPassFilter WearCounter::ServoFilter</definition>
+        <argsstring></argsstring>
+        <name>ServoFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="37" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" compoundref="_wear_tracking_8cpp" startline="32" endline="55">TrackServoUsage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wear_counter_1af97666c079ce88706cc74f1996b68f52" prot="protected" static="no" mutable="no">
+        <type><ref refid="_wear_tracking_8h_1a5631ea695b18b2710296b59f9f40d456" kindref="member">ServoPositionType</ref></type>
+        <definition>ServoPositionType WearCounter::PreviousPosition</definition>
+        <argsstring></argsstring>
+        <name>PreviousPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="38" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" compoundref="_wear_tracking_8cpp" startline="32" endline="55">TrackServoUsage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wear_counter_1af3a00cec90c305cd88556fadcafeb102" prot="protected" static="no" mutable="no">
+        <type><ref refid="_wear_tracking_8h_1a5631ea695b18b2710296b59f9f40d456" kindref="member">ServoPositionType</ref></type>
+        <definition>ServoPositionType WearCounter::Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="39" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" compoundref="_wear_tracking_8cpp" startline="32" endline="55">TrackServoUsage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_wear_counter_1ab48ee07e5728aa3c6d41c8d882f69e0e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WearCounter::FilterConstant</definition>
+        <argsstring></argsstring>
+        <name>FilterConstant</name>
+        <initializer>= 0.0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="45" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long WearCounter::Counter</definition>
+        <argsstring></argsstring>
+        <name>Counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="47" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="config_values_8h_1a1be8bcdb847127a7d56ec007360e22ee" compoundref="config_values_8cpp" startline="59" endline="83">Load_EEPROM_VesselUsage</referencedby>
+        <referencedby refid="config_values_8h_1ae76efee702e935376a3bc8357b0a2336" compoundref="config_values_8cpp" startline="50" endline="57">Save_EEPROM_VesselUsage</referencedby>
+        <referencedby refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" compoundref="_wear_tracking_8cpp" startline="32" endline="55">TrackServoUsage</referencedby>
+        <referencedby refid="_wear_tracking_8h_1a78b88f9c20b9cd331f0032e0c2285483" compoundref="_wear_tracking_8cpp" startline="22" endline="29">updateUsageTrackingStats</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_wear_counter_1ad08b4095f1233fdae379debc01a91749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WearCounter::WearCounter</definition>
+        <argsstring>()</argsstring>
+        <name>WearCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WearCounter::TrackServoUsage</definition>
+        <argsstring>(int ServoPulse_us)</argsstring>
+        <name>TrackServoUsage</name>
+        <param>
+          <type>int</type>
+          <declname>ServoPulse_us</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="46" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp" bodystart="32" bodyend="55"/>
+        <references refid="_wear_tracking_8h_1a5631ea695b18b2710296b59f9f40d456aba1c01967a9df1e61e063f61276ea0dc" compoundref="_wear_tracking_8h" startline="16">Above</references>
+        <references refid="class_wear_counter_1accb125b4d830ff1105ebd3c3bbede50b" compoundref="_wear_tracking_8h" startline="35">AvgerageServo_us</references>
+        <references refid="_wear_tracking_8h_1a5631ea695b18b2710296b59f9f40d456ae3d4723a74a904190a1b333803adcc7f" compoundref="_wear_tracking_8h" startline="17">Below</references>
+        <references refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" compoundref="_wear_tracking_8h" startline="47">Counter</references>
+        <references refid="_wingsail_8cpp_1ac3dffda353afb2aeae4cd3ebb4e7bb48" compoundref="_wingsail_8cpp" startline="31">Deadband</references>
+        <references refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" compoundref="_filters_8cpp" startline="7" endline="14">LowPassFilter::Filter</references>
+        <references refid="class_wear_counter_1af3a00cec90c305cd88556fadcafeb102" compoundref="_wear_tracking_8h" startline="39">Position</references>
+        <references refid="class_wear_counter_1af97666c079ce88706cc74f1996b68f52" compoundref="_wear_tracking_8h" startline="38">PreviousPosition</references>
+        <references refid="class_wear_counter_1ae3ed943fd0f466cff1218a14e26b6fa0" compoundref="_wear_tracking_8h" startline="37">ServoFilter</references>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_wingsail_8h_1a31ec22cdae42b2cba5dcd378ea9119e4" compoundref="_wingsail_8cpp" startline="209" endline="226">WingSailServo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="163">
+        <label>LowPassFilter</label>
+        <link refid="class_low_pass_filter"/>
+      </node>
+      <node id="162">
+        <label>WearCounter</label>
+        <link refid="class_wear_counter"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>ServoFilter</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" line="33" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h" bodystart="32" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_wear_counter_1accb125b4d830ff1105ebd3c3bbede50b" prot="protected" virt="non-virtual"><scope>WearCounter</scope><name>AvgerageServo_us</name></member>
+      <member refid="class_wear_counter_1a90f639dc1d3ff5945908f018b81979e1" prot="public" virt="non-virtual"><scope>WearCounter</scope><name>Counter</name></member>
+      <member refid="class_wear_counter_1ab48ee07e5728aa3c6d41c8d882f69e0e" prot="public" virt="non-virtual"><scope>WearCounter</scope><name>FilterConstant</name></member>
+      <member refid="class_wear_counter_1af3a00cec90c305cd88556fadcafeb102" prot="protected" virt="non-virtual"><scope>WearCounter</scope><name>Position</name></member>
+      <member refid="class_wear_counter_1af97666c079ce88706cc74f1996b68f52" prot="protected" virt="non-virtual"><scope>WearCounter</scope><name>PreviousPosition</name></member>
+      <member refid="class_wear_counter_1a726747c6b45be0b0b174ae5ece0c4abd" prot="protected" virt="non-virtual"><scope>WearCounter</scope><name>PreviousServo_us</name></member>
+      <member refid="class_wear_counter_1ae3ed943fd0f466cff1218a14e26b6fa0" prot="protected" virt="non-virtual"><scope>WearCounter</scope><name>ServoFilter</name></member>
+      <member refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" prot="public" virt="non-virtual"><scope>WearCounter</scope><name>TrackServoUsage</name></member>
+      <member refid="class_wear_counter_1ad08b4095f1233fdae379debc01a91749" prot="public" virt="non-virtual"><scope>WearCounter</scope><name>WearCounter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

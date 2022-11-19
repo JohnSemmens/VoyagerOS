@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_8_voyager_o_s_8vsarduino_8h" kind="file">
+    <compoundname>.VoyagerOS.vsarduino.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includes local="no">pins_arduino.h</includes>
+    <includes local="yes">VoyagerOS.ino</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h</includes>
+    <includes local="no">D:/Program Files (x86)/Arduino/libraries/Servo/src/Servo.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/LEDHeartBeat.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS_Temp.h</includes>
+    <includes local="no">D:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/Wire/src/Wire.h</includes>
+    <includes local="no">D:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src/EEPROM.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/eepromAnything.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h</includes>
+    <includes local="no">D:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/SPI.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h</includes>
+    <includes local="yes">C:/Users/john.ACS/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SdFat.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h</includes>
+    <includes local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.h</includes>
+    <incdepgraph>
+      <node id="35">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.h</label>
+      </node>
+      <node id="20">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</label>
+      </node>
+      <node id="30">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.h</label>
+      </node>
+      <node id="29">
+        <label>C:/Users/john.ACS/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SdFat.h</label>
+      </node>
+      <node id="28">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h</label>
+      </node>
+      <node id="31">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_GFX.h</label>
+      </node>
+      <node id="24">
+        <label>D:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src/EEPROM.h</label>
+      </node>
+      <node id="14">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h</label>
+      </node>
+      <node id="2">
+        <label>pins_arduino.h</label>
+      </node>
+      <node id="42">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.h</label>
+      </node>
+      <node id="34">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.h</label>
+      </node>
+      <node id="9">
+        <label>D:/Program Files (x86)/Arduino/libraries/Servo/src/Servo.h</label>
+      </node>
+      <node id="5">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.h</label>
+      </node>
+      <node id="16">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h</label>
+      </node>
+      <node id="32">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_SSD1306.h</label>
+      </node>
+      <node id="38">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Adafruit_INA219.h</label>
+      </node>
+      <node id="25">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/eepromAnything.h</label>
+      </node>
+      <node id="11">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/LEDHeartBeat.h</label>
+      </node>
+      <node id="15">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h</label>
+      </node>
+      <node id="41">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/PowerManagement.h</label>
+      </node>
+      <node id="40">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.h</label>
+      </node>
+      <node id="26">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h</label>
+      </node>
+      <node id="21">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.h</label>
+      </node>
+      <node id="7">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.h</label>
+      </node>
+      <node id="4">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h</label>
+      </node>
+      <node id="18">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h</label>
+      </node>
+      <node id="12">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</label>
+      </node>
+      <node id="37">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.h</label>
+      </node>
+      <node id="0">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h</label>
+        <link refid=".VoyagerOS.vsarduino.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h</label>
+      </node>
+      <node id="27">
+        <label>D:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/SPI.h</label>
+      </node>
+      <node id="39">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.h</label>
+      </node>
+      <node id="22">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS_Temp.h</label>
+      </node>
+      <node id="36">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h</label>
+      </node>
+      <node id="1">
+        <label>arduino.h</label>
+      </node>
+      <node id="19">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.h</label>
+      </node>
+      <node id="33">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TinyGPS++.h</label>
+      </node>
+      <node id="6">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h</label>
+      </node>
+      <node id="3">
+        <label>VoyagerOS.ino</label>
+      </node>
+      <node id="13">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h</label>
+      </node>
+      <node id="8">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h</label>
+      </node>
+      <node id="23">
+        <label>D:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/Wire/src/Wire.h</label>
+      </node>
+      <node id="17">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1ae2d70395ad733dc3a8b38b3cdcac32ff" prot="public" static="no">
+        <name>__AVR_atmega2560__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="16" column="17" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1abf42623921c4853f2e40a168b3b6ea81" prot="public" static="no">
+        <name>__AVR_ATmega2560__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="17" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a43bafb28b29491ec7f871319b5a3b2f8" prot="public" static="no">
+        <name>F_CPU</name>
+        <initializer>16000000L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="18" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a5deccebbf24e21ddc073c8774179f1b3" prot="public" static="no">
+        <name>ARDUINO</name>
+        <initializer>108013</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="19" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a44496c9094fd7e8b544280edff102f57" prot="public" static="no">
+        <name>ARDUINO_AVR_MEGA2560</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="20" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1ad725ed96de84f96063797de6d7aae75f" prot="public" static="no">
+        <name>ARDUINO_ARCH_AVR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="21" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a1b391bc7ed92f79666c4a5d840aa1edd" prot="public" static="no">
+        <name>__cplusplus</name>
+        <initializer>201103L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="22" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1aaf039321959eb68c3bd0d1820810b6d3" prot="public" static="no">
+        <name>_Pragma</name>
+        <param><defname>x</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="23" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a2c5e50d229c92b7a531ebf48b411457b" prot="public" static="no">
+        <name>__AVR__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="24" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a9f04218fe09e6ee659e045b2f11542ed" prot="public" static="no">
+        <name>__inline__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="25" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a4d66b7593545da17b6f1143e5d1370de" prot="public" static="no">
+        <name>__asm__</name>
+        <param><defname>...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="26" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a586c6a171eb0104d519dc0eda5284ef7" prot="public" static="no">
+        <name>__extension__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="27" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a9f04218fe09e6ee659e045b2f11542ed" prot="public" static="no">
+        <name>__inline__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="28" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a64fa3037957156c60db536aad57ae07e" prot="public" static="no">
+        <name>__volatile__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="29" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a1b391bc7ed92f79666c4a5d840aa1edd" prot="public" static="no">
+        <name>__cplusplus</name>
+        <initializer>201103L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="30" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1aa51016843ec55a0a9df7ce9f85767ee7" prot="public" static="no">
+        <name>__GNUC__</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="34" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a0b8ad52bece225cdae9c1b46c91c62a5" prot="public" static="no">
+        <name>__GNUC_MINOR__</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="35" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1ad149c0565fcf669b23f483e5b7f80dbd" prot="public" static="no">
+        <name>__GNUC_PATCHLEVEL__</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="36" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1adbba0f726fc66d7100916c683b7568ae" prot="public" static="no">
+        <name>GCC_VERSION</name>
+        <initializer>((<ref refid="_8_voyager_o_s_8vsarduino_8h_1aa51016843ec55a0a9df7ce9f85767ee7" kindref="member">__GNUC__</ref>*10000)+(<ref refid="_8_voyager_o_s_8vsarduino_8h_1a0b8ad52bece225cdae9c1b46c91c62a5" kindref="member">__GNUC_MINOR__</ref>*100)+<ref refid="_8_voyager_o_s_8vsarduino_8h_1ad149c0565fcf669b23f483e5b7f80dbd" kindref="member">__GNUC_PATCHLEVEL__</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="37" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a5d3a73f59af1b35c5f1293c9f093ffd0" prot="public" static="no">
+        <name>volatile</name>
+        <param><defname>va_arg</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="40" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a968e883de5dc51826efd99ddb149fc9e" prot="public" static="no">
+        <name>_CONST</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="41" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a9f32dbba97c980059b66f67b17dbec8f" prot="public" static="no">
+        <name>__builtin_va_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="42" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1acb0d86a11a00d65bec7aa79527037869" prot="public" static="no">
+        <name>__builtin_va_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="43" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1abd10f17c7b1949b576d219806aef2d43" prot="public" static="no">
+        <name>__attribute__</name>
+        <param><defname>...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="44" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a1b173d22e57d9395897acbd8de62d505" prot="public" static="no">
+        <name>NOINLINE</name>
+        <initializer><ref refid="_8_voyager_o_s_8vsarduino_8h_1abd10f17c7b1949b576d219806aef2d43" kindref="member">__attribute__</ref>((noinline))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="45" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a814419222e0e391a26e8d6ad96bf4cee" prot="public" static="no">
+        <name>prog_void</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="46" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a84a61d55b7efefabd8419e28f02704f9" prot="public" static="no">
+        <name>PGM_VOID_P</name>
+        <initializer>int</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="47" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a70554f8b34f4b7014cd90fb1838152fd" prot="public" static="no">
+        <name>__builtin_constant_p</name>
+        <initializer><ref refid="_8_voyager_o_s_8vsarduino_8h_1abd10f17c7b1949b576d219806aef2d43" kindref="member">__attribute__</ref>((__const__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="51" column="10" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a6e34ecf16b5b61decca745d01240faab" prot="public" static="no">
+        <name>__builtin_strlen</name>
+        <initializer><ref refid="_8_voyager_o_s_8vsarduino_8h_1abd10f17c7b1949b576d219806aef2d43" kindref="member">__attribute__</ref>((__const__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="54" column="10" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a03fea404d4dc0ef38df1f4acca6534e1" prot="public" static="no">
+        <name>NEW_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="58" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1ae7ad9db1b807b9d118ca82d9a17f11c3" prot="public" static="no">
+        <name>PSTR</name>
+        <param><defname>string_literal</defname></param>
+        <initializer>((const <ref refid="glcdfont_8c_1a6cb9c6382dff2c5a0540bbf5f2c2e73e" kindref="member">PROGMEM</ref> char *)(string_literal))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="76" column="10" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a88d7dd4863f87530e1a34ece430a587c" prot="public" static="no">
+        <name>pgm_read_byte_near</name>
+        <param><defname>address_short</defname></param>
+        <initializer>uint8_t()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="81" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a73084a8bbde259ffae72980354b3f027" prot="public" static="no">
+        <name>pgm_read_byte</name>
+        <param><defname>address_short</defname></param>
+        <initializer>uint8_t()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="82" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a32d8ab354156f4b1ffdb77a275ba6223" prot="public" static="no">
+        <name>pgm_read_word</name>
+        <param><defname>address_short</defname></param>
+        <initializer>uint16_t()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="83" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">Adafruit_GFX::drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1af90e317367f3ac6dae3aa46d549ca535" compoundref="_adafruit___g_f_x_8cpp" startline="640" endline="649">Adafruit_GFX::drawRGBBitmap</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1abb68859ac5dfa6a09ac048b4037a83b6" prot="public" static="no">
+        <name>pgm_read_dword</name>
+        <param><defname>address_short</defname></param>
+        <initializer>uint32_t()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="84" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1a7911bddb066a8a038efc4b7857728fa8" prot="public" static="no">
+        <name>pgm_read_float</name>
+        <param><defname>address_short</defname></param>
+        <initializer>float()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="85" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_8_voyager_o_s_8vsarduino_8h_1ac9f61931fd8cf4cf4764744dbaee81b6" prot="public" static="no">
+        <name>pgm_read_ptr</name>
+        <param><defname>address_short</defname></param>
+        <initializer>short()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="86" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_8_voyager_o_s_8vsarduino_8h_1ad7509c01b55e04b31e178ef9edacb88c" prot="public" static="no">
+        <type>void *</type>
+        <definition>typedef void * __builtin_va_list</definition>
+        <argsstring></argsstring>
+        <name>__builtin_va_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="59" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_8_voyager_o_s_8vsarduino_8h_1a1d011df1f9de0c03ee095779cad4d38e" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int div_t</definition>
+        <argsstring></argsstring>
+        <name>div_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="62" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_8_voyager_o_s_8vsarduino_8h_1a9498f905d99bd77301aa1fd49f39441b" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int ldiv_t</definition>
+        <argsstring></argsstring>
+        <name>ldiv_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" line="63" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/>Editor:<sp/>https://www.visualmicro.com/</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>file<sp/>is<sp/>for<sp/>intellisense<sp/>purpose<sp/>only.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Visual<sp/>micro<sp/>(and<sp/>the<sp/>arduino<sp/>ide)<sp/>ignore<sp/>this<sp/>code<sp/>during<sp/>compilation.<sp/>This<sp/>code<sp/>is<sp/>automatically<sp/>maintained<sp/>by<sp/>visualmicro,<sp/>manual<sp/>changes<sp/>to<sp/>this<sp/>file<sp/>will<sp/>be<sp/>overwritten</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>contents<sp/>of<sp/>the<sp/>_vm<sp/>sub<sp/>folder<sp/>can<sp/>be<sp/>deleted<sp/>prior<sp/>to<sp/>publishing<sp/>a<sp/>project</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>All<sp/>non-arduino<sp/>files<sp/>created<sp/>by<sp/>visual<sp/>micro<sp/>and<sp/>all<sp/>visual<sp/>studio<sp/>project<sp/>or<sp/>solution<sp/>files<sp/>can<sp/>be<sp/>freely<sp/>deleted<sp/>and<sp/>are<sp/>not<sp/>required<sp/>to<sp/>compile<sp/>a<sp/>sketch<sp/>(do<sp/>not<sp/>delete<sp/>your<sp/>own<sp/>code!).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Note:<sp/>debugger<sp/>breakpoints<sp/>are<sp/>stored<sp/>in<sp/>&apos;.sln&apos;<sp/>or<sp/>&apos;.asln&apos;<sp/>files,<sp/>knowledge<sp/>of<sp/>last<sp/>uploaded<sp/>breakpoints<sp/>is<sp/>stored<sp/>in<sp/>the<sp/>upload.vmps.xml<sp/>file.<sp/>Both<sp/>files<sp/>are<sp/>required<sp/>to<sp/>continue<sp/>a<sp/>previous<sp/>debug<sp/>session<sp/>without<sp/>needing<sp/>to<sp/>compile<sp/>and<sp/>upload<sp/>again</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/><sp/>Hardware:<sp/>ATmega2560<sp/>(Mega<sp/>2560)<sp/>(Arduino<sp/>Mega),<sp/>Platform=avr,<sp/>Package=arduino</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_VMICRO_INTELLISENSE)</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_VSARDUINO_H_</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_VSARDUINO_H_</highlight></codeline>
+<codeline lineno="16" refid="_8_voyager_o_s_8vsarduino_8h_1ae2d70395ad733dc3a8b38b3cdcac32ff" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__AVR_atmega2560__</highlight></codeline>
+<codeline lineno="17" refid="_8_voyager_o_s_8vsarduino_8h_1abf42623921c4853f2e40a168b3b6ea81" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__AVR_ATmega2560__</highlight></codeline>
+<codeline lineno="18" refid="_8_voyager_o_s_8vsarduino_8h_1a43bafb28b29491ec7f871319b5a3b2f8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>F_CPU<sp/>16000000L</highlight></codeline>
+<codeline lineno="19" refid="_8_voyager_o_s_8vsarduino_8h_1a5deccebbf24e21ddc073c8774179f1b3" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ARDUINO<sp/>108013</highlight></codeline>
+<codeline lineno="20" refid="_8_voyager_o_s_8vsarduino_8h_1a44496c9094fd7e8b544280edff102f57" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ARDUINO_AVR_MEGA2560</highlight></codeline>
+<codeline lineno="21" refid="_8_voyager_o_s_8vsarduino_8h_1ad725ed96de84f96063797de6d7aae75f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ARDUINO_ARCH_AVR</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__cplusplus<sp/>201103L</highlight></codeline>
+<codeline lineno="23" refid="_8_voyager_o_s_8vsarduino_8h_1aaf039321959eb68c3bd0d1820810b6d3" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_Pragma(x)</highlight></codeline>
+<codeline lineno="24" refid="_8_voyager_o_s_8vsarduino_8h_1a2c5e50d229c92b7a531ebf48b411457b" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__AVR__</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__inline__</highlight></codeline>
+<codeline lineno="26" refid="_8_voyager_o_s_8vsarduino_8h_1a4d66b7593545da17b6f1143e5d1370de" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__asm__(...)</highlight></codeline>
+<codeline lineno="27" refid="_8_voyager_o_s_8vsarduino_8h_1a586c6a171eb0104d519dc0eda5284ef7" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__extension__</highlight></codeline>
+<codeline lineno="28" refid="_8_voyager_o_s_8vsarduino_8h_1a9f04218fe09e6ee659e045b2f11542ed" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__inline__</highlight></codeline>
+<codeline lineno="29" refid="_8_voyager_o_s_8vsarduino_8h_1a64fa3037957156c60db536aad57ae07e" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__volatile__</highlight></codeline>
+<codeline lineno="30" refid="_8_voyager_o_s_8vsarduino_8h_1a1b391bc7ed92f79666c4a5d840aa1edd" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__cplusplus<sp/>201103L</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>GCC_VERSION<sp/>40902</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//https://www.visualmicro.com/forums/YaBB.pl?num=1569762585/5#5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="_8_voyager_o_s_8vsarduino_8h_1aa51016843ec55a0a9df7ce9f85767ee7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__GNUC__<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight></codeline>
+<codeline lineno="35" refid="_8_voyager_o_s_8vsarduino_8h_1a0b8ad52bece225cdae9c1b46c91c62a5" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__GNUC_MINOR__<sp/><sp/><sp/><sp/><sp/><sp/><sp/>4</highlight></codeline>
+<codeline lineno="36" refid="_8_voyager_o_s_8vsarduino_8h_1ad149c0565fcf669b23f483e5b7f80dbd" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__GNUC_PATCHLEVEL__<sp/><sp/>0</highlight></codeline>
+<codeline lineno="37" refid="_8_voyager_o_s_8vsarduino_8h_1adbba0f726fc66d7100916c683b7568ae" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GCC_VERSION<sp/>((__GNUC__*10000)+(__GNUC_MINOR__*100)+__GNUC_PATCHLEVEL__))<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_8_voyager_o_s_8vsarduino_8h_1a5d3a73f59af1b35c5f1293c9f093ffd0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>volatile(va_arg)<sp/></highlight></codeline>
+<codeline lineno="41" refid="_8_voyager_o_s_8vsarduino_8h_1a968e883de5dc51826efd99ddb149fc9e" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_CONST</highlight></codeline>
+<codeline lineno="42" refid="_8_voyager_o_s_8vsarduino_8h_1a9f32dbba97c980059b66f67b17dbec8f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__builtin_va_start</highlight></codeline>
+<codeline lineno="43" refid="_8_voyager_o_s_8vsarduino_8h_1acb0d86a11a00d65bec7aa79527037869" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__builtin_va_end</highlight></codeline>
+<codeline lineno="44" refid="_8_voyager_o_s_8vsarduino_8h_1abd10f17c7b1949b576d219806aef2d43" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__attribute__(...)</highlight></codeline>
+<codeline lineno="45" refid="_8_voyager_o_s_8vsarduino_8h_1a1b173d22e57d9395897acbd8de62d505" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NOINLINE<sp/>__attribute__((noinline))</highlight></codeline>
+<codeline lineno="46" refid="_8_voyager_o_s_8vsarduino_8h_1a814419222e0e391a26e8d6ad96bf4cee" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>prog_void</highlight></codeline>
+<codeline lineno="47" refid="_8_voyager_o_s_8vsarduino_8h_1a84a61d55b7efefabd8419e28f02704f9" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PGM_VOID_P<sp/>int</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__builtin_constant_p</highlight></codeline>
+<codeline lineno="51" refid="_8_voyager_o_s_8vsarduino_8h_1a70554f8b34f4b7014cd90fb1838152fd" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>__builtin_constant_p<sp/>__attribute__((__const__))</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#ifndef<sp/>__builtin_strlen</highlight></codeline>
+<codeline lineno="54" refid="_8_voyager_o_s_8vsarduino_8h_1a6e34ecf16b5b61decca745d01240faab" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>__builtin_strlen<sp/><sp/>__attribute__((__const__))</highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="_8_voyager_o_s_8vsarduino_8h_1a03fea404d4dc0ef38df1f4acca6534e1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NEW_H</highlight></codeline>
+<codeline lineno="59" refid="_8_voyager_o_s_8vsarduino_8h_1ad7509c01b55e04b31e178ef9edacb88c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="_8_voyager_o_s_8vsarduino_8h_1ad7509c01b55e04b31e178ef9edacb88c" kindref="member">__builtin_va_list</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>&quot;C&quot;<sp/>void<sp/>__cxa_pure_virtual()<sp/>{;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="_8_voyager_o_s_8vsarduino_8h_1a1d011df1f9de0c03ee095779cad4d38e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_8_voyager_o_s_8vsarduino_8h_1a1d011df1f9de0c03ee095779cad4d38e" kindref="member">div_t</ref>;</highlight></codeline>
+<codeline lineno="63" refid="_8_voyager_o_s_8vsarduino_8h_1a9498f905d99bd77301aa1fd49f39441b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_8_voyager_o_s_8vsarduino_8h_1a9498f905d99bd77301aa1fd49f39441b" kindref="member">ldiv_t</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="_8_voyager_o_s_8vsarduino_8h_1ad7509c01b55e04b31e178ef9edacb88c" kindref="member">__builtin_va_list</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>&quot;C&quot;<sp/>void<sp/>__cxa_pure_virtual()<sp/>{;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pins_arduino.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//#undef<sp/>F</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>F(string_literal)<sp/>((const<sp/>PROGMEM<sp/>char<sp/>*)(string_literal))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>PSTR</highlight></codeline>
+<codeline lineno="76" refid="_8_voyager_o_s_8vsarduino_8h_1ae7ad9db1b807b9d118ca82d9a17f11c3" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PSTR(string_literal)<sp/>((const<sp/>PROGMEM<sp/>char<sp/>*)(string_literal))</highlight></codeline>
+<codeline lineno="77"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//typedef<sp/>unsigned<sp/>char<sp/>uint8_t;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//typedef<sp/>unsigned<sp/>int<sp/>uint8_t;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="_8_voyager_o_s_8vsarduino_8h_1a88d7dd4863f87530e1a34ece430a587c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>pgm_read_byte_near(address_short)<sp/>uint8_t()</highlight></codeline>
+<codeline lineno="82" refid="_8_voyager_o_s_8vsarduino_8h_1a73084a8bbde259ffae72980354b3f027" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>pgm_read_byte(address_short)<sp/>uint8_t()<sp/></highlight></codeline>
+<codeline lineno="83" refid="_8_voyager_o_s_8vsarduino_8h_1a32d8ab354156f4b1ffdb77a275ba6223" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>pgm_read_word(address_short)<sp/>uint16_t()<sp/></highlight></codeline>
+<codeline lineno="84" refid="_8_voyager_o_s_8vsarduino_8h_1abb68859ac5dfa6a09ac048b4037a83b6" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>pgm_read_dword(address_short)<sp/>uint32_t()</highlight></codeline>
+<codeline lineno="85" refid="_8_voyager_o_s_8vsarduino_8h_1a7911bddb066a8a038efc4b7857728fa8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>pgm_read_float(address_short)<sp/>float()</highlight></codeline>
+<codeline lineno="86" refid="_8_voyager_o_s_8vsarduino_8h_1ac9f61931fd8cf4cf4764744dbaee81b6" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>pgm_read_ptr(address_short)<sp/><sp/><sp/>short()</highlight></codeline>
+<codeline lineno="87"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;VoyagerOS.ino&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="90"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/__vm/.VoyagerOS.vsarduino.h"/>
+  </compounddef>
+</doxygen>

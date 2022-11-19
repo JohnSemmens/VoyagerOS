@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_r_c___i_n___type" kind="struct" prot="public">
+    <compoundname>RC_IN_Type</compoundname>
+    <includes refid="_radio_control_8h" local="no">RadioControl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t RC_IN_Type::Channel[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>Channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="13" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" compoundref="_radio_control_8cpp" startline="167" endline="227">RC_Command_Switch</referencedby>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c___i_n___type_1aabbbba69226888f20ed88dbbdb7a3449" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RC_IN_Type::SignalValid</definition>
+        <argsstring></argsstring>
+        <name>SignalValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="14" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" compoundref="_radio_control_8cpp" startline="167" endline="227">RC_Command_Switch</referencedby>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c___i_n___type_1a48bd12f9e2fc82764a1cc7101a7f612a" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long RC_IN_Type::LastRCSignalTime</definition>
+        <argsstring></argsstring>
+        <name>LastRCSignalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="15" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c___i_n___type_1a4b6be8a8907ba7d97eb168a401088493" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RC_IN_Type::RC_Command_Switch_Position</definition>
+        <argsstring></argsstring>
+        <name>RC_Command_Switch_Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="16" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" compoundref="_radio_control_8cpp" startline="167" endline="227">RC_Command_Switch</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" prot="public" virt="non-virtual"><scope>RC_IN_Type</scope><name>Channel</name></member>
+      <member refid="struct_r_c___i_n___type_1a48bd12f9e2fc82764a1cc7101a7f612a" prot="public" virt="non-virtual"><scope>RC_IN_Type</scope><name>LastRCSignalTime</name></member>
+      <member refid="struct_r_c___i_n___type_1a4b6be8a8907ba7d97eb168a401088493" prot="public" virt="non-virtual"><scope>RC_IN_Type</scope><name>RC_Command_Switch_Position</name></member>
+      <member refid="struct_r_c___i_n___type_1aabbbba69226888f20ed88dbbdb7a3449" prot="public" virt="non-virtual"><scope>RC_IN_Type</scope><name>SignalValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

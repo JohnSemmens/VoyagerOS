@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_mission_command" kind="struct" prot="public">
+    <compoundname>MissionCommand</compoundname>
+    <includes refid="_mission_8h" local="no">Mission.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" prot="public" static="no" mutable="no">
+        <type><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398" kindref="member">MissionCommandType</ref></type>
+        <definition>MissionCommandType MissionCommand::cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" line="25" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_mission_command_1ac293e5ddea78b48d1d26c97a4530e73f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location MissionCommand::waypoint</definition>
+        <argsstring></argsstring>
+        <name>waypoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" line="26" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+        <referencedby refid="_mission_8h_1ab22b8b14464b9f954092f326c4a1af95" compoundref="_mission_8cpp" startline="245" endline="265">set_next_WP_for_display</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MissionCommand::boundary</definition>
+        <argsstring></argsstring>
+        <name>boundary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" line="27" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+        <referencedby refid="_mission_8h_1ab22b8b14464b9f954092f326c4a1af95" compoundref="_mission_8cpp" startline="245" endline="265">set_next_WP_for_display</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_mission_command_1a055a0fda744513046135edf636de7281" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MissionCommand::controlMask</definition>
+        <argsstring></argsstring>
+        <name>controlMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" line="28" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_mission_command_1a1616af2b51234c7ee3f5e55a877d689d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MissionCommand::duration</definition>
+        <argsstring></argsstring>
+        <name>duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" line="29" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_mission_command_1a0e191ee386b81492da3ba46977efeedf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MissionCommand::SteerAWA</definition>
+        <argsstring></argsstring>
+        <name>SteerAWA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" line="30" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_mission_command_1a5400ca1048df713e7410dc6dea6d8f81" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MissionCommand::TrimTabAngle</definition>
+        <argsstring></argsstring>
+        <name>TrimTabAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" line="31" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1a71ea10b3cd5edf41507d0d86beded8f2" compoundref="_telemetry_messages_8cpp" startline="361" endline="438">SendMissionStep</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="84">
+        <label>MissionCommand</label>
+        <link refid="struct_mission_command"/>
+        <childnode refid="85" relation="usage">
+          <edgelabel>waypoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="85">
+        <label>Location</label>
+        <link refid="struct_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h" bodystart="24" bodyend="32"/>
+    <listofallmembers>
+      <member refid="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" prot="public" virt="non-virtual"><scope>MissionCommand</scope><name>boundary</name></member>
+      <member refid="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" prot="public" virt="non-virtual"><scope>MissionCommand</scope><name>cmd</name></member>
+      <member refid="struct_mission_command_1a055a0fda744513046135edf636de7281" prot="public" virt="non-virtual"><scope>MissionCommand</scope><name>controlMask</name></member>
+      <member refid="struct_mission_command_1a1616af2b51234c7ee3f5e55a877d689d" prot="public" virt="non-virtual"><scope>MissionCommand</scope><name>duration</name></member>
+      <member refid="struct_mission_command_1a0e191ee386b81492da3ba46977efeedf" prot="public" virt="non-virtual"><scope>MissionCommand</scope><name>SteerAWA</name></member>
+      <member refid="struct_mission_command_1a5400ca1048df713e7410dc6dea6d8f81" prot="public" virt="non-virtual"><scope>MissionCommand</scope><name>TrimTabAngle</name></member>
+      <member refid="struct_mission_command_1ac293e5ddea78b48d1d26c97a4530e73f" prot="public" virt="non-virtual"><scope>MissionCommand</scope><name>waypoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

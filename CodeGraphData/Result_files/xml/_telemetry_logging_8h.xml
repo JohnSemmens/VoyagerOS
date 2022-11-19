@@ -1,0 +1,799 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_telemetry_logging_8h" kind="file">
+    <compoundname>TelemetryLogging.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includes refid="_command_state___processor_8h" local="yes">CommandState_Processor.h</includes>
+    <includes refid="_navigation_8h" local="yes">Navigation.h</includes>
+    <includedby refid="_c_l_i_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</includedby>
+    <includedby refid="_s_d_card_log_file_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.h</includedby>
+    <includedby refid="_command_state___processor_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</includedby>
+    <includedby refid="_sailing_navigation_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</includedby>
+    <includedby refid="_loiter_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</includedby>
+    <includedby refid="_mission_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_sailing_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</includedby>
+    <includedby refid="_telemetry_logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</includedby>
+    <includedby refid="_telemetry_messages_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</includedby>
+    <incdepgraph>
+      <node id="781">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="779" relation="include">
+        </childnode>
+      </node>
+      <node id="782">
+        <label>Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="779" relation="include">
+        </childnode>
+        <childnode refid="781" relation="include">
+        </childnode>
+      </node>
+      <node id="779">
+        <label>arduino.h</label>
+      </node>
+      <node id="780">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="779" relation="include">
+        </childnode>
+        <childnode refid="781" relation="include">
+        </childnode>
+      </node>
+      <node id="778">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h</label>
+        <link refid="TelemetryLogging.h"/>
+        <childnode refid="779" relation="include">
+        </childnode>
+        <childnode refid="780" relation="include">
+        </childnode>
+        <childnode refid="782" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="787">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="785">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.h</label>
+        <link refid="_s_d_card_log_file_8h"/>
+        <childnode refid="784" relation="include">
+        </childnode>
+        <childnode refid="786" relation="include">
+        </childnode>
+        <childnode refid="787" relation="include">
+        </childnode>
+        <childnode refid="788" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+        <childnode refid="790" relation="include">
+        </childnode>
+      </node>
+      <node id="788">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</label>
+        <link refid="_mission_8cpp"/>
+      </node>
+      <node id="784">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="795">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="786">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="793">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="790">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</label>
+        <link refid="_s_d_card_log_file_8cpp"/>
+      </node>
+      <node id="791">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</label>
+        <link refid="_sailing_navigation_8h"/>
+        <childnode refid="787" relation="include">
+        </childnode>
+        <childnode refid="792" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+      </node>
+      <node id="792">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="794">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</label>
+        <link refid="_telemetry_logging_8cpp"/>
+      </node>
+      <node id="789">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</label>
+        <link refid="_sailing_navigation_8cpp"/>
+      </node>
+      <node id="783">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h</label>
+        <link refid="TelemetryLogging.h"/>
+        <childnode refid="784" relation="include">
+        </childnode>
+        <childnode refid="785" relation="include">
+        </childnode>
+        <childnode refid="786" relation="include">
+        </childnode>
+        <childnode refid="791" relation="include">
+        </childnode>
+        <childnode refid="787" relation="include">
+        </childnode>
+        <childnode refid="788" relation="include">
+        </childnode>
+        <childnode refid="793" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+        <childnode refid="794" relation="include">
+        </childnode>
+        <childnode refid="795" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" prot="public" static="no">
+        <name>DecisionEventType</name>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a55b5c98c6360f06476f8b5ca84a088c0" prot="public">
+          <name>deIncrementMissionIndex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742abe686dae4dd42d5c358e1199c9a2826a" prot="public">
+          <name>dePastWaypoint</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a3e12eb7b83cb01a4c2aa7335430d5b72" prot="public">
+          <name>deEndOfMission</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" prot="public">
+          <name>deTackToPort</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" prot="public">
+          <name>deTackToStarboard</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aac84f9ba2711b341c8f07b554ebccf29" prot="public">
+          <name>deTackToPortRunning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a1c9adda82ff0b8c11b7ae8d0feada0f8" prot="public">
+          <name>deTackToStarboardRunning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a9a694068bf7bf699349323bb654f8eff" prot="public">
+          <name>deChangeCommandState</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a300124410707e5ccdc7b370c9ca1e15e" prot="public">
+          <name>deHoldCourse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="37" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="37" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="enum" id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" prot="public" static="no">
+        <name>DecisionEventReasonType</name>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a788353dd89cacf994ab952e7ce3a3294" prot="public">
+          <name>rPastWaypoint</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a831d0afe5af1e2e365081caf05aeff4a" prot="public">
+          <name>rPastTime</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3ae9c6da8085dc71d047d32dab6f632b4d" prot="public">
+          <name>rPastDuration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a208275f6c83e1e0a9b1335fe9bcceadf" prot="public">
+          <name>rPastBoundary</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abc936ead52144e938653544d209f9e00" prot="public">
+          <name>rFavouredTack</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a5c816ade1654cd331855e741b8bdcaa4" prot="public">
+          <name>rNoChange</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a7975ea76c366c6657e2b357a675ab9d9" prot="public">
+          <name>rLimitToSailingCourse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3acca47118064ef0b2f9e55f85fd54c7f7" prot="public">
+          <name>rPastLoiterBoundary</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a216c2cce7f38d9051fddbe05b7d7b89a" prot="public">
+          <name>rUnkown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a0b4626116544de53cfc36f290e25eb73" prot="public">
+          <name>rNone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abd1038cf30435684eeecd11a48e43a23" prot="public">
+          <name>rManualIntervention</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a28b8ec55c3f68261296a317b2572d8c7" prot="public">
+          <name>rApproachingWP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="49" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="49" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a7572a523c2fd618a06fd7a534614f400" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Location</definition>
+        <argsstring></argsstring>
+        <name>Log_Location</name>
+        <initializer>= 0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="19" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a1d9cfb5c83ea9b2fc6f9ea043dc1ec0c" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Attitude</definition>
+        <argsstring></argsstring>
+        <name>Log_Attitude</name>
+        <initializer>= 0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="20" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a113c360a30ba93384f39cb5b7fe0dc35" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Situation</definition>
+        <argsstring></argsstring>
+        <name>Log_Situation</name>
+        <initializer>= 0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="21" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1ae15d9b165097674dce717d85a6d6179f" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Waypoints</definition>
+        <argsstring></argsstring>
+        <name>Log_Waypoints</name>
+        <initializer>= 0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="22" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1ae46466466586d4fe45999a44acef682a" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Sailing</definition>
+        <argsstring></argsstring>
+        <name>Log_Sailing</name>
+        <initializer>= 0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a4f46b3504d0ac19fc645c07b6e606f5d" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Navigation</definition>
+        <argsstring></argsstring>
+        <name>Log_Navigation</name>
+        <initializer>= 0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="25" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1aed0ac9611457c21d37efc74a510b5233" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_System</definition>
+        <argsstring></argsstring>
+        <name>Log_System</name>
+        <initializer>= 0x0080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="26" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a7533e06f6c417ae7a784f27582a42c3d" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_GPS</definition>
+        <argsstring></argsstring>
+        <name>Log_GPS</name>
+        <initializer>= 0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="27" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a2ddfd05bec2aa512a2cd1461ae6314dd" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Decisions</definition>
+        <argsstring></argsstring>
+        <name>Log_Decisions</name>
+        <initializer>= 0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="28" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+        <referencedby refid="_telemetry_logging_8h_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1aa3fd2612eacdb5a3429f4eec31cc1799" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_ServoOut</definition>
+        <argsstring></argsstring>
+        <name>Log_ServoOut</name>
+        <initializer>= 0x0400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="29" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a7d4ee58be2709708d06377cf76a48397" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Voltages</definition>
+        <argsstring></argsstring>
+        <name>Log_Voltages</name>
+        <initializer>= 0x0800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="30" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a58daf0618bb2452c5a9c6940fa800a95" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Usage</definition>
+        <argsstring></argsstring>
+        <name>Log_Usage</name>
+        <initializer>= 0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="31" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a819cd54baa36220f4d1a808a7a64fe4a" compoundref="_s_d_card_log_file_8cpp" startline="757" endline="773">SD_Logging_Event_Usage</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a5d73ac57e372032c7c913f99597dfc9d" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Environment</definition>
+        <argsstring></argsstring>
+        <name>Log_Environment</name>
+        <initializer>= 0x2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="32" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_telemetry_logging_8h_1a485889527c39347b912a7439d397441c" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Log_Messages</definition>
+        <argsstring></argsstring>
+        <name>Log_Messages</name>
+        <initializer>= 0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="34" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_telemetry_logging_8h_1a7f31c903abd0d74edd169c2b84fb1b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TelemetryLogging_Event_Decisions</definition>
+        <argsstring>(int CommandPort, word LoggingMask)</argsstring>
+        <name>TelemetryLogging_Event_Decisions</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <param>
+          <type>word</type>
+          <declname>LoggingMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="66" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp" bodystart="347" bodyend="362"/>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="_telemetry_logging_8cpp_1a423068d07ce6b701c76aa5a642178ca5" compoundref="_telemetry_logging_8cpp" startline="382" endline="434">CommandStateToString</references>
+        <references refid="_telemetry_logging_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_telemetry_logging_8cpp_1a4e68978287be769969d1c58c14401c1a">DecisionEventReason</references>
+        <references refid="_telemetry_logging_8cpp_1aa65e04ac82e36146dbd76693c2cbd005" compoundref="_telemetry_logging_8cpp" startline="488" endline="549">DecisionEventReasonToString</references>
+        <references refid="_telemetry_logging_8cpp_1a8b883936f30cc994ea34c686f10fbdfe" compoundref="_telemetry_logging_8cpp" startline="437" endline="486">DecisionEventToString</references>
+        <references refid="_telemetry_logging_8h_1a2ddfd05bec2aa512a2cd1461ae6314dd" compoundref="_telemetry_logging_8h" startline="28">Log_Decisions</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="_telemetry_logging_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <references refid="_telemetry_logging_8cpp_1a1bb2ce9acb1f8799f3148e4b8633419f" compoundref="_telemetry_logging_8cpp" startline="44" endline="60">TelemetryLogTime</references>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" compoundref="_sailing_navigation_8cpp" startline="211" endline="257">SetTack</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_telemetry_logging_8h_1a423068d07ce6b701c76aa5a642178ca5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String CommandStateToString</definition>
+        <argsstring>(VesselCommandStateType CommandState)</argsstring>
+        <name>CommandStateToString</name>
+        <param>
+          <type><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref></type>
+          <declname>CommandState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="70" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp" bodystart="382" bodyend="434"/>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849adabd724d3ef0f9779c154b7217ca77ed" compoundref="_command_state___processor_8h" startline="16">vcsIdle</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" compoundref="_command_state___processor_8h" startline="25">vcsLoiter</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" compoundref="_command_state___processor_8h" startline="18">vcsPartialManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" compoundref="_command_state___processor_8h" startline="24">vcsResetMissionIndex</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" compoundref="_command_state___processor_8h" startline="23">vcsSetHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" compoundref="_command_state___processor_8h" startline="20">vcsSteerMagneticCourse</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" compoundref="_command_state___processor_8h" startline="21">vcsSteerWindCourse</references>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_telemetry_logging_8h_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_telemetry_logging_8h_1a8b883936f30cc994ea34c686f10fbdfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String DecisionEventToString</definition>
+        <argsstring>(DecisionEventType DecisionEvent)</argsstring>
+        <name>DecisionEventToString</name>
+        <param>
+          <type><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" kindref="member">DecisionEventType</ref></type>
+          <declname>DecisionEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="71" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp" bodystart="437" bodyend="486"/>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a9a694068bf7bf699349323bb654f8eff" compoundref="_telemetry_logging_8h" startline="45">deChangeCommandState</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a3e12eb7b83cb01a4c2aa7335430d5b72" compoundref="_telemetry_logging_8h" startline="40">deEndOfMission</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a300124410707e5ccdc7b370c9ca1e15e" compoundref="_telemetry_logging_8h" startline="46">deHoldCourse</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a55b5c98c6360f06476f8b5ca84a088c0" compoundref="_telemetry_logging_8h" startline="38">deIncrementMissionIndex</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742abe686dae4dd42d5c358e1199c9a2826a" compoundref="_telemetry_logging_8h" startline="39">dePastWaypoint</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" compoundref="_telemetry_logging_8h" startline="41">deTackToPort</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aac84f9ba2711b341c8f07b554ebccf29" compoundref="_telemetry_logging_8h" startline="43">deTackToPortRunning</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" compoundref="_telemetry_logging_8h" startline="42">deTackToStarboard</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a1c9adda82ff0b8c11b7ae8d0feada0f8" compoundref="_telemetry_logging_8h" startline="44">deTackToStarboardRunning</references>
+        <referencedby refid="_s_d_card_log_file_8h_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</referencedby>
+        <referencedby refid="_telemetry_logging_8h_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_telemetry_logging_8h_1aa65e04ac82e36146dbd76693c2cbd005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String DecisionEventReasonToString</definition>
+        <argsstring>(DecisionEventReasonType DecisionEventReason)</argsstring>
+        <name>DecisionEventReasonToString</name>
+        <param>
+          <type><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref></type>
+          <declname>DecisionEventReason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="72" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp" bodystart="488" bodyend="549"/>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a28b8ec55c3f68261296a317b2572d8c7" compoundref="_telemetry_logging_8h" startline="61">rApproachingWP</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abc936ead52144e938653544d209f9e00" compoundref="_telemetry_logging_8h" startline="54">rFavouredTack</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a7975ea76c366c6657e2b357a675ab9d9" compoundref="_telemetry_logging_8h" startline="56">rLimitToSailingCourse</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abd1038cf30435684eeecd11a48e43a23" compoundref="_telemetry_logging_8h" startline="60">rManualIntervention</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a5c816ade1654cd331855e741b8bdcaa4" compoundref="_telemetry_logging_8h" startline="55">rNoChange</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a0b4626116544de53cfc36f290e25eb73" compoundref="_telemetry_logging_8h" startline="59">rNone</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a208275f6c83e1e0a9b1335fe9bcceadf" compoundref="_telemetry_logging_8h" startline="53">rPastBoundary</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3ae9c6da8085dc71d047d32dab6f632b4d" compoundref="_telemetry_logging_8h" startline="52">rPastDuration</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3acca47118064ef0b2f9e55f85fd54c7f7" compoundref="_telemetry_logging_8h" startline="57">rPastLoiterBoundary</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a831d0afe5af1e2e365081caf05aeff4a" compoundref="_telemetry_logging_8h" startline="51">rPastTime</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a788353dd89cacf994ab952e7ce3a3294" compoundref="_telemetry_logging_8h" startline="50">rPastWaypoint</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a216c2cce7f38d9051fddbe05b7d7b89a" compoundref="_telemetry_logging_8h" startline="58">rUnkown</references>
+        <referencedby refid="_s_d_card_log_file_8h_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</referencedby>
+        <referencedby refid="_telemetry_logging_8h_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_telemetry_logging_8h_1a71884706f22f4eddff74dec1ffa0615e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String CourseTypeToString</definition>
+        <argsstring>(SteeringCourseType CourseType)</argsstring>
+        <name>CourseTypeToString</name>
+        <param>
+          <type><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref></type>
+          <declname>CourseType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="73" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp" bodystart="551" bodyend="576"/>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" compoundref="_navigation_8h" startline="40">ctDirectToWayPoint</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_telemetry_logging_8h_1aab19dbac151e7add0afcf035aad3f1b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String CourseTypeToString</definition>
+        <argsstring>(ManoeuvreStateType ManoeuvreState)</argsstring>
+        <name>CourseTypeToString</name>
+        <param>
+          <type><ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4" kindref="member">ManoeuvreStateType</ref></type>
+          <declname>ManoeuvreState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h" line="74" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp" bodystart="579" bodyend="607"/>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ab88b3abfd931022a589a104f72f21b45" compoundref="_navigation_8h" startline="55">mstCommence</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4a2a38eaa61e779980add3b6b04b5cc167" compoundref="_navigation_8h" startline="57">mstComplete</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ae54d08f8a951822bfdb25a5aa687473b" compoundref="_navigation_8h" startline="54">mstNone</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4aa3770d5ce2841bfcbea8a528759d9b7d" compoundref="_navigation_8h" startline="56">mstRunning</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Send<sp/>Telemetry<sp/>Data<sp/>back<sp/>to<sp/>the<sp/>Base<sp/>Station.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Data<sp/>of<sp/>different<sp/>types<sp/>and<sp/>detail,<sp/>are<sp/>sent<sp/>via<sp/>the<sp/>serial<sp/>port<sp/>in<sp/>accordance<sp/>with<sp/>the<sp/>specified<sp/>Telemetry<sp/>Level.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TelemetryLogging.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_TELEMETRYLOGGING_h</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_TELEMETRYLOGGING_h</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_command_state___processor_8h" kindref="compound">CommandState_Processor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_navigation_8h" kindref="compound">Navigation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>logging<sp/>masks<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="_telemetry_logging_8h_1a7572a523c2fd618a06fd7a534614f400" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a7572a523c2fd618a06fd7a534614f400" kindref="member">Log_Location</ref><sp/><sp/>=<sp/>0x0001;<sp/></highlight><highlight class="comment">//<sp/>loc<sp/>-<sp/>Time,<sp/>Lat,<sp/>Lon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_telemetry_logging_8h_1a1d9cfb5c83ea9b2fc6f9ea043dc1ec0c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a1d9cfb5c83ea9b2fc6f9ea043dc1ec0c" kindref="member">Log_Attitude</ref><sp/><sp/>=<sp/>0x0002;<sp/></highlight><highlight class="comment">//<sp/>att<sp/>-<sp/>Time,<sp/>Pitch,<sp/>Roll,<sp/>Compass,<sp/>Attitude<sp/>Status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="_telemetry_logging_8h_1a113c360a30ba93384f39cb5b7fe0dc35" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a113c360a30ba93384f39cb5b7fe0dc35" kindref="member">Log_Situation</ref><sp/>=<sp/>0x0004;<sp/></highlight><highlight class="comment">//<sp/>sit<sp/>-<sp/>Time,<sp/>BTW,<sp/>DTW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="_telemetry_logging_8h_1ae15d9b165097674dce717d85a6d6179f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1ae15d9b165097674dce717d85a6d6179f" kindref="member">Log_Waypoints</ref><sp/>=<sp/>0x0008;<sp/></highlight><highlight class="comment">//<sp/>way<sp/>-<sp/>Time,<sp/>previous<sp/>waypoint<sp/>Lat,<sp/>Lon,<sp/>next<sp/>waypoint<sp/>Lat,<sp/>Lon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//static<sp/>const<sp/>int<sp/>Log_Mission<sp/><sp/><sp/>=<sp/>0x0010;<sp/>//<sp/>mis<sp/>-<sp/>Time,<sp/>mission<sp/>index,<sp/>mission<sp/>command,<sp/>mission<sp/>command<sp/>paramters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="_telemetry_logging_8h_1ae46466466586d4fe45999a44acef682a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1ae46466466586d4fe45999a44acef682a" kindref="member">Log_Sailing</ref><sp/><sp/><sp/>=<sp/>0x0020;<sp/></highlight><highlight class="comment">//<sp/>sai<sp/>-<sp/>Time,<sp/>CTS,<sp/>HDG,<sp/>WA,<sp/>BTW,<sp/>TackTime,<sp/>CTE<sp/>,<sp/>Max<sp/>CTE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="_telemetry_logging_8h_1a4f46b3504d0ac19fc645c07b6e606f5d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a4f46b3504d0ac19fc645c07b6e606f5d" kindref="member">Log_Navigation</ref><sp/>=<sp/>0x0040;<sp/></highlight><highlight class="comment">//<sp/>nav<sp/>-<sp/>Time,<sp/>BTW,<sp/>DTW,<sp/>RLB,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_telemetry_logging_8h_1aed0ac9611457c21d37efc74a510b5233" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1aed0ac9611457c21d37efc74a510b5233" kindref="member">Log_System</ref><sp/>=<sp/>0x0080;<sp/></highlight><highlight class="comment">//<sp/>sys,<sp/>looptime</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="_telemetry_logging_8h_1a7533e06f6c417ae7a784f27582a42c3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a7533e06f6c417ae7a784f27582a42c3d" kindref="member">Log_GPS</ref><sp/>=<sp/>0x0100;<sp/></highlight><highlight class="comment">//<sp/>sys,<sp/>GPS<sp/>state<sp/>information</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="_telemetry_logging_8h_1a2ddfd05bec2aa512a2cd1461ae6314dd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a2ddfd05bec2aa512a2cd1461ae6314dd" kindref="member">Log_Decisions</ref><sp/>=<sp/>0x0200;<sp/></highlight><highlight class="comment">//<sp/>dec<sp/>-<sp/>Time,<sp/>Decisions<sp/>about<sp/>navigation<sp/>and<sp/>sailing.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="_telemetry_logging_8h_1aa3fd2612eacdb5a3429f4eec31cc1799" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1aa3fd2612eacdb5a3429f4eec31cc1799" kindref="member">Log_ServoOut</ref><sp/>=<sp/>0x0400;<sp/></highlight><highlight class="comment">//<sp/>svo<sp/>-<sp/>Time,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="_telemetry_logging_8h_1a7d4ee58be2709708d06377cf76a48397" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a7d4ee58be2709708d06377cf76a48397" kindref="member">Log_Voltages</ref><sp/>=<sp/>0x0800;<sp/></highlight><highlight class="comment">//<sp/>vlt<sp/>-<sp/>Time,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="_telemetry_logging_8h_1a58daf0618bb2452c5a9c6940fa800a95" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a58daf0618bb2452c5a9c6940fa800a95" kindref="member">Log_Usage</ref><sp/>=<sp/>0x1000;<sp/></highlight><highlight class="comment">//<sp/>use<sp/>-<sp/>Time<sp/>-<sp/>Usage<sp/>Statistics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="_telemetry_logging_8h_1a5d73ac57e372032c7c913f99597dfc9d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a5d73ac57e372032c7c913f99597dfc9d" kindref="member">Log_Environment</ref><sp/>=<sp/>0x2000;<sp/></highlight><highlight class="comment">//<sp/>env<sp/>-<sp/>Time,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spare<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4000<sp/>;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="_telemetry_logging_8h_1a485889527c39347b912a7439d397441c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a485889527c39347b912a7439d397441c" kindref="member">Log_Messages</ref><sp/>=<sp/>0x8000;<sp/></highlight><highlight class="comment">//<sp/>MSG<sp/>Messages</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>enumerated<sp/>type<sp/>for<sp/>Decision<sp/>Events<sp/>for<sp/>the<sp/>purpose<sp/>of<sp/>logging</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" kindref="member">DecisionEventType</ref><sp/>{</highlight></codeline>
+<codeline lineno="38" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a55b5c98c6360f06476f8b5ca84a088c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a55b5c98c6360f06476f8b5ca84a088c0" kindref="member">deIncrementMissionIndex</ref>,</highlight></codeline>
+<codeline lineno="39" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742abe686dae4dd42d5c358e1199c9a2826a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742abe686dae4dd42d5c358e1199c9a2826a" kindref="member">dePastWaypoint</ref>,</highlight></codeline>
+<codeline lineno="40" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a3e12eb7b83cb01a4c2aa7335430d5b72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a3e12eb7b83cb01a4c2aa7335430d5b72" kindref="member">deEndOfMission</ref>,</highlight></codeline>
+<codeline lineno="41" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aed0ee60c81a54d08b42803a448b9177a" kindref="member">deTackToPort</ref>,</highlight></codeline>
+<codeline lineno="42" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742ac2ba16bdf9606dca28ff2f3fd4aa6fcf" kindref="member">deTackToStarboard</ref>,</highlight></codeline>
+<codeline lineno="43" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aac84f9ba2711b341c8f07b554ebccf29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742aac84f9ba2711b341c8f07b554ebccf29" kindref="member">deTackToPortRunning</ref>,</highlight></codeline>
+<codeline lineno="44" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a1c9adda82ff0b8c11b7ae8d0feada0f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a1c9adda82ff0b8c11b7ae8d0feada0f8" kindref="member">deTackToStarboardRunning</ref>,</highlight></codeline>
+<codeline lineno="45" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a9a694068bf7bf699349323bb654f8eff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a9a694068bf7bf699349323bb654f8eff" kindref="member">deChangeCommandState</ref>,</highlight></codeline>
+<codeline lineno="46" refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a300124410707e5ccdc7b370c9ca1e15e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a300124410707e5ccdc7b370c9ca1e15e" kindref="member">deHoldCourse</ref></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref><sp/>{</highlight></codeline>
+<codeline lineno="50" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a788353dd89cacf994ab952e7ce3a3294" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a788353dd89cacf994ab952e7ce3a3294" kindref="member">rPastWaypoint</ref>,</highlight></codeline>
+<codeline lineno="51" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a831d0afe5af1e2e365081caf05aeff4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a831d0afe5af1e2e365081caf05aeff4a" kindref="member">rPastTime</ref>,</highlight></codeline>
+<codeline lineno="52" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3ae9c6da8085dc71d047d32dab6f632b4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3ae9c6da8085dc71d047d32dab6f632b4d" kindref="member">rPastDuration</ref>,</highlight></codeline>
+<codeline lineno="53" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a208275f6c83e1e0a9b1335fe9bcceadf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a208275f6c83e1e0a9b1335fe9bcceadf" kindref="member">rPastBoundary</ref>,</highlight></codeline>
+<codeline lineno="54" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abc936ead52144e938653544d209f9e00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abc936ead52144e938653544d209f9e00" kindref="member">rFavouredTack</ref>,</highlight></codeline>
+<codeline lineno="55" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a5c816ade1654cd331855e741b8bdcaa4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a5c816ade1654cd331855e741b8bdcaa4" kindref="member">rNoChange</ref>,</highlight></codeline>
+<codeline lineno="56" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a7975ea76c366c6657e2b357a675ab9d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a7975ea76c366c6657e2b357a675ab9d9" kindref="member">rLimitToSailingCourse</ref>,</highlight></codeline>
+<codeline lineno="57" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3acca47118064ef0b2f9e55f85fd54c7f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3acca47118064ef0b2f9e55f85fd54c7f7" kindref="member">rPastLoiterBoundary</ref>,</highlight></codeline>
+<codeline lineno="58" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a216c2cce7f38d9051fddbe05b7d7b89a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a216c2cce7f38d9051fddbe05b7d7b89a" kindref="member">rUnkown</ref>,</highlight></codeline>
+<codeline lineno="59" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a0b4626116544de53cfc36f290e25eb73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a0b4626116544de53cfc36f290e25eb73" kindref="member">rNone</ref>,</highlight></codeline>
+<codeline lineno="60" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abd1038cf30435684eeecd11a48e43a23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abd1038cf30435684eeecd11a48e43a23" kindref="member">rManualIntervention</ref>,</highlight></codeline>
+<codeline lineno="61" refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a28b8ec55c3f68261296a317b2572d8c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3a28b8ec55c3f68261296a317b2572d8c7" kindref="member">rApproachingWP</ref></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>TelemetryLogging(int<sp/>CommandPort,<sp/>word<sp/>LoggingMask);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>TelemetryLogging_Init(int<sp/>CommandPort,<sp/>word<sp/>LoggingMask);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a7f31c903abd0d74edd169c2b84fb1b10" kindref="member">TelemetryLogging_Event_Decisions</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/>word<sp/>LoggingMask);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>TelemetryLogging_Event_Mission(int<sp/>CommandPort,<sp/>word<sp/>LoggingMask);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>TelemetryLogging_Event_Usage(int<sp/>CommandPort,<sp/>word<sp/>LoggingMask);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">String<sp/><ref refid="_telemetry_logging_8h_1a423068d07ce6b701c76aa5a642178ca5" kindref="member">CommandStateToString</ref>(<ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref><sp/>CommandState);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">String<sp/><ref refid="_telemetry_logging_8h_1a8b883936f30cc994ea34c686f10fbdfe" kindref="member">DecisionEventToString</ref>(<ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" kindref="member">DecisionEventType</ref><sp/><ref refid="_command_state___processor_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" kindref="member">DecisionEvent</ref>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">String<sp/><ref refid="_telemetry_logging_8h_1aa65e04ac82e36146dbd76693c2cbd005" kindref="member">DecisionEventReasonToString</ref>(<ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref><sp/><ref refid="_command_state___processor_8cpp_1a4e68978287be769969d1c58c14401c1a" kindref="member">DecisionEventReason</ref>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">String<sp/><ref refid="_telemetry_logging_8h_1a71884706f22f4eddff74dec1ffa0615e" kindref="member">CourseTypeToString</ref>(<ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/>CourseType);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">String<sp/><ref refid="_telemetry_logging_8h_1a71884706f22f4eddff74dec1ffa0615e" kindref="member">CourseTypeToString</ref>(<ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4" kindref="member">ManoeuvreStateType</ref><sp/>ManoeuvreState);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="77"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h"/>
+  </compounddef>
+</doxygen>

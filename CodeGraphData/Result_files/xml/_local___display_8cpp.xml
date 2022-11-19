@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_local___display_8cpp" kind="file">
+    <compoundname>Local_Display.cpp</compoundname>
+    <includes refid="_local___display_8h" local="yes">Local_Display.h</includes>
+    <includes refid="_o_l_e_d___logging_8h" local="yes">OLED_Logging.h</includes>
+    <incdepgraph>
+      <node id="388">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp</label>
+        <link refid="Local_Display.cpp"/>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>Local_Display.h</label>
+        <link refid="_local___display_8h"/>
+        <childnode refid="390" relation="include">
+        </childnode>
+      </node>
+      <node id="392">
+        <label>Mission.h</label>
+        <link refid="_mission_8h"/>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>Arduino.h</label>
+      </node>
+      <node id="394">
+        <label>arduino.h</label>
+      </node>
+      <node id="391">
+        <label>OLED_Logging.h</label>
+        <link refid="_o_l_e_d___logging_8h"/>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_local___display_8cpp_1aa3b5d25d8436def78821807a3c1a0593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Local_Display_Logging</definition>
+        <argsstring>(char LoggingLevel)</argsstring>
+        <name>Local_Display_Logging</name>
+        <param>
+          <type>char</type>
+          <declname>LoggingLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp" bodystart="12" bodyend="16"/>
+        <references refid="_o_l_e_d___logging_8cpp_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Local<sp/>Display<sp/>Handler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>generic<sp/>local<sp/>display<sp/>handler.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>It<sp/>passes<sp/>display<sp/>logging<sp/>page<sp/>requests<sp/>to<sp/>the<sp/>available<sp/>options<sp/>for<sp/>local<sp/>display.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>These<sp/>local<sp/>display<sp/>options<sp/>are:<sp/>0.91&quot;<sp/>OLED<sp/>and<sp/>20x4<sp/>LCD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.0<sp/>12/12/2017<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_local___display_8h" kindref="compound">Local_Display.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;LCD_Logging.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_o_l_e_d___logging_8h" kindref="compound">OLED_Logging.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_local___display_8h_1aa3b5d25d8436def78821807a3c1a0593" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_local___display_8cpp_1aa3b5d25d8436def78821807a3c1a0593" kindref="member">Local_Display_Logging</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>LoggingLevel)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_o_l_e_d___logging_8cpp_1ab084bc4028d1894cbd1a5f1026493cc1" kindref="member">OLED_Logging</ref>(LoggingLevel);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//LCD_Logging(LoggingLevel);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp"/>
+  </compounddef>
+</doxygen>

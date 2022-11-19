@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_misc_8h" kind="file">
+    <compoundname>Misc.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_a_p___math_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h</includedby>
+    <includedby refid="_a_p___math_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp</includedby>
+    <incdepgraph>
+      <node id="501">
+        <label>arduino.h</label>
+      </node>
+      <node id="500">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h</label>
+        <link refid="Misc.h"/>
+        <childnode refid="501" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="511">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="505">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</label>
+        <link refid="_c_l_i_8h"/>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="507" relation="include">
+        </childnode>
+        <childnode refid="508" relation="include">
+        </childnode>
+      </node>
+      <node id="513">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp</label>
+        <link refid="vector2_8cpp"/>
+      </node>
+      <node id="506">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="504">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp</label>
+        <link refid="_a_p___math_8cpp"/>
+      </node>
+      <node id="508">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="509">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="510">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp</label>
+        <link refid="location_8cpp"/>
+      </node>
+      <node id="512">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="507">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp</label>
+        <link refid="config_values_8cpp"/>
+      </node>
+      <node id="503">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h</label>
+        <link refid="_a_p___math_8h"/>
+        <childnode refid="504" relation="include">
+        </childnode>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="509" relation="include">
+        </childnode>
+        <childnode refid="510" relation="include">
+        </childnode>
+        <childnode refid="511" relation="include">
+        </childnode>
+        <childnode refid="512" relation="include">
+        </childnode>
+        <childnode refid="513" relation="include">
+        </childnode>
+      </node>
+      <node id="502">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h</label>
+        <link refid="Misc.h"/>
+        <childnode refid="503" relation="include">
+        </childnode>
+        <childnode refid="504" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_misc_8h_1a7571dba2995b9cb57259345fe49d2f97" prot="public" static="no">
+        <name>radians</name>
+        <param><defname>deg</defname></param>
+        <initializer>((deg)*DEG_TO_RAD)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h" line="17" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_plus_1af338c18ccf58a47659be1ffc8259541d" compoundref="_tiny_g_p_s_09_09_8cpp" startline="310" endline="328">TinyGPSPlus::courseTo</referencedby>
+        <referencedby refid="class_tiny_g_p_s_plus_1ace607cf3a6d49628e44eae1232237138" compoundref="_tiny_g_p_s_09_09_8cpp" startline="285" endline="308">TinyGPSPlus::distanceBetween</referencedby>
+        <referencedby refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" compoundref="_filters_8cpp" startline="33" endline="59">LowPassAngleFilter::Filter</referencedby>
+        <referencedby refid="location_8cpp_1ab0e06d28afb9d14043e1938af277396c" compoundref="location_8cpp" startline="151" endline="156">location_update</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_misc_8h_1afe93c2c14da376a1621194c15c1de496" prot="public" static="no">
+        <name>degrees</name>
+        <param><defname>rad</defname></param>
+        <initializer>((rad)*RAD_TO_DEG)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h" line="18" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_plus_1af338c18ccf58a47659be1ffc8259541d" compoundref="_tiny_g_p_s_09_09_8cpp" startline="310" endline="328">TinyGPSPlus::courseTo</referencedby>
+        <referencedby refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" compoundref="_filters_8cpp" startline="33" endline="59">LowPassAngleFilter::Filter</referencedby>
+        <referencedby refid="location_8h_1ab6cd880d070717b4c3cc7a7278768e72" compoundref="location_8cpp" startline="98" endline="130">location_passed_point</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" prot="public" static="no">
+        <name>sq</name>
+        <param><defname>x</defname></param>
+        <initializer>((x)*(x))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h" line="19" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_tiny_g_p_s_plus_1ace607cf3a6d49628e44eae1232237138" compoundref="_tiny_g_p_s_09_09_8cpp" startline="285" endline="308">TinyGPSPlus::distanceBetween</referencedby>
+        <referencedby refid="_a_p___math_8h_1afd3767d48a7b20f6d5220a4f8007af00" compoundref="_a_p___math_8cpp" startline="118" endline="120">pythagorous2</referencedby>
+        <referencedby refid="_a_p___math_8h_1ac09c78b18c2ad21b9a04081f119f11c0" compoundref="_a_p___math_8cpp" startline="123" endline="125">pythagorous3</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Misc.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_MISC_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_MISC_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>min(a,b)<sp/>((a)&lt;(b)?(a):(b))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>max(a,b)<sp/>((a)&gt;(b)?(a):(b))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>abs(x)<sp/>((x)&gt;0?(x):-(x))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>constrain(amt,low,high)<sp/>((amt)&lt;(low)?(low):((amt)&gt;(high)?(high):(amt)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>round(x)<sp/><sp/><sp/><sp/><sp/>((x)&gt;=0?(long)((x)+0.5):(long)((x)-0.5))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="_misc_8h_1a7571dba2995b9cb57259345fe49d2f97" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>radians(deg)<sp/>((deg)*DEG_TO_RAD)</highlight></codeline>
+<codeline lineno="18" refid="_misc_8h_1afe93c2c14da376a1621194c15c1de496" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>degrees(rad)<sp/>((rad)*RAD_TO_DEG)</highlight></codeline>
+<codeline lineno="19" refid="_misc_8h_1ae7616788b30810a219d9cdee95904ba4" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>sq(x)<sp/>((x)*(x))</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>labs(__i)<sp/>__builtin_labs(__i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Misc.h"/>
+  </compounddef>
+</doxygen>

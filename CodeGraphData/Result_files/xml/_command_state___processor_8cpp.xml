@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_command_state___processor_8cpp" kind="file">
+    <compoundname>CommandState_Processor.cpp</compoundname>
+    <includes refid="_command_state___processor_8h" local="yes">CommandState_Processor.h</includes>
+    <includes refid="_radio_control_8h" local="yes">RadioControl.h</includes>
+    <includes refid="_navigation_8h" local="yes">Navigation.h</includes>
+    <includes refid="config_values_8h" local="yes">configValues.h</includes>
+    <includes refid="_loiter_8h" local="yes">Loiter.h</includes>
+    <includes refid="location_8h" local="yes">location.h</includes>
+    <includes refid="_a_p___math_8h" local="yes">AP_Math.h</includes>
+    <includes refid="_telemetry_logging_8h" local="yes">TelemetryLogging.h</includes>
+    <includes refid="_s_d_card_log_file_8h" local="yes">SDCardLogFile.h</includes>
+    <incdepgraph>
+      <node id="183">
+        <label>SDCardLogFile.h</label>
+        <link refid="_s_d_card_log_file_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>SPI.h</label>
+      </node>
+      <node id="170">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>vector2.h</label>
+        <link refid="vector2_8h"/>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>stdint.h</label>
+      </node>
+      <node id="167">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="CommandState_Processor.cpp"/>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>Loiter.h</label>
+        <link refid="_loiter_8h"/>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>configValues.h</label>
+        <link refid="config_values_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>SdFat.h</label>
+      </node>
+      <node id="179">
+        <label>math.h</label>
+      </node>
+      <node id="177">
+        <label>AP_Math.h</label>
+        <link refid="_a_p___math_8h"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>Arduino.h</label>
+      </node>
+      <node id="171">
+        <label>RadioControl.h</label>
+        <link refid="_radio_control_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>arduino.h</label>
+      </node>
+      <node id="178">
+        <label>Misc.h</label>
+        <link refid="_misc_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>location.h</label>
+        <link refid="location_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>TelemetryLogging.h</label>
+        <link refid="_telemetry_logging_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1a84903d3dde78582cbc92053c3c18d444" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_state_values_struct" kindref="compound">StateValuesStruct</ref></type>
+        <definition>StateValuesStruct StateValues</definition>
+        <argsstring></argsstring>
+        <name>StateValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1a32f693d1f86e14f17d5fc04b2b7bc310" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_r_c___i_n___type" kindref="compound">RC_IN_Type</ref></type>
+        <definition>RC_IN_Type RC_IN</definition>
+        <argsstring></argsstring>
+        <name>RC_IN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1a6e6c124a8544f54a81bb39badabb0342" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref></type>
+        <definition>NavigationDataType NavData</definition>
+        <argsstring></argsstring>
+        <name>NavData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1a1106f1eecd15a9233233ae672d651265" prot="public" static="no" mutable="no">
+        <type><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref></type>
+        <definition>configValuesType Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1aaba928d8db82c396578c10f915447c21" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_loiter_struct" kindref="compound">LoiterStruct</ref></type>
+        <definition>LoiterStruct LoiterData</definition>
+        <argsstring></argsstring>
+        <name>LoiterData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" prot="public" static="no" mutable="no">
+        <type><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" kindref="member">DecisionEventType</ref></type>
+        <definition>DecisionEventType DecisionEvent</definition>
+        <argsstring></argsstring>
+        <name>DecisionEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="21" column="1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1a4e68978287be769969d1c58c14401c1a" prot="public" static="no" mutable="no">
+        <type><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref></type>
+        <definition>DecisionEventReasonType DecisionEventReason</definition>
+        <argsstring></argsstring>
+        <name>DecisionEventReason</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="22" column="1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1acf77702297e084409cf976092e15db6e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DecisionEventValue</definition>
+        <argsstring></argsstring>
+        <name>DecisionEventValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="23" column="1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_command_state___processor_8cpp_1aadcc1cb4a3163b28898cf7865b944006" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CommandPort</definition>
+        <argsstring></argsstring>
+        <name>CommandPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="24" column="1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_command_state___processor_8cpp_1a2f2b07eacea6b40bf75053dd875b8cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref></type>
+        <definition>VesselCommandStateType GetCommandStateFromRC_Command_Switch</definition>
+        <argsstring>(int RCSwitchPos)</argsstring>
+        <name>GetCommandStateFromRC_Command_Switch</name>
+        <param>
+          <type>int</type>
+          <declname>RCSwitchPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="27" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" bodystart="27" bodyend="69"/>
+        <references refid="structconfig_values_type_1a3606fd3b8680031f302f53bbef238b35" compoundref="config_values_8h" startline="90">configValuesType::FailsafeCommandState</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849adabd724d3ef0f9779c154b7217ca77ed" compoundref="_command_state___processor_8h" startline="16">vcsIdle</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" compoundref="_command_state___processor_8h" startline="18">vcsPartialManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" compoundref="_command_state___processor_8h" startline="23">vcsSetHome</references>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_command_state___processor_8cpp_1aa45fbfa8fbe030f162163fbf7a60fd43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandState_Processor</definition>
+        <argsstring>(void)</argsstring>
+        <name>CommandState_Processor</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" line="71" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp" bodystart="71" bodyend="175"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="_command_state___processor_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a9a694068bf7bf699349323bb654f8eff" compoundref="_telemetry_logging_8h" startline="45">deChangeCommandState</references>
+        <references refid="_command_state___processor_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf">DecisionEvent</references>
+        <references refid="_command_state___processor_8cpp_1a4e68978287be769969d1c58c14401c1a">DecisionEventReason</references>
+        <references refid="_command_state___processor_8cpp_1acf77702297e084409cf976092e15db6e">DecisionEventValue</references>
+        <references refid="_command_state___processor_8cpp_1a2f2b07eacea6b40bf75053dd875b8cbe" compoundref="_command_state___processor_8cpp" startline="27" endline="69">GetCommandStateFromRC_Command_Switch</references>
+        <references refid="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" compoundref="_command_state___processor_8h" startline="38">StateValuesStruct::home</references>
+        <references refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" compoundref="_command_state___processor_8h" startline="39">StateValuesStruct::home_is_set</references>
+        <references refid="_a_p___math_8h_1ab0e06d28afb9d14043e1938af277396c" compoundref="location_8cpp" startline="151" endline="156">location_update</references>
+        <references refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" compoundref="_loiter_8h" startline="25">LoiterStruct::loiterCentreLocation</references>
+        <references refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" compoundref="_loiter_8h" startline="28">LoiterStruct::LoiterLocationNext</references>
+        <references refid="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" compoundref="_loiter_8h" startline="27">LoiterStruct::loiterLocationPrevious</references>
+        <references refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" compoundref="_loiter_8h" startline="34">LoiterStruct::LoiterRadius</references>
+        <references refid="structconfig_values_type_1a1176e7ee5accf3fd2610f2bdd2296f9c" compoundref="config_values_8h" startline="109">configValuesType::LoiterRadius</references>
+        <references refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" compoundref="_loiter_8h" startline="24">LoiterStruct::LoiterState</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342ae5310f50cd9fee4cedb79495508058e8" compoundref="_loiter_8h" startline="19">lsPortSide</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a828ae9f56dfe1eeab98643dbe73b24bf" compoundref="_loiter_8h" startline="20">lsStarboardSide</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" compoundref="_navigation_8h" startline="64">NavigationDataType::next_WP</references>
+        <references refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" compoundref="_navigation_8h" startline="76">NavigationDataType::next_WP_valid</references>
+        <references refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" compoundref="_navigation_8h" startline="63">NavigationDataType::prev_WP</references>
+        <references refid="struct_r_c___i_n___type_1a4b6be8a8907ba7d97eb168a401088493" compoundref="_radio_control_8h" startline="16">RC_IN_Type::RC_Command_Switch_Position</references>
+        <references refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abd1038cf30435684eeecd11a48e43a23" compoundref="_telemetry_logging_8h" startline="60">rManualIntervention</references>
+        <references refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" compoundref="_command_state___processor_8h" startline="35">StateValuesStruct::StartingMission</references>
+        <references refid="struct_state_values_struct_1a4100b0f396b9eecc008b3502739b0294" compoundref="_command_state___processor_8h" startline="41">StateValuesStruct::SteerCompassBearing</references>
+        <references refid="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" compoundref="_command_state___processor_8h" startline="40">StateValuesStruct::SteerWindAngle</references>
+        <references refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <references refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" compoundref="_navigation_8h" startline="101">NavigationDataType::TWD</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849adabd724d3ef0f9779c154b7217ca77ed" compoundref="_command_state___processor_8h" startline="16">vcsIdle</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" compoundref="_command_state___processor_8h" startline="25">vcsLoiter</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" compoundref="_command_state___processor_8h" startline="18">vcsPartialManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" compoundref="_command_state___processor_8h" startline="24">vcsResetMissionIndex</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" compoundref="_command_state___processor_8h" startline="23">vcsSetHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" compoundref="_command_state___processor_8h" startline="20">vcsSteerMagneticCourse</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" compoundref="_command_state___processor_8h" startline="21">vcsSteerWindCourse</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_command_state___processor_8h" kindref="compound">CommandState_Processor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_radio_control_8h" kindref="compound">RadioControl.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_navigation_8h" kindref="compound">Navigation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="config_values_8h" kindref="compound">configValues.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_loiter_8h" kindref="compound">Loiter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="location_8h" kindref="compound">location.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_a_p___math_8h" kindref="compound">AP_Math.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_telemetry_logging_8h" kindref="compound">TelemetryLogging.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_s_d_card_log_file_8h" kindref="compound">SDCardLogFile.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_state_values_struct" kindref="compound">StateValuesStruct</ref><sp/><ref refid="_command_state___processor_8cpp_1a84903d3dde78582cbc92053c3c18d444" kindref="member">StateValues</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_r_c___i_n___type" kindref="compound">RC_IN_Type</ref><sp/><ref refid="_command_state___processor_8cpp_1a32f693d1f86e14f17d5fc04b2b7bc310" kindref="member">RC_IN</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref><sp/><ref refid="_command_state___processor_8cpp_1a6e6c124a8544f54a81bb39badabb0342" kindref="member">NavData</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref><sp/><ref refid="_command_state___processor_8cpp_1a1106f1eecd15a9233233ae672d651265" kindref="member">Configuration</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_loiter_struct" kindref="compound">LoiterStruct</ref><sp/><ref refid="_command_state___processor_8cpp_1aaba928d8db82c396578c10f915447c21" kindref="member">LoiterData</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742" kindref="member">DecisionEventType</ref><sp/><ref refid="_command_state___processor_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" kindref="member">DecisionEvent</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>used<sp/>in<sp/>event<sp/>based<sp/>logging<sp/>and<sp/>diagnosis</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3" kindref="member">DecisionEventReasonType</ref><sp/><ref refid="_command_state___processor_8cpp_1a4e68978287be769969d1c58c14401c1a" kindref="member">DecisionEventReason</ref>;<sp/></highlight><highlight class="comment">//<sp/>used<sp/>in<sp/>event<sp/>based<sp/>logging<sp/>and<sp/>diagnosis</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8cpp_1acf77702297e084409cf976092e15db6e" kindref="member">DecisionEventValue</ref>;<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="_command_state___processor_8h_1a2f2b07eacea6b40bf75053dd875b8cbe" refkind="member"><highlight class="normal"><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref><sp/><ref refid="_command_state___processor_8cpp_1a2f2b07eacea6b40bf75053dd875b8cbe" kindref="member">GetCommandStateFromRC_Command_Switch</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RCSwitchPos)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Function<sp/>to<sp/>translate<sp/>a<sp/>RC-In<sp/>Switch<sp/>value<sp/>to<sp/>a<sp/>Command<sp/>State.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>allows<sp/>an<sp/>RC<sp/>Command<sp/>Channel<sp/>to<sp/>be<sp/>used<sp/>to<sp/>control<sp/>the<sp/>command<sp/>state<sp/>fo<sp/>the<sp/>vessel.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>4/10/2016<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref><sp/>cs;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(RCSwitchPos)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/></highlight><highlight class="comment">//<sp/>invalid,<sp/>hence<sp/>idle.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs<sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849adabd724d3ef0f9779c154b7217ca77ed" kindref="member">vcsIdle</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs<sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" kindref="member">vcsFullManual</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs<sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" kindref="member">vcsPartialManual</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs<sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" kindref="member">vcsFollowMission</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs<sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" kindref="member">vcsReturnToHome</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs<sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" kindref="member">vcsSetHome</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:<sp/></highlight><highlight class="comment">//<sp/>no<sp/>RC<sp/>Signal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs<sp/>=<sp/>Configuration.<ref refid="structconfig_values_type_1a3606fd3b8680031f302f53bbef238b35" kindref="member">FailsafeCommandState</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cs<sp/>=<sp/>vcsLoiter;<sp/>//<sp/>set<sp/>the<sp/>failsafe<sp/>to<sp/>loiter<sp/>while<sp/>testing.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs<sp/>=<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849adabd724d3ef0f9779c154b7217ca77ed" kindref="member">vcsIdle</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cs;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8cpp_1aa45fbfa8fbe030f162163fbf7a60fd43" kindref="member">CommandState_Processor</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Process<sp/>Command<sp/>state<sp/>change<sp/>requests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>change<sp/>requests<sp/>come<sp/>from<sp/>the<sp/>RC<sp/>Command<sp/>Channel<sp/>-<sp/>Switch<sp/>Position.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>also<sp/>from<sp/>the<sp/>Command<sp/>Line<sp/>Interpreter.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>called<sp/>from<sp/>the<sp/>medium<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>7/4/2019<sp/>updated<sp/>to<sp/>better<sp/>handle<sp/>entering<sp/>&quot;loiter<sp/>Here&quot;<sp/>by<sp/>factoring<sp/>in<sp/>the<sp/>current<sp/>tack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref><sp/>prev_rc_cs;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref><sp/>rc_cs<sp/>=<sp/><ref refid="_command_state___processor_8cpp_1a2f2b07eacea6b40bf75053dd875b8cbe" kindref="member">GetCommandStateFromRC_Command_Switch</ref>(RC_IN.<ref refid="struct_r_c___i_n___type_1a4b6be8a8907ba7d97eb168a401088493" kindref="member">RC_Command_Switch_Position</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref><sp/>prev_cs;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>there&apos;s<sp/>a<sp/>change<sp/>in<sp/>the<sp/>command<sp/>state<sp/>coming<sp/>from<sp/>the<sp/>Radio<sp/>Control<sp/>input<sp/>then<sp/>apply<sp/>the<sp/>change.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(prev_rc_cs<sp/>!=<sp/>rc_cs)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prev_rc_cs<sp/>=<sp/>rc_cs;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref><sp/>=<sp/>rc_cs;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>look<sp/>for<sp/>changes<sp/>in<sp/>command<sp/>state,<sp/>against<sp/>the<sp/>previous<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(prev_cs<sp/>!=<sp/>StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref>)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prev_cs<sp/>=<sp/>StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>process<sp/>the<sp/>new<sp/>command<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref>)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" kindref="member">vcsResetMissionIndex</ref>:</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reset<sp/>Mission<sp/>Index</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" kindref="member">mission_index</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" kindref="member">StartingMission</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" kindref="member">vcsSetHome</ref>:</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>the<sp/>current<sp/>location<sp/>and<sp/>set<sp/>the<sp/>home<sp/>location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" kindref="member">home</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StateValues.<ref refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" kindref="member">home_is_set</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" kindref="member">vcsLoiter</ref>:</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>the<sp/>current<sp/>location<sp/>and<sp/>apply<sp/>as<sp/>the<sp/>loiter<sp/>location<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" kindref="member">loiterCentreLocation</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" kindref="member">loiterLocationPrevious</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>radius</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" kindref="member">LoiterRadius</ref><sp/>=<sp/>Configuration.<ref refid="structconfig_values_type_1a1176e7ee5accf3fd2610f2bdd2296f9c" kindref="member">LoiterRadius</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>currently<sp/>on<sp/>starboard<sp/>tack,<sp/>then<sp/>commence<sp/>loitering<sp/>to<sp/>the<sp/>port<sp/>side</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NavData.<ref refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" kindref="member">AWA</ref><sp/>&gt;0)<sp/><sp/></highlight><highlight class="comment">//<sp/>positive<sp/>is<sp/>starboard<sp/>tack</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>loiter<sp/>wp<sp/>to<sp/>portside.<sp/>We<sp/>do<sp/>this<sp/>by<sp/>getting<sp/>the<sp/>centre<sp/>point<sp/>and<sp/>then<sp/>calculating<sp/>the<sp/>location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>of<sp/>the<sp/>port<sp/>side<sp/>waypoint<sp/>which<sp/>is<sp/>90<sp/>degrees<sp/>to<sp/>port<sp/>from<sp/>the<sp/>True<sp/>Wind<sp/>Angle.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" kindref="member">LoiterState</ref><sp/>=<sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342ae5310f50cd9fee4cedb79495508058e8" kindref="member">LoiterStateType::lsPortSide</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" kindref="member">LoiterLocationNext</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1ab0e06d28afb9d14043e1938af277396c" kindref="member">location_update</ref>(LoiterData.<ref refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" kindref="member">LoiterLocationNext</ref>,<sp/><ref refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" kindref="member">wrap_360</ref>(NavData.<ref refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" kindref="member">TWD</ref><sp/>-<sp/>90),<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(LoiterData.<ref refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" kindref="member">LoiterRadius</ref>));</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref><sp/>=<sp/>LoiterData.<ref refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" kindref="member">LoiterLocationNext</ref>;<sp/></highlight><highlight class="comment">//<sp/>added<sp/>for<sp/>Base<sp/>Station<sp/>Display<sp/>only</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>loiter<sp/>wp<sp/>to<sp/>starboardside.<sp/>We<sp/>do<sp/>this<sp/>by<sp/>getting<sp/>the<sp/>centre<sp/>point<sp/>and<sp/>then<sp/>calculating<sp/>the<sp/>location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>of<sp/>the<sp/>starboard<sp/>side<sp/>waypoint<sp/>which<sp/>is<sp/>90<sp/>degrees<sp/>to<sp/>starboard<sp/>from<sp/>the<sp/>True<sp/>Wind<sp/>Angle.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" kindref="member">LoiterState</ref><sp/>=<sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a828ae9f56dfe1eeab98643dbe73b24bf" kindref="member">LoiterStateType::lsStarboardSide</ref>;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LoiterData.<ref refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" kindref="member">LoiterLocationNext</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p___math_8h_1ab0e06d28afb9d14043e1938af277396c" kindref="member">location_update</ref>(LoiterData.<ref refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" kindref="member">LoiterLocationNext</ref>,<sp/><ref refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" kindref="member">wrap_360</ref>(NavData.<ref refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" kindref="member">TWD</ref><sp/>+<sp/>90),<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(LoiterData.<ref refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" kindref="member">LoiterRadius</ref>));</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref><sp/>=<sp/>LoiterData.<ref refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" kindref="member">LoiterLocationNext</ref>;<sp/></highlight><highlight class="comment">//<sp/>added<sp/>for<sp/>Base<sp/>Station<sp/>Display<sp/>only</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" kindref="member">vcsReturnToHome</ref>:</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>home<sp/>location<sp/>is<sp/>set,<sp/>then<sp/>set<sp/>the<sp/>next<sp/>waypoint<sp/>as<sp/>the<sp/>home<sp/>location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(StateValues.<ref refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" kindref="member">home_is_set</ref>)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" kindref="member">prev_WP</ref><sp/>=<sp/>NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref><sp/>=<sp/>StateValues.<ref refid="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" kindref="member">home</ref>;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavData.<ref refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" kindref="member">next_WP_valid</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>action<sp/>here<sp/>on<sp/>these.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" kindref="member">vcsSteerMagneticCourse</ref>:</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_command_state___processor_8cpp_1acf77702297e084409cf976092e15db6e" kindref="member">DecisionEventValue</ref><sp/>=<sp/>StateValues.<ref refid="struct_state_values_struct_1a4100b0f396b9eecc008b3502739b0294" kindref="member">SteerCompassBearing</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" kindref="member">vcsSteerWindCourse</ref>:</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_command_state___processor_8cpp_1acf77702297e084409cf976092e15db6e" kindref="member">DecisionEventValue</ref><sp/>=<sp/>StateValues.<ref refid="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" kindref="member">SteerWindAngle</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" kindref="member">vcsFollowMission</ref>:</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849adabd724d3ef0f9779c154b7217ca77ed" kindref="member">vcsIdle</ref>:</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" kindref="member">vcsFullManual</ref>:</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" kindref="member">vcsPartialManual</ref>:</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>log<sp/>the<sp/>new<sp/>command<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_command_state___processor_8cpp_1ade07205432a39d14d82f5e28c3c3c8cf" kindref="member">DecisionEvent</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a6cbcc59f93ea8d5a2d807c3ca756c742a9a694068bf7bf699349323bb654f8eff" kindref="member">DecisionEventType::deChangeCommandState</ref>;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_command_state___processor_8cpp_1a4e68978287be769969d1c58c14401c1a" kindref="member">DecisionEventReason</ref><sp/>=<sp/><ref refid="_telemetry_logging_8h_1a1261fc1bbec34685101a32cee8aad0b3abd1038cf30435684eeecd11a48e43a23" kindref="member">DecisionEventReasonType::rManualIntervention</ref>;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_telemetry_logging_8cpp_1a7f31c903abd0d74edd169c2b84fb1b10" kindref="member">TelemetryLogging_Event_Decisions</ref>(<ref refid="_command_state___processor_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/>Configuration.<ref refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" kindref="member">TelemetryLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_s_d_card_log_file_8cpp_1a16ae785967afa3a4b5195dff58027499" kindref="member">SD_Logging_Event_Decisions</ref>(Configuration.<ref refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" kindref="member">SDCardLoggingMask</ref>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp"/>
+  </compounddef>
+</doxygen>

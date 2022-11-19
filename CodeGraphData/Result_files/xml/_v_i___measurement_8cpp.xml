@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_v_i___measurement_8cpp" kind="file">
+    <compoundname>VI_Measurement.cpp</compoundname>
+    <includes refid="_v_i___measurement_8h" local="yes">VI_Measurement.h</includes>
+    <includes refid="_adafruit___i_n_a219_8h" local="yes">Adafruit_INA219.h</includes>
+    <incdepgraph>
+      <node id="939">
+        <label>Adafruit_INA219.h</label>
+        <link refid="_adafruit___i_n_a219_8h"/>
+        <childnode refid="940" relation="include">
+        </childnode>
+        <childnode refid="941" relation="include">
+        </childnode>
+      </node>
+      <node id="941">
+        <label>Wire.h</label>
+      </node>
+      <node id="936">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp</label>
+        <link refid="VI_Measurement.cpp"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+      </node>
+      <node id="940">
+        <label>Arduino.h</label>
+      </node>
+      <node id="937">
+        <label>VI_Measurement.h</label>
+        <link refid="_v_i___measurement_8h"/>
+        <childnode refid="938" relation="include">
+        </childnode>
+      </node>
+      <node id="938">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_v_i___measurement_8cpp_1a69393b86406e49dbacfbabd283877495" prot="public" static="no" mutable="no">
+        <type><ref refid="class_adafruit___i_n_a219" kindref="compound">Adafruit_INA219</ref></type>
+        <definition>Adafruit_INA219 ina219</definition>
+        <argsstring></argsstring>
+        <name>ina219</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_v_i___measurement_8cpp_1adfad02f502f8da0da9ddc814a3cfd259" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PowerSensorV</definition>
+        <argsstring></argsstring>
+        <name>PowerSensorV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" line="9" column="1"/>
+        <referencedby refid="_v_i___measurement_8h_1a7953aab014cccadd3e8edfdc68689393" compoundref="_v_i___measurement_8cpp" startline="17" endline="22">read_VI_Measurement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_v_i___measurement_8cpp_1aea95619001504f641ab5c0b2f1f885dc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PowerSensorI</definition>
+        <argsstring></argsstring>
+        <name>PowerSensorI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" line="9" column="1"/>
+        <referencedby refid="_v_i___measurement_8h_1a7953aab014cccadd3e8edfdc68689393" compoundref="_v_i___measurement_8cpp" startline="17" endline="22">read_VI_Measurement</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_v_i___measurement_8cpp_1a7e5fe72f5223460c4e1a0e73bcc0b3e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_VI_Measurement</definition>
+        <argsstring>(void)</argsstring>
+        <name>init_VI_Measurement</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" line="11" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" bodystart="11" bodyend="15"/>
+        <references refid="class_adafruit___i_n_a219_1ac46f358c0af6682ac7ec79593a66b57e" compoundref="_adafruit___i_n_a219_8cpp" startline="388" endline="391">Adafruit_INA219::begin</references>
+        <references refid="class_adafruit___i_n_a219_1acd5cd9cfadae71308c0d0238d3dfce82" compoundref="_adafruit___i_n_a219_8cpp" startline="276" endline="358">Adafruit_INA219::setCalibration_16V_400mA</references>
+      </memberdef>
+      <memberdef kind="function" id="_v_i___measurement_8cpp_1a7953aab014cccadd3e8edfdc68689393" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void read_VI_Measurement</definition>
+        <argsstring>(void)</argsstring>
+        <name>read_VI_Measurement</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" line="17" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp" bodystart="17" bodyend="22"/>
+        <references refid="class_adafruit___i_n_a219_1a22b4b21b104d6a939b6deb153bfbb8ae" compoundref="_adafruit___i_n_a219_8cpp" startline="490" endline="493">Adafruit_INA219::getBusVoltage_V</references>
+        <references refid="class_adafruit___i_n_a219_1af28fcc20fb5387ed034e28670d95755c" compoundref="_adafruit___i_n_a219_8cpp" startline="502" endline="506">Adafruit_INA219::getCurrent_mA</references>
+        <references refid="_v_i___measurement_8cpp_1aea95619001504f641ab5c0b2f1f885dc">PowerSensorI</references>
+        <references refid="_v_i___measurement_8cpp_1adfad02f502f8da0da9ddc814a3cfd259">PowerSensorV</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_v_i___measurement_8h" kindref="compound">VI_Measurement.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_adafruit___i_n_a219_8h" kindref="compound">Adafruit_INA219.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_adafruit___i_n_a219" kindref="compound">Adafruit_INA219</ref><sp/><ref refid="_v_i___measurement_8cpp_1a69393b86406e49dbacfbabd283877495" kindref="member">ina219</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_v_i___measurement_8cpp_1adfad02f502f8da0da9ddc814a3cfd259" kindref="member">PowerSensorV</ref>,<sp/><ref refid="_v_i___measurement_8cpp_1aea95619001504f641ab5c0b2f1f885dc" kindref="member">PowerSensorI</ref><sp/>;<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_v_i___measurement_8h_1a7e5fe72f5223460c4e1a0e73bcc0b3e0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_v_i___measurement_8cpp_1a7e5fe72f5223460c4e1a0e73bcc0b3e0" kindref="member">init_VI_Measurement</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ina219.<ref refid="class_adafruit___i_n_a219_1ac46f358c0af6682ac7ec79593a66b57e" kindref="member">begin</ref>();<sp/></highlight><highlight class="comment">//<sp/>I2C<sp/>Address<sp/>0x40</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>ina219.<ref refid="class_adafruit___i_n_a219_1acd5cd9cfadae71308c0d0238d3dfce82" kindref="member">setCalibration_16V_400mA</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="_v_i___measurement_8h_1a7953aab014cccadd3e8edfdc68689393" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_v_i___measurement_8cpp_1a7953aab014cccadd3e8edfdc68689393" kindref="member">read_VI_Measurement</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>the<sp/>INA219<sp/>I2C<sp/>Voltage/Current<sp/>Sensor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_v_i___measurement_8cpp_1adfad02f502f8da0da9ddc814a3cfd259" kindref="member">PowerSensorV</ref><sp/>=<sp/>ina219.<ref refid="class_adafruit___i_n_a219_1a22b4b21b104d6a939b6deb153bfbb8ae" kindref="member">getBusVoltage_V</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_v_i___measurement_8cpp_1aea95619001504f641ab5c0b2f1f885dc" kindref="member">PowerSensorI</ref><sp/>=<sp/>ina219.<ref refid="class_adafruit___i_n_a219_1af28fcc20fb5387ed034e28670d95755c" kindref="member">getCurrent_mA</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/VI_Measurement.cpp"/>
+  </compounddef>
+</doxygen>

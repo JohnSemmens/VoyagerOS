@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="location_8h" kind="file">
+    <compoundname>location.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_command_state___processor_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</includedby>
+    <includedby refid="_g_p_s_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp</includedby>
+    <includedby refid="location_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp</includedby>
+    <includedby refid="_loiter_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</includedby>
+    <includedby refid="_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_sailing_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</includedby>
+    <includedby refid="_steering_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</includedby>
+    <includedby refid="_u_s_f_s___i_m_u_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp</includedby>
+    <includedby refid="_wind_angle__2950_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp</includedby>
+    <incdepgraph>
+      <node id="412">
+        <label>arduino.h</label>
+      </node>
+      <node id="411">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h</label>
+        <link refid="location.h"/>
+        <childnode refid="412" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="417">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="414">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="419">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="416">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp</label>
+        <link refid="location_8cpp"/>
+      </node>
+      <node id="418">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="421">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="_steering_8cpp"/>
+      </node>
+      <node id="415">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp</label>
+        <link refid="_g_p_s_8cpp"/>
+      </node>
+      <node id="422">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp</label>
+        <link refid="_u_s_f_s___i_m_u_8cpp"/>
+      </node>
+      <node id="420">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</label>
+        <link refid="_sailing_navigation_8cpp"/>
+      </node>
+      <node id="413">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h</label>
+        <link refid="location.h"/>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp</label>
+        <link refid="_wind_angle__2950_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="location_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float get_distance</definition>
+        <argsstring>(const struct Location &amp;loc1, const struct Location &amp;loc2)</argsstring>
+        <name>get_distance</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h" line="13" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="57" bodyend="62"/>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <references refid="location_8cpp_1a0654567c19842da369718c3e51bda39f" compoundref="location_8cpp" startline="34">LOCATION_SCALING_FACTOR</references>
+        <references refid="location_8cpp_1ad2368c582f3e0c135e2a74772f4db61a" compoundref="location_8cpp" startline="38" endline="52">longitude_scale</references>
+        <references refid="_a_p___math_8cpp_1afd3767d48a7b20f6d5220a4f8007af00" compoundref="_a_p___math_8cpp" startline="118" endline="120">pythagorous2</references>
+        <referencedby refid="location_8h_1a3ae1ddee922c938e340171e63059b41d" compoundref="location_8cpp" startline="133" endline="141">get_CTE</referencedby>
+        <referencedby refid="location_8cpp_1ac4acf5d14c42d6255cd005460de4d1ad" compoundref="location_8cpp" startline="65" endline="68">get_distance_cm</referencedby>
+        <referencedby refid="location_8h_1ab6cd880d070717b4c3cc7a7278768e72" compoundref="location_8cpp" startline="98" endline="130">location_passed_point</referencedby>
+        <referencedby refid="location_8h_1a76c50ce5404df24c451af735fcbc6875" compoundref="location_8cpp" startline="217" endline="230">reached_waypoint_point</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="location_8h_1ae53923f6092e5036fdbab56c2b1d025c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int get_bearing</definition>
+        <argsstring>(const struct Location &amp;loc1, const struct Location &amp;loc2)</argsstring>
+        <name>get_bearing</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h" line="19" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="72" bodyend="79"/>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <references refid="location_8cpp_1ad2368c582f3e0c135e2a74772f4db61a" compoundref="location_8cpp" startline="38" endline="52">longitude_scale</references>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="location_8h_1a1bb34ec50f166eed9096f7cc8c76c444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float get_bearingf</definition>
+        <argsstring>(const struct Location &amp;loc1, const struct Location &amp;loc2)</argsstring>
+        <name>get_bearingf</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h" line="20" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="82" bodyend="89"/>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <references refid="location_8cpp_1ad2368c582f3e0c135e2a74772f4db61a" compoundref="location_8cpp" startline="38" endline="52">longitude_scale</references>
+        <referencedby refid="location_8h_1a3ae1ddee922c938e340171e63059b41d" compoundref="location_8cpp" startline="133" endline="141">get_CTE</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="location_8h_1a4ca1857ee4c802d8aeb0da75a0759140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wrap_180</definition>
+        <argsstring>(int angle)</argsstring>
+        <name>wrap_180</name>
+        <param>
+          <type>int</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h" line="23" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="174" bodyend="183"/>
+        <references refid="_e_m7180_8cpp_1a7a2b0122117e255793df9392899c1a95" compoundref="_e_m7180_8cpp" startline="49">angle</references>
+        <referencedby refid="_navigation_8h_1ac06345987922e576eee8a227c838c28d" compoundref="_navigation_8cpp" startline="263" endline="271">AWA_Calculated</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a7a991c4cfaffbb86082ffc13b2963bff" compoundref="_sailing_navigation_8cpp" startline="269" endline="286">GetFavouredTack</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="location_8h_1a9a1cd3e3a0329e310eba39d7df534c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float wrap_360</definition>
+        <argsstring>(float angle)</argsstring>
+        <name>wrap_360</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="188" bodyend="197"/>
+        <references refid="_e_m7180_8cpp_1a7a2b0122117e255793df9392899c1a95" compoundref="_e_m7180_8cpp" startline="49">angle</references>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" compoundref="_navigation_8cpp" startline="151" endline="171">GetTrueWind</referencedby>
+        <referencedby refid="_u_s_f_s___i_m_u_8h_1ad9ff248a80111e220386344695dd3749" compoundref="_u_s_f_s___i_m_u_8cpp" startline="73" endline="89">IMU_Read</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a1862447ac94938f73ad64807764ee54d" compoundref="_sailing_navigation_8cpp" startline="370" endline="398">SteerCloseHauled</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1afee54cc124611159e5251a01afd52016" compoundref="_sailing_navigation_8cpp" startline="400" endline="427">SteerDeepRunning</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="location_8h_1ab6cd880d070717b4c3cc7a7278768e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool location_passed_point</definition>
+        <argsstring>(const struct Location &amp;location, const struct Location &amp;point1, const struct Location &amp;point2)</argsstring>
+        <name>location_passed_point</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>point1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>point2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h" line="31" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="98" bodyend="130"/>
+        <references refid="_e_m7180_8cpp_1a7a2b0122117e255793df9392899c1a95" compoundref="_e_m7180_8cpp" startline="49">angle</references>
+        <references refid="_misc_8h_1afe93c2c14da376a1621194c15c1de496" compoundref="_misc_8h" startline="18">degrees</references>
+        <references refid="location_8cpp_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</references>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <referencedby refid="location_8h_1a76c50ce5404df24c451af735fcbc6875" compoundref="location_8cpp" startline="217" endline="230">reached_waypoint_point</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="location_8h_1a76c50ce5404df24c451af735fcbc6875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool reached_waypoint_point</definition>
+        <argsstring>(const struct Location &amp;location, const struct Location &amp;point1, const struct Location &amp;point2, int WP_Boundary)</argsstring>
+        <name>reached_waypoint_point</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>point1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>point2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>WP_Boundary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h" line="35" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="217" bodyend="230"/>
+        <references refid="location_8cpp_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</references>
+        <references refid="location_8cpp_1ab6cd880d070717b4c3cc7a7278768e72" compoundref="location_8cpp" startline="98" endline="130">location_passed_point</references>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="location_8h_1a3ae1ddee922c938e340171e63059b41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int get_CTE</definition>
+        <argsstring>(const struct Location &amp;location, const struct Location &amp;point1, const struct Location &amp;point2)</argsstring>
+        <name>get_CTE</name>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>point1</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="struct_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>point2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp" bodystart="133" bodyend="141"/>
+        <references refid="location_8cpp_1a1bb34ec50f166eed9096f7cc8c76c444" compoundref="location_8cpp" startline="82" endline="89">get_bearingf</references>
+        <references refid="location_8cpp_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</references>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>location.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_LOCATION_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_LOCATION_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>distance<sp/>in<sp/>meters<sp/>between<sp/>two<sp/>locations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="location_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" kindref="member">get_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc2);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>bearing<sp/>in<sp/>centi-degrees<sp/>between<sp/>two<sp/>locations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//int32_t<sp/>get_bearing_cd(const<sp/>struct<sp/>Location<sp/>&amp;loc1,<sp/>const<sp/>struct<sp/>Location<sp/>&amp;loc2);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>bearing<sp/>in<sp/>degrees<sp/>between<sp/>two<sp/>locations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="location_8h_1ae53923f6092e5036fdbab56c2b1d025c" kindref="member">get_bearing</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;loc2);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="location_8h_1a1bb34ec50f166eed9096f7cc8c76c444" kindref="member">get_bearingf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref>&amp;<sp/>loc1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref>&amp;<sp/>loc2);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>wrap<sp/>an<sp/>angle<sp/>in<sp/>degrees<sp/>to<sp/>-180..180</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="location_8h_1a4ca1857ee4c802d8aeb0da75a0759140" kindref="member">wrap_180</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_e_m7180_8cpp_1a7a2b0122117e255793df9392899c1a95" kindref="member">angle</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="location_8h_1a9a1cd3e3a0329e310eba39d7df534c55" kindref="member">wrap_360</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_e_m7180_8cpp_1a7a2b0122117e255793df9392899c1a95" kindref="member">angle</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>see<sp/>if<sp/>location<sp/>is<sp/>past<sp/>a<sp/>line<sp/>perpendicular<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>line<sp/>between<sp/>point1<sp/>and<sp/>point2.<sp/>If<sp/>point1<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>our<sp/>previous<sp/>waypoint<sp/>and<sp/>point2<sp/>is<sp/>our<sp/>target<sp/>waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>then<sp/>this<sp/>function<sp/>returns<sp/>true<sp/>if<sp/>we<sp/>have<sp/>flown<sp/>past</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>target<sp/>waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="location_8h_1ab6cd880d070717b4c3cc7a7278768e72" kindref="member">location_passed_point</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;location,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;point1,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;point2);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="location_8h_1a76c50ce5404df24c451af735fcbc6875" kindref="member">reached_waypoint_point</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;location,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;point1,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/>&amp;point2,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>WP_Boundary);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>the<sp/>Cross<sp/>Track<sp/>Error<sp/>from<sp/>a<sp/>line<sp/>from<sp/>point1<sp/>to<sp/>point2<sp/>and<sp/>the<sp/>position<sp/>at<sp/>location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="location_8h_1a3ae1ddee922c938e340171e63059b41d" kindref="member">get_CTE</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref>&amp;<sp/>location,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref>&amp;<sp/>point1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_location" kindref="compound">Location</ref>&amp;<sp/>point2);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/location.h"/>
+  </compounddef>
+</doxygen>

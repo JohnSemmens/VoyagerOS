@@ -1,0 +1,841 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_navigation_data_type" kind="struct" prot="public">
+    <compoundname>NavigationDataType</compoundname>
+    <includes refid="_navigation_8h" local="no">Navigation.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location NavigationDataType::Currentloc</definition>
+        <argsstring></argsstring>
+        <name>Currentloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="61" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="61" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s___temp_8h_1a3d00a4427432dca90b7c8bc78e4859e7" compoundref="_g_p_s___temp_8cpp" startline="21" endline="79">GPS_Temp_Read</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a339cc22d0383f165361b391b6beded17" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long NavigationDataType::CurrentLocTimeStamp</definition>
+        <argsstring></argsstring>
+        <name>CurrentLocTimeStamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="62" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="62" bodyend="-1"/>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s___temp_8h_1a3d00a4427432dca90b7c8bc78e4859e7" compoundref="_g_p_s___temp_8cpp" startline="21" endline="79">GPS_Temp_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location NavigationDataType::prev_WP</definition>
+        <argsstring></argsstring>
+        <name>prev_WP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="63" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="63" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location NavigationDataType::next_WP</definition>
+        <argsstring></argsstring>
+        <name>next_WP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="64" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="64" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_mission_8h_1ab22b8b14464b9f954092f326c4a1af95" compoundref="_mission_8cpp" startline="245" endline="265">set_next_WP_for_display</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::MaxCTE</definition>
+        <argsstring></argsstring>
+        <name>MaxCTE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="65" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="65" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af11a4bcbb4152cbf9cb7625e21933f4d" compoundref="_navigation_8cpp" startline="227" endline="260">get_CTE_Correction</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad1a3e49f1ecde702c34840fad96dc852" compoundref="_sailing_navigation_8cpp" startline="470" endline="504">IsBTWSailable</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_mission_8h_1ab22b8b14464b9f954092f326c4a1af95" compoundref="_mission_8cpp" startline="245" endline="265">set_next_WP_for_display</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a2f9b0306d48f2d8ec67e4c00cfeae7bb" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long NavigationDataType::DTW</definition>
+        <argsstring></argsstring>
+        <name>DTW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="67" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="67" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::BTW</definition>
+        <argsstring></argsstring>
+        <name>BTW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="68" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a7a991c4cfaffbb86082ffc13b2963bff" compoundref="_sailing_navigation_8cpp" startline="269" endline="286">GetFavouredTack</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" compoundref="_sailing_navigation_8cpp" startline="211" endline="257">SetTack</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a1862447ac94938f73ad64807764ee54d" compoundref="_sailing_navigation_8cpp" startline="370" endline="398">SteerCloseHauled</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1afee54cc124611159e5251a01afd52016" compoundref="_sailing_navigation_8cpp" startline="400" endline="427">SteerDeepRunning</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1ad484ff4b4c6262ce2ef5e6af8750f8ba" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NavigationDataType::PastWP</definition>
+        <argsstring></argsstring>
+        <name>PastWP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="69" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1ab65f1480bd5198b1b68ad1d9587480cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::RLB</definition>
+        <argsstring></argsstring>
+        <name>RLB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="70" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a98d8a4e836e020c670fc15ccd5a65270" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::CDA</definition>
+        <argsstring></argsstring>
+        <name>CDA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="71" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::CTE</definition>
+        <argsstring></argsstring>
+        <name>CTE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="73" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="73" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af11a4bcbb4152cbf9cb7625e21933f4d" compoundref="_navigation_8cpp" startline="227" endline="260">get_CTE_Correction</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad1a3e49f1ecde702c34840fad96dc852" compoundref="_sailing_navigation_8cpp" startline="470" endline="504">IsBTWSailable</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a275fa2206f1bd99dc50a884a6365c1b3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::CTE_Correction</definition>
+        <argsstring></argsstring>
+        <name>CTE_Correction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="74" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="74" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NavigationDataType::next_WP_valid</definition>
+        <argsstring></argsstring>
+        <name>next_WP_valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="76" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="76" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NavigationDataType::SOG_mps</definition>
+        <argsstring></argsstring>
+        <name>SOG_mps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="78" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="78" bodyend="-1"/>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s___temp_8h_1a3d00a4427432dca90b7c8bc78e4859e7" compoundref="_g_p_s___temp_8cpp" startline="21" endline="79">GPS_Temp_Read</referencedby>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_navigation_8h_1a236cd5e0ce9fbe80a8a0a4b7c7427acc" compoundref="_navigation_8cpp" startline="91" endline="99">NavigationUpdate_MediumData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1ae7cf4fb255b05065fe9c5b5a4c78fd4a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NavigationDataType::SOG_knt</definition>
+        <argsstring></argsstring>
+        <name>SOG_knt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="79" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="79" bodyend="-1"/>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::COG</definition>
+        <argsstring></argsstring>
+        <name>COG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="80" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s___temp_8h_1a3d00a4427432dca90b7c8bc78e4859e7" compoundref="_g_p_s___temp_8cpp" startline="21" endline="79">GPS_Temp_Read</referencedby>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_navigation_8h_1a236cd5e0ce9fbe80a8a0a4b7c7427acc" compoundref="_navigation_8cpp" startline="91" endline="99">NavigationUpdate_MediumData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::HDG</definition>
+        <argsstring></argsstring>
+        <name>HDG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="82" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="82" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" compoundref="_navigation_8cpp" startline="151" endline="171">GetTrueWind</referencedby>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a1862447ac94938f73ad64807764ee54d" compoundref="_sailing_navigation_8cpp" startline="370" endline="398">SteerCloseHauled</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1afee54cc124611159e5251a01afd52016" compoundref="_sailing_navigation_8cpp" startline="400" endline="427">SteerDeepRunning</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1aee29812f10b4c37724fa37dbf94839ec" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::CTS</definition>
+        <argsstring></argsstring>
+        <name>CTS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="85" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="85" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1ac115a6382767a05b1c6d83d2a4432b5e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::TurnHDG</definition>
+        <argsstring></argsstring>
+        <name>TurnHDG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="87" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="87" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad68b8bb62dadab1d9014dec7176e9f23" compoundref="_sailing_navigation_8cpp" startline="259" endline="267">UpdateTargetHeading</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::TargetHDG</definition>
+        <argsstring></argsstring>
+        <name>TargetHDG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="89" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="89" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad68b8bb62dadab1d9014dec7176e9f23" compoundref="_sailing_navigation_8cpp" startline="259" endline="267">UpdateTargetHeading</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a86e21f70af95c94bf50d472f06a62055" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::TargetAWA</definition>
+        <argsstring></argsstring>
+        <name>TargetAWA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="94" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::AWA</definition>
+        <argsstring></argsstring>
+        <name>AWA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="99" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="99" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_navigation_8h_1a661b6bdd6007302ab66d7e3d92709bf9" compoundref="_navigation_8cpp" startline="130" endline="138">GetApparentWind</referencedby>
+        <referencedby refid="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" compoundref="_navigation_8cpp" startline="151" endline="171">GetTrueWind</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a1862447ac94938f73ad64807764ee54d" compoundref="_sailing_navigation_8cpp" startline="370" endline="398">SteerCloseHauled</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1afee54cc124611159e5251a01afd52016" compoundref="_sailing_navigation_8cpp" startline="400" endline="427">SteerDeepRunning</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a75f9c7606ef650a912acd605b1fd45cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::AWD</definition>
+        <argsstring></argsstring>
+        <name>AWD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="100" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="100" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" compoundref="_navigation_8cpp" startline="151" endline="171">GetTrueWind</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::TWD</definition>
+        <argsstring></argsstring>
+        <name>TWD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="101" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="101" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a7a991c4cfaffbb86082ffc13b2963bff" compoundref="_sailing_navigation_8cpp" startline="269" endline="286">GetFavouredTack</referencedby>
+        <referencedby refid="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" compoundref="_navigation_8cpp" startline="151" endline="171">GetTrueWind</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a42a29fa0d8d158498a0938d880ceceec" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NavigationDataType::TWS</definition>
+        <argsstring></argsstring>
+        <name>TWS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="102" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="102" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a31e3448e213613e7f4de468a11fd0076" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long NavigationDataType::TackDuration</definition>
+        <argsstring></argsstring>
+        <name>TackDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="104" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="104" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1acb9bcca17ff4e64fabea9ccb88852dab" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long NavigationDataType::TimePastFavouredTack</definition>
+        <argsstring></argsstring>
+        <name>TimePastFavouredTack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="105" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" prot="public" static="no" mutable="no">
+        <type><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref></type>
+        <definition>SteeringCourseType NavigationDataType::CourseType</definition>
+        <argsstring></argsstring>
+        <name>CourseType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="108" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="108" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" compoundref="_sailing_navigation_8cpp" startline="211" endline="257">SetTack</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1afb1aa29b12f4897de80677a479a0ba2a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::WindAngleToWaypoint</definition>
+        <argsstring></argsstring>
+        <name>WindAngleToWaypoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="110" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1ad1a3e49f1ecde702c34840fad96dc852" compoundref="_sailing_navigation_8cpp" startline="470" endline="504">IsBTWSailable</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a3d29cedc948ea7b6dc05756597611dca" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NavigationDataType::IsBTWSailable</definition>
+        <argsstring></argsstring>
+        <name>IsBTWSailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="113" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="113" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a79e14aa598b4c30c8e06ac889796db03" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::PortLayline</definition>
+        <argsstring></argsstring>
+        <name>PortLayline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="116" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="116" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a3e76f8cd259e63249264bed843e5e80e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::StarboardLayline</definition>
+        <argsstring></argsstring>
+        <name>StarboardLayline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="117" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="117" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1ab5e9b350aa96d740eb6ebe37f216b518" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::PortLaylineRunning</definition>
+        <argsstring></argsstring>
+        <name>PortLaylineRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="118" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a0ce2cc341a1eb869119a86f35c20ed93" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::StarboardLaylineRunning</definition>
+        <argsstring></argsstring>
+        <name>StarboardLaylineRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="119" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1aae9ffa69dc246905e400bbaa0d78b111" prot="public" static="no" mutable="no">
+        <type><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref></type>
+        <definition>SteeringCourseType NavigationDataType::FavouredTack</definition>
+        <argsstring></argsstring>
+        <name>FavouredTack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="120" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="120" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a26784db798eae8b8ddf6826a7050bbc0" prot="public" static="no" mutable="no">
+        <type><ref refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44" kindref="member">ManoeuvreType</ref></type>
+        <definition>ManoeuvreType NavigationDataType::Manoeuvre</definition>
+        <argsstring></argsstring>
+        <name>Manoeuvre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="121" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1aef1f40dbe842913e3d57beb27f42e7cf" prot="public" static="no" mutable="no">
+        <type><ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4" kindref="member">ManoeuvreStateType</ref></type>
+        <definition>ManoeuvreStateType NavigationDataType::ManoeuvreState</definition>
+        <argsstring></argsstring>
+        <name>ManoeuvreState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="122" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="122" bodyend="-1"/>
+        <referencedby refid="_sailing_navigation_8h_1aa36653f9db9896a34fde3d8528ffcde9" compoundref="_sailing_navigation_8cpp" startline="127" endline="209">CalculateSailingCTS</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a381a4a0d4e70f8d8532bf71e4b07c8aa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::HDG_Mag</definition>
+        <argsstring></argsstring>
+        <name>HDG_Mag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="125" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="125" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a0628dd2915597f2ad61ebce64047789a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::HDG_Err</definition>
+        <argsstring></argsstring>
+        <name>HDG_Err</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="126" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1ab5ef6e2650460b4f478630d9df336e33" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NavigationDataType::ROLL_Avg</definition>
+        <argsstring></argsstring>
+        <name>ROLL_Avg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="127" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1a236cd5e0ce9fbe80a8a0a4b7c7427acc" compoundref="_navigation_8cpp" startline="91" endline="99">NavigationUpdate_MediumData</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a0838b27dceee6b0c162ecd01b26b711a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NavigationDataType::COG_Avg</definition>
+        <argsstring></argsstring>
+        <name>COG_Avg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="129" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="129" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1a236cd5e0ce9fbe80a8a0a4b7c7427acc" compoundref="_navigation_8cpp" startline="91" endline="99">NavigationUpdate_MediumData</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1ad9637aee80471afb2043dfdeea04cc53" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NavigationDataType::SOG_Avg</definition>
+        <argsstring></argsstring>
+        <name>SOG_Avg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="130" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="130" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1a236cd5e0ce9fbe80a8a0a4b7c7427acc" compoundref="_navigation_8cpp" startline="91" endline="99">NavigationUpdate_MediumData</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1ab81c6876eddf074f57e37c49109ffc19" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NavigationDataType::VMG</definition>
+        <argsstring></argsstring>
+        <name>VMG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="131" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_navigation_data_type_1a040f80aef6b83da51897ca6602261470" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NavigationDataType::VMC</definition>
+        <argsstring></argsstring>
+        <name>VMC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="132" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="93">
+        <label>NavigationDataType</label>
+        <link refid="struct_navigation_data_type"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>Currentloc</edgelabel>
+          <edgelabel>next_WP</edgelabel>
+          <edgelabel>prev_WP</edgelabel>
+        </childnode>
+      </node>
+      <node id="94">
+        <label>Location</label>
+        <link refid="struct_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="60" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="60" bodyend="133"/>
+    <listofallmembers>
+      <member refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>AWA</name></member>
+      <member refid="struct_navigation_data_type_1a75f9c7606ef650a912acd605b1fd45cb" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>AWD</name></member>
+      <member refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>BTW</name></member>
+      <member refid="struct_navigation_data_type_1a98d8a4e836e020c670fc15ccd5a65270" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>CDA</name></member>
+      <member refid="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>COG</name></member>
+      <member refid="struct_navigation_data_type_1a0838b27dceee6b0c162ecd01b26b711a" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>COG_Avg</name></member>
+      <member refid="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>CourseType</name></member>
+      <member refid="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>CTE</name></member>
+      <member refid="struct_navigation_data_type_1a275fa2206f1bd99dc50a884a6365c1b3" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>CTE_Correction</name></member>
+      <member refid="struct_navigation_data_type_1aee29812f10b4c37724fa37dbf94839ec" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>CTS</name></member>
+      <member refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>Currentloc</name></member>
+      <member refid="struct_navigation_data_type_1a339cc22d0383f165361b391b6beded17" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>CurrentLocTimeStamp</name></member>
+      <member refid="struct_navigation_data_type_1a2f9b0306d48f2d8ec67e4c00cfeae7bb" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>DTW</name></member>
+      <member refid="struct_navigation_data_type_1aae9ffa69dc246905e400bbaa0d78b111" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>FavouredTack</name></member>
+      <member refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>HDG</name></member>
+      <member refid="struct_navigation_data_type_1a0628dd2915597f2ad61ebce64047789a" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>HDG_Err</name></member>
+      <member refid="struct_navigation_data_type_1a381a4a0d4e70f8d8532bf71e4b07c8aa" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>HDG_Mag</name></member>
+      <member refid="struct_navigation_data_type_1a3d29cedc948ea7b6dc05756597611dca" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>IsBTWSailable</name></member>
+      <member refid="struct_navigation_data_type_1a26784db798eae8b8ddf6826a7050bbc0" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>Manoeuvre</name></member>
+      <member refid="struct_navigation_data_type_1aef1f40dbe842913e3d57beb27f42e7cf" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>ManoeuvreState</name></member>
+      <member refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>MaxCTE</name></member>
+      <member refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>next_WP</name></member>
+      <member refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>next_WP_valid</name></member>
+      <member refid="struct_navigation_data_type_1ad484ff4b4c6262ce2ef5e6af8750f8ba" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>PastWP</name></member>
+      <member refid="struct_navigation_data_type_1a79e14aa598b4c30c8e06ac889796db03" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>PortLayline</name></member>
+      <member refid="struct_navigation_data_type_1ab5e9b350aa96d740eb6ebe37f216b518" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>PortLaylineRunning</name></member>
+      <member refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>prev_WP</name></member>
+      <member refid="struct_navigation_data_type_1ab65f1480bd5198b1b68ad1d9587480cf" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>RLB</name></member>
+      <member refid="struct_navigation_data_type_1ab5ef6e2650460b4f478630d9df336e33" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>ROLL_Avg</name></member>
+      <member refid="struct_navigation_data_type_1ad9637aee80471afb2043dfdeea04cc53" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>SOG_Avg</name></member>
+      <member refid="struct_navigation_data_type_1ae7cf4fb255b05065fe9c5b5a4c78fd4a" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>SOG_knt</name></member>
+      <member refid="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>SOG_mps</name></member>
+      <member refid="struct_navigation_data_type_1a3e76f8cd259e63249264bed843e5e80e" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>StarboardLayline</name></member>
+      <member refid="struct_navigation_data_type_1a0ce2cc341a1eb869119a86f35c20ed93" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>StarboardLaylineRunning</name></member>
+      <member refid="struct_navigation_data_type_1a31e3448e213613e7f4de468a11fd0076" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>TackDuration</name></member>
+      <member refid="struct_navigation_data_type_1a86e21f70af95c94bf50d472f06a62055" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>TargetAWA</name></member>
+      <member refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>TargetHDG</name></member>
+      <member refid="struct_navigation_data_type_1acb9bcca17ff4e64fabea9ccb88852dab" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>TimePastFavouredTack</name></member>
+      <member refid="struct_navigation_data_type_1ac115a6382767a05b1c6d83d2a4432b5e" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>TurnHDG</name></member>
+      <member refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>TWD</name></member>
+      <member refid="struct_navigation_data_type_1a42a29fa0d8d158498a0938d880ceceec" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>TWS</name></member>
+      <member refid="struct_navigation_data_type_1a040f80aef6b83da51897ca6602261470" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>VMC</name></member>
+      <member refid="struct_navigation_data_type_1ab81c6876eddf074f57e37c49109ffc19" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>VMG</name></member>
+      <member refid="struct_navigation_data_type_1afb1aa29b12f4897de80677a479a0ba2a" prot="public" virt="non-virtual"><scope>NavigationDataType</scope><name>WindAngleToWaypoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

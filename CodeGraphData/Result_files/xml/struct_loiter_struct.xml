@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_loiter_struct" kind="struct" prot="public">
+    <compoundname>LoiterStruct</compoundname>
+    <includes refid="_loiter_8h" local="no">Loiter.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" prot="public" static="no" mutable="no">
+        <type><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342" kindref="member">LoiterStateType</ref></type>
+        <definition>LoiterStateType LoiterStruct::LoiterState</definition>
+        <argsstring></argsstring>
+        <name>LoiterState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location LoiterStruct::loiterCentreLocation</definition>
+        <argsstring></argsstring>
+        <name>loiterCentreLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="25" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location LoiterStruct::loiterLocationPrevious</definition>
+        <argsstring></argsstring>
+        <name>loiterLocationPrevious</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="27" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location LoiterStruct::LoiterLocationNext</definition>
+        <argsstring></argsstring>
+        <name>LoiterLocationNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="28" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1ae262c27b0d24268f0afd87389d037bbb" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location LoiterStruct::PortSideLocation</definition>
+        <argsstring></argsstring>
+        <name>PortSideLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="29" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1a020387aed6fd70b86b2c0c573fed7bab" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location LoiterStruct::StarboardSideLocation</definition>
+        <argsstring></argsstring>
+        <name>StarboardSideLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="30" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1ad6c580eaf8ecc5c574fe64822aef7612" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long LoiterStruct::DTW</definition>
+        <argsstring></argsstring>
+        <name>DTW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="31" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1ae978e14205ab2857e5ecac5797989a21" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LoiterStruct::BTW</definition>
+        <argsstring></argsstring>
+        <name>BTW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="32" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1a83fd742297f2048a629bb67d2e1f6d69" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LoiterStruct::PastWP</definition>
+        <argsstring></argsstring>
+        <name>PastWP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="33" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long LoiterStruct::LoiterRadius</definition>
+        <argsstring></argsstring>
+        <name>LoiterRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="34" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="77">
+        <label>LoiterStruct</label>
+        <link refid="struct_loiter_struct"/>
+        <childnode refid="78" relation="usage">
+          <edgelabel>loiterLocationPrevious</edgelabel>
+          <edgelabel>LoiterLocationNext</edgelabel>
+          <edgelabel>loiterCentreLocation</edgelabel>
+          <edgelabel>StarboardSideLocation</edgelabel>
+          <edgelabel>PortSideLocation</edgelabel>
+        </childnode>
+      </node>
+      <node id="78">
+        <label>Location</label>
+        <link refid="struct_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" line="23" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h" bodystart="23" bodyend="35"/>
+    <listofallmembers>
+      <member refid="struct_loiter_struct_1ae978e14205ab2857e5ecac5797989a21" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>BTW</name></member>
+      <member refid="struct_loiter_struct_1ad6c580eaf8ecc5c574fe64822aef7612" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>DTW</name></member>
+      <member refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>loiterCentreLocation</name></member>
+      <member refid="struct_loiter_struct_1aa2b9b9235b060773883ea8cf26847875" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>LoiterLocationNext</name></member>
+      <member refid="struct_loiter_struct_1a3569d3a49d847014ac134bb7f7ab944b" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>loiterLocationPrevious</name></member>
+      <member refid="struct_loiter_struct_1a10dd96a1a2b9a48028ec0abfd147d630" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>LoiterRadius</name></member>
+      <member refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>LoiterState</name></member>
+      <member refid="struct_loiter_struct_1a83fd742297f2048a629bb67d2e1f6d69" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>PastWP</name></member>
+      <member refid="struct_loiter_struct_1ae262c27b0d24268f0afd87389d037bbb" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>PortSideLocation</name></member>
+      <member refid="struct_loiter_struct_1a020387aed6fd70b86b2c0c573fed7bab" prot="public" virt="non-virtual"><scope>LoiterStruct</scope><name>StarboardSideLocation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

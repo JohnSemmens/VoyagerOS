@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sentral___w_s__params" kind="struct" prot="public">
+    <compoundname>Sentral_WS_params</compoundname>
+    <includes refid="_e_m7180_8h" local="no">EM7180.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sentral___w_s__params_1a84e7ee45347fb8420f1b74deb5dbb1f8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Sentral_WS_params::Sen_param[2][35][4]</definition>
+        <argsstring>[2][35][4]</argsstring>
+        <name>Sen_param</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="142" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="142" bodyend="-1"/>
+        <referencedby refid="class_e_m7180_1ad16dc9b61f43a846d31001395a79b2af" compoundref="_e_m7180_8cpp" startline="824" endline="873">EM7180::EM7180_get_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1a67f3e5da94a05361d1da2095a7619aec" compoundref="_e_m7180_8cpp" startline="771" endline="814">EM7180::EM7180_set_WS_params</referencedby>
+        <referencedby refid="class_e_m7180_1a4d612cbec5feba4d33bca19d94ef1ad1" compoundref="_e_m7180_8cpp" startline="947" endline="978">EM7180::readSenParams</referencedby>
+        <referencedby refid="class_e_m7180_1a043f4665f54cf6e36a8584b2f51642a8" compoundref="_e_m7180_8cpp" startline="988" endline="1015">EM7180::writeSenParams</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" line="141" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.h" bodystart="140" bodyend="143"/>
+    <listofallmembers>
+      <member refid="struct_sentral___w_s__params_1a84e7ee45347fb8420f1b74deb5dbb1f8" prot="public" virt="non-virtual"><scope>Sentral_WS_params</scope><name>Sen_param</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

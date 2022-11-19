@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_local___display_8h" kind="file">
+    <compoundname>Local_Display.h</compoundname>
+    <includes local="yes">Arduino.h</includes>
+    <includedby refid="_local___display_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp</includedby>
+    <incdepgraph>
+      <node id="440">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.h</label>
+        <link refid="Local_Display.h"/>
+        <childnode refid="441" relation="include">
+        </childnode>
+      </node>
+      <node id="441">
+        <label>Arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="443">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp</label>
+        <link refid="_local___display_8cpp"/>
+      </node>
+      <node id="442">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.h</label>
+        <link refid="Local_Display.h"/>
+        <childnode refid="443" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_local___display_8h_1aa3b5d25d8436def78821807a3c1a0593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Local_Display_Logging</definition>
+        <argsstring>(char LoggingLevel)</argsstring>
+        <name>Local_Display_Logging</name>
+        <param>
+          <type>char</type>
+          <declname>LoggingLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp" bodystart="12" bodyend="16"/>
+        <references refid="_o_l_e_d___logging_8cpp_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Local_Display.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_LOCAL_DISPLAY_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_LOCAL_DISPLAY_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_local___display_8h_1aa3b5d25d8436def78821807a3c1a0593" kindref="member">Local_Display_Logging</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>LoggingLevel);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.h"/>
+  </compounddef>
+</doxygen>

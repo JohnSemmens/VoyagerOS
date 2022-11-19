@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_radio_control_8h" kind="file">
+    <compoundname>RadioControl.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_command_state___processor_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_radio_control_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp</includedby>
+    <includedby refid="_steering_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</includedby>
+    <includedby refid="_wingsail_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</includedby>
+    <incdepgraph>
+      <node id="684">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h</label>
+        <link refid="RadioControl.h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="687">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="688">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="691">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</label>
+        <link refid="_wingsail_8cpp"/>
+      </node>
+      <node id="690">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="_steering_8cpp"/>
+      </node>
+      <node id="689">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp</label>
+        <link refid="_radio_control_8cpp"/>
+      </node>
+      <node id="686">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h</label>
+        <link refid="RadioControl.h"/>
+        <childnode refid="687" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+        <childnode refid="690" relation="include">
+        </childnode>
+        <childnode refid="691" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_r_c___i_n___type" prot="public">RC_IN_Type</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_radio_control_8h_1aec399334aa1324b5f335a8d1fc4fd51a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RC_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>RC_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="19" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp" bodystart="100" bodyend="115"/>
+        <references refid="_radio_control_8cpp_1a16b4ee3453b5466c4d73454082324d15" compoundref="_radio_control_8cpp" startline="56" endline="65">isrCh0_IN</references>
+        <references refid="_radio_control_8cpp_1a8dd253b1932429f7286968eb53994bef" compoundref="_radio_control_8cpp" startline="67" endline="76">isrCh1_IN</references>
+        <references refid="_radio_control_8cpp_1a17c7bf76d0c4a7c7421ff6bb42a7faac" compoundref="_radio_control_8cpp" startline="78" endline="87">isrCh2_IN</references>
+        <references refid="_radio_control_8cpp_1a51902807360677e8b202bda2a0eb50f9" compoundref="_radio_control_8cpp" startline="89" endline="98">isrCh3_IN</references>
+        <references refid="_radio_control_8cpp_1a91f6f2915cfeab23080ba5e0bfeaba79" compoundref="_radio_control_8cpp" startline="23">RC_Ch0_IN_PIN</references>
+        <references refid="_radio_control_8cpp_1adfe28d56e999688553e73dace0e1f665" compoundref="_radio_control_8cpp" startline="24">RC_Ch1_IN_PIN</references>
+        <references refid="_radio_control_8cpp_1acbd974764a40bd470bed06148d301e0a" compoundref="_radio_control_8cpp" startline="25">RC_Ch2_IN_PIN</references>
+        <references refid="_radio_control_8cpp_1a2944c0838ef670b83feb4c1a679a150f" compoundref="_radio_control_8cpp" startline="26">RC_Ch3_IN_PIN</references>
+      </memberdef>
+      <memberdef kind="function" id="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RC_Read</definition>
+        <argsstring>(void)</argsstring>
+        <name>RC_Read</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="20" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp" bodystart="132" bodyend="165"/>
+        <references refid="_radio_control_8cpp_1ac0a80dba0f989e38b3e45eae68be5e71" compoundref="_radio_control_8cpp" startline="20">bUpdateFlagsShared</references>
+        <references refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" compoundref="_radio_control_8h" startline="13">RC_IN_Type::Channel</references>
+        <references refid="struct_r_c___i_n___type_1a48bd12f9e2fc82764a1cc7101a7f612a" compoundref="_radio_control_8h" startline="15">RC_IN_Type::LastRCSignalTime</references>
+        <references refid="_radio_control_8cpp_1a62d24f9f3946bee7904ff78fdd7d0708" compoundref="_radio_control_8cpp" startline="15">RC_Ch0InShared</references>
+        <references refid="_radio_control_8cpp_1a6bdf20ca38354ec65538a49a31c5151d" compoundref="_radio_control_8cpp" startline="16">RC_Ch1InShared</references>
+        <references refid="_radio_control_8cpp_1a4238ac01305064e6df95bcbde7f5ca61" compoundref="_radio_control_8cpp" startline="17">RC_Ch2InShared</references>
+        <references refid="_radio_control_8cpp_1a9ddd63e0a39986e647cfbc82b595f338" compoundref="_radio_control_8cpp" startline="18">RC_Ch3InShared</references>
+        <references refid="_radio_control_8cpp_1a0b3f3b2db59f416ce1f7811e5bdf561c" compoundref="_radio_control_8cpp" startline="167" endline="227">RC_Command_Switch</references>
+        <references refid="structconfig_values_type_1a6e87d7c2d3bbe04a269b9ea1df95d08e" compoundref="config_values_8h" startline="57">configValuesType::RC_FailSafe_Ch0</references>
+        <references refid="structconfig_values_type_1a3e03ea3e68c69e70790b89bb35c48891" compoundref="config_values_8h" startline="58">configValuesType::RC_FailSafe_Ch1</references>
+        <references refid="structconfig_values_type_1ab67f55a038996a2bc882f35ecf25df78" compoundref="config_values_8h" startline="59">configValuesType::RC_FailSafe_Ch2</references>
+        <references refid="structconfig_values_type_1ac521c18e56efe3dabafaeb2a9b1a2983" compoundref="config_values_8h" startline="60">configValuesType::RC_FailSafe_Ch3</references>
+        <references refid="structconfig_values_type_1afc29b93865777b36fc05b69ee765d883" compoundref="config_values_8h" startline="62">configValuesType::RC_FailSafe_Time</references>
+        <references refid="struct_r_c___i_n___type_1aabbbba69226888f20ed88dbbdb7a3449" compoundref="_radio_control_8h" startline="14">RC_IN_Type::SignalValid</references>
+      </memberdef>
+      <memberdef kind="function" id="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RC_Command_Switch</definition>
+        <argsstring>(void)</argsstring>
+        <name>RC_Command_Switch</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="21" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp" bodystart="167" bodyend="227"/>
+        <references refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" compoundref="_radio_control_8h" startline="13">RC_IN_Type::Channel</references>
+        <references refid="struct_r_c___i_n___type_1a4b6be8a8907ba7d97eb168a401088493" compoundref="_radio_control_8h" startline="16">RC_IN_Type::RC_Command_Switch_Position</references>
+        <references refid="structconfig_values_type_1aa8605757da28b6c5b150ac3d3daad181" compoundref="config_values_8h" startline="75">configValuesType::RC_IN_Command_Threhold1</references>
+        <references refid="structconfig_values_type_1acb5f8a2de4f96f4cf1661e9834a553a2" compoundref="config_values_8h" startline="76">configValuesType::RC_IN_Command_Threhold2</references>
+        <references refid="structconfig_values_type_1a451ddce737e6b1b1bb977b36723a4441" compoundref="config_values_8h" startline="77">configValuesType::RC_IN_Command_Threhold3</references>
+        <references refid="structconfig_values_type_1ae7387ba3ace4c1aaca2dbc5fe0249631" compoundref="config_values_8h" startline="78">configValuesType::RC_IN_Command_Threhold4</references>
+        <references refid="struct_r_c___i_n___type_1aabbbba69226888f20ed88dbbdb7a3449" compoundref="_radio_control_8h" startline="14">RC_IN_Type::SignalValid</references>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_radio_control_8h_1a9698fd2952ddd9069e8f45a503a3b234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Servos_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>Servos_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="23" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp" bodystart="117" bodyend="130"/>
+        <references refid="structconfig_values_type_1a6e87d7c2d3bbe04a269b9ea1df95d08e" compoundref="config_values_8h" startline="57">configValuesType::RC_FailSafe_Ch0</references>
+        <references refid="structconfig_values_type_1a3e03ea3e68c69e70790b89bb35c48891" compoundref="config_values_8h" startline="58">configValuesType::RC_FailSafe_Ch1</references>
+        <references refid="structconfig_values_type_1ab67f55a038996a2bc882f35ecf25df78" compoundref="config_values_8h" startline="59">configValuesType::RC_FailSafe_Ch2</references>
+        <references refid="structconfig_values_type_1ac521c18e56efe3dabafaeb2a9b1a2983" compoundref="config_values_8h" startline="60">configValuesType::RC_FailSafe_Ch3</references>
+        <references refid="_radio_control_8cpp_1af92ea62d435bd53f2f14a078ee361d42" compoundref="_radio_control_8cpp" startline="30">Servo_Ch0_OUT_PIN</references>
+        <references refid="_radio_control_8cpp_1ac5debfbb15a44f663c66b33e47781910" compoundref="_radio_control_8cpp" startline="31">Servo_Ch1_OUT_PIN</references>
+        <references refid="_radio_control_8cpp_1a0bd96448764480f80f93bbbcb8993f51" compoundref="_radio_control_8cpp" startline="32">Servo_Ch2_OUT_PIN</references>
+        <references refid="_radio_control_8cpp_1af6c0718c378a21bb067f213c98d83763" compoundref="_radio_control_8cpp" startline="33">Servo_Ch3_OUT_PIN</references>
+        <references refid="_radio_control_8cpp_1a1839c47fc138aa2f8f1bf9cdc0e8a606" compoundref="_radio_control_8cpp" startline="13">Servo_Channel</references>
+      </memberdef>
+      <memberdef kind="function" id="_radio_control_8h_1a1047ffeb8a3f8bc5e2df086830a814a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Servo_Out</definition>
+        <argsstring>(int Channel, int PulseWidth)</argsstring>
+        <name>Servo_Out</name>
+        <param>
+          <type>int</type>
+          <declname>Channel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PulseWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp" bodystart="229" bodyend="238"/>
+        <references refid="_radio_control_8cpp_1a117278e5e512bbdd50b6aaa6489d44ff" compoundref="_radio_control_8cpp" startline="53">RC_PulseWidth_Max</references>
+        <references refid="_radio_control_8cpp_1a7696b8726576857cb41ebe729872f46f" compoundref="_radio_control_8cpp" startline="52">RC_PulseWidth_Min</references>
+        <references refid="_radio_control_8cpp_1a1839c47fc138aa2f8f1bf9cdc0e8a606" compoundref="_radio_control_8cpp" startline="13">Servo_Channel</references>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>RadioControl.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_RADIOCONTROL_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_RADIOCONTROL_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_r_c___i_n___type" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_r_c___i_n___type" kindref="compound">RC_IN_Type</ref><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" kindref="member">Channel</ref>[4];<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>pulse<sp/>width<sp/>in<sp/>microseconds,<sp/>array<sp/>for<sp/>each<sp/>of<sp/>the<sp/>input<sp/>channels</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="struct_r_c___i_n___type_1aabbbba69226888f20ed88dbbdb7a3449" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_r_c___i_n___type_1aabbbba69226888f20ed88dbbdb7a3449" kindref="member">SignalValid</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>flag<sp/>to<sp/>indicate<sp/>if<sp/>the<sp/>Radio<sp/>Control<sp/>is<sp/>operational.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="struct_r_c___i_n___type_1a48bd12f9e2fc82764a1cc7101a7f612a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="struct_r_c___i_n___type_1a48bd12f9e2fc82764a1cc7101a7f612a" kindref="member">LastRCSignalTime</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>time<sp/>in<sp/>millis<sp/>when<sp/>the<sp/>last<sp/>RC<sp/>signal<sp/>was<sp/>received.<sp/>This<sp/>is<sp/>used<sp/>to<sp/>establish<sp/>whether<sp/>the<sp/>RC<sp/>is<sp/>functional</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="struct_r_c___i_n___type_1a4b6be8a8907ba7d97eb168a401088493" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_r_c___i_n___type_1a4b6be8a8907ba7d97eb168a401088493" kindref="member">RC_Command_Switch_Position</ref>;<sp/></highlight><highlight class="comment">//<sp/>this<sp/>represents<sp/>integer<sp/>values<sp/>of<sp/>the<sp/>&quot;Virtual&quot;<sp/>multi<sp/>position<sp/>switch<sp/>derived<sp/>from<sp/>an<sp/>RC<sp/>channel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_radio_control_8h_1aec399334aa1324b5f335a8d1fc4fd51a" kindref="member">RC_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" kindref="member">RC_Read</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" kindref="member">RC_Command_Switch</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_radio_control_8h_1a9698fd2952ddd9069e8f45a503a3b234" kindref="member">Servos_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_radio_control_8h_1a1047ffeb8a3f8bc5e2df086830a814a8" kindref="member">Servo_Out</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Channel,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PulseWidth);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.h"/>
+  </compounddef>
+</doxygen>

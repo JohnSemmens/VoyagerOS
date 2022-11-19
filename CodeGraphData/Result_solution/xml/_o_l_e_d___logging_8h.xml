@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_o_l_e_d___logging_8h" kind="file">
+    <compoundname>OLED_Logging.h</compoundname>
+    <includes refid="_mission_8h" local="yes">Mission.h</includes>
+    <includes local="yes">Arduino.h</includes>
+    <includedby refid="_local___display_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_s_d_card_log_file_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</includedby>
+    <incdepgraph>
+      <node id="649">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="650" relation="include">
+        </childnode>
+      </node>
+      <node id="648">
+        <label>Mission.h</label>
+        <link refid="_mission_8h"/>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="650" relation="include">
+        </childnode>
+      </node>
+      <node id="651">
+        <label>Arduino.h</label>
+      </node>
+      <node id="650">
+        <label>arduino.h</label>
+      </node>
+      <node id="647">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h</label>
+        <link refid="OLED_Logging.h"/>
+        <childnode refid="648" relation="include">
+        </childnode>
+        <childnode refid="651" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="653">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp</label>
+        <link refid="_local___display_8cpp"/>
+      </node>
+      <node id="654">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="655">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</label>
+        <link refid="_s_d_card_log_file_8cpp"/>
+      </node>
+      <node id="652">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h</label>
+        <link refid="OLED_Logging.h"/>
+        <childnode refid="653" relation="include">
+        </childnode>
+        <childnode refid="654" relation="include">
+        </childnode>
+        <childnode refid="655" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_o_l_e_d___logging_8h_1ac92a9b501d1d8c407912a607ba84d93a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OLED_Init</definition>
+        <argsstring>(int SerialPortNumber)</argsstring>
+        <name>OLED_Init</name>
+        <param>
+          <type>int</type>
+          <declname>SerialPortNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h" line="14" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp" bodystart="97" bodyend="132"/>
+        <references refid="class_adafruit___s_s_d1306_1a804a4689c2e09a5300f72251fd481a1b" compoundref="_adafruit___s_s_d1306_8cpp" startline="169" endline="288">Adafruit_SSD1306::begin</references>
+        <references refid="class_adafruit___s_s_d1306_1afe1e0f5efabd931aab7998275356744d" compoundref="_adafruit___s_s_d1306_8cpp" startline="488" endline="490">Adafruit_SSD1306::clearDisplay</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a4e21bdc00125986d18fb56779bcb5b05">display</references>
+        <references refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" compoundref="_adafruit___s_s_d1306_8cpp" startline="419" endline="485">Adafruit_SSD1306::display</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a5c5e3772370dd3209b09d0ac73a374ea" compoundref="_o_l_e_d___logging_8cpp" startline="93">OLED_Address</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a11567544f8eb2adef8c68b87150db20b" compoundref="_o_l_e_d___logging_8cpp" startline="94">OLED_Present</references>
+        <references refid="_o_l_e_d___logging_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <references refid="class_adafruit___g_f_x_1a59178a0e0c845a14a39b457c43567dd9" compoundref="_adafruit___g_f_x_8cpp" startline="877" endline="881">Adafruit_GFX::setTextColor</references>
+        <references refid="class_adafruit___g_f_x_1a39eb4a8a2c9fa4ab7d58ceffd19535d5" compoundref="_adafruit___g_f_x_8cpp" startline="873" endline="875">Adafruit_GFX::setTextSize</references>
+        <references refid="_adafruit___s_s_d1306_8h_1ad9d18b92ad68b542033c7e5ccbdcced0" compoundref="_adafruit___s_s_d1306_8h" startline="133">SSD1306_SWITCHCAPVCC</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a87b537f5fa5c109d3c05c13d6b18f382" compoundref="_adafruit___s_s_d1306_8h" startline="52">WHITE</references>
+      </memberdef>
+      <memberdef kind="function" id="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OLED_Logging</definition>
+        <argsstring>(char LoggingLevel)</argsstring>
+        <name>OLED_Logging</name>
+        <param>
+          <type>char</type>
+          <declname>LoggingLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h" line="15" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp" bodystart="134" bodyend="1238"/>
+        <references refid="struct_i_m_u_struct_1a54d4fc4b92cc8b22d4b82bddbcaa5c8e" compoundref="_u_s_f_s___i_m_u_8h" startline="55">IMUStruct::Algorithm_Status</references>
+        <references refid="struct_wing_sail_type_1a3ce4045cf7e44d3778244bb2433703d7" compoundref="_wingsail_8h" startline="25">WingSailType::Angle</references>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="struct_i_m_u_struct_1a2b30f6763b4a63def638ed4494df3a79" compoundref="_u_s_f_s___i_m_u_8h" startline="53">IMUStruct::baro_pressure</references>
+        <references refid="struct_i_m_u_struct_1a25f31097a90231ca2768ba51b67bbe70" compoundref="_u_s_f_s___i_m_u_8h" startline="54">IMUStruct::baro_temperature</references>
+        <references refid="structconfig_values_type_1a59efead0f04f26233f9b1dfb3ec52945" compoundref="config_values_8h" startline="96">configValuesType::BluetoothPort</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a94935136212ee28d47f85f54af7f9c00">BluetoothStatePin</references>
+        <references refid="structconfig_values_type_1a7523308a51da9a1de8e194446e3e68be" compoundref="config_values_8h" startline="100">configValuesType::BTPortBaudRate</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a12f977b17bc11b1b5327695231ca20d5">BTState</references>
+        <references refid="struct_loiter_struct_1ae978e14205ab2857e5ecac5797989a21" compoundref="_loiter_8h" startline="32">LoiterStruct::BTW</references>
+        <references refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" compoundref="_navigation_8h" startline="68">NavigationDataType::BTW</references>
+        <references refid="struct_navigation_data_type_1a98d8a4e836e020c670fc15ccd5a65270" compoundref="_navigation_8h" startline="71">NavigationDataType::CDA</references>
+        <references refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" compoundref="_radio_control_8h" startline="13">RC_IN_Type::Channel</references>
+        <references refid="class_adafruit___s_s_d1306_1afe1e0f5efabd931aab7998275356744d" compoundref="_adafruit___s_s_d1306_8cpp" startline="488" endline="490">Adafruit_SSD1306::clearDisplay</references>
+        <references refid="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" compoundref="_mission_8h" startline="25">MissionCommand::cmd</references>
+        <references refid="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" compoundref="_navigation_8h" startline="80">NavigationDataType::COG</references>
+        <references refid="_o_l_e_d___logging_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="_o_l_e_d___logging_8cpp_1ab1a967b1703fb793778b667a67453c7a">CommandPortBaudRate</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="structconfig_values_type_1a0d81540f66f65f79aaef899207f903b5" compoundref="config_values_8h" startline="49">configValuesType::CompassOffsetAngle</references>
+        <references refid="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" compoundref="_navigation_8h" startline="108">NavigationDataType::CourseType</references>
+        <references refid="_telemetry_logging_8cpp_1a71884706f22f4eddff74dec1ffa0615e" compoundref="_telemetry_logging_8cpp" startline="551" endline="576">CourseTypeToString</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" compoundref="_navigation_8h" startline="40">ctDirectToWayPoint</references>
+        <references refid="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" compoundref="_navigation_8h" startline="73">NavigationDataType::CTE</references>
+        <references refid="struct_navigation_data_type_1a275fa2206f1bd99dc50a884a6365c1b3" compoundref="_navigation_8h" startline="74">NavigationDataType::CTE_Correction</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a3174ab8e0f496c9340a2b28061c347d8" compoundref="_navigation_8h" startline="39">ctNotEstablished</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" compoundref="_navigation_8h" startline="41">ctPortTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408abf1c76fdda282f2d11b4d60fa6a96f50" compoundref="_navigation_8h" startline="43">ctPortTackRunning</references>
+        <references refid="struct_navigation_data_type_1aee29812f10b4c37724fa37dbf94839ec" compoundref="_navigation_8h" startline="85">NavigationDataType::CTS</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" compoundref="_navigation_8h" startline="42">ctStarboardTack</references>
+        <references refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aae9d981a5beec8c2af9c6f49e1ca7e7e" compoundref="_navigation_8h" startline="44">ctStarboardTackRunning</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="struct_time_1ad99bb2472136eac523275c97ec27cd2e" compoundref="_g_p_s_8h" startline="23">Time::dayOfMonth</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a4e21bdc00125986d18fb56779bcb5b05">display</references>
+        <references refid="class_adafruit___s_s_d1306_1aeaa87aea232bb42cbcc642e510f0d95a" compoundref="_adafruit___s_s_d1306_8cpp" startline="419" endline="485">Adafruit_SSD1306::display</references>
+        <references refid="struct_loiter_struct_1ad6c580eaf8ecc5c574fe64822aef7612" compoundref="_loiter_8h" startline="31">LoiterStruct::DTW</references>
+        <references refid="struct_navigation_data_type_1a2f9b0306d48f2d8ec67e4c00cfeae7bb" compoundref="_navigation_8h" startline="67">NavigationDataType::DTW</references>
+        <references refid="struct_mission_command_1a1616af2b51234c7ee3f5e55a877d689d" compoundref="_mission_8h" startline="29">MissionCommand::duration</references>
+        <references refid="_bluetooth_connection_8cpp_1a728eb292f166bc32c6c8c0e7f612347a" compoundref="_bluetooth_connection_8cpp" startline="117" endline="131">GetBTStatus</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a87806d88081f4e95a4fe0d30e19dbe3c" compoundref="_o_l_e_d___logging_8cpp" startline="1241" endline="1274">GetMissionCommandString</references>
+        <references refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</references>
+        <references refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" compoundref="_navigation_8h" startline="82">NavigationDataType::HDG</references>
+        <references refid="struct_navigation_data_type_1a0628dd2915597f2ad61ebce64047789a" compoundref="_navigation_8h" startline="126">NavigationDataType::HDG_Err</references>
+        <references refid="struct_navigation_data_type_1a381a4a0d4e70f8d8532bf71e4b07c8aa" compoundref="_navigation_8h" startline="125">NavigationDataType::HDG_Mag</references>
+        <references refid="struct_i_m_u_struct_1afeec639b1640f5d5327f29aad5381835" compoundref="_u_s_f_s___i_m_u_8h" startline="50">IMUStruct::heading</references>
+        <references refid="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" compoundref="_command_state___processor_8h" startline="38">StateValuesStruct::home</references>
+        <references refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" compoundref="_command_state___processor_8h" startline="39">StateValuesStruct::home_is_set</references>
+        <references refid="struct_time_1a60a4ef2e2de0d8aaafe7992f7f5542e8" compoundref="_g_p_s_8h" startline="21">Time::hour</references>
+        <references refid="class_m_p_u9250_1a71de2142b4440cd5a0e99066f9890e27" compoundref="_m_p_u9250_8h" startline="269">MPU9250::Initialsed</references>
+        <references refid="struct_vessel_usage_counters_struct_1acf9217437202c331a72e219355cadd40" compoundref="_wear_tracking_8h" startline="22">VesselUsageCountersStruct::intervalCounter</references>
+        <references refid="struct_navigation_data_type_1a3d29cedc948ea7b6dc05756597611dca" compoundref="_navigation_8h" startline="113">NavigationDataType::IsBTWSailable</references>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <references refid="struct_loiter_struct_1afac54851cf6a19f154fba5b34f35d595" compoundref="_loiter_8h" startline="25">LoiterStruct::loiterCentreLocation</references>
+        <references refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" compoundref="_loiter_8h" startline="24">LoiterStruct::LoiterState</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a29a0504be4f2ef43ca564a001ca09472" compoundref="_loiter_8h" startline="16">lsApproach</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a79380229b91a5962563cf2bd6b62f009" compoundref="_loiter_8h" startline="15">lsNotLoitering</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342ae5310f50cd9fee4cedb79495508058e8" compoundref="_loiter_8h" startline="19">lsPortSide</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a828ae9f56dfe1eeab98643dbe73b24bf" compoundref="_loiter_8h" startline="20">lsStarboardSide</references>
+        <references refid="class_m_p_u9250_1add8846692e3550adc9a6a95517aec4d5" compoundref="_m_p_u9250_8h" startline="243">MPU9250::MagneticAngle</references>
+        <references refid="struct_navigation_data_type_1a26784db798eae8b8ddf6826a7050bbc0" compoundref="_navigation_8h" startline="121">NavigationDataType::Manoeuvre</references>
+        <references refid="struct_navigation_data_type_1aef1f40dbe842913e3d57beb27f42e7cf" compoundref="_navigation_8h" startline="122">NavigationDataType::ManoeuvreState</references>
+        <references refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" compoundref="_navigation_8h" startline="65">NavigationDataType::MaxCTE</references>
+        <references refid="_o_l_e_d___logging_8cpp_1afd0928602ac73aa5ab1c517c50209654">MessageDisplayLine1</references>
+        <references refid="_o_l_e_d___logging_8cpp_1af1493d7d1c11de08dcc240fc18dcd581">MessageDisplayLine2</references>
+        <references refid="struct_time_1a1094a46e03270001fda7ee1bb08b2f23" compoundref="_g_p_s_8h" startline="20">Time::minute</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" compoundref="_mission_8h" startline="40">MissionValuesStruct::mission_size</references>
+        <references refid="struct_mission_values_struct_1a0b6991219567898d0f4c105e1c593a8e" compoundref="_mission_8h" startline="41">MissionValuesStruct::MissionCommandStartTime</references>
+        <references refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" compoundref="_mission_8h" startline="39">MissionValuesStruct::MissionList</references>
+        <references refid="struct_time_1a279cf834011dd08136310594ec5e45f4" compoundref="_g_p_s_8h" startline="24">Time::month</references>
+        <references refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" compoundref="_navigation_8h" startline="50">mtGybe</references>
+        <references refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44a3605552dff0d9338e725f576b75fbb4a" compoundref="_navigation_8h" startline="48">mtNotDefined</references>
+        <references refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44ae2f32ff44a4654302e8a3ea4f70963d2" compoundref="_navigation_8h" startline="49">mtTack</references>
+        <references refid="class_m_p_u9250_1aa4cc8b2c9417304d1106bdbd988ac607" compoundref="_m_p_u9250_8h" startline="227">MPU9250::mx</references>
+        <references refid="class_m_p_u9250_1aa3cb5dd3e1f8bf678a2734885d33e56c" compoundref="_m_p_u9250_8h" startline="237">MPU9250::mx_max</references>
+        <references refid="class_m_p_u9250_1a1c31945120ad411a226400690b3182cb" compoundref="_m_p_u9250_8h" startline="236">MPU9250::mx_min</references>
+        <references refid="class_m_p_u9250_1ad7cf9fe3134d24f46705881b2e002f31" compoundref="_m_p_u9250_8h" startline="227">MPU9250::my</references>
+        <references refid="class_m_p_u9250_1a02007a0db5b9f53aefe1d37139bcc23d" compoundref="_m_p_u9250_8h" startline="239">MPU9250::my_max</references>
+        <references refid="class_m_p_u9250_1a5025a77f0594dc6ffd6dfac9bbdbb459" compoundref="_m_p_u9250_8h" startline="238">MPU9250::my_min</references>
+        <references refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" compoundref="_navigation_8h" startline="64">NavigationDataType::next_WP</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a11567544f8eb2adef8c68b87150db20b" compoundref="_o_l_e_d___logging_8cpp" startline="94">OLED_Present</references>
+        <references refid="struct_navigation_data_type_1ad484ff4b4c6262ce2ef5e6af8750f8ba" compoundref="_navigation_8h" startline="69">NavigationDataType::PastWP</references>
+        <references refid="struct_i_m_u_struct_1a536470fdd356df9d7dc75dc9bfa111d3" compoundref="_u_s_f_s___i_m_u_8h" startline="48">IMUStruct::pitch</references>
+        <references refid="struct_navigation_data_type_1a79e14aa598b4c30c8e06ac889796db03" compoundref="_navigation_8h" startline="116">NavigationDataType::PortLayline</references>
+        <references refid="struct_navigation_data_type_1ab5e9b350aa96d740eb6ebe37f216b518" compoundref="_navigation_8h" startline="118">NavigationDataType::PortLaylineRunning</references>
+        <references refid="struct_vessel_usage_counters_struct_1ae4fdf8859199b4dffefb20d43ed0ec66" compoundref="_wear_tracking_8h" startline="23">VesselUsageCountersStruct::PortRudderCounter</references>
+        <references refid="_o_l_e_d___logging_8cpp_1aea95619001504f641ab5c0b2f1f885dc">PowerSensorI</references>
+        <references refid="_o_l_e_d___logging_8cpp_1adfad02f502f8da0da9ddc814a3cfd259">PowerSensorV</references>
+        <references refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" compoundref="_navigation_8h" startline="63">NavigationDataType::prev_WP</references>
+        <references refid="struct_r_c___i_n___type_1a4b6be8a8907ba7d97eb168a401088493" compoundref="_radio_control_8h" startline="16">RC_IN_Type::RC_Command_Switch_Position</references>
+        <references refid="struct_i_m_u_struct_1a716242b0191f90e27f26a0a753ce4f9a" compoundref="_u_s_f_s___i_m_u_8h" startline="49">IMUStruct::roll</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a4ec5de6d8488139a4db18674c3f07eb8">SD_Card_Present</references>
+        <references refid="struct_time_1a843c6d240942c2c884220156b135fcfc" compoundref="_g_p_s_8h" startline="19">Time::second</references>
+        <references refid="struct_wing_sail_type_1a2f492aeb2e6eae96f33ace184673cad5" compoundref="_wingsail_8h" startline="28">WingSailType::Servo_microseconds</references>
+        <references refid="class_adafruit___g_f_x_1aaf96a40cad0f34dd8ec73494b3866c33" compoundref="_adafruit___g_f_x_8cpp" startline="860" endline="863">Adafruit_GFX::setCursor</references>
+        <references refid="class_adafruit___g_f_x_1a39eb4a8a2c9fa4ab7d58ceffd19535d5" compoundref="_adafruit___g_f_x_8cpp" startline="873" endline="875">Adafruit_GFX::setTextSize</references>
+        <references refid="struct_r_c___i_n___type_1aabbbba69226888f20ed88dbbdb7a3449" compoundref="_radio_control_8h" startline="14">RC_IN_Type::SignalValid</references>
+        <references refid="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" compoundref="_navigation_8h" startline="78">NavigationDataType::SOG_mps</references>
+        <references refid="class_adafruit___s_s_d1306_1a99182555a08549492f6c40ceea0abc3d" compoundref="_adafruit___s_s_d1306_8cpp" startline="299" endline="328">Adafruit_SSD1306::ssd1306_command</references>
+        <references refid="_adafruit___s_s_d1306_8h_1afc679e79b4ab084fac5e1789e0fe7d84" compoundref="_adafruit___s_s_d1306_8h" startline="103">SSD1306_DISPLAYOFF</references>
+        <references refid="_adafruit___s_s_d1306_8h_1a9222e241542c96063618792a8e2dee19" compoundref="_adafruit___s_s_d1306_8h" startline="104">SSD1306_DISPLAYON</references>
+        <references refid="struct_navigation_data_type_1a3e76f8cd259e63249264bed843e5e80e" compoundref="_navigation_8h" startline="117">NavigationDataType::StarboardLayline</references>
+        <references refid="struct_navigation_data_type_1a0ce2cc341a1eb869119a86f35c20ed93" compoundref="_navigation_8h" startline="119">NavigationDataType::StarboardLaylineRunning</references>
+        <references refid="struct_vessel_usage_counters_struct_1a6675c700a38cf60b2a332a72da951ad0" compoundref="_wear_tracking_8h" startline="24">VesselUsageCountersStruct::StarboardRudderCounter</references>
+        <references refid="struct_wing_sail_type_1ac06c0bf011f21961f298a94ff0b9163a" compoundref="_wingsail_8h" startline="27">WingSailType::State</references>
+        <references refid="struct_mission_command_1a0e191ee386b81492da3ba46977efeedf" compoundref="_mission_8h" startline="30">MissionCommand::SteerAWA</references>
+        <references refid="struct_state_values_struct_1a4100b0f396b9eecc008b3502739b0294" compoundref="_command_state___processor_8h" startline="41">StateValuesStruct::SteerCompassBearing</references>
+        <references refid="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" compoundref="_command_state___processor_8h" startline="40">StateValuesStruct::SteerWindAngle</references>
+        <references refid="struct_wing_sail_type_1a675de4c9d822a31a4da1fb3e779856b5" compoundref="_wingsail_8h" startline="29">WingSailType::Tack</references>
+        <references refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" compoundref="_navigation_8h" startline="89">NavigationDataType::TargetHDG</references>
+        <references refid="struct_wing_sail_type_1a4fbdd3e6a40eb76f05030e4b31f476fe" compoundref="_wingsail_8h" startline="26">WingSailType::TrimTabAngle</references>
+        <references refid="struct_mission_command_1a5400ca1048df713e7410dc6dea6d8f81" compoundref="_mission_8h" startline="31">MissionCommand::TrimTabAngle</references>
+        <references refid="struct_vessel_usage_counters_struct_1a106b7cdd508568ab09ae7d07d6e777d7" compoundref="_wear_tracking_8h" startline="25">VesselUsageCountersStruct::TrimTabCounter</references>
+        <references refid="struct_navigation_data_type_1ac115a6382767a05b1c6d83d2a4432b5e" compoundref="_navigation_8h" startline="87">NavigationDataType::TurnHDG</references>
+        <references refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" compoundref="_navigation_8h" startline="101">NavigationDataType::TWD</references>
+        <references refid="struct_navigation_data_type_1a42a29fa0d8d158498a0938d880ceceec" compoundref="_navigation_8h" startline="102">NavigationDataType::TWS</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849adabd724d3ef0f9779c154b7217ca77ed" compoundref="_command_state___processor_8h" startline="16">vcsIdle</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" compoundref="_command_state___processor_8h" startline="25">vcsLoiter</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" compoundref="_command_state___processor_8h" startline="18">vcsPartialManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" compoundref="_command_state___processor_8h" startline="24">vcsResetMissionIndex</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" compoundref="_command_state___processor_8h" startline="23">vcsSetHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" compoundref="_command_state___processor_8h" startline="20">vcsSteerMagneticCourse</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" compoundref="_command_state___processor_8h" startline="21">vcsSteerWindCourse</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a774c489d4a710f426e3ef7b97dd7d9d8">Version</references>
+        <references refid="_o_l_e_d___logging_8cpp_1a917b60655f432ad023e17190dc41adc9">VersionDate</references>
+        <references refid="struct_navigation_data_type_1afb1aa29b12f4897de80677a479a0ba2a" compoundref="_navigation_8h" startline="110">NavigationDataType::WindAngleToWaypoint</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+        <references refid="_wingsail_8h_1ae4a51ad4476d76756e3e48ba6ca7fc7aa1440dd1a2f93d441d49cb034d1643808" compoundref="_wingsail_8h" startline="20">wsForward</references>
+        <references refid="_wingsail_8h_1ad989b71e930a6d1a60b91decc2554ef5ac7b7419f237f72bb6d751da714389eb7" compoundref="_wingsail_8h" startline="13">wsHeadToWind</references>
+        <references refid="_wingsail_8h_1ae4a51ad4476d76756e3e48ba6ca7fc7aad69bda912cf7298b18a18fefafeaa5b9" compoundref="_wingsail_8h" startline="19">wsIdle</references>
+        <references refid="_wingsail_8h_1ad989b71e930a6d1a60b91decc2554ef5a5a33dc3f97dc93527342ce4397c591d3" compoundref="_wingsail_8h" startline="14">wsPortTack</references>
+        <references refid="_wingsail_8h_1ae4a51ad4476d76756e3e48ba6ca7fc7aaadff6a56b80faca718ecaf98c0163367" compoundref="_wingsail_8h" startline="21">wsReverse</references>
+        <references refid="_wingsail_8h_1ad989b71e930a6d1a60b91decc2554ef5aa97aec89db94a86435fedfd2fbff8783" compoundref="_wingsail_8h" startline="15">wsStarboardTack</references>
+        <references refid="struct_time_1a3e439c70f6a863677313d61cb151bcdb" compoundref="_g_p_s_8h" startline="25">Time::year</references>
+        <referencedby refid="_local___display_8h_1aa3b5d25d8436def78821807a3c1a0593" compoundref="_local___display_8cpp" startline="12" endline="16">Local_Display_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_o_l_e_d___logging_8h_1a87806d88081f4e95a4fe0d30e19dbe3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String GetMissionCommandString</definition>
+        <argsstring>(MissionCommandType cmd)</argsstring>
+        <name>GetMissionCommandString</name>
+        <param>
+          <type><ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398" kindref="member">MissionCommandType</ref></type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h" line="16" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp" bodystart="1241" bodyend="1274"/>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aa3a1517e29a678a16482db0903167641" compoundref="_mission_8h" startline="16">ctGotoWaypoint</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aba9c02415f591113e88eaec2c48d8eef" compoundref="_mission_8h" startline="17">ctLoiter</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a856603ea56061daf237a4ed1775c7be8" compoundref="_mission_8h" startline="18">ctLoiterUntil</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a7541643753c0b3cf9debe5d6589c3a47" compoundref="_mission_8h" startline="19">ctReturnToHome</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398ab5d9734d8cb7ee4687e055eb495b1adc" compoundref="_mission_8h" startline="20">ctSteerWindCourse</references>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>OLED_Logging.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_OLED_LOGGING_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_OLED_LOGGING_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_mission_8h" kindref="compound">Mission.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_o_l_e_d___logging_8h_1ac92a9b501d1d8c407912a607ba84d93a" kindref="member">OLED_Init</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SerialPortNumber);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" kindref="member">OLED_Logging</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>LoggingLevel);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">String<sp/><ref refid="_o_l_e_d___logging_8h_1a87806d88081f4e95a4fe0d30e19dbe3c" kindref="member">GetMissionCommandString</ref>(<ref refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398" kindref="member">MissionCommandType</ref><sp/>cmd);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h"/>
+  </compounddef>
+</doxygen>

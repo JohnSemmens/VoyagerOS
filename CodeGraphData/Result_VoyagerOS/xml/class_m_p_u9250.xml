@@ -1,0 +1,1281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_m_p_u9250" kind="class" prot="public">
+    <compoundname>MPU9250</compoundname>
+    <includes refid="_m_p_u9250_8h" local="no">MPU9250.h</includes>
+      <sectiondef kind="protected-type">
+      <memberdef kind="enum" id="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541" prot="protected" static="no">
+        <name>Ascale</name>
+        <enumvalue id="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a03a62f2f294f281d30b1420d04c25afd" prot="protected">
+          <name>AFS_2G</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a2d1d8182c99a2b8b9fccda692c1dd1e7" prot="protected">
+          <name>AFS_4G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a27257df617d37a7e043002e1beac668d" prot="protected">
+          <name>AFS_8G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a59596b9d88b49922da6fb954b1443df0" prot="protected">
+          <name>AFS_16G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="184" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7" prot="protected" static="no">
+        <name>Gscale</name>
+        <enumvalue id="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7acbac0d61786d1813a146966c57bf59e8" prot="protected">
+          <name>GFS_250DPS</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a5c7f8c2be18d7457ab2f622836096f3d" prot="protected">
+          <name>GFS_500DPS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a3492e581c40ec3bea6a8f26a8dad933d" prot="protected">
+          <name>GFS_1000DPS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a45a7e83bc8552f1c634ff19f6f4aaf50" prot="protected">
+          <name>GFS_2000DPS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="191" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="191" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0" prot="protected" static="no">
+        <name>Mscale</name>
+        <enumvalue id="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0a8366482c23c79bf8ae118d5f125b8d02" prot="protected">
+          <name>MFS_14BITS</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0ac3c6c6175324df8b68ff9d20b5970423" prot="protected">
+          <name>MFS_16BITS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="198" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="198" bodyend="201"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_m_p_u9250_1a4a060e8a9ab44dd99496e6333faa003d" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t MPU9250::Gscale</definition>
+        <argsstring></argsstring>
+        <name>Gscale</name>
+        <initializer>= <ref refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7acbac0d61786d1813a146966c57bf59e8" kindref="member">GFS_250DPS</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="204" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1acd30d6bcc3d5b12e43b5da17c67ea87d" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t MPU9250::Ascale</definition>
+        <argsstring></argsstring>
+        <name>Ascale</name>
+        <initializer>= <ref refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a03a62f2f294f281d30b1420d04c25afd" kindref="member">AFS_2G</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="205" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1ad9a2d2083ebc8e645a7d83b77ae6ac07" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t MPU9250::Mscale</definition>
+        <argsstring></argsstring>
+        <name>Mscale</name>
+        <initializer>= <ref refid="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0ac3c6c6175324df8b68ff9d20b5970423" kindref="member">MFS_16BITS</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="207" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a7e36453e794f2b4c13e2ed871ad3139b" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t MPU9250::Mmode</definition>
+        <argsstring></argsstring>
+        <name>Mmode</name>
+        <initializer>= 0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="209" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="209" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1aab7b6d912fdc88c4fedfad90abe2aeab" compoundref="_m_p_u9250_8cpp" startline="128" endline="147">initAK8963</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_m_p_u9250_1ab3d0117a094b81ac2e07f5c2d68aa5f4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="212" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="212" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a0493fbbf09cb14b8695a1eb804136e34" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::yaw</definition>
+        <argsstring></argsstring>
+        <name>yaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="212" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1ad394d6659aa446adff547feaa4985f94" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="212" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="212" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a2190394242c2b74ff53c20f8180af287" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::temperature</definition>
+        <argsstring></argsstring>
+        <name>temperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="213" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="213" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a8fa1b4fa4bc8db4bd162bc4f8ee8f0ea" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t MPU9250::tempCount</definition>
+        <argsstring></argsstring>
+        <name>tempCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="214" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="214" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a4d6b6338685120de2e21aa30d9d89389" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MPU9250::delt_t</definition>
+        <argsstring></argsstring>
+        <name>delt_t</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="215" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="215" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a9d231520d019ba7879c60ef7b72707a5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MPU9250::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="217" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="217" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a604d036ab632885152ab770b3c64676a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MPU9250::sumCount</definition>
+        <argsstring></argsstring>
+        <name>sumCount</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="217" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="217" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1a39e17cffe3de219d3f991b6476833e40" compoundref="_m_p_u9250_8cpp" startline="116" endline="126">updateTime</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a1e53d31ab289b64a0d6393b17e8b807e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::deltat</definition>
+        <argsstring></argsstring>
+        <name>deltat</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="218" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1a39e17cffe3de219d3f991b6476833e40" compoundref="_m_p_u9250_8cpp" startline="116" endline="126">updateTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1ac40db4e2fb94e9b33ec0b821c0b6ed2d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="218" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1a39e17cffe3de219d3f991b6476833e40" compoundref="_m_p_u9250_8cpp" startline="116" endline="126">updateTime</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1af60ee039dadb9eb5f4ade404ddfd878b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MPU9250::lastUpdate</definition>
+        <argsstring></argsstring>
+        <name>lastUpdate</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="219" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="219" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1a39e17cffe3de219d3f991b6476833e40" compoundref="_m_p_u9250_8cpp" startline="116" endline="126">updateTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a4ea2c930abf4529a3888885f9d928cf4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MPU9250::firstUpdate</definition>
+        <argsstring></argsstring>
+        <name>firstUpdate</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="219" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a96b7d70d685ed53744c69acc9f7ef1af" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MPU9250::Now</definition>
+        <argsstring></argsstring>
+        <name>Now</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="220" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="220" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1a39e17cffe3de219d3f991b6476833e40" compoundref="_m_p_u9250_8cpp" startline="116" endline="126">updateTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a14ab2e2ab741ca245007cb9a134e07f3" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t MPU9250::gyroCount[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>gyroCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="222" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="222" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1aff92db5334c43a72f5c2f1fc8ee6f596" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t MPU9250::magCount[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>magCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="223" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="223" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1afa89af2772cead0f76a4ddd92ec5f6a8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::aRes</definition>
+        <argsstring></argsstring>
+        <name>aRes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="225" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="225" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1a1c7dba3645913bf97f8b47d2bd4af2b0" compoundref="_m_p_u9250_8cpp" startline="44" endline="63">getAres</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a2c137b20138d3c80c4828691d5656d92" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::gRes</definition>
+        <argsstring></argsstring>
+        <name>gRes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="225" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="225" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1afd804ec9bd68961fc0084af461104304" compoundref="_m_p_u9250_8cpp" startline="23" endline="42">getGres</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a173e0594b9d3ecb6ece2b71f9f59fc50" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::mRes</definition>
+        <argsstring></argsstring>
+        <name>mRes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="225" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="225" bodyend="-1"/>
+        <referencedby refid="class_m_p_u9250_1ab6b113da9b2fb006eb44dc8078e699c5" compoundref="_m_p_u9250_8cpp" startline="9" endline="21">getMres</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1aea8a7622821bf8aca55fcef71d91e29f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::ax</definition>
+        <argsstring></argsstring>
+        <name>ax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a5129e95dbe12544fa34cc53b5644ff71" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::ay</definition>
+        <argsstring></argsstring>
+        <name>ay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a8ab7a335476e40a26aba80f867ac7da9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::az</definition>
+        <argsstring></argsstring>
+        <name>az</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a59b6d7bd37738bac258da24ad330feef" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::gx</definition>
+        <argsstring></argsstring>
+        <name>gx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a126311c382d2667b7bc7cbe1f9b38b51" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::gy</definition>
+        <argsstring></argsstring>
+        <name>gy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a756658ca06a3807ef426ab87022a15c9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::gz</definition>
+        <argsstring></argsstring>
+        <name>gz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1aa4cc8b2c9417304d1106bdbd988ac607" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::mx</definition>
+        <argsstring></argsstring>
+        <name>mx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1ad7cf9fe3134d24f46705881b2e002f31" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::my</definition>
+        <argsstring></argsstring>
+        <name>my</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1af11072922aa71ffb125fe3786f848653" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::mz</definition>
+        <argsstring></argsstring>
+        <name>mz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="227" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a1076b6b2c90d58ab4a0c2f6cc7110b18" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::magCalibration[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>magCalibration</name>
+        <initializer>= {0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="229" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="229" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a0e05494e9b3bec043cd890f0bc8917c9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::magbias[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>magbias</name>
+        <initializer>= {0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="229" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="229" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a4fc2232b3fdbd61bc1024c86842ddf9a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::gyroBias[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>gyroBias</name>
+        <initializer>= {0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="231" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="231" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a7b0e6389baccd5592c95cae9d24d1317" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::accelBias[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>accelBias</name>
+        <initializer>= {0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="231" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="231" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1ae9bbaec48bb667684b5d383c8a3c7504" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::SelfTest[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>SelfTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="232" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="232" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1adb56df6ceaf1dc204f97270540ac8b14" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t MPU9250::accelCount[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>accelCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="234" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="234" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a1c31945120ad411a226400690b3182cb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::mx_min</definition>
+        <argsstring></argsstring>
+        <name>mx_min</name>
+        <initializer>= 212</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="236" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="236" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1aa3cb5dd3e1f8bf678a2734885d33e56c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::mx_max</definition>
+        <argsstring></argsstring>
+        <name>mx_max</name>
+        <initializer>= 797</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="237" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="237" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a5025a77f0594dc6ffd6dfac9bbdbb459" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::my_min</definition>
+        <argsstring></argsstring>
+        <name>my_min</name>
+        <initializer>= 415</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="238" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="238" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a02007a0db5b9f53aefe1d37139bcc23d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::my_max</definition>
+        <argsstring></argsstring>
+        <name>my_max</name>
+        <initializer>= 960</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="239" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="239" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1aac36dca80b508e7516160df705b28a33" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::mz_min</definition>
+        <argsstring></argsstring>
+        <name>mz_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="240" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="240" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a0c33dd99aa2772cc50aa67bbd3e65137" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MPU9250::mz_max</definition>
+        <argsstring></argsstring>
+        <name>mz_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="241" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="241" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1add8846692e3550adc9a6a95517aec4d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MPU9250::MagneticAngle</definition>
+        <argsstring></argsstring>
+        <name>MagneticAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="243" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="243" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1a661b6bdd6007302ab66d7e3d92709bf9" compoundref="_navigation_8cpp" startline="130" endline="138">GetApparentWind</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a8f60e4e9a6511c9a5bc6a437484dab0f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MPU9250::MagneticAngleCalibrationMode</definition>
+        <argsstring></argsstring>
+        <name>MagneticAngleCalibrationMode</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="250" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="250" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_p_u9250_1a71de2142b4440cd5a0e99066f9890e27" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MPU9250::Initialsed</definition>
+        <argsstring></argsstring>
+        <name>Initialsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="269" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="269" bodyend="-1"/>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_m_p_u9250_1ab6b113da9b2fb006eb44dc8078e699c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::getMres</definition>
+        <argsstring>()</argsstring>
+        <name>getMres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="253" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="9" bodyend="21"/>
+        <references refid="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0a8366482c23c79bf8ae118d5f125b8d02" compoundref="_m_p_u9250_8h" startline="199">MFS_14BITS</references>
+        <references refid="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0ac3c6c6175324df8b68ff9d20b5970423" compoundref="_m_p_u9250_8h" startline="200">MFS_16BITS</references>
+        <references refid="class_m_p_u9250_1a173e0594b9d3ecb6ece2b71f9f59fc50" compoundref="_m_p_u9250_8h" startline="225">mRes</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1afd804ec9bd68961fc0084af461104304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::getGres</definition>
+        <argsstring>()</argsstring>
+        <name>getGres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="254" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="23" bodyend="42"/>
+        <references refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a3492e581c40ec3bea6a8f26a8dad933d" compoundref="_m_p_u9250_8h" startline="194">GFS_1000DPS</references>
+        <references refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a45a7e83bc8552f1c634ff19f6f4aaf50" compoundref="_m_p_u9250_8h" startline="195">GFS_2000DPS</references>
+        <references refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7acbac0d61786d1813a146966c57bf59e8" compoundref="_m_p_u9250_8h" startline="192">GFS_250DPS</references>
+        <references refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a5c7f8c2be18d7457ab2f622836096f3d" compoundref="_m_p_u9250_8h" startline="193">GFS_500DPS</references>
+        <references refid="class_m_p_u9250_1a2c137b20138d3c80c4828691d5656d92" compoundref="_m_p_u9250_8h" startline="225">gRes</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1a1c7dba3645913bf97f8b47d2bd4af2b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::getAres</definition>
+        <argsstring>()</argsstring>
+        <name>getAres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="255" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="44" bodyend="63"/>
+        <references refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a59596b9d88b49922da6fb954b1443df0" compoundref="_m_p_u9250_8h" startline="188">AFS_16G</references>
+        <references refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a03a62f2f294f281d30b1420d04c25afd" compoundref="_m_p_u9250_8h" startline="185">AFS_2G</references>
+        <references refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a2d1d8182c99a2b8b9fccda692c1dd1e7" compoundref="_m_p_u9250_8h" startline="186">AFS_4G</references>
+        <references refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a27257df617d37a7e043002e1beac668d" compoundref="_m_p_u9250_8h" startline="187">AFS_8G</references>
+        <references refid="class_m_p_u9250_1afa89af2772cead0f76a4ddd92ec5f6a8" compoundref="_m_p_u9250_8h" startline="225">aRes</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1a9ad1847d56ff8d3660a9eb6fee3a9d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::readAccelData</definition>
+        <argsstring>(int16_t *)</argsstring>
+        <name>readAccelData</name>
+        <param>
+          <type>int16_t *</type>
+          <defname>destination</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="256" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="66" bodyend="73"/>
+        <references refid="_m_p_u9250_8h_1a94b93aa4aabbe7caec7884ddb46b531b" compoundref="_m_p_u9250_8h" startline="105">ACCEL_XOUT_H</references>
+        <references refid="_m_p_u9250_8h_1af4d54e584a662662888836b3a9b9eb08" compoundref="_m_p_u9250_8h" startline="176">MPU9250_ADDRESS</references>
+        <references refid="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" compoundref="_m_p_u9250_8cpp" startline="465" endline="475">readBytes</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1a7f0f6be23ed65146391cf91e4739ccc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::readGyroData</definition>
+        <argsstring>(int16_t *)</argsstring>
+        <name>readGyroData</name>
+        <param>
+          <type>int16_t *</type>
+          <defname>destination</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="257" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="76" bodyend="83"/>
+        <references refid="_m_p_u9250_8h_1a0016198ccf5ca2b7f41d7a23e6554373" compoundref="_m_p_u9250_8h" startline="113">GYRO_XOUT_H</references>
+        <references refid="_m_p_u9250_8h_1af4d54e584a662662888836b3a9b9eb08" compoundref="_m_p_u9250_8h" startline="176">MPU9250_ADDRESS</references>
+        <references refid="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" compoundref="_m_p_u9250_8cpp" startline="465" endline="475">readBytes</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1a5d3589bd83a003da56546474dd9ca519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::readMagData</definition>
+        <argsstring>(int16_t *)</argsstring>
+        <name>readMagData</name>
+        <param>
+          <type>int16_t *</type>
+          <defname>destination</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="258" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="85" bodyend="106"/>
+        <references refid="_m_p_u9250_8h_1a1ec3de258ab1151da16b56ebb4cfd83d" compoundref="_m_p_u9250_8h" startline="177">AK8963_ADDRESS</references>
+        <references refid="_m_p_u9250_8h_1a0037cda572379e26ecad5030c64aaf10" compoundref="_m_p_u9250_8h" startline="23">AK8963_ST1</references>
+        <references refid="_m_p_u9250_8h_1a35260c212eacc1f2808af33bdc55c8fa" compoundref="_m_p_u9250_8h" startline="24">AK8963_XOUT_L</references>
+        <references refid="class_m_p_u9250_1a846032e6a6d737f4ff62065ca0e1568f" compoundref="_m_p_u9250_8cpp" startline="454" endline="463">readByte</references>
+        <references refid="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" compoundref="_m_p_u9250_8cpp" startline="465" endline="475">readBytes</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1a3ab318a519e0f85a38d0e40d4bedc89f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int16_t</type>
+        <definition>int16_t MPU9250::readTempData</definition>
+        <argsstring>()</argsstring>
+        <name>readTempData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="259" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="108" bodyend="113"/>
+        <references refid="_m_p_u9250_8h_1af4d54e584a662662888836b3a9b9eb08" compoundref="_m_p_u9250_8h" startline="176">MPU9250_ADDRESS</references>
+        <references refid="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" compoundref="_m_p_u9250_8cpp" startline="465" endline="475">readBytes</references>
+        <references refid="_m_p_u9250_8h_1ae8c4c28fe604535a3a57d0536c6e8175" compoundref="_m_p_u9250_8h" startline="111">TEMP_OUT_H</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1a39e17cffe3de219d3f991b6476833e40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::updateTime</definition>
+        <argsstring>()</argsstring>
+        <name>updateTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="260" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="116" bodyend="126"/>
+        <references refid="class_m_p_u9250_1a1e53d31ab289b64a0d6393b17e8b807e" compoundref="_m_p_u9250_8h" startline="218">deltat</references>
+        <references refid="class_m_p_u9250_1af60ee039dadb9eb5f4ade404ddfd878b" compoundref="_m_p_u9250_8h" startline="219">lastUpdate</references>
+        <references refid="class_m_p_u9250_1a96b7d70d685ed53744c69acc9f7ef1af" compoundref="_m_p_u9250_8h" startline="220">Now</references>
+        <references refid="class_m_p_u9250_1ac40db4e2fb94e9b33ec0b821c0b6ed2d" compoundref="_m_p_u9250_8h" startline="218">sum</references>
+        <references refid="class_m_p_u9250_1a604d036ab632885152ab770b3c64676a" compoundref="_m_p_u9250_8h" startline="217">sumCount</references>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1aab7b6d912fdc88c4fedfad90abe2aeab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::initAK8963</definition>
+        <argsstring>(float *)</argsstring>
+        <name>initAK8963</name>
+        <param>
+          <type>float *</type>
+          <defname>destination</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="261" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="128" bodyend="147"/>
+        <references refid="_m_p_u9250_8h_1a1ec3de258ab1151da16b56ebb4cfd83d" compoundref="_m_p_u9250_8h" startline="177">AK8963_ADDRESS</references>
+        <references refid="_m_p_u9250_8h_1a66032b6572950d4fb7044420a6beeee2" compoundref="_m_p_u9250_8h" startline="34">AK8963_ASAX</references>
+        <references refid="_m_p_u9250_8h_1a9049064347064927059f71ea3843f986" compoundref="_m_p_u9250_8h" startline="31">AK8963_CNTL</references>
+        <references refid="class_m_p_u9250_1a7e36453e794f2b4c13e2ed871ad3139b" compoundref="_m_p_u9250_8h" startline="209">Mmode</references>
+        <references refid="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" compoundref="_m_p_u9250_8cpp" startline="465" endline="475">readBytes</references>
+        <references refid="class_m_p_u9250_1acda1faee433d73e3a5edee132f3b1a1a" compoundref="_m_p_u9250_8cpp" startline="446" endline="452">writeByte</references>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1a03803202142ac461867daa9dd06fdd80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::initMPU9250</definition>
+        <argsstring>()</argsstring>
+        <name>initMPU9250</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="262" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="149" bodyend="205"/>
+        <references refid="_m_p_u9250_8h_1ab7336e26f8947086e41a375f1e1e74d4" compoundref="_m_p_u9250_8h" startline="67">ACCEL_CONFIG</references>
+        <references refid="_m_p_u9250_8h_1aecbf5cd71bd0e677bf19d2e855323794" compoundref="_m_p_u9250_8h" startline="68">ACCEL_CONFIG2</references>
+        <references refid="_m_p_u9250_8h_1a76ea3cf49247a07c54b3db005a3c7f57" compoundref="_m_p_u9250_8h" startline="65">CONFIG</references>
+        <references refid="_m_p_u9250_8h_1ac57e8c3192c859321b447c07089f20f0" compoundref="_m_p_u9250_8h" startline="66">GYRO_CONFIG</references>
+        <references refid="_m_p_u9250_8h_1abf7a56466fd6203663685a04448c9185" compoundref="_m_p_u9250_8h" startline="102">INT_ENABLE</references>
+        <references refid="_m_p_u9250_8h_1ab00fdfba66092d2d869031629c092dad" compoundref="_m_p_u9250_8h" startline="101">INT_PIN_CFG</references>
+        <references refid="_m_p_u9250_8h_1af4d54e584a662662888836b3a9b9eb08" compoundref="_m_p_u9250_8h" startline="176">MPU9250_ADDRESS</references>
+        <references refid="_m_p_u9250_8h_1a96169eb207e721c1546cea9ffd8a35e4" compoundref="_m_p_u9250_8h" startline="152">PWR_MGMT_1</references>
+        <references refid="class_m_p_u9250_1a846032e6a6d737f4ff62065ca0e1568f" compoundref="_m_p_u9250_8cpp" startline="454" endline="463">readByte</references>
+        <references refid="_m_p_u9250_8h_1a7119c37e38b6736096ea1565459043ba" compoundref="_m_p_u9250_8h" startline="64">SMPLRT_DIV</references>
+        <references refid="class_m_p_u9250_1acda1faee433d73e3a5edee132f3b1a1a" compoundref="_m_p_u9250_8cpp" startline="446" endline="452">writeByte</references>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1aeac1ae4402a4eb9a74bea5ad8af929c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::calibrateMPU9250</definition>
+        <argsstring>(float *gyroBias, float *accelBias)</argsstring>
+        <name>calibrateMPU9250</name>
+        <param>
+          <type>float *</type>
+          <declname>gyroBias</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>accelBias</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="263" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="211" bodyend="356"/>
+        <references refid="_m_p_u9250_8h_1ab7336e26f8947086e41a375f1e1e74d4" compoundref="_m_p_u9250_8h" startline="67">ACCEL_CONFIG</references>
+        <references refid="_m_p_u9250_8h_1a76ea3cf49247a07c54b3db005a3c7f57" compoundref="_m_p_u9250_8h" startline="65">CONFIG</references>
+        <references refid="_m_p_u9250_8h_1adbbef0e95665e066deb615f04b347491" compoundref="_m_p_u9250_8h" startline="159">FIFO_COUNTH</references>
+        <references refid="_m_p_u9250_8h_1a53954ec7f9dc790f00548da08ccd5ed6" compoundref="_m_p_u9250_8h" startline="81">FIFO_EN</references>
+        <references refid="_m_p_u9250_8h_1ac12b6d897ba3ad98caeb3bd070c1c158" compoundref="_m_p_u9250_8h" startline="161">FIFO_R_W</references>
+        <references refid="_m_p_u9250_8h_1ac57e8c3192c859321b447c07089f20f0" compoundref="_m_p_u9250_8h" startline="66">GYRO_CONFIG</references>
+        <references refid="_m_p_u9250_8h_1a24bc05247067ad9f0479f5a6d49c6412" compoundref="_m_p_u9250_8h" startline="82">I2C_MST_CTRL</references>
+        <references refid="_m_p_u9250_8h_1abf7a56466fd6203663685a04448c9185" compoundref="_m_p_u9250_8h" startline="102">INT_ENABLE</references>
+        <references refid="_m_p_u9250_8h_1af4d54e584a662662888836b3a9b9eb08" compoundref="_m_p_u9250_8h" startline="176">MPU9250_ADDRESS</references>
+        <references refid="_m_p_u9250_8h_1a96169eb207e721c1546cea9ffd8a35e4" compoundref="_m_p_u9250_8h" startline="152">PWR_MGMT_1</references>
+        <references refid="_m_p_u9250_8h_1a23cfbcfd19dc88eb631309970f138e65" compoundref="_m_p_u9250_8h" startline="153">PWR_MGMT_2</references>
+        <references refid="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" compoundref="_m_p_u9250_8cpp" startline="465" endline="475">readBytes</references>
+        <references refid="_m_p_u9250_8h_1a7119c37e38b6736096ea1565459043ba" compoundref="_m_p_u9250_8h" startline="64">SMPLRT_DIV</references>
+        <references refid="_m_p_u9250_8h_1abd9eebb35aad7616fe0414952e2d477d" compoundref="_m_p_u9250_8h" startline="151">USER_CTRL</references>
+        <references refid="class_m_p_u9250_1acda1faee433d73e3a5edee132f3b1a1a" compoundref="_m_p_u9250_8cpp" startline="446" endline="452">writeByte</references>
+        <references refid="_m_p_u9250_8h_1ae78e00d167f08af6530c8ee3bcaeb298" compoundref="_m_p_u9250_8h" startline="163">XA_OFFSET_H</references>
+        <references refid="_m_p_u9250_8h_1a678637dc3d76d4dcfbe8350c242492cd" compoundref="_m_p_u9250_8h" startline="164">XA_OFFSET_L</references>
+        <references refid="_m_p_u9250_8h_1a2dff8273af3bfe1bb8d2565df1f1444d" compoundref="_m_p_u9250_8h" startline="58">XG_OFFSET_H</references>
+        <references refid="_m_p_u9250_8h_1a0e3a6dea62584e862fe3c9132268618d" compoundref="_m_p_u9250_8h" startline="59">XG_OFFSET_L</references>
+        <references refid="_m_p_u9250_8h_1a539098400cb39fa2ba99fb17b407e4f1" compoundref="_m_p_u9250_8h" startline="165">YA_OFFSET_H</references>
+        <references refid="_m_p_u9250_8h_1a75ab86e226ea9443732eb1aff5b6d630" compoundref="_m_p_u9250_8h" startline="166">YA_OFFSET_L</references>
+        <references refid="_m_p_u9250_8h_1aa7f7aa074a4b54f24a17e375d1a27104" compoundref="_m_p_u9250_8h" startline="60">YG_OFFSET_H</references>
+        <references refid="_m_p_u9250_8h_1af3d02481e1360d65052560bb6434437d" compoundref="_m_p_u9250_8h" startline="61">YG_OFFSET_L</references>
+        <references refid="_m_p_u9250_8h_1a3beaaac6dcdf69ac6d4971944650c92e" compoundref="_m_p_u9250_8h" startline="167">ZA_OFFSET_H</references>
+        <references refid="_m_p_u9250_8h_1acd18db93b5d6f8cf18d4f16439e8d23b" compoundref="_m_p_u9250_8h" startline="168">ZA_OFFSET_L</references>
+        <references refid="_m_p_u9250_8h_1a542c8677b03c7426f0446b211994d0b8" compoundref="_m_p_u9250_8h" startline="62">ZG_OFFSET_H</references>
+        <references refid="_m_p_u9250_8h_1a8fc858d1bdf91b2ef0ec26050766d7dd" compoundref="_m_p_u9250_8h" startline="63">ZG_OFFSET_L</references>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1ad3bbdef687191a70354ee2f900352993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::MPU9250SelfTest</definition>
+        <argsstring>(float *destination)</argsstring>
+        <name>MPU9250SelfTest</name>
+        <param>
+          <type>float *</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="264" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="360" bodyend="442"/>
+        <references refid="_m_p_u9250_8h_1ab7336e26f8947086e41a375f1e1e74d4" compoundref="_m_p_u9250_8h" startline="67">ACCEL_CONFIG</references>
+        <references refid="_m_p_u9250_8h_1aecbf5cd71bd0e677bf19d2e855323794" compoundref="_m_p_u9250_8h" startline="68">ACCEL_CONFIG2</references>
+        <references refid="_m_p_u9250_8h_1a94b93aa4aabbe7caec7884ddb46b531b" compoundref="_m_p_u9250_8h" startline="105">ACCEL_XOUT_H</references>
+        <references refid="_m_p_u9250_8h_1a76ea3cf49247a07c54b3db005a3c7f57" compoundref="_m_p_u9250_8h" startline="65">CONFIG</references>
+        <references refid="_m_p_u9250_8h_1ac57e8c3192c859321b447c07089f20f0" compoundref="_m_p_u9250_8h" startline="66">GYRO_CONFIG</references>
+        <references refid="_m_p_u9250_8h_1a0016198ccf5ca2b7f41d7a23e6554373" compoundref="_m_p_u9250_8h" startline="113">GYRO_XOUT_H</references>
+        <references refid="_m_p_u9250_8h_1af4d54e584a662662888836b3a9b9eb08" compoundref="_m_p_u9250_8h" startline="176">MPU9250_ADDRESS</references>
+        <references refid="class_m_p_u9250_1a846032e6a6d737f4ff62065ca0e1568f" compoundref="_m_p_u9250_8cpp" startline="454" endline="463">readByte</references>
+        <references refid="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" compoundref="_m_p_u9250_8cpp" startline="465" endline="475">readBytes</references>
+        <references refid="_m_p_u9250_8h_1a514afe64ef4e94fd792f0e01e66cf682" compoundref="_m_p_u9250_8h" startline="52">SELF_TEST_X_ACCEL</references>
+        <references refid="_m_p_u9250_8h_1afbca39272b9691b037268612593d36ea" compoundref="_m_p_u9250_8h" startline="38">SELF_TEST_X_GYRO</references>
+        <references refid="_m_p_u9250_8h_1a9dba24f56a63a23b71ece8ebafbe46e1" compoundref="_m_p_u9250_8h" startline="53">SELF_TEST_Y_ACCEL</references>
+        <references refid="_m_p_u9250_8h_1a4589b391b79cd75e09d08c4465ff95d6" compoundref="_m_p_u9250_8h" startline="39">SELF_TEST_Y_GYRO</references>
+        <references refid="_m_p_u9250_8h_1a89faa3ca314423fc7876d1df8c62f848" compoundref="_m_p_u9250_8h" startline="54">SELF_TEST_Z_ACCEL</references>
+        <references refid="_m_p_u9250_8h_1a7d36169280ef7d539e6535693fa54663" compoundref="_m_p_u9250_8h" startline="40">SELF_TEST_Z_GYRO</references>
+        <references refid="_m_p_u9250_8h_1a7119c37e38b6736096ea1565459043ba" compoundref="_m_p_u9250_8h" startline="64">SMPLRT_DIV</references>
+        <references refid="class_m_p_u9250_1acda1faee433d73e3a5edee132f3b1a1a" compoundref="_m_p_u9250_8cpp" startline="446" endline="452">writeByte</references>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1acda1faee433d73e3a5edee132f3b1a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::writeByte</definition>
+        <argsstring>(uint8_t, uint8_t, uint8_t)</argsstring>
+        <name>writeByte</name>
+        <param>
+          <type>uint8_t</type>
+          <defname>address</defname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <defname>subAddress</defname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <defname>data</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="265" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="446" bodyend="452"/>
+        <referencedby refid="class_m_p_u9250_1aeac1ae4402a4eb9a74bea5ad8af929c1" compoundref="_m_p_u9250_8cpp" startline="211" endline="356">calibrateMPU9250</referencedby>
+        <referencedby refid="class_m_p_u9250_1aab7b6d912fdc88c4fedfad90abe2aeab" compoundref="_m_p_u9250_8cpp" startline="128" endline="147">initAK8963</referencedby>
+        <referencedby refid="class_m_p_u9250_1a03803202142ac461867daa9dd06fdd80" compoundref="_m_p_u9250_8cpp" startline="149" endline="205">initMPU9250</referencedby>
+        <referencedby refid="class_m_p_u9250_1ad3bbdef687191a70354ee2f900352993" compoundref="_m_p_u9250_8cpp" startline="360" endline="442">MPU9250SelfTest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1a846032e6a6d737f4ff62065ca0e1568f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t MPU9250::readByte</definition>
+        <argsstring>(uint8_t, uint8_t)</argsstring>
+        <name>readByte</name>
+        <param>
+          <type>uint8_t</type>
+          <defname>address</defname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <defname>subAddress</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="266" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="454" bodyend="463"/>
+        <referencedby refid="class_m_p_u9250_1a03803202142ac461867daa9dd06fdd80" compoundref="_m_p_u9250_8cpp" startline="149" endline="205">initMPU9250</referencedby>
+        <referencedby refid="class_m_p_u9250_1ad3bbdef687191a70354ee2f900352993" compoundref="_m_p_u9250_8cpp" startline="360" endline="442">MPU9250SelfTest</referencedby>
+        <referencedby refid="class_m_p_u9250_1a5d3589bd83a003da56546474dd9ca519" compoundref="_m_p_u9250_8cpp" startline="85" endline="106">readMagData</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a37c1ab62af781b700d0926c56b21f6c5" compoundref="_wind_angle__2950_8cpp" startline="49" endline="147">WingSailAngleSensor_Init</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a8de6420d60657c8e1678c6c0d3bff464" compoundref="_wind_angle__2950_8cpp" startline="194" endline="263">WingSailAngleSensor_Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MPU9250::readBytes</definition>
+        <argsstring>(uint8_t, uint8_t, uint8_t, uint8_t *)</argsstring>
+        <name>readBytes</name>
+        <param>
+          <type>uint8_t</type>
+          <defname>address</defname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <defname>subAddress</defname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <defname>count</defname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <defname>dest</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="267" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.cpp" bodystart="465" bodyend="475"/>
+        <referencedby refid="class_m_p_u9250_1aeac1ae4402a4eb9a74bea5ad8af929c1" compoundref="_m_p_u9250_8cpp" startline="211" endline="356">calibrateMPU9250</referencedby>
+        <referencedby refid="class_m_p_u9250_1aab7b6d912fdc88c4fedfad90abe2aeab" compoundref="_m_p_u9250_8cpp" startline="128" endline="147">initAK8963</referencedby>
+        <referencedby refid="class_m_p_u9250_1ad3bbdef687191a70354ee2f900352993" compoundref="_m_p_u9250_8cpp" startline="360" endline="442">MPU9250SelfTest</referencedby>
+        <referencedby refid="class_m_p_u9250_1a9ad1847d56ff8d3660a9eb6fee3a9d9b" compoundref="_m_p_u9250_8cpp" startline="66" endline="73">readAccelData</referencedby>
+        <referencedby refid="class_m_p_u9250_1a7f0f6be23ed65146391cf91e4739ccc0" compoundref="_m_p_u9250_8cpp" startline="76" endline="83">readGyroData</referencedby>
+        <referencedby refid="class_m_p_u9250_1a5d3589bd83a003da56546474dd9ca519" compoundref="_m_p_u9250_8cpp" startline="85" endline="106">readMagData</referencedby>
+        <referencedby refid="class_m_p_u9250_1a3ab318a519e0f85a38d0e40d4bedc89f" compoundref="_m_p_u9250_8cpp" startline="108" endline="113">readTempData</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" line="181" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/MPU9250.h" bodystart="180" bodyend="271"/>
+    <listofallmembers>
+      <member refid="class_m_p_u9250_1a7b0e6389baccd5592c95cae9d24d1317" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>accelBias</name></member>
+      <member refid="class_m_p_u9250_1adb56df6ceaf1dc204f97270540ac8b14" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>accelCount</name></member>
+      <member refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a59596b9d88b49922da6fb954b1443df0" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>AFS_16G</name></member>
+      <member refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a03a62f2f294f281d30b1420d04c25afd" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>AFS_2G</name></member>
+      <member refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a2d1d8182c99a2b8b9fccda692c1dd1e7" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>AFS_4G</name></member>
+      <member refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541a27257df617d37a7e043002e1beac668d" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>AFS_8G</name></member>
+      <member refid="class_m_p_u9250_1afa89af2772cead0f76a4ddd92ec5f6a8" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>aRes</name></member>
+      <member refid="class_m_p_u9250_1aaad7ce09b161856a8e0f46289a1d4541" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>Ascale</name></member>
+      <member refid="class_m_p_u9250_1acd30d6bcc3d5b12e43b5da17c67ea87d" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>Ascale</name></member>
+      <member refid="class_m_p_u9250_1aea8a7622821bf8aca55fcef71d91e29f" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>ax</name></member>
+      <member refid="class_m_p_u9250_1a5129e95dbe12544fa34cc53b5644ff71" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>ay</name></member>
+      <member refid="class_m_p_u9250_1a8ab7a335476e40a26aba80f867ac7da9" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>az</name></member>
+      <member refid="class_m_p_u9250_1aeac1ae4402a4eb9a74bea5ad8af929c1" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>calibrateMPU9250</name></member>
+      <member refid="class_m_p_u9250_1a9d231520d019ba7879c60ef7b72707a5" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>count</name></member>
+      <member refid="class_m_p_u9250_1a4d6b6338685120de2e21aa30d9d89389" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>delt_t</name></member>
+      <member refid="class_m_p_u9250_1a1e53d31ab289b64a0d6393b17e8b807e" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>deltat</name></member>
+      <member refid="class_m_p_u9250_1a4ea2c930abf4529a3888885f9d928cf4" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>firstUpdate</name></member>
+      <member refid="class_m_p_u9250_1a1c7dba3645913bf97f8b47d2bd4af2b0" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>getAres</name></member>
+      <member refid="class_m_p_u9250_1afd804ec9bd68961fc0084af461104304" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>getGres</name></member>
+      <member refid="class_m_p_u9250_1ab6b113da9b2fb006eb44dc8078e699c5" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>getMres</name></member>
+      <member refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a3492e581c40ec3bea6a8f26a8dad933d" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>GFS_1000DPS</name></member>
+      <member refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a45a7e83bc8552f1c634ff19f6f4aaf50" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>GFS_2000DPS</name></member>
+      <member refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7acbac0d61786d1813a146966c57bf59e8" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>GFS_250DPS</name></member>
+      <member refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7a5c7f8c2be18d7457ab2f622836096f3d" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>GFS_500DPS</name></member>
+      <member refid="class_m_p_u9250_1a2c137b20138d3c80c4828691d5656d92" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>gRes</name></member>
+      <member refid="class_m_p_u9250_1ad9b27398aae48c110685cce78352acd7" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>Gscale</name></member>
+      <member refid="class_m_p_u9250_1a4a060e8a9ab44dd99496e6333faa003d" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>Gscale</name></member>
+      <member refid="class_m_p_u9250_1a59b6d7bd37738bac258da24ad330feef" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>gx</name></member>
+      <member refid="class_m_p_u9250_1a126311c382d2667b7bc7cbe1f9b38b51" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>gy</name></member>
+      <member refid="class_m_p_u9250_1a4fc2232b3fdbd61bc1024c86842ddf9a" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>gyroBias</name></member>
+      <member refid="class_m_p_u9250_1a14ab2e2ab741ca245007cb9a134e07f3" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>gyroCount</name></member>
+      <member refid="class_m_p_u9250_1a756658ca06a3807ef426ab87022a15c9" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>gz</name></member>
+      <member refid="class_m_p_u9250_1aab7b6d912fdc88c4fedfad90abe2aeab" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>initAK8963</name></member>
+      <member refid="class_m_p_u9250_1a71de2142b4440cd5a0e99066f9890e27" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>Initialsed</name></member>
+      <member refid="class_m_p_u9250_1a03803202142ac461867daa9dd06fdd80" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>initMPU9250</name></member>
+      <member refid="class_m_p_u9250_1af60ee039dadb9eb5f4ade404ddfd878b" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>lastUpdate</name></member>
+      <member refid="class_m_p_u9250_1a0e05494e9b3bec043cd890f0bc8917c9" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>magbias</name></member>
+      <member refid="class_m_p_u9250_1a1076b6b2c90d58ab4a0c2f6cc7110b18" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>magCalibration</name></member>
+      <member refid="class_m_p_u9250_1aff92db5334c43a72f5c2f1fc8ee6f596" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>magCount</name></member>
+      <member refid="class_m_p_u9250_1add8846692e3550adc9a6a95517aec4d5" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>MagneticAngle</name></member>
+      <member refid="class_m_p_u9250_1a8f60e4e9a6511c9a5bc6a437484dab0f" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>MagneticAngleCalibrationMode</name></member>
+      <member refid="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0a8366482c23c79bf8ae118d5f125b8d02" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>MFS_14BITS</name></member>
+      <member refid="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0ac3c6c6175324df8b68ff9d20b5970423" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>MFS_16BITS</name></member>
+      <member refid="class_m_p_u9250_1a7e36453e794f2b4c13e2ed871ad3139b" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>Mmode</name></member>
+      <member refid="class_m_p_u9250_1ad3bbdef687191a70354ee2f900352993" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>MPU9250SelfTest</name></member>
+      <member refid="class_m_p_u9250_1a173e0594b9d3ecb6ece2b71f9f59fc50" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>mRes</name></member>
+      <member refid="class_m_p_u9250_1aebb5b9eac8f24d656e9dc5fe6bf43bc0" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>Mscale</name></member>
+      <member refid="class_m_p_u9250_1ad9a2d2083ebc8e645a7d83b77ae6ac07" prot="protected" virt="non-virtual"><scope>MPU9250</scope><name>Mscale</name></member>
+      <member refid="class_m_p_u9250_1aa4cc8b2c9417304d1106bdbd988ac607" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>mx</name></member>
+      <member refid="class_m_p_u9250_1aa3cb5dd3e1f8bf678a2734885d33e56c" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>mx_max</name></member>
+      <member refid="class_m_p_u9250_1a1c31945120ad411a226400690b3182cb" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>mx_min</name></member>
+      <member refid="class_m_p_u9250_1ad7cf9fe3134d24f46705881b2e002f31" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>my</name></member>
+      <member refid="class_m_p_u9250_1a02007a0db5b9f53aefe1d37139bcc23d" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>my_max</name></member>
+      <member refid="class_m_p_u9250_1a5025a77f0594dc6ffd6dfac9bbdbb459" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>my_min</name></member>
+      <member refid="class_m_p_u9250_1af11072922aa71ffb125fe3786f848653" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>mz</name></member>
+      <member refid="class_m_p_u9250_1a0c33dd99aa2772cc50aa67bbd3e65137" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>mz_max</name></member>
+      <member refid="class_m_p_u9250_1aac36dca80b508e7516160df705b28a33" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>mz_min</name></member>
+      <member refid="class_m_p_u9250_1a96b7d70d685ed53744c69acc9f7ef1af" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>Now</name></member>
+      <member refid="class_m_p_u9250_1ab3d0117a094b81ac2e07f5c2d68aa5f4" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>pitch</name></member>
+      <member refid="class_m_p_u9250_1a9ad1847d56ff8d3660a9eb6fee3a9d9b" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>readAccelData</name></member>
+      <member refid="class_m_p_u9250_1a846032e6a6d737f4ff62065ca0e1568f" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>readByte</name></member>
+      <member refid="class_m_p_u9250_1afb725121c98e57c700b1059731659cff" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>readBytes</name></member>
+      <member refid="class_m_p_u9250_1a7f0f6be23ed65146391cf91e4739ccc0" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>readGyroData</name></member>
+      <member refid="class_m_p_u9250_1a5d3589bd83a003da56546474dd9ca519" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>readMagData</name></member>
+      <member refid="class_m_p_u9250_1a3ab318a519e0f85a38d0e40d4bedc89f" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>readTempData</name></member>
+      <member refid="class_m_p_u9250_1ad394d6659aa446adff547feaa4985f94" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>roll</name></member>
+      <member refid="class_m_p_u9250_1ae9bbaec48bb667684b5d383c8a3c7504" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>SelfTest</name></member>
+      <member refid="class_m_p_u9250_1ac40db4e2fb94e9b33ec0b821c0b6ed2d" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>sum</name></member>
+      <member refid="class_m_p_u9250_1a604d036ab632885152ab770b3c64676a" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>sumCount</name></member>
+      <member refid="class_m_p_u9250_1a8fa1b4fa4bc8db4bd162bc4f8ee8f0ea" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>tempCount</name></member>
+      <member refid="class_m_p_u9250_1a2190394242c2b74ff53c20f8180af287" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>temperature</name></member>
+      <member refid="class_m_p_u9250_1a39e17cffe3de219d3f991b6476833e40" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>updateTime</name></member>
+      <member refid="class_m_p_u9250_1acda1faee433d73e3a5edee132f3b1a1a" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>writeByte</name></member>
+      <member refid="class_m_p_u9250_1a0493fbbf09cb14b8695a1eb804136e34" prot="public" virt="non-virtual"><scope>MPU9250</scope><name>yaw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

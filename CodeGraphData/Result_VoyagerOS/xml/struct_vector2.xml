@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_vector2" kind="struct" prot="public">
+    <compoundname>Vector2</compoundname>
+    <includes refid="vector2_8h" local="no">vector2.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T Vector2&lt; T &gt;::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="struct_vector2_1a51db87f649eb5433d1aee76979192201" compoundref="vector2_8cpp" startline="121" endline="124">Vector2&lt; T &gt;::operator!=</referencedby>
+        <referencedby refid="struct_vector2_1a8bff04e728523673e801cba766a36340" compoundref="vector2_8cpp" startline="39" endline="42">Vector2&lt; T &gt;::operator%</referencedby>
+        <referencedby refid="struct_vector2_1af58fdb320b592f2a623f767b96f82171" compoundref="vector2_8h" startline="53" endline="56">Vector2&lt; T &gt;::operator()</referencedby>
+        <referencedby refid="struct_vector2_1a9e25e26dc47ede54ee2b49678aecdccf" compoundref="vector2_8cpp" startline="32" endline="35">Vector2&lt; T &gt;::operator*</referencedby>
+        <referencedby refid="struct_vector2_1a594e6c112dcf84f37446b0c16ff38fe3" compoundref="vector2_8cpp" startline="103" endline="106">Vector2&lt; T &gt;::operator+</referencedby>
+        <referencedby refid="struct_vector2_1a57e0f40e5d38e326dd57da0c9d2775bb" compoundref="vector2_8cpp" startline="78" endline="82">Vector2&lt; T &gt;::operator+=</referencedby>
+        <referencedby refid="struct_vector2_1a0876cb3cf0c05e2f92c24c9892e76076" compoundref="vector2_8cpp" startline="97" endline="100">Vector2&lt; T &gt;::operator-</referencedby>
+        <referencedby refid="struct_vector2_1ad082d775fe10dcb8555316e1e1e90ca3" compoundref="vector2_8cpp" startline="59" endline="63">Vector2&lt; T &gt;::operator-=</referencedby>
+        <referencedby refid="struct_vector2_1a671b97043b72f4de1f3a899ff084431b" compoundref="vector2_8cpp" startline="115" endline="118">Vector2&lt; T &gt;::operator==</referencedby>
+        <referencedby refid="struct_vector2_1ae2f1223cb0d664aa73afb789086a4174" compoundref="vector2_8h" startline="44" endline="46">Vector2&lt; T &gt;::Vector2</referencedby>
+        <referencedby refid="struct_vector2_1a6b537328ae913e3e7267b539e7a4af92" compoundref="vector2_8h" startline="111" endline="114">Vector2&lt; T &gt;::zero</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T Vector2&lt; T &gt;::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="struct_vector2_1a51db87f649eb5433d1aee76979192201" compoundref="vector2_8cpp" startline="121" endline="124">Vector2&lt; T &gt;::operator!=</referencedby>
+        <referencedby refid="struct_vector2_1a8bff04e728523673e801cba766a36340" compoundref="vector2_8cpp" startline="39" endline="42">Vector2&lt; T &gt;::operator%</referencedby>
+        <referencedby refid="struct_vector2_1af58fdb320b592f2a623f767b96f82171" compoundref="vector2_8h" startline="53" endline="56">Vector2&lt; T &gt;::operator()</referencedby>
+        <referencedby refid="struct_vector2_1a9e25e26dc47ede54ee2b49678aecdccf" compoundref="vector2_8cpp" startline="32" endline="35">Vector2&lt; T &gt;::operator*</referencedby>
+        <referencedby refid="struct_vector2_1a594e6c112dcf84f37446b0c16ff38fe3" compoundref="vector2_8cpp" startline="103" endline="106">Vector2&lt; T &gt;::operator+</referencedby>
+        <referencedby refid="struct_vector2_1a57e0f40e5d38e326dd57da0c9d2775bb" compoundref="vector2_8cpp" startline="78" endline="82">Vector2&lt; T &gt;::operator+=</referencedby>
+        <referencedby refid="struct_vector2_1a0876cb3cf0c05e2f92c24c9892e76076" compoundref="vector2_8cpp" startline="97" endline="100">Vector2&lt; T &gt;::operator-</referencedby>
+        <referencedby refid="struct_vector2_1ad082d775fe10dcb8555316e1e1e90ca3" compoundref="vector2_8cpp" startline="59" endline="63">Vector2&lt; T &gt;::operator-=</referencedby>
+        <referencedby refid="struct_vector2_1a671b97043b72f4de1f3a899ff084431b" compoundref="vector2_8cpp" startline="115" endline="118">Vector2&lt; T &gt;::operator==</referencedby>
+        <referencedby refid="struct_vector2_1ae2f1223cb0d664aa73afb789086a4174" compoundref="vector2_8h" startline="44" endline="46">Vector2&lt; T &gt;::Vector2</referencedby>
+        <referencedby refid="struct_vector2_1a6b537328ae913e3e7267b539e7a4af92" compoundref="vector2_8h" startline="111" endline="114">Vector2&lt; T &gt;::zero</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_vector2_1ae2f1223cb0d664aa73afb789086a4174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Vector2&lt; T &gt;::Vector2</definition>
+        <argsstring>()</argsstring>
+        <name>Vector2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="44" bodyend="46"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1ad970560f0894fc63de2454bdf8da7ba1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Vector2&lt; T &gt;::Vector2</definition>
+        <argsstring>(const T x0, const T y0)</argsstring>
+        <name>Vector2</name>
+        <param>
+          <type>const T</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>const T</type>
+          <declname>y0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="49" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1af58fdb320b592f2a623f767b96f82171" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vector2&lt; T &gt;::operator()</definition>
+        <argsstring>(const T x0, const T y0)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const T</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>const T</type>
+          <declname>y0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="53" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="53" bodyend="56"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a671b97043b72f4de1f3a899ff084431b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>template bool Vector2&lt; T &gt;::operator==</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="59" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="115" bodyend="118"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a51db87f649eb5433d1aee76979192201" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>template bool Vector2&lt; T &gt;::operator!=</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="62" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="121" bodyend="124"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1ad07366013f058992e1d83abe3fe2356d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>template Vector2&lt; float &gt; Vector2&lt; T &gt;::operator-</definition>
+        <argsstring>(void) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="65" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a594e6c112dcf84f37446b0c16ff38fe3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>template Vector2&lt; float &gt; Vector2&lt; T &gt;::operator+</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v) const </argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="68" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="103" bodyend="106"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a0876cb3cf0c05e2f92c24c9892e76076" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>Vector2&lt; T &gt; Vector2&lt; T &gt;::operator-</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="71" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="97" bodyend="100"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a8f8c4696055343467132d30e63e53133" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>Vector2&lt; T &gt; Vector2&lt; T &gt;::operator*</definition>
+        <argsstring>(const T num) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const T</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="74" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a83351b02b216e8f203eb65de847b8cc5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>template Vector2&lt; float &gt; Vector2&lt; T &gt;::operator/</definition>
+        <argsstring>(const T num) const </argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const T</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="77" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a57e0f40e5d38e326dd57da0c9d2775bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+        <definition>template Vector2&lt; float &gt; &amp; Vector2&lt; T &gt;::operator+=</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="80" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="78" bodyend="82"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1ad082d775fe10dcb8555316e1e1e90ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+        <definition>template Vector2&lt; float &gt; &amp; Vector2&lt; T &gt;::operator-=</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="83" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="59" bodyend="63"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1aa137a081895a38fb3fc9004ee8b3e9e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+        <definition>template Vector2&lt; float &gt; &amp; Vector2&lt; T &gt;::operator*=</definition>
+        <argsstring>(const T num)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const T</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="86" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a6f1809eea0c00be8bcf13b84b11e1863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+        <definition>template Vector2&lt; float &gt; &amp; Vector2&lt; T &gt;::operator/=</definition>
+        <argsstring>(const T num)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const T</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="89" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a9e25e26dc47ede54ee2b49678aecdccf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T Vector2&lt; T &gt;::operator*</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="92" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="32" bodyend="35"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a8bff04e728523673e801cba766a36340" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>template float Vector2&lt; T &gt;::operator%</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v) const </argsstring>
+        <name>operator%</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="95" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="39" bodyend="42"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a62830d89ee7cd308a7d12caf352f1be9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Vector2&lt; T &gt;::angle</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v2) const </argsstring>
+        <name>angle</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="98" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="127" bodyend="138"/>
+        <references refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" compoundref="vector2_8cpp" startline="24" endline="27">Vector2&lt; T &gt;::length</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a5309e5cd1d486cadaeae49d9ff476178" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T Vector2&lt; T &gt;::angle</definition>
+        <argsstring>(void) const </argsstring>
+        <name>angle</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a621f53a54b59510fd0a535a809493573" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>template bool Vector2&lt; T &gt;::is_nan</definition>
+        <argsstring>(void) const </argsstring>
+        <name>is_nan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="105" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1ae673155db89ff79a1238470641f5c108" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>template bool Vector2&lt; T &gt;::is_inf</definition>
+        <argsstring>(void) const </argsstring>
+        <name>is_inf</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="108" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a6b537328ae913e3e7267b539e7a4af92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vector2&lt; T &gt;::zero</definition>
+        <argsstring>()</argsstring>
+        <name>zero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="111" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="111" bodyend="114"/>
+        <references refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::x</references>
+        <references refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" compoundref="vector2_8h" startline="41">Vector2&lt; T &gt;::y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a0fd42927ade2df86b44ca09dca1d8314" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T Vector2&lt; T &gt;::length_squared</definition>
+        <argsstring>() const </argsstring>
+        <name>length_squared</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="117" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>template float Vector2&lt; T &gt;::length</definition>
+        <argsstring>(void) const </argsstring>
+        <name>length</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="123" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp" bodystart="24" bodyend="27"/>
+        <references refid="_a_p___math_8cpp_1afd3767d48a7b20f6d5220a4f8007af00" compoundref="_a_p___math_8cpp" startline="118" endline="120">pythagorous2</references>
+        <referencedby refid="struct_vector2_1a62830d89ee7cd308a7d12caf352f1be9" compoundref="vector2_8cpp" startline="127" endline="138">Vector2&lt; T &gt;::angle</referencedby>
+        <referencedby refid="struct_vector2_1ace2a626eaa79412e2946216e9c3e63c6" compoundref="vector2_8h" startline="126" endline="129">Vector2&lt; T &gt;::normalize</referencedby>
+        <referencedby refid="struct_vector2_1a94313613241845651f3aba43ed9d5434" compoundref="vector2_8h" startline="132" endline="135">Vector2&lt; T &gt;::normalized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1ace2a626eaa79412e2946216e9c3e63c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vector2&lt; T &gt;::normalize</definition>
+        <argsstring>()</argsstring>
+        <name>normalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="126" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="126" bodyend="129"/>
+        <references refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" compoundref="vector2_8cpp" startline="24" endline="27">Vector2&lt; T &gt;::length</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a94313613241845651f3aba43ed9d5434" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>Vector2&lt;T&gt; Vector2&lt; T &gt;::normalized</definition>
+        <argsstring>() const </argsstring>
+        <name>normalized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="132" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="132" bodyend="135"/>
+        <references refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" compoundref="vector2_8cpp" startline="24" endline="27">Vector2&lt; T &gt;::length</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1ade6dd765f60fffb39e52cf117d043d97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vector2&lt; T &gt;::reflect</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;n)</argsstring>
+        <name>reflect</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="139" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="139" bodyend="144"/>
+        <references refid="struct_vector2_1ae567d360aef8af212c7e3139cc22aff7" compoundref="vector2_8h" startline="147" endline="150">Vector2&lt; T &gt;::project</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1ae567d360aef8af212c7e3139cc22aff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vector2&lt; T &gt;::project</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v)</argsstring>
+        <name>project</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="147" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="147" bodyend="150"/>
+        <referencedby refid="struct_vector2_1ade6dd765f60fffb39e52cf117d043d97" compoundref="vector2_8h" startline="139" endline="144">Vector2&lt; T &gt;::reflect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_vector2_1a3212191028319eb5d8b00cfd85068722" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>Vector2&lt;T&gt; Vector2&lt; T &gt;::projected</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v)</argsstring>
+        <name>projected</name>
+        <param>
+          <type>const <ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="153" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="153" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="157">
+        <label>Vector2&lt; T &gt;</label>
+        <link refid="struct_vector2"/>
+        <childnode refid="158" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+      <node id="158">
+        <label>T</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="40" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="39" bodyend="159"/>
+    <listofallmembers>
+      <member refid="struct_vector2_1a62830d89ee7cd308a7d12caf352f1be9" prot="public" virt="non-virtual"><scope>Vector2</scope><name>angle</name></member>
+      <member refid="struct_vector2_1a5309e5cd1d486cadaeae49d9ff476178" prot="public" virt="non-virtual"><scope>Vector2</scope><name>angle</name></member>
+      <member refid="struct_vector2_1ae673155db89ff79a1238470641f5c108" prot="public" virt="non-virtual"><scope>Vector2</scope><name>is_inf</name></member>
+      <member refid="struct_vector2_1a621f53a54b59510fd0a535a809493573" prot="public" virt="non-virtual"><scope>Vector2</scope><name>is_nan</name></member>
+      <member refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" prot="public" virt="non-virtual"><scope>Vector2</scope><name>length</name></member>
+      <member refid="struct_vector2_1a0fd42927ade2df86b44ca09dca1d8314" prot="public" virt="non-virtual"><scope>Vector2</scope><name>length_squared</name></member>
+      <member refid="struct_vector2_1ace2a626eaa79412e2946216e9c3e63c6" prot="public" virt="non-virtual"><scope>Vector2</scope><name>normalize</name></member>
+      <member refid="struct_vector2_1a94313613241845651f3aba43ed9d5434" prot="public" virt="non-virtual"><scope>Vector2</scope><name>normalized</name></member>
+      <member refid="struct_vector2_1a51db87f649eb5433d1aee76979192201" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator!=</name></member>
+      <member refid="struct_vector2_1a8bff04e728523673e801cba766a36340" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator%</name></member>
+      <member refid="struct_vector2_1af58fdb320b592f2a623f767b96f82171" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator()</name></member>
+      <member refid="struct_vector2_1a8f8c4696055343467132d30e63e53133" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator*</name></member>
+      <member refid="struct_vector2_1a9e25e26dc47ede54ee2b49678aecdccf" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator*</name></member>
+      <member refid="struct_vector2_1aa137a081895a38fb3fc9004ee8b3e9e6" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator*=</name></member>
+      <member refid="struct_vector2_1a594e6c112dcf84f37446b0c16ff38fe3" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator+</name></member>
+      <member refid="struct_vector2_1a57e0f40e5d38e326dd57da0c9d2775bb" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator+=</name></member>
+      <member refid="struct_vector2_1ad07366013f058992e1d83abe3fe2356d" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator-</name></member>
+      <member refid="struct_vector2_1a0876cb3cf0c05e2f92c24c9892e76076" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator-</name></member>
+      <member refid="struct_vector2_1ad082d775fe10dcb8555316e1e1e90ca3" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator-=</name></member>
+      <member refid="struct_vector2_1a83351b02b216e8f203eb65de847b8cc5" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator/</name></member>
+      <member refid="struct_vector2_1a6f1809eea0c00be8bcf13b84b11e1863" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator/=</name></member>
+      <member refid="struct_vector2_1a671b97043b72f4de1f3a899ff084431b" prot="public" virt="non-virtual"><scope>Vector2</scope><name>operator==</name></member>
+      <member refid="struct_vector2_1ae567d360aef8af212c7e3139cc22aff7" prot="public" virt="non-virtual"><scope>Vector2</scope><name>project</name></member>
+      <member refid="struct_vector2_1a3212191028319eb5d8b00cfd85068722" prot="public" virt="non-virtual"><scope>Vector2</scope><name>projected</name></member>
+      <member refid="struct_vector2_1ade6dd765f60fffb39e52cf117d043d97" prot="public" virt="non-virtual"><scope>Vector2</scope><name>reflect</name></member>
+      <member refid="struct_vector2_1ae2f1223cb0d664aa73afb789086a4174" prot="public" virt="non-virtual"><scope>Vector2</scope><name>Vector2</name></member>
+      <member refid="struct_vector2_1ad970560f0894fc63de2454bdf8da7ba1" prot="public" virt="non-virtual"><scope>Vector2</scope><name>Vector2</name></member>
+      <member refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" prot="public" virt="non-virtual"><scope>Vector2</scope><name>x</name></member>
+      <member refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" prot="public" virt="non-virtual"><scope>Vector2</scope><name>y</name></member>
+      <member refid="struct_vector2_1a6b537328ae913e3e7267b539e7a4af92" prot="public" virt="non-virtual"><scope>Vector2</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

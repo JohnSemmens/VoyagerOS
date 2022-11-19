@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="vector2_8h" kind="file">
+    <compoundname>vector2.h</compoundname>
+    <includes local="no">math.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includedby refid="_a_p___math_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h</includedby>
+    <includedby refid="vector2_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp</includedby>
+    <includedby refid="_vector2a_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Vector2a.h</includedby>
+    <incdepgraph>
+      <node id="958">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h</label>
+        <link refid="vector2.h"/>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+      </node>
+      <node id="960">
+        <label>stdint.h</label>
+      </node>
+      <node id="959">
+        <label>math.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="970">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="964">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</label>
+        <link refid="_c_l_i_8h"/>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+      </node>
+      <node id="972">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.cpp</label>
+        <link refid="vector2_8cpp"/>
+      </node>
+      <node id="965">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="963">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.cpp</label>
+        <link refid="_a_p___math_8cpp"/>
+      </node>
+      <node id="961">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h</label>
+        <link refid="vector2.h"/>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+        <childnode refid="973" relation="include">
+        </childnode>
+      </node>
+      <node id="967">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="968">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="969">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp</label>
+        <link refid="location_8cpp"/>
+      </node>
+      <node id="973">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Vector2a.h</label>
+        <link refid="_vector2a_8h"/>
+      </node>
+      <node id="971">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="966">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp</label>
+        <link refid="config_values_8cpp"/>
+      </node>
+      <node id="962">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/AP_Math.h</label>
+        <link refid="_a_p___math_8h"/>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="971" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_vector2" prot="public">Vector2</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="vector2_8h_1a0c25ea35b29dc4c8c737e5fb78c70732" prot="public" static="no">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; int16_t &gt;</type>
+        <definition>typedef Vector2&lt;int16_t&gt; Vector2i</definition>
+        <argsstring></argsstring>
+        <name>Vector2i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="161" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="vector2_8h_1a50b23deaa387969e53e36f1f5228d8ed" prot="public" static="no">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; uint16_t &gt;</type>
+        <definition>typedef Vector2&lt;uint16_t&gt; Vector2ui</definition>
+        <argsstring></argsstring>
+        <name>Vector2ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="162" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="vector2_8h_1a63156b2a66208e32d0ac10b81dd9bf4b" prot="public" static="no">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; int32_t &gt;</type>
+        <definition>typedef Vector2&lt;int32_t&gt; Vector2l</definition>
+        <argsstring></argsstring>
+        <name>Vector2l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="163" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="vector2_8h_1a40067d1f43992f60f385d151c4b1267e" prot="public" static="no">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; uint32_t &gt;</type>
+        <definition>typedef Vector2&lt;uint32_t&gt; Vector2ul</definition>
+        <argsstring></argsstring>
+        <name>Vector2ul</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="164" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="vector2_8h_1a9f3739462b0605dcb64299fa289b6afe" prot="public" static="no">
+        <type><ref refid="struct_vector2" kindref="compound">Vector2</ref>&lt; float &gt;</type>
+        <definition>typedef Vector2&lt;float&gt; Vector2f</definition>
+        <argsstring></argsstring>
+        <name>Vector2f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" line="165" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>-*-<sp/>tab-width:<sp/>4;<sp/>Mode:<sp/>C++;<sp/>c-basic-offset:<sp/>4;<sp/>indent-tabs-mode:<sp/>nil<sp/>-*-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program.<sp/><sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>2010<sp/>Michael<sp/>Smith,<sp/>all<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Derived<sp/>closely<sp/>from:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/****************************************</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*<sp/>2D<sp/>Vector<sp/>Classes</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*<sp/>By<sp/>Bill<sp/>Perone<sp/>(billperone@yahoo.com)</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*<sp/>Original:<sp/>9-16-2002</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*<sp/>Revised:<sp/>19-11-2003</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>18-12-2003</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>06-06-2004</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/>© 2003,<sp/>This<sp/>code<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>and<sp/>you<sp/>can<sp/>use<sp/>it<sp/>freely<sp/>as<sp/>long<sp/>as</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*<sp/>credit<sp/>is<sp/>given<sp/>to<sp/>Bill<sp/>Perone<sp/>in<sp/>the<sp/>application<sp/>it<sp/>is<sp/>used<sp/>in</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">****************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>VECTOR2_H</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>VECTOR2_H</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="39" refid="struct_vector2" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_vector2" kindref="compound">Vector2</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41" refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><ref refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" kindref="member">x</ref>,<sp/><ref refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>trivial<sp/>ctor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="struct_vector2_1ae2f1223cb0d664aa73afb789086a4174" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" kindref="member">x</ref><sp/>=<sp/><ref refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" kindref="member">y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>setting<sp/>ctor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="struct_vector2_1ad970560f0894fc63de2454bdf8da7ba1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>x0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>y0)<sp/>:<sp/><ref refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" kindref="member">x</ref>(x0),<sp/><ref refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" kindref="member">y</ref>(y0)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>function<sp/>call<sp/>operator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="struct_vector2_1af58fdb320b592f2a623f767b96f82171" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_vector2_1af58fdb320b592f2a623f767b96f82171" kindref="member">operator ()</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>x0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>y0)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" kindref="member">x</ref>=<sp/>x0;<sp/><ref refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" kindref="member">y</ref>=<sp/>y0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>test<sp/>for<sp/>equality</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_vector2_1a671b97043b72f4de1f3a899ff084431b" kindref="member">operator ==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>test<sp/>for<sp/>inequality</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_vector2_1a51db87f649eb5433d1aee76979192201" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>negation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="struct_vector2_1ad07366013f058992e1d83abe3fe2356d" kindref="member">operator -</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>addition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="struct_vector2_1a594e6c112dcf84f37446b0c16ff38fe3" kindref="member">operator +</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>subtraction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="struct_vector2_1ad07366013f058992e1d83abe3fe2356d" kindref="member">operator -</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>uniform<sp/>scaling</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="struct_vector2_1a8f8c4696055343467132d30e63e53133" kindref="member">operator *</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>num)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>uniform<sp/>scaling</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="struct_vector2_1a83351b02b216e8f203eb65de847b8cc5" kindref="member">operator  /</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>num)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>addition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;<ref refid="struct_vector2_1a57e0f40e5d38e326dd57da0c9d2775bb" kindref="member">operator +=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>subtraction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;<ref refid="struct_vector2_1ad082d775fe10dcb8555316e1e1e90ca3" kindref="member">operator -=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>uniform<sp/>scaling</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;<ref refid="struct_vector2_1aa137a081895a38fb3fc9004ee8b3e9e6" kindref="member">operator *=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>num);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>uniform<sp/>scaling</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;<ref refid="struct_vector2_1a6f1809eea0c00be8bcf13b84b11e1863" kindref="member">operator /=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>num);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>dot<sp/>product</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><ref refid="struct_vector2_1a8f8c4696055343467132d30e63e53133" kindref="member">operator *</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>cross<sp/>product</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><ref refid="struct_vector2_1a8bff04e728523673e801cba766a36340" kindref="member">operator %</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>computes<sp/>the<sp/>angle<sp/>between<sp/>this<sp/>vector<sp/>and<sp/>another<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_vector2_1a5309e5cd1d486cadaeae49d9ff476178" kindref="member">angle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v2)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>computes<sp/>the<sp/>angle<sp/>in<sp/>radians<sp/>between<sp/>the<sp/>origin<sp/>and<sp/>this<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><ref refid="struct_vector2_1a5309e5cd1d486cadaeae49d9ff476178" kindref="member">angle</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>any<sp/>elements<sp/>are<sp/>NAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_vector2_1a621f53a54b59510fd0a535a809493573" kindref="member">is_nan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>any<sp/>elements<sp/>are<sp/>infinity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_vector2_1ae673155db89ff79a1238470641f5c108" kindref="member">is_inf</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>zero<sp/>the<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="struct_vector2_1a6b537328ae913e3e7267b539e7a4af92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_vector2_1a6b537328ae913e3e7267b539e7a4af92" kindref="member">zero</ref>()</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_vector2_1a78fa1f2ed5e261c7fbeb8f3536a1ee34" kindref="member">x</ref><sp/>=<sp/><ref refid="struct_vector2_1a6cfed8355591aa269f4dba43bd806ef9" kindref="member">y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>gets<sp/>the<sp/>length<sp/>of<sp/>this<sp/>vector<sp/>squared</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="struct_vector2_1a0fd42927ade2df86b44ca09dca1d8314" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><sp/><sp/><ref refid="struct_vector2_1a0fd42927ade2df86b44ca09dca1d8314" kindref="member">length_squared</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="118"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(T)(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>*<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>gets<sp/>the<sp/>length<sp/>of<sp/>this<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" kindref="member">length</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>normalizes<sp/>this<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="struct_vector2_1ace2a626eaa79412e2946216e9c3e63c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2_1ace2a626eaa79412e2946216e9c3e63c6" kindref="member">normalize</ref>()</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">/=<ref refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" kindref="member">length</ref>();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>returns<sp/>the<sp/>normalized<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="struct_vector2_1a94313613241845651f3aba43ed9d5434" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><sp/><ref refid="struct_vector2_1a94313613241845651f3aba43ed9d5434" kindref="member">normalized</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="133"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">/<ref refid="struct_vector2_1aa3fb4888aabfb97476cadbf0f0954107" kindref="member">length</ref>();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>reflects<sp/>this<sp/>vector<sp/>about<sp/>n</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="struct_vector2_1ade6dd765f60fffb39e52cf117d043d97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_vector2_1ade6dd765f60fffb39e52cf117d043d97" kindref="member">reflect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;n)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>orig(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_vector2_1ae567d360aef8af212c7e3139cc22aff7" kindref="member">project</ref>(n);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">=<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">*2<sp/>-<sp/>orig;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>projects<sp/>this<sp/>vector<sp/>onto<sp/>v</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="struct_vector2_1ae567d360aef8af212c7e3139cc22aff7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2_1ae567d360aef8af212c7e3139cc22aff7" kindref="member">project</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">=<sp/>v<sp/>*<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>*<sp/>v)/(v*v);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>vector<sp/>projected<sp/>onto<sp/>v</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="struct_vector2_1a3212191028319eb5d8b00cfd85068722" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><sp/><ref refid="struct_vector2_1a3212191028319eb5d8b00cfd85068722" kindref="member">projected</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;v)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v<sp/>*<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>*<sp/>v)/(v*v);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="vector2_8h_1a0c25ea35b29dc4c8c737e5fb78c70732" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;int16_t&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vector2_8h_1a0c25ea35b29dc4c8c737e5fb78c70732" kindref="member">Vector2i</ref>;</highlight></codeline>
+<codeline lineno="162" refid="vector2_8h_1a50b23deaa387969e53e36f1f5228d8ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;uint16_t&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vector2_8h_1a50b23deaa387969e53e36f1f5228d8ed" kindref="member">Vector2ui</ref>;</highlight></codeline>
+<codeline lineno="163" refid="vector2_8h_1a63156b2a66208e32d0ac10b81dd9bf4b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;int32_t&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vector2_8h_1a63156b2a66208e32d0ac10b81dd9bf4b" kindref="member">Vector2l</ref>;</highlight></codeline>
+<codeline lineno="164" refid="vector2_8h_1a40067d1f43992f60f385d151c4b1267e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;uint32_t&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vector2_8h_1a40067d1f43992f60f385d151c4b1267e" kindref="member">Vector2ul</ref>;</highlight></codeline>
+<codeline lineno="165" refid="vector2_8h_1a9f3739462b0605dcb64299fa289b6afe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_vector2" kindref="compound">Vector2&lt;float&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vector2_8h_1a9f3739462b0605dcb64299fa289b6afe" kindref="member">Vector2f</ref>;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>VECTOR2_H</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/vector2.h"/>
+  </compounddef>
+</doxygen>

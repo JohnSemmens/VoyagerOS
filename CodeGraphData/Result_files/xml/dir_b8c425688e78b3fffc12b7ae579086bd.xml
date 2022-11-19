@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b8c425688e78b3fffc12b7ae579086bd" kind="dir">
+    <compoundname>D:/Cloud/OneDrive/Voyager</compoundname>
+    <innerdir refid="dir_eb7eda765842748bb07ea4c4a8d24d37">D:/Cloud/OneDrive/Voyager/VoyagerOS</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/"/>
+  </compounddef>
+</doxygen>

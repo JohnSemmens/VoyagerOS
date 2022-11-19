@@ -1,0 +1,772 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_navigation_8h" kind="file">
+    <compoundname>Navigation.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includes refid="_waypoints_8h" local="yes">Waypoints.h</includes>
+    <includedby refid="config_values_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h</includedby>
+    <includedby refid="_c_l_i_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</includedby>
+    <includedby refid="_telemetry_logging_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h</includedby>
+    <includedby refid="_command_state___processor_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</includedby>
+    <includedby refid="_g_p_s_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp</includedby>
+    <includedby refid="_g_p_s___temp_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS_Temp.cpp</includedby>
+    <includedby refid="_loiter_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</includedby>
+    <includedby refid="_sailing_navigation_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</includedby>
+    <includedby refid="_mission_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</includedby>
+    <includedby refid="_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_sailing_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</includedby>
+    <includedby refid="_s_d_card_log_file_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</includedby>
+    <includedby refid="_steering_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</includedby>
+    <includedby refid="_telemetry_logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</includedby>
+    <includedby refid="_telemetry_messages_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</includedby>
+    <includedby refid="_wingsail_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</includedby>
+    <incdepgraph>
+      <node id="590">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="589" relation="include">
+        </childnode>
+      </node>
+      <node id="588">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h</label>
+        <link refid="Navigation.h"/>
+        <childnode refid="589" relation="include">
+        </childnode>
+        <childnode refid="590" relation="include">
+        </childnode>
+      </node>
+      <node id="589">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="598">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="611">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.h</label>
+        <link refid="_s_d_card_log_file_8h"/>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="604" relation="include">
+        </childnode>
+      </node>
+      <node id="599">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</label>
+        <link refid="_mission_8cpp"/>
+      </node>
+      <node id="594">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="606">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="595">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="601">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="604">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</label>
+        <link refid="_s_d_card_log_file_8cpp"/>
+      </node>
+      <node id="591">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h</label>
+        <link refid="Navigation.h"/>
+        <childnode refid="592" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="614" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="612" relation="include">
+        </childnode>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="604" relation="include">
+        </childnode>
+        <childnode refid="605" relation="include">
+        </childnode>
+        <childnode refid="613" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+        <childnode refid="609" relation="include">
+        </childnode>
+      </node>
+      <node id="609">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</label>
+        <link refid="_wingsail_8cpp"/>
+      </node>
+      <node id="612">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</label>
+        <link refid="_sailing_navigation_8h"/>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+      </node>
+      <node id="592">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h</label>
+        <link refid="config_values_8h"/>
+        <childnode refid="593" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="596" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="604" relation="include">
+        </childnode>
+        <childnode refid="605" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+        <childnode refid="607" relation="include">
+        </childnode>
+        <childnode refid="608" relation="include">
+        </childnode>
+        <childnode refid="609" relation="include">
+        </childnode>
+      </node>
+      <node id="600">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="605">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="_steering_8cpp"/>
+      </node>
+      <node id="607">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp</label>
+        <link refid="_wear_tracking_8cpp"/>
+      </node>
+      <node id="596">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp</label>
+        <link refid="config_values_8cpp"/>
+      </node>
+      <node id="602">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp</label>
+        <link refid="_radio_control_8cpp"/>
+      </node>
+      <node id="613">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</label>
+        <link refid="_telemetry_logging_8cpp"/>
+      </node>
+      <node id="597">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp</label>
+        <link refid="_g_p_s_8cpp"/>
+      </node>
+      <node id="603">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</label>
+        <link refid="_sailing_navigation_8cpp"/>
+      </node>
+      <node id="593">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp</label>
+        <link refid="_bluetooth_connection_8cpp"/>
+      </node>
+      <node id="614">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS_Temp.cpp</label>
+        <link refid="_g_p_s___temp_8cpp"/>
+      </node>
+      <node id="608">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp</label>
+        <link refid="_wind_angle__2950_8cpp"/>
+      </node>
+      <node id="610">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h</label>
+        <link refid="_telemetry_logging_8h"/>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="611" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="612" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="613" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_navigation_data_type" prot="public">NavigationDataType</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" prot="public" static="no">
+        <name>SteeringCourseType</name>
+        <enumvalue id="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a3174ab8e0f496c9340a2b28061c347d8" prot="public">
+          <name>ctNotEstablished</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" prot="public">
+          <name>ctDirectToWayPoint</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" prot="public">
+          <name>ctPortTack</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" prot="public">
+          <name>ctStarboardTack</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408abf1c76fdda282f2d11b4d60fa6a96f50" prot="public">
+          <name>ctPortTackRunning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aae9d981a5beec8c2af9c6f49e1ca7e7e" prot="public">
+          <name>ctStarboardTackRunning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="38" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="enum" id="_navigation_8h_1a724b6d9eec870060666415a9173a1f44" prot="public" static="no">
+        <name>ManoeuvreType</name>
+        <enumvalue id="_navigation_8h_1a724b6d9eec870060666415a9173a1f44a3605552dff0d9338e725f576b75fbb4a" prot="public">
+          <name>mtNotDefined</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1a724b6d9eec870060666415a9173a1f44ae2f32ff44a4654302e8a3ea4f70963d2" prot="public">
+          <name>mtTack</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" prot="public">
+          <name>mtGybe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="47" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="enum" id="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4" prot="public" static="no">
+        <name>ManoeuvreStateType</name>
+        <enumvalue id="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ae54d08f8a951822bfdb25a5aa687473b" prot="public">
+          <name>mstNone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ab88b3abfd931022a589a104f72f21b45" prot="public">
+          <name>mstCommence</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4aa3770d5ce2841bfcbea8a528759d9b7d" prot="public">
+          <name>mstRunning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4a2a38eaa61e779980add3b6b04b5cc167" prot="public">
+          <name>mstComplete</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="53" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" bodystart="53" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NavigationUpdate_SlowData</definition>
+        <argsstring>(void)</argsstring>
+        <name>NavigationUpdate_SlowData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="135" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="38" bodyend="89"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" compoundref="_navigation_8h" startline="68">NavigationDataType::BTW</references>
+        <references refid="struct_navigation_data_type_1a98d8a4e836e020c670fc15ccd5a65270" compoundref="_navigation_8h" startline="71">NavigationDataType::CDA</references>
+        <references refid="struct_navigation_data_type_1a0838b27dceee6b0c162ecd01b26b711a" compoundref="_navigation_8h" startline="129">NavigationDataType::COG_Avg</references>
+        <references refid="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" compoundref="_navigation_8h" startline="108">NavigationDataType::CourseType</references>
+        <references refid="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" compoundref="_navigation_8h" startline="73">NavigationDataType::CTE</references>
+        <references refid="struct_navigation_data_type_1a275fa2206f1bd99dc50a884a6365c1b3" compoundref="_navigation_8h" startline="74">NavigationDataType::CTE_Correction</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="struct_navigation_data_type_1a2f9b0306d48f2d8ec67e4c00cfeae7bb" compoundref="_navigation_8h" startline="67">NavigationDataType::DTW</references>
+        <references refid="struct_navigation_data_type_1aae9ffa69dc246905e400bbaa0d78b111" compoundref="_navigation_8h" startline="120">NavigationDataType::FavouredTack</references>
+        <references refid="location_8cpp_1ae53923f6092e5036fdbab56c2b1d025c" compoundref="location_8cpp" startline="72" endline="79">get_bearing</references>
+        <references refid="location_8cpp_1a3ae1ddee922c938e340171e63059b41d" compoundref="location_8cpp" startline="133" endline="141">get_CTE</references>
+        <references refid="_navigation_8cpp_1af11a4bcbb4152cbf9cb7625e21933f4d" compoundref="_navigation_8cpp" startline="227" endline="260">get_CTE_Correction</references>
+        <references refid="_a_p___math_8h_1aa825a788804b8dd4cf1e3cfb42960a8b" compoundref="location_8cpp" startline="57" endline="62">get_distance</references>
+        <references refid="_sailing_navigation_8cpp_1a7a991c4cfaffbb86082ffc13b2963bff" compoundref="_sailing_navigation_8cpp" startline="269" endline="286">GetFavouredTack</references>
+        <references refid="_sailing_navigation_8cpp_1a3c59f7119a4b9d03c153ce45f4c21c5d" compoundref="_sailing_navigation_8cpp" startline="432" endline="468">GetPointOfSail</references>
+        <references refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</references>
+        <references refid="struct_navigation_data_type_1a3d29cedc948ea7b6dc05756597611dca" compoundref="_navigation_8h" startline="113">NavigationDataType::IsBTWSailable</references>
+        <references refid="_sailing_navigation_8cpp_1ad1a3e49f1ecde702c34840fad96dc852" compoundref="_sailing_navigation_8cpp" startline="470" endline="504">IsBTWSailable</references>
+        <references refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" compoundref="_navigation_8h" startline="65">NavigationDataType::MaxCTE</references>
+        <references refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" compoundref="config_values_8h" startline="33">configValuesType::MinimumAngleDownWind</references>
+        <references refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" compoundref="config_values_8h" startline="32">configValuesType::MinimumAngleUpWind</references>
+        <references refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" compoundref="_navigation_8h" startline="64">NavigationDataType::next_WP</references>
+        <references refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" compoundref="_navigation_8h" startline="76">NavigationDataType::next_WP_valid</references>
+        <references refid="struct_navigation_data_type_1ad484ff4b4c6262ce2ef5e6af8750f8ba" compoundref="_navigation_8h" startline="69">NavigationDataType::PastWP</references>
+        <references refid="struct_navigation_data_type_1a79e14aa598b4c30c8e06ac889796db03" compoundref="_navigation_8h" startline="116">NavigationDataType::PortLayline</references>
+        <references refid="struct_navigation_data_type_1ab5e9b350aa96d740eb6ebe37f216b518" compoundref="_navigation_8h" startline="118">NavigationDataType::PortLaylineRunning</references>
+        <references refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" compoundref="_navigation_8h" startline="63">NavigationDataType::prev_WP</references>
+        <references refid="location_8cpp_1a76c50ce5404df24c451af735fcbc6875" compoundref="location_8cpp" startline="217" endline="230">reached_waypoint_point</references>
+        <references refid="struct_navigation_data_type_1ab65f1480bd5198b1b68ad1d9587480cf" compoundref="_navigation_8h" startline="70">NavigationDataType::RLB</references>
+        <references refid="struct_navigation_data_type_1ad9637aee80471afb2043dfdeea04cc53" compoundref="_navigation_8h" startline="130">NavigationDataType::SOG_Avg</references>
+        <references refid="struct_navigation_data_type_1a3e76f8cd259e63249264bed843e5e80e" compoundref="_navigation_8h" startline="117">NavigationDataType::StarboardLayline</references>
+        <references refid="struct_navigation_data_type_1a0ce2cc341a1eb869119a86f35c20ed93" compoundref="_navigation_8h" startline="119">NavigationDataType::StarboardLaylineRunning</references>
+        <references refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" compoundref="_navigation_8h" startline="101">NavigationDataType::TWD</references>
+        <references refid="struct_navigation_data_type_1a040f80aef6b83da51897ca6602261470" compoundref="_navigation_8h" startline="132">NavigationDataType::VMC</references>
+        <references refid="struct_navigation_data_type_1ab81c6876eddf074f57e37c49109ffc19" compoundref="_navigation_8h" startline="131">NavigationDataType::VMG</references>
+        <references refid="struct_navigation_data_type_1afb1aa29b12f4897de80677a479a0ba2a" compoundref="_navigation_8h" startline="110">NavigationDataType::WindAngleToWaypoint</references>
+        <references refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+      </memberdef>
+      <memberdef kind="function" id="_navigation_8h_1a236cd5e0ce9fbe80a8a0a4b7c7427acc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NavigationUpdate_MediumData</definition>
+        <argsstring>(void)</argsstring>
+        <name>NavigationUpdate_MediumData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="136" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="91" bodyend="99"/>
+        <references refid="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" compoundref="_navigation_8h" startline="80">NavigationDataType::COG</references>
+        <references refid="struct_navigation_data_type_1a0838b27dceee6b0c162ecd01b26b711a" compoundref="_navigation_8h" startline="129">NavigationDataType::COG_Avg</references>
+        <references refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" compoundref="_filters_8cpp" startline="7" endline="14">LowPassFilter::Filter</references>
+        <references refid="struct_i_m_u_struct_1a716242b0191f90e27f26a0a753ce4f9a" compoundref="_u_s_f_s___i_m_u_8h" startline="49">IMUStruct::roll</references>
+        <references refid="struct_navigation_data_type_1ab5ef6e2650460b4f478630d9df336e33" compoundref="_navigation_8h" startline="127">NavigationDataType::ROLL_Avg</references>
+        <references refid="struct_navigation_data_type_1ad9637aee80471afb2043dfdeea04cc53" compoundref="_navigation_8h" startline="130">NavigationDataType::SOG_Avg</references>
+        <references refid="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" compoundref="_navigation_8h" startline="78">NavigationDataType::SOG_mps</references>
+      </memberdef>
+      <memberdef kind="function" id="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NavigationUpdate_FastData</definition>
+        <argsstring>(void)</argsstring>
+        <name>NavigationUpdate_FastData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="137" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="101" bodyend="128"/>
+        <references refid="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" compoundref="_navigation_8h" startline="80">NavigationDataType::COG</references>
+        <references refid="structconfig_values_type_1a0d81540f66f65f79aaef899207f903b5" compoundref="config_values_8h" startline="49">configValuesType::CompassOffsetAngle</references>
+        <references refid="class_low_pass_filter_1a6b8452e39b44154c329398e82d3c6f5a" compoundref="_filters_8cpp" startline="7" endline="14">LowPassFilter::Filter</references>
+        <references refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" compoundref="_navigation_8h" startline="82">NavigationDataType::HDG</references>
+        <references refid="struct_navigation_data_type_1a0628dd2915597f2ad61ebce64047789a" compoundref="_navigation_8h" startline="126">NavigationDataType::HDG_Err</references>
+        <references refid="struct_navigation_data_type_1a381a4a0d4e70f8d8532bf71e4b07c8aa" compoundref="_navigation_8h" startline="125">NavigationDataType::HDG_Mag</references>
+        <references refid="struct_i_m_u_struct_1afeec639b1640f5d5327f29aad5381835" compoundref="_u_s_f_s___i_m_u_8h" startline="50">IMUStruct::heading</references>
+        <references refid="structconfig_values_type_1aa520d523476f17a3d4ee9db5e92f899a" compoundref="config_values_8h" startline="51">configValuesType::MagnetVariation</references>
+        <references refid="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" compoundref="_navigation_8h" startline="78">NavigationDataType::SOG_mps</references>
+        <references refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+      </memberdef>
+      <memberdef kind="function" id="_navigation_8h_1ac461d01ae63da9dcde71b1143e2c2e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Navigation_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>Navigation_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="139" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="140" bodyend="149"/>
+        <references refid="class_low_pass_filter_1a2f52522dcdd77c4dd4bfbda24bd6dc46" compoundref="_filters_8h" startline="18">LowPassFilter::FilterConstant</references>
+        <references refid="class_low_pass_angle_filter_1a6215328ead84e074e5cac3e298656e79" compoundref="_filters_8h" startline="43">LowPassAngleFilter::FilterConstant</references>
+      </memberdef>
+      <memberdef kind="function" id="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetTrueWind</definition>
+        <argsstring>(void)</argsstring>
+        <name>GetTrueWind</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="140" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="151" bodyend="171"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="struct_navigation_data_type_1a75f9c7606ef650a912acd605b1fd45cb" compoundref="_navigation_8h" startline="100">NavigationDataType::AWD</references>
+        <references refid="class_low_pass_angle_filter_1a84c793335236bf7b43253d655bf4ad1b" compoundref="_filters_8cpp" startline="33" endline="59">LowPassAngleFilter::Filter</references>
+        <references refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" compoundref="_navigation_8h" startline="82">NavigationDataType::HDG</references>
+        <references refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" compoundref="_navigation_8h" startline="101">NavigationDataType::TWD</references>
+        <references refid="structconfig_values_type_1a6502125ce871378cea999e4f23ce562d" compoundref="config_values_8h" startline="39">configValuesType::TWD_Offset</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+      </memberdef>
+      <memberdef kind="function" id="_navigation_8h_1a661b6bdd6007302ab66d7e3d92709bf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetApparentWind</definition>
+        <argsstring>(void)</argsstring>
+        <name>GetApparentWind</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="141" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="130" bodyend="138"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="class_m_p_u9250_1add8846692e3550adc9a6a95517aec4d5" compoundref="_m_p_u9250_8h" startline="243">MPU9250::MagneticAngle</references>
+        <references refid="struct_wing_sail_type_1a4fbdd3e6a40eb76f05030e4b31f476fe" compoundref="_wingsail_8h" startline="26">WingSailType::TrimTabAngle</references>
+      </memberdef>
+      <memberdef kind="function" id="_navigation_8h_1af11a4bcbb4152cbf9cb7625e21933f4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int get_CTE_Correction</definition>
+        <argsstring>(NavigationDataType NavData)</argsstring>
+        <name>get_CTE_Correction</name>
+        <param>
+          <type><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref></type>
+          <declname>NavData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="143" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="227" bodyend="260"/>
+        <references refid="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" compoundref="_navigation_8h" startline="73">NavigationDataType::CTE</references>
+        <references refid="structconfig_values_type_1a2c7a86bc55744528eb5ed1f8c6c84384" compoundref="config_values_8h" startline="130">configValuesType::CTE_CorrectionGain</references>
+        <references refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" compoundref="_navigation_8h" startline="65">NavigationDataType::MaxCTE</references>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateTurnHeadingV2</definition>
+        <argsstring>(void)</argsstring>
+        <name>UpdateTurnHeadingV2</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="145" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="174" bodyend="225"/>
+        <references refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" compoundref="_navigation_8h" startline="99">NavigationDataType::AWA</references>
+        <references refid="_navigation_8cpp_1ac06345987922e576eee8a227c838c28d" compoundref="_navigation_8cpp" startline="263" endline="271">AWA_Calculated</references>
+        <references refid="struct_navigation_data_type_1a75f9c7606ef650a912acd605b1fd45cb" compoundref="_navigation_8h" startline="100">NavigationDataType::AWD</references>
+        <references refid="struct_navigation_data_type_1aee29812f10b4c37724fa37dbf94839ec" compoundref="_navigation_8h" startline="85">NavigationDataType::CTS</references>
+        <references refid="struct_navigation_data_type_1aef1f40dbe842913e3d57beb27f42e7cf" compoundref="_navigation_8h" startline="122">NavigationDataType::ManoeuvreState</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ab88b3abfd931022a589a104f72f21b45" compoundref="_navigation_8h" startline="55">mstCommence</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4a2a38eaa61e779980add3b6b04b5cc167" compoundref="_navigation_8h" startline="57">mstComplete</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ae54d08f8a951822bfdb25a5aa687473b" compoundref="_navigation_8h" startline="54">mstNone</references>
+        <references refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4aa3770d5ce2841bfcbea8a528759d9b7d" compoundref="_navigation_8h" startline="56">mstRunning</references>
+        <references refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" compoundref="_navigation_8h" startline="50">mtGybe</references>
+        <references refid="structconfig_values_type_1ab8e0fd66b86e53779bd9810853beb175" compoundref="config_values_8h" startline="31">configValuesType::TackingMethod</references>
+        <references refid="struct_navigation_data_type_1ac115a6382767a05b1c6d83d2a4432b5e" compoundref="_navigation_8h" startline="87">NavigationDataType::TurnHDG</references>
+        <references refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" compoundref="_navigation_8h" startline="101">NavigationDataType::TWD</references>
+        <references refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+      </memberdef>
+      <memberdef kind="function" id="_navigation_8h_1ac06345987922e576eee8a227c838c28d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int AWA_Calculated</definition>
+        <argsstring>(int CTS, int TWD)</argsstring>
+        <name>AWA_Calculated</name>
+        <param>
+          <type>int</type>
+          <declname>CTS</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TWD</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h" line="147" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp" bodystart="263" bodyend="271"/>
+        <references refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</references>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Navigation.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>considers<sp/>the<sp/>Next<sp/>Waypoint<sp/>and<sp/>the<sp/>Previous<sp/>Waypoint<sp/>and<sp/>the<sp/>permitted<sp/>Cross<sp/>Track<sp/>Error<sp/>(Boundary).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>It<sp/>then<sp/>calculates<sp/>the<sp/>desired<sp/>Distance<sp/>and<sp/>Bearing<sp/>to<sp/>Waypoint.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>It<sp/>also<sp/>considers<sp/>whether<sp/>the<sp/>current<sp/>leg<sp/>of<sp/>the<sp/>mission<sp/>has<sp/>been<sp/>completed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.1<sp/>30/8/2016<sp/>updated<sp/>for<sp/>reorganisation<sp/>of<sp/>navigation<sp/>global<sp/>variables<sp/>into<sp/>a<sp/>structure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.2<sp/>12/9/2016<sp/>added<sp/>enumerated<sp/>type<sp/>for<sp/>current<sp/>steering<sp/>method.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.3<sp/>9/11/2016<sp/>added<sp/>prev_WP_valid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.4<sp/>12/11/2017<sp/>updated<sp/>to<sp/>change<sp/>BRL<sp/>to<sp/>RLB.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.5<sp/>14/4/2018<sp/>added<sp/>GPS<sp/>directly<sp/>provided<sp/>course<sp/>and<sp/>speed<sp/>to<sp/>Navdata<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.6<sp/>20/6/2020<sp/>added<sp/>VMG<sp/>and<sp/>VMC,<sp/>SOG_Avg<sp/>and<sp/>COG_Avg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.7<sp/>2/1/2021<sp/>added<sp/>Laylines<sp/>for<sp/>running<sp/>to<sp/>the<sp/>NavData<sp/>structure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>added<sp/>Port<sp/>and<sp/>Starboard<sp/>Tack<sp/>Running<sp/>to<sp/>SteeringCourseType<sp/>enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_NAVIGATION_h</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_NAVIGATION_h</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_waypoints_8h" kindref="compound">Waypoints.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//enum<sp/>PointOfSailType<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ssNotEstablished,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>sailing<sp/>state<sp/>has<sp/>not<sp/>been<sp/>established<sp/>yet</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ssPortTackBeating,<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>//ssPortTackCompass,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>steering<sp/>by<sp/>Compass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ssPortTackRunning,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ssStarboardTackBeating,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>//ssStarboardTackCompass,<sp/><sp/><sp/><sp/>//<sp/>steering<sp/>by<sp/>Compass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ssStarboardTackRunning,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/>{</highlight></codeline>
+<codeline lineno="39" refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a3174ab8e0f496c9340a2b28061c347d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a3174ab8e0f496c9340a2b28061c347d8" kindref="member">ctNotEstablished</ref>,<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>the<sp/>Course<sp/>has<sp/>not<sp/>been<sp/>established<sp/>yet</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a08db7c069c3cd9d228c92c22e4cf1852" kindref="member">ctDirectToWayPoint</ref>,<sp/></highlight><highlight class="comment">//<sp/>the<sp/>Course<sp/>to<sp/>the<sp/>Waypoint<sp/>is<sp/>Sailable,<sp/>so<sp/>the<sp/>course<sp/>is<sp/>direct<sp/>to<sp/>Way<sp/>Point.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aa49363e1c8f4573d4c67d80592e77b7c" kindref="member">ctPortTack</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>Course<sp/>to<sp/>the<sp/>Waypoint<sp/>is<sp/>NOT<sp/>Sailable,<sp/>so<sp/>this<sp/>port<sp/>tack<sp/>while<sp/>tacking<sp/>to<sp/>Waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408a7412b44236ddf41e9e059a0b82d162af" kindref="member">ctStarboardTack</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>Course<sp/>to<sp/>the<sp/>Waypoint<sp/>is<sp/>NOT<sp/>Sailable,<sp/>so<sp/>this<sp/>Starboard<sp/>tack<sp/>while<sp/>tacking<sp/>to<sp/>Waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408abf1c76fdda282f2d11b4d60fa6a96f50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408abf1c76fdda282f2d11b4d60fa6a96f50" kindref="member">ctPortTackRunning</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>Course<sp/>to<sp/>the<sp/>Waypoint<sp/>is<sp/>NOT<sp/>Sailable,<sp/>so<sp/>this<sp/>port<sp/>tack<sp/>while<sp/>Running<sp/>to<sp/>Waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aae9d981a5beec8c2af9c6f49e1ca7e7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408aae9d981a5beec8c2af9c6f49e1ca7e7e" kindref="member">ctStarboardTackRunning</ref><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>Course<sp/>to<sp/>the<sp/>Waypoint<sp/>is<sp/>NOT<sp/>Sailable,<sp/>so<sp/>this<sp/>Starboard<sp/>tack<sp/>while<sp/>Running<sp/>to<sp/>Waypoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44" kindref="member">ManoeuvreType</ref><sp/>{</highlight></codeline>
+<codeline lineno="48" refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44a3605552dff0d9338e725f576b75fbb4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44a3605552dff0d9338e725f576b75fbb4a" kindref="member">mtNotDefined</ref>,<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>don&apos;t<sp/>specify<sp/>how<sp/>thw<sp/>turn<sp/>is<sp/>to<sp/>be<sp/>perform.<sp/>This<sp/>turn<sp/>in<sp/>shortest<sp/>direction<sp/>to<sp/>make<sp/>the<sp/>new<sp/>course</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44ae2f32ff44a4654302e8a3ea4f70963d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44ae2f32ff44a4654302e8a3ea4f70963d2" kindref="member">mtTack</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tack<sp/>through<sp/>the<sp/>wind<sp/>to<sp/>get<sp/>to<sp/>the<sp/>new<sp/>course</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44abee7fea4e5154de831e49daa0c84c764" kindref="member">mtGybe</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gybe<sp/>to<sp/>get<sp/>to<sp/>the<sp/>new<sp/>course.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4" kindref="member">ManoeuvreStateType</ref><sp/>{<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>used<sp/>in<sp/>a<sp/>state<sp/>machine<sp/>to<sp/>manage<sp/>a<sp/>turn<sp/>manoeuvre</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ae54d08f8a951822bfdb25a5aa687473b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ae54d08f8a951822bfdb25a5aa687473b" kindref="member">mstNone</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>not<sp/>in<sp/>a<sp/>manoeuvre</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ab88b3abfd931022a589a104f72f21b45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4ab88b3abfd931022a589a104f72f21b45" kindref="member">mstCommence</ref>,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>commenced<sp/>manoeuvre<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4aa3770d5ce2841bfcbea8a528759d9b7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4aa3770d5ce2841bfcbea8a528759d9b7d" kindref="member">mstRunning</ref>,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>acheived<sp/>a<sp/>verified<sp/>running<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4a2a38eaa61e779980add3b6b04b5cc167" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4a2a38eaa61e779980add3b6b04b5cc167" kindref="member">mstComplete</ref><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>manoeuvre<sp/>Completed<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="struct_navigation_data_type" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref><sp/>{</highlight></codeline>
+<codeline lineno="61" refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/><ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Current<sp/>GPS<sp/>Location</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="struct_navigation_data_type_1a339cc22d0383f165361b391b6beded17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a339cc22d0383f165361b391b6beded17" kindref="member">CurrentLocTimeStamp</ref>;<sp/></highlight><highlight class="comment">//<sp/>time<sp/>in<sp/>millis<sp/>when<sp/>the<sp/>current<sp/>location<sp/>was<sp/>measured.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/><ref refid="struct_navigation_data_type_1a2f69963f8d90b2f0f78fcc35aff8fa23" kindref="member">prev_WP</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>location<sp/>of<sp/>the<sp/>previous<sp/>waypoint.<sp/><sp/>Used<sp/>for<sp/>track<sp/>following<sp/>and<sp/>altitude<sp/>ramp<sp/>calculations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct_location" kindref="compound">Location</ref><sp/><ref refid="struct_navigation_data_type_1a24c98b6c68d08229cacbf92d625e879e" kindref="member">next_WP</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>location<sp/>of<sp/>the<sp/>current/active<sp/>waypoint.<sp/><sp/>Used<sp/>for<sp/>track<sp/>following</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1af0a38d6d21a1faffa574439001ec5869" kindref="member">MaxCTE</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Maximum<sp/>Cross<sp/>Track<sp/>Error<sp/>-<sp/>Metres<sp/>-<sp/><sp/>(Boundary).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="struct_navigation_data_type_1a2f9b0306d48f2d8ec67e4c00cfeae7bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a2f9b0306d48f2d8ec67e4c00cfeae7bb" kindref="member">DTW</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Distance<sp/>to<sp/>Waypoint<sp/>-<sp/>metres</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a5c5e393ae99ea8a925110d5b3c1bf3a9" kindref="member">BTW</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Bearing<sp/>to<sp/>Waypoint<sp/>-<sp/>Degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="struct_navigation_data_type_1ad484ff4b4c6262ce2ef5e6af8750f8ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1ad484ff4b4c6262ce2ef5e6af8750f8ba" kindref="member">PastWP</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>past<sp/>the<sp/>Waypoint<sp/>-<sp/><sp/>True/False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="struct_navigation_data_type_1ab65f1480bd5198b1b68ad1d9587480cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1ab65f1480bd5198b1b68ad1d9587480cf" kindref="member">RLB</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>RLB<sp/>Rumb<sp/>Line<sp/>Bearing<sp/>-<sp/>Degrees<sp/>-<sp/>Angle.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="struct_navigation_data_type_1a98d8a4e836e020c670fc15ccd5a65270" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a98d8a4e836e020c670fc15ccd5a65270" kindref="member">CDA</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Course<sp/>deviation<sp/>Angle<sp/>-Degrees<sp/>-<sp/>angle<sp/>between<sp/>the<sp/>rumb<sp/>line<sp/>and<sp/>bearing<sp/>to<sp/>waypoint.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>+Ve<sp/>CDA<sp/>means<sp/>Starboard<sp/>Side<sp/>of<sp/>Course.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1aa4ca740f628466165aa07de377723dda" kindref="member">CTE</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Cross<sp/>Track<sp/>Error<sp/>-<sp/>metres<sp/>--<sp/>same<sp/>sign<sp/>as<sp/>CDA.<sp/>+Ve<sp/>CTE<sp/>means<sp/>Starboard<sp/>Side<sp/>of<sp/>Course.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="struct_navigation_data_type_1a275fa2206f1bd99dc50a884a6365c1b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a275fa2206f1bd99dc50a884a6365c1b3" kindref="member">CTE_Correction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Steering<sp/>adjustment<sp/>angle<sp/>to<sp/>compenstate<sp/>for<sp/>CTE.<sp/>This<sp/>is<sp/>added<sp/>into<sp/>the<sp/>CTS<sp/>when<sp/>steering<sp/>Direct<sp/>to<sp/>Waypoint.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" kindref="member">next_WP_valid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Flag<sp/>to<sp/>indicate<sp/>that<sp/>we<sp/>have<sp/>an<sp/>established<sp/>next<sp/>waypoint.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a33d6c04bea298f0bf2725f9465d4bbfe" kindref="member">SOG_mps</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Speed<sp/>Over<sp/>Ground<sp/>--<sp/>metres/second</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="struct_navigation_data_type_1ae7cf4fb255b05065fe9c5b5a4c78fd4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1ae7cf4fb255b05065fe9c5b5a4c78fd4a" kindref="member">SOG_knt</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Speed<sp/>Over<sp/>Ground<sp/>--<sp/>Knots</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a0c622bf013a97a3d3151b0cece6d7e58" kindref="member">COG</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Course<sp/>Over<sp/>Ground<sp/>-<sp/>Degrees<sp/>-<sp/>True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82" refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" kindref="member">HDG</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>True<sp/>Heading<sp/>-Degrees<sp/>--<sp/>Derived<sp/>from<sp/>compass<sp/>with<sp/>Variation<sp/>applied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sailing<sp/>Navigation<sp/>Global<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="struct_navigation_data_type_1aee29812f10b4c37724fa37dbf94839ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1aee29812f10b4c37724fa37dbf94839ec" kindref="member">CTS</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Course<sp/>To<sp/>Steer<sp/>(CTS)<sp/>-<sp/>Angle<sp/>-Degrees<sp/>-<sp/>this<sp/>is<sp/>the<sp/>calculated<sp/>course<sp/>to<sp/>steer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>CTS<sp/>will<sp/>instantaneously<sp/>change<sp/>to<sp/>a<sp/>new<sp/>bearing,<sp/>when<sp/>its<sp/>time<sp/>to<sp/>tack</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="struct_navigation_data_type_1ac115a6382767a05b1c6d83d2a4432b5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1ac115a6382767a05b1c6d83d2a4432b5e" kindref="member">TurnHDG</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Turn<sp/>Heading<sp/>used<sp/>to<sp/>manage<sp/>the<sp/>Target<sp/>Heading<sp/>during<sp/>a<sp/>Turn<sp/>Manoeuvre.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>to<sp/>force<sp/>a<sp/>turn<sp/>to<sp/>be<sp/>gybe,<sp/>rather<sp/>than<sp/>taking<sp/>the<sp/>shortest<sp/>heading<sp/>change.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" kindref="member">TargetHDG</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Target<sp/>Heading<sp/>is<sp/>low-pass<sp/>filtered<sp/>version<sp/>of<sp/>TurnHDG<sp/>(was<sp/>CTS).<sp/>This<sp/>is<sp/>used<sp/>for<sp/>the<sp/>actual<sp/>helming.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>When<sp/>CTS<sp/>instantaneously<sp/>changes<sp/>heading,<sp/>for<sp/>tack<sp/>or<sp/>a<sp/>gybe,<sp/>The<sp/>Target<sp/>Heading<sp/>will<sp/>change<sp/>more<sp/>slowly,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>thereby<sp/>providing<sp/>providing<sp/>guidance<sp/>through<sp/>the<sp/>manoeuvre.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>low-pass<sp/>filter<sp/>constant<sp/>will<sp/>provide<sp/>a<sp/>control<sp/>over<sp/>the<sp/>turn-rate.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="struct_navigation_data_type_1a86e21f70af95c94bf50d472f06a62055" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a86e21f70af95c94bf50d472f06a62055" kindref="member">TargetAWA</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Target<sp/>Apparent<sp/>Wind<sp/>Angle.<sp/>This<sp/>is<sp/>the<sp/>desired<sp/>angle<sp/>to<sp/>steer<sp/>off<sp/>the<sp/>wind.<sp/>A<sp/>Positive<sp/>angle<sp/>is<sp/>Starboard<sp/>Tack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>compared<sp/>periodically<sp/>to<sp/>the<sp/>AWA<sp/>to<sp/>determine<sp/>the<sp/>steering<sp/>error,<sp/>which<sp/>used<sp/>to<sp/>determine<sp/>the<sp/>compass<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>course<sp/>to<sp/>steer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Environment<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a3dd25db5457413aa9b9fd2391b931fba" kindref="member">AWA</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Apparent<sp/>Wind<sp/>Angle<sp/>-<sp/>degrees;<sp/>positive<sp/>angles<sp/>to<sp/>starboard,<sp/>negative<sp/>angles<sp/>to<sp/>port:<sp/>-180<sp/>to<sp/>0<sp/>to<sp/>+180</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="struct_navigation_data_type_1a75f9c7606ef650a912acd605b1fd45cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a75f9c7606ef650a912acd605b1fd45cb" kindref="member">AWD</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Apparent<sp/>Wind<sp/>Direction<sp/>-<sp/>0<sp/>degrees<sp/>is<sp/>a<sp/>North<sp/>Wind.<sp/>90<sp/>degrees<sp/>is<sp/>East<sp/>Wind.<sp/>Raw<sp/>unadjusted<sp/>Wind<sp/>Direction<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a7e0ea128b1fb164273bc7528fef07333" kindref="member">TWD</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>True<sp/>Wind<sp/>Direction<sp/>-<sp/>degrees;<sp/>0<sp/>degrees<sp/>is<sp/>a<sp/>North<sp/>Wind.<sp/>90<sp/>degrees<sp/>is<sp/>East<sp/>Wind.<sp/>This<sp/>is<sp/>an<sp/>adjusted<sp/>version<sp/>of<sp/>AWD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="struct_navigation_data_type_1a42a29fa0d8d158498a0938d880ceceec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a42a29fa0d8d158498a0938d880ceceec" kindref="member">TWS</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>True<sp/>Wind<sp/>Speed<sp/>metres<sp/>per<sp/>second</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="struct_navigation_data_type_1a31e3448e213613e7f4de468a11fd0076" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a31e3448e213613e7f4de468a11fd0076" kindref="member">TackDuration</ref>;<sp/></highlight><highlight class="comment">//<sp/>seconds.<sp/>Duration<sp/>of<sp/>current<sp/>Tack</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="struct_navigation_data_type_1acb9bcca17ff4e64fabea9ccb88852dab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1acb9bcca17ff4e64fabea9ccb88852dab" kindref="member">TimePastFavouredTack</ref>;<sp/></highlight><highlight class="comment">//<sp/>Time<sp/>since<sp/>the<sp/>we&apos;ve<sp/>moved<sp/>past<sp/>the<sp/>point<sp/>of<sp/>being<sp/>on<sp/>the<sp/>favoured<sp/>tack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>PointOfSailType<sp/>PointOfSail;<sp/>//<sp/>which<sp/>tack,<sp/>and<sp/>what<sp/>point<sp/>of<sp/>sail<sp/>and<sp/>steering<sp/>method.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/><ref refid="struct_navigation_data_type_1aa238ada15ffd536f2125ee5be3503272" kindref="member">CourseType</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="struct_navigation_data_type_1afb1aa29b12f4897de80677a479a0ba2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1afb1aa29b12f4897de80677a479a0ba2a" kindref="member">WindAngleToWaypoint</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>wind<sp/>angle<sp/>if<sp/>the<sp/>vessel<sp/>was<sp/>heading<sp/>directly<sp/>to<sp/>the<sp/>Waypoint.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>subject<sp/>to<sp/>errors<sp/>related<sp/>to<sp/>True<sp/>versus<sp/>Apparent<sp/>Wind.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="struct_navigation_data_type_1a3d29cedc948ea7b6dc05756597611dca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a3d29cedc948ea7b6dc05756597611dca" kindref="member">IsBTWSailable</ref>;<sp/></highlight><highlight class="comment">//<sp/>determine<sp/>if<sp/>the<sp/>BTW<sp/>is<sp/>sailable<sp/>or<sp/>not.<sp/>i.e.<sp/>can<sp/>the<sp/>course<sp/>be<sp/>laid.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="struct_navigation_data_type_1a79e14aa598b4c30c8e06ac889796db03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a79e14aa598b4c30c8e06ac889796db03" kindref="member">PortLayline</ref>;<sp/></highlight><highlight class="comment">//<sp/>Steering<sp/>Course<sp/>when<sp/>closehauled<sp/>Port<sp/>Tack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="struct_navigation_data_type_1a3e76f8cd259e63249264bed843e5e80e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a3e76f8cd259e63249264bed843e5e80e" kindref="member">StarboardLayline</ref>;<sp/></highlight><highlight class="comment">//<sp/>Steering<sp/>Course<sp/>when<sp/>closehauled<sp/>Starboard<sp/>Tack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="struct_navigation_data_type_1ab5e9b350aa96d740eb6ebe37f216b518" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1ab5e9b350aa96d740eb6ebe37f216b518" kindref="member">PortLaylineRunning</ref>;<sp/></highlight><highlight class="comment">//<sp/>Steering<sp/>Course<sp/>when<sp/>Running<sp/>on<sp/>Port<sp/>Tack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="struct_navigation_data_type_1a0ce2cc341a1eb869119a86f35c20ed93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a0ce2cc341a1eb869119a86f35c20ed93" kindref="member">StarboardLaylineRunning</ref>;<sp/></highlight><highlight class="comment">//<sp/>Steering<sp/>Course<sp/>when<sp/>Running<sp/>on<sp/>Starboard<sp/>Tack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="struct_navigation_data_type_1aae9ffa69dc246905e400bbaa0d78b111" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a6fa89415761828fd23bc83ddf6c13408" kindref="member">SteeringCourseType</ref><sp/><ref refid="struct_navigation_data_type_1aae9ffa69dc246905e400bbaa0d78b111" kindref="member">FavouredTack</ref>;<sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>the<sp/>tack<sp/>that<sp/>yields<sp/>a<sp/>course<sp/>which<sp/>is<sp/>closest<sp/>ot<sp/>the<sp/>BTW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="struct_navigation_data_type_1a26784db798eae8b8ddf6826a7050bbc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44" kindref="member">ManoeuvreType</ref><sp/><ref refid="struct_navigation_data_type_1a26784db798eae8b8ddf6826a7050bbc0" kindref="member">Manoeuvre</ref>;<sp/></highlight><highlight class="comment">//<sp/>this<sp/>describes<sp/>how<sp/>the<sp/>course<sp/>changes<sp/>should<sp/>be<sp/>performed.<sp/>i.e.<sp/>tack<sp/>or<sp/>gybe<sp/>or<sp/>don&apos;t<sp/>specify.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="struct_navigation_data_type_1aef1f40dbe842913e3d57beb27f42e7cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="_navigation_8h_1af60aeecb729ff50a287cc87b1ea289e4" kindref="member">ManoeuvreStateType</ref><sp/><sp/><ref refid="struct_navigation_data_type_1aef1f40dbe842913e3d57beb27f42e7cf" kindref="member">ManoeuvreState</ref>;<sp/></highlight><highlight class="comment">//<sp/>this<sp/>describes<sp/>the<sp/>current<sp/>state<sp/>of<sp/>the<sp/>Manoeuvre</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="struct_navigation_data_type_1a381a4a0d4e70f8d8532bf71e4b07c8aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a381a4a0d4e70f8d8532bf71e4b07c8aa" kindref="member">HDG_Mag</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Magnetic<sp/>Heading,<sp/>not<sp/>corrected<sp/>by<sp/>the<sp/>GPS<sp/>COG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="struct_navigation_data_type_1a0628dd2915597f2ad61ebce64047789a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a0628dd2915597f2ad61ebce64047789a" kindref="member">HDG_Err</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Heading<sp/>Error<sp/>derived<sp/>from<sp/>GPS<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="struct_navigation_data_type_1ab5ef6e2650460b4f478630d9df336e33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1ab5ef6e2650460b4f478630d9df336e33" kindref="member">ROLL_Avg</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>dampened<sp/>Roll<sp/>value<sp/>passed<sp/>through<sp/>a<sp/>low<sp/>pass<sp/>filter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="struct_navigation_data_type_1a0838b27dceee6b0c162ecd01b26b711a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a0838b27dceee6b0c162ecd01b26b711a" kindref="member">COG_Avg</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>dampened<sp/>COG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="struct_navigation_data_type_1ad9637aee80471afb2043dfdeea04cc53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1ad9637aee80471afb2043dfdeea04cc53" kindref="member">SOG_Avg</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>dampened<sp/>SOG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="struct_navigation_data_type_1ab81c6876eddf074f57e37c49109ffc19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1ab81c6876eddf074f57e37c49109ffc19" kindref="member">VMG</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Velocity<sp/>Made<sp/>Good<sp/>to<sp/>windward</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="struct_navigation_data_type_1a040f80aef6b83da51897ca6602261470" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type_1a040f80aef6b83da51897ca6602261470" kindref="member">VMC</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Velocity<sp/>Made<sp/>Good<sp/>on<sp/>Course</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" kindref="member">NavigationUpdate_SlowData</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1a236cd5e0ce9fbe80a8a0a4b7c7427acc" kindref="member">NavigationUpdate_MediumData</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" kindref="member">NavigationUpdate_FastData</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1ac461d01ae63da9dcde71b1143e2c2e59" kindref="member">Navigation_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" kindref="member">GetTrueWind</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1a661b6bdd6007302ab66d7e3d92709bf9" kindref="member">GetApparentWind</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1af11a4bcbb4152cbf9cb7625e21933f4d" kindref="member">get_CTE_Correction</ref>(<ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref><sp/><ref refid="_c_l_i_8cpp_1a6e6c124a8544f54a81bb39badabb0342" kindref="member">NavData</ref>);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" kindref="member">UpdateTurnHeadingV2</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_navigation_8h_1ac06345987922e576eee8a227c838c28d" kindref="member">AWA_Calculated</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>CTS,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TWD);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="150"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h"/>
+  </compounddef>
+</doxygen>

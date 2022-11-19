@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_i2_c_g_p_s" kind="class" prot="public">
+    <compoundname>I2CGPS</compoundname>
+    <includes refid="_spark_fun___i2_c___g_p_s___arduino___library_8h" local="no">SparkFun_I2C_GPS_Arduino_Library.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_i2_c_g_p_s_1a92fc4cd53baf1d26a0e881c5776ea388" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t I2CGPS::gpsData[MAX_PACKET_SIZE]</definition>
+        <argsstring>[MAX_PACKET_SIZE]</argsstring>
+        <name>gpsData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="65" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">check</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="127" endline="137">read</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_i2_c_g_p_s_1a6bf4ae0f13b15ff1c94e22bb07f70352" prot="private" static="no" mutable="no">
+        <type>TwoWire *</type>
+        <definition>TwoWire* I2CGPS::_i2cPort</definition>
+        <argsstring></argsstring>
+        <name>_i2cPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="71" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="32" endline="52">begin</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">check</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a66c67976e692beab03206c531f8707ee" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="160" endline="195">sendMTKpacket</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_i2_c_g_p_s_1a46bc0d299fa0cfb3033f8dd77f7f1d84" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t I2CGPS::_i2caddr</definition>
+        <argsstring></argsstring>
+        <name>_i2caddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="72" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i2_c_g_p_s_1ad07ce50d10625ba44f0be32618cfc7a5" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean I2CGPS::_printDebug</definition>
+        <argsstring></argsstring>
+        <name>_printDebug</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="74" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">check</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1aa618d037f01abb99282b14db89c19c3c" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="148" endline="151">disableDebugging</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a0b1ca0aa65decd6f10169871d64660d9" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="140" endline="145">enableDebugging</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a66c67976e692beab03206c531f8707ee" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="160" endline="195">sendMTKpacket</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_i2_c_g_p_s_1a0760ac6cb16aef6220f4122ec44ff95f" prot="private" static="no" mutable="no">
+        <type>Stream *</type>
+        <definition>Stream* I2CGPS::_debugSerial</definition>
+        <argsstring></argsstring>
+        <name>_debugSerial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="76" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">check</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a0b1ca0aa65decd6f10169871d64660d9" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="140" endline="145">enableDebugging</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a66c67976e692beab03206c531f8707ee" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="160" endline="195">sendMTKpacket</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_i2_c_g_p_s_1a3ac1cde1a568976c925bc5d1e22c40ac" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t I2CGPS::_head</definition>
+        <argsstring></argsstring>
+        <name>_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="78" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="110" endline="123">available</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="32" endline="52">begin</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">check</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="127" endline="137">read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_i2_c_g_p_s_1a393026167c1ca3758ab10335ebe05473" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t I2CGPS::_tail</definition>
+        <argsstring></argsstring>
+        <name>_tail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="79" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="110" endline="123">available</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="32" endline="52">begin</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">check</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="127" endline="137">read</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean I2CGPS::begin</definition>
+        <argsstring>(TwoWire &amp;wirePort=Wire, uint32_t i2cSpeed=I2C_SPEED_STANDARD)</argsstring>
+        <name>begin</name>
+        <param>
+          <type>TwoWire &amp;</type>
+          <declname>wirePort</declname>
+          <defval>Wire</defval>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>i2cSpeed</declname>
+          <defval><ref refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a5ca8c5fbb2caa99ab0b7007ce2c11633" kindref="member">I2C_SPEED_STANDARD</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="51" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="32" bodyend="52"/>
+        <references refid="class_i2_c_g_p_s_1a3ac1cde1a568976c925bc5d1e22c40ac" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="78">_head</references>
+        <references refid="class_i2_c_g_p_s_1a6bf4ae0f13b15ff1c94e22bb07f70352" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="71">_i2cPort</references>
+        <references refid="class_i2_c_g_p_s_1a393026167c1ca3758ab10335ebe05473" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="79">_tail</references>
+        <references refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a07a910d0d82e96a2ca1c57baa45c507a" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="38">MT333x_ADDR</references>
+        <referencedby refid="_g_p_s_8h_1ad6580a786394442f4184026341deee5d" compoundref="_g_p_s_8cpp" startline="29" endline="52">GPS_Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2CGPS::check</definition>
+        <argsstring>()</argsstring>
+        <name>check</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="53" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="59" bodyend="107"/>
+        <references refid="class_i2_c_g_p_s_1a0760ac6cb16aef6220f4122ec44ff95f" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="76">_debugSerial</references>
+        <references refid="class_i2_c_g_p_s_1a3ac1cde1a568976c925bc5d1e22c40ac" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="78">_head</references>
+        <references refid="class_i2_c_g_p_s_1a6bf4ae0f13b15ff1c94e22bb07f70352" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="71">_i2cPort</references>
+        <references refid="class_i2_c_g_p_s_1ad07ce50d10625ba44f0be32618cfc7a5" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="74">_printDebug</references>
+        <references refid="class_i2_c_g_p_s_1a393026167c1ca3758ab10335ebe05473" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="79">_tail</references>
+        <references refid="class_i2_c_g_p_s_1a92fc4cd53baf1d26a0e881c5776ea388" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="65">gpsData</references>
+        <references refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a879456c3b8e2853f7044d764e9c180d4" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="40">MAX_PACKET_SIZE</references>
+        <references refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a07a910d0d82e96a2ca1c57baa45c507a" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="38">MT333x_ADDR</references>
+        <referencedby refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="110" endline="123">available</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t I2CGPS::available</definition>
+        <argsstring>()</argsstring>
+        <name>available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="54" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="110" bodyend="123"/>
+        <references refid="class_i2_c_g_p_s_1a3ac1cde1a568976c925bc5d1e22c40ac" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="78">_head</references>
+        <references refid="class_i2_c_g_p_s_1a393026167c1ca3758ab10335ebe05473" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="79">_tail</references>
+        <references refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">check</references>
+        <references refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a879456c3b8e2853f7044d764e9c180d4" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="40">MAX_PACKET_SIZE</references>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s_8h_1a6f1c1f33ac426ab87670e254f0f4597e" compoundref="_g_p_s_8cpp" startline="101" endline="128">GPS_Read_Time</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t I2CGPS::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="55" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="127" bodyend="137"/>
+        <references refid="class_i2_c_g_p_s_1a3ac1cde1a568976c925bc5d1e22c40ac" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="78">_head</references>
+        <references refid="class_i2_c_g_p_s_1a393026167c1ca3758ab10335ebe05473" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="79">_tail</references>
+        <references refid="class_i2_c_g_p_s_1a92fc4cd53baf1d26a0e881c5776ea388" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="65">gpsData</references>
+        <references refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a879456c3b8e2853f7044d764e9c180d4" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="40">MAX_PACKET_SIZE</references>
+        <referencedby refid="_g_p_s_8h_1a05ea9a63a110055be8b5e154609d668c" compoundref="_g_p_s_8cpp" startline="54" endline="98">GPS_Read</referencedby>
+        <referencedby refid="_g_p_s_8h_1a6f1c1f33ac426ab87670e254f0f4597e" compoundref="_g_p_s_8cpp" startline="101" endline="128">GPS_Read_Time</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_c_g_p_s_1a0b1ca0aa65decd6f10169871d64660d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2CGPS::enableDebugging</definition>
+        <argsstring>(Stream &amp;debugPort=Serial)</argsstring>
+        <name>enableDebugging</name>
+        <param>
+          <type>Stream &amp;</type>
+          <declname>debugPort</declname>
+          <defval>Serial</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="57" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="140" bodyend="145"/>
+        <references refid="class_i2_c_g_p_s_1a0760ac6cb16aef6220f4122ec44ff95f" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="76">_debugSerial</references>
+        <references refid="class_i2_c_g_p_s_1ad07ce50d10625ba44f0be32618cfc7a5" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="74">_printDebug</references>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_c_g_p_s_1aa618d037f01abb99282b14db89c19c3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void I2CGPS::disableDebugging</definition>
+        <argsstring>()</argsstring>
+        <name>disableDebugging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="58" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="148" bodyend="151"/>
+        <references refid="class_i2_c_g_p_s_1ad07ce50d10625ba44f0be32618cfc7a5" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="74">_printDebug</references>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_c_g_p_s_1a66c67976e692beab03206c531f8707ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean I2CGPS::sendMTKpacket</definition>
+        <argsstring>(String command)</argsstring>
+        <name>sendMTKpacket</name>
+        <param>
+          <type>String</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="60" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="160" bodyend="195"/>
+        <references refid="class_i2_c_g_p_s_1a0760ac6cb16aef6220f4122ec44ff95f" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="76">_debugSerial</references>
+        <references refid="class_i2_c_g_p_s_1a6bf4ae0f13b15ff1c94e22bb07f70352" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="71">_i2cPort</references>
+        <references refid="class_i2_c_g_p_s_1ad07ce50d10625ba44f0be32618cfc7a5" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="74">_printDebug</references>
+        <references refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a07a910d0d82e96a2ca1c57baa45c507a" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8h" startline="38">MT333x_ADDR</references>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_c_g_p_s_1a3873e3afbecaf4f4aac5d1f9b17d3729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String I2CGPS::createMTKpacket</definition>
+        <argsstring>(uint16_t packetType, String dataField)</argsstring>
+        <name>createMTKpacket</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>packetType</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dataField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="61" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="201" bodyend="228"/>
+        <references refid="class_i2_c_g_p_s_1a6998b74a2b5afef87d218472d285d7bd" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="232" endline="246">calcCRCforMTK</references>
+      </memberdef>
+      <memberdef kind="function" id="class_i2_c_g_p_s_1a6998b74a2b5afef87d218472d285d7bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String I2CGPS::calcCRCforMTK</definition>
+        <argsstring>(String sentence)</argsstring>
+        <name>calcCRCforMTK</name>
+        <param>
+          <type>String</type>
+          <declname>sentence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="62" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp" bodystart="232" bodyend="246"/>
+        <referencedby refid="class_i2_c_g_p_s_1a3873e3afbecaf4f4aac5d1f9b17d3729" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="201" endline="228">createMTKpacket</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="47" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="47" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_i2_c_g_p_s_1a0760ac6cb16aef6220f4122ec44ff95f" prot="private" virt="non-virtual"><scope>I2CGPS</scope><name>_debugSerial</name></member>
+      <member refid="class_i2_c_g_p_s_1a3ac1cde1a568976c925bc5d1e22c40ac" prot="private" virt="non-virtual"><scope>I2CGPS</scope><name>_head</name></member>
+      <member refid="class_i2_c_g_p_s_1a46bc0d299fa0cfb3033f8dd77f7f1d84" prot="private" virt="non-virtual"><scope>I2CGPS</scope><name>_i2caddr</name></member>
+      <member refid="class_i2_c_g_p_s_1a6bf4ae0f13b15ff1c94e22bb07f70352" prot="private" virt="non-virtual"><scope>I2CGPS</scope><name>_i2cPort</name></member>
+      <member refid="class_i2_c_g_p_s_1ad07ce50d10625ba44f0be32618cfc7a5" prot="private" virt="non-virtual"><scope>I2CGPS</scope><name>_printDebug</name></member>
+      <member refid="class_i2_c_g_p_s_1a393026167c1ca3758ab10335ebe05473" prot="private" virt="non-virtual"><scope>I2CGPS</scope><name>_tail</name></member>
+      <member refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>available</name></member>
+      <member refid="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>begin</name></member>
+      <member refid="class_i2_c_g_p_s_1a6998b74a2b5afef87d218472d285d7bd" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>calcCRCforMTK</name></member>
+      <member refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>check</name></member>
+      <member refid="class_i2_c_g_p_s_1a3873e3afbecaf4f4aac5d1f9b17d3729" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>createMTKpacket</name></member>
+      <member refid="class_i2_c_g_p_s_1aa618d037f01abb99282b14db89c19c3c" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>disableDebugging</name></member>
+      <member refid="class_i2_c_g_p_s_1a0b1ca0aa65decd6f10169871d64660d9" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>enableDebugging</name></member>
+      <member refid="class_i2_c_g_p_s_1a92fc4cd53baf1d26a0e881c5776ea388" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>gpsData</name></member>
+      <member refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>read</name></member>
+      <member refid="class_i2_c_g_p_s_1a66c67976e692beab03206c531f8707ee" prot="public" virt="non-virtual"><scope>I2CGPS</scope><name>sendMTKpacket</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

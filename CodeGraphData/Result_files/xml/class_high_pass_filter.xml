@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_high_pass_filter" kind="class" prot="public">
+    <compoundname>HighPassFilter</compoundname>
+    <includes refid="_filters_8h" local="no">Filters.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_high_pass_filter_1ad0959518d4c46eb8067eb0742d500c17" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HighPassFilter::last_input</definition>
+        <argsstring></argsstring>
+        <name>last_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="26" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_high_pass_filter_1a3ddda46a920cd9fbed8cb5ed1a148a55" compoundref="_filters_8cpp" startline="16" endline="25">Filter</referencedby>
+        <referencedby refid="class_high_pass_filter_1abeecb85a0a9f57b3eb76031ecc8ac967" compoundref="_filters_8cpp" startline="27" endline="31">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_high_pass_filter_1a2ea367792e17ec4764d4fce511f534cc" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HighPassFilter::last_filtered_value</definition>
+        <argsstring></argsstring>
+        <name>last_filtered_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="27" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_high_pass_filter_1a3ddda46a920cd9fbed8cb5ed1a148a55" compoundref="_filters_8cpp" startline="16" endline="25">Filter</referencedby>
+        <referencedby refid="class_high_pass_filter_1abeecb85a0a9f57b3eb76031ecc8ac967" compoundref="_filters_8cpp" startline="27" endline="31">Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_high_pass_filter_1a5c5e6695f72a6549043fc839d03b28cb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HighPassFilter::FilterConstant</definition>
+        <argsstring></argsstring>
+        <name>FilterConstant</name>
+        <initializer>= 0.95</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="30" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_high_pass_filter_1a3ddda46a920cd9fbed8cb5ed1a148a55" compoundref="_filters_8cpp" startline="16" endline="25">Filter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_high_pass_filter_1a3ddda46a920cd9fbed8cb5ed1a148a55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float HighPassFilter::Filter</definition>
+        <argsstring>(float Input)</argsstring>
+        <name>Filter</name>
+        <param>
+          <type>float</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="31" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.cpp" bodystart="16" bodyend="25"/>
+        <references refid="class_high_pass_filter_1a5c5e6695f72a6549043fc839d03b28cb" compoundref="_filters_8h" startline="30">FilterConstant</references>
+        <references refid="class_high_pass_filter_1a2ea367792e17ec4764d4fce511f534cc" compoundref="_filters_8h" startline="27">last_filtered_value</references>
+        <references refid="class_high_pass_filter_1ad0959518d4c46eb8067eb0742d500c17" compoundref="_filters_8h" startline="26">last_input</references>
+      </memberdef>
+      <memberdef kind="function" id="class_high_pass_filter_1abeecb85a0a9f57b3eb76031ecc8ac967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighPassFilter::Init</definition>
+        <argsstring>(float InitValue)</argsstring>
+        <name>Init</name>
+        <param>
+          <type>float</type>
+          <declname>InitValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="32" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.cpp" bodystart="27" bodyend="31"/>
+        <references refid="class_high_pass_filter_1a2ea367792e17ec4764d4fce511f534cc" compoundref="_filters_8h" startline="27">last_filtered_value</references>
+        <references refid="class_high_pass_filter_1ad0959518d4c46eb8067eb0742d500c17" compoundref="_filters_8h" startline="26">last_input</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Filters.h" bodystart="23" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_high_pass_filter_1a3ddda46a920cd9fbed8cb5ed1a148a55" prot="public" virt="non-virtual"><scope>HighPassFilter</scope><name>Filter</name></member>
+      <member refid="class_high_pass_filter_1a5c5e6695f72a6549043fc839d03b28cb" prot="public" virt="non-virtual"><scope>HighPassFilter</scope><name>FilterConstant</name></member>
+      <member refid="class_high_pass_filter_1abeecb85a0a9f57b3eb76031ecc8ac967" prot="public" virt="non-virtual"><scope>HighPassFilter</scope><name>Init</name></member>
+      <member refid="class_high_pass_filter_1a2ea367792e17ec4764d4fce511f534cc" prot="protected" virt="non-virtual"><scope>HighPassFilter</scope><name>last_filtered_value</name></member>
+      <member refid="class_high_pass_filter_1ad0959518d4c46eb8067eb0742d500c17" prot="protected" virt="non-virtual"><scope>HighPassFilter</scope><name>last_input</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_u_s_f_s___i_m_u_8h" kind="file">
+    <compoundname>USFS_IMU.h</compoundname>
+    <includes refid="_u_s_f_s__def_8h" local="yes">USFS_def.h</includes>
+    <includes refid="_e_m7180_8h" local="yes">EM7180.h</includes>
+    <includedby refid="_c_l_i_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</includedby>
+    <includedby refid="_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_s_d_card_log_file_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</includedby>
+    <includedby refid="_steering_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</includedby>
+    <includedby refid="_telemetry_logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</includedby>
+    <includedby refid="_telemetry_messages_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</includedby>
+    <includedby refid="_u_s_f_s___i_m_u_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp</includedby>
+    <incdepgraph>
+      <node id="886">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h</label>
+        <link refid="USFS_IMU.h"/>
+        <childnode refid="887" relation="include">
+        </childnode>
+        <childnode refid="889" relation="include">
+        </childnode>
+      </node>
+      <node id="889">
+        <label>EM7180.h</label>
+        <link refid="_e_m7180_8h"/>
+        <childnode refid="890" relation="include">
+        </childnode>
+        <childnode refid="887" relation="include">
+        </childnode>
+      </node>
+      <node id="891">
+        <label>Wire.h</label>
+      </node>
+      <node id="888">
+        <label>USFS_config.h</label>
+        <link refid="_u_s_f_s__config_8h"/>
+      </node>
+      <node id="890">
+        <label>I2Cdev.h</label>
+        <link refid="_i2_cdev_8h"/>
+        <childnode refid="887" relation="include">
+        </childnode>
+        <childnode refid="891" relation="include">
+        </childnode>
+      </node>
+      <node id="887">
+        <label>USFS_def.h</label>
+        <link refid="_u_s_f_s__def_8h"/>
+        <childnode refid="888" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="893">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="899">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="895">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="892">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h</label>
+        <link refid="USFS_IMU.h"/>
+        <childnode refid="893" relation="include">
+        </childnode>
+        <childnode refid="894" relation="include">
+        </childnode>
+        <childnode refid="895" relation="include">
+        </childnode>
+        <childnode refid="896" relation="include">
+        </childnode>
+        <childnode refid="897" relation="include">
+        </childnode>
+        <childnode refid="898" relation="include">
+        </childnode>
+        <childnode refid="899" relation="include">
+        </childnode>
+        <childnode refid="900" relation="include">
+        </childnode>
+      </node>
+      <node id="896">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</label>
+        <link refid="_s_d_card_log_file_8cpp"/>
+      </node>
+      <node id="894">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="897">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="_steering_8cpp"/>
+      </node>
+      <node id="898">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</label>
+        <link refid="_telemetry_logging_8cpp"/>
+      </node>
+      <node id="900">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp</label>
+        <link refid="_u_s_f_s___i_m_u_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_i_m_u_struct" prot="public">IMUStruct</innerclass>
+    <innerclass refid="class_i_m_u" prot="public">IMU</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_s_f_s___i_m_u_8h_1a3c611c5923c11164afd14f79a2571458" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BaroAlt[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>BaroAlt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_s_f_s___i_m_u_8h_1a1cf3b1e4f1108d855c641e7f9f41cbaa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EstAlt[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>EstAlt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_s_f_s___i_m_u_8h_1a4b4f85f23aa59a75befede46e69b8605" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t accLIN[2][3]</definition>
+        <argsstring>[2][3]</argsstring>
+        <name>accLIN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="37" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.cpp" bodystart="44" bodyend="-1"/>
+        <referencedby refid="_u_s_f_s___i_m_u_8cpp_1a7470f18d90fee02c823fdae8b125670f" compoundref="_u_s_f_s___i_m_u_8cpp" startline="109" endline="153">FetchSentralData</referencedby>
+        <referencedby refid="class_e_m7180_1a9874b0d1f7bb6615f17fea7e74caf8bd" compoundref="_e_m7180_8cpp" startline="411" endline="417">EM7180::LIN_ACC_getADC</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_u_s_f_s___i_m_u_8h_1a31c98992ec4712378590a709685c1eee" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RMS_accLIN[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RMS_accLIN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_s_f_s___i_m_u_8h_1ac487024f15da0992b299f718cd196eef" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float heading[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>heading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="39" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.cpp" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_i_m_u_1a5cc4111c6d4240e65f958892ab337ac8" compoundref="_u_s_f_s___i_m_u_8cpp" startline="171" endline="205">IMU::computeIMU</referencedby>
+        <referencedby refid="_u_s_f_s___i_m_u_8h_1ad9ff248a80111e220386344695dd3749" compoundref="_u_s_f_s___i_m_u_8cpp" startline="73" endline="89">IMU_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_u_s_f_s___i_m_u_8h_1a7a2b0122117e255793df9392899c1a95" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float angle[2][2]</definition>
+        <argsstring>[2][2]</argsstring>
+        <name>angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="40" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.cpp" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_i_m_u_1a5cc4111c6d4240e65f958892ab337ac8" compoundref="_u_s_f_s___i_m_u_8cpp" startline="171" endline="205">IMU::computeIMU</referencedby>
+        <referencedby refid="_u_s_f_s___i_m_u_8h_1ad9ff248a80111e220386344695dd3749" compoundref="_u_s_f_s___i_m_u_8cpp" startline="73" endline="89">IMU_Read</referencedby>
+        <referencedby refid="location_8h_1ab6cd880d070717b4c3cc7a7278768e72" compoundref="location_8cpp" startline="98" endline="130">location_passed_point</referencedby>
+        <referencedby refid="location_8h_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</referencedby>
+        <referencedby refid="location_8h_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_u_s_f_s___i_m_u_8h_1aaeb0871607748dea5dac8f9869089e2f" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t accSmooth[2][3]</definition>
+        <argsstring>[2][3]</argsstring>
+        <name>accSmooth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/EM7180.cpp" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_i_m_u_1a5cc4111c6d4240e65f958892ab337ac8" compoundref="_u_s_f_s___i_m_u_8cpp" startline="171" endline="205">IMU::computeIMU</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_u_s_f_s___i_m_u_8h_1a483a6393703c75767fdf2bddb75212f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU_Init</definition>
+        <argsstring>(int CommandPort)</argsstring>
+        <name>IMU_Init</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="43" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp" bodystart="58" bodyend="71"/>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="class_e_m7180_1a3766932b7e91693ccac16c0aa000cbc3" compoundref="_e_m7180_8cpp" startline="70" endline="241">EM7180::initSensors</references>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+      </memberdef>
+      <memberdef kind="function" id="_u_s_f_s___i_m_u_8h_1ad9ff248a80111e220386344695dd3749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU_Read</definition>
+        <argsstring>(void)</argsstring>
+        <name>IMU_Read</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="44" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp" bodystart="73" bodyend="89"/>
+        <references refid="struct_i_m_u_struct_1a54d4fc4b92cc8b22d4b82bddbcaa5c8e" compoundref="_u_s_f_s___i_m_u_8h" startline="55">IMUStruct::Algorithm_Status</references>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1a566dd4519344035965aae7a707908285" compoundref="_e_m7180_8cpp" startline="35">algostatus</references>
+        <references refid="_e_m7180_8cpp_1a7a2b0122117e255793df9392899c1a95" compoundref="_e_m7180_8cpp" startline="49">angle</references>
+        <references refid="struct_i_m_u_struct_1a2b30f6763b4a63def638ed4494df3a79" compoundref="_u_s_f_s___i_m_u_8h" startline="53">IMUStruct::baro_pressure</references>
+        <references refid="struct_i_m_u_struct_1a25f31097a90231ca2768ba51b67bbe70" compoundref="_u_s_f_s___i_m_u_8h" startline="54">IMUStruct::baro_temperature</references>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1a03509f18ae8b224d02f95cacf098c151" compoundref="_u_s_f_s___i_m_u_8cpp" startline="98" endline="107">FetchEventStatus</references>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1a7470f18d90fee02c823fdae8b125670f" compoundref="_u_s_f_s___i_m_u_8cpp" startline="109" endline="153">FetchSentralData</references>
+        <references refid="_e_m7180_8cpp_1ac487024f15da0992b299f718cd196eef" compoundref="_e_m7180_8cpp" startline="50">heading</references>
+        <references refid="struct_i_m_u_struct_1afeec639b1640f5d5327f29aad5381835" compoundref="_u_s_f_s___i_m_u_8h" startline="50">IMUStruct::heading</references>
+        <references refid="struct_i_m_u_struct_1a536470fdd356df9d7dc75dc9bfa111d3" compoundref="_u_s_f_s___i_m_u_8h" startline="48">IMUStruct::pitch</references>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1a4ec3c7eec30d6fe1c110687dc0c504d0" compoundref="_e_m7180_8cpp" startline="42">pressure</references>
+        <references refid="struct_i_m_u_struct_1a716242b0191f90e27f26a0a753ce4f9a" compoundref="_u_s_f_s___i_m_u_8h" startline="49">IMUStruct::roll</references>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1a2bfaa8444d8879e80a8499e060e2a2ec" compoundref="_e_m7180_8cpp" startline="43">temperature</references>
+        <references refid="location_8cpp_1a9a1cd3e3a0329e310eba39d7df534c55" compoundref="location_8cpp" startline="188" endline="197">wrap_360</references>
+      </memberdef>
+      <memberdef kind="function" id="_u_s_f_s___i_m_u_8h_1a91a14792df33368aa2715e1f3adf43b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU_Save_Cal</definition>
+        <argsstring>(void)</argsstring>
+        <name>IMU_Save_Cal</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h" line="45" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.cpp" bodystart="91" bodyend="96"/>
+        <references refid="class_e_m7180_1a0ff4071aeffd5d74363a7d290b133c55" compoundref="_e_m7180_8cpp" startline="1068" endline="1080">EM7180::Save_Sentral_WS_params</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2019<sp/>Gregory<sp/>Tomasch.<sp/><sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>deal<sp/>with<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>rights<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>sell<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright<sp/>notice,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimers.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimers<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the<sp/>distribution.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/>3.<sp/>The<sp/>names<sp/>of<sp/>Gregory<sp/>Tomasch<sp/>and<sp/>his<sp/>successors</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>may<sp/>not<sp/>be<sp/>used<sp/>to<sp/>endorse<sp/>or<sp/>promote<sp/>products<sp/>derived<sp/>from<sp/>this<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>without<sp/>specific<sp/>prior<sp/>written<sp/>permission.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>CONTRIBUTORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>WITH<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>USFS_IMU_h</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USFS_IMU_h</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_u_s_f_s__def_8h" kindref="compound">USFS_def.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_e_m7180_8h" kindref="compound">EM7180.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_s_f_s___i_m_u_8h_1a3c611c5923c11164afd14f79a2571458" kindref="member">BaroAlt</ref>[2];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_s_f_s___i_m_u_8h_1a1cf3b1e4f1108d855c641e7f9f41cbaa" kindref="member">EstAlt</ref>[2];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_s_f_s___i_m_u_8h_1a4b4f85f23aa59a75befede46e69b8605" kindref="member">accLIN</ref>[2][3];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_s_f_s___i_m_u_8h_1a31c98992ec4712378590a709685c1eee" kindref="member">RMS_accLIN</ref>[2];</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_s_f_s___i_m_u_8h_1ac487024f15da0992b299f718cd196eef" kindref="member">heading</ref>[2];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_s_f_s___i_m_u_8h_1a7a2b0122117e255793df9392899c1a95" kindref="member">angle</ref>[2][2];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_s_f_s___i_m_u_8h_1aaeb0871607748dea5dac8f9869089e2f" kindref="member">accSmooth</ref>[2][3];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_u_s_f_s___i_m_u_8h_1a483a6393703c75767fdf2bddb75212f7" kindref="member">IMU_Init</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_u_s_f_s___i_m_u_8h_1ad9ff248a80111e220386344695dd3749" kindref="member">IMU_Read</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_u_s_f_s___i_m_u_8h_1a91a14792df33368aa2715e1f3adf43b6" kindref="member">IMU_Save_Cal</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="struct_i_m_u_struct" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_i_m_u_struct" kindref="compound">IMUStruct</ref><sp/>{</highlight></codeline>
+<codeline lineno="48" refid="struct_i_m_u_struct_1a536470fdd356df9d7dc75dc9bfa111d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_i_m_u_struct_1a536470fdd356df9d7dc75dc9bfa111d3" kindref="member">pitch</ref>;</highlight></codeline>
+<codeline lineno="49" refid="struct_i_m_u_struct_1a716242b0191f90e27f26a0a753ce4f9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_i_m_u_struct_1a716242b0191f90e27f26a0a753ce4f9a" kindref="member">roll</ref>;</highlight></codeline>
+<codeline lineno="50" refid="struct_i_m_u_struct_1afeec639b1640f5d5327f29aad5381835" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_i_m_u_struct_1afeec639b1640f5d5327f29aad5381835" kindref="member">heading</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Device<sp/>specific<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="struct_i_m_u_struct_1a2b30f6763b4a63def638ed4494df3a79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_i_m_u_struct_1a2b30f6763b4a63def638ed4494df3a79" kindref="member">baro_pressure</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>mbar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="struct_i_m_u_struct_1a25f31097a90231ca2768ba51b67bbe70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_i_m_u_struct_1a25f31097a90231ca2768ba51b67bbe70" kindref="member">baro_temperature</ref>;<sp/></highlight><highlight class="comment">//<sp/><sp/>deg<sp/>C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="struct_i_m_u_struct_1a54d4fc4b92cc8b22d4b82bddbcaa5c8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_i_m_u_struct_1a54d4fc4b92cc8b22d4b82bddbcaa5c8e" kindref="member">Algorithm_Status</ref>;<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="class_i_m_u" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_m_u" kindref="compound">IMU</ref></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_i_m_u_1a24a5864459c95d41a46d7941471ab7a8" kindref="member">IMU</ref>(<ref refid="class_e_m7180" kindref="compound">EM7180</ref>*,<sp/>uint8_t);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_i_m_u_1a5cc4111c6d4240e65f958892ab337ac8" kindref="member">computeIMU</ref>();</highlight></codeline>
+<codeline lineno="65" refid="class_i_m_u_1ab21865d0799320482bcd2bcc27f498f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_e_m7180" kindref="compound">EM7180</ref>*<sp/><sp/><sp/><sp/><sp/><ref refid="class_i_m_u_1ab21865d0799320482bcd2bcc27f498f8" kindref="member">Sentral</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Class<sp/>constructor<sp/>variable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_i_m_u_1a41886fa1e1e1446100790886eae835d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="class_i_m_u_1a41886fa1e1e1446100790886eae835d6" kindref="member">SensorNum</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Class<sp/>constructor<sp/>variable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>USFS_IMU_h</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/USFS_IMU.h"/>
+  </compounddef>
+</doxygen>

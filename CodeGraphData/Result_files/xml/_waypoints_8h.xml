@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_waypoints_8h" kind="file">
+    <compoundname>Waypoints.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_navigation_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h</includedby>
+    <includedby refid="_command_state___processor_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h</includedby>
+    <includedby refid="_mission_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h</includedby>
+    <includedby refid="_g_p_s_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.h</includedby>
+    <includedby refid="_loiter_8h" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h</includedby>
+    <includedby refid="location_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp</includedby>
+    <includedby refid="_navigation_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</includedby>
+    <includedby refid="_o_l_e_d___logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</includedby>
+    <includedby refid="_telemetry_logging_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</includedby>
+    <includedby refid="_waypoints_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.cpp</includedby>
+    <incdepgraph>
+      <node id="951">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h</label>
+        <link refid="Waypoints.h"/>
+        <childnode refid="952" relation="include">
+        </childnode>
+      </node>
+      <node id="952">
+        <label>arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="961">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.cpp</label>
+        <link refid="_loiter_8cpp"/>
+      </node>
+      <node id="979">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</label>
+        <link refid="_c_l_i_8h"/>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+      </node>
+      <node id="974">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.h</label>
+        <link refid="_s_d_card_log_file_8h"/>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+      </node>
+      <node id="982">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Local_Display.cpp</label>
+        <link refid="_local___display_8cpp"/>
+      </node>
+      <node id="962">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.cpp</label>
+        <link refid="_mission_8cpp"/>
+      </node>
+      <node id="957">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="953">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h</label>
+        <link refid="Waypoints.h"/>
+        <childnode refid="954" relation="include">
+        </childnode>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+      </node>
+      <node id="969">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="958">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.cpp</label>
+        <link refid="_command_state___processor_8cpp"/>
+      </node>
+      <node id="964">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.cpp</label>
+        <link refid="_o_l_e_d___logging_8cpp"/>
+      </node>
+      <node id="967">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SDCardLogFile.cpp</label>
+        <link refid="_s_d_card_log_file_8cpp"/>
+      </node>
+      <node id="985">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/location.cpp</label>
+        <link refid="location_8cpp"/>
+      </node>
+      <node id="954">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="955" relation="include">
+        </childnode>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="973" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="975" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="980">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Mission.h</label>
+        <link refid="_mission_8h"/>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="983">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.h</label>
+        <link refid="_g_p_s_8h"/>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="972">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Wingsail.cpp</label>
+        <link refid="_wingsail_8cpp"/>
+      </node>
+      <node id="984">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Loiter.h</label>
+        <link refid="_loiter_8h"/>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="975">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.h</label>
+        <link refid="_sailing_navigation_8h"/>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+      </node>
+      <node id="955">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h</label>
+        <link refid="config_values_8h"/>
+        <childnode refid="956" relation="include">
+        </childnode>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="971" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="963">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Navigation.cpp</label>
+        <link refid="_navigation_8cpp"/>
+      </node>
+      <node id="968">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="_steering_8cpp"/>
+      </node>
+      <node id="970">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WearTracking.cpp</label>
+        <link refid="_wear_tracking_8cpp"/>
+      </node>
+      <node id="986">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.cpp</label>
+        <link refid="_waypoints_8cpp"/>
+      </node>
+      <node id="959">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp</label>
+        <link refid="config_values_8cpp"/>
+      </node>
+      <node id="965">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/RadioControl.cpp</label>
+        <link refid="_radio_control_8cpp"/>
+      </node>
+      <node id="976">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.cpp</label>
+        <link refid="_telemetry_logging_8cpp"/>
+      </node>
+      <node id="960">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp</label>
+        <link refid="_g_p_s_8cpp"/>
+      </node>
+      <node id="966">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SailingNavigation.cpp</label>
+        <link refid="_sailing_navigation_8cpp"/>
+      </node>
+      <node id="981">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/OLED_Logging.h</label>
+        <link refid="_o_l_e_d___logging_8h"/>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+      </node>
+      <node id="956">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/BluetoothConnection.cpp</label>
+        <link refid="_bluetooth_connection_8cpp"/>
+      </node>
+      <node id="978">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="955" relation="include">
+        </childnode>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="973" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="977">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS_Temp.cpp</label>
+        <link refid="_g_p_s___temp_8cpp"/>
+      </node>
+      <node id="971">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/WindAngle_2950.cpp</label>
+        <link refid="_wind_angle__2950_8cpp"/>
+      </node>
+      <node id="973">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryLogging.h</label>
+        <link refid="_telemetry_logging_8h"/>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="975" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_location" prot="public">Location</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Waypoints.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_WAYPOINTS_h</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_WAYPOINTS_h</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment">//<sp/>Waypoint<sp/>distances</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight><highlight class="comment">//<sp/>Distance<sp/>between<sp/>vesel<sp/>and<sp/>next<sp/>waypoint.<sp/><sp/>Meters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//static<sp/>float<sp/>wp_distance;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Distance<sp/>between<sp/>previous<sp/>and<sp/>next<sp/>waypoint.<sp/><sp/>Meters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//static<sp/>int32_t<sp/>wp_totalDistance;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="struct_location" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/><sp/></highlight><highlight class="normal"><ref refid="struct_location" kindref="compound">Location</ref><sp/>{</highlight></codeline>
+<codeline lineno="22" refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><ref refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" kindref="member">lat</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Latitude<sp/>*<sp/>10**7<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><ref refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" kindref="member">lng</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Longitude<sp/>*<sp/>10**7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment">//<sp/>3D<sp/>Location<sp/>vectors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Location<sp/>structure<sp/>defined<sp/>in<sp/>AP_Common</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"></highlight><highlight class="comment">//static<sp/>struct<sp/><sp/><sp/>Location<sp/>home;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"></highlight><highlight class="comment">//static<sp/>bool<sp/><sp/><sp/><sp/><sp/>home_is_set;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment">//static<sp/>struct<sp/><sp/><sp/>Location<sp/>prev_WP;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"></highlight><highlight class="comment">//static<sp/>struct<sp/><sp/><sp/>Location<sp/>next_WP;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>location<sp/>of<sp/>the<sp/>active<sp/>waypoint<sp/>in<sp/>Guided<sp/>mode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//static<sp/>struct<sp/><sp/><sp/>Location<sp/>guided_WP;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Waypoints.h"/>
+  </compounddef>
+</doxygen>

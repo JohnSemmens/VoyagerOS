@@ -1,0 +1,1223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structconfig_values_type" kind="struct" prot="public">
+    <compoundname>configValuesType</compoundname>
+    <includes refid="config_values_8h" local="no">configValues.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structconfig_values_type_1a58b57f58bc0dbd9e2537e3333221eda3" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte configValuesType::EEPROM_Storage_Version</definition>
+        <argsstring></argsstring>
+        <name>EEPROM_Storage_Version</name>
+        <initializer>= <ref refid="config_values_8h_1a7e00f3ca3fbac02f9896006e5cc74330" kindref="member">EEPROM_Storage_Version_Const</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="18" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="config_values_8h_1aeed2fa4d773a9e06ce652dadbcc9a5c8" compoundref="config_values_8cpp" startline="137" endline="142">EEPROM_Storage_Version_Valid</referencedby>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+        <referencedby refid="config_values_8h_1ad9e291951fd743c34d1f6d86387d0fab" compoundref="config_values_8cpp" startline="85" endline="91">Save_EEPROM_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a39745cbb9ba7b52a76eccb955af9b526" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char configValuesType::DisplayScreenView</definition>
+        <argsstring></argsstring>
+        <name>DisplayScreenView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="20" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" prot="public" static="no" mutable="no">
+        <type>word</type>
+        <definition>word configValuesType::TelemetryLoggingMask</definition>
+        <argsstring></argsstring>
+        <name>TelemetryLoggingMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="21" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" compoundref="_sailing_navigation_8cpp" startline="211" endline="257">SetTack</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" prot="public" static="no" mutable="no">
+        <type>word</type>
+        <definition>word configValuesType::SDCardLoggingMask</definition>
+        <argsstring></argsstring>
+        <name>SDCardLoggingMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="22" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_loiter_8h_1a52d59bd2a6c37492c79ffdd2da5fb43f" compoundref="_loiter_8cpp" startline="28" endline="97">LoiterCalcCTS</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1adeaaa4e3ef0f85f11afc6fea531e4e83" compoundref="_sailing_navigation_8cpp" startline="211" endline="257">SetTack</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1af730e3fa0e2cea723fc44c27048354ca" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char configValuesType::SDCardLogDelimiter</definition>
+        <argsstring></argsstring>
+        <name>SDCardLogDelimiter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="24" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_s_d_card_log_file_8cpp_1a038581324a0e7e3878d3ab86aff53ecd" compoundref="_s_d_card_log_file_8cpp" startline="427" endline="444">LogTime</referencedby>
+        <referencedby refid="_s_d_card_log_file_8cpp_1afb2236a1a3e397f4ac1bc2a364e9d320" compoundref="_s_d_card_log_file_8cpp" startline="79" endline="95">LogTimeHeader</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a2da7a28b7c83f5ea4e1bd15b623feccb" compoundref="_s_d_card_log_file_8cpp" startline="446" endline="669">SD_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ac0a7d3bbf990e2bbadf6ce2e5d1c4621" compoundref="_s_d_card_log_file_8cpp" startline="729" endline="754">SD_Logging_Event_MissionStep</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a011f521e8ce1a08897e5d0f261a75476" compoundref="_s_d_card_log_file_8cpp" startline="709" endline="718">SD_Logging_Event_ParameterChange</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a819cd54baa36220f4d1a808a7a64fe4a" compoundref="_s_d_card_log_file_8cpp" startline="757" endline="773">SD_Logging_Event_Usage</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1ae86aa9f9bf9aafaa103cc356b87bc3be" compoundref="_s_d_card_log_file_8cpp" startline="118" endline="419">SD_Logging_OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a4fb27e7a2ba2adeebb68714c767d4c5f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool configValuesType::SaveStateValues</definition>
+        <argsstring></argsstring>
+        <name>SaveStateValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="26" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1aeb3e43a3cab71ad7573c59c78f3cb0c0" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte configValuesType::timezone_offset</definition>
+        <argsstring></argsstring>
+        <name>timezone_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="28" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_g_p_s_8h_1ad6580a786394442f4184026341deee5d" compoundref="_g_p_s_8cpp" startline="29" endline="52">GPS_Init</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ab8e0fd66b86e53779bd9810853beb175" prot="public" static="no" mutable="no">
+        <type><ref refid="_navigation_8h_1a724b6d9eec870060666415a9173a1f44" kindref="member">ManoeuvreType</ref></type>
+        <definition>ManoeuvreType configValuesType::TackingMethod</definition>
+        <argsstring></argsstring>
+        <name>TackingMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="31" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_navigation_8h_1a096a0214288d7cf9b82426e987952f57" compoundref="_navigation_8cpp" startline="174" endline="225">UpdateTurnHeadingV2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte configValuesType::MinimumAngleUpWind</definition>
+        <argsstring></argsstring>
+        <name>MinimumAngleUpWind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="32" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad1a3e49f1ecde702c34840fad96dc852" compoundref="_sailing_navigation_8cpp" startline="470" endline="504">IsBTWSailable</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a1862447ac94938f73ad64807764ee54d" compoundref="_sailing_navigation_8cpp" startline="370" endline="398">SteerCloseHauled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte configValuesType::MinimumAngleDownWind</definition>
+        <argsstring></argsstring>
+        <name>MinimumAngleDownWind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="33" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad1a3e49f1ecde702c34840fad96dc852" compoundref="_sailing_navigation_8cpp" startline="470" endline="504">IsBTWSailable</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a6d4d4bc42c67913f3d1502ef8da8c9f3" compoundref="_sailing_navigation_8cpp" startline="288" endline="368">LimitToSailingCourse</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_navigation_8h_1af728b3b1c90a2dc503da0477255ed87b" compoundref="_navigation_8cpp" startline="38" endline="89">NavigationUpdate_SlowData</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1afee54cc124611159e5251a01afd52016" compoundref="_sailing_navigation_8cpp" startline="400" endline="427">SteerDeepRunning</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1af1f613cbf51575ce5c01d197665778c9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::WPCourseHoldRadius</definition>
+        <argsstring></argsstring>
+        <name>WPCourseHoldRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="34" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a03b05b4da3e4f48e56ceb07e88edf55e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::MaximumTimePastFavouredTack</definition>
+        <argsstring></argsstring>
+        <name>MaximumTimePastFavouredTack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="35" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a38d036588253f42774ae514f55e731b8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::MinimumWindChangeTime</definition>
+        <argsstring></argsstring>
+        <name>MinimumWindChangeTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="37" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a6502125ce871378cea999e4f23ce562d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::TWD_Offset</definition>
+        <argsstring></argsstring>
+        <name>TWD_Offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="39" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_navigation_8h_1a13d5e3cfc31951612680bb99e27ff6eb" compoundref="_navigation_8cpp" startline="151" endline="171">GetTrueWind</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ac1943add4d21dc30723e9d90784b5ae6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float configValuesType::TargetHeadingFilterConstant</definition>
+        <argsstring></argsstring>
+        <name>TargetHeadingFilterConstant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1a48666069fd98cfe87fa2a7d69e2ce413" compoundref="_sailing_navigation_8cpp" startline="32" endline="37">SailingNavigation_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a711dbb3e2dee764a9764411c80d24e48" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte configValuesType::SailableAngleMargin</definition>
+        <argsstring></argsstring>
+        <name>SailableAngleMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="43" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="43" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad1a3e49f1ecde702c34840fad96dc852" compoundref="_sailing_navigation_8cpp" startline="470" endline="504">IsBTWSailable</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a9483574d7305906b58eecb6c263480ab" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::WindAngleCalibrationOffset</definition>
+        <argsstring></argsstring>
+        <name>WindAngleCalibrationOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="46" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a0d81540f66f65f79aaef899207f903b5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::CompassOffsetAngle</definition>
+        <argsstring></argsstring>
+        <name>CompassOffsetAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="49" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1aa520d523476f17a3d4ee9db5e92f899a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float configValuesType::MagnetVariation</definition>
+        <argsstring></argsstring>
+        <name>MagnetVariation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="51" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_navigation_8h_1a3be9dd8d1c150d9159344036201bbd11" compoundref="_navigation_8cpp" startline="101" endline="128">NavigationUpdate_FastData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a754b585ab8ab6b729faa0c4ca85aff36" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::MaxFileSize</definition>
+        <argsstring></argsstring>
+        <name>MaxFileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="53" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="53" bodyend="-1"/>
+        <referencedby refid="_s_d_card_log_file_8h_1a52a9858b6c2a22b0d426a833618afaae" compoundref="_s_d_card_log_file_8cpp" startline="671" endline="680">Check_LogFileSize</referencedby>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a6e87d7c2d3bbe04a269b9ea1df95d08e" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_FailSafe_Ch0</definition>
+        <argsstring></argsstring>
+        <name>RC_FailSafe_Ch0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="57" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+        <referencedby refid="_radio_control_8h_1a9698fd2952ddd9069e8f45a503a3b234" compoundref="_radio_control_8cpp" startline="117" endline="130">Servos_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a3e03ea3e68c69e70790b89bb35c48891" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_FailSafe_Ch1</definition>
+        <argsstring></argsstring>
+        <name>RC_FailSafe_Ch1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="58" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+        <referencedby refid="_radio_control_8h_1a9698fd2952ddd9069e8f45a503a3b234" compoundref="_radio_control_8cpp" startline="117" endline="130">Servos_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ab67f55a038996a2bc882f35ecf25df78" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_FailSafe_Ch2</definition>
+        <argsstring></argsstring>
+        <name>RC_FailSafe_Ch2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="59" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+        <referencedby refid="_radio_control_8h_1a9698fd2952ddd9069e8f45a503a3b234" compoundref="_radio_control_8cpp" startline="117" endline="130">Servos_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ac521c18e56efe3dabafaeb2a9b1a2983" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_FailSafe_Ch3</definition>
+        <argsstring></argsstring>
+        <name>RC_FailSafe_Ch3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="60" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+        <referencedby refid="_radio_control_8h_1a9698fd2952ddd9069e8f45a503a3b234" compoundref="_radio_control_8cpp" startline="117" endline="130">Servos_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1afc29b93865777b36fc05b69ee765d883" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_FailSafe_Time</definition>
+        <argsstring></argsstring>
+        <name>RC_FailSafe_Time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="62" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="62" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1ac44ffa76b52a680cf9803be0ff8a3ee5" compoundref="_radio_control_8cpp" startline="132" endline="165">RC_Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a5e0bc8124a329de5516eb134942a58a5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::RC_IN_Channel_Command</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Channel_Command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="64" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="64" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::RC_IN_Channel_Steering</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Channel_Steering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="65" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="65" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a5e92833efd357eaf9312f7e4e0e059a4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::RC_IN_Channel_Sail</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Channel_Sail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="66" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="66" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1aad74f16ddcc19bbba139a21fa0946749" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::RC_IN_Channel_Motor</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Channel_Motor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="67" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="67" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::Servo_Channel_Steering</definition>
+        <argsstring></argsstring>
+        <name>Servo_Channel_Steering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="69" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::Servo_Channel_Steering_Stbd</definition>
+        <argsstring></argsstring>
+        <name>Servo_Channel_Steering_Stbd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="70" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1aba71822830cd657b53d27582ed06e465" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::Servo_Channel_Sail</definition>
+        <argsstring></argsstring>
+        <name>Servo_Channel_Sail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="71" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a0491cf60a1fc8db74596859134302b13" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::Servo_Channel_Motor</definition>
+        <argsstring></argsstring>
+        <name>Servo_Channel_Motor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="72" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="72" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ab0928a129fd553bac7719230eb271d48" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_IN_Command_Threhold0</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Command_Threhold0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="74" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="74" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1aa8605757da28b6c5b150ac3d3daad181" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_IN_Command_Threhold1</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Command_Threhold1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="75" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="75" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" compoundref="_radio_control_8cpp" startline="167" endline="227">RC_Command_Switch</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1acb5f8a2de4f96f4cf1661e9834a553a2" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_IN_Command_Threhold2</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Command_Threhold2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="76" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="76" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" compoundref="_radio_control_8cpp" startline="167" endline="227">RC_Command_Switch</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a451ddce737e6b1b1bb977b36723a4441" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_IN_Command_Threhold3</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Command_Threhold3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="77" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="77" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" compoundref="_radio_control_8cpp" startline="167" endline="227">RC_Command_Switch</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ae7387ba3ace4c1aaca2dbc5fe0249631" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_IN_Command_Threhold4</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Command_Threhold4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="78" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="78" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_radio_control_8h_1a0b3f3b2db59f416ce1f7811e5bdf561c" compoundref="_radio_control_8cpp" startline="167" endline="227">RC_Command_Switch</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a409e8bbf3a308652af99ac03d65aa27f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t configValuesType::RC_IN_Command_Threhold9</definition>
+        <argsstring></argsstring>
+        <name>RC_IN_Command_Threhold9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="79" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="79" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a3606fd3b8680031f302f53bbef238b35" prot="public" static="no" mutable="no">
+        <type><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref></type>
+        <definition>VesselCommandStateType configValuesType::FailsafeCommandState</definition>
+        <argsstring></argsstring>
+        <name>FailsafeCommandState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="90" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="90" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1a2f2b07eacea6b40bf75053dd875b8cbe" compoundref="_command_state___processor_8cpp" startline="27" endline="69">GetCommandStateFromRC_Command_Switch</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool configValuesType::DualRudder</definition>
+        <argsstring></argsstring>
+        <name>DualRudder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="92" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="92" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a6d546066fa1eb099f8fff364b11c82ea" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool configValuesType::UseMotor</definition>
+        <argsstring></argsstring>
+        <name>UseMotor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="93" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="93" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a61d8859b3447d6566d13492f81a7f7a6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::CommandPort</definition>
+        <argsstring></argsstring>
+        <name>CommandPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="95" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="95" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a59efead0f04f26233f9b1dfb3ec52945" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::BluetoothPort</definition>
+        <argsstring></argsstring>
+        <name>BluetoothPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="96" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="96" bodyend="-1"/>
+        <referencedby refid="_bluetooth_connection_8h_1a0ce359035c395619fb23e2e0f961c312" compoundref="_bluetooth_connection_8cpp" startline="23" endline="80">BluetoothManageConnection</referencedby>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_wingsail_8h_1a31ec22cdae42b2cba5dcd378ea9119e4" compoundref="_wingsail_8cpp" startline="209" endline="226">WingSailServo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ac88971303bbfeaefab6ff8a9910ebead" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::SatCommsPort</definition>
+        <argsstring></argsstring>
+        <name>SatCommsPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="97" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="97" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a66b02dad9a0c8a9abdb413fd7b02a685" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t configValuesType::CommandPortBaudRate</definition>
+        <argsstring></argsstring>
+        <name>CommandPortBaudRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="99" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="99" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a7523308a51da9a1de8e194446e3e68be" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t configValuesType::BTPortBaudRate</definition>
+        <argsstring></argsstring>
+        <name>BTPortBaudRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="100" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="100" bodyend="-1"/>
+        <referencedby refid="_bluetooth_connection_8h_1a371a4c8f1d88f24b6deae310a365a6b9" compoundref="_bluetooth_connection_8cpp" startline="15" endline="21">Bluetooth_Init</referencedby>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a919cf7eb37862a7de7fde4cb52ff06bb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t configValuesType::SatCommsPortBaudRate</definition>
+        <argsstring></argsstring>
+        <name>SatCommsPortBaudRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="101" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="101" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double configValuesType::pidKp</definition>
+        <argsstring></argsstring>
+        <name>pidKp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="104" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="104" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" compoundref="_steering_8cpp" startline="130" endline="140">SteeringPID_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double configValuesType::pidKi</definition>
+        <argsstring></argsstring>
+        <name>pidKi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="104" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="104" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" compoundref="_steering_8cpp" startline="130" endline="140">SteeringPID_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double configValuesType::pidKd</definition>
+        <argsstring></argsstring>
+        <name>pidKd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="104" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="104" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" compoundref="_steering_8cpp" startline="130" endline="140">SteeringPID_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double configValuesType::pidOutputmin</definition>
+        <argsstring></argsstring>
+        <name>pidOutputmin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="105" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="105" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" compoundref="_steering_8cpp" startline="130" endline="140">SteeringPID_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double configValuesType::pidOutputmax</definition>
+        <argsstring></argsstring>
+        <name>pidOutputmax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="105" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="105" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" compoundref="_steering_8cpp" startline="130" endline="140">SteeringPID_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::pidDirection</definition>
+        <argsstring></argsstring>
+        <name>pidDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="106" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="106" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" compoundref="_steering_8cpp" startline="130" endline="140">SteeringPID_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double configValuesType::pidCentre</definition>
+        <argsstring></argsstring>
+        <name>pidCentre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="107" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="107" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a1176e7ee5accf3fd2610f2bdd2296f9c" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long configValuesType::LoiterRadius</definition>
+        <argsstring></argsstring>
+        <name>LoiterRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="109" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="109" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ad0e88567b91c76388a29d2568d6d0e5e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::TrimTabScale</definition>
+        <argsstring></argsstring>
+        <name>TrimTabScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="118" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wingsail_8h_1a081db0efb55b69c0c5f385e5d42940c0" compoundref="_wingsail_8cpp" startline="201" endline="207">TrimTabAngle_to_us</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1aa57d2d289c80384c0c56c5b95b731807" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::TrimTabOffset</definition>
+        <argsstring></argsstring>
+        <name>TrimTabOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="119" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wingsail_8h_1a081db0efb55b69c0c5f385e5d42940c0" compoundref="_wingsail_8cpp" startline="201" endline="207">TrimTabAngle_to_us</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a5de1574374a7457242a06a189aec690f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::TrimTabDefaultAngle</definition>
+        <argsstring></argsstring>
+        <name>TrimTabDefaultAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="121" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="_wingsail_8h_1ac15c04fc20ba8254376a6fbd3c871c61" compoundref="_wingsail_8cpp" startline="151" endline="198">CalcTrimTabAngle</referencedby>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a0876ce5174fefcd0b39cccee44eca68a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float configValuesType::mx_min</definition>
+        <argsstring></argsstring>
+        <name>mx_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="123" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="123" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a5c9f8e7fac316e921c900b245d3ab8e5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float configValuesType::mx_max</definition>
+        <argsstring></argsstring>
+        <name>mx_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="124" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="124" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1ab7c1874d390dec419ff4d54ce11b6ebd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float configValuesType::my_min</definition>
+        <argsstring></argsstring>
+        <name>my_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="125" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="125" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1aac3f9de446641e39b318ba8f23ca12ce" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float configValuesType::my_max</definition>
+        <argsstring></argsstring>
+        <name>my_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="126" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a1be1ac022e4efe86be6f72be280c2dac" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float configValuesType::mz_min</definition>
+        <argsstring></argsstring>
+        <name>mz_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="127" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a6758579cc2d41935882eab00baf129f5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float configValuesType::mz_max</definition>
+        <argsstring></argsstring>
+        <name>mz_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="128" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="_wind_angle__2950_8h_1a9db0f166dba1a55795c2013eb93034af" compoundref="_wind_angle__2950_8cpp" startline="165" endline="192">IMU_Mag_Calibrate</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+        <referencedby refid="_wind_angle__2950_8h_1a5ad216273a9dcd578de2e0e683571164" compoundref="_wind_angle__2950_8cpp" startline="267" endline="278">Load_IMU_Calibation_Values</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structconfig_values_type_1a2c7a86bc55744528eb5ed1f8c6c84384" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configValuesType::CTE_CorrectionGain</definition>
+        <argsstring></argsstring>
+        <name>CTE_CorrectionGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="130" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="130" bodyend="-1"/>
+        <referencedby refid="_navigation_8h_1af11a4bcbb4152cbf9cb7625e21933f4d" compoundref="_navigation_8cpp" startline="227" endline="260">get_CTE_Correction</referencedby>
+        <referencedby refid="config_values_8h_1a2698bbc75dc083e68bac543e95ae2c8e" compoundref="config_values_8cpp" startline="144" endline="246">Load_Config_default_values</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" line="17" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.h" bodystart="17" bodyend="131"/>
+    <listofallmembers>
+      <member refid="structconfig_values_type_1a59efead0f04f26233f9b1dfb3ec52945" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>BluetoothPort</name></member>
+      <member refid="structconfig_values_type_1a7523308a51da9a1de8e194446e3e68be" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>BTPortBaudRate</name></member>
+      <member refid="structconfig_values_type_1a61d8859b3447d6566d13492f81a7f7a6" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>CommandPort</name></member>
+      <member refid="structconfig_values_type_1a66b02dad9a0c8a9abdb413fd7b02a685" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>CommandPortBaudRate</name></member>
+      <member refid="structconfig_values_type_1a0d81540f66f65f79aaef899207f903b5" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>CompassOffsetAngle</name></member>
+      <member refid="structconfig_values_type_1a2c7a86bc55744528eb5ed1f8c6c84384" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>CTE_CorrectionGain</name></member>
+      <member refid="structconfig_values_type_1a39745cbb9ba7b52a76eccb955af9b526" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>DisplayScreenView</name></member>
+      <member refid="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>DualRudder</name></member>
+      <member refid="structconfig_values_type_1a58b57f58bc0dbd9e2537e3333221eda3" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>EEPROM_Storage_Version</name></member>
+      <member refid="structconfig_values_type_1a3606fd3b8680031f302f53bbef238b35" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>FailsafeCommandState</name></member>
+      <member refid="structconfig_values_type_1a1176e7ee5accf3fd2610f2bdd2296f9c" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>LoiterRadius</name></member>
+      <member refid="structconfig_values_type_1aa520d523476f17a3d4ee9db5e92f899a" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>MagnetVariation</name></member>
+      <member refid="structconfig_values_type_1a754b585ab8ab6b729faa0c4ca85aff36" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>MaxFileSize</name></member>
+      <member refid="structconfig_values_type_1a03b05b4da3e4f48e56ceb07e88edf55e" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>MaximumTimePastFavouredTack</name></member>
+      <member refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>MinimumAngleDownWind</name></member>
+      <member refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>MinimumAngleUpWind</name></member>
+      <member refid="structconfig_values_type_1a38d036588253f42774ae514f55e731b8" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>MinimumWindChangeTime</name></member>
+      <member refid="structconfig_values_type_1a5c9f8e7fac316e921c900b245d3ab8e5" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>mx_max</name></member>
+      <member refid="structconfig_values_type_1a0876ce5174fefcd0b39cccee44eca68a" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>mx_min</name></member>
+      <member refid="structconfig_values_type_1aac3f9de446641e39b318ba8f23ca12ce" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>my_max</name></member>
+      <member refid="structconfig_values_type_1ab7c1874d390dec419ff4d54ce11b6ebd" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>my_min</name></member>
+      <member refid="structconfig_values_type_1a6758579cc2d41935882eab00baf129f5" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>mz_max</name></member>
+      <member refid="structconfig_values_type_1a1be1ac022e4efe86be6f72be280c2dac" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>mz_min</name></member>
+      <member refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>pidCentre</name></member>
+      <member refid="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>pidDirection</name></member>
+      <member refid="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>pidKd</name></member>
+      <member refid="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>pidKi</name></member>
+      <member refid="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>pidKp</name></member>
+      <member refid="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>pidOutputmax</name></member>
+      <member refid="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>pidOutputmin</name></member>
+      <member refid="structconfig_values_type_1a6e87d7c2d3bbe04a269b9ea1df95d08e" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_FailSafe_Ch0</name></member>
+      <member refid="structconfig_values_type_1a3e03ea3e68c69e70790b89bb35c48891" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_FailSafe_Ch1</name></member>
+      <member refid="structconfig_values_type_1ab67f55a038996a2bc882f35ecf25df78" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_FailSafe_Ch2</name></member>
+      <member refid="structconfig_values_type_1ac521c18e56efe3dabafaeb2a9b1a2983" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_FailSafe_Ch3</name></member>
+      <member refid="structconfig_values_type_1afc29b93865777b36fc05b69ee765d883" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_FailSafe_Time</name></member>
+      <member refid="structconfig_values_type_1a5e0bc8124a329de5516eb134942a58a5" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Channel_Command</name></member>
+      <member refid="structconfig_values_type_1aad74f16ddcc19bbba139a21fa0946749" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Channel_Motor</name></member>
+      <member refid="structconfig_values_type_1a5e92833efd357eaf9312f7e4e0e059a4" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Channel_Sail</name></member>
+      <member refid="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Channel_Steering</name></member>
+      <member refid="structconfig_values_type_1ab0928a129fd553bac7719230eb271d48" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Command_Threhold0</name></member>
+      <member refid="structconfig_values_type_1aa8605757da28b6c5b150ac3d3daad181" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Command_Threhold1</name></member>
+      <member refid="structconfig_values_type_1acb5f8a2de4f96f4cf1661e9834a553a2" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Command_Threhold2</name></member>
+      <member refid="structconfig_values_type_1a451ddce737e6b1b1bb977b36723a4441" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Command_Threhold3</name></member>
+      <member refid="structconfig_values_type_1ae7387ba3ace4c1aaca2dbc5fe0249631" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Command_Threhold4</name></member>
+      <member refid="structconfig_values_type_1a409e8bbf3a308652af99ac03d65aa27f" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>RC_IN_Command_Threhold9</name></member>
+      <member refid="structconfig_values_type_1a711dbb3e2dee764a9764411c80d24e48" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>SailableAngleMargin</name></member>
+      <member refid="structconfig_values_type_1ac88971303bbfeaefab6ff8a9910ebead" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>SatCommsPort</name></member>
+      <member refid="structconfig_values_type_1a919cf7eb37862a7de7fde4cb52ff06bb" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>SatCommsPortBaudRate</name></member>
+      <member refid="structconfig_values_type_1a4fb27e7a2ba2adeebb68714c767d4c5f" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>SaveStateValues</name></member>
+      <member refid="structconfig_values_type_1af730e3fa0e2cea723fc44c27048354ca" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>SDCardLogDelimiter</name></member>
+      <member refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>SDCardLoggingMask</name></member>
+      <member refid="structconfig_values_type_1a0491cf60a1fc8db74596859134302b13" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>Servo_Channel_Motor</name></member>
+      <member refid="structconfig_values_type_1aba71822830cd657b53d27582ed06e465" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>Servo_Channel_Sail</name></member>
+      <member refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>Servo_Channel_Steering</name></member>
+      <member refid="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>Servo_Channel_Steering_Stbd</name></member>
+      <member refid="structconfig_values_type_1ab8e0fd66b86e53779bd9810853beb175" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>TackingMethod</name></member>
+      <member refid="structconfig_values_type_1ac1943add4d21dc30723e9d90784b5ae6" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>TargetHeadingFilterConstant</name></member>
+      <member refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>TelemetryLoggingMask</name></member>
+      <member refid="structconfig_values_type_1aeb3e43a3cab71ad7573c59c78f3cb0c0" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>timezone_offset</name></member>
+      <member refid="structconfig_values_type_1a5de1574374a7457242a06a189aec690f" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>TrimTabDefaultAngle</name></member>
+      <member refid="structconfig_values_type_1aa57d2d289c80384c0c56c5b95b731807" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>TrimTabOffset</name></member>
+      <member refid="structconfig_values_type_1ad0e88567b91c76388a29d2568d6d0e5e" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>TrimTabScale</name></member>
+      <member refid="structconfig_values_type_1a6502125ce871378cea999e4f23ce562d" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>TWD_Offset</name></member>
+      <member refid="structconfig_values_type_1a6d546066fa1eb099f8fff364b11c82ea" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>UseMotor</name></member>
+      <member refid="structconfig_values_type_1a9483574d7305906b58eecb6c263480ab" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>WindAngleCalibrationOffset</name></member>
+      <member refid="structconfig_values_type_1af1f613cbf51575ce5c01d197665778c9" prot="public" virt="non-virtual"><scope>configValuesType</scope><name>WPCourseHoldRadius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_state_values_struct" kind="struct" prot="public">
+    <compoundname>StateValuesStruct</compoundname>
+    <includes refid="_command_state___processor_8h" local="no">CommandState_Processor.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" prot="public" static="no" mutable="no">
+        <type><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref></type>
+        <definition>VesselCommandStateType StateValuesStruct::CommandState</definition>
+        <argsstring></argsstring>
+        <name>CommandState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" line="33" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="config_values_8h_1a1470bc0369470aa6445ea1692ae70e9b" compoundref="config_values_8cpp" startline="118" endline="130">Load_EEPROM_StateValues</referencedby>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_mission_8h_1ab22b8b14464b9f954092f326c4a1af95" compoundref="_mission_8cpp" startline="245" endline="265">set_next_WP_for_display</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_telemetry_logging_8h_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StateValuesStruct::mission_index</definition>
+        <argsstring></argsstring>
+        <name>mission_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" line="34" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="config_values_8h_1a1470bc0369470aa6445ea1692ae70e9b" compoundref="config_values_8cpp" startline="118" endline="130">Load_EEPROM_StateValues</referencedby>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_s_d_card_log_file_8h_1a16ae785967afa3a4b5195dff58027499" compoundref="_s_d_card_log_file_8cpp" startline="689" endline="707">SD_Logging_Event_Decisions</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_mission_8h_1ab22b8b14464b9f954092f326c4a1af95" compoundref="_mission_8cpp" startline="245" endline="265">set_next_WP_for_display</referencedby>
+        <referencedby refid="_telemetry_logging_8h_1a7f31c903abd0d74edd169c2b84fb1b10" compoundref="_telemetry_logging_8cpp" startline="347" endline="362">TelemetryLogging_Event_Decisions</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool StateValuesStruct::StartingMission</definition>
+        <argsstring></argsstring>
+        <name>StartingMission</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" line="35" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="config_values_8h_1a1470bc0369470aa6445ea1692ae70e9b" compoundref="config_values_8cpp" startline="118" endline="130">Load_EEPROM_StateValues</referencedby>
+        <referencedby refid="_mission_8h_1a40190fbe8db0259df7eb5e20c112e0f3" compoundref="_mission_8cpp" startline="32" endline="81">MissionUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_location" kindref="compound">Location</ref></type>
+        <definition>Location StateValuesStruct::home</definition>
+        <argsstring></argsstring>
+        <name>home</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" line="38" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool StateValuesStruct::home_is_set</definition>
+        <argsstring></argsstring>
+        <name>home_is_set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" line="39" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_mission_8h_1a25f17f52c627403a54f0a1df3900a35a" compoundref="_mission_8cpp" startline="83" endline="180">IsMissionStepComplete</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+        <referencedby refid="_wingsail_8h_1a3c064dc624242f614329a0b4ec2d6725" compoundref="_wingsail_8cpp" startline="40" endline="130">wingsail_update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StateValuesStruct::SteerWindAngle</definition>
+        <argsstring></argsstring>
+        <name>SteerWindAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" line="40" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+        <referencedby refid="_mission_8h_1a7576bfb08a92c9599c566fd234fba5d4" compoundref="_mission_8cpp" startline="182" endline="243">UpdatePrevNextWP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_state_values_struct_1a4100b0f396b9eecc008b3502739b0294" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StateValuesStruct::SteerCompassBearing</definition>
+        <argsstring></argsstring>
+        <name>SteerCompassBearing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" line="41" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_command_state___processor_8h_1aa45fbfa8fbe030f162163fbf7a60fd43" compoundref="_command_state___processor_8cpp" startline="71" endline="175">CommandState_Processor</referencedby>
+        <referencedby refid="_o_l_e_d___logging_8h_1ab084bc4028d1894cbd1a5f1026493cc1" compoundref="_o_l_e_d___logging_8cpp" startline="134" endline="1238">OLED_Logging</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+        <referencedby refid="_sailing_navigation_8h_1ad027995fa7fb0c90f681e0ad9b6315de" compoundref="_sailing_navigation_8cpp" startline="39" endline="125">UpdateCourseToSteer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="104">
+        <label>StateValuesStruct</label>
+        <link refid="struct_state_values_struct"/>
+        <childnode refid="105" relation="usage">
+          <edgelabel>home</edgelabel>
+        </childnode>
+      </node>
+      <node id="105">
+        <label>Location</label>
+        <link refid="struct_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" line="32" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CommandState_Processor.h" bodystart="32" bodyend="42"/>
+    <listofallmembers>
+      <member refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" prot="public" virt="non-virtual"><scope>StateValuesStruct</scope><name>CommandState</name></member>
+      <member refid="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" prot="public" virt="non-virtual"><scope>StateValuesStruct</scope><name>home</name></member>
+      <member refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" prot="public" virt="non-virtual"><scope>StateValuesStruct</scope><name>home_is_set</name></member>
+      <member refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" prot="public" virt="non-virtual"><scope>StateValuesStruct</scope><name>mission_index</name></member>
+      <member refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" prot="public" virt="non-virtual"><scope>StateValuesStruct</scope><name>StartingMission</name></member>
+      <member refid="struct_state_values_struct_1a4100b0f396b9eecc008b3502739b0294" prot="public" virt="non-virtual"><scope>StateValuesStruct</scope><name>SteerCompassBearing</name></member>
+      <member refid="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" prot="public" virt="non-virtual"><scope>StateValuesStruct</scope><name>SteerWindAngle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

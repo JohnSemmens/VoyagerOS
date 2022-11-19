@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_steering_8cpp" kind="file">
+    <compoundname>Steering.cpp</compoundname>
+    <includes refid="_steering_8h" local="yes">Steering.h</includes>
+    <includes refid="_command_state___processor_8h" local="yes">CommandState_Processor.h</includes>
+    <includes refid="config_values_8h" local="yes">configValues.h</includes>
+    <includes refid="_radio_control_8h" local="yes">RadioControl.h</includes>
+    <includes refid="location_8h" local="yes">location.h</includes>
+    <includes refid="_navigation_8h" local="yes">Navigation.h</includes>
+    <includes refid="_p_i_d__v1_8h" local="yes">PID_v1.h</includes>
+    <includes refid="_g_p_s_8h" local="yes">GPS.h</includes>
+    <includes refid="_u_s_f_s___i_m_u_8h" local="yes">USFS_IMU.h</includes>
+    <includes refid="_loiter_8h" local="yes">Loiter.h</includes>
+    <includes refid="_wear_tracking_8h" local="yes">WearTracking.h</includes>
+    <incdepgraph>
+      <node id="738">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+      </node>
+      <node id="745">
+        <label>USFS_IMU.h</label>
+        <link refid="_u_s_f_s___i_m_u_8h"/>
+        <childnode refid="746" relation="include">
+        </childnode>
+        <childnode refid="748" relation="include">
+        </childnode>
+      </node>
+      <node id="748">
+        <label>EM7180.h</label>
+        <link refid="_e_m7180_8h"/>
+        <childnode refid="749" relation="include">
+        </childnode>
+        <childnode refid="746" relation="include">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>Navigation.h</label>
+        <link refid="_navigation_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+        <childnode refid="738" relation="include">
+        </childnode>
+      </node>
+      <node id="753">
+        <label>WearTracking.h</label>
+        <link refid="_wear_tracking_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+        <childnode refid="754" relation="include">
+        </childnode>
+      </node>
+      <node id="744">
+        <label>GPS.h</label>
+        <link refid="_g_p_s_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+        <childnode refid="738" relation="include">
+        </childnode>
+      </node>
+      <node id="735">
+        <label>Steering.h</label>
+        <link refid="_steering_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>Loiter.h</label>
+        <link refid="_loiter_8h"/>
+        <childnode refid="752" relation="include">
+        </childnode>
+        <childnode refid="738" relation="include">
+        </childnode>
+      </node>
+      <node id="743">
+        <label>PID_v1.h</label>
+        <link refid="_p_i_d__v1_8h"/>
+      </node>
+      <node id="739">
+        <label>configValues.h</label>
+        <link refid="config_values_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+        <childnode refid="740" relation="include">
+        </childnode>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="750">
+        <label>Wire.h</label>
+      </node>
+      <node id="734">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp</label>
+        <link refid="Steering.cpp"/>
+        <childnode refid="735" relation="include">
+        </childnode>
+        <childnode refid="737" relation="include">
+        </childnode>
+        <childnode refid="739" relation="include">
+        </childnode>
+        <childnode refid="741" relation="include">
+        </childnode>
+        <childnode refid="742" relation="include">
+        </childnode>
+        <childnode refid="740" relation="include">
+        </childnode>
+        <childnode refid="743" relation="include">
+        </childnode>
+        <childnode refid="744" relation="include">
+        </childnode>
+        <childnode refid="745" relation="include">
+        </childnode>
+        <childnode refid="751" relation="include">
+        </childnode>
+        <childnode refid="753" relation="include">
+        </childnode>
+      </node>
+      <node id="747">
+        <label>USFS_config.h</label>
+        <link refid="_u_s_f_s__config_8h"/>
+      </node>
+      <node id="752">
+        <label>Arduino.h</label>
+      </node>
+      <node id="741">
+        <label>RadioControl.h</label>
+        <link refid="_radio_control_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+      </node>
+      <node id="749">
+        <label>I2Cdev.h</label>
+        <link refid="_i2_cdev_8h"/>
+        <childnode refid="746" relation="include">
+        </childnode>
+        <childnode refid="750" relation="include">
+        </childnode>
+      </node>
+      <node id="746">
+        <label>USFS_def.h</label>
+        <link refid="_u_s_f_s__def_8h"/>
+        <childnode refid="747" relation="include">
+        </childnode>
+      </node>
+      <node id="736">
+        <label>arduino.h</label>
+      </node>
+      <node id="742">
+        <label>location.h</label>
+        <link refid="location_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+      </node>
+      <node id="737">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+        <childnode refid="738" relation="include">
+        </childnode>
+      </node>
+      <node id="754">
+        <label>Filters.h</label>
+        <link refid="_filters_8h"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_steering_8cpp_1a84903d3dde78582cbc92053c3c18d444" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_state_values_struct" kindref="compound">StateValuesStruct</ref></type>
+        <definition>StateValuesStruct StateValues</definition>
+        <argsstring></argsstring>
+        <name>StateValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1a1106f1eecd15a9233233ae672d651265" prot="public" static="no" mutable="no">
+        <type><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref></type>
+        <definition>configValuesType Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1ab2750358545c3531197e99469fa8d2f4" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_i_m_u_struct" kindref="compound">IMUStruct</ref></type>
+        <definition>IMUStruct myIMU</definition>
+        <argsstring></argsstring>
+        <name>myIMU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1a6e6c124a8544f54a81bb39badabb0342" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref></type>
+        <definition>NavigationDataType NavData</definition>
+        <argsstring></argsstring>
+        <name>NavData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1a32f693d1f86e14f17d5fc04b2b7bc310" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_r_c___i_n___type" kindref="compound">RC_IN_Type</ref></type>
+        <definition>RC_IN_Type RC_IN</definition>
+        <argsstring></argsstring>
+        <name>RC_IN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SteeringServoOutput</definition>
+        <argsstring></argsstring>
+        <name>SteeringServoOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="26" column="1"/>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1aaba928d8db82c396578c10f915447c21" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_loiter_struct" kindref="compound">LoiterStruct</ref></type>
+        <definition>LoiterStruct LoiterData</definition>
+        <argsstring></argsstring>
+        <name>LoiterData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1aee2fea7714feec933ef43afa363a5ee4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wear_counter" kindref="compound">WearCounter</ref></type>
+        <definition>WearCounter PortRudderUsage</definition>
+        <argsstring></argsstring>
+        <name>PortRudderUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1a4b616dd505c840bff663e6297ea6453c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wear_counter" kindref="compound">WearCounter</ref></type>
+        <definition>WearCounter StarboardRudderUsage</definition>
+        <argsstring></argsstring>
+        <name>StarboardRudderUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1a3458d22cf7de7092abcadc94562ff0af" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double pidTargetHdgError</definition>
+        <argsstring></argsstring>
+        <name>pidTargetHdgError</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="32" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>PID SteeringPID &amp; pidActualHdgError</definition>
+        <argsstring></argsstring>
+        <name>pidActualHdgError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="33" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double pidServoOutput</definition>
+        <argsstring></argsstring>
+        <name>pidServoOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="33" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" compoundref="_steering_8cpp" startline="36" endline="128">SteeringFastUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_steering_8cpp_1a67ed3f844d45b03bade97ea73d83fcc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SteeringFastUpdate</definition>
+        <argsstring>(void)</argsstring>
+        <name>SteeringFastUpdate</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="36" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" bodystart="36" bodyend="128"/>
+        <references refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" compoundref="_radio_control_8h" startline="13">RC_IN_Type::Channel</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" compoundref="config_values_8h" startline="92">configValuesType::DualRudder</references>
+        <references refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" compoundref="_g_p_s_8cpp" startline="204" endline="222">GPS_LocationIs_Valid</references>
+        <references refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" compoundref="_navigation_8h" startline="82">NavigationDataType::HDG</references>
+        <references refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" compoundref="_command_state___processor_8h" startline="39">StateValuesStruct::home_is_set</references>
+        <references refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" compoundref="_loiter_8h" startline="24">LoiterStruct::LoiterState</references>
+        <references refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a79380229b91a5962563cf2bd6b62f009" compoundref="_loiter_8h" startline="15">lsNotLoitering</references>
+        <references refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" compoundref="_navigation_8h" startline="76">NavigationDataType::next_WP_valid</references>
+        <references refid="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" compoundref="_steering_8cpp" startline="33">pidActualHdgError</references>
+        <references refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" compoundref="config_values_8h" startline="107">configValuesType::pidCentre</references>
+        <references refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" compoundref="_steering_8cpp" startline="33">pidServoOutput</references>
+        <references refid="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" compoundref="config_values_8h" startline="65">configValuesType::RC_IN_Channel_Steering</references>
+        <references refid="struct_navigation_data_type_1ab5ef6e2650460b4f478630d9df336e33" compoundref="_navigation_8h" startline="127">NavigationDataType::ROLL_Avg</references>
+        <references refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" compoundref="config_values_8h" startline="69">configValuesType::Servo_Channel_Steering</references>
+        <references refid="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" compoundref="config_values_8h" startline="70">configValuesType::Servo_Channel_Steering_Stbd</references>
+        <references refid="_radio_control_8cpp_1a1047ffeb8a3f8bc5e2df086830a814a8" compoundref="_radio_control_8cpp" startline="229" endline="238">Servo_Out</references>
+        <references refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7">SteeringServoOutput</references>
+        <references refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" compoundref="_navigation_8h" startline="89">NavigationDataType::TargetHDG</references>
+        <references refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" compoundref="_wear_tracking_8cpp" startline="32" endline="55">WearCounter::TrackServoUsage</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" compoundref="_command_state___processor_8h" startline="25">vcsLoiter</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" compoundref="_command_state___processor_8h" startline="18">vcsPartialManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" compoundref="_command_state___processor_8h" startline="24">vcsResetMissionIndex</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" compoundref="_command_state___processor_8h" startline="23">vcsSetHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" compoundref="_command_state___processor_8h" startline="20">vcsSteerMagneticCourse</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" compoundref="_command_state___processor_8h" startline="21">vcsSteerWindCourse</references>
+        <references refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" compoundref="location_8cpp" startline="174" endline="183">wrap_180</references>
+      </memberdef>
+      <memberdef kind="function" id="_steering_8cpp_1af8cc948c7da6a5e0801644dc6a4adc62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SteeringPID_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>SteeringPID_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" line="130" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp" bodystart="130" bodyend="140"/>
+        <references refid="_p_i_d__v1_8h_1a3851a1a8ddec9eacd2e30a8a19bb8cc8" compoundref="_p_i_d__v1_8h" startline="12">AUTOMATIC</references>
+        <references refid="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" compoundref="config_values_8h" startline="106">configValuesType::pidDirection</references>
+        <references refid="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" compoundref="config_values_8h" startline="104">configValuesType::pidKd</references>
+        <references refid="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" compoundref="config_values_8h" startline="104">configValuesType::pidKi</references>
+        <references refid="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" compoundref="config_values_8h" startline="104">configValuesType::pidKp</references>
+        <references refid="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmax</references>
+        <references refid="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmin</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Handle<sp/>the<sp/>low<sp/>level<sp/>Steering</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>use<sp/>a<sp/>PID<sp/>to<sp/>control<sp/>the<sp/>Steering<sp/>servo(s)<sp/>based<sp/>on<sp/>a<sp/>target<sp/>heading<sp/>error.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>only<sp/>operate<sp/>the<sp/>operate<sp/>the<sp/>automated<sp/>steering<sp/>if<sp/>location<sp/>is<sp/>valid<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>or<sp/>use<sp/>the<sp/>RC<sp/>steering<sp/>channel<sp/>if<sp/>in<sp/>a<sp/>manual<sp/>type<sp/>mode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.0<sp/>13/11/2016<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.1<sp/>25/4/2018<sp/>updated<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_steering_8h" kindref="compound">Steering.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_command_state___processor_8h" kindref="compound">CommandState_Processor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="config_values_8h" kindref="compound">configValues.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_radio_control_8h" kindref="compound">RadioControl.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="location_8h" kindref="compound">location.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_navigation_8h" kindref="compound">Navigation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_p_i_d__v1_8h" kindref="compound">PID_v1.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_g_p_s_8h" kindref="compound">GPS.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_u_s_f_s___i_m_u_8h" kindref="compound">USFS_IMU.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_loiter_8h" kindref="compound">Loiter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_wear_tracking_8h" kindref="compound">WearTracking.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_state_values_struct" kindref="compound">StateValuesStruct</ref><sp/><ref refid="_steering_8cpp_1a84903d3dde78582cbc92053c3c18d444" kindref="member">StateValues</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="structconfig_values_type" kindref="compound">configValuesType</ref><sp/><ref refid="_steering_8cpp_1a1106f1eecd15a9233233ae672d651265" kindref="member">Configuration</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_i_m_u_struct" kindref="compound">IMUStruct</ref><sp/><ref refid="_steering_8cpp_1ab2750358545c3531197e99469fa8d2f4" kindref="member">myIMU</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_navigation_data_type" kindref="compound">NavigationDataType</ref><sp/><ref refid="_steering_8cpp_1a6e6c124a8544f54a81bb39badabb0342" kindref="member">NavData</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_r_c___i_n___type" kindref="compound">RC_IN_Type</ref><sp/><ref refid="_steering_8cpp_1a32f693d1f86e14f17d5fc04b2b7bc310" kindref="member">RC_IN</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_loiter_struct" kindref="compound">LoiterStruct</ref><sp/><ref refid="_steering_8cpp_1aaba928d8db82c396578c10f915447c21" kindref="member">LoiterData</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter" kindref="compound">WearCounter</ref><sp/><ref refid="_steering_8cpp_1aee2fea7714feec933ef43afa363a5ee4" kindref="member">PortRudderUsage</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wear_counter" kindref="compound">WearCounter</ref><sp/><ref refid="_steering_8cpp_1a4b616dd505c840bff663e6297ea6453c" kindref="member">StarboardRudderUsage</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Declare<sp/>the<sp/>Steeering<sp/>PID<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="_steering_8cpp_1a3458d22cf7de7092abcadc94562ff0af" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_steering_8cpp_1a3458d22cf7de7092abcadc94562ff0af" kindref="member">pidTargetHdgError</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33" refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" kindref="member">pidActualHdgError</ref>,<sp/><ref refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" kindref="member">pidServoOutput</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="class_p_i_d" kindref="compound">PID</ref><sp/>SteeringPID(&amp;<ref refid="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" kindref="member">pidActualHdgError</ref>,<sp/>&amp;<ref refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" kindref="member">pidServoOutput</ref>,<sp/>&amp;<ref refid="_steering_8cpp_1a3458d22cf7de7092abcadc94562ff0af" kindref="member">pidTargetHdgError</ref>,<sp/>5,<sp/>0,<sp/>0,<sp/><ref refid="_p_i_d__v1_8h_1a86720ded03b3f5b5ca53d30b33cb33bb" kindref="member">DIRECT</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_steering_8h_1a67ed3f844d45b03bade97ea73d83fcc1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_steering_8cpp_1a67ed3f844d45b03bade97ea73d83fcc1" kindref="member">SteeringFastUpdate</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>from<sp/>the<sp/>Fast<sp/>Loop.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>procedures<sp/>operates<sp/>the<sp/>rudder.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>It<sp/>supports<sp/>a<sp/>single<sp/>rudder<sp/>or<sp/>dual<sp/>rudder.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>source<sp/>of<sp/>Rudder<sp/>control<sp/>is<sp/>based<sp/>on<sp/>current<sp/>CommandState.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>manual<sp/>control<sp/>type<sp/>modes,<sp/>use<sp/>the<sp/>RC<sp/>input<sp/>steering<sp/>channel.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>automatically<sp/>controlled<sp/>modes,<sp/>use<sp/>the<sp/>output<sp/>of<sp/>the<sp/>Steering<sp/>PID.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Calculate<sp/>a<sp/>heading<sp/>error<sp/>and<sp/>then<sp/>operate<sp/>the<sp/>rudder<sp/>servo<sp/>via<sp/>the<sp/>steering<sp/>PID.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>14/11/2016<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.2<sp/>24/4/2018<sp/>added<sp/>offset<sp/>to<sp/>PID<sp/>output<sp/>by<sp/>adding<sp/>value:<sp/>Configuration.pidCentreOffset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.3<sp/>28/4/2018<sp/>added<sp/>criteria<sp/>to<sp/>loitering<sp/>to<sp/>only<sp/>steer<sp/>while<sp/>on<sp/>the<sp/>approach<sp/>or<sp/>inbound<sp/>phases.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.4<sp/>18/2/2019<sp/>added<sp/>wear<sp/>tracking<sp/>for<sp/>the<sp/>Servos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(StateValues.<ref refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" kindref="member">CommandState</ref>)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" kindref="member">vcsFollowMission</ref>:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" kindref="member">GPS_LocationIs_Valid</ref>(NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>)<sp/>&amp;&amp;<sp/>NavData.<ref refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" kindref="member">next_WP_valid</ref>)<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>calculate<sp/>the<sp/>heading<sp/>error<sp/><sp/>-180<sp/>to<sp/>+180</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" kindref="member">pidActualHdgError</ref><sp/>=<sp/>(double)<ref refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" kindref="member">wrap_180</ref>(NavData.<ref refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" kindref="member">HDG</ref><sp/>-<sp/>NavData.<ref refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" kindref="member">TargetHDG</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SteeringPID.Compute();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref><sp/>=<sp/><ref refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" kindref="member">pidServoOutput</ref><sp/>+<sp/>Configuration.<ref refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" kindref="member">pidCentre</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" kindref="member">vcsLoiter</ref>:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" kindref="member">GPS_LocationIs_Valid</ref>(NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(LoiterData.<ref refid="struct_loiter_struct_1a110d7b3503543115a934173af03f4445" kindref="member">LoiterState</ref><sp/>!=<sp/><ref refid="_loiter_8h_1ab7d55392ee7236e35a6dee0ea6d75342a79380229b91a5962563cf2bd6b62f009" kindref="member">LoiterStateType::lsNotLoitering</ref>)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>only<sp/>steer<sp/>if<sp/>we<sp/>are<sp/>loitering.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>calculate<sp/>the<sp/>heading<sp/>error<sp/><sp/>-180<sp/>to<sp/>+180</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" kindref="member">pidActualHdgError</ref><sp/>=<sp/>(double)<ref refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" kindref="member">wrap_180</ref>(NavData.<ref refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" kindref="member">HDG</ref><sp/>-<sp/>NavData.<ref refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" kindref="member">TargetHDG</ref>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SteeringPID.Compute();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref><sp/>=<sp/><ref refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" kindref="member">pidServoOutput</ref><sp/>+<sp/>Configuration.<ref refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" kindref="member">pidCentre</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" kindref="member">vcsReturnToHome</ref>:</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_g_p_s_8cpp_1aad9fb3151b07a5325e45216fdc81d8f8" kindref="member">GPS_LocationIs_Valid</ref>(NavData.<ref refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" kindref="member">Currentloc</ref>)<sp/>&amp;&amp;<sp/>StateValues.<ref refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" kindref="member">home_is_set</ref>)<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>calculate<sp/>the<sp/>heading<sp/>error<sp/><sp/>-180<sp/>to<sp/>+180</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" kindref="member">pidActualHdgError</ref><sp/>=<sp/>(double)<ref refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" kindref="member">wrap_180</ref>(NavData.<ref refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" kindref="member">HDG</ref><sp/>-<sp/>NavData.<ref refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" kindref="member">TargetHDG</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SteeringPID.Compute();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref><sp/>=<sp/><ref refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" kindref="member">pidServoOutput</ref><sp/>+<sp/>Configuration.<ref refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" kindref="member">pidCentre</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" kindref="member">vcsSteerMagneticCourse</ref>:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" kindref="member">vcsSteerWindCourse</ref>:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a26f5a3de76eb2536769eec7b3f65a684" kindref="member">pidActualHdgError</ref><sp/>=<sp/>(double)<ref refid="location_8cpp_1a4ca1857ee4c802d8aeb0da75a0759140" kindref="member">wrap_180</ref>(NavData.<ref refid="struct_navigation_data_type_1a6853c1065bbe2eb7d8aa66881b4baa67" kindref="member">HDG</ref><sp/>-<sp/>NavData.<ref refid="struct_navigation_data_type_1acf10b3360b7052e4d92e939cae7f22d5" kindref="member">TargetHDG</ref>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SteeringPID.Compute();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref><sp/>=<sp/><ref refid="_steering_8cpp_1a37ada73a33d00d8b3cb552b4f02f3399" kindref="member">pidServoOutput</ref><sp/>+<sp/>Configuration.<ref refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" kindref="member">pidCentre</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" kindref="member">vcsFullManual</ref>:</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" kindref="member">vcsPartialManual</ref>:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>pass<sp/>through<sp/>the<sp/>RC<sp/>Input<sp/>channels<sp/>to<sp/>the<sp/>Servo<sp/>Ouput<sp/>Channels<sp/>to<sp/>allow<sp/>manaual<sp/>steering<sp/>and<sp/>motor<sp/>control</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref><sp/>=<sp/>RC_IN.<ref refid="struct_r_c___i_n___type_1a0285a84cc630ea71388ed7c20d256982" kindref="member">Channel</ref>[Configuration.<ref refid="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" kindref="member">RC_IN_Channel_Steering</ref>];</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" kindref="member">vcsSetHome</ref>:</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" kindref="member">vcsResetMissionIndex</ref>:</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Configuration.<ref refid="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" kindref="member">DualRudder</ref>)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NavData.<ref refid="struct_navigation_data_type_1ab5ef6e2650460b4f478630d9df336e33" kindref="member">ROLL_Avg</ref><sp/>&gt;<sp/>5)<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">//<sp/>operate<sp/>the<sp/>Starboard<sp/>Rudder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_radio_control_8cpp_1a1047ffeb8a3f8bc5e2df086830a814a8" kindref="member">Servo_Out</ref>(Configuration.<ref refid="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" kindref="member">Servo_Channel_Steering_Stbd</ref>,<sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StarboardRudderUsage.<ref refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" kindref="member">TrackServoUsage</ref>(<ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">//<sp/>operate<sp/>the<sp/><sp/>Port<sp/>Rudder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_radio_control_8cpp_1a1047ffeb8a3f8bc5e2df086830a814a8" kindref="member">Servo_Out</ref>(Configuration.<ref refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" kindref="member">Servo_Channel_Steering</ref>,<sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PortRudderUsage.<ref refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" kindref="member">TrackServoUsage</ref>(<ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">//<sp/>operate<sp/>a<sp/>single<sp/>Rudder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_radio_control_8cpp_1a1047ffeb8a3f8bc5e2df086830a814a8" kindref="member">Servo_Out</ref>(Configuration.<ref refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" kindref="member">Servo_Channel_Steering</ref>,<sp/><ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref>);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PortRudderUsage.<ref refid="class_wear_counter_1a1464c6ffb3aa95bf2f49b9a2826b20a7" kindref="member">TrackServoUsage</ref>(<ref refid="_steering_8cpp_1a7be67ca7fd944a9f5bd6dc5e770eb9d7" kindref="member">SteeringServoOutput</ref>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="_steering_8h_1af8cc948c7da6a5e0801644dc6a4adc62" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_steering_8cpp_1af8cc948c7da6a5e0801644dc6a4adc62" kindref="member">SteeringPID_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>initial<sp/>the<sp/>Steering<sp/>PID<sp/>using<sp/>config<sp/>values<sp/>and<sp/>start<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.0<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>V1.1<sp/>25/4/2018<sp/>added<sp/>the<sp/>Centre<sp/>value.<sp/>This<sp/>required<sp/>when<sp/>using<sp/>PID<sp/>set<sp/>to<sp/>P<sp/>only<sp/>(with<sp/>no<sp/>ID)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>SteeringPID.SetControllerDirection(Configuration.<ref refid="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" kindref="member">pidDirection</ref>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>SteeringPID.SetTunings(Configuration.<ref refid="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" kindref="member">pidKp</ref>,<sp/>Configuration.<ref refid="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" kindref="member">pidKi</ref>,<sp/>Configuration.<ref refid="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" kindref="member">pidKd</ref>);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>SteeringPID.SetOutputLimits(Configuration.<ref refid="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" kindref="member">pidOutputmin</ref>,<sp/>Configuration.<ref refid="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" kindref="member">pidOutputmax</ref>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>SteeringPID.SetMode(<ref refid="_p_i_d__v1_8h_1a3851a1a8ddec9eacd2e30a8a19bb8cc8" kindref="member">AUTOMATIC</ref>);<sp/></highlight><highlight class="comment">//<sp/>switch<sp/>on<sp/>the<sp/>PID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/Steering.cpp"/>
+  </compounddef>
+</doxygen>

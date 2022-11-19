@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_scheduler_cooperative_8h" kind="file">
+    <compoundname>SchedulerCooperative.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includedby refid="_scheduler_cooperative_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.cpp</includedby>
+    <incdepgraph>
+      <node id="680">
+        <label>arduino.h</label>
+      </node>
+      <node id="679">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.h</label>
+        <link refid="SchedulerCooperative.h"/>
+        <childnode refid="680" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="682">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.cpp</label>
+        <link refid="_scheduler_cooperative_8cpp"/>
+      </node>
+      <node id="681">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.h</label>
+        <link refid="SchedulerCooperative.h"/>
+        <childnode refid="682" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_scheduler_cooperative_8h_1acb78d8245c10c8a3008c0d4a225455e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SchedulerTick</definition>
+        <argsstring>(int TaskIndex, void(*action)(void *), unsigned long delayMs)</argsstring>
+        <name>SchedulerTick</name>
+        <param>
+          <type>int</type>
+          <declname>TaskIndex</declname>
+        </param>
+        <param>
+          <type>void(*)(void *)</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>delayMs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.h" line="16" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.cpp" bodystart="18" bodyend="32"/>
+        <references refid="_scheduler_cooperative_8cpp_1a7b2d8f89598fb72e5ab86a30f0f22c5b" compoundref="_scheduler_cooperative_8cpp" startline="14">TaskList</references>
+      </memberdef>
+      <memberdef kind="function" id="_scheduler_cooperative_8h_1ac10e2415498c3aef7fb7b549547919ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SchedulerInit</definition>
+        <argsstring>(void)</argsstring>
+        <name>SchedulerInit</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.h" line="18" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.cpp" bodystart="37" bodyend="39"/>
+        <references refid="_scheduler_cooperative_8cpp_1a7b2d8f89598fb72e5ab86a30f0f22c5b" compoundref="_scheduler_cooperative_8cpp" startline="14">TaskList</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>SchedulerCooperative.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>scheduler<sp/>allows<sp/>for<sp/>tasks<sp/>to<sp/>be<sp/>called<sp/>at<sp/>regular<sp/>intervals.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>It<sp/>does<sp/>not<sp/>use<sp/>interupts,<sp/>in<sp/>order<sp/>to<sp/>maintain<sp/>compatibility<sp/>with<sp/>libraries<sp/>that<sp/>do,<sp/>such<sp/>as<sp/>the<sp/>wire<sp/>library.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.0<sp/>31/7/2016<sp/>John<sp/>Semmens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SCHEDULERCOOPERATIVE_h</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_SCHEDULERCOOPERATIVE_h</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_scheduler_cooperative_8h_1acb78d8245c10c8a3008c0d4a225455e0" kindref="member">SchedulerTick</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TaskIndex,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(*action)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*),<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>delayMs);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_scheduler_cooperative_8h_1ac10e2415498c3aef7fb7b549547919ac" kindref="member">SchedulerInit</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SchedulerCooperative.h"/>
+  </compounddef>
+</doxygen>

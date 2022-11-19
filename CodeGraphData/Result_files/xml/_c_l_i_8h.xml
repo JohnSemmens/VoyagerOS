@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_l_i_8h" kind="file">
+    <compoundname>CLI.h</compoundname>
+    <includes local="yes">arduino.h</includes>
+    <includes refid="_a_p___math_8h" local="yes">AP_Math.h</includes>
+    <includes refid="_command_state___processor_8h" local="yes">CommandState_Processor.h</includes>
+    <includedby refid="_c_l_i_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</includedby>
+    <includedby refid="config_values_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp</includedby>
+    <includedby refid="_telemetry_messages_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</includedby>
+    <incdepgraph>
+      <node id="154">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</label>
+        <link refid="CLI.h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>Waypoints.h</label>
+        <link refid="_waypoints_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>vector2.h</label>
+        <link refid="vector2_8h"/>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>stdint.h</label>
+      </node>
+      <node id="158">
+        <label>math.h</label>
+      </node>
+      <node id="156">
+        <label>AP_Math.h</label>
+        <link refid="_a_p___math_8h"/>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>arduino.h</label>
+      </node>
+      <node id="157">
+        <label>Misc.h</label>
+        <link refid="_misc_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>CommandState_Processor.h</label>
+        <link refid="_command_state___processor_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="163">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h</label>
+        <link refid="CLI.h"/>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+      </node>
+      <node id="164">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp</label>
+        <link refid="_c_l_i_8cpp"/>
+      </node>
+      <node id="166">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/TelemetryMessages.cpp</label>
+        <link refid="_telemetry_messages_8cpp"/>
+      </node>
+      <node id="165">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/configValues.cpp</label>
+        <link refid="config_values_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_c_l_i_8h_1a7948af91650ebe6b5b2a12644cda1723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CLI_Process_Message</definition>
+        <argsstring>(int CommandPort)</argsstring>
+        <name>CLI_Process_Message</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h" line="113" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp" bodystart="70" bodyend="88"/>
+        <references refid="_c_l_i_8cpp_1a52e893ebdf918635ef06dcb612e1c5fb" compoundref="_c_l_i_8cpp" startline="64">CLI_i</references>
+        <references refid="_c_l_i_8cpp_1ac1bdbf7e9b643ee1dad8bfcd0b790ca0" compoundref="_c_l_i_8cpp" startline="63">CLI_Msg</references>
+        <references refid="_c_l_i_8cpp_1a2ec7404b9b0963a466f08b46849f4094" compoundref="_c_l_i_8cpp" startline="90" endline="95">CLI_Processor</references>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="_c_l_i_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+      </memberdef>
+      <memberdef kind="function" id="_c_l_i_8h_1a2ec7404b9b0963a466f08b46849f4094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CLI_Processor</definition>
+        <argsstring>(int CommandPort, String Command)</argsstring>
+        <name>CLI_Processor</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>Command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h" line="115" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp" bodystart="90" bodyend="95"/>
+        <references refid="_c_l_i_8cpp_1a52e893ebdf918635ef06dcb612e1c5fb" compoundref="_c_l_i_8cpp" startline="64">CLI_i</references>
+        <references refid="_c_l_i_8cpp_1ac1bdbf7e9b643ee1dad8bfcd0b790ca0" compoundref="_c_l_i_8cpp" startline="63">CLI_Msg</references>
+        <references refid="_c_l_i_8cpp_1a2ec7404b9b0963a466f08b46849f4094" compoundref="_c_l_i_8cpp" startline="90" endline="95">CLI_Processor</references>
+        <referencedby refid="_c_l_i_8h_1a7948af91650ebe6b5b2a12644cda1723" compoundref="_c_l_i_8cpp" startline="70" endline="88">CLI_Process_Message</referencedby>
+        <referencedby refid="_c_l_i_8h_1a2ec7404b9b0963a466f08b46849f4094" compoundref="_c_l_i_8cpp" startline="90" endline="95">CLI_Processor</referencedby>
+        <referencedby refid="config_values_8h_1aaf59ec5cc4107886faafaf655fb473a0" compoundref="config_values_8cpp" startline="248" endline="297">Load_ConfigValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CLI_Processor</definition>
+        <argsstring>(int CommandPort)</argsstring>
+        <name>CLI_Processor</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h" line="116" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp" bodystart="103" bodyend="1238"/>
+        <references refid="structconfig_values_type_1a59efead0f04f26233f9b1dfb3ec52945" compoundref="config_values_8h" startline="96">configValuesType::BluetoothPort</references>
+        <references refid="struct_mission_command_1a5cfe41601f9f6b00ec3e557f0547f3e5" compoundref="_mission_8h" startline="27">MissionCommand::boundary</references>
+        <references refid="structconfig_values_type_1a7523308a51da9a1de8e194446e3e68be" compoundref="config_values_8h" startline="100">configValuesType::BTPortBaudRate</references>
+        <references refid="_c_l_i_8cpp_1a12f977b17bc11b1b5327695231ca20d5">BTState</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da201ea35f3adab1ed7f7f4eb2ae63ea6f" compoundref="_telemetry_messages_8h" startline="14">CCG</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da0af5537cdc9498e453464b9ac2e4f97f" compoundref="_telemetry_messages_8h" startline="14">CCS</references>
+        <references refid="_c_l_i_8cpp_1ac1bdbf7e9b643ee1dad8bfcd0b790ca0" compoundref="_c_l_i_8cpp" startline="63">CLI_Msg</references>
+        <references refid="struct_mission_command_1a299f9beaa99d092803d233a358dafcf4" compoundref="_mission_8h" startline="25">MissionCommand::cmd</references>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="structconfig_values_type_1a61d8859b3447d6566d13492f81a7f7a6" compoundref="config_values_8h" startline="95">configValuesType::CommandPort</references>
+        <references refid="structconfig_values_type_1a66b02dad9a0c8a9abdb413fd7b02a685" compoundref="config_values_8h" startline="99">configValuesType::CommandPortBaudRate</references>
+        <references refid="struct_state_values_struct_1a18691cbe7acc424d4e8f196119a5dd53" compoundref="_command_state___processor_8h" startline="33">StateValuesStruct::CommandState</references>
+        <references refid="structconfig_values_type_1a0d81540f66f65f79aaef899207f903b5" compoundref="config_values_8h" startline="49">configValuesType::CompassOffsetAngle</references>
+        <references refid="_bluetooth_connection_8h_1a3eb26161a7048e24adbf23c23a71b13bad253364cc2926eb617b0833335fe4467" compoundref="_bluetooth_connection_8h" startline="12">Connected</references>
+        <references refid="struct_mission_command_1a055a0fda744513046135edf636de7281" compoundref="_mission_8h" startline="28">MissionCommand::controlMask</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aa3a1517e29a678a16482db0903167641" compoundref="_mission_8h" startline="16">ctGotoWaypoint</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398aba9c02415f591113e88eaec2c48d8eef" compoundref="_mission_8h" startline="17">ctLoiter</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a856603ea56061daf237a4ed1775c7be8" compoundref="_mission_8h" startline="18">ctLoiterUntil</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398a7541643753c0b3cf9debe5d6589c3a47" compoundref="_mission_8h" startline="19">ctReturnToHome</references>
+        <references refid="_mission_8h_1a9a8271f8e60f510f0275d51e026f9398ab5d9734d8cb7ee4687e055eb495b1adc" compoundref="_mission_8h" startline="20">ctSteerWindCourse</references>
+        <references refid="struct_navigation_data_type_1ae2583f7b5f179a03372047db7426e224" compoundref="_navigation_8h" startline="61">NavigationDataType::Currentloc</references>
+        <references refid="structconfig_values_type_1a39745cbb9ba7b52a76eccb955af9b526" compoundref="config_values_8h" startline="20">configValuesType::DisplayScreenView</references>
+        <references refid="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" compoundref="config_values_8h" startline="92">configValuesType::DualRudder</references>
+        <references refid="struct_mission_command_1a1616af2b51234c7ee3f5e55a877d689d" compoundref="_mission_8h" startline="29">MissionCommand::duration</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06dabba06a521d132fa3b0112cfd07bc1cf0" compoundref="_telemetry_messages_8h" startline="14">EQG</references>
+        <references refid="structconfig_values_type_1a3606fd3b8680031f302f53bbef238b35" compoundref="config_values_8h" startline="90">configValuesType::FailsafeCommandState</references>
+        <references refid="_bluetooth_connection_8cpp_1a728eb292f166bc32c6c8c0e7f612347a" compoundref="_bluetooth_connection_8cpp" startline="117" endline="131">GetBTStatus</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da2c6e7224778e782cbbd478e4c11282e2" compoundref="_telemetry_messages_8h" startline="13">HLG</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da4575b3d2e9b026b158b1e2cdb88632bc" compoundref="_telemetry_messages_8h" startline="13">HLS</references>
+        <references refid="struct_state_values_struct_1a8de71ce93603387d2d199b970ce64b2d" compoundref="_command_state___processor_8h" startline="38">StateValuesStruct::home</references>
+        <references refid="struct_state_values_struct_1a11d6c742b6b3f57b1c39ddf6fc485e52" compoundref="_command_state___processor_8h" startline="39">StateValuesStruct::home_is_set</references>
+        <references refid="_wind_angle__2950_8cpp_1a615f47fff7cac855df68d4e7eae7deff" compoundref="_wind_angle__2950_8cpp" startline="149" endline="163">IMU_Mag_Init</references>
+        <references refid="_u_s_f_s___i_m_u_8cpp_1a91a14792df33368aa2715e1f3adf43b6" compoundref="_u_s_f_s___i_m_u_8cpp" startline="91" endline="96">IMU_Save_Cal</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da40df096e8ca19a820dbd94de79e97b3b" compoundref="_telemetry_messages_8h" startline="12">LAT</references>
+        <references refid="struct_location_1ae51548c2cf32311043ca19b94b9a9223" compoundref="_waypoints_8h" startline="22">Location::lat</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06dac07e2d7aa8dbfb84098f57b8214ef6a7" compoundref="_telemetry_messages_8h" startline="13">LCD</references>
+        <references refid="_c_l_i_8cpp_1a54f9758437217bcf41254eb351b2b574" compoundref="_c_l_i_8cpp" startline="1240" endline="1592">ListParameter</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da63a27255dbefe3ed940e81f7379209e7" compoundref="_telemetry_messages_8h" startline="12">LMI</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da384effde21ff94af26b8a0c671637713" compoundref="_telemetry_messages_8h" startline="12">LNA</references>
+        <references refid="struct_location_1a5831f0aca9e51a15adb96fad465f72f8" compoundref="_waypoints_8h" startline="23">Location::lng</references>
+        <references refid="_a_p___math_8h_1ab0e06d28afb9d14043e1938af277396c" compoundref="location_8cpp" startline="151" endline="156">location_update</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06dacd7ffe737ad5fb21fbd7499886934910" compoundref="_telemetry_messages_8h" startline="13">LOG</references>
+        <references refid="structconfig_values_type_1a1176e7ee5accf3fd2610f2bdd2296f9c" compoundref="config_values_8h" startline="109">configValuesType::LoiterRadius</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da6ef3c5013fcfadeefac6de628cc45bef" compoundref="_telemetry_messages_8h" startline="12">LPO</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da6277957c3fd622b4cca6ace1b978ef7e" compoundref="_telemetry_messages_8h" startline="12">LSV</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06daf430f905f4d7c7fcfd80397b362998df" compoundref="_telemetry_messages_8h" startline="12">LVS</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06dad947a5b449d08472af768b63c14fe109" compoundref="_telemetry_messages_8h" startline="12">LWI</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da565b981ec4766926a809a80ddaa368df" compoundref="_telemetry_messages_8h" startline="12">LWP</references>
+        <references refid="class_m_p_u9250_1a8f60e4e9a6511c9a5bc6a437484dab0f" compoundref="_m_p_u9250_8h" startline="250">MPU9250::MagneticAngleCalibrationMode</references>
+        <references refid="structconfig_values_type_1aa520d523476f17a3d4ee9db5e92f899a" compoundref="config_values_8h" startline="51">configValuesType::MagnetVariation</references>
+        <references refid="structconfig_values_type_1a754b585ab8ab6b729faa0c4ca85aff36" compoundref="config_values_8h" startline="53">configValuesType::MaxFileSize</references>
+        <references refid="structconfig_values_type_1a03b05b4da3e4f48e56ceb07e88edf55e" compoundref="config_values_8h" startline="35">configValuesType::MaximumTimePastFavouredTack</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da75537d0929800fcbefb6670f4414a1ad" compoundref="_telemetry_messages_8h" startline="13">MCC</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da48f07acee45cc2d55cc42959915b273b" compoundref="_telemetry_messages_8h" startline="12">MCP</references>
+        <references refid="_c_l_i_8cpp_1afd0928602ac73aa5ab1c517c50209654">MessageDisplayLine1</references>
+        <references refid="_c_l_i_8cpp_1af1493d7d1c11de08dcc240fc18dcd581">MessageDisplayLine2</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da944e0193bd816e46958c355f5cbde993" compoundref="_telemetry_messages_8h" startline="13">MIG</references>
+        <references refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" compoundref="config_values_8h" startline="33">configValuesType::MinimumAngleDownWind</references>
+        <references refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" compoundref="config_values_8h" startline="32">configValuesType::MinimumAngleUpWind</references>
+        <references refid="structconfig_values_type_1a38d036588253f42774ae514f55e731b8" compoundref="config_values_8h" startline="37">configValuesType::MinimumWindChangeTime</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da7d5dda04b562d535fe60249302379cc9" compoundref="_telemetry_messages_8h" startline="13">MIS</references>
+        <references refid="struct_state_values_struct_1a1e5042befd9d49f50e64fd2797fbda80" compoundref="_command_state___processor_8h" startline="34">StateValuesStruct::mission_index</references>
+        <references refid="struct_mission_values_struct_1a1117b6fd3ba8b66d0509e817f4ec091f" compoundref="_mission_8h" startline="40">MissionValuesStruct::mission_size</references>
+        <references refid="struct_mission_values_struct_1ad2dc919140026b256710e2ba680a07ce" compoundref="_mission_8h" startline="39">MissionValuesStruct::MissionList</references>
+        <references refid="structconfig_values_type_1a5c9f8e7fac316e921c900b245d3ab8e5" compoundref="config_values_8h" startline="124">configValuesType::mx_max</references>
+        <references refid="structconfig_values_type_1a0876ce5174fefcd0b39cccee44eca68a" compoundref="config_values_8h" startline="123">configValuesType::mx_min</references>
+        <references refid="structconfig_values_type_1aac3f9de446641e39b318ba8f23ca12ce" compoundref="config_values_8h" startline="126">configValuesType::my_max</references>
+        <references refid="structconfig_values_type_1ab7c1874d390dec419ff4d54ce11b6ebd" compoundref="config_values_8h" startline="125">configValuesType::my_min</references>
+        <references refid="struct_navigation_data_type_1a9a9a7db641287de17319847055378893" compoundref="_navigation_8h" startline="76">NavigationDataType::next_WP_valid</references>
+        <references refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" compoundref="config_values_8h" startline="107">configValuesType::pidCentre</references>
+        <references refid="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" compoundref="config_values_8h" startline="106">configValuesType::pidDirection</references>
+        <references refid="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" compoundref="config_values_8h" startline="104">configValuesType::pidKd</references>
+        <references refid="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" compoundref="config_values_8h" startline="104">configValuesType::pidKi</references>
+        <references refid="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" compoundref="config_values_8h" startline="104">configValuesType::pidKp</references>
+        <references refid="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmax</references>
+        <references refid="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmin</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da391a5955f43fe088c96e46b5a65ba2b0" compoundref="_telemetry_messages_8h" startline="12">PRL</references>
+        <references refid="_telemetry_messages_8cpp_1af7b539c82940cfb85cb8667289172253" compoundref="_telemetry_messages_8cpp" startline="343" endline="358">QueueMessage</references>
+        <references refid="structconfig_values_type_1a6e87d7c2d3bbe04a269b9ea1df95d08e" compoundref="config_values_8h" startline="57">configValuesType::RC_FailSafe_Ch0</references>
+        <references refid="structconfig_values_type_1a3e03ea3e68c69e70790b89bb35c48891" compoundref="config_values_8h" startline="58">configValuesType::RC_FailSafe_Ch1</references>
+        <references refid="structconfig_values_type_1ab67f55a038996a2bc882f35ecf25df78" compoundref="config_values_8h" startline="59">configValuesType::RC_FailSafe_Ch2</references>
+        <references refid="structconfig_values_type_1ac521c18e56efe3dabafaeb2a9b1a2983" compoundref="config_values_8h" startline="60">configValuesType::RC_FailSafe_Ch3</references>
+        <references refid="structconfig_values_type_1afc29b93865777b36fc05b69ee765d883" compoundref="config_values_8h" startline="62">configValuesType::RC_FailSafe_Time</references>
+        <references refid="structconfig_values_type_1a5e0bc8124a329de5516eb134942a58a5" compoundref="config_values_8h" startline="64">configValuesType::RC_IN_Channel_Command</references>
+        <references refid="structconfig_values_type_1aad74f16ddcc19bbba139a21fa0946749" compoundref="config_values_8h" startline="67">configValuesType::RC_IN_Channel_Motor</references>
+        <references refid="structconfig_values_type_1a5e92833efd357eaf9312f7e4e0e059a4" compoundref="config_values_8h" startline="66">configValuesType::RC_IN_Channel_Sail</references>
+        <references refid="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" compoundref="config_values_8h" startline="65">configValuesType::RC_IN_Channel_Steering</references>
+        <references refid="structconfig_values_type_1ab0928a129fd553bac7719230eb271d48" compoundref="config_values_8h" startline="74">configValuesType::RC_IN_Command_Threhold0</references>
+        <references refid="structconfig_values_type_1aa8605757da28b6c5b150ac3d3daad181" compoundref="config_values_8h" startline="75">configValuesType::RC_IN_Command_Threhold1</references>
+        <references refid="structconfig_values_type_1acb5f8a2de4f96f4cf1661e9834a553a2" compoundref="config_values_8h" startline="76">configValuesType::RC_IN_Command_Threhold2</references>
+        <references refid="structconfig_values_type_1a451ddce737e6b1b1bb977b36723a4441" compoundref="config_values_8h" startline="77">configValuesType::RC_IN_Command_Threhold3</references>
+        <references refid="structconfig_values_type_1ae7387ba3ace4c1aaca2dbc5fe0249631" compoundref="config_values_8h" startline="78">configValuesType::RC_IN_Command_Threhold4</references>
+        <references refid="structconfig_values_type_1a409e8bbf3a308652af99ac03d65aa27f" compoundref="config_values_8h" startline="79">configValuesType::RC_IN_Command_Threhold9</references>
+        <references refid="_power_management_8cpp_1a7958b6ee75faf28a6b0190df20688f52" compoundref="_power_management_8cpp" startline="39" endline="42">RCPowerOn</references>
+        <references refid="structconfig_values_type_1a711dbb3e2dee764a9764411c80d24e48" compoundref="config_values_8h" startline="43">configValuesType::SailableAngleMargin</references>
+        <references refid="structconfig_values_type_1ac88971303bbfeaefab6ff8a9910ebead" compoundref="config_values_8h" startline="97">configValuesType::SatCommsPort</references>
+        <references refid="structconfig_values_type_1a919cf7eb37862a7de7fde4cb52ff06bb" compoundref="config_values_8h" startline="101">configValuesType::SatCommsPortBaudRate</references>
+        <references refid="config_values_8cpp_1ad9e291951fd743c34d1f6d86387d0fab" compoundref="config_values_8cpp" startline="85" endline="91">Save_EEPROM_ConfigValues</references>
+        <references refid="config_values_8cpp_1a521c18f0b9b271f82f78468a81e10a6f" compoundref="config_values_8cpp" startline="113" endline="116">Save_EEPROM_Mission</references>
+        <references refid="config_values_8cpp_1a4420d75b54a462de8f443e1832b8812f" compoundref="config_values_8cpp" startline="132" endline="135">Save_EEPROM_StateValues</references>
+        <references refid="structconfig_values_type_1a4fb27e7a2ba2adeebb68714c767d4c5f" compoundref="config_values_8h" startline="26">configValuesType::SaveStateValues</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da54aee3316bf8e04b8dd75c0af66360cb" compoundref="_telemetry_messages_8h" startline="14">SCG</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06daf7c27688ecfb98d475fc75dba82abb82" compoundref="_telemetry_messages_8h" startline="14">SCS</references>
+        <references refid="_s_d_card_log_file_8cpp_1a011f521e8ce1a08897e5d0f261a75476" compoundref="_s_d_card_log_file_8cpp" startline="709" endline="718">SD_Logging_Event_ParameterChange</references>
+        <references refid="structconfig_values_type_1af730e3fa0e2cea723fc44c27048354ca" compoundref="config_values_8h" startline="24">configValuesType::SDCardLogDelimiter</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="_c_l_i_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <references refid="structconfig_values_type_1a0491cf60a1fc8db74596859134302b13" compoundref="config_values_8h" startline="72">configValuesType::Servo_Channel_Motor</references>
+        <references refid="structconfig_values_type_1aba71822830cd657b53d27582ed06e465" compoundref="config_values_8h" startline="71">configValuesType::Servo_Channel_Sail</references>
+        <references refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" compoundref="config_values_8h" startline="69">configValuesType::Servo_Channel_Steering</references>
+        <references refid="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" compoundref="config_values_8h" startline="70">configValuesType::Servo_Channel_Steering_Stbd</references>
+        <references refid="_mission_8cpp_1aea390b1f12c362475f2981f4f387c926" compoundref="_mission_8cpp" startline="245" endline="265">set_next_WP_for_display</references>
+        <references refid="struct_state_values_struct_1a8d826e260caac773447f95aa49603300" compoundref="_command_state___processor_8h" startline="35">StateValuesStruct::StartingMission</references>
+        <references refid="struct_mission_command_1a0e191ee386b81492da3ba46977efeedf" compoundref="_mission_8h" startline="30">MissionCommand::SteerAWA</references>
+        <references refid="struct_state_values_struct_1a4100b0f396b9eecc008b3502739b0294" compoundref="_command_state___processor_8h" startline="41">StateValuesStruct::SteerCompassBearing</references>
+        <references refid="_steering_8cpp_1af8cc948c7da6a5e0801644dc6a4adc62" compoundref="_steering_8cpp" startline="130" endline="140">SteeringPID_Init</references>
+        <references refid="struct_state_values_struct_1a3bbd17d0951dd7f3991e10ad8c9c06cb" compoundref="_command_state___processor_8h" startline="40">StateValuesStruct::SteerWindAngle</references>
+        <references refid="structconfig_values_type_1ac1943add4d21dc30723e9d90784b5ae6" compoundref="config_values_8h" startline="41">configValuesType::TargetHeadingFilterConstant</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <references refid="_power_management_8cpp_1a280d380741e516360969fe36cca84f6b" compoundref="_power_management_8cpp" startline="34" endline="37">TelemetryPowerOn</references>
+        <references refid="structconfig_values_type_1aeb3e43a3cab71ad7573c59c78f3cb0c0" compoundref="config_values_8h" startline="28">configValuesType::timezone_offset</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06daf534fc1be5f33246646f044b54276165" compoundref="_telemetry_messages_8h" startline="13">TMG</references>
+        <references refid="struct_mission_command_1a5400ca1048df713e7410dc6dea6d8f81" compoundref="_mission_8h" startline="31">MissionCommand::TrimTabAngle</references>
+        <references refid="structconfig_values_type_1a5de1574374a7457242a06a189aec690f" compoundref="config_values_8h" startline="121">configValuesType::TrimTabDefaultAngle</references>
+        <references refid="structconfig_values_type_1aa57d2d289c80384c0c56c5b95b731807" compoundref="config_values_8h" startline="119">configValuesType::TrimTabOffset</references>
+        <references refid="structconfig_values_type_1ad0e88567b91c76388a29d2568d6d0e5e" compoundref="config_values_8h" startline="118">configValuesType::TrimTabScale</references>
+        <references refid="structconfig_values_type_1a6502125ce871378cea999e4f23ce562d" compoundref="config_values_8h" startline="39">configValuesType::TWD_Offset</references>
+        <references refid="structconfig_values_type_1a6d546066fa1eb099f8fff364b11c82ea" compoundref="config_values_8h" startline="93">configValuesType::UseMotor</references>
+        <references refid="_c_l_i_8cpp_1a546169abc0a62fd2c162220444214ace">UseSimulatedGPS</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06dab02e8398372770d34ca3f67581a1bdfa" compoundref="_telemetry_messages_8h" startline="13">VER</references>
+        <references refid="struct_mission_command_1ac293e5ddea78b48d1d26c97a4530e73f" compoundref="_mission_8h" startline="26">MissionCommand::waypoint</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da46b371911e85193d581cacec7bd0f88e" compoundref="_telemetry_messages_8h" startline="14">WC0</references>
+        <references refid="_telemetry_messages_8h_1a0face625b07b385c5acb4b69e60aa06da93a6e6e6ec3a26e48a76085fa4c69e78" compoundref="_telemetry_messages_8h" startline="14">WC1</references>
+        <references refid="structconfig_values_type_1a9483574d7305906b58eecb6c263480ab" compoundref="config_values_8h" startline="46">configValuesType::WindAngleCalibrationOffset</references>
+        <references refid="structconfig_values_type_1af1f613cbf51575ce5c01d197665778c9" compoundref="config_values_8h" startline="34">configValuesType::WPCourseHoldRadius</references>
+      </memberdef>
+      <memberdef kind="function" id="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListParameter</definition>
+        <argsstring>(int CommandPort, int ParameterIndex)</argsstring>
+        <name>ListParameter</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ParameterIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h" line="117" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp" bodystart="1240" bodyend="1592"/>
+        <references refid="structconfig_values_type_1a59efead0f04f26233f9b1dfb3ec52945" compoundref="config_values_8h" startline="96">configValuesType::BluetoothPort</references>
+        <references refid="structconfig_values_type_1a7523308a51da9a1de8e194446e3e68be" compoundref="config_values_8h" startline="100">configValuesType::BTPortBaudRate</references>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="structconfig_values_type_1a61d8859b3447d6566d13492f81a7f7a6" compoundref="config_values_8h" startline="95">configValuesType::CommandPort</references>
+        <references refid="structconfig_values_type_1a66b02dad9a0c8a9abdb413fd7b02a685" compoundref="config_values_8h" startline="99">configValuesType::CommandPortBaudRate</references>
+        <references refid="_telemetry_logging_8cpp_1a423068d07ce6b701c76aa5a642178ca5" compoundref="_telemetry_logging_8cpp" startline="382" endline="434">CommandStateToString</references>
+        <references refid="structconfig_values_type_1a0d81540f66f65f79aaef899207f903b5" compoundref="config_values_8h" startline="49">configValuesType::CompassOffsetAngle</references>
+        <references refid="structconfig_values_type_1a39745cbb9ba7b52a76eccb955af9b526" compoundref="config_values_8h" startline="20">configValuesType::DisplayScreenView</references>
+        <references refid="structconfig_values_type_1a15c6d747fdb17846a1fe5038054d5dc4" compoundref="config_values_8h" startline="92">configValuesType::DualRudder</references>
+        <references refid="structconfig_values_type_1a3606fd3b8680031f302f53bbef238b35" compoundref="config_values_8h" startline="90">configValuesType::FailsafeCommandState</references>
+        <references refid="structconfig_values_type_1a1176e7ee5accf3fd2610f2bdd2296f9c" compoundref="config_values_8h" startline="109">configValuesType::LoiterRadius</references>
+        <references refid="structconfig_values_type_1aa520d523476f17a3d4ee9db5e92f899a" compoundref="config_values_8h" startline="51">configValuesType::MagnetVariation</references>
+        <references refid="structconfig_values_type_1a754b585ab8ab6b729faa0c4ca85aff36" compoundref="config_values_8h" startline="53">configValuesType::MaxFileSize</references>
+        <references refid="structconfig_values_type_1a03b05b4da3e4f48e56ceb07e88edf55e" compoundref="config_values_8h" startline="35">configValuesType::MaximumTimePastFavouredTack</references>
+        <references refid="structconfig_values_type_1ab1ad719c56e1e55a6e8510719f66ca0f" compoundref="config_values_8h" startline="33">configValuesType::MinimumAngleDownWind</references>
+        <references refid="structconfig_values_type_1a47f1d65bcc79f66a06a3051f7449e56d" compoundref="config_values_8h" startline="32">configValuesType::MinimumAngleUpWind</references>
+        <references refid="structconfig_values_type_1a38d036588253f42774ae514f55e731b8" compoundref="config_values_8h" startline="37">configValuesType::MinimumWindChangeTime</references>
+        <references refid="structconfig_values_type_1a5c9f8e7fac316e921c900b245d3ab8e5" compoundref="config_values_8h" startline="124">configValuesType::mx_max</references>
+        <references refid="structconfig_values_type_1a0876ce5174fefcd0b39cccee44eca68a" compoundref="config_values_8h" startline="123">configValuesType::mx_min</references>
+        <references refid="structconfig_values_type_1aac3f9de446641e39b318ba8f23ca12ce" compoundref="config_values_8h" startline="126">configValuesType::my_max</references>
+        <references refid="structconfig_values_type_1ab7c1874d390dec419ff4d54ce11b6ebd" compoundref="config_values_8h" startline="125">configValuesType::my_min</references>
+        <references refid="structconfig_values_type_1a2d651e128759bc44774b2c491f5c616c" compoundref="config_values_8h" startline="107">configValuesType::pidCentre</references>
+        <references refid="structconfig_values_type_1a39b748506a31456e831f80c5e9512ffa" compoundref="config_values_8h" startline="106">configValuesType::pidDirection</references>
+        <references refid="structconfig_values_type_1a81d984d8dc9ee72adb587f69ba20ade8" compoundref="config_values_8h" startline="104">configValuesType::pidKd</references>
+        <references refid="structconfig_values_type_1a15d0c80754b0f0875329445af836d4bd" compoundref="config_values_8h" startline="104">configValuesType::pidKi</references>
+        <references refid="structconfig_values_type_1ae63f32de1ec2df95be61eb0cb1e6cb52" compoundref="config_values_8h" startline="104">configValuesType::pidKp</references>
+        <references refid="structconfig_values_type_1a7c4f0f5ed16caec9ab594ec450c6a782" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmax</references>
+        <references refid="structconfig_values_type_1a4fe0e5f27205422db22b65a9621eff97" compoundref="config_values_8h" startline="105">configValuesType::pidOutputmin</references>
+        <references refid="structconfig_values_type_1a6e87d7c2d3bbe04a269b9ea1df95d08e" compoundref="config_values_8h" startline="57">configValuesType::RC_FailSafe_Ch0</references>
+        <references refid="structconfig_values_type_1a3e03ea3e68c69e70790b89bb35c48891" compoundref="config_values_8h" startline="58">configValuesType::RC_FailSafe_Ch1</references>
+        <references refid="structconfig_values_type_1ab67f55a038996a2bc882f35ecf25df78" compoundref="config_values_8h" startline="59">configValuesType::RC_FailSafe_Ch2</references>
+        <references refid="structconfig_values_type_1ac521c18e56efe3dabafaeb2a9b1a2983" compoundref="config_values_8h" startline="60">configValuesType::RC_FailSafe_Ch3</references>
+        <references refid="structconfig_values_type_1afc29b93865777b36fc05b69ee765d883" compoundref="config_values_8h" startline="62">configValuesType::RC_FailSafe_Time</references>
+        <references refid="structconfig_values_type_1a5e0bc8124a329de5516eb134942a58a5" compoundref="config_values_8h" startline="64">configValuesType::RC_IN_Channel_Command</references>
+        <references refid="structconfig_values_type_1aad74f16ddcc19bbba139a21fa0946749" compoundref="config_values_8h" startline="67">configValuesType::RC_IN_Channel_Motor</references>
+        <references refid="structconfig_values_type_1a5e92833efd357eaf9312f7e4e0e059a4" compoundref="config_values_8h" startline="66">configValuesType::RC_IN_Channel_Sail</references>
+        <references refid="structconfig_values_type_1ab2ec669de3229b4b992d63d18b4e6dde" compoundref="config_values_8h" startline="65">configValuesType::RC_IN_Channel_Steering</references>
+        <references refid="structconfig_values_type_1ab0928a129fd553bac7719230eb271d48" compoundref="config_values_8h" startline="74">configValuesType::RC_IN_Command_Threhold0</references>
+        <references refid="structconfig_values_type_1aa8605757da28b6c5b150ac3d3daad181" compoundref="config_values_8h" startline="75">configValuesType::RC_IN_Command_Threhold1</references>
+        <references refid="structconfig_values_type_1acb5f8a2de4f96f4cf1661e9834a553a2" compoundref="config_values_8h" startline="76">configValuesType::RC_IN_Command_Threhold2</references>
+        <references refid="structconfig_values_type_1a451ddce737e6b1b1bb977b36723a4441" compoundref="config_values_8h" startline="77">configValuesType::RC_IN_Command_Threhold3</references>
+        <references refid="structconfig_values_type_1ae7387ba3ace4c1aaca2dbc5fe0249631" compoundref="config_values_8h" startline="78">configValuesType::RC_IN_Command_Threhold4</references>
+        <references refid="structconfig_values_type_1a409e8bbf3a308652af99ac03d65aa27f" compoundref="config_values_8h" startline="79">configValuesType::RC_IN_Command_Threhold9</references>
+        <references refid="structconfig_values_type_1a711dbb3e2dee764a9764411c80d24e48" compoundref="config_values_8h" startline="43">configValuesType::SailableAngleMargin</references>
+        <references refid="structconfig_values_type_1ac88971303bbfeaefab6ff8a9910ebead" compoundref="config_values_8h" startline="97">configValuesType::SatCommsPort</references>
+        <references refid="structconfig_values_type_1a919cf7eb37862a7de7fde4cb52ff06bb" compoundref="config_values_8h" startline="101">configValuesType::SatCommsPortBaudRate</references>
+        <references refid="structconfig_values_type_1a4fb27e7a2ba2adeebb68714c767d4c5f" compoundref="config_values_8h" startline="26">configValuesType::SaveStateValues</references>
+        <references refid="structconfig_values_type_1af730e3fa0e2cea723fc44c27048354ca" compoundref="config_values_8h" startline="24">configValuesType::SDCardLogDelimiter</references>
+        <references refid="structconfig_values_type_1a1be9d52398b2f132c5802946f7cc09a4" compoundref="config_values_8h" startline="22">configValuesType::SDCardLoggingMask</references>
+        <references refid="_c_l_i_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <references refid="structconfig_values_type_1a0491cf60a1fc8db74596859134302b13" compoundref="config_values_8h" startline="72">configValuesType::Servo_Channel_Motor</references>
+        <references refid="structconfig_values_type_1aba71822830cd657b53d27582ed06e465" compoundref="config_values_8h" startline="71">configValuesType::Servo_Channel_Sail</references>
+        <references refid="structconfig_values_type_1a67e8d99b1cb2febf4ce2ac9e1090572b" compoundref="config_values_8h" startline="69">configValuesType::Servo_Channel_Steering</references>
+        <references refid="structconfig_values_type_1a7684afccb531af8df56eafbabb799089" compoundref="config_values_8h" startline="70">configValuesType::Servo_Channel_Steering_Stbd</references>
+        <references refid="structconfig_values_type_1ac1943add4d21dc30723e9d90784b5ae6" compoundref="config_values_8h" startline="41">configValuesType::TargetHeadingFilterConstant</references>
+        <references refid="structconfig_values_type_1abbb7d84d06a8a688a0f9205ce3d2b200" compoundref="config_values_8h" startline="21">configValuesType::TelemetryLoggingMask</references>
+        <references refid="structconfig_values_type_1aeb3e43a3cab71ad7573c59c78f3cb0c0" compoundref="config_values_8h" startline="28">configValuesType::timezone_offset</references>
+        <references refid="structconfig_values_type_1a5de1574374a7457242a06a189aec690f" compoundref="config_values_8h" startline="121">configValuesType::TrimTabDefaultAngle</references>
+        <references refid="structconfig_values_type_1aa57d2d289c80384c0c56c5b95b731807" compoundref="config_values_8h" startline="119">configValuesType::TrimTabOffset</references>
+        <references refid="structconfig_values_type_1ad0e88567b91c76388a29d2568d6d0e5e" compoundref="config_values_8h" startline="118">configValuesType::TrimTabScale</references>
+        <references refid="structconfig_values_type_1a6502125ce871378cea999e4f23ce562d" compoundref="config_values_8h" startline="39">configValuesType::TWD_Offset</references>
+        <references refid="structconfig_values_type_1a6d546066fa1eb099f8fff364b11c82ea" compoundref="config_values_8h" startline="93">configValuesType::UseMotor</references>
+        <references refid="structconfig_values_type_1a9483574d7305906b58eecb6c263480ab" compoundref="config_values_8h" startline="46">configValuesType::WindAngleCalibrationOffset</references>
+        <references refid="structconfig_values_type_1af1f613cbf51575ce5c01d197665778c9" compoundref="config_values_8h" startline="34">configValuesType::WPCourseHoldRadius</references>
+        <referencedby refid="_c_l_i_8h_1a0f12c566040e53c27b128289bb017c70" compoundref="_c_l_i_8cpp" startline="103" endline="1238">CLI_Processor</referencedby>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_c_l_i_8h_1a3d8f10d02db8088a9431e3da37633d5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowCommandState</definition>
+        <argsstring>(int CommandPort, VesselCommandStateType cs)</argsstring>
+        <name>ShowCommandState</name>
+        <param>
+          <type>int</type>
+          <declname>CommandPort</declname>
+        </param>
+        <param>
+          <type><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref></type>
+          <declname>cs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h" line="118" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.cpp" bodystart="1594" bodyend="1644"/>
+        <references refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006">CommandPort</references>
+        <references refid="_c_l_i_8cpp_1aae3eed66759a369bc96c71a1c39733af">Serials</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a788434e058e81627c8b23e2785c5a146" compoundref="_command_state___processor_8h" startline="19">vcsFollowMission</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a4e3577b9131bff5af128607fd8ba0117" compoundref="_command_state___processor_8h" startline="17">vcsFullManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849adabd724d3ef0f9779c154b7217ca77ed" compoundref="_command_state___processor_8h" startline="16">vcsIdle</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a24b054787811ac78038bbfb8218aa510" compoundref="_command_state___processor_8h" startline="25">vcsLoiter</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849ab9f34ea97a85ffeb3c6478caab358972" compoundref="_command_state___processor_8h" startline="18">vcsPartialManual</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849acd42ee135e713ad2bd3ec7ca06fa1ce5" compoundref="_command_state___processor_8h" startline="24">vcsResetMissionIndex</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aed81b318c267cda354efbc6a79fa0f1d" compoundref="_command_state___processor_8h" startline="22">vcsReturnToHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849a951462981e5580f78d5a7f1e6d4a015c" compoundref="_command_state___processor_8h" startline="23">vcsSetHome</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aabc769c72c93e1080f1943387c22cb00" compoundref="_command_state___processor_8h" startline="20">vcsSteerMagneticCourse</references>
+        <references refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849aedd9283fbe13f9b9f1c62d7a1b699db9" compoundref="_command_state___processor_8h" startline="21">vcsSteerWindCourse</references>
+        <referencedby refid="_telemetry_messages_8h_1ab8db9888c822003f042441e20ce1eb70" compoundref="_telemetry_messages_8cpp" startline="37" endline="325">SendMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>CLI.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Command<sp/>Processor<sp/>-<sp/>for<sp/>Voyager</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Interpret<sp/>commands<sp/>received<sp/>through<sp/>the<sp/>serial<sp/>port</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>V1.0<sp/>22/12/2015</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>something<sp/>like<sp/>this<sp/>in<sp/>setup():<sp/><sp/>Serial.begin(9600);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_CLI_h</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_CLI_h</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/>==================================</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/><sp/>Serial<sp/>Commands</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/>==================================</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/>ech:<sp/>Echo<sp/>the<sp/>command<sp/>and<sp/>parameters</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ech,param1,param2,param3,param4,param5,param6</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/>mcs:<sp/>Mission<sp/>Command<sp/>Set</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/><sp/>scs:<sp/>Set<sp/>Command<sp/>State</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/>scg:<sp/>Get<sp/>Command<sp/>State</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/>mce:<sp/>Mission<sp/>Command<sp/>execute<sp/>now</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/><sp/>mis:<sp/>Mission<sp/>Command<sp/>Index<sp/>Set</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/>mig:<sp/>Mission<sp/>Command<sp/>Index<sp/>Get</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/>mcl:<sp/>Mission<sp/>Command<sp/>List</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/>mcp:<sp/>Mission<sp/>Command<sp/>List<sp/>for<sp/>plotting</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/>mcc:<sp/><sp/>Mission<sp/>Command<sp/>List<sp/>-<sp/>Clear<sp/>All</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/>lcg:<sp/>Get<sp/>Current<sp/>Location</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/>swc:<sp/>Steer<sp/>Course<sp/>Relative<sp/>to<sp/>Wind</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/>stc<sp/>:<sp/>Steer<sp/>True<sp/>Course</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/>idl:<sp/>Set<sp/>the<sp/>vessel<sp/>to<sp/>an<sp/>idle<sp/>state</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/>man:<sp/>Set<sp/>control<sp/>to<sp/>manual,<sp/>via<sp/>RC</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/>hls,<sp/>Set<sp/>Home<sp/>Location,<sp/>relative<sp/>to<sp/>current<sp/>postion</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hls,range<sp/>metres,<sp/>bearing<sp/>degrees</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/>hlg,<sp/>Get<sp/>Home<sp/>Location</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hlg</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>hlc,<sp/>Clear<sp/>the<sp/>Home<sp/>Location</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hlc</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/>ver,<sp/>Get<sp/>Software<sp/>Version</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ver</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/>tmg,<sp/>Get<sp/>Current<sp/>Time</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmg</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/>tms,<sp/>Set<sp/>Current<sp/>Time</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tms,yy,mm,dd,hh,mm,ss<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/>log,<sp/>Set<sp/>Logging<sp/>Level<sp/>on<sp/>the<sp/>SD<sp/>Card</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log,level</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/>tel,<sp/>Set<sp/>Telemetry<sp/>Reporting<sp/>Level.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tel,level<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/>sav,<sp/>Save<sp/>Config/mission/state<sp/>to<sp/>EEPROM</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sav,c/m/s</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/>lcs:<sp/>Set<sp/>Current<sp/>Location.<sp/>override<sp/>GPS<sp/>and<sp/>simulate<sp/>location</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lcs,lat<sp/>deg,lon<sp/>deg</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/>wc1:<sp/>Wingsail<sp/>Calibration<sp/>On</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/>wc0:<sp/>Wingsail<sp/>Calibration<sp/>Off</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/>ccs:<sp/>Compass<sp/>Calibration<sp/>Save</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"></highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/>//cal,<sp/>Calibrate<sp/>Magnetic<sp/>Compass<sp/>mode<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/>cal,y/n</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/>//ccg,<sp/>Get<sp/>Compass<sp/>Calibration<sp/>Values</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/>//ccs,<sp/>Set<sp/>Compass<sp/>Calibration<sp/>Values</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/>ccs,<sp/>6<sp/>paramters</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/>//gcg,<sp/>Get<sp/>Gyro<sp/>Calibration<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="comment"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/>//gcs,<sp/>Get<sp/>Gyro<sp/>Calibration</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/>gcs,<sp/>1<sp/>param</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/>prg,<sp/>Parameter<sp/>Get</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prg,<sp/>parameter<sp/>number</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/>prl,<sp/>Parameter<sp/>List<sp/>All</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>no<sp/>paramters</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/>prs,<sp/>Parameter<sp/>Set<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prs,<sp/>parameter<sp/>number,<sp/>value</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/>dcs,<sp/><sp/>Parameter<sp/>Set</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"></highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/>dcg,<sp/><sp/>Parameter<sp/>Get</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"></highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/>dsp,<sp/>Display<sp/>Message<sp/>on<sp/>the<sp/>LCD/OLED</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dsp,line1,line2</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"></highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/>vmg,<sp/>Get<sp/>Voltage<sp/>Measurements</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"></highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/>LoRa<sp/>commands</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/>LNA<sp/>-<sp/>Approach:<sp/>CTE,<sp/>DTW,<sp/>BTW,<sp/>CDA,<sp/>LAT,<sp/>LON,<sp/>SOG,<sp/>COG,<sp/>HDG</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/>LAT<sp/>-<sp/>Attitude:<sp/>HDG,<sp/>Pitch,<sp/>Roll,<sp/>Roll_avg</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/><sp/>LPO<sp/>-<sp/>Power:<sp/><sp/><sp/><sp/>Voyager<sp/>Power<sp/>,Wingsail<sp/>Power</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/>LWP<sp/>-<sp/>Waypoints:<sp/><sp/>Prev<sp/>WP,<sp/>Next<sp/>WP</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/>LMI<sp/>-<sp/>current<sp/>Mission<sp/>Step,Max<sp/>CTE,<sp/>MI,<sp/>MS</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/>LWI<sp/>-<sp/>AWA/TWD,<sp/>AWS/TWS,WA/TTA</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/>LSV<sp/>-<sp/>Rudder<sp/>us,<sp/>Trim<sp/>Tab<sp/>us</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/>LVS<sp/>-<sp/>GetVessel<sp/>State<sp/>-<sp/>Vessel<sp/>State</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"></highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/>not<sp/>done,<sp/>because<sp/>these<sp/>already<sp/>exist<sp/>as<sp/>other<sp/>commands</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/>LMA<sp/>-<sp/>GetMission<sp/>array</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/>LGT<sp/>-<sp/>GetTime</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/>LGH<sp/>-<sp/>Get<sp/>Home<sp/>Location</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"></highlight></codeline>
+<codeline lineno="99"><highlight class="comment"></highlight></codeline>
+<codeline lineno="100"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ARDUINO)<sp/>&amp;&amp;<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight></codeline>
+<codeline lineno="104"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="106"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="108"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_a_p___math_8h" kindref="compound">AP_Math.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_command_state___processor_8h" kindref="compound">CommandState_Processor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_c_l_i_8h_1a7948af91650ebe6b5b2a12644cda1723" kindref="member">CLI_Process_Message</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_c_l_i_8h_1a2ec7404b9b0963a466f08b46849f4094" kindref="member">CLI_Processor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/>String<sp/>Command);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_c_l_i_8h_1a2ec7404b9b0963a466f08b46849f4094" kindref="member">CLI_Processor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_c_l_i_8h_1a54f9758437217bcf41254eb351b2b574" kindref="member">ListParameter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ParameterIndex);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_c_l_i_8h_1a3d8f10d02db8088a9431e3da37633d5d" kindref="member">ShowCommandState</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_bluetooth_connection_8cpp_1aadcc1cb4a3163b28898cf7865b944006" kindref="member">CommandPort</ref>,<sp/><ref refid="_command_state___processor_8h_1ad6c3f1694dc706db045d7e47aea8c849" kindref="member">VesselCommandStateType</ref><sp/>cs);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="122"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/CLI.h"/>
+  </compounddef>
+</doxygen>

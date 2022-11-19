@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_spark_fun___i2_c___g_p_s___arduino___library_8h" kind="file">
+    <compoundname>SparkFun_I2C_GPS_Arduino_Library.h</compoundname>
+    <includes local="yes">Arduino.h</includes>
+    <includes local="no">Wire.h</includes>
+    <includedby refid="_g_p_s_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp</includedby>
+    <includedby refid="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" local="yes">D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp</includedby>
+    <incdepgraph>
+      <node id="728">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h</label>
+        <link refid="SparkFun_I2C_GPS_Arduino_Library.h"/>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="730" relation="include">
+        </childnode>
+      </node>
+      <node id="730">
+        <label>Wire.h</label>
+      </node>
+      <node id="729">
+        <label>Arduino.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="731">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h</label>
+        <link refid="SparkFun_I2C_GPS_Arduino_Library.h"/>
+        <childnode refid="732" relation="include">
+        </childnode>
+        <childnode refid="733" relation="include">
+        </childnode>
+      </node>
+      <node id="732">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/GPS.cpp</label>
+        <link refid="_g_p_s_8cpp"/>
+      </node>
+      <node id="733">
+        <label>D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.cpp</label>
+        <link refid="_spark_fun___i2_c___g_p_s___arduino___library_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_i2_c_g_p_s" prot="public">I2CGPS</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a07a910d0d82e96a2ca1c57baa45c507a" prot="public" static="no">
+        <name>MT333x_ADDR</name>
+        <initializer>0x10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="38" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="32" endline="52">I2CGPS::begin</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">I2CGPS::check</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a66c67976e692beab03206c531f8707ee" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="160" endline="195">I2CGPS::sendMTKpacket</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a879456c3b8e2853f7044d764e9c180d4" prot="public" static="no">
+        <name>MAX_PACKET_SIZE</name>
+        <initializer>255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="40" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="110" endline="123">I2CGPS::available</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="59" endline="107">I2CGPS::check</referencedby>
+        <referencedby refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" compoundref="_spark_fun___i2_c___g_p_s___arduino___library_8cpp" startline="127" endline="137">I2CGPS::read</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a5ca8c5fbb2caa99ab0b7007ce2c11633" prot="public" static="no">
+        <name>I2C_SPEED_STANDARD</name>
+        <initializer>100000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="44" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_spark_fun___i2_c___g_p_s___arduino___library_8h_1aef9d097ed2b58676498a33f3cf76f38d" prot="public" static="no">
+        <name>I2C_SPEED_FAST</name>
+        <initializer>400000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" line="45" column="9" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>This<sp/>is<sp/>a<sp/>library<sp/>written<sp/>for<sp/>the<sp/>MediaTek<sp/>MT3333<sp/>based<sp/>GPS<sp/>module<sp/>with<sp/>I2C<sp/>firmware</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/>specially<sp/>loaded.<sp/>SparkFun<sp/>sells<sp/>these<sp/>at<sp/>its<sp/>website:<sp/>www.sparkfun.com</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>Written<sp/>by<sp/>Nathan<sp/>Seidle<sp/>@<sp/>SparkFun<sp/>Electronics,<sp/>April<sp/>25th,<sp/>2017</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>This<sp/>GPS<sp/>module<sp/>is<sp/>special<sp/>because<sp/>it<sp/>can<sp/>use<sp/>an<sp/>I2C<sp/>interface<sp/>to<sp/>communicate.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>This<sp/>library<sp/>handles<sp/>the<sp/>pulling<sp/>in<sp/>of<sp/>data<sp/>over<sp/>I2C.<sp/>We<sp/>recommend<sp/>a<sp/>parsing<sp/>engine</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>such<sp/>as<sp/>TinyGPS.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>https://github.com/sparkfun/SparkFun_I2C_GPS_Arduino_Library</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>Do<sp/>you<sp/>like<sp/>this<sp/>library?<sp/>Help<sp/>support<sp/>SparkFun.<sp/>Buy<sp/>a<sp/>board!</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>Development<sp/>environment<sp/>specifics:</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>Arduino<sp/>IDE<sp/>1.8.1</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/>along<sp/>with<sp/>this<sp/>program.<sp/><sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(ARDUINO<sp/>&gt;=<sp/>100)</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Wire.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a07a910d0d82e96a2ca1c57baa45c507a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MT333x_ADDR<sp/>0x10<sp/>//7-bit<sp/>unshifted<sp/>default<sp/>I2C<sp/>Address</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a879456c3b8e2853f7044d764e9c180d4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_PACKET_SIZE<sp/>255</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"></highlight><highlight class="comment">//If<sp/>packet<sp/>size<sp/>is<sp/>ever<sp/>more<sp/>than<sp/>255<sp/>the<sp/>head<sp/>and<sp/>tail<sp/>variables<sp/>will<sp/>need<sp/>to<sp/>be</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//changed<sp/>to<sp/>something<sp/>other<sp/>than<sp/>uint8_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a5ca8c5fbb2caa99ab0b7007ce2c11633" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>I2C_SPEED_STANDARD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>100000</highlight></codeline>
+<codeline lineno="45" refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1aef9d097ed2b58676498a33f3cf76f38d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>I2C_SPEED_FAST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>400000</highlight></codeline>
+<codeline lineno="46"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_i2_c_g_p_s" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i2_c_g_p_s" kindref="compound">I2CGPS</ref><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//By<sp/>default<sp/>use<sp/>Wire,<sp/>standard<sp/>I2C<sp/>speed,<sp/>and<sp/>the<sp/>defaul<sp/>AK9750<sp/>address</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="class_i2_c_g_p_s_1a31cb1f44518ba8b92a7419a3425e1b8a" kindref="member">begin</ref>(TwoWire<sp/>&amp;wirePort<sp/>=<sp/>Wire,<sp/>uint32_t<sp/>i2cSpeed<sp/>=<sp/><ref refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a5ca8c5fbb2caa99ab0b7007ce2c11633" kindref="member">I2C_SPEED_STANDARD</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_i2_c_g_p_s_1a5b025b8d6a38f965674c3abdb752a483" kindref="member">check</ref>();<sp/></highlight><highlight class="comment">//Checks<sp/>module<sp/>for<sp/>new<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_i2_c_g_p_s_1a93bc3fed62a4ef85d4e93870ca8c16dd" kindref="member">available</ref>();<sp/></highlight><highlight class="comment">//Returns<sp/>available<sp/>number<sp/>of<sp/>bytes.<sp/>Will<sp/>call<sp/>check()<sp/>if<sp/>zero<sp/>is<sp/>available.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_i2_c_g_p_s_1af46f5ff30ef0d84ecdeeb5ea75d210e3" kindref="member">read</ref>();<sp/></highlight><highlight class="comment">//Returns<sp/>the<sp/>next<sp/>available<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_i2_c_g_p_s_1a0b1ca0aa65decd6f10169871d64660d9" kindref="member">enableDebugging</ref>(Stream<sp/>&amp;debugPort<sp/>=<sp/>Serial);<sp/></highlight><highlight class="comment">//Output<sp/>various<sp/>extra<sp/>messages<sp/>to<sp/>help<sp/>with<sp/>debug</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_i2_c_g_p_s_1aa618d037f01abb99282b14db89c19c3c" kindref="member">disableDebugging</ref>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="class_i2_c_g_p_s_1a66c67976e692beab03206c531f8707ee" kindref="member">sendMTKpacket</ref>(String<sp/>command);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_i2_c_g_p_s_1a3873e3afbecaf4f4aac5d1f9b17d3729" kindref="member">createMTKpacket</ref>(uint16_t<sp/>packetType,<sp/>String<sp/>dataField);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_i2_c_g_p_s_1a6998b74a2b5afef87d218472d285d7bd" kindref="member">calcCRCforMTK</ref>(String<sp/>sentence);<sp/></highlight><highlight class="comment">//XORs<sp/>all<sp/>bytes<sp/>between<sp/>$<sp/>and<sp/>*</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="class_i2_c_g_p_s_1a92fc4cd53baf1d26a0e881c5776ea388" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_i2_c_g_p_s_1a92fc4cd53baf1d26a0e881c5776ea388" kindref="member">gpsData</ref>[<ref refid="_spark_fun___i2_c___g_p_s___arduino___library_8h_1a879456c3b8e2853f7044d764e9c180d4" kindref="member">MAX_PACKET_SIZE</ref>];<sp/></highlight><highlight class="comment">//The<sp/>place<sp/>to<sp/>store<sp/>valid<sp/>incoming<sp/>gps<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//uint8_t<sp/>printI2CError(uint8_t<sp/>errorCode);<sp/>//Prints<sp/>endTransmission<sp/>statuses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_i2_c_g_p_s_1a6bf4ae0f13b15ff1c94e22bb07f70352" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TwoWire<sp/>*<ref refid="class_i2_c_g_p_s_1a6bf4ae0f13b15ff1c94e22bb07f70352" kindref="member">_i2cPort</ref>;<sp/></highlight><highlight class="comment">//The<sp/>generic<sp/>connection<sp/>to<sp/>user&apos;s<sp/>chosen<sp/>I2C<sp/>hardware</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="class_i2_c_g_p_s_1a46bc0d299fa0cfb3033f8dd77f7f1d84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_i2_c_g_p_s_1a46bc0d299fa0cfb3033f8dd77f7f1d84" kindref="member">_i2caddr</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="class_i2_c_g_p_s_1ad07ce50d10625ba44f0be32618cfc7a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="class_i2_c_g_p_s_1ad07ce50d10625ba44f0be32618cfc7a5" kindref="member">_printDebug</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//Flag<sp/>to<sp/>print<sp/>the<sp/>serial<sp/>commands<sp/>we<sp/>are<sp/>sending<sp/>to<sp/>the<sp/>Serial<sp/>port<sp/>for<sp/>debug</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="class_i2_c_g_p_s_1a0760ac6cb16aef6220f4122ec44ff95f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Stream<sp/>*<ref refid="class_i2_c_g_p_s_1a0760ac6cb16aef6220f4122ec44ff95f" kindref="member">_debugSerial</ref>;<sp/></highlight><highlight class="comment">//The<sp/>stream<sp/>to<sp/>send<sp/>debug<sp/>messages<sp/>to<sp/>if<sp/>enabled</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="class_i2_c_g_p_s_1a3ac1cde1a568976c925bc5d1e22c40ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_i2_c_g_p_s_1a3ac1cde1a568976c925bc5d1e22c40ac" kindref="member">_head</ref>;<sp/></highlight><highlight class="comment">//Location<sp/>of<sp/>next<sp/>available<sp/>spot<sp/>in<sp/>the<sp/>gpsData<sp/>array.<sp/>Limited<sp/>to<sp/>255.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="class_i2_c_g_p_s_1a393026167c1ca3758ab10335ebe05473" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_i2_c_g_p_s_1a393026167c1ca3758ab10335ebe05473" kindref="member">_tail</ref>;<sp/></highlight><highlight class="comment">//Location<sp/>of<sp/>last<sp/>spot<sp/>read<sp/>from<sp/>gpsData<sp/>array.<sp/>Limited<sp/>to<sp/>255.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/SparkFun_I2C_GPS_Arduino_Library.h"/>
+  </compounddef>
+</doxygen>

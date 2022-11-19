@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_g_f_xglyph" kind="struct" prot="public">
+    <compoundname>GFXglyph</compoundname>
+    <includes refid="gfxfont_8h" local="no">gfxfont.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_f_xglyph_1a24d52036821c10af52a742a1d7fbd9b8" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t GFXglyph::bitmapOffset</definition>
+        <argsstring></argsstring>
+        <name>bitmapOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" line="11" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">Adafruit_GFX::drawChar</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_f_xglyph_1a02bd34fd474af250b230f52cee75a6c1" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t GFXglyph::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">Adafruit_GFX::charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">Adafruit_GFX::drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">Adafruit_GFX::write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_f_xglyph_1a24cff650b78fc295dc46e1bfa9127bb7" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t GFXglyph::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" line="12" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">Adafruit_GFX::charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">Adafruit_GFX::drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">Adafruit_GFX::write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_f_xglyph_1a9b191040252aa9b5362087d65366bbf2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t GFXglyph::xAdvance</definition>
+        <argsstring></argsstring>
+        <name>xAdvance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" line="13" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">Adafruit_GFX::charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">Adafruit_GFX::write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_f_xglyph_1ab030bd9aeb37509ccc94ae3dcec4de98" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t GFXglyph::xOffset</definition>
+        <argsstring></argsstring>
+        <name>xOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" line="14" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">Adafruit_GFX::charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">Adafruit_GFX::drawChar</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1a8773d92cafa93d3f749fb55c535d8f2e" compoundref="_adafruit___g_f_x_8cpp" startline="810" endline="858">Adafruit_GFX::write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_f_xglyph_1a96b2c0dbe314bf053cdc0d5c622e76a7" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t GFXglyph::yOffset</definition>
+        <argsstring></argsstring>
+        <name>yOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" line="14" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_adafruit___g_f_x_1a21c19ed786f8291613d082e81ad4e3c4" compoundref="_adafruit___g_f_x_8cpp" startline="940" endline="996">Adafruit_GFX::charBounds</referencedby>
+        <referencedby refid="class_adafruit___g_f_x_1ab7f5a29b3a3dffe30c6a3f4c1f604a5a" compoundref="_adafruit___g_f_x_8cpp" startline="710" endline="807">Adafruit_GFX::drawChar</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" line="10" column="1" bodyfile="D:/Cloud/OneDrive/Voyager/VoyagerOS/gfxfont.h" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="struct_g_f_xglyph_1a24d52036821c10af52a742a1d7fbd9b8" prot="public" virt="non-virtual"><scope>GFXglyph</scope><name>bitmapOffset</name></member>
+      <member refid="struct_g_f_xglyph_1a24cff650b78fc295dc46e1bfa9127bb7" prot="public" virt="non-virtual"><scope>GFXglyph</scope><name>height</name></member>
+      <member refid="struct_g_f_xglyph_1a02bd34fd474af250b230f52cee75a6c1" prot="public" virt="non-virtual"><scope>GFXglyph</scope><name>width</name></member>
+      <member refid="struct_g_f_xglyph_1a9b191040252aa9b5362087d65366bbf2" prot="public" virt="non-virtual"><scope>GFXglyph</scope><name>xAdvance</name></member>
+      <member refid="struct_g_f_xglyph_1ab030bd9aeb37509ccc94ae3dcec4de98" prot="public" virt="non-virtual"><scope>GFXglyph</scope><name>xOffset</name></member>
+      <member refid="struct_g_f_xglyph_1a96b2c0dbe314bf053cdc0d5c622e76a7" prot="public" virt="non-virtual"><scope>GFXglyph</scope><name>yOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
